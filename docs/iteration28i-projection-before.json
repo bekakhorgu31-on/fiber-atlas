@@ -1,0 +1,100 @@
+{
+  "hashes": {
+    "fiberPathProjection": "b6ab9799be24666d1d5ab4a74f111cfcb0eacc5be19919c239acbf5e1b2a1bfe",
+    "currentFiberLineages": "ce7e357170056ff7fe4845aaea6ca47d8a5b9236dcb0601a2ec9373c017205d9",
+    "fiberJourneySummaries": "598c181c82c520adbe77e8519028d99acd08a359e0533f2ba1ee5f0ddf7a31dd",
+    "fiberUsageProjection": "a36502235359101896c74a242a203ef311329c7e1e94fba9ce679fd4a5b768ef",
+    "nodeFiberTransitions": "5003371693a366cf99455d65d5ca74619603e612122a2528efe6cab40c8303f3",
+    "portTopologyBindings": "8859a5dd1696d0222a7dbc2f7048d169b153339b0934bbdbb97bf4944d61f6fc"
+  },
+  "measures": [
+    {
+      "name": "fiber-atlas:clone",
+      "duration": 1.4265000000000043
+    },
+    {
+      "name": "fiber-atlas:inventory:construction",
+      "duration": 0.7564000000000135
+    },
+    {
+      "name": "fiber-atlas:inventory:07",
+      "duration": 0.4825999999999908
+    },
+    {
+      "name": "fiber-atlas:inventory:08",
+      "duration": 0.17670000000001096
+    },
+    {
+      "name": "fiber-atlas:inventory:09",
+      "duration": 0.7721000000000231
+    },
+    {
+      "name": "fiber-atlas:inventory:10",
+      "duration": 0.6397999999999797
+    },
+    {
+      "name": "fiber-atlas:inventory:12",
+      "duration": 3.231099999999998
+    },
+    {
+      "name": "fiber-atlas:inventory:15",
+      "duration": 1.1783000000000072
+    },
+    {
+      "name": "fiber-atlas:inventory:16",
+      "duration": 1.1123000000000047
+    },
+    {
+      "name": "fiber-atlas:inventory:17",
+      "duration": 5.519100000000009
+    },
+    {
+      "name": "fiber-atlas:inventory:19",
+      "duration": 17.62559999999999
+    },
+    {
+      "name": "fiber-atlas:inventory:20",
+      "duration": 16.722700000000003
+    },
+    {
+      "name": "fiber-atlas:inventory:24",
+      "duration": 5.898499999999956
+    },
+    {
+      "name": "fiber-atlas:inventory:21",
+      "duration": 118.08409999999998
+    },
+    {
+      "name": "fiber-atlas:inventory:22",
+      "duration": 12.787500000000023
+    },
+    {
+      "name": "fiber-atlas:inventory:25",
+      "duration": 11.9923
+    },
+    {
+      "name": "fiber-atlas:inventory:26",
+      "duration": 31.56790000000001
+    },
+    {
+      "name": "fiber-atlas:inventory:27D",
+      "duration": 143.38769999999994
+    },
+    {
+      "name": "fiber-atlas:inventory:28B",
+      "duration": 144.82850000000008
+    },
+    {
+      "name": "fiber-atlas:inventory:28D",
+      "duration": 1719.9845
+    },
+    {
+      "name": "fiber-atlas:inventory:28E",
+      "duration": 2014.0394999999999
+    },
+    {
+      "name": "fiber-atlas:inventory:28F",
+      "duration": 192.8753999999999
+    }
+  ]
+}

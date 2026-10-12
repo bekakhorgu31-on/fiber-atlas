@@ -1,0 +1,138 @@
+{
+    "environment": "guarded local Shida \/ Windows PHP \/ PostgreSQL 55432; no owner writes",
+    "revision": "UPLOAD-6ff5f3085ec49b9ee97a4ba8ab8d55d7",
+    "reads": [
+        {
+            "category": "fiber_port_binding_ambiguous",
+            "case": "SHIDA-REVIEW-2900cb948f6d65c8e3d083f2",
+            "repeat": 0,
+            "contextMs": 39.6757,
+            "contextQueries": 18,
+            "contextSqlMs": 19.469999999999995,
+            "cropMs": 480.7462,
+            "cropQueries": 3,
+            "cropSqlMs": 471.38,
+            "shapes": [
+                92
+            ],
+            "jsonMs": 2.9172,
+            "bytes": 170953
+        },
+        {
+            "category": "fiber_port_binding_ambiguous",
+            "case": "SHIDA-REVIEW-2900cb948f6d65c8e3d083f2",
+            "repeat": 1,
+            "contextMs": 55.636,
+            "contextQueries": 18,
+            "contextSqlMs": 27.83,
+            "cropMs": 376.1825,
+            "cropQueries": 3,
+            "cropSqlMs": 368.31,
+            "shapes": [
+                92
+            ],
+            "jsonMs": 1.9842,
+            "bytes": 170953
+        },
+        {
+            "category": "source_conflict",
+            "case": "SHIDA-REVIEW-bcb71871d7b1dfe16b21b55e",
+            "repeat": 0,
+            "contextMs": 51.2516,
+            "contextQueries": 18,
+            "contextSqlMs": 26.049999999999997,
+            "cropMs": 964.8962,
+            "cropQueries": 7,
+            "cropSqlMs": 911.6600000000001,
+            "shapes": [
+                395,
+                397
+            ],
+            "jsonMs": 16.2472,
+            "bytes": 1442981
+        },
+        {
+            "category": "source_conflict",
+            "case": "SHIDA-REVIEW-bcb71871d7b1dfe16b21b55e",
+            "repeat": 1,
+            "contextMs": 46.9785,
+            "contextQueries": 18,
+            "contextSqlMs": 26.750000000000004,
+            "cropMs": 932.5098,
+            "cropQueries": 7,
+            "cropSqlMs": 864.39,
+            "shapes": [
+                395,
+                397
+            ],
+            "jsonMs": 16.5586,
+            "bytes": 1442981
+        },
+        {
+            "category": "source_port_numbering",
+            "case": "SHIDA-REVIEW-a58db9519943144fd9523437",
+            "repeat": 0,
+            "contextMs": 54.9001,
+            "contextQueries": 18,
+            "contextSqlMs": 30.68,
+            "cropMs": 433.5647,
+            "cropQueries": 4,
+            "cropSqlMs": 423.91,
+            "shapes": [
+                49
+            ],
+            "jsonMs": 1.4725,
+            "bytes": 89624
+        },
+        {
+            "category": "source_port_numbering",
+            "case": "SHIDA-REVIEW-a58db9519943144fd9523437",
+            "repeat": 1,
+            "contextMs": 46.1109,
+            "contextQueries": 18,
+            "contextSqlMs": 23.97,
+            "cropMs": 422.7649,
+            "cropQueries": 4,
+            "cropSqlMs": 411,
+            "shapes": [
+                49
+            ],
+            "jsonMs": 2.4556,
+            "bytes": 89624
+        },
+        {
+            "category": "source_representation_ambiguous",
+            "case": "SHIDA-REVIEW-9c9e72a25177a0d1b032fc3b",
+            "repeat": 0,
+            "contextMs": 59.135,
+            "contextQueries": 18,
+            "contextSqlMs": 31.02,
+            "cropMs": 967.6054,
+            "cropQueries": 5,
+            "cropSqlMs": 921.72,
+            "shapes": [
+                204,
+                311
+            ],
+            "jsonMs": 11.7565,
+            "bytes": 986752
+        },
+        {
+            "category": "source_representation_ambiguous",
+            "case": "SHIDA-REVIEW-9c9e72a25177a0d1b032fc3b",
+            "repeat": 1,
+            "contextMs": 54.2981,
+            "contextQueries": 18,
+            "contextSqlMs": 29.369999999999994,
+            "cropMs": 1038.5737,
+            "cropQueries": 5,
+            "cropSqlMs": 1002.04,
+            "shapes": [
+                204,
+                311
+            ],
+            "jsonMs": 12.7242,
+            "bytes": 986752
+        }
+    ]
+}

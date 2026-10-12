@@ -1,0 +1,837 @@
+{
+  "schemaVersion": 2,
+  "sourceSha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+  "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+  "review": {
+    "reviewer": "iteration-09-route-and-annotation-review",
+    "reviewedAt": "2026-09-25T00:00:00.000Z"
+  },
+  "route": {
+    "id": "ROUTE-TSAGERI-LENTEKHI-CORE",
+    "displayName": "AGG5 · ცაგერი → ლენტეხის მიმართულება",
+    "origin": {
+      "state": "known",
+      "asset": {
+        "kind": "aggregation",
+        "id": "5"
+      },
+      "label": "AGG5 · ცაგერი",
+      "verification": "documentation_reviewed",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "pageId": "4",
+        "part": "visio/pages/page1.xml",
+        "shapeIds": [
+          "12426",
+          "12427",
+          "15769"
+        ],
+        "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+        "note": "Tsageri aggregation 5 is the documented route-side origin."
+      }
+    },
+    "destination": {
+      "state": "unresolved",
+      "label": "ლენტეხის მიმართულება · აგრეგაცია დაუდასტურებელია",
+      "candidateAssetLabel": "AGG6 სათაური / property ID 5",
+      "verification": "conflicting",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "pageId": "4",
+        "part": "visio/pages/page1.xml",
+        "shapeIds": [
+          "36475",
+          "37059",
+          "15991"
+        ],
+        "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+        "note": "The route reaches the Lentekhi aggregation symbol, but its source identifiers conflict."
+      },
+      "warnings": [
+        "Do not create or link an AGG6 inventory record until the heading/property conflict is resolved."
+      ]
+    },
+    "nodes": [
+      {
+        "id": "node-agg5",
+        "sequence": 0,
+        "asset": {
+          "kind": "aggregation",
+          "id": "5"
+        },
+        "label": "AGG5 · ცაგერი",
+        "treatment": "aggregation_termination",
+        "treatmentVerification": "documentation_reviewed",
+        "verification": "documentation_reviewed",
+        "source": {
+          "file": "Tsageri-Lentekhi 2025.vsdx",
+          "page": "ცაგერი-ლენტეხი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "12426",
+            "12427",
+            "15769"
+          ],
+          "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+          "note": "AGG5 is the documented Tsageri-side route origin; SC205 is the next explicit route node."
+        },
+        "warnings": []
+      },
+      {
+        "id": "node-sc205",
+        "sequence": 1,
+        "asset": {
+          "kind": "closure",
+          "id": "205"
+        },
+        "label": "SC205",
+        "treatment": "unknown",
+        "treatmentVerification": "needs_verification",
+        "verification": "documentation_reviewed",
+        "source": {
+          "file": "Tsageri-Lentekhi 2025.vsdx",
+          "page": "ცაგერი-ლენტეხი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "12428"
+          ],
+          "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+          "note": "Closure identity is documented; cable treatment is not established by the source."
+        },
+        "warnings": [
+          "Cable cut, mid-span access, pass-through, and termination treatment remain unresolved."
+        ]
+      },
+      {
+        "id": "node-sc206",
+        "sequence": 2,
+        "asset": {
+          "kind": "closure",
+          "id": "206"
+        },
+        "label": "SC206",
+        "treatment": "unknown",
+        "treatmentVerification": "needs_verification",
+        "verification": "documentation_reviewed",
+        "source": {
+          "file": "Tsageri-Lentekhi 2025.vsdx",
+          "page": "ცაგერი-ლენტეხი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "15597"
+          ],
+          "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+          "note": "Closure identity is documented; cable treatment is not established by the source."
+        },
+        "warnings": [
+          "Cable cut, mid-span access, pass-through, and termination treatment remain unresolved."
+        ]
+      },
+      {
+        "id": "node-sc216",
+        "sequence": 3,
+        "asset": {
+          "kind": "closure",
+          "id": "216"
+        },
+        "label": "SC216",
+        "treatment": "unknown",
+        "treatmentVerification": "needs_verification",
+        "verification": "documentation_reviewed",
+        "source": {
+          "file": "Tsageri-Lentekhi 2025.vsdx",
+          "page": "ცაგერი-ლენტეხი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "33587"
+          ],
+          "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+          "note": "Closure identity is documented; cable treatment is not established by the source."
+        },
+        "warnings": [
+          "Cable cut, mid-span access, pass-through, and termination treatment remain unresolved."
+        ]
+      },
+      {
+        "id": "node-sc217",
+        "sequence": 4,
+        "asset": {
+          "kind": "closure",
+          "id": "217"
+        },
+        "label": "SC217",
+        "treatment": "unknown",
+        "treatmentVerification": "needs_verification",
+        "verification": "documentation_reviewed",
+        "source": {
+          "file": "Tsageri-Lentekhi 2025.vsdx",
+          "page": "ცაგერი-ლენტეხი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "34057"
+          ],
+          "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+          "note": "Closure identity is documented; cable treatment is not established by the source."
+        },
+        "warnings": [
+          "Cable cut, mid-span access, pass-through, and termination treatment remain unresolved."
+        ]
+      },
+      {
+        "id": "node-sc218",
+        "sequence": 5,
+        "asset": {
+          "kind": "closure",
+          "id": "218"
+        },
+        "label": "SC218",
+        "treatment": "unknown",
+        "treatmentVerification": "needs_verification",
+        "verification": "documentation_reviewed",
+        "source": {
+          "file": "Tsageri-Lentekhi 2025.vsdx",
+          "page": "ცაგერი-ლენტეხი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "34259"
+          ],
+          "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+          "note": "Closure identity is documented; cable treatment is not established by the source."
+        },
+        "warnings": [
+          "Cable cut, mid-span access, pass-through, and termination treatment remain unresolved."
+        ]
+      },
+      {
+        "id": "node-sc219",
+        "sequence": 6,
+        "asset": {
+          "kind": "closure",
+          "id": "219"
+        },
+        "label": "SC219",
+        "treatment": "unknown",
+        "treatmentVerification": "needs_verification",
+        "verification": "documentation_reviewed",
+        "source": {
+          "file": "Tsageri-Lentekhi 2025.vsdx",
+          "page": "ცაგერი-ლენტეხი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "35037"
+          ],
+          "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+          "note": "Closure identity is documented; cable treatment is not established by the source."
+        },
+        "warnings": [
+          "Cable cut, mid-span access, pass-through, and termination treatment remain unresolved."
+        ]
+      },
+      {
+        "id": "node-sc220",
+        "sequence": 7,
+        "asset": {
+          "kind": "closure",
+          "id": "220"
+        },
+        "label": "SC220",
+        "treatment": "unknown",
+        "treatmentVerification": "needs_verification",
+        "verification": "documentation_reviewed",
+        "source": {
+          "file": "Tsageri-Lentekhi 2025.vsdx",
+          "page": "ცაგერი-ლენტეხი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "36212"
+          ],
+          "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+          "note": "Closure identity is documented; cable treatment is not established by the source."
+        },
+        "warnings": [
+          "Cable cut, mid-span access, pass-through, and termination treatment remain unresolved."
+        ]
+      },
+      {
+        "id": "node-sc221",
+        "sequence": 8,
+        "asset": {
+          "kind": "closure",
+          "id": "221"
+        },
+        "label": "SC221",
+        "treatment": "unknown",
+        "treatmentVerification": "needs_verification",
+        "verification": "documentation_reviewed",
+        "source": {
+          "file": "Tsageri-Lentekhi 2025.vsdx",
+          "page": "ცაგერი-ლენტეხი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "43124"
+          ],
+          "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+          "note": "Closure identity is documented; cable treatment is not established by the source."
+        },
+        "warnings": [
+          "Cable cut, mid-span access, pass-through, and termination treatment remain unresolved."
+        ]
+      },
+      {
+        "id": "node-sc222",
+        "sequence": 9,
+        "asset": {
+          "kind": "closure",
+          "id": "222"
+        },
+        "label": "SC222",
+        "treatment": "unknown",
+        "treatmentVerification": "needs_verification",
+        "verification": "documentation_reviewed",
+        "source": {
+          "file": "Tsageri-Lentekhi 2025.vsdx",
+          "page": "ცაგერი-ლენტეხი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "42417"
+          ],
+          "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+          "note": "Closure identity is documented; cable treatment is not established by the source."
+        },
+        "warnings": [
+          "Cable cut, mid-span access, pass-through, and termination treatment remain unresolved."
+        ]
+      },
+      {
+        "id": "node-sc223",
+        "sequence": 10,
+        "asset": {
+          "kind": "closure",
+          "id": "223"
+        },
+        "label": "SC223",
+        "treatment": "unknown",
+        "treatmentVerification": "needs_verification",
+        "verification": "documentation_reviewed",
+        "source": {
+          "file": "Tsageri-Lentekhi 2025.vsdx",
+          "page": "ცაგერი-ლენტეხი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "36309"
+          ],
+          "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+          "note": "Closure identity is documented; cable treatment is not established by the source."
+        },
+        "warnings": [
+          "Cable cut, mid-span access, pass-through, and termination treatment remain unresolved."
+        ]
+      },
+      {
+        "id": "node-sc224",
+        "sequence": 11,
+        "asset": {
+          "kind": "closure",
+          "id": "224"
+        },
+        "label": "SC224",
+        "treatment": "unknown",
+        "treatmentVerification": "needs_verification",
+        "verification": "documentation_reviewed",
+        "source": {
+          "file": "Tsageri-Lentekhi 2025.vsdx",
+          "page": "ცაგერი-ლენტეხი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "36985"
+          ],
+          "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+          "note": "Closure identity is documented; cable treatment is not established by the source."
+        },
+        "warnings": [
+          "Cable cut, mid-span access, pass-through, and termination treatment remain unresolved."
+        ]
+      },
+      {
+        "id": "node-lentekhi-boundary",
+        "sequence": 12,
+        "asset": null,
+        "label": "ლენტეხის მიმართულება · დაუდასტურებელი აგრეგაცია",
+        "treatment": "unknown",
+        "treatmentVerification": "needs_verification",
+        "verification": "needs_verification",
+        "source": {
+          "file": "Tsageri-Lentekhi 2025.vsdx",
+          "page": "ცაგერი-ლენტეხი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "15991",
+            "36475",
+            "37059"
+          ],
+          "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+          "note": "C184 continues from SC224 toward the Lentekhi aggregation symbol, whose heading and property IDs conflict."
+        },
+        "warnings": [
+          "The heading says aggregation 6 while a property says 5; no inventory asset is created for this endpoint."
+        ]
+      }
+    ],
+    "legs": [
+      {
+        "id": "route-leg-c148",
+        "sequence": 0,
+        "fromNodeId": "node-agg5",
+        "toNodeId": "node-sc205",
+        "segmentId": "CAB-000148",
+        "relationship": "segment",
+        "sourceLabel": "148-5-205-192",
+        "verification": "documentation_reviewed",
+        "source": {
+          "file": "Tsageri-Lentekhi 2025.vsdx",
+          "page": "ცაგერი-ლენტეხი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "15769"
+          ],
+          "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+          "note": "Legacy label 148-5-205-192 establishes this node-to-node Cable Segment."
+        },
+        "warnings": [
+          "Route membership does not establish a shared PhysicalCable or the treatment inside either closure."
+        ]
+      },
+      {
+        "id": "route-leg-c150",
+        "sequence": 1,
+        "fromNodeId": "node-sc205",
+        "toNodeId": "node-sc206",
+        "segmentId": "CAB-000150",
+        "relationship": "segment",
+        "sourceLabel": "150-205-206-192",
+        "verification": "documentation_reviewed",
+        "source": {
+          "file": "Tsageri-Lentekhi 2025.vsdx",
+          "page": "ცაგერი-ლენტეხი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "15770"
+          ],
+          "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+          "note": "Legacy label 150-205-206-192 establishes this node-to-node Cable Segment."
+        },
+        "warnings": [
+          "Route membership does not establish a shared PhysicalCable or the treatment inside either closure."
+        ]
+      },
+      {
+        "id": "route-leg-c169",
+        "sequence": 2,
+        "fromNodeId": "node-sc206",
+        "toNodeId": "node-sc216",
+        "segmentId": "CAB-000169",
+        "relationship": "segment",
+        "sourceLabel": "169-206-216-48",
+        "verification": "documentation_reviewed",
+        "source": {
+          "file": "Tsageri-Lentekhi 2025.vsdx",
+          "page": "ცაგერი-ლენტეხი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "34056"
+          ],
+          "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+          "note": "Legacy label 169-206-216-48 establishes this node-to-node Cable Segment."
+        },
+        "warnings": [
+          "Route membership does not establish a shared PhysicalCable or the treatment inside either closure."
+        ]
+      },
+      {
+        "id": "route-leg-c171",
+        "sequence": 3,
+        "fromNodeId": "node-sc216",
+        "toNodeId": "node-sc217",
+        "segmentId": "CAB-000171",
+        "relationship": "segment",
+        "sourceLabel": "171-216-217-48",
+        "verification": "documentation_reviewed",
+        "source": {
+          "file": "Tsageri-Lentekhi 2025.vsdx",
+          "page": "ცაგერი-ლენტეხი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "15982"
+          ],
+          "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+          "note": "Legacy label 171-216-217-48 establishes this node-to-node Cable Segment."
+        },
+        "warnings": [
+          "Route membership does not establish a shared PhysicalCable or the treatment inside either closure."
+        ]
+      },
+      {
+        "id": "route-leg-c172",
+        "sequence": 4,
+        "fromNodeId": "node-sc217",
+        "toNodeId": "node-sc218",
+        "segmentId": "CAB-000172",
+        "relationship": "segment",
+        "sourceLabel": "172-217-218-48",
+        "verification": "documentation_reviewed",
+        "source": {
+          "file": "Tsageri-Lentekhi 2025.vsdx",
+          "page": "ცაგერი-ლენტეხი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "15983"
+          ],
+          "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+          "note": "Legacy label 172-217-218-48 establishes this node-to-node Cable Segment."
+        },
+        "warnings": [
+          "Route membership does not establish a shared PhysicalCable or the treatment inside either closure."
+        ]
+      },
+      {
+        "id": "route-leg-c174",
+        "sequence": 5,
+        "fromNodeId": "node-sc218",
+        "toNodeId": "node-sc219",
+        "segmentId": "CAB-000174",
+        "relationship": "segment",
+        "sourceLabel": "174-218-219-48",
+        "verification": "documentation_reviewed",
+        "source": {
+          "file": "Tsageri-Lentekhi 2025.vsdx",
+          "page": "ცაგერი-ლენტეხი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "15985"
+          ],
+          "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+          "note": "Legacy label 174-218-219-48 establishes this node-to-node Cable Segment."
+        },
+        "warnings": [
+          "Route membership does not establish a shared PhysicalCable or the treatment inside either closure."
+        ]
+      },
+      {
+        "id": "route-leg-c176",
+        "sequence": 6,
+        "fromNodeId": "node-sc219",
+        "toNodeId": "node-sc220",
+        "segmentId": "CAB-000176",
+        "relationship": "segment",
+        "sourceLabel": "176-219-220-48",
+        "verification": "documentation_reviewed",
+        "source": {
+          "file": "Tsageri-Lentekhi 2025.vsdx",
+          "page": "ცაგერი-ლენტეხი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "15988"
+          ],
+          "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+          "note": "Legacy label 176-219-220-48 establishes this node-to-node Cable Segment."
+        },
+        "warnings": [
+          "Route membership does not establish a shared PhysicalCable or the treatment inside either closure."
+        ]
+      },
+      {
+        "id": "route-leg-c177",
+        "sequence": 7,
+        "fromNodeId": "node-sc220",
+        "toNodeId": "node-sc221",
+        "segmentId": "CAB-000177",
+        "relationship": "segment",
+        "sourceLabel": "177-220-221-48",
+        "verification": "documentation_reviewed",
+        "source": {
+          "file": "Tsageri-Lentekhi 2025.vsdx",
+          "page": "ცაგერი-ლენტეხი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "15989"
+          ],
+          "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+          "note": "Legacy label 177-220-221-48 establishes this node-to-node Cable Segment."
+        },
+        "warnings": [
+          "Route membership does not establish a shared PhysicalCable or the treatment inside either closure."
+        ]
+      },
+      {
+        "id": "route-leg-c178",
+        "sequence": 8,
+        "fromNodeId": "node-sc221",
+        "toNodeId": "node-sc222",
+        "segmentId": "CAB-000178",
+        "relationship": "segment",
+        "sourceLabel": "178-221-222-48",
+        "verification": "documentation_reviewed",
+        "source": {
+          "file": "Tsageri-Lentekhi 2025.vsdx",
+          "page": "ცაგერი-ლენტეხი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "43428"
+          ],
+          "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+          "note": "Legacy label 178-221-222-48 establishes this node-to-node Cable Segment."
+        },
+        "warnings": [
+          "Route membership does not establish a shared PhysicalCable or the treatment inside either closure."
+        ]
+      },
+      {
+        "id": "route-leg-c179",
+        "sequence": 9,
+        "fromNodeId": "node-sc222",
+        "toNodeId": "node-sc223",
+        "segmentId": "CAB-000179",
+        "relationship": "segment",
+        "sourceLabel": "179-222-223-48",
+        "verification": "documentation_reviewed",
+        "source": {
+          "file": "Tsageri-Lentekhi 2025.vsdx",
+          "page": "ცაგერი-ლენტეხი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "42871"
+          ],
+          "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+          "note": "Legacy label 179-222-223-48 establishes this node-to-node Cable Segment."
+        },
+        "warnings": [
+          "Route membership does not establish a shared PhysicalCable or the treatment inside either closure."
+        ]
+      },
+      {
+        "id": "route-leg-c180",
+        "sequence": 10,
+        "fromNodeId": "node-sc223",
+        "toNodeId": "node-sc224",
+        "segmentId": "CAB-000180",
+        "relationship": "segment",
+        "sourceLabel": "180-223-224-48",
+        "verification": "documentation_reviewed",
+        "source": {
+          "file": "Tsageri-Lentekhi 2025.vsdx",
+          "page": "ცაგერი-ლენტეხი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "15990"
+          ],
+          "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+          "note": "Legacy label 180-223-224-48 establishes this node-to-node Cable Segment."
+        },
+        "warnings": [
+          "Route membership does not establish a shared PhysicalCable or the treatment inside either closure."
+        ]
+      },
+      {
+        "id": "route-leg-c184-unresolved-endpoint",
+        "sequence": 11,
+        "fromNodeId": "node-sc224",
+        "toNodeId": "node-lentekhi-boundary",
+        "segmentId": null,
+        "relationship": "unresolved_leg",
+        "sourceLabel": "184-6-224-48",
+        "verification": "conflicting",
+        "source": {
+          "file": "Tsageri-Lentekhi 2025.vsdx",
+          "page": "ცაგერი-ლენტეხი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "15991"
+          ],
+          "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+          "note": "Legacy label 184-6-224-48 documents the final source segment, but aggregation 6 conflicts with property ID 5."
+        },
+        "warnings": [
+          "C184 is preserved as source evidence but not promoted to Cable Segment inventory until the aggregation endpoint identity is resolved."
+        ]
+      }
+    ],
+    "branches": [
+      {
+        "id": "route-direction-alpana-tvishi-ambrolauri",
+        "fromNodeId": "node-sc206",
+        "destination": null,
+        "segmentIds": [],
+        "role": "branch",
+        "branchKind": "named_direction",
+        "sourceLabel": "Alpana-Tvishi-Ambrolauri directiion",
+        "targetDirectionText": "Alpana–Tvishi–Ambrolauri direction",
+        "linkedRouteId": null,
+        "destinationRole": "external_direction",
+        "treatment": "unknown",
+        "treatmentVerification": "needs_verification",
+        "verification": "documentation_reviewed",
+        "source": {
+          "file": "Tsageri-Lentekhi 2025.vsdx",
+          "page": "ცაგერი-ლენტეხი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "44235"
+          ],
+          "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+          "note": "The exact source text names an external direction from the SC206 area; it does not establish a Cable Segment or optical connection."
+        },
+        "warnings": [
+          "No linked Cable Route, destination asset, Cable Segment, or optical continuity is inferred."
+        ]
+      },
+      {
+        "id": "route-branch-ap50",
+        "fromNodeId": "node-sc216",
+        "destination": {
+          "kind": "ap",
+          "id": "50"
+        },
+        "segmentIds": [
+          "CAB-000170"
+        ],
+        "role": "branch",
+        "branchKind": "asset_branch",
+        "sourceLabel": "170-216-50-24",
+        "targetDirectionText": null,
+        "linkedRouteId": null,
+        "destinationRole": "ap_termination",
+        "treatment": "unknown",
+        "treatmentVerification": "needs_verification",
+        "verification": "documentation_reviewed",
+        "source": {
+          "file": "Tsageri-Lentekhi 2025.vsdx",
+          "page": "ცაგერი-ლენტეხი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "33699"
+          ],
+          "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+          "note": "Legacy label 170-216-50-24 documents a separate branch segment from SC216 to AP50."
+        },
+        "warnings": [
+          "AP/ODF containment and the physical branch treatment remain unresolved; no optical mapping at SC216 is inferred."
+        ]
+      },
+      {
+        "id": "route-branch-ap51",
+        "fromNodeId": "node-sc218",
+        "destination": {
+          "kind": "ap",
+          "id": "51"
+        },
+        "segmentIds": [
+          "CAB-000173"
+        ],
+        "role": "branch",
+        "branchKind": "asset_branch",
+        "sourceLabel": "173-218-51-24",
+        "targetDirectionText": null,
+        "linkedRouteId": null,
+        "destinationRole": "ap_termination",
+        "treatment": "unknown",
+        "treatmentVerification": "needs_verification",
+        "verification": "documentation_reviewed",
+        "source": {
+          "file": "Tsageri-Lentekhi 2025.vsdx",
+          "page": "ცაგერი-ლენტეხი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "34371"
+          ],
+          "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+          "note": "Legacy label 173-218-51-24 documents a branch segment from SC218 to AP51."
+        },
+        "warnings": [
+          "The branch segment ends at AP51, but this does not terminate the main route; AP/ODF containment remains unresolved."
+        ]
+      }
+    ],
+    "condition": "unknown",
+    "conditionVerification": "needs_verification",
+    "documentation": "incomplete",
+    "verification": "documentation_reviewed",
+    "physicalCableId": null,
+    "allowCircular": false,
+    "source": {
+      "file": "Tsageri-Lentekhi 2025.vsdx",
+      "page": "ცაგერი-ლენტეხი",
+      "pageId": "4",
+      "part": "visio/pages/page1.xml",
+      "shapeIds": [
+        "12426",
+        "12427",
+        "36475",
+        "37059",
+        "15769",
+        "15770",
+        "34056",
+        "33699",
+        "15982",
+        "15983",
+        "34371",
+        "15985",
+        "15988",
+        "15989",
+        "43428",
+        "42871",
+        "15990",
+        "15991",
+        "12428",
+        "15597",
+        "33587",
+        "34057",
+        "34259",
+        "35037",
+        "36212",
+        "43124",
+        "42417",
+        "36309",
+        "36985",
+        "44235"
+      ],
+      "interpretationRule": "tsageri-lentekhi-primary-cable-route/2",
+      "note": "Ordered route is built from the documented endpoint chain; physical sheath identity and closure treatments are not inferred."
+    },
+    "warnings": [
+      "This is an operational Cable Route, not a PhysicalCable/CableRun identity.",
+      "The expanded pilot imports C148/C150, C169/C171/C172/C174 and C176–C180; only C184 remains an unresolved leg because its aggregation endpoint identity conflicts.",
+      "AP50 and AP51 are branches and do not terminate the main route.",
+      "The named SC206 direction is topological context only and creates no optical connectivity."
+    ]
+  }
+}

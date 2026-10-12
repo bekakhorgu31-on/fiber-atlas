@@ -1,0 +1,22 @@
+✔ 28L adds only the two source-backed SC217 pairs; repeated application is idempotent (48.7777ms)
+✔ 28L F10/F12 reach exact Lentekhi Ports from both ends through a real SC217 edge (268.2725ms)
+✔ 28L F11 is unchanged; unrelated genuine gaps, termination and remaps remain valid (375.1832ms)
+✔ 28L owner endpoint report does not become a fabricated owner-confirmed splice or overwritten use claim (27.9491ms)
+✔ 28L recomputes groups and search from corrected authority; no obsolete four-group rule (50.5495ms)
+✔ 28L corrections remain outside the immutable frozen V1 adapter (309.5768ms)
+✔ 28L workspace URL preserves context, inspected object, selected Fiber and collapsed branches independently (0.7516ms)
+✔ 28L direct Fiber lookup opens the shared Route workspace with the exact Fiber selected (9.4664ms)
+✔ 28L never silently overrides a competing active SC217 interpretation (323.0007ms)
+✔ the default browser fetch retains its required global receiver (18.834ms)
+✔ database failure rejects visibly and never substitutes an offline snapshot (0.3203ms)
+✔ deferred evidence is pinned and cannot cross network revisions (1.2421ms)
+✔ an unknown requested data mode fails rather than silently switching modes (0.3217ms)
+✔ an explicit empty response is separate from corrupt authority and API failure (1.0442ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8864.7172

@@ -1,0 +1,20 @@
+{
+  "changed": [],
+  "counts": {
+    "changed": 0,
+    "fresh": 838,
+    "newlyDiscovered": 0,
+    "notFoundInFreshSource": 0,
+    "old": 838,
+    "reproducedExactly": 838
+  },
+  "freshSourceSha256": "caae4badc9c8c30be0a5fa3ef26352c3e534a9de7c66e830ef470466bb34a6fa",
+  "generationVersions": {
+    "domainProjection": "fiber-atlas-domain-projection/24",
+    "sourceGrammar": "tsageri-lentekhi-source-grammar/4"
+  },
+  "newlyDiscovered": [],
+  "notFoundInFreshSource": [],
+  "oldSource": "iteration22 archived generated projection",
+  "schemaVersion": 1
+}

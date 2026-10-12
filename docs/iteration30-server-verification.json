@@ -1,0 +1,29 @@
+{
+    "verifiedAt": "2026-10-08T16:01:07+00:00",
+    "schema": "bkhorguashvili",
+    "profile": "server",
+    "connection": {
+        "database": "on",
+        "role": "bkhorguashvili",
+        "schema": "bkhorguashvili",
+        "search_path": "bkhorguashvili"
+    },
+    "tls": {
+        "ssl": true,
+        "version": "TLSv1.3",
+        "cipher": "TLS_AES_256_GCM_SHA384"
+    },
+    "networkRevision": "NETWORK-28L-397cb29f8c3b0280-OP1-8109aecedeb6",
+    "activeRevision": null,
+    "counts": {
+        "cables": 37,
+        "tubes": 174,
+        "fibers": 2088,
+        "nodeFiberTransitions": 1631,
+        "portTopologyBindings": 384
+    },
+    "exactPathsCompared": 2088,
+    "currentLineages": 473,
+    "crossSchemaForeignKeys": 0,
+    "readOnly": true
+}

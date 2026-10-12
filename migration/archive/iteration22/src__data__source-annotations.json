@@ -1,0 +1,1168 @@
+{
+  "schemaVersion": 1,
+  "sourceSha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+  "extractionRunId": "IMPORT-TL-2026-09-25-I09",
+  "annotations": [
+    {
+      "id": "ANN-DIRECTION-SC206-ALPANA",
+      "rawText": "Alpana-Tvishi-Ambrolauri directiion",
+      "normalizedSummary": "Alpana–Tvishi–Ambrolauri direction",
+      "category": "direction",
+      "scope": "route",
+      "sourceSha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "pageId": "4",
+        "part": "visio/pages/page1.xml",
+        "shapeIds": [
+          "44235"
+        ],
+        "rawValue": "Alpana-Tvishi-Ambrolauri directiion",
+        "interpretationRule": "tsageri-lentekhi-source-annotations/1",
+        "note": "Exact source spelling retained; normalized punctuation/spelling is presentation-only."
+      },
+      "sourceGeometry": {
+        "pinX": 34.56250043319804,
+        "pinY": 541.5625031409519,
+        "width": 14.99999974455153,
+        "height": 2.999999948910272,
+        "beginX": null,
+        "beginY": null,
+        "endX": null,
+        "endY": null,
+        "context": "Exact source spelling retained; normalized punctuation/spelling is presentation-only."
+      },
+      "associatedAssets": [],
+      "associatedRouteIds": [
+        "ROUTE-TSAGERI-LENTEKHI-CORE"
+      ],
+      "associatedRouteNodeIds": [
+        "node-sc206"
+      ],
+      "associatedOrganizationIds": [],
+      "associationState": "confirmed",
+      "verification": "documentation_reviewed",
+      "warnings": [
+        "Direction text does not establish a Cable Segment, linked Cable Route, or optical connectivity."
+      ],
+      "importedAt": "2026-09-25T00:00:00.000Z",
+      "extractionRunId": "IMPORT-TL-2026-09-25-I09"
+    },
+    {
+      "id": "ANN-UNRESOLVED-FREE-38315",
+      "rawText": "Free",
+      "normalizedSummary": null,
+      "category": "service_commercial_note",
+      "scope": "unresolved",
+      "sourceSha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "pageId": "4",
+        "part": "visio/pages/page1.xml",
+        "shapeIds": [
+          "38315"
+        ],
+        "rawValue": "Free",
+        "interpretationRule": "tsageri-lentekhi-source-annotations/1",
+        "note": "Meaningful text retained without a confident structured association."
+      },
+      "sourceGeometry": {
+        "pinX": 123.1076363854939,
+        "pinY": 443.8507552119352,
+        "width": 1.153727152835359,
+        "height": 0.0,
+        "beginX": 123.1076363854939,
+        "beginY": 444.4276187883529,
+        "endX": 123.1076363854939,
+        "endY": 443.2738916355175,
+        "context": "Meaningful text retained without a confident structured association."
+      },
+      "associatedAssets": [],
+      "associatedRouteIds": [],
+      "associatedRouteNodeIds": [],
+      "associatedOrganizationIds": [],
+      "associationState": "unresolved",
+      "verification": "needs_verification",
+      "warnings": [
+        "Legacy 'free' text is not accepted as current availability."
+      ],
+      "importedAt": "2026-09-25T00:00:00.000Z",
+      "extractionRunId": "IMPORT-TL-2026-09-25-I09"
+    },
+    {
+      "id": "ANN-UNRESOLVED-LOOP-37763",
+      "rawText": "Loop",
+      "normalizedSummary": null,
+      "category": "historical_note",
+      "scope": "unresolved",
+      "sourceSha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "pageId": "4",
+        "part": "visio/pages/page1.xml",
+        "shapeIds": [
+          "37763",
+          "37764",
+          "37767",
+          "37768",
+          "38350",
+          "38351"
+        ],
+        "rawValue": "Loop",
+        "interpretationRule": "tsageri-lentekhi-source-annotations/1",
+        "note": "Meaningful text retained without a confident structured association."
+      },
+      "sourceGeometry": {
+        "context": "Meaningful text retained without a confident structured association.; 6 source text shapes grouped without inventing one placement."
+      },
+      "associatedAssets": [],
+      "associatedRouteIds": [],
+      "associatedRouteNodeIds": [],
+      "associatedOrganizationIds": [],
+      "associationState": "unresolved",
+      "verification": "needs_verification",
+      "warnings": [
+        "Exact asset association is unresolved; no topology or state is inferred."
+      ],
+      "importedAt": "2026-09-25T00:00:00.000Z",
+      "extractionRunId": "IMPORT-TL-2026-09-25-I09"
+    },
+    {
+      "id": "ANN-UNRESOLVED-OTDR-34281",
+      "rawText": "OTDR",
+      "normalizedSummary": null,
+      "category": "investigation_issue",
+      "scope": "unresolved",
+      "sourceSha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "pageId": "4",
+        "part": "visio/pages/page1.xml",
+        "shapeIds": [
+          "34281",
+          "37556",
+          "38544"
+        ],
+        "rawValue": "OTDR",
+        "interpretationRule": "tsageri-lentekhi-source-annotations/1",
+        "note": "Meaningful text retained without a confident structured association."
+      },
+      "sourceGeometry": {
+        "context": "Meaningful text retained without a confident structured association.; 3 source text shapes grouped without inventing one placement."
+      },
+      "associatedAssets": [],
+      "associatedRouteIds": [],
+      "associatedRouteNodeIds": [],
+      "associatedOrganizationIds": [],
+      "associationState": "unresolved",
+      "verification": "needs_verification",
+      "warnings": [
+        "Exact asset association is unresolved; no topology or state is inferred."
+      ],
+      "importedAt": "2026-09-25T00:00:00.000Z",
+      "extractionRunId": "IMPORT-TL-2026-09-25-I09"
+    },
+    {
+      "id": "ANN-ORG-OPENNET-1",
+      "rawText": "Open Net",
+      "normalizedSummary": "Source organization label: opennet",
+      "category": "service_commercial_note",
+      "scope": "page_general",
+      "sourceSha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "pageId": "4",
+        "part": "visio/pages/page1.xml",
+        "shapeIds": [
+          "17662",
+          "17663",
+          "17664"
+        ],
+        "rawValue": "Open Net",
+        "interpretationRule": "tsageri-lentekhi-source-annotations/1",
+        "note": "Repeated organization label is grouped by exact raw text."
+      },
+      "sourceGeometry": {
+        "context": "Repeated organization label is grouped by exact raw text.; 3 source text shapes grouped without inventing one placement."
+      },
+      "associatedAssets": [],
+      "associatedRouteIds": [],
+      "associatedRouteNodeIds": [],
+      "associatedOrganizationIds": [
+        "opennet"
+      ],
+      "associationState": "candidate",
+      "verification": "imported",
+      "warnings": [
+        "Source placement does not by itself establish ownership, strand rights, service provider, or customer role."
+      ],
+      "importedAt": "2026-09-25T00:00:00.000Z",
+      "extractionRunId": "IMPORT-TL-2026-09-25-I09"
+    },
+    {
+      "id": "ANN-ORG-OPENNET-2",
+      "rawText": "Open net",
+      "normalizedSummary": "Source organization label: opennet",
+      "category": "service_commercial_note",
+      "scope": "page_general",
+      "sourceSha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "pageId": "4",
+        "part": "visio/pages/page1.xml",
+        "shapeIds": [
+          "17661"
+        ],
+        "rawValue": "Open net",
+        "interpretationRule": "tsageri-lentekhi-source-annotations/1",
+        "note": "Repeated organization label is grouped by exact raw text."
+      },
+      "sourceGeometry": {
+        "pinX": 40.4982750556601,
+        "pinY": 591.85609393851,
+        "width": 7.083745820838999,
+        "height": 0.0,
+        "beginX": 40.4982750556601,
+        "beginY": 595.3979668489295,
+        "endX": 40.4982750556601,
+        "endY": 588.3142210280905,
+        "context": "Repeated organization label is grouped by exact raw text."
+      },
+      "associatedAssets": [],
+      "associatedRouteIds": [],
+      "associatedRouteNodeIds": [],
+      "associatedOrganizationIds": [
+        "opennet"
+      ],
+      "associationState": "candidate",
+      "verification": "imported",
+      "warnings": [
+        "Source placement does not by itself establish ownership, strand rights, service provider, or customer role."
+      ],
+      "importedAt": "2026-09-25T00:00:00.000Z",
+      "extractionRunId": "IMPORT-TL-2026-09-25-I09"
+    },
+    {
+      "id": "ANN-UNRESOLVED-OTDR-17667",
+      "rawText": "Otdr",
+      "normalizedSummary": null,
+      "category": "investigation_issue",
+      "scope": "unresolved",
+      "sourceSha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "pageId": "4",
+        "part": "visio/pages/page1.xml",
+        "shapeIds": [
+          "17667",
+          "37582",
+          "38316"
+        ],
+        "rawValue": "Otdr",
+        "interpretationRule": "tsageri-lentekhi-source-annotations/1",
+        "note": "Meaningful text retained without a confident structured association."
+      },
+      "sourceGeometry": {
+        "context": "Meaningful text retained without a confident structured association.; 3 source text shapes grouped without inventing one placement."
+      },
+      "associatedAssets": [],
+      "associatedRouteIds": [],
+      "associatedRouteNodeIds": [],
+      "associatedOrganizationIds": [],
+      "associationState": "unresolved",
+      "verification": "needs_verification",
+      "warnings": [
+        "Exact asset association is unresolved; no topology or state is inferred."
+      ],
+      "importedAt": "2026-09-25T00:00:00.000Z",
+      "extractionRunId": "IMPORT-TL-2026-09-25-I09"
+    },
+    {
+      "id": "ANN-ORG-SKYTEL-1",
+      "rawText": "Skytel Data",
+      "normalizedSummary": "Source organization label: skytel",
+      "category": "service_commercial_note",
+      "scope": "page_general",
+      "sourceSha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "pageId": "4",
+        "part": "visio/pages/page1.xml",
+        "shapeIds": [
+          "37585",
+          "38317",
+          "38318"
+        ],
+        "rawValue": "Skytel Data",
+        "interpretationRule": "tsageri-lentekhi-source-annotations/1",
+        "note": "Repeated organization label is grouped by exact raw text."
+      },
+      "sourceGeometry": {
+        "context": "Repeated organization label is grouped by exact raw text.; 3 source text shapes grouped without inventing one placement."
+      },
+      "associatedAssets": [],
+      "associatedRouteIds": [],
+      "associatedRouteNodeIds": [],
+      "associatedOrganizationIds": [
+        "skytel"
+      ],
+      "associationState": "candidate",
+      "verification": "imported",
+      "warnings": [
+        "Source placement does not by itself establish ownership, strand rights, service provider, or customer role."
+      ],
+      "importedAt": "2026-09-25T00:00:00.000Z",
+      "extractionRunId": "IMPORT-TL-2026-09-25-I09"
+    },
+    {
+      "id": "ANN-ORG-SKYTEL-2",
+      "rawText": "Skytel data",
+      "normalizedSummary": "Source organization label: skytel",
+      "category": "service_commercial_note",
+      "scope": "page_general",
+      "sourceSha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "pageId": "4",
+        "part": "visio/pages/page1.xml",
+        "shapeIds": [
+          "37584"
+        ],
+        "rawValue": "Skytel data",
+        "interpretationRule": "tsageri-lentekhi-source-annotations/1",
+        "note": "Repeated organization label is grouped by exact raw text."
+      },
+      "sourceGeometry": {
+        "pinX": 86.37499749660498,
+        "pinY": 452.7553678437462,
+        "width": 5.479467806099251,
+        "height": 0.0,
+        "beginX": 86.37499749660498,
+        "beginY": 455.4951017467959,
+        "endX": 86.37499749660498,
+        "endY": 450.0156339406966,
+        "context": "Repeated organization label is grouped by exact raw text."
+      },
+      "associatedAssets": [],
+      "associatedRouteIds": [],
+      "associatedRouteNodeIds": [],
+      "associatedOrganizationIds": [
+        "skytel"
+      ],
+      "associationState": "candidate",
+      "verification": "imported",
+      "warnings": [
+        "Source placement does not by itself establish ownership, strand rights, service provider, or customer role."
+      ],
+      "importedAt": "2026-09-25T00:00:00.000Z",
+      "extractionRunId": "IMPORT-TL-2026-09-25-I09"
+    },
+    {
+      "id": "ANN-UNRESOLVED-FREE-37583",
+      "rawText": "free",
+      "normalizedSummary": null,
+      "category": "service_commercial_note",
+      "scope": "unresolved",
+      "sourceSha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "pageId": "4",
+        "part": "visio/pages/page1.xml",
+        "shapeIds": [
+          "37583"
+        ],
+        "rawValue": "free",
+        "interpretationRule": "tsageri-lentekhi-source-annotations/1",
+        "note": "Meaningful text retained without a confident structured association."
+      },
+      "sourceGeometry": {
+        "pinX": 86.28905999660498,
+        "pinY": 452.7578214406966,
+        "width": 5.484374999999943,
+        "height": 0.0,
+        "beginX": 86.28905999660498,
+        "beginY": 455.5000089406966,
+        "endX": 86.28905999660498,
+        "endY": 450.0156339406966,
+        "context": "Meaningful text retained without a confident structured association."
+      },
+      "associatedAssets": [],
+      "associatedRouteIds": [],
+      "associatedRouteNodeIds": [],
+      "associatedOrganizationIds": [],
+      "associationState": "unresolved",
+      "verification": "needs_verification",
+      "warnings": [
+        "Legacy 'free' text is not accepted as current availability."
+      ],
+      "importedAt": "2026-09-25T00:00:00.000Z",
+      "extractionRunId": "IMPORT-TL-2026-09-25-I09"
+    },
+    {
+      "id": "ANN-CUT-NOTE-14985",
+      "rawText": "გაიჭრას #11 #12 მოდული",
+      "normalizedSummary": null,
+      "category": "instruction",
+      "scope": "unresolved",
+      "sourceSha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "pageId": "4",
+        "part": "visio/pages/page1.xml",
+        "shapeIds": [
+          "14985"
+        ],
+        "rawValue": "გაიჭრას #11 #12 მოდული",
+        "interpretationRule": "tsageri-lentekhi-source-annotations/1",
+        "note": "Physical operation and completion state are not inferred from the instruction text."
+      },
+      "sourceGeometry": {
+        "pinX": 39.3654625556601,
+        "pinY": 581.9062356593936,
+        "width": 2.135416666666664,
+        "height": 0.0,
+        "beginX": 38.29775422232677,
+        "beginY": 581.9062356593936,
+        "endX": 40.43317088899343,
+        "endY": 581.9062356593936,
+        "context": "Physical operation and completion state are not inferred from the instruction text."
+      },
+      "associatedAssets": [],
+      "associatedRouteIds": [],
+      "associatedRouteNodeIds": [],
+      "associatedOrganizationIds": [],
+      "associationState": "unresolved",
+      "verification": "needs_verification",
+      "warnings": [
+        "The note may describe planned or completed work; status and exact asset association require review."
+      ],
+      "importedAt": "2026-09-25T00:00:00.000Z",
+      "extractionRunId": "IMPORT-TL-2026-09-25-I09"
+    },
+    {
+      "id": "ANN-CUT-NOTE-15250",
+      "rawText": "გაიჭრას #3 #4 მოდული",
+      "normalizedSummary": null,
+      "category": "instruction",
+      "scope": "unresolved",
+      "sourceSha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "pageId": "4",
+        "part": "visio/pages/page1.xml",
+        "shapeIds": [
+          "15250"
+        ],
+        "rawValue": "გაიჭრას #3 #4 მოდული",
+        "interpretationRule": "tsageri-lentekhi-source-annotations/1",
+        "note": "Physical operation and completion state are not inferred from the instruction text."
+      },
+      "sourceGeometry": {
+        "pinX": 86.52171255566009,
+        "pinY": 539.2084784501927,
+        "width": 2.057291666666671,
+        "height": 0.0,
+        "beginX": 85.49306672232676,
+        "beginY": 539.2084784501926,
+        "endX": 87.55035838899343,
+        "endY": 539.2084784501928,
+        "context": "Physical operation and completion state are not inferred from the instruction text."
+      },
+      "associatedAssets": [],
+      "associatedRouteIds": [],
+      "associatedRouteNodeIds": [],
+      "associatedOrganizationIds": [],
+      "associationState": "unresolved",
+      "verification": "needs_verification",
+      "warnings": [
+        "The note may describe planned or completed work; status and exact asset association require review."
+      ],
+      "importedAt": "2026-09-25T00:00:00.000Z",
+      "extractionRunId": "IMPORT-TL-2026-09-25-I09"
+    },
+    {
+      "id": "ANN-CUT-NOTE-15252",
+      "rawText": "გაიჭრას #3 #4 მოდული",
+      "normalizedSummary": null,
+      "category": "instruction",
+      "scope": "unresolved",
+      "sourceSha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "pageId": "4",
+        "part": "visio/pages/page1.xml",
+        "shapeIds": [
+          "15252"
+        ],
+        "rawValue": "გაიჭრას #3 #4 მოდული",
+        "interpretationRule": "tsageri-lentekhi-source-annotations/1",
+        "note": "Physical operation and completion state are not inferred from the instruction text."
+      },
+      "sourceGeometry": {
+        "pinX": 86.52171255566009,
+        "pinY": 517.2185100415743,
+        "width": 2.057291666666671,
+        "height": 0.0,
+        "beginX": 85.49306672232676,
+        "beginY": 517.2185100415743,
+        "endX": 87.55035838899343,
+        "endY": 517.2185100415743,
+        "context": "Physical operation and completion state are not inferred from the instruction text."
+      },
+      "associatedAssets": [],
+      "associatedRouteIds": [],
+      "associatedRouteNodeIds": [],
+      "associatedOrganizationIds": [],
+      "associationState": "unresolved",
+      "verification": "needs_verification",
+      "warnings": [
+        "The note may describe planned or completed work; status and exact asset association require review."
+      ],
+      "importedAt": "2026-09-25T00:00:00.000Z",
+      "extractionRunId": "IMPORT-TL-2026-09-25-I09"
+    },
+    {
+      "id": "ANN-CUT-NOTE-15251",
+      "rawText": "გაიჭრას #3 #4 მოდული",
+      "normalizedSummary": null,
+      "category": "instruction",
+      "scope": "unresolved",
+      "sourceSha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "pageId": "4",
+        "part": "visio/pages/page1.xml",
+        "shapeIds": [
+          "15251"
+        ],
+        "rawValue": "გაიჭრას #3 #4 მოდული",
+        "interpretationRule": "tsageri-lentekhi-source-annotations/1",
+        "note": "Physical operation and completion state are not inferred from the instruction text."
+      },
+      "sourceGeometry": {
+        "pinX": 86.52171255566009,
+        "pinY": 506.8435100415743,
+        "width": 2.057291666666671,
+        "height": 0.0,
+        "beginX": 85.49306672232676,
+        "beginY": 506.8435100415742,
+        "endX": 87.55035838899343,
+        "endY": 506.8435100415744,
+        "context": "Physical operation and completion state are not inferred from the instruction text."
+      },
+      "associatedAssets": [],
+      "associatedRouteIds": [],
+      "associatedRouteNodeIds": [],
+      "associatedOrganizationIds": [],
+      "associationState": "unresolved",
+      "verification": "needs_verification",
+      "warnings": [
+        "The note may describe planned or completed work; status and exact asset association require review."
+      ],
+      "importedAt": "2026-09-25T00:00:00.000Z",
+      "extractionRunId": "IMPORT-TL-2026-09-25-I09"
+    },
+    {
+      "id": "ANN-ORG-MAGTI-1",
+      "rawText": "მაგთი",
+      "normalizedSummary": "Source organization label: magti",
+      "category": "service_commercial_note",
+      "scope": "page_general",
+      "sourceSha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "pageId": "4",
+        "part": "visio/pages/page1.xml",
+        "shapeIds": [
+          "17665",
+          "17668",
+          "37554",
+          "37557",
+          "38542",
+          "38545"
+        ],
+        "rawValue": "მაგთი",
+        "interpretationRule": "tsageri-lentekhi-source-annotations/1",
+        "note": "Repeated organization label is grouped by exact raw text."
+      },
+      "sourceGeometry": {
+        "context": "Repeated organization label is grouped by exact raw text.; 6 source text shapes grouped without inventing one placement."
+      },
+      "associatedAssets": [],
+      "associatedRouteIds": [],
+      "associatedRouteNodeIds": [],
+      "associatedOrganizationIds": [
+        "magti"
+      ],
+      "associationState": "candidate",
+      "verification": "imported",
+      "warnings": [
+        "Source placement does not by itself establish ownership, strand rights, service provider, or customer role."
+      ],
+      "importedAt": "2026-09-25T00:00:00.000Z",
+      "extractionRunId": "IMPORT-TL-2026-09-25-I09"
+    },
+    {
+      "id": "ANN-FIBER-MISMATCH-F5-F9",
+      "rawText": "მე5 ჟილა სადღაც ქუროში არეულია და მიდის მე-9 ზე",
+      "normalizedSummary": "Fiber 5 may be mixed and continue as fiber 9 at an unspecified closure.",
+      "category": "fiber_mapping_note",
+      "scope": "unresolved",
+      "sourceSha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "pageId": "4",
+        "part": "visio/pages/page1.xml",
+        "shapeIds": [
+          "44236"
+        ],
+        "rawValue": "მე5 ჟილა სადღაც ქუროში არეულია და მიდის მე-9 ზე",
+        "interpretationRule": "tsageri-lentekhi-source-annotations/1",
+        "note": "Raw Georgian text remains authoritative; summary is only a search/display aid."
+      },
+      "sourceGeometry": {
+        "pinX": 81.73046875,
+        "pinY": 450.29736328125,
+        "width": 2.9609375,
+        "height": 0.4052734375,
+        "beginX": null,
+        "beginY": null,
+        "endX": null,
+        "endY": null,
+        "context": "Raw Georgian text remains authoritative; summary is only a search/display aid."
+      },
+      "associatedAssets": [],
+      "associatedRouteIds": [],
+      "associatedRouteNodeIds": [],
+      "associatedOrganizationIds": [],
+      "associationState": "unresolved",
+      "verification": "needs_verification",
+      "warnings": [
+        "Closure, cable segments and fiber endpoints are not identified by the source text."
+      ],
+      "importedAt": "2026-09-25T00:00:00.000Z",
+      "extractionRunId": "IMPORT-TL-2026-09-25-I09"
+    },
+    {
+      "id": "ANN-ORG-OPENNET-3",
+      "rawText": "ოუფენ ნეტი",
+      "normalizedSummary": "Source organization label: opennet",
+      "category": "service_commercial_note",
+      "scope": "page_general",
+      "sourceSha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "pageId": "4",
+        "part": "visio/pages/page1.xml",
+        "shapeIds": [
+          "37550",
+          "37551",
+          "37552",
+          "37553",
+          "38538",
+          "38539",
+          "38540",
+          "38541"
+        ],
+        "rawValue": "ოუფენ ნეტი",
+        "interpretationRule": "tsageri-lentekhi-source-annotations/1",
+        "note": "Repeated organization label is grouped by exact raw text."
+      },
+      "sourceGeometry": {
+        "context": "Repeated organization label is grouped by exact raw text.; 8 source text shapes grouped without inventing one placement."
+      },
+      "associatedAssets": [],
+      "associatedRouteIds": [],
+      "associatedRouteNodeIds": [],
+      "associatedOrganizationIds": [
+        "opennet"
+      ],
+      "associationState": "candidate",
+      "verification": "imported",
+      "warnings": [
+        "Source placement does not by itself establish ownership, strand rights, service provider, or customer role."
+      ],
+      "importedAt": "2026-09-25T00:00:00.000Z",
+      "extractionRunId": "IMPORT-TL-2026-09-25-I09"
+    },
+    {
+      "id": "ANN-AP50-PLACE",
+      "rawText": "რცხმელეთი",
+      "normalizedSummary": "რცხმელეთი",
+      "category": "general",
+      "scope": "asset",
+      "sourceSha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "pageId": "4",
+        "part": "visio/pages/page1.xml",
+        "shapeIds": [
+          "33592"
+        ],
+        "rawValue": "რცხმელეთი",
+        "interpretationRule": "tsageri-lentekhi-source-annotations/1",
+        "note": "AP place label preserved from the source stencil."
+      },
+      "sourceGeometry": {
+        "pinX": 4.27734375,
+        "pinY": 0.7199551084084915,
+        "width": 1.5703125,
+        "height": 0.3671978565179352,
+        "beginX": null,
+        "beginY": null,
+        "endX": null,
+        "endY": null,
+        "context": "AP place label preserved from the source stencil."
+      },
+      "associatedAssets": [
+        {
+          "kind": "ap",
+          "id": "50"
+        }
+      ],
+      "associatedRouteIds": [],
+      "associatedRouteNodeIds": [],
+      "associatedOrganizationIds": [],
+      "associationState": "confirmed",
+      "verification": "documentation_reviewed",
+      "warnings": [],
+      "importedAt": "2026-09-25T00:00:00.000Z",
+      "extractionRunId": "IMPORT-TL-2026-09-25-I09"
+    },
+    {
+      "id": "ANN-ORG-SILKNET-1",
+      "rawText": "სილქნეტი",
+      "normalizedSummary": "Source organization label: silknet",
+      "category": "service_commercial_note",
+      "scope": "page_general",
+      "sourceSha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "pageId": "4",
+        "part": "visio/pages/page1.xml",
+        "shapeIds": [
+          "17670",
+          "17671",
+          "37559",
+          "37560",
+          "38547",
+          "38548"
+        ],
+        "rawValue": "სილქნეტი",
+        "interpretationRule": "tsageri-lentekhi-source-annotations/1",
+        "note": "Repeated organization label is grouped by exact raw text."
+      },
+      "sourceGeometry": {
+        "context": "Repeated organization label is grouped by exact raw text.; 6 source text shapes grouped without inventing one placement."
+      },
+      "associatedAssets": [],
+      "associatedRouteIds": [],
+      "associatedRouteNodeIds": [],
+      "associatedOrganizationIds": [
+        "silknet"
+      ],
+      "associationState": "candidate",
+      "verification": "imported",
+      "warnings": [
+        "Source placement does not by itself establish ownership, strand rights, service provider, or customer role."
+      ],
+      "importedAt": "2026-09-25T00:00:00.000Z",
+      "extractionRunId": "IMPORT-TL-2026-09-25-I09"
+    },
+    {
+      "id": "ANN-ORG-SKYTEL-3",
+      "rawText": "სქაიტელი",
+      "normalizedSummary": "Source organization label: skytel",
+      "category": "service_commercial_note",
+      "scope": "page_general",
+      "sourceSha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "pageId": "4",
+        "part": "visio/pages/page1.xml",
+        "shapeIds": [
+          "17672",
+          "37561",
+          "38549"
+        ],
+        "rawValue": "სქაიტელი",
+        "interpretationRule": "tsageri-lentekhi-source-annotations/1",
+        "note": "Repeated organization label is grouped by exact raw text."
+      },
+      "sourceGeometry": {
+        "context": "Repeated organization label is grouped by exact raw text.; 3 source text shapes grouped without inventing one placement."
+      },
+      "associatedAssets": [],
+      "associatedRouteIds": [],
+      "associatedRouteNodeIds": [],
+      "associatedOrganizationIds": [
+        "skytel"
+      ],
+      "associationState": "candidate",
+      "verification": "imported",
+      "warnings": [
+        "Source placement does not by itself establish ownership, strand rights, service provider, or customer role."
+      ],
+      "importedAt": "2026-09-25T00:00:00.000Z",
+      "extractionRunId": "IMPORT-TL-2026-09-25-I09"
+    },
+    {
+      "id": "ANN-AP51-PLACE",
+      "rawText": "ყვედრეში",
+      "normalizedSummary": "ყვედრეში",
+      "category": "general",
+      "scope": "asset",
+      "sourceSha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "pageId": "4",
+        "part": "visio/pages/page1.xml",
+        "shapeIds": [
+          "34264"
+        ],
+        "rawValue": "ყვედრეში",
+        "interpretationRule": "tsageri-lentekhi-source-annotations/1",
+        "note": "AP place label preserved from the source stencil."
+      },
+      "sourceGeometry": {
+        "pinX": 4.27734375,
+        "pinY": 0.7199551084084915,
+        "width": 1.5703125,
+        "height": 0.3671978565179352,
+        "beginX": null,
+        "beginY": null,
+        "endX": null,
+        "endY": null,
+        "context": "AP place label preserved from the source stencil."
+      },
+      "associatedAssets": [
+        {
+          "kind": "ap",
+          "id": "51"
+        }
+      ],
+      "associatedRouteIds": [],
+      "associatedRouteNodeIds": [],
+      "associatedOrganizationIds": [],
+      "associationState": "confirmed",
+      "verification": "documentation_reviewed",
+      "warnings": [],
+      "importedAt": "2026-09-25T00:00:00.000Z",
+      "extractionRunId": "IMPORT-TL-2026-09-25-I09"
+    },
+    {
+      "id": "ANN-AP41-PLACE",
+      "rawText": "ჩხუტელი",
+      "normalizedSummary": "ჩხუტელი",
+      "category": "general",
+      "scope": "asset",
+      "sourceSha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "pageId": "4",
+        "part": "visio/pages/page1.xml",
+        "shapeIds": [
+          "12433"
+        ],
+        "rawValue": "ჩხუტელი",
+        "interpretationRule": "tsageri-lentekhi-source-annotations/1",
+        "note": "AP place label preserved from the source stencil."
+      },
+      "sourceGeometry": {
+        "pinX": 4.327743106739463,
+        "pinY": 0.7199551084084915,
+        "width": 1.469513786521077,
+        "height": 0.3671978565179352,
+        "beginX": null,
+        "beginY": null,
+        "endX": null,
+        "endY": null,
+        "context": "AP place label preserved from the source stencil."
+      },
+      "associatedAssets": [
+        {
+          "kind": "ap",
+          "id": "41"
+        }
+      ],
+      "associatedRouteIds": [],
+      "associatedRouteNodeIds": [],
+      "associatedOrganizationIds": [],
+      "associationState": "confirmed",
+      "verification": "documentation_reviewed",
+      "warnings": [],
+      "importedAt": "2026-09-25T00:00:00.000Z",
+      "extractionRunId": "IMPORT-TL-2026-09-25-I09"
+    },
+    {
+      "id": "ANN-AP53-PLACE",
+      "rawText": "წანაში",
+      "normalizedSummary": "წანაში",
+      "category": "general",
+      "scope": "asset",
+      "sourceSha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "pageId": "4",
+        "part": "visio/pages/page1.xml",
+        "shapeIds": [
+          "37760"
+        ],
+        "rawValue": "წანაში",
+        "interpretationRule": "tsageri-lentekhi-source-annotations/1",
+        "note": "AP place label preserved from the source stencil."
+      },
+      "sourceGeometry": {
+        "pinX": 4.296493106739462,
+        "pinY": 0.7199551084084915,
+        "width": 1.407013786521077,
+        "height": 0.3671978565179352,
+        "beginX": null,
+        "beginY": null,
+        "endX": null,
+        "endY": null,
+        "context": "AP place label preserved from the source stencil."
+      },
+      "associatedAssets": [
+        {
+          "kind": "ap",
+          "id": "53"
+        }
+      ],
+      "associatedRouteIds": [],
+      "associatedRouteNodeIds": [],
+      "associatedOrganizationIds": [],
+      "associationState": "confirmed",
+      "verification": "documentation_reviewed",
+      "warnings": [],
+      "importedAt": "2026-09-25T00:00:00.000Z",
+      "extractionRunId": "IMPORT-TL-2026-09-25-I09"
+    },
+    {
+      "id": "ANN-AP54-PLACE",
+      "rawText": "ხელედი",
+      "normalizedSummary": "ხელედი",
+      "category": "general",
+      "scope": "asset",
+      "sourceSha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "pageId": "4",
+        "part": "visio/pages/page1.xml",
+        "shapeIds": [
+          "38311"
+        ],
+        "rawValue": "ხელედი",
+        "interpretationRule": "tsageri-lentekhi-source-annotations/1",
+        "note": "AP place label preserved from the source stencil."
+      },
+      "sourceGeometry": {
+        "pinX": 4.296493106739462,
+        "pinY": 0.7199551084084915,
+        "width": 1.407013786521077,
+        "height": 0.3671978565179352,
+        "beginX": null,
+        "beginY": null,
+        "endX": null,
+        "endY": null,
+        "context": "AP place label preserved from the source stencil."
+      },
+      "associatedAssets": [
+        {
+          "kind": "ap",
+          "id": "54"
+        }
+      ],
+      "associatedRouteIds": [],
+      "associatedRouteNodeIds": [],
+      "associatedOrganizationIds": [],
+      "associationState": "confirmed",
+      "verification": "documentation_reviewed",
+      "warnings": [],
+      "importedAt": "2026-09-25T00:00:00.000Z",
+      "extractionRunId": "IMPORT-TL-2026-09-25-I09"
+    },
+    {
+      "id": "ANN-AP52-PLACE",
+      "rawText": "ხოფური",
+      "normalizedSummary": "ხოფური",
+      "category": "general",
+      "scope": "asset",
+      "sourceSha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "pageId": "4",
+        "part": "visio/pages/page1.xml",
+        "shapeIds": [
+          "35042"
+        ],
+        "rawValue": "ხოფური",
+        "interpretationRule": "tsageri-lentekhi-source-annotations/1",
+        "note": "AP place label preserved from the source stencil."
+      },
+      "sourceGeometry": {
+        "pinX": 4.27734375,
+        "pinY": 0.7199551084084915,
+        "width": 1.5703125,
+        "height": 0.3671978565179352,
+        "beginX": null,
+        "beginY": null,
+        "endX": null,
+        "endY": null,
+        "context": "AP place label preserved from the source stencil."
+      },
+      "associatedAssets": [
+        {
+          "kind": "ap",
+          "id": "52"
+        }
+      ],
+      "associatedRouteIds": [],
+      "associatedRouteNodeIds": [],
+      "associatedOrganizationIds": [],
+      "associationState": "confirmed",
+      "verification": "documentation_reviewed",
+      "warnings": [],
+      "importedAt": "2026-09-25T00:00:00.000Z",
+      "extractionRunId": "IMPORT-TL-2026-09-25-I09"
+    },
+    {
+      "id": "ANN-GROUP-SC220-SC223-ADDED",
+      "rawText": "დამატებულია ქუროები",
+      "normalizedSummary": "SC220–SC223 · დამატებული ქუროები",
+      "category": "added_asset",
+      "scope": "group_range",
+      "sourceSha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "pageId": "4",
+        "part": "visio/comments.xml",
+        "shapeIds": [
+          "44242"
+        ],
+        "rawValue": "დამატებულია ქუროები",
+        "interpretationRule": "tsageri-lentekhi-source-annotations/1",
+        "note": "Comment 1 by Alexander Gelenidze; attached bracket geometry spans SC220–SC223."
+      },
+      "sourceGeometry": {
+        "pinX": 104.750002503395,
+        "pinY": 487.2047786823405,
+        "width": 24.40955736468089,
+        "height": 4.503421004617477,
+        "beginX": 104.750002503395,
+        "beginY": 475.0,
+        "endX": 104.750002503395,
+        "endY": 499.4095573646809,
+        "context": "Comment bracket spans the SC220–SC223 closure rows."
+      },
+      "associatedAssets": [
+        {
+          "kind": "closure",
+          "id": "220"
+        },
+        {
+          "kind": "closure",
+          "id": "221"
+        },
+        {
+          "kind": "closure",
+          "id": "222"
+        },
+        {
+          "kind": "closure",
+          "id": "223"
+        }
+      ],
+      "associatedRouteIds": [
+        "ROUTE-TSAGERI-LENTEKHI-CORE"
+      ],
+      "associatedRouteNodeIds": [
+        "node-sc220",
+        "node-sc221",
+        "node-sc222",
+        "node-sc223"
+      ],
+      "associatedOrganizationIds": [],
+      "associationState": "confirmed",
+      "verification": "documentation_reviewed",
+      "warnings": [
+        "The comment establishes a shared change annotation only; it does not prove installation date, field verification, optical connectivity, or splice treatment."
+      ],
+      "importedAt": "2026-09-25T00:00:00.000Z",
+      "extractionRunId": "IMPORT-TL-2026-09-25-I09"
+    }
+  ],
+  "report": {
+    "directTextShapes": 2676,
+    "uniqueDirectTexts": 247,
+    "commentEntries": 1,
+    "totalCandidateTexts": 2677,
+    "associated": 6,
+    "groupAssociated": 1,
+    "routeAssociated": 1,
+    "pageGeneral": 31,
+    "unresolvedAssociation": 19,
+    "deliberatelyIgnored": 2558,
+    "structuredSourceTexts": 61,
+    "annotationIds": [
+      "ANN-DIRECTION-SC206-ALPANA",
+      "ANN-UNRESOLVED-FREE-38315",
+      "ANN-UNRESOLVED-LOOP-37763",
+      "ANN-UNRESOLVED-OTDR-34281",
+      "ANN-ORG-OPENNET-1",
+      "ANN-ORG-OPENNET-2",
+      "ANN-UNRESOLVED-OTDR-17667",
+      "ANN-ORG-SKYTEL-1",
+      "ANN-ORG-SKYTEL-2",
+      "ANN-UNRESOLVED-FREE-37583",
+      "ANN-CUT-NOTE-14985",
+      "ANN-CUT-NOTE-15250",
+      "ANN-CUT-NOTE-15252",
+      "ANN-CUT-NOTE-15251",
+      "ANN-ORG-MAGTI-1",
+      "ANN-FIBER-MISMATCH-F5-F9",
+      "ANN-ORG-OPENNET-3",
+      "ANN-AP50-PLACE",
+      "ANN-ORG-SILKNET-1",
+      "ANN-ORG-SKYTEL-3",
+      "ANN-AP51-PLACE",
+      "ANN-AP41-PLACE",
+      "ANN-AP53-PLACE",
+      "ANN-AP54-PLACE",
+      "ANN-AP52-PLACE",
+      "ANN-GROUP-SC220-SC223-ADDED"
+    ],
+    "notes": [
+      "Counts use individual direct-text/comment occurrences; repeated exact labels may share one annotation record.",
+      "Numeric fiber-position layout is deliberately ignored as non-operational UI text but remains in the immutable raw extraction.",
+      "Cable labels, aggregation headings and FO/oc capacity labels remain available in typed/raw source evidence rather than duplicate annotation facts.",
+      "No patch-cord, port-assignment, service-path or distance value text was found in the reviewed direct text/comments."
+    ]
+  }
+}

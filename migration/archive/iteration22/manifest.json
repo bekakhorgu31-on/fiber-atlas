@@ -1,0 +1,50 @@
+[
+  {
+    "source": "src/data/iteration21-routing-evidence.json",
+    "archive": "migration\\archive\\iteration22\\src__data__iteration21-routing-evidence.json",
+    "sha256": "66b09cfb1872bc8ccb59cbca0f8847bb51eb1391db0d92a6a240354af9398d69",
+    "bytes": 569157
+  },
+  {
+    "source": "src/data/iteration19-physical-evidence.json",
+    "archive": "migration\\archive\\iteration22\\src__data__iteration19-physical-evidence.json",
+    "sha256": "1a2cd845f5efa9078da7002326c9a51d16135af30301818e32191af58b9879fd",
+    "bytes": 445410
+  },
+  {
+    "source": "src/data/full-page-migration.json",
+    "archive": "migration\\archive\\iteration22\\src__data__full-page-migration.json",
+    "sha256": "5f3b8026ed3daf97bda5d346cb151dd2b850a728628c9cc19c858f36582c56de",
+    "bytes": 446040
+  },
+  {
+    "source": "src/data/tsageri-aggregation-evidence.json",
+    "archive": "migration\\archive\\iteration22\\src__data__tsageri-aggregation-evidence.json",
+    "sha256": "6cb0fc0ad9e03c1f55fd90f178394474c3cc19df15a606e964eb151c2da03894",
+    "bytes": 14190
+  },
+  {
+    "source": "HANDOFF.md",
+    "archive": "migration\\archive\\iteration22\\HANDOFF.md",
+    "sha256": "eaa50534f396750d5dc9e0cf4ad7a860a0822211b37152b99b7fcca7efae1d90",
+    "bytes": 75112
+  },
+  {
+    "source": "docs/VALIDATION.md",
+    "archive": "migration\\archive\\iteration22\\docs__VALIDATION.md",
+    "sha256": "344c560ec689e7c35a3279900f810a469431939939c8a45ae848097fd5e013e8",
+    "bytes": 56823
+  },
+  {
+    "source": "docs/ITERATION-22-SPLICE-WORKSPACE-REVIEW.md",
+    "archive": "migration\\archive\\iteration22\\docs__ITERATION-22-SPLICE-WORKSPACE-REVIEW.md",
+    "sha256": "befe90f65b7c70754e8a1e0aaf4f05ddb8b98676373e60adca5b0683790ebf37",
+    "bytes": 7248
+  },
+  {
+    "source": "src/data/source-annotations.json",
+    "archive": "migration\\archive\\iteration22\\src__data__source-annotations.json",
+    "sha256": "8dac4afcd7159b2eabfbfa097feb70c2d79d80b46fc9e97fa2c3541d787971d7",
+    "bytes": 43506
+  }
+]

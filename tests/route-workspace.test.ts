@@ -1,0 +1,61 @@
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import test from 'node:test';
+import pilotJson from '../src/data/pilot.json';
+import { applyIteration10AggregationTopology, TSAGERI_ODF_ID } from '../src/domain/aggregationTopology';
+import { applyIteration08CableRoute, findCableRoute } from '../src/domain/cableRoutes';
+import { applyConfirmedC172Construction } from '../src/domain/colors';
+import { buildFiberDetailModel } from '../src/domain/fiberDetail';
+import { applyIteration09Foundations } from '../src/domain/foundations';
+import { applyIteration12FullMigration } from '../src/domain/fullMigration';
+import { parseRoute, routeHash } from '../src/domain/navigation';
+import { findCable, traceFiber } from '../src/domain/network';
+import { closureOperatorSummary, segmentOperatorSummary } from '../src/domain/operatorTopology';
+import { applyIteration07PathReview } from '../src/domain/pathReview';
+import {
+  parseWorkspaceSelection, relatedWorkspaceRoutes, routeInventoryCounts, routeScopedSearch, routeWithSelection,
+  workspaceNavigationTarget, workspaceSelectionKey,
+} from '../src/domain/routeWorkspace';
+import type { Inventory } from '../src/domain/types';
+
+const build = () => applyIteration12FullMigration(applyIteration10AggregationTopology(applyIteration09Foundations(applyIteration08CableRoute(applyIteration07PathReview(applyConfirmedC172Construction(structuredClone(pilotJson) as Inventory))))));
+const route = (data: Inventory) => findCableRoute(data, 'ROUTE-TSAGERI-LENTEKHI-CORE')!;
+const source = readFileSync(new URL('../src/views/RouteWorkspace.tsx', import.meta.url), 'utf8');
+const dashboard = readFileSync(new URL('../src/views/Dashboard.tsx', import.meta.url), 'utf8');
+const styles = readFileSync(new URL('../src/styles.css', import.meta.url), 'utf8');
+
+test('1 route selection opens Route Workspace', () => assert.match(dashboard, /Open Route Workspace/));
+test('2 default Inspector selection is Route Overview', () => assert.match(source, /parsed \?\? \(route \? \{ type: 'route'/));
+test('3 Segment selection stays on the selected Route', () => assert.deepEqual(routeWithSelection('R', { type: 'segment', id: 'C' }), { view: 'route', id: 'R', selection: 'segment:C' }));
+test('4 C172 Inspector exposes route context', () => { const data = build(); const summary = segmentOperatorSummary(data, findCable(data, '172')!); assert.equal(summary.routeId, route(data).id); assert.match(summary.source, /AGG5/); });
+test('5 C172 PhysicalCable end remains separate', () => { const data = build(); const summary = segmentOperatorSummary(data, findCable(data, '172')!); assert.match(summary.localEndpoints, /SC217.*SC218/); assert.match(summary.physicalCableEndpoint, /SC218/); assert.notEqual(summary.finalRouteEndpoint, summary.physicalCableEndpoint); });
+test('6 Fiber browser is scoped to the selected Segment', () => assert.match(source, /cableFibers\(data, cable\.id\)/));
+test('7 selecting F29 restores Fiber Inspector selection', () => assert.deepEqual(parseWorkspaceSelection('fiber:CAB-000172:29'), { type: 'fiber', cableId: 'CAB-000172', number: 29 }));
+test('8 Tsageri Aggregation exposes four port ranges', () => { const data = build(); assert.equal(data.portRangeAssignments?.filter(item => item.odfId === TSAGERI_ODF_ID).length, 4); });
+test('9 range expansion exposes the correct ports', () => { const data = build(); const range = data.portRangeAssignments!.find(item => item.startPort === 145)!; assert.deepEqual([range.startPort, range.endPort, range.endPort - range.startPort + 1], [145, 192, 48]); });
+test('10 Port145 shows Lentekhi direction', () => { const data = build(); const results = routeScopedSearch(data, route(data), '145'); assert.match(results.find(item => item.key.endsWith(':145'))!.detail, /Lentekhi/); });
+test('11 Port145 creates no exact Fiber termination', () => { const data = build(); assert.equal(data.fiberTerminations?.some(item => item.port.portId.endsWith('145')), false); });
+test('12 Port117 retains the intentional SC205 stop', () => { const data = build(); const range = data.portRangeAssignments!.find(item => item.startPort === 117)!; assert.equal(range.continuity, 'stops_at_destination'); assert.match(range.destination.type === 'asset' ? range.destination.label : '', /SC205/); });
+test('13 SC206 branch remains distinct from main continuation', () => { const summary = closureOperatorSummary(build(), '206'); assert.match(summary.mainContinuation!, /C169.*SC216/); assert.match(summary.branches[0].label, /Alpana/); });
+test('14 SC206 branch creates no optical connectivity', () => assert.equal(build().connections.some(item => item.location.kind === 'closure' && item.location.id === '206'), false));
+test('15 AP41 keeps ingress and backfeed independently', () => { const data = build(); assert.ok(data.portRangeAssignments?.some(item => item.destination.type === 'asset' && item.destination.asset.kind === 'ap' && item.destination.asset.id === '41')); assert.ok(data.accessPointPortRanges?.some(item => item.accessPointId === '41')); });
+test('16 AP41 Ports3–22 retain reviewed semantics', () => { const item = build().accessPointPortRanges!.find(range => range.accessPointId === '41')!; assert.deepEqual([item.startPort, item.endPort, item.role, item.internalMapping], [3, 22, 'egress', 'unresolved']); });
+test('17 SC218 separates main C174 from branch C173', () => { const summary = closureOperatorSummary(build(), '218'); assert.match(summary.mainContinuation!, /C174/); assert.match(summary.branches[0].label, /C173/); });
+test('18 SC225 exposes AP53 and AP54', () => { const labels = closureOperatorSummary(build(), '225').branches.map(item => item.label).join(' '); assert.match(labels, /AP53/); assert.match(labels, /AP54/); });
+test('19 route search focuses a Segment', () => assert.equal(routeScopedSearch(build(), route(build()), 'C172')[0].key, 'segment:CAB-000172'));
+test('20 route search focuses a Closure', () => assert.ok(routeScopedSearch(build(), route(build()), 'SC218').some(item => item.key === 'closure:218')));
+test('21 route search distinguishes Port from Fiber', () => { const data = build(); const port = routeScopedSearch(data, route(data), '145'); const fiber = routeScopedSearch(data, route(data), 'F29', 'CAB-000172'); assert.equal(port[0].typeLabel, 'ODF Port'); assert.ok(fiber.some(item => item.typeLabel === 'Fiber' && item.key === 'fiber:CAB-000172:29')); });
+test('22 deep-link selection restores Inspector', () => { const hash = routeHash(routeWithSelection('ROUTE-TSAGERI-LENTEKHI-CORE', { type: 'segment', id: 'CAB-000172' })); assert.deepEqual(parseRoute(hash), { view: 'route', id: 'ROUTE-TSAGERI-LENTEKHI-CORE', selection: 'segment:CAB-000172' }); });
+test('23 successive URL selections remain independently parseable for Back and Forward', () => { const a = parseRoute(routeHash(routeWithSelection('R', { type: 'closure', id: '206' }))); const b = parseRoute(routeHash(routeWithSelection('R', { type: 'segment', id: 'CAB-000172' }))); assert.notDeepEqual(a, b); assert.equal((a as { selection: string }).selection, 'closure:206'); });
+test('24 topology elements use native keyboard-activatable buttons', () => { assert.match(source, /className={`workspace-node/); assert.match(source, /className={`workspace-segment/); assert.match(source, /type="button"/); });
+test('25 primary Inspector contains no Evidence component or source hash', () => { assert.doesNotMatch(source, /<Evidence\b/); assert.doesNotMatch(source, /SHA-256|shapeIds/); });
+test('26 strict and candidate Trace behavior remains unchanged', () => { const data = build(); assert.ok(traceFiber(data, '172', 29, false).steps.length < traceFiber(data, '172', 29, true).steps.length); });
+test('27 all Iteration12 assertion dimensions remain unchanged', () => { const data = build(); assert.deepEqual([data.assertions!.length, data.evidenceRecords!.length], [320, 218]); });
+test('28 Iteration13 operator summaries remain correct', () => { const data = build(); assert.match(segmentOperatorSummary(data, findCable(data, '172')!).physicalCableEndpoint, /SC218/); assert.match(closureOperatorSummary(data, '224').branches[0].label, /C181/); });
+test('29 no fake PhysicalCable membership is added', () => { const members = build().physicalCables![0].segmentMemberships; assert.deepEqual(members.map(item => [findCable(build(), item.segmentId)?.legacyCableId, item.state]), [['172', 'accepted'], ['171', 'candidate']]); });
+test('30 no fake ODF to Fiber mapping is added', () => assert.deepEqual(build().fiberTerminations, []));
+test('31 mobile workspace prevents document-wide horizontal layout', () => { assert.match(styles, /@media \(max-width:560px\)[\s\S]*\.route-workspace-page/); assert.match(styles, /\.route-workspace-body\{grid-template-columns:minmax\(0,1fr\)/); });
+test('global search assets can be redirected into the workspace without changing legacy result data', () => { const target = workspaceNavigationTarget(build(), { view: 'closure', id: '218' }); assert.deepEqual(target, { view: 'route', id: 'ROUTE-TSAGERI-LENTEKHI-CORE', selection: 'closure:218' }); });
+test('child branch inventory is part of the root workspace', () => { const data = build(); const counts = routeInventoryCounts(data, route(data)); assert.ok(counts.segmentIds.has('CAB-000182')); assert.ok(counts.apIds.has('53')); assert.equal(relatedWorkspaceRoutes(data, route(data)).length, 2); });
+test('selection keys round-trip across every supported composite type', () => { const value = workspaceSelectionKey({ type: 'port', ownerType: 'odf', ownerId: TSAGERI_ODF_ID, number: 145 }); assert.deepEqual(parseWorkspaceSelection(value), { type: 'port', ownerType: 'odf', ownerId: TSAGERI_ODF_ID, number: 145 }); });
+test('C172 F29 workspace model still uses the reviewed Fiber detail selector', () => { const model = buildFiberDetailModel(build(), '172', 29)!; assert.match(model.currentEventSummary, /Accepted continuation/); });

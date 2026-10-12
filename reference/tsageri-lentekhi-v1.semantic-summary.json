@@ -1,0 +1,63 @@
+{
+  "status": "READY",
+  "pendingManualReview": 0,
+  "fieldVerification": "none",
+  "categories": {
+    "source_interpreted": 836,
+    "owner_confirmed": 18,
+    "intentional_termination": 16,
+    "source_conflict": 1,
+    "not_present_in_source": 5,
+    "external_document_boundary": 1,
+    "genuinely_ambiguous": 0
+  },
+  "sc225": {
+    "ap54": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "terminating": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "ap53": [
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  "gaps": [
+    {
+      "id": "lentekhi-legacy-number",
+      "category": "source_conflict",
+      "reason": "The heading identifies 6 while the source Property identifies 5; canonical endpoint AGG-LENTEKHI remains known."
+    },
+    {
+      "id": "splice-mechanism",
+      "category": "not_present_in_source",
+      "reason": "The current Visio does not encode splice tray, mechanism, pigtail, patch cord, field condition, manufacturer or model."
+    },
+    {
+      "id": "ambrolauri-continuation",
+      "category": "external_document_boundary",
+      "reason": "Continuation is documented in another Visio that has not been supplied or imported."
+    }
+  ]
+}

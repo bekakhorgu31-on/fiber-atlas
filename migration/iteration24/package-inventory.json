@@ -1,0 +1,478 @@
+{
+  "documentRelationships": [
+    {
+      "id": "rId3",
+      "resolved_part": "visio/windows.xml",
+      "target": "windows.xml",
+      "target_mode": null,
+      "type": "http://schemas.microsoft.com/visio/2010/relationships/windows"
+    },
+    {
+      "id": "rId2",
+      "resolved_part": "visio/pages/pages.xml",
+      "target": "pages/pages.xml",
+      "target_mode": null,
+      "type": "http://schemas.microsoft.com/visio/2010/relationships/pages"
+    },
+    {
+      "id": "rId1",
+      "resolved_part": "visio/masters/masters.xml",
+      "target": "masters/masters.xml",
+      "target_mode": null,
+      "type": "http://schemas.microsoft.com/visio/2010/relationships/masters"
+    },
+    {
+      "id": "rId5",
+      "resolved_part": "visio/comments.xml",
+      "target": "comments.xml",
+      "target_mode": null,
+      "type": "http://schemas.microsoft.com/visio/2010/relationships/comments"
+    },
+    {
+      "id": "rId4",
+      "resolved_part": "visio/solutions/solutions.xml",
+      "target": "solutions/solutions.xml",
+      "target_mode": null,
+      "type": "http://schemas.microsoft.com/visio/2010/relationships/solutions"
+    }
+  ],
+  "masters": [
+    {
+      "id": "2",
+      "name": "საკანალიზაციო ოკ-96 მრავალმოდულიანი.49",
+      "part": "visio/masters/master1.xml"
+    },
+    {
+      "id": "4",
+      "name": "ქურო",
+      "part": "visio/masters/master2.xml"
+    },
+    {
+      "id": "5",
+      "name": "Data Graphic.64",
+      "part": "visio/masters/master3.xml"
+    },
+    {
+      "id": "6",
+      "name": "Circle callout",
+      "part": "visio/masters/master4.xml"
+    },
+    {
+      "id": "7",
+      "name": "Heading 1",
+      "part": "visio/masters/master5.xml"
+    },
+    {
+      "id": "8",
+      "name": "სადგური",
+      "part": "visio/masters/master6.xml"
+    },
+    {
+      "id": "9",
+      "name": "საკანალიზაციო ოკ-72 მრავალმოდულიანი.49",
+      "part": "visio/masters/master7.xml"
+    },
+    {
+      "id": "10",
+      "name": "საჰაერო ოკ-24, 1 მოდული.27",
+      "part": "visio/masters/master8.xml"
+    },
+    {
+      "id": "11",
+      "name": "საჰაერო ოკ-24, 6მოდული.36",
+      "part": "visio/masters/master9.xml"
+    },
+    {
+      "id": "12",
+      "name": null,
+      "part": "visio/masters/master10.xml"
+    },
+    {
+      "id": "13",
+      "name": "ODF-24-2",
+      "part": "visio/masters/master11.xml"
+    },
+    {
+      "id": "14",
+      "name": "Data Graphic.51",
+      "part": "visio/masters/master12.xml"
+    },
+    {
+      "id": "15",
+      "name": "Heading 3",
+      "part": "visio/masters/master13.xml"
+    },
+    {
+      "id": "16",
+      "name": "Triangle callout",
+      "part": "visio/masters/master14.xml"
+    },
+    {
+      "id": "17",
+      "name": "Data Graphic.10",
+      "part": "visio/masters/master15.xml"
+    },
+    {
+      "id": "18",
+      "name": null,
+      "part": "visio/masters/master16.xml"
+    },
+    {
+      "id": "19",
+      "name": "Data Graphic.62",
+      "part": "visio/masters/master17.xml"
+    },
+    {
+      "id": "20",
+      "name": "Heading 2",
+      "part": "visio/masters/master18.xml"
+    },
+    {
+      "id": "21",
+      "name": "Dynamic connector",
+      "part": "visio/masters/master19.xml"
+    },
+    {
+      "id": "22",
+      "name": null,
+      "part": "visio/masters/master20.xml"
+    },
+    {
+      "id": "23",
+      "name": null,
+      "part": "visio/masters/master21.xml"
+    },
+    {
+      "id": "24",
+      "name": "Data Graphic.24",
+      "part": "visio/masters/master22.xml"
+    }
+  ],
+  "pageRelationships": [
+    {
+      "id": "rId3",
+      "resolved_part": "visio/masters/master21.xml",
+      "target": "../masters/master21.xml",
+      "target_mode": null,
+      "type": "http://schemas.microsoft.com/visio/2010/relationships/master"
+    },
+    {
+      "id": "rId2",
+      "resolved_part": "visio/masters/master6.xml",
+      "target": "../masters/master6.xml",
+      "target_mode": null,
+      "type": "http://schemas.microsoft.com/visio/2010/relationships/master"
+    },
+    {
+      "id": "rId1",
+      "resolved_part": "visio/masters/master20.xml",
+      "target": "../masters/master20.xml",
+      "target_mode": null,
+      "type": "http://schemas.microsoft.com/visio/2010/relationships/master"
+    },
+    {
+      "id": "rId4",
+      "resolved_part": "visio/masters/master19.xml",
+      "target": "../masters/master19.xml",
+      "target_mode": null,
+      "type": "http://schemas.microsoft.com/visio/2010/relationships/master"
+    }
+  ],
+  "parts": [
+    {
+      "compressed_bytes": 485,
+      "content_kind": "xml",
+      "part": "[Content_Types].xml",
+      "sha256": "638f8aa8ed35cfdb59af5cc5196a05109ec210172b6f71e31cf2908a79e26e11",
+      "size_bytes": 3683
+    },
+    {
+      "compressed_bytes": 293,
+      "content_kind": "xml",
+      "part": "_rels/.rels",
+      "sha256": "bb83266c59508deeb50a20a034d55a296561a8b16c920f9192c8f03201e3648a",
+      "size_bytes": 862
+    },
+    {
+      "compressed_bytes": 713,
+      "content_kind": "xml",
+      "part": "docProps/app.xml",
+      "sha256": "2e610de7e6325c2d1511e80c8edc9622e385d92b276ae9d274103be1580571a8",
+      "size_bytes": 1955
+    },
+    {
+      "compressed_bytes": 415,
+      "content_kind": "xml",
+      "part": "docProps/core.xml",
+      "sha256": "b5c93b76a460e546c86d4696a92e2e3fd49fd236f4619fca876b9b7bec447d2d",
+      "size_bytes": 792
+    },
+    {
+      "compressed_bytes": 370,
+      "content_kind": "xml",
+      "part": "docProps/custom.xml",
+      "sha256": "4b0f042e3bf6105832dea549fcbe2857e2b23ceb90a6213eb6d34727b88f27f3",
+      "size_bytes": 879
+    },
+    {
+      "compressed_bytes": 3694,
+      "content_kind": "binary",
+      "part": "docProps/thumbnail.emf",
+      "sha256": "5771b463e9593cc60a8d77f7bd37d88e9a753426f8f54ce450718c0b598044ae",
+      "size_bytes": 20416
+    },
+    {
+      "compressed_bytes": 257,
+      "content_kind": "xml",
+      "part": "visio/_rels/document.xml.rels",
+      "sha256": "b5c4cb5a727984a832b3efce52af816011b4503e21461659bf940cc740346a23",
+      "size_bytes": 758
+    },
+    {
+      "compressed_bytes": 481,
+      "content_kind": "xml",
+      "part": "visio/comments.xml",
+      "sha256": "78d6d255f5f0234c9735ad039ba35dbec91b4c341aeb179503308c939b558e3f",
+      "size_bytes": 759
+    },
+    {
+      "compressed_bytes": 5519,
+      "content_kind": "xml",
+      "part": "visio/document.xml",
+      "sha256": "0f8c9de3224336c6a95f6ce59221b9e96afe59f8459ab567791f9f63b563db5b",
+      "size_bytes": 29670
+    },
+    {
+      "compressed_bytes": 315,
+      "content_kind": "xml",
+      "part": "visio/masters/_rels/masters.xml.rels",
+      "sha256": "d7f5c3164ac6ccb12cf74a4d66b2aa229ac69d31772e0aa5f691b9ca07828152",
+      "size_bytes": 2691
+    },
+    {
+      "compressed_bytes": 14773,
+      "content_kind": "xml",
+      "part": "visio/masters/master1.xml",
+      "sha256": "27d6a7d1db229c872184e35b02d9aa2d36efe6031b7ccb4cfe55816e5f18730a",
+      "size_bytes": 361734
+    },
+    {
+      "compressed_bytes": 5852,
+      "content_kind": "xml",
+      "part": "visio/masters/master10.xml",
+      "sha256": "bb6fd009b315dbab03f6841cf3f92565a5b4018ace849440c3cd1590d2716184",
+      "size_bytes": 30030
+    },
+    {
+      "compressed_bytes": 23290,
+      "content_kind": "xml",
+      "part": "visio/masters/master11.xml",
+      "sha256": "d5211815aa71819c3e18eac54123bfac5bebfdd22fe4b73dc9bca62031d7c911",
+      "size_bytes": 335312
+    },
+    {
+      "compressed_bytes": 7354,
+      "content_kind": "xml",
+      "part": "visio/masters/master12.xml",
+      "sha256": "457b3c46a29be77ac24305e20b8c19413f32d1320697dc901e95271ccc288757",
+      "size_bytes": 60393
+    },
+    {
+      "compressed_bytes": 2830,
+      "content_kind": "xml",
+      "part": "visio/masters/master13.xml",
+      "sha256": "238719a6e3562af1bd12a43793e2f727f519095c5d72fa9065a0e8d989986114",
+      "size_bytes": 11756
+    },
+    {
+      "compressed_bytes": 2945,
+      "content_kind": "xml",
+      "part": "visio/masters/master14.xml",
+      "sha256": "0a22952d200c84160802fc4b51ae94a3d04c75edb9b10a9342f4cc8f72a5ccce",
+      "size_bytes": 11348
+    },
+    {
+      "compressed_bytes": 788,
+      "content_kind": "xml",
+      "part": "visio/masters/master15.xml",
+      "sha256": "7b9648852fc612d0792668a9b9956dd6b1d6196835fa3b374aaeb7165f6228fd",
+      "size_bytes": 1922
+    },
+    {
+      "compressed_bytes": 614,
+      "content_kind": "xml",
+      "part": "visio/masters/master16.xml",
+      "sha256": "928e6ad4810fbd8dbe82c9a7ecf763b64d1b409f086535c45e1dc79b42198002",
+      "size_bytes": 1552
+    },
+    {
+      "compressed_bytes": 3117,
+      "content_kind": "xml",
+      "part": "visio/masters/master17.xml",
+      "sha256": "4625f2cb370b8b10d417cdc32c5537b05c84be9eb06443ff27583dca5f90da45",
+      "size_bytes": 13154
+    },
+    {
+      "compressed_bytes": 2684,
+      "content_kind": "xml",
+      "part": "visio/masters/master18.xml",
+      "sha256": "2a9e1bbcbaa6a47a8576348a7e4b253a31e05e29652f44f11364a98e73720263",
+      "size_bytes": 11246
+    },
+    {
+      "compressed_bytes": 927,
+      "content_kind": "xml",
+      "part": "visio/masters/master19.xml",
+      "sha256": "3bf32770a9b4b19d06e970cfe1cc577c50b3f6a55319624f7811b1ab7cf42858",
+      "size_bytes": 2408
+    },
+    {
+      "compressed_bytes": 6241,
+      "content_kind": "xml",
+      "part": "visio/masters/master2.xml",
+      "sha256": "5e6aeb1846429f3d94e522a19deee3387dd89c6c4227b46bccbb3ddc18fd6549",
+      "size_bytes": 32937
+    },
+    {
+      "compressed_bytes": 916,
+      "content_kind": "xml",
+      "part": "visio/masters/master20.xml",
+      "sha256": "15496e985616b6dba4244c10aeab8c40608f0186e2d2c27ed012ae2ce4ac9628",
+      "size_bytes": 2245
+    },
+    {
+      "compressed_bytes": 6459,
+      "content_kind": "xml",
+      "part": "visio/masters/master21.xml",
+      "sha256": "59b0889707997cbfdcfabb8dec40a071ef1770620af6abfba6709cc9d17bcdfe",
+      "size_bytes": 40747
+    },
+    {
+      "compressed_bytes": 5061,
+      "content_kind": "xml",
+      "part": "visio/masters/master22.xml",
+      "sha256": "aa7d5fc290eb49ca42b28b25f3ee320e3c2069f8f9d266d294a30d32e3f480fb",
+      "size_bytes": 36594
+    },
+    {
+      "compressed_bytes": 4565,
+      "content_kind": "xml",
+      "part": "visio/masters/master3.xml",
+      "sha256": "8e6422e7696ed112d02ce1e28e87d7e66dcb9c9c9b263a36519bb10241aac8ba",
+      "size_bytes": 25084
+    },
+    {
+      "compressed_bytes": 2693,
+      "content_kind": "xml",
+      "part": "visio/masters/master4.xml",
+      "sha256": "fac7473f5dad9fff67c444604bf28e1e11f107cd50922354a285ec2741d41f07",
+      "size_bytes": 11048
+    },
+    {
+      "compressed_bytes": 2767,
+      "content_kind": "xml",
+      "part": "visio/masters/master5.xml",
+      "sha256": "485016eea44f071c3c94d94cc336211488c3ae688595b6c6e6d86ba1468073db",
+      "size_bytes": 11493
+    },
+    {
+      "compressed_bytes": 1097,
+      "content_kind": "xml",
+      "part": "visio/masters/master6.xml",
+      "sha256": "1e8e47fdf7a96e30b2d12a8c6e5cd976e14135498a81b4f5e29c0b68e5083f13",
+      "size_bytes": 4425
+    },
+    {
+      "compressed_bytes": 11096,
+      "content_kind": "xml",
+      "part": "visio/masters/master7.xml",
+      "sha256": "87eb8426a5f82b89379e9da92b039be498181d32ca907962bfc32725583377b2",
+      "size_bytes": 267707
+    },
+    {
+      "compressed_bytes": 22778,
+      "content_kind": "xml",
+      "part": "visio/masters/master8.xml",
+      "sha256": "658112a5fb09f3b73191a0779773f648f0da3158ed81ab4d0adce9a90c90a549",
+      "size_bytes": 215295
+    },
+    {
+      "compressed_bytes": 19762,
+      "content_kind": "xml",
+      "part": "visio/masters/master9.xml",
+      "sha256": "3df099eafa24f2e867de064b50ab12a0931a4cc78d63467e74c2590be6325a61",
+      "size_bytes": 276938
+    },
+    {
+      "compressed_bytes": 5806,
+      "content_kind": "xml",
+      "part": "visio/masters/masters.xml",
+      "sha256": "46339f497d83e4872637a4be40b8395306e1603b13cc81050c93dbe5198b85ec",
+      "size_bytes": 56924
+    },
+    {
+      "compressed_bytes": 218,
+      "content_kind": "xml",
+      "part": "visio/pages/_rels/page1.xml.rels",
+      "sha256": "4509682a032e1ca27a8a39499f6125513ba035aa01c39ca2c673f2d216380de9",
+      "size_bytes": 660
+    },
+    {
+      "compressed_bytes": 184,
+      "content_kind": "xml",
+      "part": "visio/pages/_rels/pages.xml.rels",
+      "sha256": "5ea921680b493c11639b02133cdf154f8300ac22ab8c2aadbb63fecea9e31bae",
+      "size_bytes": 267
+    },
+    {
+      "compressed_bytes": 1046859,
+      "content_kind": "xml",
+      "part": "visio/pages/page1.xml",
+      "sha256": "f40c5c582c10e032a384e98ba48f03b503139599e189050c1240cadc438b952a",
+      "size_bytes": 14355131
+    },
+    {
+      "compressed_bytes": 875,
+      "content_kind": "xml",
+      "part": "visio/pages/pages.xml",
+      "sha256": "68334b832ec29bae9db9330de525574aa8f82bc9c93f42a6a3c36aeec91647a7",
+      "size_bytes": 2397
+    },
+    {
+      "compressed_bytes": 190,
+      "content_kind": "xml",
+      "part": "visio/solutions/_rels/solutions.xml.rels",
+      "sha256": "bbf193730d9c0e8e1658634189334fac9459d7611791cbc81a40a54fd1b6096f",
+      "size_bytes": 275
+    },
+    {
+      "compressed_bytes": 362,
+      "content_kind": "xml",
+      "part": "visio/solutions/solution1.xml",
+      "sha256": "0adb2dbd2f9525f6102c7a6ab7b5481c4bb746ef20abdb88edcee08a3d0b1857",
+      "size_bytes": 996
+    },
+    {
+      "compressed_bytes": 210,
+      "content_kind": "xml",
+      "part": "visio/solutions/solutions.xml",
+      "sha256": "6e27f4d34f526b7b793ac3ad99c3db17b22fa57a6b8eda51d39ef2754ad48ea6",
+      "size_bytes": 288
+    },
+    {
+      "compressed_bytes": 473,
+      "content_kind": "xml",
+      "part": "visio/windows.xml",
+      "sha256": "8116cef0d7ce1a7cdc4877c5ca0f76bc94f18c537095f6d32445cfb7ca1b31ff",
+      "size_bytes": 847
+    }
+  ],
+  "source": {
+    "absolute_path": "C:\\Users\\Beka\\Desktop\\Visio Alt\\Tsageri-Lentekhi 2025.vsdx",
+    "file": "Tsageri-Lentekhi 2025.vsdx",
+    "modified_at": "2026-05-20T15:04:21.710335+00:00",
+    "sha256": "caae4badc9c8c30be0a5fa3ef26352c3e534a9de7c66e830ef470466bb34a6fa",
+    "size_bytes": 1223326
+  },
+  "themeParts": []
+}

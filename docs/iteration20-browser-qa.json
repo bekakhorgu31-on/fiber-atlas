@@ -1,0 +1,96 @@
+{
+  "desktop": [
+    {
+      "name": "Segment naming",
+      "selection": "segment:CAB-000172",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "inspectorScrollWidth": 412,
+        "inspectorClientWidth": 412,
+        "openDetails": 0,
+        "managerMode": true,
+        "url": "#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=segment%3ACAB-000172"
+      }
+    },
+    {
+      "name": "C148/F23 partial journey",
+      "selection": "fiber:CAB-000148:23",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "inspectorScrollWidth": 412,
+        "inspectorClientWidth": 412,
+        "openDetails": 0,
+        "managerMode": true,
+        "url": "#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=fiber%3ACAB-000148%3A23"
+      }
+    },
+    {
+      "name": "AGG5 Port175",
+      "selection": "port:odf:ODF-TSAGERI-01:175",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "inspectorScrollWidth": 412,
+        "inspectorClientWidth": 412,
+        "openDetails": 0,
+        "managerMode": true,
+        "url": "#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=port%3Aodf%3AODF-TSAGERI-01%3A175"
+      }
+    },
+    {
+      "name": "AP51 Port3",
+      "selection": "port:ap:51:3",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "inspectorScrollWidth": 412,
+        "inspectorClientWidth": 412,
+        "openDetails": 0,
+        "managerMode": true,
+        "url": "#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=port%3Aap%3A51%3A3"
+      }
+    },
+    {
+      "name": "AP41 Port18 partial",
+      "selection": "port:ap:41:18",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "inspectorScrollWidth": 412,
+        "inspectorClientWidth": 412,
+        "openDetails": 0,
+        "managerMode": true,
+        "url": "#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=port%3Aap%3A41%3A18"
+      }
+    },
+    {
+      "name": "Lentekhi Port31",
+      "selection": "port:odf:ODF-LENTEKHI-01:31",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "inspectorScrollWidth": 412,
+        "inspectorClientWidth": 412,
+        "openDetails": 0,
+        "managerMode": true,
+        "url": "#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=port%3Aodf%3AODF-LENTEKHI-01%3A31"
+      }
+    }
+  ],
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "inspectorScrollWidth": 390,
+    "inspectorClientWidth": 390,
+    "bottomSheet": "fixed"
+  },
+  "standalone": {
+    "width": 1280,
+    "scrollWidth": 1280,
+    "scripts": 1,
+    "linkedStyles": 0
+  },
+  "logs": []
+}

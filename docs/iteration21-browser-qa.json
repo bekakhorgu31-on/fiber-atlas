@@ -1,0 +1,92 @@
+{
+  "desktop": [
+    {
+      "name": "F32 AP52 to Lentekhi",
+      "selection": "fiber:CAB-000176:32",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "inspectorScrollWidth": 412,
+        "inspectorClientWidth": 412,
+        "managerMode": true,
+        "activeSegments": [
+          "segment:CAB-000176",
+          "segment:CAB-000177",
+          "segment:CAB-000178",
+          "segment:CAB-000179",
+          "segment:CAB-000180",
+          "segment:CAB-000184"
+        ],
+        "activeBranches": [
+          "segment:CAB-000175"
+        ],
+        "lineage": "GOLDEN-SC219-F32-AP52-LENTEKHI",
+        "openDetails": 0,
+        "hash": "#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=fiber%3ACAB-000176%3A32"
+      }
+    },
+    {
+      "name": "Lentekhi Port38",
+      "selection": "port:odf:ODF-LENTEKHI-01:38",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "inspectorScrollWidth": 412,
+        "inspectorClientWidth": 412,
+        "managerMode": true,
+        "activeSegments": [],
+        "activeBranches": [],
+        "openDetails": 0,
+        "hash": "#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=port%3Aodf%3AODF-LENTEKHI-01%3A38"
+      }
+    },
+    {
+      "name": "Adjacent F37",
+      "selection": "fiber:CAB-000184:37",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "inspectorScrollWidth": 412,
+        "inspectorClientWidth": 412,
+        "managerMode": true,
+        "activeSegments": [
+          "segment:CAB-000181",
+          "segment:CAB-000184"
+        ],
+        "activeBranches": [],
+        "lineage": "LINEAGE-GRAPH-255",
+        "openDetails": 0,
+        "hash": "#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=fiber%3ACAB-000184%3A37"
+      }
+    }
+  ],
+  "mobile": [
+    {
+      "name": "F32 mobile",
+      "state": {
+        "width": 390,
+        "scrollWidth": 390,
+        "inspectorScrollWidth": 390,
+        "inspectorClientWidth": 390,
+        "position": "fixed"
+      }
+    },
+    {
+      "name": "Port38 mobile",
+      "state": {
+        "width": 390,
+        "scrollWidth": 390,
+        "inspectorScrollWidth": 390,
+        "inspectorClientWidth": 390,
+        "position": "fixed"
+      }
+    }
+  ],
+  "standalone": {
+    "width": 1280,
+    "scrollWidth": 1280,
+    "scripts": 1,
+    "linkedStyles": 0
+  },
+  "logs": []
+}

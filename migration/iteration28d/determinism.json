@@ -1,0 +1,17 @@
+{
+  "byteIdentical": true,
+  "runA": {
+    "migration/iteration28d/source-b-ap-port-audit.json": "a99ed0dc396ca9129c78549cde9acd673ad0298b72e227915609479e8cc944de",
+    "migration/iteration28d/source-b-network-use-audit.json": "4040849e5210973a30948d83764a39fd3d7e2d4fdee863a3fa46663e70e2a7d5",
+    "migration/iteration28d/review-queue.json": "6e53a46418ed7a0162fce2a44776d78c6e14872982d39d9aff33320079522d92",
+    "src/data/source-b-ap-inventory.json": "573988938dad56ea3cad034ea3b50608ab71ff9876aa565cbb649f0e11ab039d",
+    "migration/iteration28d/active-projection-audit.json": "04f334793b66f2716706272018e12f6f85478977c5ed616b28dbd4a94eecddb9"
+  },
+  "runB": {
+    "migration/iteration28d/source-b-ap-port-audit.json": "a99ed0dc396ca9129c78549cde9acd673ad0298b72e227915609479e8cc944de",
+    "migration/iteration28d/source-b-network-use-audit.json": "4040849e5210973a30948d83764a39fd3d7e2d4fdee863a3fa46663e70e2a7d5",
+    "migration/iteration28d/review-queue.json": "6e53a46418ed7a0162fce2a44776d78c6e14872982d39d9aff33320079522d92",
+    "src/data/source-b-ap-inventory.json": "573988938dad56ea3cad034ea3b50608ab71ff9876aa565cbb649f0e11ab039d",
+    "migration/iteration28d/active-projection-audit.json": "04f334793b66f2716706272018e12f6f85478977c5ed616b28dbd4a94eecddb9"
+  }
+}

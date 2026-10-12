@@ -1,0 +1,1899 @@
+{
+  "schemaVersion": 1,
+  "state": "NOT_CERTIFIED",
+  "activation": "withheld",
+  "source": {
+    "id": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+    "filename": "Tsageri-Alpana-Tvishi.vsdx",
+    "sha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+  },
+  "package": {
+    "gate": "PASS",
+    "package_parts": 40,
+    "pages": 1,
+    "all_page_shapes_including_subshapes": 9707,
+    "top_level_shapes": 3397,
+    "grouped_subshapes": 6310,
+    "direct_text_shapes": 3569,
+    "connect_rows_valid": 311,
+    "connect_rows_dangling": 0,
+    "masters": 22,
+    "styles": 7,
+    "shapes_with_local_property_sections": 297,
+    "unresolved_effective_colors": 0
+  },
+  "inventoryCandidates": {
+    "cableSegments": 22,
+    "fiberPositionsAcrossCableLabels": 1512,
+    "markerBankGroups": 42,
+    "uniqueFiberMarkerShapes": 2928,
+    "transitionBearingNodeTokens": [
+      "SC205",
+      "SC206",
+      "SC207",
+      "SC208",
+      "SC209",
+      "SC210",
+      "SC211",
+      "SC212",
+      "SC213",
+      "SC214",
+      "SC215"
+    ],
+    "endpointNumberTokensRequireAssetClassification": [
+      "5",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "205",
+      "206",
+      "207",
+      "208",
+      "209",
+      "210",
+      "211",
+      "212",
+      "213",
+      "214",
+      "215",
+      "216",
+      "225"
+    ],
+    "portsCertified": 0,
+    "canonicalAssetsActivated": 0,
+    "routesActivated": 0,
+    "fiberLineagesActivated": 0
+  },
+  "textShapeDisposition": {
+    "totalNonemptyTextShapes": 3569,
+    "categories": {
+      "Aggregation/ODF note": 2,
+      "Cable label": 22,
+      "Capacity note": 42,
+      "Company label": 24,
+      "Cut/module note": 3,
+      "Numeric/layout text": 3463,
+      "Place/other text": 9,
+      "Route/direction note": 2,
+      "Technical note": 2
+    },
+    "companyOccurrenceCounts": {
+      "Magti": 10,
+      "OpenNet (Georgian label)": 8,
+      "Silknet": 5,
+      "Skytel": 1
+    },
+    "companyOccurrences": [
+      {
+        "organizationText": "მაგთი",
+        "organizationKey": "Magti",
+        "shapeId": "17536",
+        "sourceDocumentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+        "pageName": "სვანეთი",
+        "worldAngle": -1.570796326794897,
+        "worldBounds": {
+          "height": 7.083745820838999,
+          "max_x": 38.46788806427184,
+          "max_y": 595.3979668489294,
+          "min_x": 38.46788806427184,
+          "min_y": 588.3142210280904,
+          "width": 0.0
+        },
+        "groupPath": [],
+        "directConnectEvidence": [],
+        "nearestTransitionMarkerShapes": [
+          {
+            "shapeId": "16148",
+            "segment": "148",
+            "fiberNumber": 20,
+            "fiberColor": "black",
+            "distance": 3.5584
+          },
+          {
+            "shapeId": "16147",
+            "segment": "148",
+            "fiberNumber": 19,
+            "fiberColor": "red",
+            "distance": 3.5596
+          },
+          {
+            "shapeId": "16149",
+            "segment": "148",
+            "fiberNumber": 21,
+            "fiberColor": "yellow",
+            "distance": 3.5596
+          },
+          {
+            "shapeId": "16146",
+            "segment": "148",
+            "fiberNumber": 18,
+            "fiberColor": "white",
+            "distance": 3.5631
+          },
+          {
+            "shapeId": "16348",
+            "segment": "148",
+            "fiberNumber": 22,
+            "fiberColor": "violet",
+            "distance": 3.5634
+          }
+        ],
+        "disposition": "unresolved_source_context",
+        "spatialEvidenceWarning": "Nearest marker positions are spatial context only; no Fiber, Port, or company assignment is inferred."
+      },
+      {
+        "organizationText": "მაგთი",
+        "organizationKey": "Magti",
+        "shapeId": "17537",
+        "sourceDocumentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+        "pageName": "სვანეთი",
+        "worldAngle": -1.570796326794897,
+        "worldBounds": {
+          "height": 7.083745820838999,
+          "max_x": 38.56554431427184,
+          "max_y": 595.3979668489294,
+          "min_x": 38.56554431427184,
+          "min_y": 588.3142210280904,
+          "width": 0.0
+        },
+        "groupPath": [],
+        "directConnectEvidence": [],
+        "nearestTransitionMarkerShapes": [
+          {
+            "shapeId": "16149",
+            "segment": "148",
+            "fiberNumber": 21,
+            "fiberColor": "yellow",
+            "distance": 3.5584
+          },
+          {
+            "shapeId": "16348",
+            "segment": "148",
+            "fiberNumber": 22,
+            "fiberColor": "violet",
+            "distance": 3.5596
+          },
+          {
+            "shapeId": "16148",
+            "segment": "148",
+            "fiberNumber": 20,
+            "fiberColor": "black",
+            "distance": 3.5598
+          },
+          {
+            "shapeId": "16347",
+            "segment": "148",
+            "fiberNumber": 23,
+            "fiberColor": "rose",
+            "distance": 3.5621
+          },
+          {
+            "shapeId": "16147",
+            "segment": "148",
+            "fiberNumber": 19,
+            "fiberColor": "red",
+            "distance": 3.5635
+          }
+        ],
+        "disposition": "unresolved_source_context",
+        "spatialEvidenceWarning": "Nearest marker positions are spatial context only; no Fiber, Port, or company assignment is inferred."
+      },
+      {
+        "organizationText": "ოუფენ ნეტი",
+        "organizationKey": "OpenNet (Georgian label)",
+        "shapeId": "17661",
+        "sourceDocumentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+        "pageName": "სვანეთი",
+        "worldAngle": -1.570796326794897,
+        "worldBounds": {
+          "height": 7.083745820838999,
+          "max_x": 49.78820056427184,
+          "max_y": 595.3979668489294,
+          "min_x": 49.78820056427184,
+          "min_y": 588.3142210280904,
+          "width": 0.0
+        },
+        "groupPath": [],
+        "directConnectEvidence": [],
+        "nearestTransitionMarkerShapes": [
+          {
+            "shapeId": "16418",
+            "segment": "148",
+            "fiberNumber": 145,
+            "fiberColor": "blue",
+            "distance": 3.5584
+          },
+          {
+            "shapeId": "16419",
+            "segment": "148",
+            "fiberNumber": 146,
+            "fiberColor": "orange",
+            "distance": 3.5596
+          },
+          {
+            "shapeId": "16400",
+            "segment": "148",
+            "fiberNumber": 144,
+            "fiberColor": "aqua",
+            "distance": 3.5596
+          },
+          {
+            "shapeId": "16412",
+            "segment": "148",
+            "fiberNumber": 143,
+            "fiberColor": "rose",
+            "distance": 3.5625
+          },
+          {
+            "shapeId": "16420",
+            "segment": "148",
+            "fiberNumber": 147,
+            "fiberColor": "green",
+            "distance": 3.5632
+          }
+        ],
+        "disposition": "unresolved_source_context",
+        "spatialEvidenceWarning": "Nearest marker positions are spatial context only; no Fiber, Port, or company assignment is inferred."
+      },
+      {
+        "organizationText": "ოუფენ ნეტი",
+        "organizationKey": "OpenNet (Georgian label)",
+        "shapeId": "17662",
+        "sourceDocumentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+        "pageName": "სვანეთი",
+        "worldAngle": -1.570796326794897,
+        "worldBounds": {
+          "height": 7.083745820838999,
+          "max_x": 49.87804431427184,
+          "max_y": 595.3979668489294,
+          "min_x": 49.87804431427184,
+          "min_y": 588.3142210280904,
+          "width": 0.0
+        },
+        "groupPath": [],
+        "directConnectEvidence": [],
+        "nearestTransitionMarkerShapes": [
+          {
+            "shapeId": "16419",
+            "segment": "148",
+            "fiberNumber": 146,
+            "fiberColor": "orange",
+            "distance": 3.5584
+          },
+          {
+            "shapeId": "16418",
+            "segment": "148",
+            "fiberNumber": 145,
+            "fiberColor": "blue",
+            "distance": 3.5595
+          },
+          {
+            "shapeId": "16420",
+            "segment": "148",
+            "fiberNumber": 147,
+            "fiberColor": "green",
+            "distance": 3.5597
+          },
+          {
+            "shapeId": "16400",
+            "segment": "148",
+            "fiberNumber": 144,
+            "fiberColor": "aqua",
+            "distance": 3.5631
+          },
+          {
+            "shapeId": "16421",
+            "segment": "148",
+            "fiberNumber": 148,
+            "fiberColor": "brown",
+            "distance": 3.5632
+          }
+        ],
+        "disposition": "unresolved_source_context",
+        "spatialEvidenceWarning": "Nearest marker positions are spatial context only; no Fiber, Port, or company assignment is inferred."
+      },
+      {
+        "organizationText": "ოუფენ ნეტი",
+        "organizationKey": "OpenNet (Georgian label)",
+        "shapeId": "17663",
+        "sourceDocumentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+        "pageName": "სვანეთი",
+        "worldAngle": -1.570796326794897,
+        "worldBounds": {
+          "height": 7.083745820838999,
+          "max_x": 49.97179431427184,
+          "max_y": 595.3979668489294,
+          "min_x": 49.97179431427184,
+          "min_y": 588.3142210280904,
+          "width": 0.0
+        },
+        "groupPath": [],
+        "directConnectEvidence": [],
+        "nearestTransitionMarkerShapes": [
+          {
+            "shapeId": "16420",
+            "segment": "148",
+            "fiberNumber": 147,
+            "fiberColor": "green",
+            "distance": 3.5584
+          },
+          {
+            "shapeId": "16419",
+            "segment": "148",
+            "fiberNumber": 146,
+            "fiberColor": "orange",
+            "distance": 3.5596
+          },
+          {
+            "shapeId": "16421",
+            "segment": "148",
+            "fiberNumber": 148,
+            "fiberColor": "brown",
+            "distance": 3.5596
+          },
+          {
+            "shapeId": "16418",
+            "segment": "148",
+            "fiberNumber": 145,
+            "fiberColor": "blue",
+            "distance": 3.5631
+          },
+          {
+            "shapeId": "16417",
+            "segment": "148",
+            "fiberNumber": 149,
+            "fiberColor": "slate",
+            "distance": 3.5631
+          }
+        ],
+        "disposition": "unresolved_source_context",
+        "spatialEvidenceWarning": "Nearest marker positions are spatial context only; no Fiber, Port, or company assignment is inferred."
+      },
+      {
+        "organizationText": "ოუფენ ნეტი",
+        "organizationKey": "OpenNet (Georgian label)",
+        "shapeId": "17664",
+        "sourceDocumentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+        "pageName": "სვანეთი",
+        "worldAngle": -1.570796326794897,
+        "worldBounds": {
+          "height": 7.083745820838999,
+          "max_x": 50.06554431427184,
+          "max_y": 595.3979668489294,
+          "min_x": 50.06554431427184,
+          "min_y": 588.3142210280904,
+          "width": 0.0
+        },
+        "groupPath": [],
+        "directConnectEvidence": [],
+        "nearestTransitionMarkerShapes": [
+          {
+            "shapeId": "16421",
+            "segment": "148",
+            "fiberNumber": 148,
+            "fiberColor": "brown",
+            "distance": 3.5584
+          },
+          {
+            "shapeId": "16417",
+            "segment": "148",
+            "fiberNumber": 149,
+            "fiberColor": "slate",
+            "distance": 3.5595
+          },
+          {
+            "shapeId": "16420",
+            "segment": "148",
+            "fiberNumber": 147,
+            "fiberColor": "green",
+            "distance": 3.5596
+          },
+          {
+            "shapeId": "16422",
+            "segment": "148",
+            "fiberNumber": 150,
+            "fiberColor": "white",
+            "distance": 3.563
+          },
+          {
+            "shapeId": "16419",
+            "segment": "148",
+            "fiberNumber": 146,
+            "fiberColor": "orange",
+            "distance": 3.5632
+          }
+        ],
+        "disposition": "unresolved_source_context",
+        "spatialEvidenceWarning": "Nearest marker positions are spatial context only; no Fiber, Port, or company assignment is inferred."
+      },
+      {
+        "organizationText": "მაგთი",
+        "organizationKey": "Magti",
+        "shapeId": "17665",
+        "sourceDocumentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+        "pageName": "სვანეთი",
+        "worldAngle": -1.570796326794897,
+        "worldBounds": {
+          "height": 7.083745820838999,
+          "max_x": 50.15538806427184,
+          "max_y": 595.3979668489294,
+          "min_x": 50.15538806427184,
+          "min_y": 588.3142210280904,
+          "width": 0.0
+        },
+        "groupPath": [],
+        "directConnectEvidence": [],
+        "nearestTransitionMarkerShapes": [
+          {
+            "shapeId": "16417",
+            "segment": "148",
+            "fiberNumber": 149,
+            "fiberColor": "slate",
+            "distance": 3.5584
+          },
+          {
+            "shapeId": "16421",
+            "segment": "148",
+            "fiberNumber": 148,
+            "fiberColor": "brown",
+            "distance": 3.5596
+          },
+          {
+            "shapeId": "16422",
+            "segment": "148",
+            "fiberNumber": 150,
+            "fiberColor": "white",
+            "distance": 3.5596
+          },
+          {
+            "shapeId": "16423",
+            "segment": "148",
+            "fiberNumber": 151,
+            "fiberColor": "red",
+            "distance": 3.563
+          },
+          {
+            "shapeId": "16420",
+            "segment": "148",
+            "fiberNumber": 147,
+            "fiberColor": "green",
+            "distance": 3.5631
+          }
+        ],
+        "disposition": "unresolved_source_context",
+        "spatialEvidenceWarning": "Nearest marker positions are spatial context only; no Fiber, Port, or company assignment is inferred."
+      },
+      {
+        "organizationText": "მაგთი",
+        "organizationKey": "Magti",
+        "shapeId": "17668",
+        "sourceDocumentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+        "pageName": "სვანეთი",
+        "worldAngle": -1.570796326794897,
+        "worldBounds": {
+          "height": 7.083745820838999,
+          "max_x": 50.42687243927184,
+          "max_y": 595.3979668489294,
+          "min_x": 50.42687243927184,
+          "min_y": 588.3142210280904,
+          "width": 0.0
+        },
+        "groupPath": [],
+        "directConnectEvidence": [],
+        "nearestTransitionMarkerShapes": [
+          {
+            "shapeId": "16424",
+            "segment": "148",
+            "fiberNumber": 152,
+            "fiberColor": "black",
+            "distance": 3.5584
+          },
+          {
+            "shapeId": "16423",
+            "segment": "148",
+            "fiberNumber": 151,
+            "fiberColor": "red",
+            "distance": 3.5596
+          },
+          {
+            "shapeId": "16425",
+            "segment": "148",
+            "fiberNumber": 153,
+            "fiberColor": "yellow",
+            "distance": 3.5596
+          },
+          {
+            "shapeId": "16422",
+            "segment": "148",
+            "fiberNumber": 150,
+            "fiberColor": "white",
+            "distance": 3.563
+          },
+          {
+            "shapeId": "16427",
+            "segment": "148",
+            "fiberNumber": 154,
+            "fiberColor": "violet",
+            "distance": 3.5633
+          }
+        ],
+        "disposition": "unresolved_source_context",
+        "spatialEvidenceWarning": "Nearest marker positions are spatial context only; no Fiber, Port, or company assignment is inferred."
+      },
+      {
+        "organizationText": "სილქნეტი",
+        "organizationKey": "Silknet",
+        "shapeId": "17670",
+        "sourceDocumentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+        "pageName": "სვანეთი",
+        "worldAngle": -1.570796326794897,
+        "worldBounds": {
+          "height": 7.083745820838999,
+          "max_x": 50.61046618927184,
+          "max_y": 595.3979668489294,
+          "min_x": 50.61046618927184,
+          "min_y": 588.3142210280904,
+          "width": 0.0
+        },
+        "groupPath": [],
+        "directConnectEvidence": [],
+        "nearestTransitionMarkerShapes": [
+          {
+            "shapeId": "16427",
+            "segment": "148",
+            "fiberNumber": 154,
+            "fiberColor": "violet",
+            "distance": 3.5584
+          },
+          {
+            "shapeId": "16426",
+            "segment": "148",
+            "fiberNumber": 155,
+            "fiberColor": "rose",
+            "distance": 3.5588
+          },
+          {
+            "shapeId": "16425",
+            "segment": "148",
+            "fiberNumber": 153,
+            "fiberColor": "yellow",
+            "distance": 3.5596
+          },
+          {
+            "shapeId": "16424",
+            "segment": "148",
+            "fiberNumber": 152,
+            "fiberColor": "black",
+            "distance": 3.5631
+          },
+          {
+            "shapeId": "16428",
+            "segment": "148",
+            "fiberNumber": 156,
+            "fiberColor": "aqua",
+            "distance": 3.5631
+          }
+        ],
+        "disposition": "unresolved_source_context",
+        "spatialEvidenceWarning": "Nearest marker positions are spatial context only; no Fiber, Port, or company assignment is inferred."
+      },
+      {
+        "organizationText": "სილქნეტი",
+        "organizationKey": "Silknet",
+        "shapeId": "17671",
+        "sourceDocumentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+        "pageName": "სვანეთი",
+        "worldAngle": -1.570796326794897,
+        "worldBounds": {
+          "height": 7.083745820838999,
+          "max_x": 50.69640368927184,
+          "max_y": 595.3979668489294,
+          "min_x": 50.69640368927184,
+          "min_y": 588.3142210280904,
+          "width": 0.0
+        },
+        "groupPath": [],
+        "directConnectEvidence": [],
+        "nearestTransitionMarkerShapes": [
+          {
+            "shapeId": "16426",
+            "segment": "148",
+            "fiberNumber": 155,
+            "fiberColor": "rose",
+            "distance": 3.5576
+          },
+          {
+            "shapeId": "16427",
+            "segment": "148",
+            "fiberNumber": 154,
+            "fiberColor": "violet",
+            "distance": 3.5594
+          },
+          {
+            "shapeId": "16428",
+            "segment": "148",
+            "fiberNumber": 156,
+            "fiberColor": "aqua",
+            "distance": 3.5597
+          },
+          {
+            "shapeId": "16425",
+            "segment": "148",
+            "fiberNumber": 153,
+            "fiberColor": "yellow",
+            "distance": 3.5628
+          },
+          {
+            "shapeId": "16433",
+            "segment": "148",
+            "fiberNumber": 157,
+            "fiberColor": "blue",
+            "distance": 3.5629
+          }
+        ],
+        "disposition": "unresolved_source_context",
+        "spatialEvidenceWarning": "Nearest marker positions are spatial context only; no Fiber, Port, or company assignment is inferred."
+      },
+      {
+        "organizationText": "სქაიტელი",
+        "organizationKey": "Skytel",
+        "shapeId": "17672",
+        "sourceDocumentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+        "pageName": "სვანეთი",
+        "worldAngle": -1.570796326794897,
+        "worldBounds": {
+          "height": 7.083745820838999,
+          "max_x": 50.79053677877425,
+          "max_y": 595.3979668489294,
+          "min_x": 50.79053677877425,
+          "min_y": 588.3142210280904,
+          "width": 0.0
+        },
+        "groupPath": [],
+        "directConnectEvidence": [],
+        "nearestTransitionMarkerShapes": [
+          {
+            "shapeId": "16428",
+            "segment": "148",
+            "fiberNumber": 156,
+            "fiberColor": "aqua",
+            "distance": 3.5584
+          },
+          {
+            "shapeId": "16426",
+            "segment": "148",
+            "fiberNumber": 155,
+            "fiberColor": "rose",
+            "distance": 3.5588
+          },
+          {
+            "shapeId": "16433",
+            "segment": "148",
+            "fiberNumber": 157,
+            "fiberColor": "blue",
+            "distance": 3.5594
+          },
+          {
+            "shapeId": "16427",
+            "segment": "148",
+            "fiberNumber": 154,
+            "fiberColor": "violet",
+            "distance": 3.5628
+          },
+          {
+            "shapeId": "16434",
+            "segment": "148",
+            "fiberNumber": 158,
+            "fiberColor": "orange",
+            "distance": 3.5628
+          }
+        ],
+        "disposition": "unresolved_source_context",
+        "spatialEvidenceWarning": "Nearest marker positions are spatial context only; no Fiber, Port, or company assignment is inferred."
+      },
+      {
+        "organizationText": "მაგთი",
+        "organizationKey": "Magti",
+        "shapeId": "29210",
+        "sourceDocumentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+        "pageName": "სვანეთი",
+        "worldAngle": -1.570796326794897,
+        "worldBounds": {
+          "height": 3.5,
+          "max_x": 38.46007556427183,
+          "max_y": 496.1875033637008,
+          "min_x": 38.46007556427183,
+          "min_y": 492.6875033637008,
+          "width": 0.0
+        },
+        "groupPath": [],
+        "directConnectEvidence": [],
+        "nearestTransitionMarkerShapes": [
+          {
+            "shapeId": "27795",
+            "segment": "161",
+            "fiberNumber": 20,
+            "fiberColor": "black",
+            "distance": 1.7611
+          },
+          {
+            "shapeId": "27796",
+            "segment": "161",
+            "fiberNumber": 21,
+            "fiberColor": "yellow",
+            "distance": 1.7634
+          },
+          {
+            "shapeId": "27794",
+            "segment": "161",
+            "fiberNumber": 19,
+            "fiberColor": "red",
+            "distance": 1.7635
+          },
+          {
+            "shapeId": "27793",
+            "segment": "161",
+            "fiberNumber": 18,
+            "fiberColor": "white",
+            "distance": 1.7706
+          },
+          {
+            "shapeId": "27905",
+            "segment": "161",
+            "fiberNumber": 22,
+            "fiberColor": "violet",
+            "distance": 1.7713
+          }
+        ],
+        "disposition": "unresolved_source_context",
+        "spatialEvidenceWarning": "Nearest marker positions are spatial context only; no Fiber, Port, or company assignment is inferred."
+      },
+      {
+        "organizationText": "მაგთი",
+        "organizationKey": "Magti",
+        "shapeId": "29211",
+        "sourceDocumentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+        "pageName": "სვანეთი",
+        "worldAngle": -1.570796326794897,
+        "worldBounds": {
+          "height": 3.5,
+          "max_x": 38.55773181427183,
+          "max_y": 496.1875033637008,
+          "min_x": 38.55773181427183,
+          "min_y": 492.6875033637008,
+          "width": 0.0
+        },
+        "groupPath": [],
+        "directConnectEvidence": [],
+        "nearestTransitionMarkerShapes": [
+          {
+            "shapeId": "27796",
+            "segment": "161",
+            "fiberNumber": 21,
+            "fiberColor": "yellow",
+            "distance": 1.7611
+          },
+          {
+            "shapeId": "27905",
+            "segment": "161",
+            "fiberNumber": 22,
+            "fiberColor": "violet",
+            "distance": 1.7635
+          },
+          {
+            "shapeId": "27795",
+            "segment": "161",
+            "fiberNumber": 20,
+            "fiberColor": "black",
+            "distance": 1.7639
+          },
+          {
+            "shapeId": "27904",
+            "segment": "161",
+            "fiberNumber": 23,
+            "fiberColor": "rose",
+            "distance": 1.7708
+          },
+          {
+            "shapeId": "27794",
+            "segment": "161",
+            "fiberNumber": 19,
+            "fiberColor": "red",
+            "distance": 1.7713
+          }
+        ],
+        "disposition": "unresolved_source_context",
+        "spatialEvidenceWarning": "Nearest marker positions are spatial context only; no Fiber, Port, or company assignment is inferred."
+      },
+      {
+        "organizationText": "ოუფენ ნეტი",
+        "organizationKey": "OpenNet (Georgian label)",
+        "shapeId": "33804",
+        "sourceDocumentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+        "pageName": "სვანეთი",
+        "worldAngle": -1.570796326794897,
+        "worldBounds": {
+          "height": 3.5,
+          "max_x": 92.5828917552167,
+          "max_y": 547.0937356593935,
+          "min_x": 92.5828917552167,
+          "min_y": 543.5937356593935,
+          "width": 0.0
+        },
+        "groupPath": [],
+        "directConnectEvidence": [],
+        "nearestTransitionMarkerShapes": [
+          {
+            "shapeId": "33257",
+            "segment": "169",
+            "fiberNumber": 1,
+            "fiberColor": "blue",
+            "distance": 1.7656
+          },
+          {
+            "shapeId": "33258",
+            "segment": "169",
+            "fiberNumber": 2,
+            "fiberColor": "orange",
+            "distance": 1.7678
+          },
+          {
+            "shapeId": "33259",
+            "segment": "169",
+            "fiberNumber": 3,
+            "fiberColor": "green",
+            "distance": 1.7746
+          },
+          {
+            "shapeId": "33260",
+            "segment": "169",
+            "fiberNumber": 4,
+            "fiberColor": "brown",
+            "distance": 1.7861
+          },
+          {
+            "shapeId": "33256",
+            "segment": "169",
+            "fiberNumber": 5,
+            "fiberColor": "slate",
+            "distance": 1.8022
+          }
+        ],
+        "disposition": "unresolved_source_context",
+        "spatialEvidenceWarning": "Nearest marker positions are spatial context only; no Fiber, Port, or company assignment is inferred."
+      },
+      {
+        "organizationText": "ოუფენ ნეტი",
+        "organizationKey": "OpenNet (Georgian label)",
+        "shapeId": "33805",
+        "sourceDocumentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+        "pageName": "სვანეთი",
+        "worldAngle": -1.570796326794897,
+        "worldBounds": {
+          "height": 3.5,
+          "max_x": 92.6688292552167,
+          "max_y": 547.0937356593935,
+          "min_x": 92.6688292552167,
+          "min_y": 543.5937356593935,
+          "width": 0.0
+        },
+        "groupPath": [],
+        "directConnectEvidence": [],
+        "nearestTransitionMarkerShapes": [
+          {
+            "shapeId": "33258",
+            "segment": "169",
+            "fiberNumber": 2,
+            "fiberColor": "orange",
+            "distance": 1.7656
+          },
+          {
+            "shapeId": "33257",
+            "segment": "169",
+            "fiberNumber": 1,
+            "fiberColor": "blue",
+            "distance": 1.7678
+          },
+          {
+            "shapeId": "33259",
+            "segment": "169",
+            "fiberNumber": 3,
+            "fiberColor": "green",
+            "distance": 1.768
+          },
+          {
+            "shapeId": "33260",
+            "segment": "169",
+            "fiberNumber": 4,
+            "fiberColor": "brown",
+            "distance": 1.7752
+          },
+          {
+            "shapeId": "33256",
+            "segment": "169",
+            "fiberNumber": 5,
+            "fiberColor": "slate",
+            "distance": 1.7869
+          }
+        ],
+        "disposition": "unresolved_source_context",
+        "spatialEvidenceWarning": "Nearest marker positions are spatial context only; no Fiber, Port, or company assignment is inferred."
+      },
+      {
+        "organizationText": "ოუფენ ნეტი",
+        "organizationKey": "OpenNet (Georgian label)",
+        "shapeId": "33806",
+        "sourceDocumentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+        "pageName": "სვანეთი",
+        "worldAngle": -1.570796326794897,
+        "worldBounds": {
+          "height": 3.5,
+          "max_x": 92.7625792552167,
+          "max_y": 547.0937356593935,
+          "min_x": 92.7625792552167,
+          "min_y": 543.5937356593935,
+          "width": 0.0
+        },
+        "groupPath": [],
+        "directConnectEvidence": [],
+        "nearestTransitionMarkerShapes": [
+          {
+            "shapeId": "33259",
+            "segment": "169",
+            "fiberNumber": 3,
+            "fiberColor": "green",
+            "distance": 1.7656
+          },
+          {
+            "shapeId": "33260",
+            "segment": "169",
+            "fiberNumber": 4,
+            "fiberColor": "brown",
+            "distance": 1.7679
+          },
+          {
+            "shapeId": "33258",
+            "segment": "169",
+            "fiberNumber": 2,
+            "fiberColor": "orange",
+            "distance": 1.768
+          },
+          {
+            "shapeId": "33256",
+            "segment": "169",
+            "fiberNumber": 5,
+            "fiberColor": "slate",
+            "distance": 1.7749
+          },
+          {
+            "shapeId": "33257",
+            "segment": "169",
+            "fiberNumber": 1,
+            "fiberColor": "blue",
+            "distance": 1.7751
+          }
+        ],
+        "disposition": "unresolved_source_context",
+        "spatialEvidenceWarning": "Nearest marker positions are spatial context only; no Fiber, Port, or company assignment is inferred."
+      },
+      {
+        "organizationText": "ოუფენ ნეტი",
+        "organizationKey": "OpenNet (Georgian label)",
+        "shapeId": "33807",
+        "sourceDocumentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+        "pageName": "სვანეთი",
+        "worldAngle": -1.570796326794897,
+        "worldBounds": {
+          "height": 3.5,
+          "max_x": 92.8485167552167,
+          "max_y": 547.0937356593935,
+          "min_x": 92.8485167552167,
+          "min_y": 543.5937356593935,
+          "width": 0.0
+        },
+        "groupPath": [],
+        "directConnectEvidence": [],
+        "nearestTransitionMarkerShapes": [
+          {
+            "shapeId": "33260",
+            "segment": "169",
+            "fiberNumber": 4,
+            "fiberColor": "brown",
+            "distance": 1.7656
+          },
+          {
+            "shapeId": "33259",
+            "segment": "169",
+            "fiberNumber": 3,
+            "fiberColor": "green",
+            "distance": 1.7677
+          },
+          {
+            "shapeId": "33256",
+            "segment": "169",
+            "fiberNumber": 5,
+            "fiberColor": "slate",
+            "distance": 1.7682
+          },
+          {
+            "shapeId": "33258",
+            "segment": "169",
+            "fiberNumber": 2,
+            "fiberColor": "orange",
+            "distance": 1.7745
+          },
+          {
+            "shapeId": "33261",
+            "segment": "169",
+            "fiberNumber": 6,
+            "fiberColor": "white",
+            "distance": 1.7754
+          }
+        ],
+        "disposition": "unresolved_source_context",
+        "spatialEvidenceWarning": "Nearest marker positions are spatial context only; no Fiber, Port, or company assignment is inferred."
+      },
+      {
+        "organizationText": "მაგთი",
+        "organizationKey": "Magti",
+        "shapeId": "33808",
+        "sourceDocumentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+        "pageName": "სვანეთი",
+        "worldAngle": -1.570796326794897,
+        "worldBounds": {
+          "height": 3.5,
+          "max_x": 92.9383605052167,
+          "max_y": 547.0937356593935,
+          "min_x": 92.9383605052167,
+          "min_y": 543.5937356593935,
+          "width": 0.0
+        },
+        "groupPath": [],
+        "directConnectEvidence": [],
+        "nearestTransitionMarkerShapes": [
+          {
+            "shapeId": "33256",
+            "segment": "169",
+            "fiberNumber": 5,
+            "fiberColor": "slate",
+            "distance": 1.7656
+          },
+          {
+            "shapeId": "33260",
+            "segment": "169",
+            "fiberNumber": 4,
+            "fiberColor": "brown",
+            "distance": 1.7677
+          },
+          {
+            "shapeId": "33261",
+            "segment": "169",
+            "fiberNumber": 6,
+            "fiberColor": "white",
+            "distance": 1.7682
+          },
+          {
+            "shapeId": "33259",
+            "segment": "169",
+            "fiberNumber": 3,
+            "fiberColor": "green",
+            "distance": 1.7744
+          },
+          {
+            "shapeId": "33262",
+            "segment": "169",
+            "fiberNumber": 7,
+            "fiberColor": "red",
+            "distance": 1.7756
+          }
+        ],
+        "disposition": "unresolved_source_context",
+        "spatialEvidenceWarning": "Nearest marker positions are spatial context only; no Fiber, Port, or company assignment is inferred."
+      },
+      {
+        "organizationText": "მაგთი",
+        "organizationKey": "Magti",
+        "shapeId": "33811",
+        "sourceDocumentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+        "pageName": "სვანეთი",
+        "worldAngle": -1.570796326794897,
+        "worldBounds": {
+          "height": 3.5,
+          "max_x": 93.2157042552167,
+          "max_y": 547.0937356593935,
+          "min_x": 93.2157042552167,
+          "min_y": 543.5937356593935,
+          "width": 0.0
+        },
+        "groupPath": [],
+        "directConnectEvidence": [],
+        "nearestTransitionMarkerShapes": [
+          {
+            "shapeId": "33263",
+            "segment": "169",
+            "fiberNumber": 8,
+            "fiberColor": "black",
+            "distance": 1.7656
+          },
+          {
+            "shapeId": "33262",
+            "segment": "169",
+            "fiberNumber": 7,
+            "fiberColor": "red",
+            "distance": 1.7678
+          },
+          {
+            "shapeId": "33264",
+            "segment": "169",
+            "fiberNumber": 9,
+            "fiberColor": "yellow",
+            "distance": 1.768
+          },
+          {
+            "shapeId": "33261",
+            "segment": "169",
+            "fiberNumber": 6,
+            "fiberColor": "white",
+            "distance": 1.7748
+          },
+          {
+            "shapeId": "33266",
+            "segment": "169",
+            "fiberNumber": 10,
+            "fiberColor": "violet",
+            "distance": 1.7756
+          }
+        ],
+        "disposition": "unresolved_source_context",
+        "spatialEvidenceWarning": "Nearest marker positions are spatial context only; no Fiber, Port, or company assignment is inferred."
+      },
+      {
+        "organizationText": "სილქნეტი",
+        "organizationKey": "Silknet",
+        "shapeId": "33813",
+        "sourceDocumentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+        "pageName": "სვანეთი",
+        "worldAngle": -1.570796326794897,
+        "worldBounds": {
+          "height": 3.5,
+          "max_x": 93.3953917552167,
+          "max_y": 547.0937356593935,
+          "min_x": 93.3953917552167,
+          "min_y": 543.5937356593935,
+          "width": 0.0
+        },
+        "groupPath": [],
+        "directConnectEvidence": [],
+        "nearestTransitionMarkerShapes": [
+          {
+            "shapeId": "33266",
+            "segment": "169",
+            "fiberNumber": 10,
+            "fiberColor": "violet",
+            "distance": 1.7656
+          },
+          {
+            "shapeId": "33264",
+            "segment": "169",
+            "fiberNumber": 9,
+            "fiberColor": "yellow",
+            "distance": 1.7677
+          },
+          {
+            "shapeId": "33265",
+            "segment": "169",
+            "fiberNumber": 11,
+            "fiberColor": "rose",
+            "distance": 1.7689
+          },
+          {
+            "shapeId": "33263",
+            "segment": "169",
+            "fiberNumber": 8,
+            "fiberColor": "black",
+            "distance": 1.7745
+          },
+          {
+            "shapeId": "33267",
+            "segment": "169",
+            "fiberNumber": 12,
+            "fiberColor": "aqua",
+            "distance": 1.7755
+          }
+        ],
+        "disposition": "unresolved_source_context",
+        "spatialEvidenceWarning": "Nearest marker positions are spatial context only; no Fiber, Port, or company assignment is inferred."
+      },
+      {
+        "organizationText": "სილქნეტი",
+        "organizationKey": "Silknet",
+        "shapeId": "33814",
+        "sourceDocumentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+        "pageName": "სვანეთი",
+        "worldAngle": -1.570796326794897,
+        "worldBounds": {
+          "height": 3.5,
+          "max_x": 93.4891417552167,
+          "max_y": 547.0937356593935,
+          "min_x": 93.4891417552167,
+          "min_y": 543.5937356593935,
+          "width": 0.0
+        },
+        "groupPath": [],
+        "directConnectEvidence": [],
+        "nearestTransitionMarkerShapes": [
+          {
+            "shapeId": "33265",
+            "segment": "169",
+            "fiberNumber": 11,
+            "fiberColor": "rose",
+            "distance": 1.7664
+          },
+          {
+            "shapeId": "33266",
+            "segment": "169",
+            "fiberNumber": 10,
+            "fiberColor": "violet",
+            "distance": 1.7676
+          },
+          {
+            "shapeId": "33267",
+            "segment": "169",
+            "fiberNumber": 12,
+            "fiberColor": "aqua",
+            "distance": 1.768
+          },
+          {
+            "shapeId": "33264",
+            "segment": "169",
+            "fiberNumber": 9,
+            "fiberColor": "yellow",
+            "distance": 1.7748
+          },
+          {
+            "shapeId": "33281",
+            "segment": "169",
+            "fiberNumber": 13,
+            "fiberColor": "blue",
+            "distance": 1.7748
+          }
+        ],
+        "disposition": "unresolved_source_context",
+        "spatialEvidenceWarning": "Nearest marker positions are spatial context only; no Fiber, Port, or company assignment is inferred."
+      },
+      {
+        "organizationText": "სილქნეტი",
+        "organizationKey": "Silknet",
+        "shapeId": "33815",
+        "sourceDocumentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+        "pageName": "სვანეთი",
+        "worldAngle": -1.570796326794897,
+        "worldBounds": {
+          "height": 3.5,
+          "max_x": 93.5750792552167,
+          "max_y": 547.0937356593935,
+          "min_x": 93.5750792552167,
+          "min_y": 543.5937356593935,
+          "width": 0.0
+        },
+        "groupPath": [],
+        "directConnectEvidence": [],
+        "nearestTransitionMarkerShapes": [
+          {
+            "shapeId": "33267",
+            "segment": "169",
+            "fiberNumber": 12,
+            "fiberColor": "aqua",
+            "distance": 1.7656
+          },
+          {
+            "shapeId": "33281",
+            "segment": "169",
+            "fiberNumber": 13,
+            "fiberColor": "blue",
+            "distance": 1.7681
+          },
+          {
+            "shapeId": "33265",
+            "segment": "169",
+            "fiberNumber": 11,
+            "fiberColor": "rose",
+            "distance": 1.7684
+          },
+          {
+            "shapeId": "33266",
+            "segment": "169",
+            "fiberNumber": 10,
+            "fiberColor": "violet",
+            "distance": 1.7739
+          },
+          {
+            "shapeId": "33282",
+            "segment": "169",
+            "fiberNumber": 14,
+            "fiberColor": "orange",
+            "distance": 1.7753
+          }
+        ],
+        "disposition": "unresolved_source_context",
+        "spatialEvidenceWarning": "Nearest marker positions are spatial context only; no Fiber, Port, or company assignment is inferred."
+      },
+      {
+        "organizationText": "მაგთი",
+        "organizationKey": "Magti",
+        "shapeId": "40999",
+        "sourceDocumentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+        "pageName": "სვანეთი",
+        "worldAngle": 0.0,
+        "worldBounds": {
+          "height": 7.671289113936211,
+          "max_x": 69.22916666666667,
+          "max_y": 492.67129629629596,
+          "min_x": 38.46788194444446,
+          "min_y": 485.00000718235975,
+          "width": 30.761284722222214
+        },
+        "groupPath": [],
+        "directConnectEvidence": [],
+        "nearestTransitionMarkerShapes": [
+          {
+            "shapeId": "25479",
+            "segment": "162",
+            "fiberNumber": 20,
+            "fiberColor": "black",
+            "distance": 5.8327
+          },
+          {
+            "shapeId": "25478",
+            "segment": "162",
+            "fiberNumber": 19,
+            "fiberColor": "red",
+            "distance": 5.9012
+          },
+          {
+            "shapeId": "25301",
+            "segment": "162",
+            "fiberNumber": 18,
+            "fiberColor": "white",
+            "distance": 5.9702
+          },
+          {
+            "shapeId": "24329",
+            "segment": "162",
+            "fiberNumber": 17,
+            "fiberColor": "slate",
+            "distance": 6.0398
+          },
+          {
+            "shapeId": "24333",
+            "segment": "162",
+            "fiberNumber": 16,
+            "fiberColor": "brown",
+            "distance": 6.11
+          }
+        ],
+        "disposition": "unresolved_source_context",
+        "spatialEvidenceWarning": "Nearest marker positions are spatial context only; no Fiber, Port, or company assignment is inferred."
+      },
+      {
+        "organizationText": "მაგთი",
+        "organizationKey": "Magti",
+        "shapeId": "41000",
+        "sourceDocumentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+        "pageName": "სვანეთი",
+        "worldAngle": 0.0,
+        "worldBounds": {
+          "height": 7.671289113936325,
+          "max_x": 69.33309734228634,
+          "max_y": 492.67129629629596,
+          "min_x": 38.562500000000014,
+          "min_y": 485.00000718235964,
+          "width": 30.770597342286322
+        },
+        "groupPath": [],
+        "directConnectEvidence": [],
+        "nearestTransitionMarkerShapes": [
+          {
+            "shapeId": "25479",
+            "segment": "162",
+            "fiberNumber": 20,
+            "fiberColor": "black",
+            "distance": 5.9073
+          },
+          {
+            "shapeId": "25478",
+            "segment": "162",
+            "fiberNumber": 19,
+            "fiberColor": "red",
+            "distance": 5.9764
+          },
+          {
+            "shapeId": "25301",
+            "segment": "162",
+            "fiberNumber": 18,
+            "fiberColor": "white",
+            "distance": 6.046
+          },
+          {
+            "shapeId": "24329",
+            "segment": "162",
+            "fiberNumber": 17,
+            "fiberColor": "slate",
+            "distance": 6.1163
+          },
+          {
+            "shapeId": "24333",
+            "segment": "162",
+            "fiberNumber": 16,
+            "fiberColor": "brown",
+            "distance": 6.1871
+          }
+        ],
+        "disposition": "unresolved_source_context",
+        "spatialEvidenceWarning": "Nearest marker positions are spatial context only; no Fiber, Port, or company assignment is inferred."
+      }
+    ],
+    "unclassifiedByOperationalScope": [
+      "Company label assignment",
+      "Port/ODF labels and status",
+      "three cut/module notes",
+      "place/direction-to-route context",
+      "OTDR notes",
+      "ODF shelf-order note"
+    ]
+  },
+  "transitions": {
+    "candidateCount": 1151,
+    "validatedExact": 775,
+    "intentionalTerminations": 0,
+    "rejectedNonTopological": 0,
+    "ambiguous": 0,
+    "duplicateOverlapEvidence": 376,
+    "notSemanticallyReviewed": 0,
+    "groups": [
+      {
+        "node": "SC205",
+        "segmentPair": "C148 ↔ C149",
+        "candidateCount": 16,
+        "crossValidatedPairs": 16,
+        "validatedExact": 0,
+        "disposition": "duplicate_overlap_evidence"
+      },
+      {
+        "node": "SC205",
+        "segmentPair": "C148 ↔ C150",
+        "candidateCount": 174,
+        "crossValidatedPairs": 174,
+        "validatedExact": 0,
+        "disposition": "duplicate_overlap_evidence"
+      },
+      {
+        "node": "SC205",
+        "segmentPair": "C149 ↔ C150",
+        "candidateCount": 6,
+        "crossValidatedPairs": 6,
+        "validatedExact": 0,
+        "disposition": "duplicate_overlap_evidence"
+      },
+      {
+        "node": "SC206",
+        "segmentPair": "C150 ↔ C151",
+        "candidateCount": 132,
+        "crossValidatedPairs": 132,
+        "validatedExact": 0,
+        "disposition": "duplicate_overlap_evidence"
+      },
+      {
+        "node": "SC206",
+        "segmentPair": "C150 ↔ C169",
+        "candidateCount": 48,
+        "crossValidatedPairs": 48,
+        "validatedExact": 0,
+        "disposition": "duplicate_overlap_evidence"
+      },
+      {
+        "node": "SC207",
+        "segmentPair": "C151 ↔ C152",
+        "candidateCount": 143,
+        "crossValidatedPairs": 0,
+        "validatedExact": 143,
+        "disposition": "exact_source_transition"
+      },
+      {
+        "node": "SC208",
+        "segmentPair": "C152 ↔ C153",
+        "candidateCount": 24,
+        "crossValidatedPairs": 0,
+        "validatedExact": 24,
+        "disposition": "exact_source_transition"
+      },
+      {
+        "node": "SC208",
+        "segmentPair": "C152 ↔ C154",
+        "candidateCount": 108,
+        "crossValidatedPairs": 0,
+        "validatedExact": 108,
+        "disposition": "exact_source_transition"
+      },
+      {
+        "node": "SC209",
+        "segmentPair": "C154 ↔ C155",
+        "candidateCount": 18,
+        "crossValidatedPairs": 0,
+        "validatedExact": 18,
+        "disposition": "exact_source_transition"
+      },
+      {
+        "node": "SC209",
+        "segmentPair": "C154 ↔ C156",
+        "candidateCount": 90,
+        "crossValidatedPairs": 0,
+        "validatedExact": 90,
+        "disposition": "exact_source_transition"
+      },
+      {
+        "node": "SC209",
+        "segmentPair": "C155 ↔ C156",
+        "candidateCount": 6,
+        "crossValidatedPairs": 0,
+        "validatedExact": 6,
+        "disposition": "exact_source_transition"
+      },
+      {
+        "node": "SC210",
+        "segmentPair": "C156 ↔ C157",
+        "candidateCount": 12,
+        "crossValidatedPairs": 0,
+        "validatedExact": 12,
+        "disposition": "exact_source_transition"
+      },
+      {
+        "node": "SC210",
+        "segmentPair": "C156 ↔ C158",
+        "candidateCount": 84,
+        "crossValidatedPairs": 0,
+        "validatedExact": 84,
+        "disposition": "exact_source_transition"
+      },
+      {
+        "node": "SC210",
+        "segmentPair": "C157 ↔ C158",
+        "candidateCount": 12,
+        "crossValidatedPairs": 0,
+        "validatedExact": 12,
+        "disposition": "exact_source_transition"
+      },
+      {
+        "node": "SC211",
+        "segmentPair": "C158 ↔ C159",
+        "candidateCount": 14,
+        "crossValidatedPairs": 0,
+        "validatedExact": 14,
+        "disposition": "exact_source_transition"
+      },
+      {
+        "node": "SC211",
+        "segmentPair": "C158 ↔ C160",
+        "candidateCount": 18,
+        "crossValidatedPairs": 0,
+        "validatedExact": 18,
+        "disposition": "exact_source_transition"
+      },
+      {
+        "node": "SC211",
+        "segmentPair": "C158 ↔ C161",
+        "candidateCount": 64,
+        "crossValidatedPairs": 0,
+        "validatedExact": 64,
+        "disposition": "exact_source_transition"
+      },
+      {
+        "node": "SC211",
+        "segmentPair": "C159 ↔ C160",
+        "candidateCount": 2,
+        "crossValidatedPairs": 0,
+        "validatedExact": 2,
+        "disposition": "exact_source_transition"
+      },
+      {
+        "node": "SC211",
+        "segmentPair": "C159 ↔ C161",
+        "candidateCount": 8,
+        "crossValidatedPairs": 0,
+        "validatedExact": 8,
+        "disposition": "exact_source_transition"
+      },
+      {
+        "node": "SC212",
+        "segmentPair": "C161 ↔ C162",
+        "candidateCount": 11,
+        "crossValidatedPairs": 0,
+        "validatedExact": 11,
+        "disposition": "exact_source_transition"
+      },
+      {
+        "node": "SC212",
+        "segmentPair": "C161 ↔ C164",
+        "candidateCount": 23,
+        "crossValidatedPairs": 0,
+        "validatedExact": 23,
+        "disposition": "exact_source_transition"
+      },
+      {
+        "node": "SC212",
+        "segmentPair": "C162 ↔ C164",
+        "candidateCount": 8,
+        "crossValidatedPairs": 0,
+        "validatedExact": 8,
+        "disposition": "exact_source_transition"
+      },
+      {
+        "node": "SC213",
+        "segmentPair": "C164 ↔ C165",
+        "candidateCount": 12,
+        "crossValidatedPairs": 0,
+        "validatedExact": 12,
+        "disposition": "exact_source_transition"
+      },
+      {
+        "node": "SC213",
+        "segmentPair": "C164 ↔ C166",
+        "candidateCount": 36,
+        "crossValidatedPairs": 0,
+        "validatedExact": 36,
+        "disposition": "exact_source_transition"
+      },
+      {
+        "node": "SC213",
+        "segmentPair": "C165 ↔ C166",
+        "candidateCount": 12,
+        "crossValidatedPairs": 0,
+        "validatedExact": 12,
+        "disposition": "exact_source_transition"
+      },
+      {
+        "node": "SC214",
+        "segmentPair": "C166 ↔ C167",
+        "candidateCount": 46,
+        "crossValidatedPairs": 0,
+        "validatedExact": 46,
+        "disposition": "exact_source_transition"
+      },
+      {
+        "node": "SC215",
+        "segmentPair": "C167 ↔ C168",
+        "candidateCount": 24,
+        "crossValidatedPairs": 0,
+        "validatedExact": 24,
+        "disposition": "exact_source_transition"
+      }
+    ],
+    "nodeCandidateCounts": {
+      "SC205": 196,
+      "SC206": 180,
+      "SC207": 143,
+      "SC208": 132,
+      "SC209": 114,
+      "SC210": 108,
+      "SC211": 106,
+      "SC212": 42,
+      "SC213": 60,
+      "SC214": 46,
+      "SC215": 24
+    },
+    "unexplained": 0,
+    "connectorGrammar": "source-geometry endpoints uniquely aligned to one decoded Fiber marker at each end",
+    "journeySummaryCoverage": 1512,
+    "journeyStatusCounts": {
+      "full": 0,
+      "partial": 1512,
+      "intentional_termination": 0,
+      "external_boundary": 0
+    }
+  },
+  "overlap": {
+    "SC205": "exact_cross_document_evidence_not_activated",
+    "SC206": "exact_cross_document_evidence_not_activated",
+    "C149": "construction_exact_not_activated",
+    "C150": "construction_exact_not_activated",
+    "C151": "construction_exact_not_activated",
+    "C169": "48_of_48_construction_and_SC206_mapping_exact_not_activated",
+    "C148": "physical_identity_candidate_with_preserved_tube_attribute_conflict_F121-F192",
+    "TsageriAggregation": "strong_candidate_not_activated",
+    "SC207": "143_source_B_transition_candidates_boundary_still_unresolved"
+  },
+  "c148Conflict": {
+    "id": "CONFLICT-C148-TUBE-COLOR",
+    "status": "unresolved_source_conflict",
+    "physicalIdentity": "strong_candidate_separate_from_attribute_conflict",
+    "sourceA": {
+      "document": "TSAGERI-LENTEKHI-REFERENCE-V1",
+      "shapeIds": [
+        "43832"
+      ]
+    },
+    "sourceB": {
+      "document": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+      "markerBankShapeIds": [
+        "16115",
+        "15124"
+      ]
+    },
+    "affectedPositionCount": 72,
+    "affectedRanges": [
+      {
+        "firstFiber": 121,
+        "lastFiber": 132,
+        "tubeNumber": 11,
+        "sourceA": {
+          "tubeColor": "blue",
+          "groupShapeId": "43832"
+        },
+        "sourceB": {
+          "tubeColor": "violet",
+          "groupShapeIds": [
+            "16115",
+            "15124"
+          ]
+        }
+      },
+      {
+        "firstFiber": 133,
+        "lastFiber": 144,
+        "tubeNumber": 12,
+        "sourceA": {
+          "tubeColor": "orange",
+          "groupShapeId": "43832"
+        },
+        "sourceB": {
+          "tubeColor": "rose",
+          "groupShapeIds": [
+            "16115",
+            "15124"
+          ]
+        }
+      },
+      {
+        "firstFiber": 145,
+        "lastFiber": 156,
+        "tubeNumber": 13,
+        "sourceA": {
+          "tubeColor": "green",
+          "groupShapeId": "43832"
+        },
+        "sourceB": {
+          "tubeColor": "blue",
+          "groupShapeIds": [
+            "16115",
+            "15124"
+          ]
+        }
+      },
+      {
+        "firstFiber": 157,
+        "lastFiber": 168,
+        "tubeNumber": 14,
+        "sourceA": {
+          "tubeColor": "brown",
+          "groupShapeId": "43832"
+        },
+        "sourceB": {
+          "tubeColor": "orange",
+          "groupShapeIds": [
+            "16115",
+            "15124"
+          ]
+        }
+      },
+      {
+        "firstFiber": 169,
+        "lastFiber": 180,
+        "tubeNumber": 15,
+        "sourceA": {
+          "tubeColor": "slate",
+          "groupShapeId": "43832"
+        },
+        "sourceB": {
+          "tubeColor": "green",
+          "groupShapeIds": [
+            "16115",
+            "15124"
+          ]
+        }
+      },
+      {
+        "firstFiber": 181,
+        "lastFiber": 192,
+        "tubeNumber": 16,
+        "sourceA": {
+          "tubeColor": "white",
+          "groupShapeId": "43832"
+        },
+        "sourceB": {
+          "tubeColor": "brown",
+          "groupShapeIds": [
+            "16115",
+            "15124"
+          ]
+        }
+      }
+    ],
+    "fiberColorPositionsMatch": 192,
+    "resolution": "unresolved; neither source selected; frozen V1 Tube colors remain unchanged"
+  },
+  "gates": {
+    "package": "PASS",
+    "completeAssetInventory": "FAIL",
+    "fiberTubeConstruction": "PASS_SOURCE_BANKS_AGREE_C148_CONFLICT_RECORDED",
+    "closureInterpretation": "FAIL",
+    "apOdfPortInterpretation": "FAIL",
+    "companyOccurrences": "FAIL",
+    "meaningfulAnnotations": "FAIL",
+    "all1151TransitionDispositions": "PASS_ZERO_UNEXPLAINED",
+    "criticalTransitionAmbiguity": "PASS_NONE",
+    "SC207Boundary": "LOCAL_TOPOLOGY_PASS_CANONICAL_ID_UNRESOLVED",
+    "overlapCorrespondence": "PARTIAL_CANDIDATE_ONLY",
+    "C148ConflictPreserved": "PASS",
+    "frozenV1Unchanged": "PASS"
+  },
+  "blockers": [
+    {
+      "id": "asset_port_semantics",
+      "count": 0,
+      "detail": "Zero logical Ports and occupancy bindings are certified; source Port/ODF numbering is not yet tied to marker fibers. Owner/engineering schedule can resolve Port/occupancy semantics."
+    },
+    {
+      "id": "company_assignment",
+      "count": 24,
+      "detail": "All 24 company occurrences are located, but no source-validated Port/Fiber usage or ownership assignment exists; owner confirmation or authoritative schedule needed."
+    },
+    {
+      "id": "annotation_status_and_scope",
+      "count": 14,
+      "detail": "Three cut-module notes lack planned/completed status, and nine place/other labels plus two directions lack a source-supported route branch scope."
+    },
+    {
+      "id": "sc207_closure_identity",
+      "count": 1,
+      "detail": "143 local C151↔C152 transitions are decoded and C151 matches V1 at all 144 construction positions, but the source has no literal SC207 label; canonical Closure/boundary link withheld pending marked or owner-confirmed identity."
+    },
+    {
+      "id": "aggregation_canonical_correspondence",
+      "count": 1,
+      "detail": "Shape 12427 is an Aggregation candidate but its ODF/Port relationship and exact canonical correspondence are not certified."
+    }
+  ],
+  "integrity": {
+    "frozenV1ManifestSha256": "59ce208663b1dcb7f0fe5849faa9f9f1b62182bfc01cc7c5f4947cf366340125",
+    "sourceInterpretationSha256": "01abbcdc0827d972c0cc0c2272ef934d35cf81c43e594ac6b0e3dbf6b0c62ae3",
+    "networkCandidateManifestSha256": "aea2a315b3468887d2f76824765c6700741ffa788d0d5b6fcf24f58a8028f6b4",
+    "transitionLedgerSha256": "0a595a9d7f90e47746462b1b0ec64501c127323251330b91110af61ba69f69b5",
+    "journeySummarySha256": "b84aaf33b68f1baf0edb35ba6ea76a441c39d48111a7e5e0b8d71577ca845fa3"
+  }
+}

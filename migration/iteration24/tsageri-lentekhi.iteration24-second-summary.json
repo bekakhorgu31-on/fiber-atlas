@@ -1,0 +1,37 @@
+{
+  "cache_key": "54707440bce1eb5acdd91b24447e4c10d196e237c032b08fe10ccfe3fc2d1b1d",
+  "format": "fiber-atlas-vsdx-raw/3",
+  "source": {
+    "absolute_path": "C:\\Users\\Beka\\Desktop\\Visio Alt\\Tsageri-Lentekhi 2025.vsdx",
+    "file": "Tsageri-Lentekhi 2025.vsdx",
+    "modified_at": "2026-05-20T15:04:21.710335+00:00",
+    "sha256": "caae4badc9c8c30be0a5fa3ef26352c3e534a9de7c66e830ef470466bb34a6fa",
+    "size_bytes": 1223326
+  },
+  "summary": {
+    "all_page_shapes_including_subshapes": 7349,
+    "comments": 1,
+    "connect_rows": 203,
+    "connect_rows_dangling": 0,
+    "connect_rows_valid": 203,
+    "direct_text_shapes": 2676,
+    "grouped_subshapes": 4709,
+    "masters": 22,
+    "package_parts": 41,
+    "pages": 1,
+    "shapes_with_effective_fill": 7349,
+    "shapes_with_local_property_sections": 218,
+    "shapes_with_master_reference": 418,
+    "style_references": 6931,
+    "styles": 7,
+    "top_level_shapes": 2640,
+    "unique_masters": 22,
+    "unresolved_effective_colors": 0,
+    "xml_parts_preserved_verbatim": 40
+  },
+  "versions": {
+    "extractor": "fiber-atlas-vsdx-package-reader/3",
+    "geometry_resolver": "fiber-atlas-visio-world-geometry/2",
+    "style_resolver": "fiber-atlas-visio-effective-style/2"
+  }
+}

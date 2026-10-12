@@ -1,0 +1,127 @@
+{
+  "desktop": [
+    {
+      "question": "C151/F1 სად მიდის?",
+      "required": 3,
+      "answerLength": 1736,
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "question": "C151/F118 სად მიდის?",
+      "required": 2,
+      "answerLength": 721,
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "question": "SC211-ში როგორ არის გადაერთებული Fibers?",
+      "required": 3,
+      "answerLength": 6349,
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "question": "C159-ზე რომელი Fiber-ები გადადის?",
+      "required": 3,
+      "answerLength": 786,
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "question": "C172/F1 სად მიდის?",
+      "required": 4,
+      "answerLength": 447,
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "question": "C148 Tube",
+      "required": 3,
+      "answerLength": 521,
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "question": "Lentekhi Port38-ის გზა",
+      "required": 4,
+      "answerLength": 346,
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "question": "C176/F32 სად მიდის?",
+      "required": 4,
+      "answerLength": 999,
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "question": "Magti რომელ Fiber-ებს იყენებს?",
+      "required": 2,
+      "answerLength": 452,
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "question": "ეს Fiber თავისუფალია?",
+      "required": 2,
+      "answerLength": 236,
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "question": "C151/F1 სად მიდის?",
+      "required": 2,
+      "answerLength": 1736,
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "question": "C151/F118 სად მიდის?",
+      "required": 1,
+      "answerLength": 721,
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "question": "Global search C172 disambiguation",
+      "choices": 2
+    }
+  ],
+  "mobile": [
+    {
+      "question": "C151/F1 სად მიდის?",
+      "required": 3,
+      "answerLength": 1736,
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "question": "C151/F118 სად მიდის?",
+      "required": 2,
+      "answerLength": 721,
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "question": "C172/F1 სად მიდის?",
+      "required": 3,
+      "answerLength": 447,
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "question": "SC211-ში რა კაბელები ერთდება?",
+      "required": 2,
+      "answerLength": 6243,
+      "width": 390,
+      "scrollWidth": 390
+    }
+  ],
+  "standalone": {
+    "scripts": 1,
+    "linkedStyles": 0
+  },
+  "logs": []
+}

@@ -1,0 +1,96 @@
+{
+  "desktop": [
+    {
+      "flow": "C152 selection → F11 current Inspector and full overlay",
+      "signature": "canonical-active-fiber-path/1/0c7d712aa3475360",
+      "highlighted": 12,
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "SC208 exact connector Splice → current F11 Journey",
+      "signature": "canonical-active-fiber-path/1/0c7d712aa3475360",
+      "highlighted": 12,
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "Engineer Query equals current Inspector",
+      "signature": "canonical-active-fiber-path/1/0c7d712aa3475360",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "Query → Combined Network same F11 path",
+      "signature": "canonical-active-fiber-path/1/0c7d712aa3475360",
+      "highlighted": 12,
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "F118 genuine SC207 partial; C152 absent",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "F118 Query / current projection equality",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "Lentekhi Port38 → C181/F06 → SC225 explicit termination",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "F32 AP52 branch and bidirectional certified Port navigation",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "SC211 C158/F65 → C159/F01",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "Neighbor F12 generic graph traversal",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "Engineering reconciliation diagnostic",
+      "width": 1440,
+      "scrollWidth": 1440
+    }
+  ],
+  "mobile": [
+    {
+      "flow": "390px F11 path, remaps, names and exact overlay",
+      "signature": "canonical-active-fiber-path/1/0c7d712aa3475360",
+      "highlighted": 12,
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "flow": "390px F118 genuine partial",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "flow": "390px Port38 binding Fiber termination",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "flow": "390px Engineer F11 equality",
+      "width": 390,
+      "scrollWidth": 390
+    }
+  ],
+  "standalone": {
+    "scripts": 1,
+    "linkedStyles": 0,
+    "externalAssets": 0
+  },
+  "logs": []
+}

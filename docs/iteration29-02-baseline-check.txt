@@ -1,0 +1,1 @@
+{"status":"reproducible","path":"active-28l-inventory.json.gz","uncompressedBytes":74662857,"uncompressedSha256":"397cb29f8c3b02806e02d0852bba40eb356602870c0c38885b78ccf6476b9433","compressedBytes":2707534,"compressedSha256":"49e10d5acfd1afe8fa1a3bed6b2fd98bb24fd8fbaa18003016f4d252d427c21b","topologyRevision":"canonical-active-fiber-path/1/48990ab60b0f5dc0"}

@@ -1,0 +1,41 @@
+{
+  "desktop": [
+    {
+      "name": "Source-scoped C172 Cable Inspector",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "textLength": 1887
+    },
+    {
+      "name": "C151/F1 cross-document trace",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "textLength": 6015
+    },
+    {
+      "name": "C151/F118 partial boundary trace",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "textLength": 1045
+    }
+  ],
+  "mobile": [
+    {
+      "name": "Source-scoped C172 mobile",
+      "width": 390,
+      "scrollWidth": 390,
+      "textLength": 1887
+    },
+    {
+      "name": "C151/F118 partial mobile",
+      "width": 390,
+      "scrollWidth": 390,
+      "textLength": 1045
+    }
+  ],
+  "standalone": {
+    "scripts": 1,
+    "linkedStyles": 0
+  },
+  "logs": []
+}

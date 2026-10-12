@@ -1,0 +1,31 @@
+{
+  "scope": "Interactive concept only; not the product",
+  "errors": [],
+  "widths": [
+    {
+      "width": 1008,
+      "body": 1008,
+      "overflow": false
+    },
+    {
+      "width": 358,
+      "body": 358,
+      "overflow": false
+    },
+    {
+      "width": 288,
+      "body": 288,
+      "overflow": false
+    }
+  ],
+  "interactions": [
+    "local to selected route",
+    "finite playback",
+    "partial route",
+    "AP18 unknown evidence/no playback",
+    "question examples",
+    "question submission",
+    "reduced motion"
+  ],
+  "networkWrites": 0
+}

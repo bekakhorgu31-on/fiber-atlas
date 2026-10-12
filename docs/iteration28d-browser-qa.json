@@ -1,0 +1,223 @@
+{
+  "desktop": [
+    {
+      "flow": "AP42 grammar/place/capacity and complete logical bank",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "All AP42 Ports open their exact Fiber and independent occupancy",
+      "ports": [
+        {
+          "port": 1,
+          "signature": "canonical-active-fiber-path/1/9e77ea159cbd62e5"
+        },
+        {
+          "port": 2,
+          "signature": "canonical-active-fiber-path/1/7d83702065226e9e"
+        },
+        {
+          "port": 3,
+          "signature": "canonical-active-fiber-path/1/79301fb0754dfd14"
+        },
+        {
+          "port": 4,
+          "signature": "canonical-active-fiber-path/1/b08d2fd56357f785"
+        },
+        {
+          "port": 5,
+          "signature": "canonical-active-fiber-path/1/b3bac24add3e3c92"
+        },
+        {
+          "port": 6,
+          "signature": "canonical-active-fiber-path/1/9f3408e63dc34e5e"
+        },
+        {
+          "port": 7,
+          "signature": "canonical-active-fiber-path/1/c1a7a8ed5b38a475"
+        },
+        {
+          "port": 8,
+          "signature": "canonical-active-fiber-path/1/ff224752cf5e30bc"
+        },
+        {
+          "port": 9,
+          "signature": "canonical-active-fiber-path/1/41ee31dbe445b5cf"
+        },
+        {
+          "port": 10,
+          "signature": "canonical-active-fiber-path/1/0cb998e9b413ea49"
+        },
+        {
+          "port": 11,
+          "signature": "canonical-active-fiber-path/1/8ec8d399d97ece93"
+        },
+        {
+          "port": 12,
+          "signature": "canonical-active-fiber-path/1/7202bc3ecce9a1a6"
+        },
+        {
+          "port": 13,
+          "signature": "canonical-active-fiber-path/1/659f583c5fc5d5ce"
+        },
+        {
+          "port": 14,
+          "signature": "canonical-active-fiber-path/1/896dd1b70deea76b"
+        },
+        {
+          "port": 15,
+          "signature": "canonical-active-fiber-path/1/ee7af2d63ee0d908"
+        },
+        {
+          "port": 16,
+          "signature": "canonical-active-fiber-path/1/1885dd3b52e657d5"
+        },
+        {
+          "port": 17,
+          "signature": "canonical-active-fiber-path/1/109959784779d7c2"
+        },
+        {
+          "port": 18,
+          "signature": "canonical-active-fiber-path/1/0b2469a8528c9d62"
+        },
+        {
+          "port": 19,
+          "signature": "canonical-active-fiber-path/1/da6da90e6c8ea3fa"
+        },
+        {
+          "port": 20,
+          "signature": "canonical-active-fiber-path/1/2f390305583e6d71"
+        },
+        {
+          "port": 21,
+          "signature": "canonical-active-fiber-path/1/e0aadc6236e46b6c"
+        },
+        {
+          "port": 22,
+          "signature": "canonical-active-fiber-path/1/f49c15bdef47f2c1"
+        },
+        {
+          "port": 23,
+          "signature": "canonical-active-fiber-path/1/b5a0dc856d9aa7d3"
+        },
+        {
+          "port": 24,
+          "signature": "canonical-active-fiber-path/1/50896b4a23c1f0b6"
+        }
+      ]
+    },
+    {
+      "flow": "Port↔Fiber bidirectional same journey",
+      "signature": "canonical-active-fiber-path/1/9e77ea159cbd62e5",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "Query AP42",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "Query AP42 Port1",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "Query AP42 occupied Ports",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "Query C153/F1",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "Exact company local scope and source evidence link",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "AP47 red Port status unknown; binding remains exact",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "Actual review case REVIEW-28D-port_status_uncertain-28576",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "Actual review case REVIEW-28D-source_inconsistency-23852",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "Actual review case REVIEW-28D-fiber_port_binding_ambiguous-26843",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "F11 newly certified AP49 Port11; unchanged remaps",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "Preserved regression CAB-000151/F118",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "Preserved regression CAB-000176/F32",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "Preserved regression CAB-000184/F38",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "Source B document summary uses current certification",
+      "width": 1440,
+      "scrollWidth": 1440
+    }
+  ],
+  "mobile": [
+    {
+      "flow": "network_node:42",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "flow": "port:ap:42:1",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "flow": "port:ap:42:2",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "flow": "port:ap:47:3",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "flow": "fiber:SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161:20",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "flow": "Red Port evidence and review at 390px",
+      "width": 390,
+      "scrollWidth": 390
+    }
+  ],
+  "standalone": {
+    "offline": true,
+    "externalRequests": []
+  },
+  "logs": []
+}

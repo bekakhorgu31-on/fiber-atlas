@@ -1,0 +1,69 @@
+{
+  "stage": "baseline",
+  "timestamp": "2026-10-02T19:36:28.916Z",
+  "browser": "Microsoft Edge (Chromium headless, Playwright)",
+  "profile": "Desktop 1440×900 and emulated mobile 390×844; offline file://; not a real phone",
+  "sha256": "a92b06f01c6101b8958e61f52fdb9b35714801a6b1231a2f3f7afd82f8fcedc6",
+  "loadMs": 3566,
+  "searchMs": {
+    "C158": 48,
+    "C148": 22,
+    "154-208-209-144": 26,
+    "AP42": 19,
+    "Lentekhi Port38": 34,
+    "C184/F38": 52,
+    "C184 Tube 1": 54
+  },
+  "gridMs": 746,
+  "longTasks": [
+    58,
+    100,
+    2986,
+    697
+  ],
+  "externalRequests": [],
+  "browserErrors": [],
+  "overflow": [
+    {
+      "flow": "desktop search C158",
+      "viewport": 1440,
+      "document": 1440
+    },
+    {
+      "flow": "desktop search C148",
+      "viewport": 1440,
+      "document": 1440
+    },
+    {
+      "flow": "desktop search 154-208-209-144",
+      "viewport": 1440,
+      "document": 1440
+    },
+    {
+      "flow": "desktop search AP42",
+      "viewport": 1440,
+      "document": 1440
+    },
+    {
+      "flow": "desktop search Lentekhi Port38",
+      "viewport": 1440,
+      "document": 1440
+    },
+    {
+      "flow": "desktop search C184/F38",
+      "viewport": 1440,
+      "document": 1440
+    },
+    {
+      "flow": "desktop search C184 Tube 1",
+      "viewport": 1440,
+      "document": 1440
+    },
+    {
+      "flow": "desktop 48-Port grid",
+      "viewport": 1440,
+      "document": 1440
+    }
+  ],
+  "flows": []
+}

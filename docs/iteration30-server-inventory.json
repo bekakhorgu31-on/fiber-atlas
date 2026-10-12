@@ -1,0 +1,4449 @@
+{
+    "checkedAt": "2026-10-08T17:08:56+00:00",
+    "scope": "bkhorguashvili",
+    "readOnly": true,
+    "connection": {
+        "database": "on",
+        "role": "bkhorguashvili",
+        "version": "PostgreSQL 18.3 (Ubuntu 18.3-1.pgdg24.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit",
+        "search_path": "\"$user\", public",
+        "read_only": "on"
+    },
+    "tls": {
+        "ssl": true,
+        "version": "TLSv1.3",
+        "cipher": "TLS_AES_256_GCM_SHA384",
+        "bits": 256
+    },
+    "schema": [
+        {
+            "nspname": "bkhorguashvili",
+            "owner": "bkhorguashvili",
+            "usage": true,
+            "can_create": true
+        }
+    ],
+    "tables": [
+        {
+            "relname": "activation_events",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "active_network_state",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "cable_segments",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "cache",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "cache_locks",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "canonical_nodes",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "domain_records",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "failed_jobs",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "failed_jobs_id_seq",
+            "relkind": "S",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": false,
+            "can_update": true
+        },
+        {
+            "relname": "fiber_paths",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "fibers",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "import_candidates",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "import_runs",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "job_batches",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "jobs",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "jobs_id_seq",
+            "relkind": "S",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": false,
+            "can_update": true
+        },
+        {
+            "relname": "migrations",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "migrations_id_seq",
+            "relkind": "S",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": false,
+            "can_update": true
+        },
+        {
+            "relname": "network_attributes",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "network_revisions",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "network_sources",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "node_fiber_transitions",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "password_reset_tokens",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "port_topology_bindings",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "ports",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "projection_snapshots",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "review_events",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "review_subject_versions",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "sessions",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "source_documents",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "source_revisions",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "source_shapes",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "tubes",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "users",
+            "relkind": "r",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": true,
+            "can_update": true
+        },
+        {
+            "relname": "users_id_seq",
+            "relkind": "S",
+            "owner": "bkhorguashvili",
+            "can_select": true,
+            "can_insert": false,
+            "can_update": true
+        }
+    ],
+    "columns": [
+        {
+            "table_name": "activation_events",
+            "column_name": "id",
+            "ordinal_position": 1,
+            "data_type": "uuid",
+            "udt_name": "uuid",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "activation_events",
+            "column_name": "previous_revision",
+            "ordinal_position": 2,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "YES",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "activation_events",
+            "column_name": "new_revision",
+            "ordinal_position": 3,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "activation_events",
+            "column_name": "operation",
+            "ordinal_position": 4,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "activation_events",
+            "column_name": "actor",
+            "ordinal_position": 5,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "activation_events",
+            "column_name": "created_at",
+            "ordinal_position": 6,
+            "data_type": "timestamp with time zone",
+            "udt_name": "timestamptz",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "active_network_state",
+            "column_name": "id",
+            "ordinal_position": 1,
+            "data_type": "integer",
+            "udt_name": "int4",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "active_network_state",
+            "column_name": "network_revision",
+            "ordinal_position": 2,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "YES",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "cable_segments",
+            "column_name": "network_revision",
+            "ordinal_position": 1,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "cable_segments",
+            "column_name": "id",
+            "ordinal_position": 2,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "cable_segments",
+            "column_name": "ordinal",
+            "ordinal_position": 3,
+            "data_type": "integer",
+            "udt_name": "int4",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "cable_segments",
+            "column_name": "payload",
+            "ordinal_position": 4,
+            "data_type": "json",
+            "udt_name": "json",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "cable_segments",
+            "column_name": "endpoint_a",
+            "ordinal_position": 5,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "cable_segments",
+            "column_name": "endpoint_b",
+            "ordinal_position": 6,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "cable_segments",
+            "column_name": "fiber_count",
+            "ordinal_position": 7,
+            "data_type": "integer",
+            "udt_name": "int4",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "cable_segments",
+            "column_name": "legacy_label",
+            "ordinal_position": 8,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "YES",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "cache",
+            "column_name": "key",
+            "ordinal_position": 1,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "cache",
+            "column_name": "value",
+            "ordinal_position": 2,
+            "data_type": "text",
+            "udt_name": "text",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "cache",
+            "column_name": "expiration",
+            "ordinal_position": 3,
+            "data_type": "bigint",
+            "udt_name": "int8",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "cache_locks",
+            "column_name": "key",
+            "ordinal_position": 1,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "cache_locks",
+            "column_name": "owner",
+            "ordinal_position": 2,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "cache_locks",
+            "column_name": "expiration",
+            "ordinal_position": 3,
+            "data_type": "bigint",
+            "udt_name": "int8",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "canonical_nodes",
+            "column_name": "network_revision",
+            "ordinal_position": 1,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "canonical_nodes",
+            "column_name": "id",
+            "ordinal_position": 2,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "canonical_nodes",
+            "column_name": "ordinal",
+            "ordinal_position": 3,
+            "data_type": "integer",
+            "udt_name": "int4",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "canonical_nodes",
+            "column_name": "payload",
+            "ordinal_position": 4,
+            "data_type": "json",
+            "udt_name": "json",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "canonical_nodes",
+            "column_name": "kind",
+            "ordinal_position": 5,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "canonical_nodes",
+            "column_name": "local_id",
+            "ordinal_position": 6,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "domain_records",
+            "column_name": "network_revision",
+            "ordinal_position": 1,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "domain_records",
+            "column_name": "id",
+            "ordinal_position": 2,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "domain_records",
+            "column_name": "ordinal",
+            "ordinal_position": 3,
+            "data_type": "integer",
+            "udt_name": "int4",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "domain_records",
+            "column_name": "payload",
+            "ordinal_position": 4,
+            "data_type": "json",
+            "udt_name": "json",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "domain_records",
+            "column_name": "collection",
+            "ordinal_position": 5,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "domain_records",
+            "column_name": "logical_id",
+            "ordinal_position": 6,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "YES",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "failed_jobs",
+            "column_name": "id",
+            "ordinal_position": 1,
+            "data_type": "bigint",
+            "udt_name": "int8",
+            "is_nullable": "NO",
+            "column_default": "nextval('failed_jobs_id_seq'::regclass)",
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "failed_jobs",
+            "column_name": "uuid",
+            "ordinal_position": 2,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "failed_jobs",
+            "column_name": "connection",
+            "ordinal_position": 3,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "failed_jobs",
+            "column_name": "queue",
+            "ordinal_position": 4,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "failed_jobs",
+            "column_name": "payload",
+            "ordinal_position": 5,
+            "data_type": "text",
+            "udt_name": "text",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "failed_jobs",
+            "column_name": "exception",
+            "ordinal_position": 6,
+            "data_type": "text",
+            "udt_name": "text",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "failed_jobs",
+            "column_name": "failed_at",
+            "ordinal_position": 7,
+            "data_type": "timestamp without time zone",
+            "udt_name": "timestamp",
+            "is_nullable": "NO",
+            "column_default": "CURRENT_TIMESTAMP",
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "fiber_paths",
+            "column_name": "network_revision",
+            "ordinal_position": 1,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "fiber_paths",
+            "column_name": "id",
+            "ordinal_position": 2,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "fiber_paths",
+            "column_name": "ordinal",
+            "ordinal_position": 3,
+            "data_type": "integer",
+            "udt_name": "int4",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "fiber_paths",
+            "column_name": "payload",
+            "ordinal_position": 4,
+            "data_type": "json",
+            "udt_name": "json",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "fiber_paths",
+            "column_name": "fiber_id",
+            "ordinal_position": 5,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "fiber_paths",
+            "column_name": "signature",
+            "ordinal_position": 6,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "fibers",
+            "column_name": "network_revision",
+            "ordinal_position": 1,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "fibers",
+            "column_name": "id",
+            "ordinal_position": 2,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "fibers",
+            "column_name": "ordinal",
+            "ordinal_position": 3,
+            "data_type": "integer",
+            "udt_name": "int4",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "fibers",
+            "column_name": "payload",
+            "ordinal_position": 4,
+            "data_type": "json",
+            "udt_name": "json",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "fibers",
+            "column_name": "cable_id",
+            "ordinal_position": 5,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "fibers",
+            "column_name": "number",
+            "ordinal_position": 6,
+            "data_type": "integer",
+            "udt_name": "int4",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "fibers",
+            "column_name": "tube_id",
+            "ordinal_position": 7,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "YES",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "import_candidates",
+            "column_name": "id",
+            "ordinal_position": 1,
+            "data_type": "uuid",
+            "udt_name": "uuid",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "import_candidates",
+            "column_name": "import_run",
+            "ordinal_position": 2,
+            "data_type": "uuid",
+            "udt_name": "uuid",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "import_candidates",
+            "column_name": "kind",
+            "ordinal_position": 3,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "import_candidates",
+            "column_name": "status",
+            "ordinal_position": 4,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "import_candidates",
+            "column_name": "payload",
+            "ordinal_position": 5,
+            "data_type": "jsonb",
+            "udt_name": "jsonb",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "import_runs",
+            "column_name": "id",
+            "ordinal_position": 1,
+            "data_type": "uuid",
+            "udt_name": "uuid",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "import_runs",
+            "column_name": "source_revision",
+            "ordinal_position": 2,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "import_runs",
+            "column_name": "extractor_version",
+            "ordinal_position": 3,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "import_runs",
+            "column_name": "interpreter_version",
+            "ordinal_position": 4,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "import_runs",
+            "column_name": "extraction_status",
+            "ordinal_position": 5,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "import_runs",
+            "column_name": "semantic_status",
+            "ordinal_position": 6,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "import_runs",
+            "column_name": "network_status",
+            "ordinal_position": 7,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "import_runs",
+            "column_name": "artifact_path",
+            "ordinal_position": 8,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "YES",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "import_runs",
+            "column_name": "summary",
+            "ordinal_position": 9,
+            "data_type": "jsonb",
+            "udt_name": "jsonb",
+            "is_nullable": "YES",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "import_runs",
+            "column_name": "warnings",
+            "ordinal_position": 10,
+            "data_type": "jsonb",
+            "udt_name": "jsonb",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "import_runs",
+            "column_name": "error",
+            "ordinal_position": 11,
+            "data_type": "text",
+            "udt_name": "text",
+            "is_nullable": "YES",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "import_runs",
+            "column_name": "actor_id",
+            "ordinal_position": 12,
+            "data_type": "bigint",
+            "udt_name": "int8",
+            "is_nullable": "YES",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "import_runs",
+            "column_name": "created_at",
+            "ordinal_position": 13,
+            "data_type": "timestamp with time zone",
+            "udt_name": "timestamptz",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "import_runs",
+            "column_name": "finished_at",
+            "ordinal_position": 14,
+            "data_type": "timestamp with time zone",
+            "udt_name": "timestamptz",
+            "is_nullable": "YES",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "job_batches",
+            "column_name": "id",
+            "ordinal_position": 1,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "job_batches",
+            "column_name": "name",
+            "ordinal_position": 2,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "job_batches",
+            "column_name": "total_jobs",
+            "ordinal_position": 3,
+            "data_type": "integer",
+            "udt_name": "int4",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "job_batches",
+            "column_name": "pending_jobs",
+            "ordinal_position": 4,
+            "data_type": "integer",
+            "udt_name": "int4",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "job_batches",
+            "column_name": "failed_jobs",
+            "ordinal_position": 5,
+            "data_type": "integer",
+            "udt_name": "int4",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "job_batches",
+            "column_name": "failed_job_ids",
+            "ordinal_position": 6,
+            "data_type": "text",
+            "udt_name": "text",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "job_batches",
+            "column_name": "options",
+            "ordinal_position": 7,
+            "data_type": "text",
+            "udt_name": "text",
+            "is_nullable": "YES",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "job_batches",
+            "column_name": "cancelled_at",
+            "ordinal_position": 8,
+            "data_type": "integer",
+            "udt_name": "int4",
+            "is_nullable": "YES",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "job_batches",
+            "column_name": "created_at",
+            "ordinal_position": 9,
+            "data_type": "integer",
+            "udt_name": "int4",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "job_batches",
+            "column_name": "finished_at",
+            "ordinal_position": 10,
+            "data_type": "integer",
+            "udt_name": "int4",
+            "is_nullable": "YES",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "jobs",
+            "column_name": "id",
+            "ordinal_position": 1,
+            "data_type": "bigint",
+            "udt_name": "int8",
+            "is_nullable": "NO",
+            "column_default": "nextval('jobs_id_seq'::regclass)",
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "jobs",
+            "column_name": "queue",
+            "ordinal_position": 2,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "jobs",
+            "column_name": "payload",
+            "ordinal_position": 3,
+            "data_type": "text",
+            "udt_name": "text",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "jobs",
+            "column_name": "attempts",
+            "ordinal_position": 4,
+            "data_type": "smallint",
+            "udt_name": "int2",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "jobs",
+            "column_name": "reserved_at",
+            "ordinal_position": 5,
+            "data_type": "integer",
+            "udt_name": "int4",
+            "is_nullable": "YES",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "jobs",
+            "column_name": "available_at",
+            "ordinal_position": 6,
+            "data_type": "integer",
+            "udt_name": "int4",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "jobs",
+            "column_name": "created_at",
+            "ordinal_position": 7,
+            "data_type": "integer",
+            "udt_name": "int4",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "migrations",
+            "column_name": "id",
+            "ordinal_position": 1,
+            "data_type": "integer",
+            "udt_name": "int4",
+            "is_nullable": "NO",
+            "column_default": "nextval('migrations_id_seq'::regclass)",
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "migrations",
+            "column_name": "migration",
+            "ordinal_position": 2,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "migrations",
+            "column_name": "batch",
+            "ordinal_position": 3,
+            "data_type": "integer",
+            "udt_name": "int4",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "network_attributes",
+            "column_name": "network_revision",
+            "ordinal_position": 1,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "network_attributes",
+            "column_name": "name",
+            "ordinal_position": 2,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "network_attributes",
+            "column_name": "payload",
+            "ordinal_position": 3,
+            "data_type": "json",
+            "udt_name": "json",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "network_revisions",
+            "column_name": "id",
+            "ordinal_position": 1,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "network_revisions",
+            "column_name": "baseline_sha256",
+            "ordinal_position": 2,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "network_revisions",
+            "column_name": "topology_revision",
+            "ordinal_position": 3,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "network_revisions",
+            "column_name": "display_revision",
+            "ordinal_position": 4,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "network_revisions",
+            "column_name": "status",
+            "ordinal_position": 5,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "network_revisions",
+            "column_name": "validation",
+            "ordinal_position": 6,
+            "data_type": "json",
+            "udt_name": "json",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "network_revisions",
+            "column_name": "created_at",
+            "ordinal_position": 7,
+            "data_type": "timestamp with time zone",
+            "udt_name": "timestamptz",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "network_sources",
+            "column_name": "network_revision",
+            "ordinal_position": 1,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "network_sources",
+            "column_name": "source_revision",
+            "ordinal_position": 2,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "node_fiber_transitions",
+            "column_name": "network_revision",
+            "ordinal_position": 1,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "node_fiber_transitions",
+            "column_name": "id",
+            "ordinal_position": 2,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "node_fiber_transitions",
+            "column_name": "ordinal",
+            "ordinal_position": 3,
+            "data_type": "integer",
+            "udt_name": "int4",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "node_fiber_transitions",
+            "column_name": "payload",
+            "ordinal_position": 4,
+            "data_type": "json",
+            "udt_name": "json",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "node_fiber_transitions",
+            "column_name": "node_id",
+            "ordinal_position": 5,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "node_fiber_transitions",
+            "column_name": "fiber_a",
+            "ordinal_position": 6,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "node_fiber_transitions",
+            "column_name": "fiber_z",
+            "ordinal_position": 7,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "YES",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "node_fiber_transitions",
+            "column_name": "active",
+            "ordinal_position": 8,
+            "data_type": "boolean",
+            "udt_name": "bool",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "node_fiber_transitions",
+            "column_name": "transition_type",
+            "ordinal_position": 9,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "password_reset_tokens",
+            "column_name": "email",
+            "ordinal_position": 1,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "password_reset_tokens",
+            "column_name": "token",
+            "ordinal_position": 2,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "password_reset_tokens",
+            "column_name": "created_at",
+            "ordinal_position": 3,
+            "data_type": "timestamp without time zone",
+            "udt_name": "timestamp",
+            "is_nullable": "YES",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "port_topology_bindings",
+            "column_name": "network_revision",
+            "ordinal_position": 1,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "port_topology_bindings",
+            "column_name": "id",
+            "ordinal_position": 2,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "port_topology_bindings",
+            "column_name": "ordinal",
+            "ordinal_position": 3,
+            "data_type": "integer",
+            "udt_name": "int4",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "port_topology_bindings",
+            "column_name": "payload",
+            "ordinal_position": 4,
+            "data_type": "json",
+            "udt_name": "json",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "port_topology_bindings",
+            "column_name": "port_id",
+            "ordinal_position": 5,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "port_topology_bindings",
+            "column_name": "fiber_id",
+            "ordinal_position": 6,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "ports",
+            "column_name": "network_revision",
+            "ordinal_position": 1,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "ports",
+            "column_name": "id",
+            "ordinal_position": 2,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "ports",
+            "column_name": "ordinal",
+            "ordinal_position": 3,
+            "data_type": "integer",
+            "udt_name": "int4",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "ports",
+            "column_name": "payload",
+            "ordinal_position": 4,
+            "data_type": "json",
+            "udt_name": "json",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "ports",
+            "column_name": "owner_kind",
+            "ordinal_position": 5,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "ports",
+            "column_name": "owner_id",
+            "ordinal_position": 6,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "ports",
+            "column_name": "number",
+            "ordinal_position": 7,
+            "data_type": "integer",
+            "udt_name": "int4",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "projection_snapshots",
+            "column_name": "network_revision",
+            "ordinal_position": 1,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "projection_snapshots",
+            "column_name": "kind",
+            "ordinal_position": 2,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "projection_snapshots",
+            "column_name": "payload",
+            "ordinal_position": 3,
+            "data_type": "text",
+            "udt_name": "text",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "projection_snapshots",
+            "column_name": "sha256",
+            "ordinal_position": 4,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "review_events",
+            "column_name": "id",
+            "ordinal_position": 1,
+            "data_type": "uuid",
+            "udt_name": "uuid",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "review_events",
+            "column_name": "network_revision",
+            "ordinal_position": 2,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "review_events",
+            "column_name": "subject_id",
+            "ordinal_position": 3,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "review_events",
+            "column_name": "version",
+            "ordinal_position": 4,
+            "data_type": "integer",
+            "udt_name": "int4",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "review_events",
+            "column_name": "actor_id",
+            "ordinal_position": 5,
+            "data_type": "bigint",
+            "udt_name": "int8",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "review_events",
+            "column_name": "action",
+            "ordinal_position": 6,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "review_events",
+            "column_name": "reason",
+            "ordinal_position": 7,
+            "data_type": "text",
+            "udt_name": "text",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "review_events",
+            "column_name": "correction",
+            "ordinal_position": 8,
+            "data_type": "jsonb",
+            "udt_name": "jsonb",
+            "is_nullable": "YES",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "review_events",
+            "column_name": "source_revision",
+            "ordinal_position": 9,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "YES",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "review_events",
+            "column_name": "created_at",
+            "ordinal_position": 10,
+            "data_type": "timestamp with time zone",
+            "udt_name": "timestamptz",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "review_subject_versions",
+            "column_name": "network_revision",
+            "ordinal_position": 1,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "review_subject_versions",
+            "column_name": "subject_id",
+            "ordinal_position": 2,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "review_subject_versions",
+            "column_name": "version",
+            "ordinal_position": 3,
+            "data_type": "integer",
+            "udt_name": "int4",
+            "is_nullable": "NO",
+            "column_default": "0",
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "sessions",
+            "column_name": "id",
+            "ordinal_position": 1,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "sessions",
+            "column_name": "user_id",
+            "ordinal_position": 2,
+            "data_type": "bigint",
+            "udt_name": "int8",
+            "is_nullable": "YES",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "sessions",
+            "column_name": "ip_address",
+            "ordinal_position": 3,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "YES",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "sessions",
+            "column_name": "user_agent",
+            "ordinal_position": 4,
+            "data_type": "text",
+            "udt_name": "text",
+            "is_nullable": "YES",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "sessions",
+            "column_name": "payload",
+            "ordinal_position": 5,
+            "data_type": "text",
+            "udt_name": "text",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "sessions",
+            "column_name": "last_activity",
+            "ordinal_position": 6,
+            "data_type": "integer",
+            "udt_name": "int4",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "source_documents",
+            "column_name": "id",
+            "ordinal_position": 1,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "source_documents",
+            "column_name": "title",
+            "ordinal_position": 2,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "source_documents",
+            "column_name": "created_at",
+            "ordinal_position": 3,
+            "data_type": "timestamp with time zone",
+            "udt_name": "timestamptz",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "source_revisions",
+            "column_name": "id",
+            "ordinal_position": 1,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "source_revisions",
+            "column_name": "document_id",
+            "ordinal_position": 2,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "source_revisions",
+            "column_name": "sha256",
+            "ordinal_position": 3,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "source_revisions",
+            "column_name": "original_name",
+            "ordinal_position": 4,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "source_revisions",
+            "column_name": "stored_path",
+            "ordinal_position": 5,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "YES",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "source_revisions",
+            "column_name": "metadata",
+            "ordinal_position": 6,
+            "data_type": "jsonb",
+            "udt_name": "jsonb",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "source_revisions",
+            "column_name": "created_at",
+            "ordinal_position": 7,
+            "data_type": "timestamp with time zone",
+            "udt_name": "timestamptz",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "source_shapes",
+            "column_name": "source_revision",
+            "ordinal_position": 1,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "source_shapes",
+            "column_name": "import_run",
+            "ordinal_position": 2,
+            "data_type": "uuid",
+            "udt_name": "uuid",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "source_shapes",
+            "column_name": "page_id",
+            "ordinal_position": 3,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "source_shapes",
+            "column_name": "shape_id",
+            "ordinal_position": 4,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "source_shapes",
+            "column_name": "payload",
+            "ordinal_position": 5,
+            "data_type": "jsonb",
+            "udt_name": "jsonb",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "tubes",
+            "column_name": "network_revision",
+            "ordinal_position": 1,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "tubes",
+            "column_name": "id",
+            "ordinal_position": 2,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "tubes",
+            "column_name": "ordinal",
+            "ordinal_position": 3,
+            "data_type": "integer",
+            "udt_name": "int4",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "tubes",
+            "column_name": "payload",
+            "ordinal_position": 4,
+            "data_type": "json",
+            "udt_name": "json",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "tubes",
+            "column_name": "cable_id",
+            "ordinal_position": 5,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "tubes",
+            "column_name": "number",
+            "ordinal_position": 6,
+            "data_type": "integer",
+            "udt_name": "int4",
+            "is_nullable": "YES",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "users",
+            "column_name": "id",
+            "ordinal_position": 1,
+            "data_type": "bigint",
+            "udt_name": "int8",
+            "is_nullable": "NO",
+            "column_default": "nextval('users_id_seq'::regclass)",
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "users",
+            "column_name": "name",
+            "ordinal_position": 2,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "users",
+            "column_name": "email",
+            "ordinal_position": 3,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "users",
+            "column_name": "email_verified_at",
+            "ordinal_position": 4,
+            "data_type": "timestamp without time zone",
+            "udt_name": "timestamp",
+            "is_nullable": "YES",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "users",
+            "column_name": "password",
+            "ordinal_position": 5,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "users",
+            "column_name": "remember_token",
+            "ordinal_position": 6,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "YES",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "users",
+            "column_name": "created_at",
+            "ordinal_position": 7,
+            "data_type": "timestamp without time zone",
+            "udt_name": "timestamp",
+            "is_nullable": "YES",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "users",
+            "column_name": "updated_at",
+            "ordinal_position": 8,
+            "data_type": "timestamp without time zone",
+            "udt_name": "timestamp",
+            "is_nullable": "YES",
+            "column_default": null,
+            "is_identity": "NO",
+            "identity_generation": null
+        },
+        {
+            "table_name": "users",
+            "column_name": "role",
+            "ordinal_position": 9,
+            "data_type": "character varying",
+            "udt_name": "varchar",
+            "is_nullable": "NO",
+            "column_default": "'viewer'::character varying",
+            "is_identity": "NO",
+            "identity_generation": null
+        }
+    ],
+    "constraints": [
+        {
+            "table_name": "activation_events",
+            "conname": "activation_events_actor_not_null",
+            "contype": "n",
+            "definition": "NOT NULL actor"
+        },
+        {
+            "table_name": "activation_events",
+            "conname": "activation_events_created_at_not_null",
+            "contype": "n",
+            "definition": "NOT NULL created_at"
+        },
+        {
+            "table_name": "activation_events",
+            "conname": "activation_events_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL id"
+        },
+        {
+            "table_name": "activation_events",
+            "conname": "activation_events_new_revision_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (new_revision) REFERENCES network_revisions(id)"
+        },
+        {
+            "table_name": "activation_events",
+            "conname": "activation_events_new_revision_not_null",
+            "contype": "n",
+            "definition": "NOT NULL new_revision"
+        },
+        {
+            "table_name": "activation_events",
+            "conname": "activation_events_operation_not_null",
+            "contype": "n",
+            "definition": "NOT NULL operation"
+        },
+        {
+            "table_name": "activation_events",
+            "conname": "activation_events_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (id)"
+        },
+        {
+            "table_name": "activation_events",
+            "conname": "activation_events_previous_revision_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (previous_revision) REFERENCES network_revisions(id)"
+        },
+        {
+            "table_name": "active_network_state",
+            "conname": "active_network_state_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL id"
+        },
+        {
+            "table_name": "active_network_state",
+            "conname": "active_network_state_network_revision_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (network_revision) REFERENCES network_revisions(id)"
+        },
+        {
+            "table_name": "active_network_state",
+            "conname": "active_network_state_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (id)"
+        },
+        {
+            "table_name": "cable_segments",
+            "conname": "cable_segments_endpoint_a_not_null",
+            "contype": "n",
+            "definition": "NOT NULL endpoint_a"
+        },
+        {
+            "table_name": "cable_segments",
+            "conname": "cable_segments_endpoint_b_not_null",
+            "contype": "n",
+            "definition": "NOT NULL endpoint_b"
+        },
+        {
+            "table_name": "cable_segments",
+            "conname": "cable_segments_fiber_count_not_null",
+            "contype": "n",
+            "definition": "NOT NULL fiber_count"
+        },
+        {
+            "table_name": "cable_segments",
+            "conname": "cable_segments_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL id"
+        },
+        {
+            "table_name": "cable_segments",
+            "conname": "cable_segments_network_revision_endpoint_a_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (network_revision, endpoint_a) REFERENCES canonical_nodes(network_revision, id)"
+        },
+        {
+            "table_name": "cable_segments",
+            "conname": "cable_segments_network_revision_endpoint_b_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (network_revision, endpoint_b) REFERENCES canonical_nodes(network_revision, id)"
+        },
+        {
+            "table_name": "cable_segments",
+            "conname": "cable_segments_network_revision_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (network_revision) REFERENCES network_revisions(id)"
+        },
+        {
+            "table_name": "cable_segments",
+            "conname": "cable_segments_network_revision_not_null",
+            "contype": "n",
+            "definition": "NOT NULL network_revision"
+        },
+        {
+            "table_name": "cable_segments",
+            "conname": "cable_segments_ordinal_not_null",
+            "contype": "n",
+            "definition": "NOT NULL ordinal"
+        },
+        {
+            "table_name": "cable_segments",
+            "conname": "cable_segments_payload_not_null",
+            "contype": "n",
+            "definition": "NOT NULL payload"
+        },
+        {
+            "table_name": "cable_segments",
+            "conname": "cable_segments_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (network_revision, id)"
+        },
+        {
+            "table_name": "cache",
+            "conname": "cache_expiration_not_null",
+            "contype": "n",
+            "definition": "NOT NULL expiration"
+        },
+        {
+            "table_name": "cache",
+            "conname": "cache_key_not_null",
+            "contype": "n",
+            "definition": "NOT NULL key"
+        },
+        {
+            "table_name": "cache",
+            "conname": "cache_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (key)"
+        },
+        {
+            "table_name": "cache",
+            "conname": "cache_value_not_null",
+            "contype": "n",
+            "definition": "NOT NULL value"
+        },
+        {
+            "table_name": "cache_locks",
+            "conname": "cache_locks_expiration_not_null",
+            "contype": "n",
+            "definition": "NOT NULL expiration"
+        },
+        {
+            "table_name": "cache_locks",
+            "conname": "cache_locks_key_not_null",
+            "contype": "n",
+            "definition": "NOT NULL key"
+        },
+        {
+            "table_name": "cache_locks",
+            "conname": "cache_locks_owner_not_null",
+            "contype": "n",
+            "definition": "NOT NULL owner"
+        },
+        {
+            "table_name": "cache_locks",
+            "conname": "cache_locks_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (key)"
+        },
+        {
+            "table_name": "canonical_nodes",
+            "conname": "canonical_nodes_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL id"
+        },
+        {
+            "table_name": "canonical_nodes",
+            "conname": "canonical_nodes_kind_not_null",
+            "contype": "n",
+            "definition": "NOT NULL kind"
+        },
+        {
+            "table_name": "canonical_nodes",
+            "conname": "canonical_nodes_local_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL local_id"
+        },
+        {
+            "table_name": "canonical_nodes",
+            "conname": "canonical_nodes_network_revision_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (network_revision) REFERENCES network_revisions(id)"
+        },
+        {
+            "table_name": "canonical_nodes",
+            "conname": "canonical_nodes_network_revision_kind_local_id_unique",
+            "contype": "u",
+            "definition": "UNIQUE (network_revision, kind, local_id)"
+        },
+        {
+            "table_name": "canonical_nodes",
+            "conname": "canonical_nodes_network_revision_not_null",
+            "contype": "n",
+            "definition": "NOT NULL network_revision"
+        },
+        {
+            "table_name": "canonical_nodes",
+            "conname": "canonical_nodes_ordinal_not_null",
+            "contype": "n",
+            "definition": "NOT NULL ordinal"
+        },
+        {
+            "table_name": "canonical_nodes",
+            "conname": "canonical_nodes_payload_not_null",
+            "contype": "n",
+            "definition": "NOT NULL payload"
+        },
+        {
+            "table_name": "canonical_nodes",
+            "conname": "canonical_nodes_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (network_revision, id)"
+        },
+        {
+            "table_name": "domain_records",
+            "conname": "domain_records_collection_not_null",
+            "contype": "n",
+            "definition": "NOT NULL collection"
+        },
+        {
+            "table_name": "domain_records",
+            "conname": "domain_records_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL id"
+        },
+        {
+            "table_name": "domain_records",
+            "conname": "domain_records_network_revision_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (network_revision) REFERENCES network_revisions(id)"
+        },
+        {
+            "table_name": "domain_records",
+            "conname": "domain_records_network_revision_not_null",
+            "contype": "n",
+            "definition": "NOT NULL network_revision"
+        },
+        {
+            "table_name": "domain_records",
+            "conname": "domain_records_ordinal_not_null",
+            "contype": "n",
+            "definition": "NOT NULL ordinal"
+        },
+        {
+            "table_name": "domain_records",
+            "conname": "domain_records_payload_not_null",
+            "contype": "n",
+            "definition": "NOT NULL payload"
+        },
+        {
+            "table_name": "domain_records",
+            "conname": "domain_records_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (network_revision, id)"
+        },
+        {
+            "table_name": "failed_jobs",
+            "conname": "failed_jobs_connection_not_null",
+            "contype": "n",
+            "definition": "NOT NULL connection"
+        },
+        {
+            "table_name": "failed_jobs",
+            "conname": "failed_jobs_exception_not_null",
+            "contype": "n",
+            "definition": "NOT NULL exception"
+        },
+        {
+            "table_name": "failed_jobs",
+            "conname": "failed_jobs_failed_at_not_null",
+            "contype": "n",
+            "definition": "NOT NULL failed_at"
+        },
+        {
+            "table_name": "failed_jobs",
+            "conname": "failed_jobs_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL id"
+        },
+        {
+            "table_name": "failed_jobs",
+            "conname": "failed_jobs_payload_not_null",
+            "contype": "n",
+            "definition": "NOT NULL payload"
+        },
+        {
+            "table_name": "failed_jobs",
+            "conname": "failed_jobs_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (id)"
+        },
+        {
+            "table_name": "failed_jobs",
+            "conname": "failed_jobs_queue_not_null",
+            "contype": "n",
+            "definition": "NOT NULL queue"
+        },
+        {
+            "table_name": "failed_jobs",
+            "conname": "failed_jobs_uuid_not_null",
+            "contype": "n",
+            "definition": "NOT NULL uuid"
+        },
+        {
+            "table_name": "failed_jobs",
+            "conname": "failed_jobs_uuid_unique",
+            "contype": "u",
+            "definition": "UNIQUE (uuid)"
+        },
+        {
+            "table_name": "fiber_paths",
+            "conname": "fiber_paths_fiber_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL fiber_id"
+        },
+        {
+            "table_name": "fiber_paths",
+            "conname": "fiber_paths_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL id"
+        },
+        {
+            "table_name": "fiber_paths",
+            "conname": "fiber_paths_network_revision_fiber_id_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (network_revision, fiber_id) REFERENCES fibers(network_revision, id)"
+        },
+        {
+            "table_name": "fiber_paths",
+            "conname": "fiber_paths_network_revision_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (network_revision) REFERENCES network_revisions(id)"
+        },
+        {
+            "table_name": "fiber_paths",
+            "conname": "fiber_paths_network_revision_not_null",
+            "contype": "n",
+            "definition": "NOT NULL network_revision"
+        },
+        {
+            "table_name": "fiber_paths",
+            "conname": "fiber_paths_ordinal_not_null",
+            "contype": "n",
+            "definition": "NOT NULL ordinal"
+        },
+        {
+            "table_name": "fiber_paths",
+            "conname": "fiber_paths_payload_not_null",
+            "contype": "n",
+            "definition": "NOT NULL payload"
+        },
+        {
+            "table_name": "fiber_paths",
+            "conname": "fiber_paths_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (network_revision, id)"
+        },
+        {
+            "table_name": "fiber_paths",
+            "conname": "fiber_paths_signature_not_null",
+            "contype": "n",
+            "definition": "NOT NULL signature"
+        },
+        {
+            "table_name": "fibers",
+            "conname": "fibers_cable_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL cable_id"
+        },
+        {
+            "table_name": "fibers",
+            "conname": "fibers_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL id"
+        },
+        {
+            "table_name": "fibers",
+            "conname": "fibers_network_revision_cable_id_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (network_revision, cable_id) REFERENCES cable_segments(network_revision, id)"
+        },
+        {
+            "table_name": "fibers",
+            "conname": "fibers_network_revision_cable_id_number_unique",
+            "contype": "u",
+            "definition": "UNIQUE (network_revision, cable_id, number)"
+        },
+        {
+            "table_name": "fibers",
+            "conname": "fibers_network_revision_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (network_revision) REFERENCES network_revisions(id)"
+        },
+        {
+            "table_name": "fibers",
+            "conname": "fibers_network_revision_not_null",
+            "contype": "n",
+            "definition": "NOT NULL network_revision"
+        },
+        {
+            "table_name": "fibers",
+            "conname": "fibers_network_revision_tube_id_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (network_revision, tube_id) REFERENCES tubes(network_revision, id)"
+        },
+        {
+            "table_name": "fibers",
+            "conname": "fibers_number_not_null",
+            "contype": "n",
+            "definition": "NOT NULL number"
+        },
+        {
+            "table_name": "fibers",
+            "conname": "fibers_ordinal_not_null",
+            "contype": "n",
+            "definition": "NOT NULL ordinal"
+        },
+        {
+            "table_name": "fibers",
+            "conname": "fibers_payload_not_null",
+            "contype": "n",
+            "definition": "NOT NULL payload"
+        },
+        {
+            "table_name": "fibers",
+            "conname": "fibers_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (network_revision, id)"
+        },
+        {
+            "table_name": "import_candidates",
+            "conname": "import_candidates_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL id"
+        },
+        {
+            "table_name": "import_candidates",
+            "conname": "import_candidates_import_run_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (import_run) REFERENCES import_runs(id)"
+        },
+        {
+            "table_name": "import_candidates",
+            "conname": "import_candidates_import_run_not_null",
+            "contype": "n",
+            "definition": "NOT NULL import_run"
+        },
+        {
+            "table_name": "import_candidates",
+            "conname": "import_candidates_kind_not_null",
+            "contype": "n",
+            "definition": "NOT NULL kind"
+        },
+        {
+            "table_name": "import_candidates",
+            "conname": "import_candidates_payload_not_null",
+            "contype": "n",
+            "definition": "NOT NULL payload"
+        },
+        {
+            "table_name": "import_candidates",
+            "conname": "import_candidates_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (id)"
+        },
+        {
+            "table_name": "import_candidates",
+            "conname": "import_candidates_status_not_null",
+            "contype": "n",
+            "definition": "NOT NULL status"
+        },
+        {
+            "table_name": "import_runs",
+            "conname": "import_runs_actor_id_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (actor_id) REFERENCES users(id)"
+        },
+        {
+            "table_name": "import_runs",
+            "conname": "import_runs_created_at_not_null",
+            "contype": "n",
+            "definition": "NOT NULL created_at"
+        },
+        {
+            "table_name": "import_runs",
+            "conname": "import_runs_extraction_status_not_null",
+            "contype": "n",
+            "definition": "NOT NULL extraction_status"
+        },
+        {
+            "table_name": "import_runs",
+            "conname": "import_runs_extractor_version_not_null",
+            "contype": "n",
+            "definition": "NOT NULL extractor_version"
+        },
+        {
+            "table_name": "import_runs",
+            "conname": "import_runs_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL id"
+        },
+        {
+            "table_name": "import_runs",
+            "conname": "import_runs_interpreter_version_not_null",
+            "contype": "n",
+            "definition": "NOT NULL interpreter_version"
+        },
+        {
+            "table_name": "import_runs",
+            "conname": "import_runs_network_status_not_null",
+            "contype": "n",
+            "definition": "NOT NULL network_status"
+        },
+        {
+            "table_name": "import_runs",
+            "conname": "import_runs_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (id)"
+        },
+        {
+            "table_name": "import_runs",
+            "conname": "import_runs_semantic_status_not_null",
+            "contype": "n",
+            "definition": "NOT NULL semantic_status"
+        },
+        {
+            "table_name": "import_runs",
+            "conname": "import_runs_source_revision_extractor_version_interpreter_versi",
+            "contype": "u",
+            "definition": "UNIQUE (source_revision, extractor_version, interpreter_version)"
+        },
+        {
+            "table_name": "import_runs",
+            "conname": "import_runs_source_revision_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (source_revision) REFERENCES source_revisions(id)"
+        },
+        {
+            "table_name": "import_runs",
+            "conname": "import_runs_source_revision_not_null",
+            "contype": "n",
+            "definition": "NOT NULL source_revision"
+        },
+        {
+            "table_name": "import_runs",
+            "conname": "import_runs_warnings_not_null",
+            "contype": "n",
+            "definition": "NOT NULL warnings"
+        },
+        {
+            "table_name": "job_batches",
+            "conname": "job_batches_created_at_not_null",
+            "contype": "n",
+            "definition": "NOT NULL created_at"
+        },
+        {
+            "table_name": "job_batches",
+            "conname": "job_batches_failed_job_ids_not_null",
+            "contype": "n",
+            "definition": "NOT NULL failed_job_ids"
+        },
+        {
+            "table_name": "job_batches",
+            "conname": "job_batches_failed_jobs_not_null",
+            "contype": "n",
+            "definition": "NOT NULL failed_jobs"
+        },
+        {
+            "table_name": "job_batches",
+            "conname": "job_batches_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL id"
+        },
+        {
+            "table_name": "job_batches",
+            "conname": "job_batches_name_not_null",
+            "contype": "n",
+            "definition": "NOT NULL name"
+        },
+        {
+            "table_name": "job_batches",
+            "conname": "job_batches_pending_jobs_not_null",
+            "contype": "n",
+            "definition": "NOT NULL pending_jobs"
+        },
+        {
+            "table_name": "job_batches",
+            "conname": "job_batches_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (id)"
+        },
+        {
+            "table_name": "job_batches",
+            "conname": "job_batches_total_jobs_not_null",
+            "contype": "n",
+            "definition": "NOT NULL total_jobs"
+        },
+        {
+            "table_name": "jobs",
+            "conname": "jobs_attempts_not_null",
+            "contype": "n",
+            "definition": "NOT NULL attempts"
+        },
+        {
+            "table_name": "jobs",
+            "conname": "jobs_available_at_not_null",
+            "contype": "n",
+            "definition": "NOT NULL available_at"
+        },
+        {
+            "table_name": "jobs",
+            "conname": "jobs_created_at_not_null",
+            "contype": "n",
+            "definition": "NOT NULL created_at"
+        },
+        {
+            "table_name": "jobs",
+            "conname": "jobs_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL id"
+        },
+        {
+            "table_name": "jobs",
+            "conname": "jobs_payload_not_null",
+            "contype": "n",
+            "definition": "NOT NULL payload"
+        },
+        {
+            "table_name": "jobs",
+            "conname": "jobs_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (id)"
+        },
+        {
+            "table_name": "jobs",
+            "conname": "jobs_queue_not_null",
+            "contype": "n",
+            "definition": "NOT NULL queue"
+        },
+        {
+            "table_name": "migrations",
+            "conname": "migrations_batch_not_null",
+            "contype": "n",
+            "definition": "NOT NULL batch"
+        },
+        {
+            "table_name": "migrations",
+            "conname": "migrations_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL id"
+        },
+        {
+            "table_name": "migrations",
+            "conname": "migrations_migration_not_null",
+            "contype": "n",
+            "definition": "NOT NULL migration"
+        },
+        {
+            "table_name": "migrations",
+            "conname": "migrations_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (id)"
+        },
+        {
+            "table_name": "network_attributes",
+            "conname": "network_attributes_name_not_null",
+            "contype": "n",
+            "definition": "NOT NULL name"
+        },
+        {
+            "table_name": "network_attributes",
+            "conname": "network_attributes_network_revision_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (network_revision) REFERENCES network_revisions(id)"
+        },
+        {
+            "table_name": "network_attributes",
+            "conname": "network_attributes_network_revision_not_null",
+            "contype": "n",
+            "definition": "NOT NULL network_revision"
+        },
+        {
+            "table_name": "network_attributes",
+            "conname": "network_attributes_payload_not_null",
+            "contype": "n",
+            "definition": "NOT NULL payload"
+        },
+        {
+            "table_name": "network_attributes",
+            "conname": "network_attributes_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (network_revision, name)"
+        },
+        {
+            "table_name": "network_revisions",
+            "conname": "network_revisions_baseline_sha256_not_null",
+            "contype": "n",
+            "definition": "NOT NULL baseline_sha256"
+        },
+        {
+            "table_name": "network_revisions",
+            "conname": "network_revisions_created_at_not_null",
+            "contype": "n",
+            "definition": "NOT NULL created_at"
+        },
+        {
+            "table_name": "network_revisions",
+            "conname": "network_revisions_display_revision_not_null",
+            "contype": "n",
+            "definition": "NOT NULL display_revision"
+        },
+        {
+            "table_name": "network_revisions",
+            "conname": "network_revisions_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL id"
+        },
+        {
+            "table_name": "network_revisions",
+            "conname": "network_revisions_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (id)"
+        },
+        {
+            "table_name": "network_revisions",
+            "conname": "network_revisions_status_not_null",
+            "contype": "n",
+            "definition": "NOT NULL status"
+        },
+        {
+            "table_name": "network_revisions",
+            "conname": "network_revisions_topology_revision_not_null",
+            "contype": "n",
+            "definition": "NOT NULL topology_revision"
+        },
+        {
+            "table_name": "network_revisions",
+            "conname": "network_revisions_validation_not_null",
+            "contype": "n",
+            "definition": "NOT NULL validation"
+        },
+        {
+            "table_name": "network_sources",
+            "conname": "network_sources_network_revision_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (network_revision) REFERENCES network_revisions(id)"
+        },
+        {
+            "table_name": "network_sources",
+            "conname": "network_sources_network_revision_not_null",
+            "contype": "n",
+            "definition": "NOT NULL network_revision"
+        },
+        {
+            "table_name": "network_sources",
+            "conname": "network_sources_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (network_revision, source_revision)"
+        },
+        {
+            "table_name": "network_sources",
+            "conname": "network_sources_source_revision_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (source_revision) REFERENCES source_revisions(id)"
+        },
+        {
+            "table_name": "network_sources",
+            "conname": "network_sources_source_revision_not_null",
+            "contype": "n",
+            "definition": "NOT NULL source_revision"
+        },
+        {
+            "table_name": "node_fiber_transitions",
+            "conname": "node_fiber_transitions_active_not_null",
+            "contype": "n",
+            "definition": "NOT NULL active"
+        },
+        {
+            "table_name": "node_fiber_transitions",
+            "conname": "node_fiber_transitions_fiber_a_not_null",
+            "contype": "n",
+            "definition": "NOT NULL fiber_a"
+        },
+        {
+            "table_name": "node_fiber_transitions",
+            "conname": "node_fiber_transitions_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL id"
+        },
+        {
+            "table_name": "node_fiber_transitions",
+            "conname": "node_fiber_transitions_network_revision_fiber_a_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (network_revision, fiber_a) REFERENCES fibers(network_revision, id)"
+        },
+        {
+            "table_name": "node_fiber_transitions",
+            "conname": "node_fiber_transitions_network_revision_fiber_z_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (network_revision, fiber_z) REFERENCES fibers(network_revision, id)"
+        },
+        {
+            "table_name": "node_fiber_transitions",
+            "conname": "node_fiber_transitions_network_revision_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (network_revision) REFERENCES network_revisions(id)"
+        },
+        {
+            "table_name": "node_fiber_transitions",
+            "conname": "node_fiber_transitions_network_revision_node_id_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (network_revision, node_id) REFERENCES canonical_nodes(network_revision, id)"
+        },
+        {
+            "table_name": "node_fiber_transitions",
+            "conname": "node_fiber_transitions_network_revision_not_null",
+            "contype": "n",
+            "definition": "NOT NULL network_revision"
+        },
+        {
+            "table_name": "node_fiber_transitions",
+            "conname": "node_fiber_transitions_node_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL node_id"
+        },
+        {
+            "table_name": "node_fiber_transitions",
+            "conname": "node_fiber_transitions_ordinal_not_null",
+            "contype": "n",
+            "definition": "NOT NULL ordinal"
+        },
+        {
+            "table_name": "node_fiber_transitions",
+            "conname": "node_fiber_transitions_payload_not_null",
+            "contype": "n",
+            "definition": "NOT NULL payload"
+        },
+        {
+            "table_name": "node_fiber_transitions",
+            "conname": "node_fiber_transitions_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (network_revision, id)"
+        },
+        {
+            "table_name": "node_fiber_transitions",
+            "conname": "node_fiber_transitions_transition_type_not_null",
+            "contype": "n",
+            "definition": "NOT NULL transition_type"
+        },
+        {
+            "table_name": "password_reset_tokens",
+            "conname": "password_reset_tokens_email_not_null",
+            "contype": "n",
+            "definition": "NOT NULL email"
+        },
+        {
+            "table_name": "password_reset_tokens",
+            "conname": "password_reset_tokens_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (email)"
+        },
+        {
+            "table_name": "password_reset_tokens",
+            "conname": "password_reset_tokens_token_not_null",
+            "contype": "n",
+            "definition": "NOT NULL token"
+        },
+        {
+            "table_name": "port_topology_bindings",
+            "conname": "port_topology_bindings_fiber_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL fiber_id"
+        },
+        {
+            "table_name": "port_topology_bindings",
+            "conname": "port_topology_bindings_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL id"
+        },
+        {
+            "table_name": "port_topology_bindings",
+            "conname": "port_topology_bindings_network_revision_fiber_id_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (network_revision, fiber_id) REFERENCES fibers(network_revision, id)"
+        },
+        {
+            "table_name": "port_topology_bindings",
+            "conname": "port_topology_bindings_network_revision_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (network_revision) REFERENCES network_revisions(id)"
+        },
+        {
+            "table_name": "port_topology_bindings",
+            "conname": "port_topology_bindings_network_revision_not_null",
+            "contype": "n",
+            "definition": "NOT NULL network_revision"
+        },
+        {
+            "table_name": "port_topology_bindings",
+            "conname": "port_topology_bindings_network_revision_port_id_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (network_revision, port_id) REFERENCES ports(network_revision, id)"
+        },
+        {
+            "table_name": "port_topology_bindings",
+            "conname": "port_topology_bindings_ordinal_not_null",
+            "contype": "n",
+            "definition": "NOT NULL ordinal"
+        },
+        {
+            "table_name": "port_topology_bindings",
+            "conname": "port_topology_bindings_payload_not_null",
+            "contype": "n",
+            "definition": "NOT NULL payload"
+        },
+        {
+            "table_name": "port_topology_bindings",
+            "conname": "port_topology_bindings_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (network_revision, id)"
+        },
+        {
+            "table_name": "port_topology_bindings",
+            "conname": "port_topology_bindings_port_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL port_id"
+        },
+        {
+            "table_name": "ports",
+            "conname": "ports_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL id"
+        },
+        {
+            "table_name": "ports",
+            "conname": "ports_network_revision_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (network_revision) REFERENCES network_revisions(id)"
+        },
+        {
+            "table_name": "ports",
+            "conname": "ports_network_revision_not_null",
+            "contype": "n",
+            "definition": "NOT NULL network_revision"
+        },
+        {
+            "table_name": "ports",
+            "conname": "ports_network_revision_owner_kind_owner_id_number_unique",
+            "contype": "u",
+            "definition": "UNIQUE (network_revision, owner_kind, owner_id, number)"
+        },
+        {
+            "table_name": "ports",
+            "conname": "ports_number_not_null",
+            "contype": "n",
+            "definition": "NOT NULL number"
+        },
+        {
+            "table_name": "ports",
+            "conname": "ports_ordinal_not_null",
+            "contype": "n",
+            "definition": "NOT NULL ordinal"
+        },
+        {
+            "table_name": "ports",
+            "conname": "ports_owner_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL owner_id"
+        },
+        {
+            "table_name": "ports",
+            "conname": "ports_owner_kind_not_null",
+            "contype": "n",
+            "definition": "NOT NULL owner_kind"
+        },
+        {
+            "table_name": "ports",
+            "conname": "ports_payload_not_null",
+            "contype": "n",
+            "definition": "NOT NULL payload"
+        },
+        {
+            "table_name": "ports",
+            "conname": "ports_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (network_revision, id)"
+        },
+        {
+            "table_name": "projection_snapshots",
+            "conname": "projection_snapshots_kind_not_null",
+            "contype": "n",
+            "definition": "NOT NULL kind"
+        },
+        {
+            "table_name": "projection_snapshots",
+            "conname": "projection_snapshots_network_revision_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (network_revision) REFERENCES network_revisions(id)"
+        },
+        {
+            "table_name": "projection_snapshots",
+            "conname": "projection_snapshots_network_revision_not_null",
+            "contype": "n",
+            "definition": "NOT NULL network_revision"
+        },
+        {
+            "table_name": "projection_snapshots",
+            "conname": "projection_snapshots_payload_not_null",
+            "contype": "n",
+            "definition": "NOT NULL payload"
+        },
+        {
+            "table_name": "projection_snapshots",
+            "conname": "projection_snapshots_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (network_revision, kind)"
+        },
+        {
+            "table_name": "projection_snapshots",
+            "conname": "projection_snapshots_sha256_not_null",
+            "contype": "n",
+            "definition": "NOT NULL sha256"
+        },
+        {
+            "table_name": "review_events",
+            "conname": "review_events_action_not_null",
+            "contype": "n",
+            "definition": "NOT NULL action"
+        },
+        {
+            "table_name": "review_events",
+            "conname": "review_events_actor_id_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (actor_id) REFERENCES users(id)"
+        },
+        {
+            "table_name": "review_events",
+            "conname": "review_events_actor_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL actor_id"
+        },
+        {
+            "table_name": "review_events",
+            "conname": "review_events_created_at_not_null",
+            "contype": "n",
+            "definition": "NOT NULL created_at"
+        },
+        {
+            "table_name": "review_events",
+            "conname": "review_events_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL id"
+        },
+        {
+            "table_name": "review_events",
+            "conname": "review_events_network_revision_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (network_revision) REFERENCES network_revisions(id)"
+        },
+        {
+            "table_name": "review_events",
+            "conname": "review_events_network_revision_not_null",
+            "contype": "n",
+            "definition": "NOT NULL network_revision"
+        },
+        {
+            "table_name": "review_events",
+            "conname": "review_events_network_revision_subject_id_version_unique",
+            "contype": "u",
+            "definition": "UNIQUE (network_revision, subject_id, version)"
+        },
+        {
+            "table_name": "review_events",
+            "conname": "review_events_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (id)"
+        },
+        {
+            "table_name": "review_events",
+            "conname": "review_events_reason_not_null",
+            "contype": "n",
+            "definition": "NOT NULL reason"
+        },
+        {
+            "table_name": "review_events",
+            "conname": "review_events_source_revision_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (source_revision) REFERENCES source_revisions(id)"
+        },
+        {
+            "table_name": "review_events",
+            "conname": "review_events_subject_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL subject_id"
+        },
+        {
+            "table_name": "review_events",
+            "conname": "review_events_version_not_null",
+            "contype": "n",
+            "definition": "NOT NULL version"
+        },
+        {
+            "table_name": "review_subject_versions",
+            "conname": "review_subject_versions_network_revision_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (network_revision) REFERENCES network_revisions(id)"
+        },
+        {
+            "table_name": "review_subject_versions",
+            "conname": "review_subject_versions_network_revision_not_null",
+            "contype": "n",
+            "definition": "NOT NULL network_revision"
+        },
+        {
+            "table_name": "review_subject_versions",
+            "conname": "review_subject_versions_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (network_revision, subject_id)"
+        },
+        {
+            "table_name": "review_subject_versions",
+            "conname": "review_subject_versions_subject_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL subject_id"
+        },
+        {
+            "table_name": "review_subject_versions",
+            "conname": "review_subject_versions_version_not_null",
+            "contype": "n",
+            "definition": "NOT NULL version"
+        },
+        {
+            "table_name": "sessions",
+            "conname": "sessions_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL id"
+        },
+        {
+            "table_name": "sessions",
+            "conname": "sessions_last_activity_not_null",
+            "contype": "n",
+            "definition": "NOT NULL last_activity"
+        },
+        {
+            "table_name": "sessions",
+            "conname": "sessions_payload_not_null",
+            "contype": "n",
+            "definition": "NOT NULL payload"
+        },
+        {
+            "table_name": "sessions",
+            "conname": "sessions_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (id)"
+        },
+        {
+            "table_name": "source_documents",
+            "conname": "source_documents_created_at_not_null",
+            "contype": "n",
+            "definition": "NOT NULL created_at"
+        },
+        {
+            "table_name": "source_documents",
+            "conname": "source_documents_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL id"
+        },
+        {
+            "table_name": "source_documents",
+            "conname": "source_documents_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (id)"
+        },
+        {
+            "table_name": "source_documents",
+            "conname": "source_documents_title_not_null",
+            "contype": "n",
+            "definition": "NOT NULL title"
+        },
+        {
+            "table_name": "source_revisions",
+            "conname": "source_revisions_created_at_not_null",
+            "contype": "n",
+            "definition": "NOT NULL created_at"
+        },
+        {
+            "table_name": "source_revisions",
+            "conname": "source_revisions_document_id_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (document_id) REFERENCES source_documents(id)"
+        },
+        {
+            "table_name": "source_revisions",
+            "conname": "source_revisions_document_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL document_id"
+        },
+        {
+            "table_name": "source_revisions",
+            "conname": "source_revisions_document_id_sha256_unique",
+            "contype": "u",
+            "definition": "UNIQUE (document_id, sha256)"
+        },
+        {
+            "table_name": "source_revisions",
+            "conname": "source_revisions_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL id"
+        },
+        {
+            "table_name": "source_revisions",
+            "conname": "source_revisions_metadata_not_null",
+            "contype": "n",
+            "definition": "NOT NULL metadata"
+        },
+        {
+            "table_name": "source_revisions",
+            "conname": "source_revisions_original_name_not_null",
+            "contype": "n",
+            "definition": "NOT NULL original_name"
+        },
+        {
+            "table_name": "source_revisions",
+            "conname": "source_revisions_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (id)"
+        },
+        {
+            "table_name": "source_revisions",
+            "conname": "source_revisions_sha256_not_null",
+            "contype": "n",
+            "definition": "NOT NULL sha256"
+        },
+        {
+            "table_name": "source_shapes",
+            "conname": "source_shapes_import_run_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (import_run) REFERENCES import_runs(id)"
+        },
+        {
+            "table_name": "source_shapes",
+            "conname": "source_shapes_import_run_not_null",
+            "contype": "n",
+            "definition": "NOT NULL import_run"
+        },
+        {
+            "table_name": "source_shapes",
+            "conname": "source_shapes_page_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL page_id"
+        },
+        {
+            "table_name": "source_shapes",
+            "conname": "source_shapes_payload_not_null",
+            "contype": "n",
+            "definition": "NOT NULL payload"
+        },
+        {
+            "table_name": "source_shapes",
+            "conname": "source_shapes_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (source_revision, import_run, page_id, shape_id)"
+        },
+        {
+            "table_name": "source_shapes",
+            "conname": "source_shapes_shape_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL shape_id"
+        },
+        {
+            "table_name": "source_shapes",
+            "conname": "source_shapes_source_revision_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (source_revision) REFERENCES source_revisions(id)"
+        },
+        {
+            "table_name": "source_shapes",
+            "conname": "source_shapes_source_revision_not_null",
+            "contype": "n",
+            "definition": "NOT NULL source_revision"
+        },
+        {
+            "table_name": "tubes",
+            "conname": "tubes_cable_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL cable_id"
+        },
+        {
+            "table_name": "tubes",
+            "conname": "tubes_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL id"
+        },
+        {
+            "table_name": "tubes",
+            "conname": "tubes_network_revision_cable_id_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (network_revision, cable_id) REFERENCES cable_segments(network_revision, id)"
+        },
+        {
+            "table_name": "tubes",
+            "conname": "tubes_network_revision_foreign",
+            "contype": "f",
+            "definition": "FOREIGN KEY (network_revision) REFERENCES network_revisions(id)"
+        },
+        {
+            "table_name": "tubes",
+            "conname": "tubes_network_revision_not_null",
+            "contype": "n",
+            "definition": "NOT NULL network_revision"
+        },
+        {
+            "table_name": "tubes",
+            "conname": "tubes_ordinal_not_null",
+            "contype": "n",
+            "definition": "NOT NULL ordinal"
+        },
+        {
+            "table_name": "tubes",
+            "conname": "tubes_payload_not_null",
+            "contype": "n",
+            "definition": "NOT NULL payload"
+        },
+        {
+            "table_name": "tubes",
+            "conname": "tubes_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (network_revision, id)"
+        },
+        {
+            "table_name": "users",
+            "conname": "users_email_not_null",
+            "contype": "n",
+            "definition": "NOT NULL email"
+        },
+        {
+            "table_name": "users",
+            "conname": "users_email_unique",
+            "contype": "u",
+            "definition": "UNIQUE (email)"
+        },
+        {
+            "table_name": "users",
+            "conname": "users_id_not_null",
+            "contype": "n",
+            "definition": "NOT NULL id"
+        },
+        {
+            "table_name": "users",
+            "conname": "users_name_not_null",
+            "contype": "n",
+            "definition": "NOT NULL name"
+        },
+        {
+            "table_name": "users",
+            "conname": "users_password_not_null",
+            "contype": "n",
+            "definition": "NOT NULL password"
+        },
+        {
+            "table_name": "users",
+            "conname": "users_pkey",
+            "contype": "p",
+            "definition": "PRIMARY KEY (id)"
+        },
+        {
+            "table_name": "users",
+            "conname": "users_role_not_null",
+            "contype": "n",
+            "definition": "NOT NULL role"
+        }
+    ],
+    "indexes": [
+        {
+            "tablename": "activation_events",
+            "indexname": "activation_events_pkey",
+            "indexdef": "CREATE UNIQUE INDEX activation_events_pkey ON bkhorguashvili.activation_events USING btree (id)"
+        },
+        {
+            "tablename": "active_network_state",
+            "indexname": "active_network_state_pkey",
+            "indexdef": "CREATE UNIQUE INDEX active_network_state_pkey ON bkhorguashvili.active_network_state USING btree (id)"
+        },
+        {
+            "tablename": "cable_segments",
+            "indexname": "cable_segments_pkey",
+            "indexdef": "CREATE UNIQUE INDEX cable_segments_pkey ON bkhorguashvili.cable_segments USING btree (network_revision, id)"
+        },
+        {
+            "tablename": "cache",
+            "indexname": "cache_expiration_index",
+            "indexdef": "CREATE INDEX cache_expiration_index ON bkhorguashvili.cache USING btree (expiration)"
+        },
+        {
+            "tablename": "cache",
+            "indexname": "cache_pkey",
+            "indexdef": "CREATE UNIQUE INDEX cache_pkey ON bkhorguashvili.cache USING btree (key)"
+        },
+        {
+            "tablename": "cache_locks",
+            "indexname": "cache_locks_expiration_index",
+            "indexdef": "CREATE INDEX cache_locks_expiration_index ON bkhorguashvili.cache_locks USING btree (expiration)"
+        },
+        {
+            "tablename": "cache_locks",
+            "indexname": "cache_locks_pkey",
+            "indexdef": "CREATE UNIQUE INDEX cache_locks_pkey ON bkhorguashvili.cache_locks USING btree (key)"
+        },
+        {
+            "tablename": "canonical_nodes",
+            "indexname": "canonical_nodes_network_revision_kind_local_id_unique",
+            "indexdef": "CREATE UNIQUE INDEX canonical_nodes_network_revision_kind_local_id_unique ON bkhorguashvili.canonical_nodes USING btree (network_revision, kind, local_id)"
+        },
+        {
+            "tablename": "canonical_nodes",
+            "indexname": "canonical_nodes_pkey",
+            "indexdef": "CREATE UNIQUE INDEX canonical_nodes_pkey ON bkhorguashvili.canonical_nodes USING btree (network_revision, id)"
+        },
+        {
+            "tablename": "domain_records",
+            "indexname": "domain_records_network_revision_collection_index",
+            "indexdef": "CREATE INDEX domain_records_network_revision_collection_index ON bkhorguashvili.domain_records USING btree (network_revision, collection)"
+        },
+        {
+            "tablename": "domain_records",
+            "indexname": "domain_records_network_revision_collection_logical_id_index",
+            "indexdef": "CREATE INDEX domain_records_network_revision_collection_logical_id_index ON bkhorguashvili.domain_records USING btree (network_revision, collection, logical_id)"
+        },
+        {
+            "tablename": "domain_records",
+            "indexname": "domain_records_pkey",
+            "indexdef": "CREATE UNIQUE INDEX domain_records_pkey ON bkhorguashvili.domain_records USING btree (network_revision, id)"
+        },
+        {
+            "tablename": "failed_jobs",
+            "indexname": "failed_jobs_connection_queue_failed_at_index",
+            "indexdef": "CREATE INDEX failed_jobs_connection_queue_failed_at_index ON bkhorguashvili.failed_jobs USING btree (connection, queue, failed_at)"
+        },
+        {
+            "tablename": "failed_jobs",
+            "indexname": "failed_jobs_pkey",
+            "indexdef": "CREATE UNIQUE INDEX failed_jobs_pkey ON bkhorguashvili.failed_jobs USING btree (id)"
+        },
+        {
+            "tablename": "failed_jobs",
+            "indexname": "failed_jobs_uuid_unique",
+            "indexdef": "CREATE UNIQUE INDEX failed_jobs_uuid_unique ON bkhorguashvili.failed_jobs USING btree (uuid)"
+        },
+        {
+            "tablename": "fiber_paths",
+            "indexname": "fiber_paths_pkey",
+            "indexdef": "CREATE UNIQUE INDEX fiber_paths_pkey ON bkhorguashvili.fiber_paths USING btree (network_revision, id)"
+        },
+        {
+            "tablename": "fibers",
+            "indexname": "fibers_network_revision_cable_id_number_unique",
+            "indexdef": "CREATE UNIQUE INDEX fibers_network_revision_cable_id_number_unique ON bkhorguashvili.fibers USING btree (network_revision, cable_id, number)"
+        },
+        {
+            "tablename": "fibers",
+            "indexname": "fibers_pkey",
+            "indexdef": "CREATE UNIQUE INDEX fibers_pkey ON bkhorguashvili.fibers USING btree (network_revision, id)"
+        },
+        {
+            "tablename": "import_candidates",
+            "indexname": "import_candidates_pkey",
+            "indexdef": "CREATE UNIQUE INDEX import_candidates_pkey ON bkhorguashvili.import_candidates USING btree (id)"
+        },
+        {
+            "tablename": "import_runs",
+            "indexname": "import_runs_pkey",
+            "indexdef": "CREATE UNIQUE INDEX import_runs_pkey ON bkhorguashvili.import_runs USING btree (id)"
+        },
+        {
+            "tablename": "import_runs",
+            "indexname": "import_runs_source_revision_extractor_version_interpreter_versi",
+            "indexdef": "CREATE UNIQUE INDEX import_runs_source_revision_extractor_version_interpreter_versi ON bkhorguashvili.import_runs USING btree (source_revision, extractor_version, interpreter_version)"
+        },
+        {
+            "tablename": "job_batches",
+            "indexname": "job_batches_pkey",
+            "indexdef": "CREATE UNIQUE INDEX job_batches_pkey ON bkhorguashvili.job_batches USING btree (id)"
+        },
+        {
+            "tablename": "jobs",
+            "indexname": "jobs_pkey",
+            "indexdef": "CREATE UNIQUE INDEX jobs_pkey ON bkhorguashvili.jobs USING btree (id)"
+        },
+        {
+            "tablename": "jobs",
+            "indexname": "jobs_queue_index",
+            "indexdef": "CREATE INDEX jobs_queue_index ON bkhorguashvili.jobs USING btree (queue)"
+        },
+        {
+            "tablename": "migrations",
+            "indexname": "migrations_pkey",
+            "indexdef": "CREATE UNIQUE INDEX migrations_pkey ON bkhorguashvili.migrations USING btree (id)"
+        },
+        {
+            "tablename": "network_attributes",
+            "indexname": "network_attributes_pkey",
+            "indexdef": "CREATE UNIQUE INDEX network_attributes_pkey ON bkhorguashvili.network_attributes USING btree (network_revision, name)"
+        },
+        {
+            "tablename": "network_revisions",
+            "indexname": "network_revisions_baseline_sha256_index",
+            "indexdef": "CREATE INDEX network_revisions_baseline_sha256_index ON bkhorguashvili.network_revisions USING btree (baseline_sha256)"
+        },
+        {
+            "tablename": "network_revisions",
+            "indexname": "network_revisions_pkey",
+            "indexdef": "CREATE UNIQUE INDEX network_revisions_pkey ON bkhorguashvili.network_revisions USING btree (id)"
+        },
+        {
+            "tablename": "network_sources",
+            "indexname": "network_sources_pkey",
+            "indexdef": "CREATE UNIQUE INDEX network_sources_pkey ON bkhorguashvili.network_sources USING btree (network_revision, source_revision)"
+        },
+        {
+            "tablename": "node_fiber_transitions",
+            "indexname": "node_fiber_transitions_pkey",
+            "indexdef": "CREATE UNIQUE INDEX node_fiber_transitions_pkey ON bkhorguashvili.node_fiber_transitions USING btree (network_revision, id)"
+        },
+        {
+            "tablename": "password_reset_tokens",
+            "indexname": "password_reset_tokens_pkey",
+            "indexdef": "CREATE UNIQUE INDEX password_reset_tokens_pkey ON bkhorguashvili.password_reset_tokens USING btree (email)"
+        },
+        {
+            "tablename": "port_topology_bindings",
+            "indexname": "port_topology_bindings_pkey",
+            "indexdef": "CREATE UNIQUE INDEX port_topology_bindings_pkey ON bkhorguashvili.port_topology_bindings USING btree (network_revision, id)"
+        },
+        {
+            "tablename": "ports",
+            "indexname": "ports_network_revision_owner_kind_owner_id_number_unique",
+            "indexdef": "CREATE UNIQUE INDEX ports_network_revision_owner_kind_owner_id_number_unique ON bkhorguashvili.ports USING btree (network_revision, owner_kind, owner_id, number)"
+        },
+        {
+            "tablename": "ports",
+            "indexname": "ports_pkey",
+            "indexdef": "CREATE UNIQUE INDEX ports_pkey ON bkhorguashvili.ports USING btree (network_revision, id)"
+        },
+        {
+            "tablename": "projection_snapshots",
+            "indexname": "projection_snapshots_pkey",
+            "indexdef": "CREATE UNIQUE INDEX projection_snapshots_pkey ON bkhorguashvili.projection_snapshots USING btree (network_revision, kind)"
+        },
+        {
+            "tablename": "review_events",
+            "indexname": "review_events_network_revision_subject_id_version_unique",
+            "indexdef": "CREATE UNIQUE INDEX review_events_network_revision_subject_id_version_unique ON bkhorguashvili.review_events USING btree (network_revision, subject_id, version)"
+        },
+        {
+            "tablename": "review_events",
+            "indexname": "review_events_pkey",
+            "indexdef": "CREATE UNIQUE INDEX review_events_pkey ON bkhorguashvili.review_events USING btree (id)"
+        },
+        {
+            "tablename": "review_subject_versions",
+            "indexname": "review_subject_versions_pkey",
+            "indexdef": "CREATE UNIQUE INDEX review_subject_versions_pkey ON bkhorguashvili.review_subject_versions USING btree (network_revision, subject_id)"
+        },
+        {
+            "tablename": "sessions",
+            "indexname": "sessions_last_activity_index",
+            "indexdef": "CREATE INDEX sessions_last_activity_index ON bkhorguashvili.sessions USING btree (last_activity)"
+        },
+        {
+            "tablename": "sessions",
+            "indexname": "sessions_pkey",
+            "indexdef": "CREATE UNIQUE INDEX sessions_pkey ON bkhorguashvili.sessions USING btree (id)"
+        },
+        {
+            "tablename": "sessions",
+            "indexname": "sessions_user_id_index",
+            "indexdef": "CREATE INDEX sessions_user_id_index ON bkhorguashvili.sessions USING btree (user_id)"
+        },
+        {
+            "tablename": "source_documents",
+            "indexname": "source_documents_pkey",
+            "indexdef": "CREATE UNIQUE INDEX source_documents_pkey ON bkhorguashvili.source_documents USING btree (id)"
+        },
+        {
+            "tablename": "source_revisions",
+            "indexname": "source_revisions_document_id_sha256_unique",
+            "indexdef": "CREATE UNIQUE INDEX source_revisions_document_id_sha256_unique ON bkhorguashvili.source_revisions USING btree (document_id, sha256)"
+        },
+        {
+            "tablename": "source_revisions",
+            "indexname": "source_revisions_pkey",
+            "indexdef": "CREATE UNIQUE INDEX source_revisions_pkey ON bkhorguashvili.source_revisions USING btree (id)"
+        },
+        {
+            "tablename": "source_shapes",
+            "indexname": "source_shapes_pkey",
+            "indexdef": "CREATE UNIQUE INDEX source_shapes_pkey ON bkhorguashvili.source_shapes USING btree (source_revision, import_run, page_id, shape_id)"
+        },
+        {
+            "tablename": "tubes",
+            "indexname": "tubes_pkey",
+            "indexdef": "CREATE UNIQUE INDEX tubes_pkey ON bkhorguashvili.tubes USING btree (network_revision, id)"
+        },
+        {
+            "tablename": "users",
+            "indexname": "users_email_unique",
+            "indexdef": "CREATE UNIQUE INDEX users_email_unique ON bkhorguashvili.users USING btree (email)"
+        },
+        {
+            "tablename": "users",
+            "indexname": "users_pkey",
+            "indexdef": "CREATE UNIQUE INDEX users_pkey ON bkhorguashvili.users USING btree (id)"
+        }
+    ],
+    "functions": [
+        {
+            "proname": "fiber_append_only",
+            "arguments": "",
+            "owner": "bkhorguashvili",
+            "prokind": "f",
+            "proconfig": "{\"search_path=bkhorguashvili, pg_catalog\"}",
+            "definition": "CREATE OR REPLACE FUNCTION bkhorguashvili.fiber_append_only()\n RETURNS trigger\n LANGUAGE plpgsql\n SET search_path TO 'bkhorguashvili', 'pg_catalog'\nAS $function$\nBEGIN RAISE EXCEPTION 'Audit history is append-only'; END $function$\n"
+        },
+        {
+            "proname": "fiber_assert_transition_node",
+            "arguments": "",
+            "owner": "bkhorguashvili",
+            "prokind": "f",
+            "proconfig": "{\"search_path=bkhorguashvili, pg_catalog\"}",
+            "definition": "CREATE OR REPLACE FUNCTION bkhorguashvili.fiber_assert_transition_node()\n RETURNS trigger\n LANGUAGE plpgsql\n SET search_path TO 'bkhorguashvili', 'pg_catalog'\nAS $function$\nBEGIN\n  IF EXISTS (\n    SELECT 1 FROM \"bkhorguashvili\".fibers f JOIN \"bkhorguashvili\".cable_segments c\n    ON c.network_revision=f.network_revision AND c.id=f.cable_id\n    WHERE f.network_revision=NEW.network_revision AND f.id IN (NEW.fiber_a,NEW.fiber_z)\n    AND NEW.node_id NOT IN (c.endpoint_a,c.endpoint_b)\n  ) THEN RAISE EXCEPTION 'Fiber transition must share its real cable endpoint node'; END IF;\n  RETURN NEW;\nEND $function$\n"
+        },
+        {
+            "proname": "fiber_immutable_snapshot",
+            "arguments": "",
+            "owner": "bkhorguashvili",
+            "prokind": "f",
+            "proconfig": "{\"search_path=bkhorguashvili, pg_catalog\"}",
+            "definition": "CREATE OR REPLACE FUNCTION bkhorguashvili.fiber_immutable_snapshot()\n RETURNS trigger\n LANGUAGE plpgsql\n SET search_path TO 'bkhorguashvili', 'pg_catalog'\nAS $function$\nBEGIN\n IF (SELECT status FROM \"bkhorguashvili\".network_revisions WHERE id=COALESCE(NEW.network_revision,OLD.network_revision))='validated'\n THEN RAISE EXCEPTION 'Validated network snapshot is immutable'; END IF;\n IF TG_OP='DELETE' THEN RETURN OLD; END IF;\n RETURN NEW;\nEND $function$\n"
+        }
+    ],
+    "triggers": [
+        {
+            "table_name": "activation_events",
+            "tgname": "immutable_activation_events",
+            "definition": "CREATE TRIGGER immutable_activation_events BEFORE DELETE OR UPDATE ON activation_events FOR EACH ROW EXECUTE FUNCTION fiber_append_only()"
+        },
+        {
+            "table_name": "cable_segments",
+            "tgname": "sealed_snapshot",
+            "definition": "CREATE TRIGGER sealed_snapshot BEFORE INSERT OR DELETE OR UPDATE ON cable_segments FOR EACH ROW EXECUTE FUNCTION fiber_immutable_snapshot()"
+        },
+        {
+            "table_name": "canonical_nodes",
+            "tgname": "sealed_snapshot",
+            "definition": "CREATE TRIGGER sealed_snapshot BEFORE INSERT OR DELETE OR UPDATE ON canonical_nodes FOR EACH ROW EXECUTE FUNCTION fiber_immutable_snapshot()"
+        },
+        {
+            "table_name": "domain_records",
+            "tgname": "sealed_snapshot",
+            "definition": "CREATE TRIGGER sealed_snapshot BEFORE INSERT OR DELETE OR UPDATE ON domain_records FOR EACH ROW EXECUTE FUNCTION fiber_immutable_snapshot()"
+        },
+        {
+            "table_name": "fiber_paths",
+            "tgname": "sealed_snapshot",
+            "definition": "CREATE TRIGGER sealed_snapshot BEFORE INSERT OR DELETE OR UPDATE ON fiber_paths FOR EACH ROW EXECUTE FUNCTION fiber_immutable_snapshot()"
+        },
+        {
+            "table_name": "fibers",
+            "tgname": "sealed_snapshot",
+            "definition": "CREATE TRIGGER sealed_snapshot BEFORE INSERT OR DELETE OR UPDATE ON fibers FOR EACH ROW EXECUTE FUNCTION fiber_immutable_snapshot()"
+        },
+        {
+            "table_name": "network_attributes",
+            "tgname": "sealed_snapshot",
+            "definition": "CREATE TRIGGER sealed_snapshot BEFORE INSERT OR DELETE OR UPDATE ON network_attributes FOR EACH ROW EXECUTE FUNCTION fiber_immutable_snapshot()"
+        },
+        {
+            "table_name": "network_sources",
+            "tgname": "sealed_snapshot",
+            "definition": "CREATE TRIGGER sealed_snapshot BEFORE INSERT OR DELETE OR UPDATE ON network_sources FOR EACH ROW EXECUTE FUNCTION fiber_immutable_snapshot()"
+        },
+        {
+            "table_name": "node_fiber_transitions",
+            "tgname": "enforce_transition_node",
+            "definition": "CREATE TRIGGER enforce_transition_node BEFORE INSERT OR UPDATE ON node_fiber_transitions FOR EACH ROW EXECUTE FUNCTION fiber_assert_transition_node()"
+        },
+        {
+            "table_name": "node_fiber_transitions",
+            "tgname": "sealed_snapshot",
+            "definition": "CREATE TRIGGER sealed_snapshot BEFORE INSERT OR DELETE OR UPDATE ON node_fiber_transitions FOR EACH ROW EXECUTE FUNCTION fiber_immutable_snapshot()"
+        },
+        {
+            "table_name": "port_topology_bindings",
+            "tgname": "sealed_snapshot",
+            "definition": "CREATE TRIGGER sealed_snapshot BEFORE INSERT OR DELETE OR UPDATE ON port_topology_bindings FOR EACH ROW EXECUTE FUNCTION fiber_immutable_snapshot()"
+        },
+        {
+            "table_name": "ports",
+            "tgname": "sealed_snapshot",
+            "definition": "CREATE TRIGGER sealed_snapshot BEFORE INSERT OR DELETE OR UPDATE ON ports FOR EACH ROW EXECUTE FUNCTION fiber_immutable_snapshot()"
+        },
+        {
+            "table_name": "projection_snapshots",
+            "tgname": "sealed_snapshot",
+            "definition": "CREATE TRIGGER sealed_snapshot BEFORE INSERT OR DELETE OR UPDATE ON projection_snapshots FOR EACH ROW EXECUTE FUNCTION fiber_immutable_snapshot()"
+        },
+        {
+            "table_name": "review_events",
+            "tgname": "immutable_review_events",
+            "definition": "CREATE TRIGGER immutable_review_events BEFORE DELETE OR UPDATE ON review_events FOR EACH ROW EXECUTE FUNCTION fiber_append_only()"
+        },
+        {
+            "table_name": "tubes",
+            "tgname": "sealed_snapshot",
+            "definition": "CREATE TRIGGER sealed_snapshot BEFORE INSERT OR DELETE OR UPDATE ON tubes FOR EACH ROW EXECUTE FUNCTION fiber_immutable_snapshot()"
+        }
+    ],
+    "types": [
+        {
+            "typname": "_activation_events",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_active_network_state",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_cable_segments",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_cache",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_cache_locks",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_canonical_nodes",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_domain_records",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_failed_jobs",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_fiber_paths",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_fibers",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_import_candidates",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_import_runs",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_job_batches",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_jobs",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_migrations",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_network_attributes",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_network_revisions",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_network_sources",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_node_fiber_transitions",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_password_reset_tokens",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_port_topology_bindings",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_ports",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_projection_snapshots",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_review_events",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_review_subject_versions",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_sessions",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_source_documents",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_source_revisions",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_source_shapes",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_tubes",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "_users",
+            "typtype": "b",
+            "enum_values": null
+        },
+        {
+            "typname": "activation_events",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "active_network_state",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "cable_segments",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "cache",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "cache_locks",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "canonical_nodes",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "domain_records",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "failed_jobs",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "fiber_paths",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "fibers",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "import_candidates",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "import_runs",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "job_batches",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "jobs",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "migrations",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "network_attributes",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "network_revisions",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "network_sources",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "node_fiber_transitions",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "password_reset_tokens",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "port_topology_bindings",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "ports",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "projection_snapshots",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "review_events",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "review_subject_versions",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "sessions",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "source_documents",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "source_revisions",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "source_shapes",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "tubes",
+            "typtype": "c",
+            "enum_values": null
+        },
+        {
+            "typname": "users",
+            "typtype": "c",
+            "enum_values": null
+        }
+    ],
+    "sequences": [
+        {
+            "sequencename": "failed_jobs_id_seq",
+            "sequenceowner": "bkhorguashvili",
+            "data_type": "bigint",
+            "start_value": 1,
+            "min_value": 1,
+            "max_value": 9223372036854775807,
+            "increment_by": 1,
+            "cycle": false
+        },
+        {
+            "sequencename": "jobs_id_seq",
+            "sequenceowner": "bkhorguashvili",
+            "data_type": "bigint",
+            "start_value": 1,
+            "min_value": 1,
+            "max_value": 9223372036854775807,
+            "increment_by": 1,
+            "cycle": false
+        },
+        {
+            "sequencename": "migrations_id_seq",
+            "sequenceowner": "bkhorguashvili",
+            "data_type": "integer",
+            "start_value": 1,
+            "min_value": 1,
+            "max_value": 2147483647,
+            "increment_by": 1,
+            "cycle": false
+        },
+        {
+            "sequencename": "users_id_seq",
+            "sequenceowner": "bkhorguashvili",
+            "data_type": "bigint",
+            "start_value": 1,
+            "min_value": 1,
+            "max_value": 9223372036854775807,
+            "increment_by": 1,
+            "cycle": false
+        }
+    ],
+    "rowCounts": {
+        "activation_events": 0,
+        "active_network_state": 1,
+        "cable_segments": 37,
+        "cache": 0,
+        "cache_locks": 0,
+        "canonical_nodes": 38,
+        "domain_records": 5242,
+        "failed_jobs": 0,
+        "fiber_paths": 2088,
+        "fibers": 2088,
+        "import_candidates": 0,
+        "import_runs": 0,
+        "job_batches": 0,
+        "jobs": 0,
+        "migrations": 9,
+        "network_attributes": 59,
+        "network_revisions": 1,
+        "network_sources": 2,
+        "node_fiber_transitions": 1631,
+        "password_reset_tokens": 0,
+        "port_topology_bindings": 384,
+        "ports": 576,
+        "projection_snapshots": 2,
+        "review_events": 0,
+        "review_subject_versions": 0,
+        "sessions": 0,
+        "source_documents": 2,
+        "source_revisions": 2,
+        "source_shapes": 0,
+        "tubes": 174,
+        "users": 0
+    }
+}

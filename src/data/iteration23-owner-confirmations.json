@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "layer": "owner_confirmation",
+  "sourceFile": "Tsageri-Lentekhi 2025.vsdx",
+  "sourceSha256": "caae4badc9c8c30be0a5fa3ef26352c3e534a9de7c66e830ef470466bb34a6fa",
+  "confirmations": [
+    { "id": "OWNER-MARKER-GRAMMAR", "kind": "source_convention", "fact": "The surrounding ring is Tube physical color and the inner fill is Fiber physical color." },
+    { "id": "OWNER-PORT-GREEN", "kind": "source_convention", "fact": "A green AP or aggregation/ODF Port graphic means occupied/in use." },
+    { "id": "OWNER-PORT-WHITE", "kind": "source_convention", "fact": "A white Port graphic means unused; unused never implies commercially available." },
+    { "id": "OWNER-OPENNET", "kind": "label_semantics", "fact": "OpenNet text records use/context and does not establish physical ownership." },
+    { "id": "OWNER-TSAGERI-RANGES", "kind": "port_range", "fact": "Tsageri ports 1–116 continue toward Ambrolauri, 117–130 stop intentionally at SC205, 131–144 serve AP41, and 145–192 continue toward Lentekhi." },
+    { "id": "GOLDEN-C172-F01", "kind": "topology_anchor", "fact": "C172/F01 remains a validated operator journey when the fresh local-transition graph supports it." },
+    { "id": "GOLDEN-C172-F29", "kind": "topology_anchor", "fact": "At SC218, C172/F29 continues to C173/F01." },
+    { "id": "GOLDEN-C172-F31", "kind": "topology_anchor", "fact": "C172/F31 remains a validated renumbered journey when the fresh graph supports it." },
+    { "id": "GOLDEN-SC219-F32-AP52-LENTEKHI", "kind": "topology_anchor", "fact": "C176/F32 connects to C175/F24 at SC219 and reaches AP52; SC218 and AP51 are excluded." },
+    { "id": "GOLDEN-LENTEKHI-P38-SC225-AP", "kind": "topology_anchor", "fact": "Lentekhi Port38/C184/F38 connects to C181/F06 at SC224 and continues through SC225 toward the source-supported AP side." }
+  ]
+}

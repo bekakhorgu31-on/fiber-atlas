@@ -1,0 +1,32 @@
+{
+  "stage": "before",
+  "sha256": "6bb6bacff39d3d2c7e5ac646a79ae1950eafed49f4749665e93aad54ebf45e8e",
+  "flows": 1,
+  "coldLoads": [
+    {
+      "ms": 2165.6115,
+      "longTasks": [
+        58,
+        92,
+        1775
+      ]
+    },
+    {
+      "ms": 2097.4478,
+      "longTasks": [
+        50,
+        78,
+        1756
+      ]
+    },
+    {
+      "ms": 2132.7031000000006,
+      "longTasks": [
+        51,
+        78,
+        1783
+      ]
+    }
+  ],
+  "errors": []
+}

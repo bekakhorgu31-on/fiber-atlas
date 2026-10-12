@@ -1,0 +1,27 @@
+import { pathToFileURL } from 'node:url';
+import { writeFile } from 'node:fs/promises';
+const { chromium } = await import(pathToFileURL('C:/Users/Beka/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs'));
+const browser = await chromium.launch({headless:true, executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'});
+const url=pathToFileURL('C:/Users/Beka/Desktop/Visio Alt/fiber-prototype.html').href+'#/import';
+const result={desktop:null,mobile:null,standalone:null,logs:[]};
+const inspect=async(width,height)=>{
+  const context=await browser.newContext({viewport:{width,height}}); const page=await context.newPage();
+  page.on('pageerror',e=>result.logs.push(`pageerror: ${e.message}`));
+  page.on('console',m=>{if(['error','warning'].includes(m.type()))result.logs.push(`${m.type()}: ${m.text()}`)});
+  await page.goto(url); await page.waitForSelector('[aria-label="Iteration 27D topology certification"]');
+  await page.locator('[aria-label="Iteration 27D topology certification"] details summary').click();
+  const text=await page.locator('main').innerText();
+  for(const value of ['Tsageri-Alpana-Tvishi.vsdx','CERTIFIED_FOR_NETWORK_ACTIVATION','Topology active','22','ლენტეხი-ხელედის მიმართულება','C169: exact_match','C148: source_conflict','Node 207','775','376','Ports','Companies','Annotations','imports/inbox/','--watch']) if(!text.includes(value)) throw new Error(`${width}px Import view missing: ${value}\n${text.split('\n').filter(line=>/Iteration 27|certification|Package|C148|C169|Node 207|active/i.test(line)).join('\n')}`);
+  const state=await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,importPanel:document.querySelector('[aria-label="Iteration 27D topology certification"]')?.getBoundingClientRect().width,topologyActive:document.querySelector('[aria-label="Iteration 27D topology certification"]')?.innerText.includes('Topology active')}));
+  if(state.scrollWidth>width) throw new Error(`${width}px page overflow: ${state.scrollWidth}`);
+  await page.screenshot({path:`docs/iteration27d-import-${width}px.png`,fullPage:true});
+  await context.close(); return state;
+};
+result.desktop=await inspect(1440,900); result.mobile=await inspect(390,844);
+const context=await browser.newContext({viewport:{width:1280,height:800}}); const page=await context.newPage();
+page.on('pageerror',e=>result.logs.push(`standalone pageerror: ${e.message}`));
+await page.goto(url); await page.waitForSelector('[aria-label="Iteration 27D topology certification"]');
+result.standalone=await page.evaluate(()=>({scripts:document.scripts.length,linkedStyles:document.querySelectorAll('link[rel="stylesheet"]').length,scrollWidth:document.documentElement.scrollWidth,width:innerWidth,topologyActive:document.body.innerText.includes('Topology active')}));
+if(result.standalone.scripts!==1||result.standalone.linkedStyles!==0||result.standalone.scrollWidth>result.standalone.width||!result.standalone.topologyActive) throw new Error('Standalone topology certification view failed');
+await context.close(); await browser.close(); if(result.logs.length)throw new Error(result.logs.join('\n'));
+await writeFile('docs/iteration27d-browser-qa.json',JSON.stringify(result,null,2)+'\n'); console.log(JSON.stringify(result));

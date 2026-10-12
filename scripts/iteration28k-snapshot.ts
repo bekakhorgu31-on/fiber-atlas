@@ -1,0 +1,10 @@
+import {writeFileSync,readFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import assert from 'node:assert/strict';
+import {repository} from '../src/data/repository';
+import {createOrganizationMapModel,organizationLegKey} from '../src/domain/iteration28k';
+const data=await repository.load(),hashes:Record<string,string>={},baseline=JSON.parse(readFileSync('docs/iteration28j-projection-preservation.json','utf8'));
+for(const [k,expected]of Object.entries(baseline.hashes)){const hash=createHash('sha256').update(JSON.stringify(data[k as keyof typeof data])).digest('hex');assert.equal(hash,expected,k);hashes[k]=hash;}
+for(const k of ['organizationNetworkProjection','aggregationOperationalProjection'] as const)hashes[k]=createHash('sha256').update(JSON.stringify(data[k])).digest('hex');
+const organizations=data.organizationNetworkProjection!.organizations.map(o=>{const model=createOrganizationMapModel(data,o.organizationId)!;return{id:o.organizationId,name:o.name,aliases:o.aliases,legs:o.localFiberLegs.map(organizationLegKey),cableIds:o.cableIds,apIds:o.apIds,portBindingIds:o.portBindingIds,strands:model.strands.map(s=>({id:s.strand.id,representative:s.leg,memberLegs:s.strand.localFiberLegs.map(organizationLegKey),status:s.status,pathSignature:s.path.signature,journeys:s.journeys.map(j=>({nodes:j.map(s=>s.node.id),legs:j.flatMap(s=>s.legAfter?[organizationLegKey(s.legAfter)]:[]),remaps:j.flatMap(s=>s.remap?[s.remap]:[]),stops:j.flatMap(s=>s.stopKind?[s.stopKind]:[])})),bindings:s.bindings.map(b=>({id:b.binding.id,label:b.label,ownerType:b.binding.ownerType,ownerId:b.binding.ownerId,portNumber:b.binding.portNumber,occupancy:b.view.occupancyState})),evidence:s.evidence}))};});
+writeFileSync('docs/iteration28k-runtime-snapshot.json',JSON.stringify({timestamp:new Date().toISOString(),hashes,organizations},null,2)+'\n');console.log(JSON.stringify(organizations.map(o=>({name:o.name,paths:o.strands.length,legs:o.legs.length,cables:o.cableIds.length,bindings:o.portBindingIds.length,apIds:o.apIds})),null,2));

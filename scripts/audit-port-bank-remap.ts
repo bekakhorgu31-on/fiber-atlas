@@ -1,0 +1,22 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+import assert from 'node:assert/strict';
+import {hydrateOperationalPayload,unpackJson,DEFERRED_NETWORK_FIELDS} from '../src/domain/operationalPayload';
+import {shiftedPortBankCandidates} from '../src/domain/portBankRemap';
+import {projectPortCorrection,correctionImpact} from '../src/domain/portCorrection';
+import {currentAssetLabel,createCurrentFiberPathResolver} from '../src/domain/currentFiberPath';
+/** Read a previously saved local snapshot only. No connection or write to any network server. */
+const [manifestFile,reportFile]=process.argv.slice(2),manifest=JSON.parse(readFileSync(manifestFile,'utf8'));
+const data=hydrateOperationalPayload(manifest.operational),detail=unpackJson(manifest.details.inventory) as Record<string,unknown>;
+Object.assign(data,Object.fromEntries(DEFERRED_NETWORK_FIELDS.map(k=>[k,detail[k]??[]])));
+const candidates=shiftedPortBankCandidates(data).map(c=>({...c,label:currentAssetLabel(data,c.node),legacyLabels:data.cables.find(v=>v.id===c.segmentId)!.legacyLabels}));
+const anchor=data.apPorts!.find(p=>p.id===manifest.correction.portId)!,node=data.networkNodes?.find(n=>n.id===anchor.canonicalNode.id);
+assert.equal(node?.apEvidence?.number,18);
+const c=candidates.find(c=>c.portId===anchor.id);assert.ok(c);assert.equal(c.offset,1);assert.equal(c.bindingCount,23);assert.equal(c.portCount,24);
+const input={...manifest.correction,id:'11111111-2222-4333-8444-555555555555',operation:'remap' as const,segmentId:c.segmentId,evidenceBasis:'owner_confirmation' as const,reason:'Owner confirms AP18 Port bank shifted left in drawing; this selected bank is F1→Port1 through F24→Port24.'};
+const after=projectPortCorrection(data,input,'LOCAL-AP18-BANK-REMAPPED'),impact=correctionImpact(data,after),resolver=createCurrentFiberPathResolver(after);
+const bank=after.portTopologyBindings!.filter(b=>b.ownerId===anchor.canonicalNode.id);assert.equal(bank.length,24);assert.ok(bank.every(b=>b.portNumber===b.fiberNumber));
+for(const b of bank)assert.ok(resolver.resolve(b.segmentId,b.fiberNumber).sides.some(s=>s.stop.portBindingId===b.id));
+assert.deepEqual(after.apPorts,data.apPorts);assert.deepEqual(after.nodeFiberTransitions,data.nodeFiberTransitions);
+assert.deepEqual(after.portTopologyBindings!.filter(b=>b.ownerId!==anchor.canonicalNode.id),data.portTopologyBindings!.filter(b=>b.ownerId!==anchor.canonicalNode.id));
+writeFileSync(reportFile,JSON.stringify({scope:'saved local owner draft snapshot; candidate analysis only; no owner activation',ownerServerReads:0,ownerServerWrites:0,sourceRevision:input.sourceRevision,candidates,ap18:{bankRows:impact.bankRows,impactCounts:impact.counts,all24ResolverEndpointsVerified:true,originalPortGeometryAndTransitionsPreserved:true,otherAPBindingsUnchanged:true}},null,2));
+console.log(JSON.stringify({reviewCandidates:candidates.length,ap18Ports:bank.length,impact:impact.counts}));

@@ -1,0 +1,47 @@
+{
+  "sourceSha256": "e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+  "scope": "local full-geometry regeneration; not owner activation",
+  "ownerServerWrites": 0,
+  "rawLabel": "25-134-25024-20-20",
+  "labelShapeId": "78894",
+  "bankShapeIds": [
+    "11797",
+    "12096"
+  ],
+  "foShapeIds": [
+    "11798",
+    "12097"
+  ],
+  "declaredCapacity": 20,
+  "resolvedCapacity": 24,
+  "fiberNumberRange": [
+    1,
+    24
+  ],
+  "oldSourceCounts": {
+    "cable_segments": 176,
+    "fibers": 9356,
+    "node_fiber_transitions": 1759,
+    "port_topology_bindings": 766,
+    "fiber_paths": 9356
+  },
+  "newSourceCounts": {
+    "cable_segments": 176,
+    "fibers": 9360,
+    "node_fiber_transitions": 1759,
+    "port_topology_bindings": 789,
+    "fiber_paths": 9360
+  },
+  "reviewCases": 583,
+  "supportedCapacityOverrides": 1,
+  "outsideAP20Comparison": {
+    "cables": true,
+    "fibers": true,
+    "nodeFiberTransitions": true,
+    "portTopologyBindings": true,
+    "apPorts": true
+  },
+  "comparisonExcludes": "Interpreter-version fields and Port alignment diagnostics (current source audit may refresh those diagnostics). Actual node/Port identities, bindings, source Shape IDs, state, Fiber colors and node transitions are compared.",
+  "portShiftPreservedForExplicitOwnerRemap": true,
+  "ownerDeploymentPending": true
+}

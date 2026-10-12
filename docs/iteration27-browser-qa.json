@@ -1,0 +1,22 @@
+{
+  "desktop": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "importPanel": 1080,
+    "certificationNotPassed": true
+  },
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "importPanel": 362,
+    "certificationNotPassed": true
+  },
+  "standalone": {
+    "scripts": 1,
+    "linkedStyles": 0,
+    "scrollWidth": 1280,
+    "width": 1280,
+    "candidateVisible": true
+  },
+  "logs": []
+}

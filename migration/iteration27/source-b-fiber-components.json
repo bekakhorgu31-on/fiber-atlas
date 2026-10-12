@@ -1,0 +1,8942 @@
+{
+  "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d",
+  "componentCount": 361,
+  "items": [
+    {
+      "id": "SBJ-0001",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 1
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 1
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 1
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 1
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 1
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 1
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 1
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 1
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 13
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 13
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 13
+        },
+        {
+          "segment": "C168",
+          "fiberNumber": 1
+        }
+      ],
+      "transitionCount": 11,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0002",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 2
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 2
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 2
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 2
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 2
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 2
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 2
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 2
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 14
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 14
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 14
+        },
+        {
+          "segment": "C168",
+          "fiberNumber": 2
+        }
+      ],
+      "transitionCount": 11,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0003",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 3
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 3
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 3
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 3
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 3
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 3
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 3
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 3
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 15
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 15
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 15
+        },
+        {
+          "segment": "C168",
+          "fiberNumber": 3
+        }
+      ],
+      "transitionCount": 11,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0004",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 4
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 4
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 4
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 4
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 4
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 4
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 4
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 4
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 16
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 16
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 16
+        },
+        {
+          "segment": "C168",
+          "fiberNumber": 4
+        }
+      ],
+      "transitionCount": 11,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0005",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 5
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 5
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 5
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 5
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 5
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 5
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 5
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 5
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 17
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 17
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 17
+        },
+        {
+          "segment": "C168",
+          "fiberNumber": 5
+        }
+      ],
+      "transitionCount": 11,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0006",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 6
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 6
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 6
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 6
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 6
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 6
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 6
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 6
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 18
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 18
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 18
+        },
+        {
+          "segment": "C168",
+          "fiberNumber": 6
+        }
+      ],
+      "transitionCount": 11,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0007",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 7
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 7
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 7
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 7
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 7
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 7
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 7
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 7
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0008",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 8
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 8
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 8
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 8
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 8
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 8
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 8
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 8
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 20
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 20
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 20
+        },
+        {
+          "segment": "C168",
+          "fiberNumber": 8
+        }
+      ],
+      "transitionCount": 11,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0009",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 9
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 9
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 9
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 9
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 9
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 9
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 9
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 9
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 21
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 21
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 21
+        },
+        {
+          "segment": "C168",
+          "fiberNumber": 9
+        }
+      ],
+      "transitionCount": 11,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0010",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 10
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 10
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 10
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 10
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 10
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 10
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 10
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 10
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 22
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 22
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 22
+        },
+        {
+          "segment": "C168",
+          "fiberNumber": 10
+        }
+      ],
+      "transitionCount": 11,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0011",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 11
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 11
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 11
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 11
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 11
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 11
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 11
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 11
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 23
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 23
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 23
+        },
+        {
+          "segment": "C168",
+          "fiberNumber": 11
+        }
+      ],
+      "transitionCount": 11,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0012",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 12
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 12
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 12
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 12
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 12
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 12
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 12
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 12
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 24
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 24
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 24
+        },
+        {
+          "segment": "C168",
+          "fiberNumber": 12
+        }
+      ],
+      "transitionCount": 11,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0013",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 13
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 13
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 13
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 13
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 13
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 13
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 13
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 13
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0014",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 14
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 14
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 14
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 14
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 14
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 14
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 14
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 14
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0015",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 15
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 15
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 15
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 15
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 15
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 15
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 15
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 15
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0016",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 16
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 16
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 16
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 16
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 16
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 16
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 16
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 16
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0017",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 17
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 17
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 17
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 17
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 17
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 17
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 17
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 17
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0018",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 18
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 18
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 18
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 18
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 18
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 18
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 18
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 18
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0019",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 19
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 19
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 19
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 19
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 19
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 19
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 19
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 19
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0020",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 20
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 20
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 20
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 20
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 20
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 20
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 20
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 20
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0021",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 21
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 21
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 21
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 21
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 21
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 21
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 21
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 21
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0022",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 22
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 22
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 22
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 22
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 22
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 22
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 22
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 22
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0023",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 23
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 23
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 23
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 23
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 23
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 23
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 23
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 23
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0024",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 24
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 24
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 24
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 24
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 24
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 24
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 24
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 24
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0025",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 25
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 25
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 25
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 25
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 25
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 25
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 25
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 25
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 25
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 25
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 25
+        }
+      ],
+      "transitionCount": 10,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0026",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 26
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 26
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 26
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 26
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 26
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 26
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 26
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 26
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 26
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 26
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 26
+        }
+      ],
+      "transitionCount": 10,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0027",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 27
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 27
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 27
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 27
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 27
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 27
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 27
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 27
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 27
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 27
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 27
+        }
+      ],
+      "transitionCount": 10,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0028",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 28
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 28
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 28
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 28
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 28
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 28
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 28
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 28
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 28
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 28
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 28
+        }
+      ],
+      "transitionCount": 10,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0029",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 29
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 29
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 29
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 29
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 29
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 29
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 29
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 29
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 29
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 29
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 29
+        }
+      ],
+      "transitionCount": 10,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0030",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 30
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 30
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 30
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 30
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 30
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 30
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 30
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 30
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 30
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 30
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 30
+        }
+      ],
+      "transitionCount": 10,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0031",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 31
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 31
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 31
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 31
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 31
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 31
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 31
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 31
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 31
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 31
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 31
+        }
+      ],
+      "transitionCount": 10,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0032",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 32
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 32
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 32
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 32
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 32
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 32
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 32
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 32
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 32
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 32
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 32
+        }
+      ],
+      "transitionCount": 10,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0033",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 33
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 33
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 33
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 33
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 33
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 33
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 33
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 33
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 37
+        },
+        {
+          "segment": "C165",
+          "fiberNumber": 1
+        }
+      ],
+      "transitionCount": 9,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0034",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 34
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 34
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 34
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 34
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 34
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 34
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 34
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 34
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 38
+        },
+        {
+          "segment": "C165",
+          "fiberNumber": 2
+        }
+      ],
+      "transitionCount": 9,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0035",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 35
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 35
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 35
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 35
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 35
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 35
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 35
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 35
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 39
+        },
+        {
+          "segment": "C165",
+          "fiberNumber": 3
+        }
+      ],
+      "transitionCount": 9,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0036",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 36
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 36
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 36
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 36
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 36
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 36
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 36
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 36
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 40
+        },
+        {
+          "segment": "C165",
+          "fiberNumber": 4
+        }
+      ],
+      "transitionCount": 9,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0037",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 37
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 37
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 37
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 37
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 37
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 37
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 37
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 37
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0038",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 38
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 38
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 38
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 38
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 38
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 38
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 38
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 38
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0039",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 39
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 39
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 39
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 39
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 39
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 39
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 39
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 39
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0040",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 40
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 40
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 40
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 40
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 40
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 40
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 40
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 40
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0041",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 41
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 41
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 41
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 41
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 41
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 41
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 41
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 41
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0042",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 42
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 42
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 42
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 42
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 42
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 42
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 42
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 42
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0043",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 43
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 43
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 43
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 43
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 43
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 43
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 43
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 43
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0044",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 44
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 44
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 44
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 44
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 44
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 44
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 44
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 44
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0045",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 45
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 45
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 45
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 45
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 45
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 45
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 45
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 45
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0046",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 46
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 46
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 46
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 46
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 46
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 46
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 46
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 46
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0047",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 47
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 47
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 47
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 47
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 47
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 47
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 47
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 47
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0048",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 48
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 48
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 48
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 48
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 48
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 48
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 48
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 48
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0049",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 49
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 49
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 49
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 49
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 49
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 49
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 49
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 49
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0050",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 50
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 50
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 50
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 50
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 50
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 50
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 50
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 50
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0051",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 51
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 51
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 51
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 51
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 51
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 51
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 51
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 51
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0052",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 52
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 52
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 52
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 52
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 52
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 52
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 52
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 52
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0053",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 53
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 53
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 53
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 53
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 53
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 53
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 53
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 53
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0054",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 54
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 54
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 54
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 54
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 54
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 54
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 54
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 54
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0055",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 55
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 55
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 55
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 55
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 55
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 55
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 55
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 55
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0056",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 56
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 56
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 56
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 56
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 56
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 56
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 56
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 56
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0057",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 57
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 57
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 57
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 57
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 57
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 57
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 57
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 57
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0058",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 58
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 58
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 58
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 58
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 58
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 58
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 58
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 58
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0059",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 59
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 59
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 59
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 59
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 59
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 59
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 59
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 59
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0060",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 60
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 60
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 60
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 60
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 60
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 60
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 60
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 60
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0061",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 61
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 61
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 61
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 61
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 61
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 61
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 61
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 61
+        },
+        {
+          "segment": "C162",
+          "fiberNumber": 1
+        }
+      ],
+      "transitionCount": 8,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0062",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 62
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 62
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 62
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 62
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 62
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 62
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 62
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 62
+        },
+        {
+          "segment": "C162",
+          "fiberNumber": 2
+        }
+      ],
+      "transitionCount": 8,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0063",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 63
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 63
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 63
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 63
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 63
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 63
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 63
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 63
+        },
+        {
+          "segment": "C162",
+          "fiberNumber": 3
+        }
+      ],
+      "transitionCount": 8,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0064",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 64
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 64
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 64
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 64
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 64
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 64
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 64
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 64
+        },
+        {
+          "segment": "C162",
+          "fiberNumber": 4
+        }
+      ],
+      "transitionCount": 8,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0065",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 65
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 65
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 65
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 65
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 65
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 65
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 65
+        },
+        {
+          "segment": "C159",
+          "fiberNumber": 1
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0066",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 66
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 66
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 66
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 66
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 66
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 66
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 66
+        },
+        {
+          "segment": "C159",
+          "fiberNumber": 2
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0067",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 67
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 67
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 67
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 67
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 67
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 67
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 67
+        },
+        {
+          "segment": "C159",
+          "fiberNumber": 3
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0068",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 68
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 68
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 68
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 68
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 68
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 68
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 68
+        },
+        {
+          "segment": "C159",
+          "fiberNumber": 4
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0069",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 69
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 69
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 69
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 69
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 69
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 69
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 69
+        },
+        {
+          "segment": "C160",
+          "fiberNumber": 1
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0070",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 70
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 70
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 70
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 70
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 70
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 70
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 70
+        },
+        {
+          "segment": "C160",
+          "fiberNumber": 2
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0071",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 71
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 71
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 71
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 71
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 71
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 71
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 71
+        },
+        {
+          "segment": "C160",
+          "fiberNumber": 3
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0072",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 72
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 72
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 72
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 72
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 72
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 72
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 72
+        },
+        {
+          "segment": "C160",
+          "fiberNumber": 4
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0073",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 73
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 73
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 73
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 73
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 73
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 73
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 73
+        },
+        {
+          "segment": "C160",
+          "fiberNumber": 5
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0074",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 74
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 74
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 74
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 74
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 74
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 74
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 74
+        },
+        {
+          "segment": "C160",
+          "fiberNumber": 6
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0075",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 75
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 75
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 75
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 75
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 75
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 75
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 75
+        },
+        {
+          "segment": "C160",
+          "fiberNumber": 7
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0076",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 76
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 76
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 76
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 76
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 76
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 76
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 76
+        },
+        {
+          "segment": "C160",
+          "fiberNumber": 8
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0077",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 77
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 77
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 77
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 77
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 77
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 77
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 77
+        },
+        {
+          "segment": "C160",
+          "fiberNumber": 9
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0078",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 78
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 78
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 78
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 78
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 78
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 78
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 78
+        },
+        {
+          "segment": "C160",
+          "fiberNumber": 10
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0079",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 79
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 79
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 79
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 79
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 79
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 79
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 79
+        },
+        {
+          "segment": "C160",
+          "fiberNumber": 11
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0080",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 80
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 80
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 80
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 80
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 80
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 80
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 80
+        },
+        {
+          "segment": "C160",
+          "fiberNumber": 12
+        }
+      ],
+      "transitionCount": 7,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0081",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 81
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 81
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 81
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 81
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 81
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 85
+        },
+        {
+          "segment": "C157",
+          "fiberNumber": 1
+        }
+      ],
+      "transitionCount": 6,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0082",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 82
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 82
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 82
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 82
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 82
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 86
+        },
+        {
+          "segment": "C157",
+          "fiberNumber": 2
+        }
+      ],
+      "transitionCount": 6,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0083",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 83
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 83
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 83
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 83
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 83
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 87
+        },
+        {
+          "segment": "C157",
+          "fiberNumber": 3
+        }
+      ],
+      "transitionCount": 6,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0084",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 84
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 84
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 84
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 84
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 84
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 88
+        },
+        {
+          "segment": "C157",
+          "fiberNumber": 4
+        }
+      ],
+      "transitionCount": 6,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0085",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 85
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 85
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 85
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 85
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 85
+        },
+        {
+          "segment": "C155",
+          "fiberNumber": 1
+        }
+      ],
+      "transitionCount": 5,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0086",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 86
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 86
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 86
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 86
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 86
+        },
+        {
+          "segment": "C155",
+          "fiberNumber": 2
+        }
+      ],
+      "transitionCount": 5,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0087",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 87
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 87
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 87
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 87
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 87
+        },
+        {
+          "segment": "C155",
+          "fiberNumber": 3
+        }
+      ],
+      "transitionCount": 5,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0088",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 88
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 88
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 88
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 88
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 88
+        },
+        {
+          "segment": "C155",
+          "fiberNumber": 4
+        }
+      ],
+      "transitionCount": 5,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0089",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 89
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 89
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 89
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 89
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 89
+        },
+        {
+          "segment": "C155",
+          "fiberNumber": 5
+        }
+      ],
+      "transitionCount": 5,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0090",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 90
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 90
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 90
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 90
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 90
+        },
+        {
+          "segment": "C155",
+          "fiberNumber": 6
+        }
+      ],
+      "transitionCount": 5,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0091",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 91
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 91
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 91
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 91
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 91
+        },
+        {
+          "segment": "C155",
+          "fiberNumber": 7
+        }
+      ],
+      "transitionCount": 5,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0092",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 92
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 92
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 92
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 92
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 92
+        },
+        {
+          "segment": "C155",
+          "fiberNumber": 8
+        }
+      ],
+      "transitionCount": 5,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0093",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 93
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 93
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 93
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 93
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 93
+        },
+        {
+          "segment": "C155",
+          "fiberNumber": 9
+        }
+      ],
+      "transitionCount": 5,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0094",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 94
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 94
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 94
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 94
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 94
+        },
+        {
+          "segment": "C155",
+          "fiberNumber": 10
+        }
+      ],
+      "transitionCount": 5,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0095",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 95
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 95
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 95
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 95
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 95
+        },
+        {
+          "segment": "C155",
+          "fiberNumber": 11
+        }
+      ],
+      "transitionCount": 5,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0096",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 96
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 96
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 96
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 96
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 96
+        },
+        {
+          "segment": "C155",
+          "fiberNumber": 12
+        }
+      ],
+      "transitionCount": 5,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0097",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 97
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 97
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 97
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 97
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 97
+        },
+        {
+          "segment": "C155",
+          "fiberNumber": 13
+        }
+      ],
+      "transitionCount": 5,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0098",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 98
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 98
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 98
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 98
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 98
+        },
+        {
+          "segment": "C155",
+          "fiberNumber": 14
+        }
+      ],
+      "transitionCount": 5,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0099",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 99
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 99
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 99
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 99
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 99
+        },
+        {
+          "segment": "C155",
+          "fiberNumber": 15
+        }
+      ],
+      "transitionCount": 5,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0100",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 100
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 100
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 100
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 100
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 100
+        },
+        {
+          "segment": "C155",
+          "fiberNumber": 16
+        }
+      ],
+      "transitionCount": 5,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0101",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 101
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 101
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 101
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 101
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 101
+        },
+        {
+          "segment": "C155",
+          "fiberNumber": 17
+        }
+      ],
+      "transitionCount": 5,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0102",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 102
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 102
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 102
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 102
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 102
+        },
+        {
+          "segment": "C155",
+          "fiberNumber": 18
+        }
+      ],
+      "transitionCount": 5,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0103",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 103
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 103
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 103
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 103
+        },
+        {
+          "segment": "C153",
+          "fiberNumber": 1
+        }
+      ],
+      "transitionCount": 4,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0104",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 104
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 104
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 104
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 104
+        },
+        {
+          "segment": "C153",
+          "fiberNumber": 2
+        }
+      ],
+      "transitionCount": 4,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0105",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 105
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 105
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 105
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 105
+        },
+        {
+          "segment": "C153",
+          "fiberNumber": 3
+        }
+      ],
+      "transitionCount": 4,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0106",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 106
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 106
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 106
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 106
+        },
+        {
+          "segment": "C153",
+          "fiberNumber": 4
+        }
+      ],
+      "transitionCount": 4,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0107",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 107
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 107
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 107
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 107
+        },
+        {
+          "segment": "C153",
+          "fiberNumber": 5
+        }
+      ],
+      "transitionCount": 4,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0108",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 108
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 108
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 108
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 108
+        },
+        {
+          "segment": "C153",
+          "fiberNumber": 6
+        }
+      ],
+      "transitionCount": 4,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0109",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 109
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 109
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 109
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 109
+        },
+        {
+          "segment": "C153",
+          "fiberNumber": 7
+        }
+      ],
+      "transitionCount": 4,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0110",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 110
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 110
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 110
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 110
+        },
+        {
+          "segment": "C153",
+          "fiberNumber": 8
+        }
+      ],
+      "transitionCount": 4,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0111",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 111
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 111
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 111
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 111
+        },
+        {
+          "segment": "C153",
+          "fiberNumber": 9
+        }
+      ],
+      "transitionCount": 4,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0112",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 112
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 112
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 112
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 112
+        },
+        {
+          "segment": "C153",
+          "fiberNumber": 10
+        }
+      ],
+      "transitionCount": 4,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0113",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 113
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 113
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 113
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 113
+        },
+        {
+          "segment": "C153",
+          "fiberNumber": 11
+        }
+      ],
+      "transitionCount": 4,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0114",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 114
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 114
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 114
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 114
+        },
+        {
+          "segment": "C153",
+          "fiberNumber": 12
+        }
+      ],
+      "transitionCount": 4,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0115",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 115
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 115
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 115
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 115
+        },
+        {
+          "segment": "C153",
+          "fiberNumber": 13
+        }
+      ],
+      "transitionCount": 4,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0116",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 116
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 116
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 116
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 116
+        },
+        {
+          "segment": "C153",
+          "fiberNumber": 14
+        }
+      ],
+      "transitionCount": 4,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0117",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 117
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 117
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 117
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 117
+        },
+        {
+          "segment": "C153",
+          "fiberNumber": 15
+        }
+      ],
+      "transitionCount": 4,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0118",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 118
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 118
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 118
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0119",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 119
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 119
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 119
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 119
+        },
+        {
+          "segment": "C153",
+          "fiberNumber": 17
+        }
+      ],
+      "transitionCount": 4,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0120",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 120
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 120
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 120
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 120
+        },
+        {
+          "segment": "C153",
+          "fiberNumber": 18
+        }
+      ],
+      "transitionCount": 4,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0121",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 121
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 121
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 121
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 121
+        },
+        {
+          "segment": "C153",
+          "fiberNumber": 19
+        }
+      ],
+      "transitionCount": 4,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0122",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 122
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 122
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 122
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 122
+        },
+        {
+          "segment": "C153",
+          "fiberNumber": 20
+        }
+      ],
+      "transitionCount": 4,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0123",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 123
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 123
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 123
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 123
+        },
+        {
+          "segment": "C153",
+          "fiberNumber": 21
+        }
+      ],
+      "transitionCount": 4,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0124",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 124
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 124
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 124
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 124
+        },
+        {
+          "segment": "C153",
+          "fiberNumber": 22
+        }
+      ],
+      "transitionCount": 4,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0125",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 125
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 125
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 125
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 125
+        },
+        {
+          "segment": "C153",
+          "fiberNumber": 23
+        }
+      ],
+      "transitionCount": 4,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0126",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 126
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 126
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 126
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 126
+        },
+        {
+          "segment": "C153",
+          "fiberNumber": 24
+        }
+      ],
+      "transitionCount": 4,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0127",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 127
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0128",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 128
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0129",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 129
+        },
+        {
+          "segment": "C149",
+          "fiberNumber": 1
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0130",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 130
+        },
+        {
+          "segment": "C149",
+          "fiberNumber": 2
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0131",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 131
+        },
+        {
+          "segment": "C149",
+          "fiberNumber": 3
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0132",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 132
+        },
+        {
+          "segment": "C149",
+          "fiberNumber": 4
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0133",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 133
+        },
+        {
+          "segment": "C149",
+          "fiberNumber": 5
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0134",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 134
+        },
+        {
+          "segment": "C149",
+          "fiberNumber": 6
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0135",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 135
+        },
+        {
+          "segment": "C149",
+          "fiberNumber": 7
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0136",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 136
+        },
+        {
+          "segment": "C149",
+          "fiberNumber": 8
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0137",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 137
+        },
+        {
+          "segment": "C149",
+          "fiberNumber": 9
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0138",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 138
+        },
+        {
+          "segment": "C149",
+          "fiberNumber": 10
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0139",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 139
+        },
+        {
+          "segment": "C149",
+          "fiberNumber": 11
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0140",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 140
+        },
+        {
+          "segment": "C149",
+          "fiberNumber": 12
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0141",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 141
+        },
+        {
+          "segment": "C149",
+          "fiberNumber": 13
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0142",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 142
+        },
+        {
+          "segment": "C149",
+          "fiberNumber": 14
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0143",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 143
+        },
+        {
+          "segment": "C149",
+          "fiberNumber": 15
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0144",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 144
+        },
+        {
+          "segment": "C149",
+          "fiberNumber": 16
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0145",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 145
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 145
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 1
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0146",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 146
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 146
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 2
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0147",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 147
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 147
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 3
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0148",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 148
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 148
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 4
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0149",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 149
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 149
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 5
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0150",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 150
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 150
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 6
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0151",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 151
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 151
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 7
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0152",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 152
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 152
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 8
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0153",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 153
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 153
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 9
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0154",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 154
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 154
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 10
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0155",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 155
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 155
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 11
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0156",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 156
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 156
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 12
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0157",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 157
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 157
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 13
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0158",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 158
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 158
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 14
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0159",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 159
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 159
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 15
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0160",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 160
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 160
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 16
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0161",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 161
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 161
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 17
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0162",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 162
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 162
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 18
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0163",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 163
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 163
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 19
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0164",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 164
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 164
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 20
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0165",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 165
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 165
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 21
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0166",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 166
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 166
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 22
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0167",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 167
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 167
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 23
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0168",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 168
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 168
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 24
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0169",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 169
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 169
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 25
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0170",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 170
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 170
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 26
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0171",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 171
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 171
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 27
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0172",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 172
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 172
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 28
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0173",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 173
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 173
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 29
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0174",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 174
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 174
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 30
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0175",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 175
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 175
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 31
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0176",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 176
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 176
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 32
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0177",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 177
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 177
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 33
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0178",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 178
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 178
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 34
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0179",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 179
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 179
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 35
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0180",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 180
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 180
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 36
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0181",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 181
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 181
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 37
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0182",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 182
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 182
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 38
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0183",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 183
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 183
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 39
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0184",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 184
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 184
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 40
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0185",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 185
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 185
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 41
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0186",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 186
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 186
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 42
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0187",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 187
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 187
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 43
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0188",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 188
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 188
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 44
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0189",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 189
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 189
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 45
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0190",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 190
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 190
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 46
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0191",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 191
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 191
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 47
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0192",
+      "fiberEndpoints": [
+        {
+          "segment": "C148",
+          "fiberNumber": 192
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 192
+        },
+        {
+          "segment": "C169",
+          "fiberNumber": 48
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0193",
+      "fiberEndpoints": [
+        {
+          "segment": "C149",
+          "fiberNumber": 17
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 127
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 127
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 127
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 103
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 89
+        },
+        {
+          "segment": "C157",
+          "fiberNumber": 5
+        }
+      ],
+      "transitionCount": 6,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0194",
+      "fiberEndpoints": [
+        {
+          "segment": "C149",
+          "fiberNumber": 18
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 128
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 128
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 128
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 104
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 90
+        },
+        {
+          "segment": "C157",
+          "fiberNumber": 6
+        }
+      ],
+      "transitionCount": 6,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0195",
+      "fiberEndpoints": [
+        {
+          "segment": "C149",
+          "fiberNumber": 19
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 129
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 129
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 129
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 105
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 91
+        },
+        {
+          "segment": "C157",
+          "fiberNumber": 7
+        }
+      ],
+      "transitionCount": 6,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0196",
+      "fiberEndpoints": [
+        {
+          "segment": "C149",
+          "fiberNumber": 20
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 130
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 130
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 130
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 106
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 92
+        },
+        {
+          "segment": "C157",
+          "fiberNumber": 8
+        }
+      ],
+      "transitionCount": 6,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0197",
+      "fiberEndpoints": [
+        {
+          "segment": "C149",
+          "fiberNumber": 21
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 131
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 131
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 131
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 107
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 93
+        },
+        {
+          "segment": "C157",
+          "fiberNumber": 9
+        }
+      ],
+      "transitionCount": 6,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0198",
+      "fiberEndpoints": [
+        {
+          "segment": "C149",
+          "fiberNumber": 22
+        },
+        {
+          "segment": "C150",
+          "fiberNumber": 132
+        },
+        {
+          "segment": "C151",
+          "fiberNumber": 132
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 132
+        },
+        {
+          "segment": "C154",
+          "fiberNumber": 108
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 94
+        },
+        {
+          "segment": "C157",
+          "fiberNumber": 10
+        }
+      ],
+      "transitionCount": 6,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0199",
+      "fiberEndpoints": [
+        {
+          "segment": "C149",
+          "fiberNumber": 23
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0200",
+      "fiberEndpoints": [
+        {
+          "segment": "C149",
+          "fiberNumber": 24
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0201",
+      "fiberEndpoints": [
+        {
+          "segment": "C150",
+          "fiberNumber": 133
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0202",
+      "fiberEndpoints": [
+        {
+          "segment": "C150",
+          "fiberNumber": 134
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0203",
+      "fiberEndpoints": [
+        {
+          "segment": "C150",
+          "fiberNumber": 135
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0204",
+      "fiberEndpoints": [
+        {
+          "segment": "C150",
+          "fiberNumber": 136
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0205",
+      "fiberEndpoints": [
+        {
+          "segment": "C150",
+          "fiberNumber": 137
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0206",
+      "fiberEndpoints": [
+        {
+          "segment": "C150",
+          "fiberNumber": 138
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0207",
+      "fiberEndpoints": [
+        {
+          "segment": "C150",
+          "fiberNumber": 139
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0208",
+      "fiberEndpoints": [
+        {
+          "segment": "C150",
+          "fiberNumber": 140
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0209",
+      "fiberEndpoints": [
+        {
+          "segment": "C150",
+          "fiberNumber": 141
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0210",
+      "fiberEndpoints": [
+        {
+          "segment": "C150",
+          "fiberNumber": 142
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0211",
+      "fiberEndpoints": [
+        {
+          "segment": "C150",
+          "fiberNumber": 143
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0212",
+      "fiberEndpoints": [
+        {
+          "segment": "C150",
+          "fiberNumber": 144
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0213",
+      "fiberEndpoints": [
+        {
+          "segment": "C151",
+          "fiberNumber": 133
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 133
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0214",
+      "fiberEndpoints": [
+        {
+          "segment": "C151",
+          "fiberNumber": 134
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 134
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0215",
+      "fiberEndpoints": [
+        {
+          "segment": "C151",
+          "fiberNumber": 135
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 135
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0216",
+      "fiberEndpoints": [
+        {
+          "segment": "C151",
+          "fiberNumber": 136
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 136
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0217",
+      "fiberEndpoints": [
+        {
+          "segment": "C151",
+          "fiberNumber": 137
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 137
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0218",
+      "fiberEndpoints": [
+        {
+          "segment": "C151",
+          "fiberNumber": 138
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 138
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0219",
+      "fiberEndpoints": [
+        {
+          "segment": "C151",
+          "fiberNumber": 139
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 139
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0220",
+      "fiberEndpoints": [
+        {
+          "segment": "C151",
+          "fiberNumber": 140
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 140
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0221",
+      "fiberEndpoints": [
+        {
+          "segment": "C151",
+          "fiberNumber": 141
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 141
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0222",
+      "fiberEndpoints": [
+        {
+          "segment": "C151",
+          "fiberNumber": 142
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 142
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0223",
+      "fiberEndpoints": [
+        {
+          "segment": "C151",
+          "fiberNumber": 143
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 143
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0224",
+      "fiberEndpoints": [
+        {
+          "segment": "C151",
+          "fiberNumber": 144
+        },
+        {
+          "segment": "C152",
+          "fiberNumber": 144
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0225",
+      "fiberEndpoints": [
+        {
+          "segment": "C152",
+          "fiberNumber": 118
+        },
+        {
+          "segment": "C153",
+          "fiberNumber": 16
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0226",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 109
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0227",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 110
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0228",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 111
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0229",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 112
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0230",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 113
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0231",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 114
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0232",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 115
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0233",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 116
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0234",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 117
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0235",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 118
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0236",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 119
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0237",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 120
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0238",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 121
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0239",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 122
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0240",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 123
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0241",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 124
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0242",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 125
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0243",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 126
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0244",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 127
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0245",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 128
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0246",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 129
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0247",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 130
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0248",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 131
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0249",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 132
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0250",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 133
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0251",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 134
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0252",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 135
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0253",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 136
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0254",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 137
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0255",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 138
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0256",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 139
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0257",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 140
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0258",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 141
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0259",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 142
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0260",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 143
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0261",
+      "fiberEndpoints": [
+        {
+          "segment": "C154",
+          "fiberNumber": 144
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0262",
+      "fiberEndpoints": [
+        {
+          "segment": "C155",
+          "fiberNumber": 19
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 95
+        },
+        {
+          "segment": "C157",
+          "fiberNumber": 11
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0263",
+      "fiberEndpoints": [
+        {
+          "segment": "C155",
+          "fiberNumber": 20
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 96
+        },
+        {
+          "segment": "C157",
+          "fiberNumber": 12
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0264",
+      "fiberEndpoints": [
+        {
+          "segment": "C155",
+          "fiberNumber": 21
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 81
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 81
+        },
+        {
+          "segment": "C159",
+          "fiberNumber": 5
+        }
+      ],
+      "transitionCount": 3,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0265",
+      "fiberEndpoints": [
+        {
+          "segment": "C155",
+          "fiberNumber": 22
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 82
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 82
+        },
+        {
+          "segment": "C159",
+          "fiberNumber": 6
+        }
+      ],
+      "transitionCount": 3,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0266",
+      "fiberEndpoints": [
+        {
+          "segment": "C155",
+          "fiberNumber": 23
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 83
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 83
+        },
+        {
+          "segment": "C159",
+          "fiberNumber": 7
+        }
+      ],
+      "transitionCount": 3,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0267",
+      "fiberEndpoints": [
+        {
+          "segment": "C155",
+          "fiberNumber": 24
+        },
+        {
+          "segment": "C156",
+          "fiberNumber": 84
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 84
+        },
+        {
+          "segment": "C159",
+          "fiberNumber": 8
+        }
+      ],
+      "transitionCount": 3,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0268",
+      "fiberEndpoints": [
+        {
+          "segment": "C157",
+          "fiberNumber": 13
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 85
+        },
+        {
+          "segment": "C159",
+          "fiberNumber": 9
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0269",
+      "fiberEndpoints": [
+        {
+          "segment": "C157",
+          "fiberNumber": 14
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 86
+        },
+        {
+          "segment": "C159",
+          "fiberNumber": 10
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0270",
+      "fiberEndpoints": [
+        {
+          "segment": "C157",
+          "fiberNumber": 15
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 87
+        },
+        {
+          "segment": "C159",
+          "fiberNumber": 11
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0271",
+      "fiberEndpoints": [
+        {
+          "segment": "C157",
+          "fiberNumber": 16
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 88
+        },
+        {
+          "segment": "C159",
+          "fiberNumber": 12
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0272",
+      "fiberEndpoints": [
+        {
+          "segment": "C157",
+          "fiberNumber": 17
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 89
+        },
+        {
+          "segment": "C159",
+          "fiberNumber": 13
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0273",
+      "fiberEndpoints": [
+        {
+          "segment": "C157",
+          "fiberNumber": 18
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 90
+        },
+        {
+          "segment": "C159",
+          "fiberNumber": 14
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0274",
+      "fiberEndpoints": [
+        {
+          "segment": "C157",
+          "fiberNumber": 19
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 91
+        },
+        {
+          "segment": "C160",
+          "fiberNumber": 13
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0275",
+      "fiberEndpoints": [
+        {
+          "segment": "C157",
+          "fiberNumber": 20
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 92
+        },
+        {
+          "segment": "C160",
+          "fiberNumber": 14
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0276",
+      "fiberEndpoints": [
+        {
+          "segment": "C157",
+          "fiberNumber": 21
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 93
+        },
+        {
+          "segment": "C160",
+          "fiberNumber": 15
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0277",
+      "fiberEndpoints": [
+        {
+          "segment": "C157",
+          "fiberNumber": 22
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 94
+        },
+        {
+          "segment": "C160",
+          "fiberNumber": 16
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0278",
+      "fiberEndpoints": [
+        {
+          "segment": "C157",
+          "fiberNumber": 23
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 95
+        },
+        {
+          "segment": "C160",
+          "fiberNumber": 17
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0279",
+      "fiberEndpoints": [
+        {
+          "segment": "C157",
+          "fiberNumber": 24
+        },
+        {
+          "segment": "C158",
+          "fiberNumber": 96
+        },
+        {
+          "segment": "C160",
+          "fiberNumber": 18
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0280",
+      "fiberEndpoints": [
+        {
+          "segment": "C159",
+          "fiberNumber": 15
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 65
+        },
+        {
+          "segment": "C162",
+          "fiberNumber": 5
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0281",
+      "fiberEndpoints": [
+        {
+          "segment": "C159",
+          "fiberNumber": 16
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 66
+        },
+        {
+          "segment": "C162",
+          "fiberNumber": 6
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0282",
+      "fiberEndpoints": [
+        {
+          "segment": "C159",
+          "fiberNumber": 17
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 67
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0283",
+      "fiberEndpoints": [
+        {
+          "segment": "C159",
+          "fiberNumber": 18
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 68
+        },
+        {
+          "segment": "C162",
+          "fiberNumber": 8
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0284",
+      "fiberEndpoints": [
+        {
+          "segment": "C159",
+          "fiberNumber": 19
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 69
+        },
+        {
+          "segment": "C162",
+          "fiberNumber": 9
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0285",
+      "fiberEndpoints": [
+        {
+          "segment": "C159",
+          "fiberNumber": 20
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 70
+        },
+        {
+          "segment": "C162",
+          "fiberNumber": 10
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0286",
+      "fiberEndpoints": [
+        {
+          "segment": "C159",
+          "fiberNumber": 21
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 71
+        },
+        {
+          "segment": "C162",
+          "fiberNumber": 11
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0287",
+      "fiberEndpoints": [
+        {
+          "segment": "C159",
+          "fiberNumber": 22
+        },
+        {
+          "segment": "C161",
+          "fiberNumber": 72
+        },
+        {
+          "segment": "C162",
+          "fiberNumber": 12
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0288",
+      "fiberEndpoints": [
+        {
+          "segment": "C159",
+          "fiberNumber": 23
+        },
+        {
+          "segment": "C160",
+          "fiberNumber": 19
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0289",
+      "fiberEndpoints": [
+        {
+          "segment": "C159",
+          "fiberNumber": 24
+        },
+        {
+          "segment": "C160",
+          "fiberNumber": 20
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0290",
+      "fiberEndpoints": [
+        {
+          "segment": "C160",
+          "fiberNumber": 21
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0291",
+      "fiberEndpoints": [
+        {
+          "segment": "C160",
+          "fiberNumber": 22
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0292",
+      "fiberEndpoints": [
+        {
+          "segment": "C160",
+          "fiberNumber": 23
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0293",
+      "fiberEndpoints": [
+        {
+          "segment": "C160",
+          "fiberNumber": 24
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0294",
+      "fiberEndpoints": [
+        {
+          "segment": "C162",
+          "fiberNumber": 7
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0295",
+      "fiberEndpoints": [
+        {
+          "segment": "C162",
+          "fiberNumber": 13
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 41
+        },
+        {
+          "segment": "C165",
+          "fiberNumber": 5
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0296",
+      "fiberEndpoints": [
+        {
+          "segment": "C162",
+          "fiberNumber": 14
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 42
+        },
+        {
+          "segment": "C165",
+          "fiberNumber": 6
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0297",
+      "fiberEndpoints": [
+        {
+          "segment": "C162",
+          "fiberNumber": 15
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 43
+        },
+        {
+          "segment": "C165",
+          "fiberNumber": 7
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0298",
+      "fiberEndpoints": [
+        {
+          "segment": "C162",
+          "fiberNumber": 16
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 44
+        },
+        {
+          "segment": "C165",
+          "fiberNumber": 8
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0299",
+      "fiberEndpoints": [
+        {
+          "segment": "C162",
+          "fiberNumber": 17
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 45
+        },
+        {
+          "segment": "C165",
+          "fiberNumber": 9
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0300",
+      "fiberEndpoints": [
+        {
+          "segment": "C162",
+          "fiberNumber": 18
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 46
+        },
+        {
+          "segment": "C165",
+          "fiberNumber": 10
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0301",
+      "fiberEndpoints": [
+        {
+          "segment": "C162",
+          "fiberNumber": 19
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 47
+        },
+        {
+          "segment": "C165",
+          "fiberNumber": 11
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0302",
+      "fiberEndpoints": [
+        {
+          "segment": "C162",
+          "fiberNumber": 20
+        },
+        {
+          "segment": "C164",
+          "fiberNumber": 48
+        },
+        {
+          "segment": "C165",
+          "fiberNumber": 12
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0303",
+      "fiberEndpoints": [
+        {
+          "segment": "C162",
+          "fiberNumber": 21
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0304",
+      "fiberEndpoints": [
+        {
+          "segment": "C162",
+          "fiberNumber": 22
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0305",
+      "fiberEndpoints": [
+        {
+          "segment": "C162",
+          "fiberNumber": 23
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0306",
+      "fiberEndpoints": [
+        {
+          "segment": "C162",
+          "fiberNumber": 24
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0307",
+      "fiberEndpoints": [
+        {
+          "segment": "C164",
+          "fiberNumber": 1
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 1
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 1
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0308",
+      "fiberEndpoints": [
+        {
+          "segment": "C164",
+          "fiberNumber": 2
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 2
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 2
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0309",
+      "fiberEndpoints": [
+        {
+          "segment": "C164",
+          "fiberNumber": 3
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 3
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 3
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0310",
+      "fiberEndpoints": [
+        {
+          "segment": "C164",
+          "fiberNumber": 4
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 4
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 4
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0311",
+      "fiberEndpoints": [
+        {
+          "segment": "C164",
+          "fiberNumber": 5
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 5
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 5
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0312",
+      "fiberEndpoints": [
+        {
+          "segment": "C164",
+          "fiberNumber": 6
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 6
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 6
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0313",
+      "fiberEndpoints": [
+        {
+          "segment": "C164",
+          "fiberNumber": 7
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 7
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 7
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0314",
+      "fiberEndpoints": [
+        {
+          "segment": "C164",
+          "fiberNumber": 8
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 8
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 8
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0315",
+      "fiberEndpoints": [
+        {
+          "segment": "C164",
+          "fiberNumber": 9
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 9
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 9
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0316",
+      "fiberEndpoints": [
+        {
+          "segment": "C164",
+          "fiberNumber": 10
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 10
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0317",
+      "fiberEndpoints": [
+        {
+          "segment": "C164",
+          "fiberNumber": 11
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 11
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 11
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0318",
+      "fiberEndpoints": [
+        {
+          "segment": "C164",
+          "fiberNumber": 12
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 12
+        }
+      ],
+      "transitionCount": 1,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0319",
+      "fiberEndpoints": [
+        {
+          "segment": "C164",
+          "fiberNumber": 19
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 19
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 19
+        },
+        {
+          "segment": "C168",
+          "fiberNumber": 7
+        }
+      ],
+      "transitionCount": 3,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0320",
+      "fiberEndpoints": [
+        {
+          "segment": "C164",
+          "fiberNumber": 33
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 33
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 33
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0321",
+      "fiberEndpoints": [
+        {
+          "segment": "C164",
+          "fiberNumber": 34
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 34
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 34
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0322",
+      "fiberEndpoints": [
+        {
+          "segment": "C164",
+          "fiberNumber": 35
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 35
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 35
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0323",
+      "fiberEndpoints": [
+        {
+          "segment": "C164",
+          "fiberNumber": 36
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 36
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 36
+        }
+      ],
+      "transitionCount": 2,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0324",
+      "fiberEndpoints": [
+        {
+          "segment": "C165",
+          "fiberNumber": 13
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 37
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 37
+        },
+        {
+          "segment": "C168",
+          "fiberNumber": 13
+        }
+      ],
+      "transitionCount": 3,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0325",
+      "fiberEndpoints": [
+        {
+          "segment": "C165",
+          "fiberNumber": 14
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 38
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 38
+        },
+        {
+          "segment": "C168",
+          "fiberNumber": 14
+        }
+      ],
+      "transitionCount": 3,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0326",
+      "fiberEndpoints": [
+        {
+          "segment": "C165",
+          "fiberNumber": 15
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 39
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 39
+        },
+        {
+          "segment": "C168",
+          "fiberNumber": 15
+        }
+      ],
+      "transitionCount": 3,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0327",
+      "fiberEndpoints": [
+        {
+          "segment": "C165",
+          "fiberNumber": 16
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 40
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 40
+        },
+        {
+          "segment": "C168",
+          "fiberNumber": 16
+        }
+      ],
+      "transitionCount": 3,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0328",
+      "fiberEndpoints": [
+        {
+          "segment": "C165",
+          "fiberNumber": 17
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 41
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 41
+        },
+        {
+          "segment": "C168",
+          "fiberNumber": 17
+        }
+      ],
+      "transitionCount": 3,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0329",
+      "fiberEndpoints": [
+        {
+          "segment": "C165",
+          "fiberNumber": 18
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 42
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 42
+        },
+        {
+          "segment": "C168",
+          "fiberNumber": 18
+        }
+      ],
+      "transitionCount": 3,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0330",
+      "fiberEndpoints": [
+        {
+          "segment": "C165",
+          "fiberNumber": 19
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 43
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 43
+        },
+        {
+          "segment": "C168",
+          "fiberNumber": 19
+        }
+      ],
+      "transitionCount": 3,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0331",
+      "fiberEndpoints": [
+        {
+          "segment": "C165",
+          "fiberNumber": 20
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 44
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 44
+        },
+        {
+          "segment": "C168",
+          "fiberNumber": 20
+        }
+      ],
+      "transitionCount": 3,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0332",
+      "fiberEndpoints": [
+        {
+          "segment": "C165",
+          "fiberNumber": 21
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 45
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 45
+        },
+        {
+          "segment": "C168",
+          "fiberNumber": 21
+        }
+      ],
+      "transitionCount": 3,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0333",
+      "fiberEndpoints": [
+        {
+          "segment": "C165",
+          "fiberNumber": 22
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 46
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 46
+        },
+        {
+          "segment": "C168",
+          "fiberNumber": 22
+        }
+      ],
+      "transitionCount": 3,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0334",
+      "fiberEndpoints": [
+        {
+          "segment": "C165",
+          "fiberNumber": 23
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 47
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 47
+        },
+        {
+          "segment": "C168",
+          "fiberNumber": 23
+        }
+      ],
+      "transitionCount": 3,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0335",
+      "fiberEndpoints": [
+        {
+          "segment": "C165",
+          "fiberNumber": 24
+        },
+        {
+          "segment": "C166",
+          "fiberNumber": 48
+        },
+        {
+          "segment": "C167",
+          "fiberNumber": 48
+        },
+        {
+          "segment": "C168",
+          "fiberNumber": 24
+        }
+      ],
+      "transitionCount": 3,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0336",
+      "fiberEndpoints": [
+        {
+          "segment": "C167",
+          "fiberNumber": 10
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0337",
+      "fiberEndpoints": [
+        {
+          "segment": "C167",
+          "fiberNumber": 12
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0338",
+      "fiberEndpoints": [
+        {
+          "segment": "C172",
+          "fiberNumber": 1
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0339",
+      "fiberEndpoints": [
+        {
+          "segment": "C172",
+          "fiberNumber": 2
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0340",
+      "fiberEndpoints": [
+        {
+          "segment": "C172",
+          "fiberNumber": 3
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0341",
+      "fiberEndpoints": [
+        {
+          "segment": "C172",
+          "fiberNumber": 4
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0342",
+      "fiberEndpoints": [
+        {
+          "segment": "C172",
+          "fiberNumber": 5
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0343",
+      "fiberEndpoints": [
+        {
+          "segment": "C172",
+          "fiberNumber": 6
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0344",
+      "fiberEndpoints": [
+        {
+          "segment": "C172",
+          "fiberNumber": 7
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0345",
+      "fiberEndpoints": [
+        {
+          "segment": "C172",
+          "fiberNumber": 8
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0346",
+      "fiberEndpoints": [
+        {
+          "segment": "C172",
+          "fiberNumber": 9
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0347",
+      "fiberEndpoints": [
+        {
+          "segment": "C172",
+          "fiberNumber": 10
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0348",
+      "fiberEndpoints": [
+        {
+          "segment": "C172",
+          "fiberNumber": 11
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0349",
+      "fiberEndpoints": [
+        {
+          "segment": "C172",
+          "fiberNumber": 12
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0350",
+      "fiberEndpoints": [
+        {
+          "segment": "C172",
+          "fiberNumber": 13
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0351",
+      "fiberEndpoints": [
+        {
+          "segment": "C172",
+          "fiberNumber": 14
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0352",
+      "fiberEndpoints": [
+        {
+          "segment": "C172",
+          "fiberNumber": 15
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0353",
+      "fiberEndpoints": [
+        {
+          "segment": "C172",
+          "fiberNumber": 16
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0354",
+      "fiberEndpoints": [
+        {
+          "segment": "C172",
+          "fiberNumber": 17
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0355",
+      "fiberEndpoints": [
+        {
+          "segment": "C172",
+          "fiberNumber": 18
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0356",
+      "fiberEndpoints": [
+        {
+          "segment": "C172",
+          "fiberNumber": 19
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0357",
+      "fiberEndpoints": [
+        {
+          "segment": "C172",
+          "fiberNumber": 20
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0358",
+      "fiberEndpoints": [
+        {
+          "segment": "C172",
+          "fiberNumber": 21
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0359",
+      "fiberEndpoints": [
+        {
+          "segment": "C172",
+          "fiberNumber": 22
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0360",
+      "fiberEndpoints": [
+        {
+          "segment": "C172",
+          "fiberNumber": 23
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    },
+    {
+      "id": "SBJ-0361",
+      "fiberEndpoints": [
+        {
+          "segment": "C172",
+          "fiberNumber": 24
+        }
+      ],
+      "transitionCount": 0,
+      "status": "partial",
+      "routeAdjacencyUsed": false
+    }
+  ]
+}

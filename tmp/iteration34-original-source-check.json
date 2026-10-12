@@ -1,0 +1,95 @@
+{
+  "sourceSha256": "e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+  "sourceChecks": [
+    {
+      "shapeId": "27117",
+      "text": "25-178-25060-25061-48\n",
+      "fill": []
+    },
+    {
+      "shapeId": "46525",
+      "text": "1\n",
+      "fill": [
+        {
+          "N": "FillForegnd",
+          "V": "#ffffff",
+          "F": "THEMEGUARD(IF(User.visDGCBVFill<>1.5,User.visDGCBVFill,IF(CELLISTHEMED(FALSE),THEME(\"FillColor\"),1)))"
+        },
+        {
+          "N": "FillBkgnd",
+          "V": "#ffffff",
+          "F": "THEMEGUARD(IF(User.visDGCBVFill<>1.5,TINT(FillForegnd,LUMDIFF(THEME(\"FillColor2\"),THEME(\"FillColor\"))),IF(CELLISTHEMED(FALSE),THEME(\"FillColor2\"),0)))"
+        }
+      ]
+    },
+    {
+      "shapeId": "46548",
+      "text": "1\n",
+      "fill": [
+        {
+          "N": "FillForegnd",
+          "V": "#ffffff",
+          "F": "THEMEGUARD(IF(User.visDGCBVFill<>1.5,User.visDGCBVFill,IF(CELLISTHEMED(FALSE),THEME(\"FillColor\"),1)))"
+        },
+        {
+          "N": "FillBkgnd",
+          "V": "#ffffff",
+          "F": "THEMEGUARD(IF(User.visDGCBVFill<>1.5,TINT(FillForegnd,LUMDIFF(THEME(\"FillColor2\"),THEME(\"FillColor\"))),IF(CELLISTHEMED(FALSE),THEME(\"FillColor2\"),0)))"
+        }
+      ]
+    },
+    {
+      "shapeId": "67897",
+      "text": "0\n",
+      "fill": [
+        {
+          "N": "FillForegnd",
+          "V": "#ffffff",
+          "F": "THEMEGUARD(IF(User.visDGCBVFill<>1.5,User.visDGCBVFill,IF(CELLISTHEMED(FALSE),THEME(\"FillColor\"),1)))"
+        },
+        {
+          "N": "FillBkgnd",
+          "V": "#ffffff",
+          "F": "THEMEGUARD(IF(User.visDGCBVFill<>1.5,TINT(FillForegnd,LUMDIFF(THEME(\"FillColor2\"),THEME(\"FillColor\"))),IF(CELLISTHEMED(FALSE),THEME(\"FillColor2\"),0)))"
+        }
+      ]
+    },
+    {
+      "shapeId": "35418",
+      "text": null,
+      "fill": [
+        {
+          "N": "FillForegnd",
+          "V": "#cc99ff",
+          "F": "THEMEGUARD(RGB(204,153,255))"
+        },
+        {
+          "N": "FillBkgnd",
+          "V": "#dab5ff",
+          "F": "THEMEGUARD(SHADE(FillForegnd,LUMDIFF(THEME(\"FillColor\"),THEME(\"FillColor2\"))))"
+        }
+      ]
+    },
+    {
+      "shapeId": "34469",
+      "text": null,
+      "fill": [
+        {
+          "N": "FillForegnd",
+          "V": "#7030a0",
+          "F": "THEMEGUARD(RGB(112,48,160))"
+        },
+        {
+          "N": "FillBkgnd",
+          "V": "#8f45c7",
+          "F": "THEMEGUARD(SHADE(FillForegnd,LUMDIFF(THEME(\"FillColor\"),THEME(\"FillColor2\"))))"
+        }
+      ]
+    },
+    {
+      "shapeId": "29315",
+      "text": "25-178-25060-25061-48\n",
+      "fill": []
+    }
+  ]
+}

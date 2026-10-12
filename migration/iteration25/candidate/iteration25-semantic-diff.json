@@ -1,0 +1,29 @@
+{
+  "baseline": "Iteration 24 certified semantic projection",
+  "changes": [
+    {
+      "after": "13 logical usage assignments from 31 source-labelled line Shapes",
+      "area": "company_usage",
+      "before": "31 raw occurrences; no assignments"
+    },
+    {
+      "after": "8 exact C181 branch transitions; 16 precisely unresolved",
+      "area": "SC225",
+      "before": "partial transition set"
+    },
+    {
+      "after": "unchanged; certified source contradicts requested expected swap",
+      "area": "AP53_AP54_identity",
+      "before": "C182→AP53; C183→AP54"
+    }
+  ],
+  "deterministic": true,
+  "interpreter": "interpret-iteration25-source.py/1",
+  "page": "ცაგერი-ლენტეხი",
+  "pageId": "4",
+  "part": "visio/pages/page1.xml",
+  "rawArtifactSha256": "e14e79f5930a1b063db11e4db53d2ac47925fb49ffc3a915449468a54cfb066f",
+  "schemaVersion": 1,
+  "sourceFile": "Tsageri-Lentekhi 2025.vsdx",
+  "sourceSha256": "caae4badc9c8c30be0a5fa3ef26352c3e534a9de7c66e830ef470466bb34a6fa"
+}

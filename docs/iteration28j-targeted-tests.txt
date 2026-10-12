@@ -1,0 +1,13 @@
+✔ 28J AP destination survives Port selection and separate node/Cable inspection (1.9014ms)
+✔ 28J physical AP42 context uses all typed Cable endpoints, independently of Fiber gaps (19.5763ms)
+✔ 28J explicit origin/path selection rejects unreachable choices and preserves alternatives (10.3357ms)
+✔ 28J raw occupancy and translated labels agree while Fiber use remains independent (93.7229ms)
+✔ 28J Port1 display reaches aggregation without inventing an aggregation Port (17.16ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3355.7161

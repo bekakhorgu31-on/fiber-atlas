@@ -1,0 +1,48 @@
+{
+  "id": "TSAGERI-LENTEKHI-REFERENCE-V1",
+  "status": "READY",
+  "source": {
+    "file": "Tsageri-Lentekhi 2025.vsdx",
+    "sha256": "caae4badc9c8c30be0a5fa3ef26352c3e534a9de7c66e830ef470466bb34a6fa"
+  },
+  "versions": {
+    "importer": "iteration24-certified-v2",
+    "geometryStyleResolver": "world-geometry-effective-style-v2",
+    "interpreter": "iteration26-reference-v1"
+  },
+  "generatedAt": "2026-09-29T00:00:00+04:00",
+  "ownerConfirmationRevision": "owner-confirmation-2026-09-29-sc225-termination",
+  "counts": {
+    "cables": 20,
+    "fibers": 1176,
+    "tubes": 98,
+    "closures": 12,
+    "accessPoints": 6,
+    "aggregations": 2,
+    "portTopologyBindings": 192,
+    "nodeFiberTransitions": 854,
+    "activeFiberLineages": 278,
+    "supersededFiberLineages": 42,
+    "journeySummaries": 1176,
+    "companyAssignments": 13
+  },
+  "fieldVerified": false,
+  "pendingManualReview": 0,
+  "hashes": {
+    "tsageri-lentekhi-v1.inventory.json": "ba0b943e25d7a68d4b59eed0d9ed95ff65e0d83aae62bd093fea67e49d9152cf",
+    "tsageri-lentekhi-v1.transitions.json": "e38c03db3da3f3fe8caa12cc5bdfdd4ab3d80555263899251def84c9a21410fb",
+    "tsageri-lentekhi-v1.lineages.json": "14213a5f27935bdf7a5f71b3e60f5c359199222117b952d76b31f638abd52584",
+    "tsageri-lentekhi-v1.golden-fixtures.json": "d6b5edaba0671809519fc553e5f7c1027a447c81a114e4646339ed761f9f0750",
+    "tsageri-lentekhi-v1.semantic-summary.json": "235f5486feb3ac1949beb792362fe970173d40947e5723e35d00f6cdab92a6f5",
+    "Tsageri-Lentekhi 2025.vsdx": "caae4badc9c8c30be0a5fa3ef26352c3e534a9de7c66e830ef470466bb34a6fa",
+    "tsageri-lentekhi.iteration24.raw.json.gz": "e14e79f5930a1b063db11e4db53d2ac47925fb49ffc3a915449468a54cfb066f",
+    "iteration25-company-usage.json": "1f7c0cdd61ba286718f489689063c654bc390f05ac97350f9ad816bcb92136cb",
+    "iteration25-port-interpretation.json": "6fe83271949175243318aff89f7565d2db977e64fca6ff738191edd21dfda228",
+    "source-annotations.json": "5c12355b9536fcbf9ad328200b15e7ebb53076a354b445cc2533cff2737d6293"
+  },
+  "canonicalMatchingRules": [
+    "Match across documents using source provenance, endpoint context and geometry together.",
+    "Never merge by displayed number, name or Fiber number alone.",
+    "Leave next document and linked route nullable until the second source is imported."
+  ]
+}

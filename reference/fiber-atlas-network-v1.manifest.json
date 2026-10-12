@@ -1,0 +1,613 @@
+{
+  "id": "FIBER-ATLAS-COMBINED-NETWORK",
+  "status": "ACTIVE",
+  "createdAt": "2026-09-30",
+  "frozenSource": {
+    "id": "TSAGERI-LENTEKHI-REFERENCE-V1",
+    "manifest": "reference/tsageri-lentekhi-v1.manifest.json",
+    "manifestSha256": "59ce208663b1dcb7f0fe5849faa9f9f1b62182bfc01cc7c5f4947cf366340125",
+    "sourceSha256": "caae4badc9c8c30be0a5fa3ef26352c3e534a9de7c66e830ef470466bb34a6fa"
+  },
+  "candidateSource": {
+    "id": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+    "filename": "Tsageri-Alpana-Tvishi.vsdx",
+    "path": "imports/inbox/Tsageri-Alpana-Tvishi.vsdx",
+    "sha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d",
+    "rawExtractionSha256": "05270a1ffc25008270dd434c1bf7f06de40161163f62656db2ecfce52a0c89ea",
+    "interpretationSha256": "01abbcdc0827d972c0cc0c2272ef934d35cf81c43e594ac6b0e3dbf6b0c62ae3",
+    "status": "ACTIVE_TOPOLOGY_CERTIFIED",
+    "certificationState": "CERTIFIED_FOR_NETWORK_ACTIVATION",
+    "sourceLocalTransitionLedgerSha256": "0a595a9d7f90e47746462b1b0ec64501c127323251330b91110af61ba69f69b5",
+    "sourceLocalJourneySummarySha256": "b84aaf33b68f1baf0edb35ba6ea76a441c39d48111a7e5e0b8d71577ca845fa3"
+  },
+  "overlapCandidates": [
+    {
+      "sourceA": "SC205",
+      "sourceB": "Source B SC205",
+      "state": "canonical_shared_identity"
+    },
+    {
+      "sourceA": "SC206",
+      "sourceB": "Source B SC206",
+      "state": "canonical_shared_identity"
+    },
+    {
+      "sourceA": "CAB-000148",
+      "sourceB": "Source B C148",
+      "state": "canonical_identity_tube_color_conflict_preserved"
+    },
+    {
+      "sourceA": "CAB-000149",
+      "sourceB": "Source B C149",
+      "state": "exact_construction_correspondence"
+    },
+    {
+      "sourceA": "CAB-000150",
+      "sourceB": "Source B C150",
+      "state": "exact_construction_correspondence"
+    },
+    {
+      "sourceA": "CAB-000151",
+      "sourceB": "Source B C151",
+      "state": "exact_construction_endpoint207_neutral"
+    },
+    {
+      "sourceA": "CAB-000169",
+      "sourceB": "Source B C169",
+      "state": "golden_48_of_48"
+    }
+  ],
+  "overlapCrossValidation": {
+    "sourceOnlyInterpretationFirst": true,
+    "sharedCableConstruction": {
+      "C148": {
+        "state": "source_conflict",
+        "fiberCount": 192,
+        "fiberColorPositionsMatch": 192,
+        "tubeConstructionDifferences": 72,
+        "affectedFibers": "F121-F192",
+        "sourceBRepresentationBanks": 2
+      },
+      "C149": {
+        "state": "exact_match",
+        "fiberCount": 24,
+        "positionsMatch": 24
+      },
+      "C150": {
+        "state": "exact_match",
+        "fiberCount": 192,
+        "positionsMatch": 192
+      },
+      "C151": {
+        "state": "exact_match",
+        "fiberCount": 144,
+        "positionsMatch": 144
+      },
+      "C169": {
+        "state": "exact_match",
+        "fiberCount": 48,
+        "positionsMatch": 48
+      }
+    },
+    "sharedLocalTransitions": [
+      {
+        "node": "SC205",
+        "segments": [
+          "C148",
+          "C149"
+        ],
+        "sourceAFibers": 16,
+        "sourceBFibers": 16,
+        "identicalPairs": 16
+      },
+      {
+        "node": "SC205",
+        "segments": [
+          "C148",
+          "C150"
+        ],
+        "sourceAFibers": 174,
+        "sourceBFibers": 174,
+        "identicalPairs": 174
+      },
+      {
+        "node": "SC205",
+        "segments": [
+          "C149",
+          "C150"
+        ],
+        "sourceAFibers": 6,
+        "sourceBFibers": 6,
+        "identicalPairs": 6
+      },
+      {
+        "node": "SC206",
+        "segments": [
+          "C150",
+          "C151"
+        ],
+        "sourceAFibers": 132,
+        "sourceBFibers": 132,
+        "identicalPairs": 132
+      },
+      {
+        "node": "SC206",
+        "segments": [
+          "C150",
+          "C169"
+        ],
+        "sourceAFibers": 48,
+        "sourceBFibers": 48,
+        "identicalPairs": 48
+      }
+    ],
+    "canonicalMappingsActivated": true
+  },
+  "namedDirectionEvidence": {
+    "rawText": "ლენტეხი-ხელედის მიმართულება",
+    "sourceShapeId": "40991",
+    "createsFiberContinuity": false
+  },
+  "documentBoundaryLinks": [
+    {
+      "historicalAlias": "BOUNDARY-SC207",
+      "canonicalPhysicalNodeId": "207",
+      "assetType": "unknown",
+      "state": "resolved_at_neutral_physical_endpoint",
+      "sourceCable": "CAB-000151"
+    }
+  ],
+  "canonicalAssetMerges": [
+    {
+      "sourceA": "SC205",
+      "sourceB": "Source B endpoint 205",
+      "canonicalId": "205",
+      "state": "active"
+    },
+    {
+      "sourceA": "SC206",
+      "sourceB": "Source B endpoint 206",
+      "canonicalId": "206",
+      "state": "active"
+    },
+    {
+      "sourceA": "Aggregation #5",
+      "sourceB": "Aagregacia #5 / cageri",
+      "canonicalId": "5",
+      "state": "source-reconciled"
+    },
+    {
+      "sourceA": "C148",
+      "sourceB": "Source B C148",
+      "canonicalId": "CAB-000148",
+      "state": "active_with_attribute_conflict"
+    },
+    {
+      "sourceA": "C149",
+      "sourceB": "Source B C149",
+      "canonicalId": "CAB-000149",
+      "state": "active"
+    },
+    {
+      "sourceA": "C150",
+      "sourceB": "Source B C150",
+      "canonicalId": "CAB-000150",
+      "state": "active"
+    },
+    {
+      "sourceA": "C151",
+      "sourceB": "Source B C151",
+      "canonicalId": "CAB-000151",
+      "state": "active"
+    },
+    {
+      "sourceA": "C169",
+      "sourceB": "Source B C169",
+      "canonicalId": "CAB-000169",
+      "state": "active"
+    }
+  ],
+  "crossDocumentFiberLinks": [
+    {
+      "fromCable": "CAB-000151",
+      "toCable": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+      "node": "207",
+      "transitionCount": 143,
+      "fiber118": "unmapped; no continuation inferred"
+    }
+  ],
+  "combinedTopologySummary": {
+    "canonicalCableSegments": 37,
+    "canonicalFibers": 2088,
+    "sourceDocuments": 2,
+    "sourceBLocalTransitionsActivated": 775,
+    "overlapEvidenceAttached": 376,
+    "neutralPhysicalNodes": 19
+  },
+  "artifacts": {
+    "sourceInterpretation": "migration/iteration27/source-interpretation.json",
+    "certificationReport": "docs/ITERATION-27-TSAGERI-ALPANA-TVISHI-CERTIFICATION.md",
+    "routeInterpretationReport": "docs/ITERATION-27-ALPANA-TVISHI-ROUTE-INTERPRETATION.md",
+    "overlapReport": "docs/ITERATION-27-OVERLAP-RECONCILIATION.md",
+    "c169FiberCrossValidation": "docs/ITERATION-27-C169-FIBER-CROSS-VALIDATION.md"
+  },
+  "activationGate": "Topology is active from exact Cable/Fiber construction and node-local transition evidence. Optional endpoint typing, Ports, company assignments, and annotation scopes do not create or remove optical edges.",
+  "sourceBSemanticCertification": {
+    "state": "CERTIFIED_FOR_NETWORK_ACTIVATION",
+    "activation": "ACTIVE",
+    "gates": {
+      "physicalOpticalTopology": "PASS",
+      "assetTyping": "PARTIAL_NON_BLOCKING",
+      "portSemantics": "NOT_DECODED_NON_BLOCKING",
+      "companyAttribution": "UNRESOLVED_NON_BLOCKING",
+      "annotationInterpretation": "PRESERVED_SCOPE_PARTIAL_NON_BLOCKING",
+      "crossDocumentCorrespondence": "PASS"
+    },
+    "transitionDispositions": {
+      "candidateCount": 1151,
+      "duplicateOverlapEvidence": 376,
+      "exactSourceTransitions": 775,
+      "notSemanticallyReviewed": 0,
+      "unexplained": 0,
+      "activeTransitions": 775
+    },
+    "sourceBInventory": {
+      "cableSegments": 22,
+      "fiberPositions": 1512,
+      "markerBankGroups": 42,
+      "fiberMarkerShapes": 2928,
+      "organizationOccurrences": 24,
+      "sourceAnnotationsPreserved": 84,
+      "sourceOnlyCableSegments": 17,
+      "newPhysicalFibers": 912,
+      "logicalPorts": 0
+    },
+    "boundary207": {
+      "status": "RESOLVED_AT_NEUTRAL_PHYSICAL_NODE",
+      "canonicalNodeId": "207",
+      "assetType": "unknown",
+      "C151toC152Transitions": 143,
+      "C151F118": "partial_at_endpoint"
+    },
+    "combinedTopologySummary": {
+      "canonicalCables": 37,
+      "canonicalFiberRecords": 2088,
+      "neutralNodes": 19,
+      "activeNewTransitions": 775
+    },
+    "blockerIds": [],
+    "nonBlockingEnrichment": [
+      "neutral endpoint type/name",
+      "Source B Port schedule/occupancy/bindings",
+      "company-use scope",
+      "cut-note execution status",
+      "unscoped place/direction labels",
+      "optional named Route scope"
+    ],
+    "auditReport": "docs/ITERATION-27-TSAGERI-ALPANA-TVISHI-CERTIFICATION.md",
+    "ownerChecklist": "docs/ITERATION-27D-OWNER-CONFIRMATION-CHECKLIST.md"
+  },
+  "crossDocumentCorrespondenceCandidates": [
+    {
+      "canonicalCandidate": "Node 207",
+      "sourceBContext": "C151 far endpoint / C152 near endpoint",
+      "state": "physical_endpoint_reconciled_asset_type_unknown",
+      "transitionCount": 143,
+      "unmappedFiberNumber": 118
+    }
+  ],
+  "crossDocumentSourceConflicts": [
+    {
+      "id": "CONFLICT-C148-TUBE-COLOR",
+      "status": "unresolved_source_conflict",
+      "physicalIdentity": "strong_candidate_separate_from_attribute_conflict",
+      "sourceA": {
+        "document": "TSAGERI-LENTEKHI-REFERENCE-V1",
+        "shapeIds": [
+          "43832"
+        ]
+      },
+      "sourceB": {
+        "document": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+        "markerBankShapeIds": [
+          "16115",
+          "15124"
+        ]
+      },
+      "affectedPositionCount": 72,
+      "affectedRanges": [
+        {
+          "firstFiber": 121,
+          "lastFiber": 132,
+          "tubeNumber": 11,
+          "sourceA": {
+            "tubeColor": "blue",
+            "groupShapeId": "43832"
+          },
+          "sourceB": {
+            "tubeColor": "violet",
+            "groupShapeIds": [
+              "16115",
+              "15124"
+            ]
+          }
+        },
+        {
+          "firstFiber": 133,
+          "lastFiber": 144,
+          "tubeNumber": 12,
+          "sourceA": {
+            "tubeColor": "orange",
+            "groupShapeId": "43832"
+          },
+          "sourceB": {
+            "tubeColor": "rose",
+            "groupShapeIds": [
+              "16115",
+              "15124"
+            ]
+          }
+        },
+        {
+          "firstFiber": 145,
+          "lastFiber": 156,
+          "tubeNumber": 13,
+          "sourceA": {
+            "tubeColor": "green",
+            "groupShapeId": "43832"
+          },
+          "sourceB": {
+            "tubeColor": "blue",
+            "groupShapeIds": [
+              "16115",
+              "15124"
+            ]
+          }
+        },
+        {
+          "firstFiber": 157,
+          "lastFiber": 168,
+          "tubeNumber": 14,
+          "sourceA": {
+            "tubeColor": "brown",
+            "groupShapeId": "43832"
+          },
+          "sourceB": {
+            "tubeColor": "orange",
+            "groupShapeIds": [
+              "16115",
+              "15124"
+            ]
+          }
+        },
+        {
+          "firstFiber": 169,
+          "lastFiber": 180,
+          "tubeNumber": 15,
+          "sourceA": {
+            "tubeColor": "slate",
+            "groupShapeId": "43832"
+          },
+          "sourceB": {
+            "tubeColor": "green",
+            "groupShapeIds": [
+              "16115",
+              "15124"
+            ]
+          }
+        },
+        {
+          "firstFiber": 181,
+          "lastFiber": 192,
+          "tubeNumber": 16,
+          "sourceA": {
+            "tubeColor": "white",
+            "groupShapeId": "43832"
+          },
+          "sourceB": {
+            "tubeColor": "brown",
+            "groupShapeIds": [
+              "16115",
+              "15124"
+            ]
+          }
+        }
+      ],
+      "fiberColorPositionsMatch": 192,
+      "resolution": "unresolved; neither source selected; frozen V1 Tube colors remain unchanged"
+    }
+  ],
+  "promotion": {
+    "status": "ACTIVE",
+    "atomic": true,
+    "reason": "All topology-critical evidence gates pass; optional metadata remains explicitly unresolved."
+  },
+  "updatedAt": "2026-09-30",
+  "topologyCertification": {
+    "status": "PASS",
+    "activation": "ACTIVE",
+    "packageIntegrity": "PASS",
+    "cableLabelsAccounted": 22,
+    "markerBanksAccounted": 42,
+    "fiberPositionsAcrossSourceLabels": 1512,
+    "exactSourceTransitionsActivated": 775,
+    "duplicateOverlapEvidenceAttached": 376,
+    "unexplainedTransitions": 0,
+    "topologyCriticalOwnerConfirmationsRequired": 0,
+    "sourceOnlyCableSegments": 17,
+    "sharedCanonicalCables": 5,
+    "newPhysicalFiberRecords": 912,
+    "combinedV1AndSourceBFiberRecords": 2088,
+    "neutralPhysicalEndpoints": 19,
+    "crossDocumentC151C152Transitions": 143,
+    "C151F118Continuation": "not represented; no continuation inferred",
+    "C169CanonicalFibers": 48,
+    "C169SC206TransitionsWithDualEvidence": 48,
+    "sourceDocumentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+    "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d",
+    "inventoryValidator": "PASS"
+  },
+  "assetTypingStatus": {
+    "status": "PARTIAL",
+    "coverage": "not expressed as a percentage; source does not type all terminal endpoints",
+    "neutralNetworkNodes": 19,
+    "unresolvedTokens": [
+      "41–49",
+      "207–215",
+      "225"
+    ]
+  },
+  "portSemanticsStatus": {
+    "status": "NOT_DECODED_FROM_CURRENT_SOURCE",
+    "logicalPorts": 0,
+    "occupancyBindings": 0,
+    "portFiberBindings": 0,
+    "blocksTopologyActivation": false
+  },
+  "companyAttributionStatus": {
+    "status": "OCCURRENCES_PRESERVED_SCOPE_UNRESOLVED",
+    "occurrences": 24,
+    "logicalAssignments": 0,
+    "blocksTopologyActivation": false
+  },
+  "annotationStatus": {
+    "status": "SOURCE_TEXT_ACCOUNTED_SCOPE_PARTIAL",
+    "meaningfulOccurrences": 106,
+    "cutModuleNotes": {
+      "count": 3,
+      "category": "source_instruction",
+      "executionStatus": "unknown"
+    },
+    "placeAndDirectionScope": "unresolved where unscoped",
+    "createsFiberEdges": false
+  },
+  "unresolvedEnrichment": [
+    "neutral endpoint type/name",
+    "Source B Port schedule/occupancy/bindings",
+    "company-use scope",
+    "cut-note execution status",
+    "unscoped place/direction labels",
+    "optional named Route scope"
+  ],
+  "sourceConflicts": [
+    {
+      "id": "CONFLICT-C148-TUBE-COLOR",
+      "status": "unresolved_source_conflict",
+      "physicalIdentity": "strong_candidate_separate_from_attribute_conflict",
+      "sourceA": {
+        "document": "TSAGERI-LENTEKHI-REFERENCE-V1",
+        "shapeIds": [
+          "43832"
+        ]
+      },
+      "sourceB": {
+        "document": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+        "markerBankShapeIds": [
+          "16115",
+          "15124"
+        ]
+      },
+      "affectedPositionCount": 72,
+      "affectedRanges": [
+        {
+          "firstFiber": 121,
+          "lastFiber": 132,
+          "tubeNumber": 11,
+          "sourceA": {
+            "tubeColor": "blue",
+            "groupShapeId": "43832"
+          },
+          "sourceB": {
+            "tubeColor": "violet",
+            "groupShapeIds": [
+              "16115",
+              "15124"
+            ]
+          }
+        },
+        {
+          "firstFiber": 133,
+          "lastFiber": 144,
+          "tubeNumber": 12,
+          "sourceA": {
+            "tubeColor": "orange",
+            "groupShapeId": "43832"
+          },
+          "sourceB": {
+            "tubeColor": "rose",
+            "groupShapeIds": [
+              "16115",
+              "15124"
+            ]
+          }
+        },
+        {
+          "firstFiber": 145,
+          "lastFiber": 156,
+          "tubeNumber": 13,
+          "sourceA": {
+            "tubeColor": "green",
+            "groupShapeId": "43832"
+          },
+          "sourceB": {
+            "tubeColor": "blue",
+            "groupShapeIds": [
+              "16115",
+              "15124"
+            ]
+          }
+        },
+        {
+          "firstFiber": 157,
+          "lastFiber": 168,
+          "tubeNumber": 14,
+          "sourceA": {
+            "tubeColor": "brown",
+            "groupShapeId": "43832"
+          },
+          "sourceB": {
+            "tubeColor": "orange",
+            "groupShapeIds": [
+              "16115",
+              "15124"
+            ]
+          }
+        },
+        {
+          "firstFiber": 169,
+          "lastFiber": 180,
+          "tubeNumber": 15,
+          "sourceA": {
+            "tubeColor": "slate",
+            "groupShapeId": "43832"
+          },
+          "sourceB": {
+            "tubeColor": "green",
+            "groupShapeIds": [
+              "16115",
+              "15124"
+            ]
+          }
+        },
+        {
+          "firstFiber": 181,
+          "lastFiber": 192,
+          "tubeNumber": 16,
+          "sourceA": {
+            "tubeColor": "white",
+            "groupShapeId": "43832"
+          },
+          "sourceB": {
+            "tubeColor": "brown",
+            "groupShapeIds": [
+              "16115",
+              "15124"
+            ]
+          }
+        }
+      ],
+      "fiberColorPositionsMatch": 192,
+      "resolution": "unresolved; neither source selected; frozen V1 Tube colors remain unchanged"
+    }
+  ]
+}

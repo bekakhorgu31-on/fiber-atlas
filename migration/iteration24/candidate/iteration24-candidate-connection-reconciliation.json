@@ -1,0 +1,449 @@
+{
+  "generationVersions": {
+    "domainProjection": "fiber-atlas-domain-projection/24",
+    "sourceGrammar": "tsageri-lentekhi-source-grammar/4"
+  },
+  "relationships": [
+    {
+      "basisCounts": {
+        "explicit_connect+source_geometry": 16
+      },
+      "capacity": 192,
+      "exact": 16,
+      "fiberColorChanges": 16,
+      "intentionalTerminations": 0,
+      "leftLegacySegmentId": "148",
+      "nodeId": "SC205",
+      "numberChanges": 16,
+      "otherRelationship": 174,
+      "reconciled": true,
+      "rightLegacySegmentId": "149",
+      "sourceConflicts": 0,
+      "tubeChanges": 16,
+      "unresolved": 2
+    },
+    {
+      "basisCounts": {
+        "source_geometry": 174
+      },
+      "capacity": 192,
+      "exact": 174,
+      "fiberColorChanges": 0,
+      "intentionalTerminations": 0,
+      "leftLegacySegmentId": "148",
+      "nodeId": "SC205",
+      "numberChanges": 0,
+      "otherRelationship": 16,
+      "reconciled": true,
+      "rightLegacySegmentId": "150",
+      "sourceConflicts": 0,
+      "tubeChanges": 54,
+      "unresolved": 2
+    },
+    {
+      "basisCounts": {
+        "explicit_connect+source_geometry": 6
+      },
+      "capacity": 24,
+      "exact": 6,
+      "fiberColorChanges": 6,
+      "intentionalTerminations": 0,
+      "leftLegacySegmentId": "149",
+      "nodeId": "SC205",
+      "numberChanges": 6,
+      "otherRelationship": 16,
+      "reconciled": true,
+      "rightLegacySegmentId": "150",
+      "sourceConflicts": 0,
+      "tubeChanges": 6,
+      "unresolved": 2
+    },
+    {
+      "basisCounts": {
+        "source_geometry": 132
+      },
+      "capacity": 192,
+      "exact": 132,
+      "fiberColorChanges": 0,
+      "intentionalTerminations": 0,
+      "leftLegacySegmentId": "150",
+      "nodeId": "SC206",
+      "numberChanges": 0,
+      "otherRelationship": 48,
+      "reconciled": true,
+      "rightLegacySegmentId": "151",
+      "sourceConflicts": 0,
+      "tubeChanges": 0,
+      "unresolved": 12
+    },
+    {
+      "basisCounts": {
+        "explicit_connect": 23,
+        "explicit_connect+source_geometry": 25
+      },
+      "capacity": 192,
+      "exact": 48,
+      "fiberColorChanges": 0,
+      "intentionalTerminations": 0,
+      "leftLegacySegmentId": "150",
+      "nodeId": "SC206",
+      "numberChanges": 48,
+      "otherRelationship": 132,
+      "reconciled": true,
+      "rightLegacySegmentId": "169",
+      "sourceConflicts": 0,
+      "tubeChanges": 48,
+      "unresolved": 12
+    },
+    {
+      "basisCounts": {
+        "explicit_connect": 3,
+        "explicit_connect+source_geometry": 1,
+        "source_geometry": 12
+      },
+      "capacity": 48,
+      "exact": 16,
+      "fiberColorChanges": 16,
+      "intentionalTerminations": 0,
+      "leftLegacySegmentId": "169",
+      "nodeId": "SC216",
+      "numberChanges": 16,
+      "otherRelationship": 32,
+      "reconciled": true,
+      "rightLegacySegmentId": "170",
+      "sourceConflicts": 0,
+      "tubeChanges": 16,
+      "unresolved": 0
+    },
+    {
+      "basisCounts": {
+        "source_geometry": 32
+      },
+      "capacity": 48,
+      "exact": 32,
+      "fiberColorChanges": 0,
+      "intentionalTerminations": 0,
+      "leftLegacySegmentId": "169",
+      "nodeId": "SC216",
+      "numberChanges": 0,
+      "otherRelationship": 16,
+      "reconciled": true,
+      "rightLegacySegmentId": "171",
+      "sourceConflicts": 0,
+      "tubeChanges": 0,
+      "unresolved": 0
+    },
+    {
+      "basisCounts": {
+        "explicit_connect": 4,
+        "explicit_connect+source_geometry": 4
+      },
+      "capacity": 24,
+      "exact": 8,
+      "fiberColorChanges": 8,
+      "intentionalTerminations": 0,
+      "leftLegacySegmentId": "170",
+      "nodeId": "SC216",
+      "numberChanges": 8,
+      "otherRelationship": 16,
+      "reconciled": true,
+      "rightLegacySegmentId": "171",
+      "sourceConflicts": 0,
+      "tubeChanges": 8,
+      "unresolved": 0
+    },
+    {
+      "basisCounts": {
+        "source_geometry": 46
+      },
+      "capacity": 48,
+      "exact": 46,
+      "fiberColorChanges": 0,
+      "intentionalTerminations": 0,
+      "leftLegacySegmentId": "171",
+      "nodeId": "SC217",
+      "numberChanges": 0,
+      "otherRelationship": 0,
+      "reconciled": true,
+      "rightLegacySegmentId": "172",
+      "sourceConflicts": 0,
+      "tubeChanges": 0,
+      "unresolved": 2
+    },
+    {
+      "basisCounts": {
+        "source_geometry": 12
+      },
+      "capacity": 48,
+      "exact": 12,
+      "fiberColorChanges": 12,
+      "intentionalTerminations": 0,
+      "leftLegacySegmentId": "172",
+      "nodeId": "SC218",
+      "numberChanges": 12,
+      "otherRelationship": 28,
+      "reconciled": true,
+      "rightLegacySegmentId": "173",
+      "sourceConflicts": 0,
+      "tubeChanges": 12,
+      "unresolved": 8
+    },
+    {
+      "basisCounts": {
+        "source_geometry": 28
+      },
+      "capacity": 48,
+      "exact": 28,
+      "fiberColorChanges": 0,
+      "intentionalTerminations": 0,
+      "leftLegacySegmentId": "172",
+      "nodeId": "SC218",
+      "numberChanges": 0,
+      "otherRelationship": 12,
+      "reconciled": true,
+      "rightLegacySegmentId": "174",
+      "sourceConflicts": 0,
+      "tubeChanges": 0,
+      "unresolved": 8
+    },
+    {
+      "basisCounts": {
+        "explicit_connect": 4,
+        "explicit_connect+source_geometry": 8
+      },
+      "capacity": 24,
+      "exact": 12,
+      "fiberColorChanges": 12,
+      "intentionalTerminations": 0,
+      "leftLegacySegmentId": "173",
+      "nodeId": "SC218",
+      "numberChanges": 12,
+      "otherRelationship": 12,
+      "reconciled": true,
+      "rightLegacySegmentId": "174",
+      "sourceConflicts": 0,
+      "tubeChanges": 12,
+      "unresolved": 0
+    },
+    {
+      "basisCounts": {
+        "explicit_connect": 11,
+        "explicit_connect+source_geometry": 1,
+        "source_geometry": 4
+      },
+      "capacity": 48,
+      "exact": 16,
+      "fiberColorChanges": 0,
+      "intentionalTerminations": 0,
+      "leftLegacySegmentId": "174",
+      "nodeId": "SC219",
+      "numberChanges": 16,
+      "otherRelationship": 24,
+      "reconciled": true,
+      "rightLegacySegmentId": "175",
+      "sourceConflicts": 0,
+      "tubeChanges": 16,
+      "unresolved": 8
+    },
+    {
+      "basisCounts": {
+        "source_geometry": 24
+      },
+      "capacity": 48,
+      "exact": 24,
+      "fiberColorChanges": 0,
+      "intentionalTerminations": 0,
+      "leftLegacySegmentId": "174",
+      "nodeId": "SC219",
+      "numberChanges": 0,
+      "otherRelationship": 16,
+      "reconciled": true,
+      "rightLegacySegmentId": "176",
+      "sourceConflicts": 0,
+      "tubeChanges": 0,
+      "unresolved": 8
+    },
+    {
+      "basisCounts": {
+        "explicit_connect": 8
+      },
+      "capacity": 24,
+      "exact": 8,
+      "fiberColorChanges": 8,
+      "intentionalTerminations": 0,
+      "leftLegacySegmentId": "175",
+      "nodeId": "SC219",
+      "numberChanges": 8,
+      "otherRelationship": 16,
+      "reconciled": true,
+      "rightLegacySegmentId": "176",
+      "sourceConflicts": 0,
+      "tubeChanges": 8,
+      "unresolved": 0
+    },
+    {
+      "basisCounts": {
+        "source_geometry": 48
+      },
+      "capacity": 48,
+      "exact": 48,
+      "fiberColorChanges": 0,
+      "intentionalTerminations": 0,
+      "leftLegacySegmentId": "176",
+      "nodeId": "SC220",
+      "numberChanges": 0,
+      "otherRelationship": 0,
+      "reconciled": true,
+      "rightLegacySegmentId": "177",
+      "sourceConflicts": 0,
+      "tubeChanges": 0,
+      "unresolved": 0
+    },
+    {
+      "basisCounts": {
+        "source_geometry": 48
+      },
+      "capacity": 48,
+      "exact": 48,
+      "fiberColorChanges": 0,
+      "intentionalTerminations": 0,
+      "leftLegacySegmentId": "177",
+      "nodeId": "SC221",
+      "numberChanges": 0,
+      "otherRelationship": 0,
+      "reconciled": true,
+      "rightLegacySegmentId": "178",
+      "sourceConflicts": 0,
+      "tubeChanges": 0,
+      "unresolved": 0
+    },
+    {
+      "basisCounts": {
+        "source_geometry": 48
+      },
+      "capacity": 48,
+      "exact": 48,
+      "fiberColorChanges": 0,
+      "intentionalTerminations": 0,
+      "leftLegacySegmentId": "178",
+      "nodeId": "SC222",
+      "numberChanges": 0,
+      "otherRelationship": 0,
+      "reconciled": true,
+      "rightLegacySegmentId": "179",
+      "sourceConflicts": 0,
+      "tubeChanges": 0,
+      "unresolved": 0
+    },
+    {
+      "basisCounts": {
+        "source_geometry": 48
+      },
+      "capacity": 48,
+      "exact": 48,
+      "fiberColorChanges": 0,
+      "intentionalTerminations": 0,
+      "leftLegacySegmentId": "179",
+      "nodeId": "SC223",
+      "numberChanges": 0,
+      "otherRelationship": 0,
+      "reconciled": true,
+      "rightLegacySegmentId": "180",
+      "sourceConflicts": 0,
+      "tubeChanges": 0,
+      "unresolved": 0
+    },
+    {
+      "basisCounts": {
+        "source_geometry": 32
+      },
+      "capacity": 48,
+      "exact": 32,
+      "fiberColorChanges": 0,
+      "intentionalTerminations": 0,
+      "leftLegacySegmentId": "180",
+      "nodeId": "SC224",
+      "numberChanges": 0,
+      "otherRelationship": 0,
+      "reconciled": true,
+      "rightLegacySegmentId": "184",
+      "sourceConflicts": 0,
+      "tubeChanges": 0,
+      "unresolved": 16
+    },
+    {
+      "basisCounts": {
+        "explicit_connect+source_geometry": 16
+      },
+      "capacity": 24,
+      "exact": 16,
+      "fiberColorChanges": 16,
+      "intentionalTerminations": 0,
+      "leftLegacySegmentId": "181",
+      "nodeId": "SC224",
+      "numberChanges": 16,
+      "otherRelationship": 0,
+      "reconciled": true,
+      "rightLegacySegmentId": "184",
+      "sourceConflicts": 0,
+      "tubeChanges": 16,
+      "unresolved": 8
+    },
+    {
+      "basisCounts": {
+        "explicit_connect+source_geometry": 4
+      },
+      "capacity": 24,
+      "exact": 4,
+      "fiberColorChanges": 0,
+      "intentionalTerminations": 0,
+      "leftLegacySegmentId": "181",
+      "nodeId": "SC225",
+      "numberChanges": 4,
+      "otherRelationship": 4,
+      "reconciled": true,
+      "rightLegacySegmentId": "182",
+      "sourceConflicts": 0,
+      "tubeChanges": 4,
+      "unresolved": 16
+    },
+    {
+      "basisCounts": {
+        "source_geometry": 4
+      },
+      "capacity": 24,
+      "exact": 4,
+      "fiberColorChanges": 0,
+      "intentionalTerminations": 0,
+      "leftLegacySegmentId": "181",
+      "nodeId": "SC225",
+      "numberChanges": 0,
+      "otherRelationship": 4,
+      "reconciled": true,
+      "rightLegacySegmentId": "183",
+      "sourceConflicts": 0,
+      "tubeChanges": 0,
+      "unresolved": 16
+    },
+    {
+      "basisCounts": {
+        "explicit_connect+source_geometry": 12
+      },
+      "capacity": 24,
+      "exact": 12,
+      "fiberColorChanges": 12,
+      "intentionalTerminations": 0,
+      "leftLegacySegmentId": "182",
+      "nodeId": "SC225",
+      "numberChanges": 12,
+      "otherRelationship": 4,
+      "reconciled": true,
+      "rightLegacySegmentId": "183",
+      "sourceConflicts": 0,
+      "tubeChanges": 8,
+      "unresolved": 8
+    }
+  ],
+  "schemaVersion": 1,
+  "sourceSha256": "caae4badc9c8c30be0a5fa3ef26352c3e534a9de7c66e830ef470466bb34a6fa"
+}

@@ -1,0 +1,3438 @@
+{
+  "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d",
+  "shapeCount": 9707,
+  "lineGeometryCount": 3092,
+  "coloredLineGeometryCount": 3092,
+  "counts": {
+    "ambiguous_fiber_association": 5,
+    "blue_solid_unused": 2603,
+    "green_solid_opennet": 226,
+    "green_solid_opennet_otdr": 4,
+    "red_dashed_review_required": 28,
+    "red_solid_in_use_named": 30,
+    "red_solid_in_use_organization_unknown": 192,
+    "rejected_non_fiber_graphic": 4
+  },
+  "samples": {
+    "ambiguous_fiber_association": [
+      {
+        "shapeId": "20933",
+        "rootShapeId": "20933",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "LineColor": "#0000ff",
+          "BeginX": "47.32854835395814",
+          "BeginY": "544.1061455560514",
+          "EndX": "47.32854835395814",
+          "EndY": "539.4856569729636"
+        },
+        "effectiveLineColor": {
+          "formula": "THEMEGUARD(RGB(0,0,255))",
+          "resolution": "resolved",
+          "rgb": "#0000ff",
+          "source_id": "20933",
+          "source_kind": "shape",
+          "value": "#0000ff"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 47.32854835395814,
+          "y": 544.1061455560514
+        },
+        "endWorld": {
+          "x": 47.32854835395814,
+          "y": 539.4856569729636
+        },
+        "length": 4.620488583087763,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [
+          {
+            "cable": "C151",
+            "fiberNumber": 118,
+            "markerShapeId": "21931",
+            "bankShapeId": "20815",
+            "residual": 0.026906098448087803,
+            "physicalColor": "#cc99ff"
+          },
+          {
+            "cable": "C152",
+            "fiberNumber": 118,
+            "markerShapeId": "22233",
+            "bankShapeId": "21984",
+            "residual": 0.023311235645793304,
+            "physicalColor": "#cc99ff"
+          }
+        ],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C151",
+            "fiberNumber": 118,
+            "markerShapeId": "21931",
+            "residual": 0.026906098448087803,
+            "radius": 0.047244094488188976
+          },
+          "end": {
+            "cable": "C152",
+            "fiberNumber": 118,
+            "markerShapeId": "22233",
+            "residual": 0.023311235645793304,
+            "radius": 0.047244094488188976
+          }
+        },
+        "cable": "C151",
+        "fiberNumber": 118,
+        "physicalFiberColor": "#cc99ff",
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [],
+        "disposition": "ambiguous_fiber_association",
+        "usageState": null,
+        "organization": null,
+        "purpose": null,
+        "reason": "Both endpoints associate with distinct local Fibers but the source line is not the exact connector of a decoded node-local transition.",
+        "companyLabelShapeIds": [],
+        "companyOccurrenceIds": [],
+        "otdrAnnotationShapeIds": [],
+        "otdrAnnotations": [],
+        "evidenceBasis": [
+          "effective_style",
+          "numbered_marker_alignment",
+          "owner_confirmation"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "1",
+        "sourceConnects": []
+      },
+      {
+        "shapeId": "29642",
+        "rootShapeId": "29642",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "LineColor": "#0000ff",
+          "BeginX": "37.54210681427183",
+          "BeginY": "468.448305884826",
+          "EndX": "37.54210681427183",
+          "EndY": "463.8720598343954"
+        },
+        "effectiveLineColor": {
+          "formula": "THEMEGUARD(RGB(0,0,255))",
+          "resolution": "resolved",
+          "rgb": "#0000ff",
+          "source_id": "29642",
+          "source_kind": "shape",
+          "value": "#0000ff"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 37.54210681427183,
+          "y": 468.448305884826
+        },
+        "endWorld": {
+          "x": 37.54210681427183,
+          "y": 463.8720598343954
+        },
+        "length": 4.576246050430655,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [
+          {
+            "cable": "C166",
+            "fiberNumber": 10,
+            "markerShapeId": "30885",
+            "bankShapeId": "30873",
+            "residual": 0.02368558693539711,
+            "physicalColor": "#cc99ff"
+          },
+          {
+            "cable": "C167",
+            "fiberNumber": 10,
+            "markerShapeId": "31176",
+            "bankShapeId": "31164",
+            "residual": 0.01671027882854173,
+            "physicalColor": "#cc99ff"
+          }
+        ],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C166",
+            "fiberNumber": 10,
+            "markerShapeId": "30885",
+            "residual": 0.02368558693539711,
+            "radius": 0.04724409448818898
+          },
+          "end": {
+            "cable": "C167",
+            "fiberNumber": 10,
+            "markerShapeId": "31176",
+            "residual": 0.01671027882854173,
+            "radius": 0.04724409448818898
+          }
+        },
+        "cable": "C166",
+        "fiberNumber": 10,
+        "physicalFiberColor": "#cc99ff",
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [],
+        "disposition": "ambiguous_fiber_association",
+        "usageState": null,
+        "organization": null,
+        "purpose": null,
+        "reason": "Both endpoints associate with distinct local Fibers but the source line is not the exact connector of a decoded node-local transition.",
+        "companyLabelShapeIds": [],
+        "companyOccurrenceIds": [],
+        "otdrAnnotationShapeIds": [],
+        "otdrAnnotations": [],
+        "evidenceBasis": [
+          "effective_style",
+          "numbered_marker_alignment",
+          "owner_confirmation"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "1",
+        "sourceConnects": []
+      },
+      {
+        "shapeId": "29644",
+        "rootShapeId": "29644",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "LineColor": "#0000ff",
+          "BeginX": "37.72179431427183",
+          "BeginY": "468.448305884826",
+          "EndX": "37.72179431427183",
+          "EndY": "463.8720598343954"
+        },
+        "effectiveLineColor": {
+          "formula": "THEMEGUARD(RGB(0,0,255))",
+          "resolution": "resolved",
+          "rgb": "#0000ff",
+          "source_id": "29644",
+          "source_kind": "shape",
+          "value": "#0000ff"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 37.72179431427183,
+          "y": 468.448305884826
+        },
+        "endWorld": {
+          "x": 37.72179431427183,
+          "y": 463.8720598343954
+        },
+        "length": 4.576246050430655,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [
+          {
+            "cable": "C166",
+            "fiberNumber": 12,
+            "markerShapeId": "30886",
+            "bankShapeId": "30873",
+            "residual": 0.02286101710682096,
+            "physicalColor": "#00ffff"
+          },
+          {
+            "cable": "C167",
+            "fiberNumber": 12,
+            "markerShapeId": "31177",
+            "bankShapeId": "31164",
+            "residual": 0.0155194230953253,
+            "physicalColor": "#00ffff"
+          }
+        ],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C166",
+            "fiberNumber": 12,
+            "markerShapeId": "30886",
+            "residual": 0.02286101710682096,
+            "radius": 0.04724409448818898
+          },
+          "end": {
+            "cable": "C167",
+            "fiberNumber": 12,
+            "markerShapeId": "31177",
+            "residual": 0.0155194230953253,
+            "radius": 0.04724409448818898
+          }
+        },
+        "cable": "C166",
+        "fiberNumber": 12,
+        "physicalFiberColor": "#00ffff",
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [],
+        "disposition": "ambiguous_fiber_association",
+        "usageState": null,
+        "organization": null,
+        "purpose": null,
+        "reason": "Both endpoints associate with distinct local Fibers but the source line is not the exact connector of a decoded node-local transition.",
+        "companyLabelShapeIds": [],
+        "companyOccurrenceIds": [],
+        "otdrAnnotationShapeIds": [],
+        "otdrAnnotations": [],
+        "evidenceBasis": [
+          "effective_style",
+          "numbered_marker_alignment",
+          "owner_confirmation"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "1",
+        "sourceConnects": []
+      },
+      {
+        "shapeId": "40442",
+        "rootShapeId": "40442",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": "22",
+        "masterShapeId": "5",
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "LineWeight": "0.01041666666666667",
+          "BeginX": "42.72054619212099",
+          "BeginY": "492.6634114819239",
+          "EndX": "48.328125",
+          "EndY": "484.9795066496057"
+        },
+        "effectiveLineColor": {
+          "formula": "THEMEGUARD(RGB(0,0,255))",
+          "resolution": "resolved",
+          "rgb": "#0000ff",
+          "source_id": "5",
+          "source_kind": "master-shape",
+          "value": "#0000ff"
+        },
+        "effectiveLinePattern": {
+          "formula": "THEMEGUARD(IF(CELLISTHEMED(FALSE),THEME(\"ConnectorPattern\"),SETATREFEXPR(THEME(\"ConnectorPattern\"))))",
+          "source_id": "7",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "effectiveLineWeight": {
+          "formula": "THEMEGUARD(IF(CELLISTHEMED(FALSE),THEME(\"ConnectorWeight\"),SETATREFEXPR(0.75PT)))",
+          "source_id": "40442",
+          "source_kind": "shape",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 42.72054619212099,
+          "y": 492.6634114819239
+        },
+        "endWorld": {
+          "x": 48.328125,
+          "y": 484.9795066496057
+        },
+        "length": 9.512483038549759,
+        "ownerMaster": "22",
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [
+          {
+            "cable": "C161",
+            "fiberNumber": 67,
+            "markerShapeId": "29109",
+            "bankShapeId": "28989",
+            "residual": 0.006689140355778679,
+            "physicalColor": "#ff0000"
+          },
+          {
+            "cable": "C162",
+            "fiberNumber": 7,
+            "markerShapeId": "24311",
+            "bankShapeId": "24303",
+            "residual": 0.027762883348537312,
+            "physicalColor": "#ff0000"
+          }
+        ],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C161",
+            "fiberNumber": 67,
+            "markerShapeId": "29109",
+            "residual": 0.006689140355778679,
+            "radius": 0.047244094488188976
+          },
+          "end": {
+            "cable": "C162",
+            "fiberNumber": 7,
+            "markerShapeId": "24311",
+            "residual": 0.027762883348537312,
+            "radius": 0.047244094488188976
+          }
+        },
+        "cable": "C161",
+        "fiberNumber": 67,
+        "physicalFiberColor": "#ff0000",
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [],
+        "disposition": "ambiguous_fiber_association",
+        "usageState": null,
+        "organization": null,
+        "purpose": null,
+        "reason": "Both endpoints associate with distinct local Fibers but the source line is not the exact connector of a decoded node-local transition.",
+        "companyLabelShapeIds": [],
+        "companyOccurrenceIds": [],
+        "otdrAnnotationShapeIds": [],
+        "otdrAnnotations": [],
+        "evidenceBasis": [
+          "effective_style",
+          "numbered_marker_alignment",
+          "owner_confirmation"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "1",
+        "sourceConnects": []
+      }
+    ],
+    "blue_solid_unused": [
+      {
+        "shapeId": "23805",
+        "rootShapeId": "23805",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "LineColor": "#0000ff",
+          "BeginX": "53.09856888973396",
+          "BeginY": "527.7071941718779",
+          "EndX": "53.09856888973396",
+          "EndY": "526.5534670190425"
+        },
+        "effectiveLineColor": {
+          "formula": null,
+          "resolution": "resolved",
+          "rgb": "#0000ff",
+          "source_id": "23805",
+          "source_kind": "shape",
+          "value": "#0000ff"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 53.09856888973396,
+          "y": 527.7071941718779
+        },
+        "endWorld": {
+          "x": 53.09856888973396,
+          "y": 526.5534670190425
+        },
+        "length": 1.1537271528353585,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [
+          {
+            "cable": "C153",
+            "fiberNumber": 2,
+            "markerShapeId": "15996",
+            "bankShapeId": "15992",
+            "residual": 0.034616754968505054,
+            "physicalColor": "#f48c37"
+          }
+        ],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C153",
+            "fiberNumber": 2,
+            "markerShapeId": "15996",
+            "residual": 0.034616754968505054,
+            "radius": 0.047244094488188976
+          },
+          "end": {
+            "cable": "C153",
+            "fiberNumber": 2,
+            "markerShapeId": "15996",
+            "residual": 1.1883407722398276,
+            "radius": 0.047244094488188976
+          }
+        },
+        "cable": "C153",
+        "fiberNumber": 2,
+        "physicalFiberColor": "#f48c37",
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [],
+        "disposition": "blue_solid_unused",
+        "usageState": "unused",
+        "organization": null,
+        "purpose": null,
+        "reason": null,
+        "companyLabelShapeIds": [],
+        "companyOccurrenceIds": [],
+        "otdrAnnotationShapeIds": [],
+        "otdrAnnotations": [],
+        "evidenceBasis": [
+          "effective_style",
+          "numbered_marker_alignment",
+          "owner_confirmation"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "1",
+        "sourceConnects": []
+      },
+      {
+        "shapeId": "23807",
+        "rootShapeId": "23807",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "LineColor": "#0000ff",
+          "BeginX": "53.2786382829945",
+          "BeginY": "527.7071941718779",
+          "EndX": "53.2786382829945",
+          "EndY": "526.5565920190425"
+        },
+        "effectiveLineColor": {
+          "formula": null,
+          "resolution": "resolved",
+          "rgb": "#0000ff",
+          "source_id": "23807",
+          "source_kind": "shape",
+          "value": "#0000ff"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 53.2786382829945,
+          "y": 527.7071941718779
+        },
+        "endWorld": {
+          "x": 53.2786382829945,
+          "y": 526.5565920190425
+        },
+        "length": 1.150602152835404,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [
+          {
+            "cable": "C153",
+            "fiberNumber": 4,
+            "markerShapeId": "15998",
+            "bankShapeId": "15992",
+            "residual": 0.03466047208115142,
+            "physicalColor": "#9c4a09"
+          }
+        ],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C153",
+            "fiberNumber": 4,
+            "markerShapeId": "15998",
+            "residual": 0.03466047208115142,
+            "radius": 0.047244094488188976
+          },
+          "end": {
+            "cable": "C153",
+            "fiberNumber": 4,
+            "markerShapeId": "15998",
+            "residual": 1.185217050145024,
+            "radius": 0.047244094488188976
+          }
+        },
+        "cable": "C153",
+        "fiberNumber": 4,
+        "physicalFiberColor": "#9c4a09",
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [],
+        "disposition": "blue_solid_unused",
+        "usageState": "unused",
+        "organization": null,
+        "purpose": null,
+        "reason": null,
+        "companyLabelShapeIds": [],
+        "companyOccurrenceIds": [],
+        "otdrAnnotationShapeIds": [],
+        "otdrAnnotations": [],
+        "evidenceBasis": [
+          "effective_style",
+          "numbered_marker_alignment",
+          "owner_confirmation"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "1",
+        "sourceConnects": []
+      },
+      {
+        "shapeId": "23808",
+        "rootShapeId": "23808",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "LineColor": "#0000ff",
+          "BeginX": "53.3723882829945",
+          "BeginY": "527.7071941718779",
+          "EndX": "53.3723882829945",
+          "EndY": "526.5565920190425"
+        },
+        "effectiveLineColor": {
+          "formula": null,
+          "resolution": "resolved",
+          "rgb": "#0000ff",
+          "source_id": "23808",
+          "source_kind": "shape",
+          "value": "#0000ff"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 53.3723882829945,
+          "y": 527.7071941718779
+        },
+        "endWorld": {
+          "x": 53.3723882829945,
+          "y": 526.5565920190425
+        },
+        "length": 1.150602152835404,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [
+          {
+            "cable": "C153",
+            "fiberNumber": 5,
+            "markerShapeId": "15994",
+            "bankShapeId": "15992",
+            "residual": 0.0346221736361768,
+            "physicalColor": "#808080"
+          }
+        ],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C153",
+            "fiberNumber": 5,
+            "markerShapeId": "15994",
+            "residual": 0.0346221736361768,
+            "radius": 0.047244094488188976
+          },
+          "end": {
+            "cable": "C153",
+            "fiberNumber": 5,
+            "markerShapeId": "15994",
+            "residual": 1.1852159307640435,
+            "radius": 0.047244094488188976
+          }
+        },
+        "cable": "C153",
+        "fiberNumber": 5,
+        "physicalFiberColor": "#808080",
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [],
+        "disposition": "blue_solid_unused",
+        "usageState": "unused",
+        "organization": null,
+        "purpose": null,
+        "reason": null,
+        "companyLabelShapeIds": [],
+        "companyOccurrenceIds": [],
+        "otdrAnnotationShapeIds": [],
+        "otdrAnnotations": [],
+        "evidenceBasis": [
+          "effective_style",
+          "numbered_marker_alignment",
+          "owner_confirmation"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "1",
+        "sourceConnects": []
+      },
+      {
+        "shapeId": "23809",
+        "rootShapeId": "23809",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "LineColor": "#0000ff",
+          "BeginX": "53.45881790897874",
+          "BeginY": "527.7071941718779",
+          "EndX": "53.45881790897874",
+          "EndY": "526.5565920190425"
+        },
+        "effectiveLineColor": {
+          "formula": null,
+          "resolution": "resolved",
+          "rgb": "#0000ff",
+          "source_id": "23809",
+          "source_kind": "shape",
+          "value": "#0000ff"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 53.45881790897874,
+          "y": 527.7071941718779
+        },
+        "endWorld": {
+          "x": 53.45881790897874,
+          "y": 526.5565920190425
+        },
+        "length": 1.150602152835404,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [
+          {
+            "cable": "C153",
+            "fiberNumber": 6,
+            "markerShapeId": "15999",
+            "bankShapeId": "15992",
+            "residual": 0.03484038102016554,
+            "physicalColor": "#ffffff"
+          }
+        ],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C153",
+            "fiberNumber": 6,
+            "markerShapeId": "15999",
+            "residual": 0.03484038102016554,
+            "radius": 0.047244094488188976
+          },
+          "end": {
+            "cable": "C153",
+            "fiberNumber": 6,
+            "markerShapeId": "15999",
+            "residual": 1.1852223250425273,
+            "radius": 0.047244094488188976
+          }
+        },
+        "cable": "C153",
+        "fiberNumber": 6,
+        "physicalFiberColor": "#ffffff",
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [],
+        "disposition": "blue_solid_unused",
+        "usageState": "unused",
+        "organization": null,
+        "purpose": null,
+        "reason": null,
+        "companyLabelShapeIds": [],
+        "companyOccurrenceIds": [],
+        "otdrAnnotationShapeIds": [],
+        "otdrAnnotations": [],
+        "evidenceBasis": [
+          "effective_style",
+          "numbered_marker_alignment",
+          "owner_confirmation"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "1",
+        "sourceConnects": []
+      }
+    ],
+    "green_solid_opennet": [
+      {
+        "shapeId": "17517",
+        "rootShapeId": "17517",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "LineColor": "#009945",
+          "BeginX": "36.74523181427184",
+          "BeginY": "595.3979668489294",
+          "EndX": "36.74523181427184",
+          "EndY": "588.3142210280904"
+        },
+        "effectiveLineColor": {
+          "formula": "THEMEGUARD(RGB(0,153,69))",
+          "resolution": "resolved",
+          "rgb": "#009945",
+          "source_id": "17517",
+          "source_kind": "shape",
+          "value": "#009945"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 36.74523181427184,
+          "y": 595.3979668489294
+        },
+        "endWorld": {
+          "x": 36.74523181427184,
+          "y": 588.3142210280904
+        },
+        "length": 7.083745820838999,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [
+          {
+            "cable": "C148",
+            "fiberNumber": 1,
+            "markerShapeId": "16118",
+            "bankShapeId": "16115",
+            "residual": 0.01770163934697045,
+            "physicalColor": "#0000ff"
+          }
+        ],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C148",
+            "fiberNumber": 1,
+            "markerShapeId": "15127",
+            "residual": 0.01843512655722348,
+            "radius": 0.047244094488188976
+          },
+          "end": {
+            "cable": "C148",
+            "fiberNumber": 1,
+            "markerShapeId": "16118",
+            "residual": 0.01770163934697045,
+            "radius": 0.047244094488188976
+          }
+        },
+        "cable": "C148",
+        "fiberNumber": 1,
+        "physicalFiberColor": "#0000ff",
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [],
+        "disposition": "green_solid_opennet",
+        "usageState": "in_use",
+        "organization": "OpenNet",
+        "purpose": "internal",
+        "reason": null,
+        "companyLabelShapeIds": [],
+        "companyOccurrenceIds": [],
+        "otdrAnnotationShapeIds": [],
+        "otdrAnnotations": [],
+        "evidenceBasis": [
+          "effective_style",
+          "numbered_marker_alignment",
+          "owner_confirmation"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "1",
+        "sourceConnects": []
+      },
+      {
+        "shapeId": "17518",
+        "rootShapeId": "17518",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "LineColor": "#009945",
+          "BeginX": "36.83116931427184",
+          "BeginY": "595.3979668489294",
+          "EndX": "36.83116931427184",
+          "EndY": "588.3142210280904"
+        },
+        "effectiveLineColor": {
+          "formula": "THEMEGUARD(RGB(0,153,69))",
+          "resolution": "resolved",
+          "rgb": "#009945",
+          "source_id": "17518",
+          "source_kind": "shape",
+          "value": "#009945"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 36.83116931427184,
+          "y": 595.3979668489294
+        },
+        "endWorld": {
+          "x": 36.83116931427184,
+          "y": 588.3142210280904
+        },
+        "length": 7.083745820838999,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [
+          {
+            "cable": "C148",
+            "fiberNumber": 2,
+            "markerShapeId": "16119",
+            "bankShapeId": "16115",
+            "residual": 0.01657514481830601,
+            "physicalColor": "#f48c37"
+          }
+        ],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C148",
+            "fiberNumber": 2,
+            "markerShapeId": "15128",
+            "residual": 0.019571485927997914,
+            "radius": 0.047244094488188976
+          },
+          "end": {
+            "cable": "C148",
+            "fiberNumber": 2,
+            "markerShapeId": "16119",
+            "residual": 0.01657514481830601,
+            "radius": 0.047244094488188976
+          }
+        },
+        "cable": "C148",
+        "fiberNumber": 2,
+        "physicalFiberColor": "#f48c37",
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [],
+        "disposition": "green_solid_opennet",
+        "usageState": "in_use",
+        "organization": "OpenNet",
+        "purpose": "internal",
+        "reason": null,
+        "companyLabelShapeIds": [],
+        "companyOccurrenceIds": [],
+        "otdrAnnotationShapeIds": [],
+        "otdrAnnotations": [],
+        "evidenceBasis": [
+          "effective_style",
+          "numbered_marker_alignment",
+          "owner_confirmation"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "1",
+        "sourceConnects": []
+      },
+      {
+        "shapeId": "17553",
+        "rootShapeId": "17553",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "LineColor": "#00b050",
+          "BeginX": "40.00695056427184",
+          "BeginY": "595.3979668489294",
+          "EndX": "40.00695056427184",
+          "EndY": "588.3142210280904"
+        },
+        "effectiveLineColor": {
+          "formula": "THEMEGUARD(RGB(0,176,80))",
+          "resolution": "resolved",
+          "rgb": "#00b050",
+          "source_id": "17553",
+          "source_kind": "shape",
+          "value": "#00b050"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 40.00695056427184,
+          "y": 595.3979668489294
+        },
+        "endWorld": {
+          "x": 40.00695056427184,
+          "y": 588.3142210280904
+        },
+        "length": 7.083745820838999,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [
+          {
+            "cable": "C148",
+            "fiberNumber": 37,
+            "markerShapeId": "16186",
+            "bankShapeId": "16115",
+            "residual": 0.016630009651884443,
+            "physicalColor": "#0000ff"
+          }
+        ],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C148",
+            "fiberNumber": 37,
+            "markerShapeId": "15634",
+            "residual": 0.019356426634977778,
+            "radius": 0.047244094488188976
+          },
+          "end": {
+            "cable": "C148",
+            "fiberNumber": 37,
+            "markerShapeId": "16186",
+            "residual": 0.016630009651884443,
+            "radius": 0.047244094488188976
+          }
+        },
+        "cable": "C148",
+        "fiberNumber": 37,
+        "physicalFiberColor": "#0000ff",
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [],
+        "disposition": "green_solid_opennet",
+        "usageState": "in_use",
+        "organization": "OpenNet",
+        "purpose": "internal",
+        "reason": null,
+        "companyLabelShapeIds": [],
+        "companyOccurrenceIds": [],
+        "otdrAnnotationShapeIds": [],
+        "otdrAnnotations": [],
+        "evidenceBasis": [
+          "effective_style",
+          "numbered_marker_alignment",
+          "owner_confirmation"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "1",
+        "sourceConnects": []
+      },
+      {
+        "shapeId": "17554",
+        "rootShapeId": "17554",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "LineColor": "#00b050",
+          "BeginX": "40.09288806427184",
+          "BeginY": "595.3979668489294",
+          "EndX": "40.09288806427184",
+          "EndY": "588.3142210280904"
+        },
+        "effectiveLineColor": {
+          "formula": "THEMEGUARD(RGB(0,176,80))",
+          "resolution": "resolved",
+          "rgb": "#00b050",
+          "source_id": "17554",
+          "source_kind": "shape",
+          "value": "#00b050"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 40.09288806427184,
+          "y": 595.3979668489294
+        },
+        "endWorld": {
+          "x": 40.09288806427184,
+          "y": 588.3142210280904
+        },
+        "length": 7.083745820838999,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [
+          {
+            "cable": "C148",
+            "fiberNumber": 38,
+            "markerShapeId": "16187",
+            "bankShapeId": "16115",
+            "residual": 0.016909485349491212,
+            "physicalColor": "#f48c37"
+          }
+        ],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C148",
+            "fiberNumber": 38,
+            "markerShapeId": "15635",
+            "residual": 0.02158347761389824,
+            "radius": 0.047244094488188976
+          },
+          "end": {
+            "cable": "C148",
+            "fiberNumber": 38,
+            "markerShapeId": "16187",
+            "residual": 0.016909485349491212,
+            "radius": 0.047244094488188976
+          }
+        },
+        "cable": "C148",
+        "fiberNumber": 38,
+        "physicalFiberColor": "#f48c37",
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [],
+        "disposition": "green_solid_opennet",
+        "usageState": "in_use",
+        "organization": "OpenNet",
+        "purpose": "internal",
+        "reason": null,
+        "companyLabelShapeIds": [],
+        "companyOccurrenceIds": [],
+        "otdrAnnotationShapeIds": [],
+        "otdrAnnotations": [],
+        "evidenceBasis": [
+          "effective_style",
+          "numbered_marker_alignment",
+          "owner_confirmation"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "1",
+        "sourceConnects": []
+      }
+    ],
+    "green_solid_opennet_otdr": [
+      {
+        "shapeId": "17667",
+        "rootShapeId": "17667",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "LineColor": "#009945",
+          "BeginX": "50.34288806427184",
+          "BeginY": "595.3979668489294",
+          "EndX": "50.34288806427184",
+          "EndY": "588.3142210280904"
+        },
+        "effectiveLineColor": {
+          "formula": "THEMEGUARD(RGB(0,153,69))",
+          "resolution": "resolved",
+          "rgb": "#009945",
+          "source_id": "17667",
+          "source_kind": "shape",
+          "value": "#009945"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 50.34288806427184,
+          "y": 595.3979668489294
+        },
+        "endWorld": {
+          "x": 50.34288806427184,
+          "y": 588.3142210280904
+        },
+        "length": 7.083745820838999,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [
+          {
+            "cable": "C148",
+            "fiberNumber": 151,
+            "markerShapeId": "16423",
+            "bankShapeId": "16115",
+            "residual": 0.017644624462210056,
+            "physicalColor": "#ff0000"
+          }
+        ],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C148",
+            "fiberNumber": 151,
+            "markerShapeId": "38630",
+            "residual": 0.01844906660110684,
+            "radius": 0.047244094488188976
+          },
+          "end": {
+            "cable": "C148",
+            "fiberNumber": 151,
+            "markerShapeId": "16423",
+            "residual": 0.017644624462210056,
+            "radius": 0.047244094488188976
+          }
+        },
+        "cable": "C148",
+        "fiberNumber": 151,
+        "physicalFiberColor": "#ff0000",
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [],
+        "disposition": "green_solid_opennet_otdr",
+        "usageState": "in_use",
+        "organization": "OpenNet",
+        "purpose": "OTDR",
+        "reason": null,
+        "companyLabelShapeIds": [],
+        "companyOccurrenceIds": [],
+        "otdrAnnotationShapeIds": [
+          "17667"
+        ],
+        "otdrAnnotations": [
+          {
+            "shapeId": "17667",
+            "text": "OTDR"
+          }
+        ],
+        "evidenceBasis": [
+          "effective_style",
+          "numbered_marker_alignment",
+          "owner_confirmation"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "1",
+        "sourceConnects": []
+      },
+      {
+        "shapeId": "33810",
+        "rootShapeId": "33810",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "LineColor": "#009945",
+          "BeginX": "93.12976675521671",
+          "BeginY": "547.0937356593935",
+          "EndX": "93.12976675521671",
+          "EndY": "543.5937356593935"
+        },
+        "effectiveLineColor": {
+          "formula": "THEMEGUARD(RGB(0,153,69))",
+          "resolution": "resolved",
+          "rgb": "#009945",
+          "source_id": "33810",
+          "source_kind": "shape",
+          "value": "#009945"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 93.1297667552167,
+          "y": 547.0937356593935
+        },
+        "endWorld": {
+          "x": 93.1297667552167,
+          "y": 543.5937356593935
+        },
+        "length": 3.5,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [
+          {
+            "cable": "C169",
+            "fiberNumber": 7,
+            "markerShapeId": "33262",
+            "bankShapeId": "33254",
+            "residual": 0.015923382355523704,
+            "physicalColor": "#ff0000"
+          }
+        ],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C169",
+            "fiberNumber": 7,
+            "markerShapeId": "33262",
+            "residual": 0.015923382355523704,
+            "radius": 0.04724409448818898
+          },
+          "end": {
+            "cable": "C169",
+            "fiberNumber": 7,
+            "markerShapeId": "33262",
+            "residual": 3.515589225040405,
+            "radius": 0.04724409448818898
+          }
+        },
+        "cable": "C169",
+        "fiberNumber": 7,
+        "physicalFiberColor": "#ff0000",
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [],
+        "disposition": "green_solid_opennet_otdr",
+        "usageState": "in_use",
+        "organization": "OpenNet",
+        "purpose": "OTDR",
+        "reason": null,
+        "companyLabelShapeIds": [],
+        "companyOccurrenceIds": [],
+        "otdrAnnotationShapeIds": [
+          "33810"
+        ],
+        "otdrAnnotations": [
+          {
+            "shapeId": "33810",
+            "text": "OTDR"
+          }
+        ],
+        "evidenceBasis": [
+          "effective_style",
+          "numbered_marker_alignment",
+          "owner_confirmation"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "1",
+        "sourceConnects": []
+      },
+      {
+        "shapeId": "38874",
+        "rootShapeId": "38874",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": "21",
+        "masterShapeId": "5",
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "LineColor": "#009945",
+          "LineWeight": "0.01041666666666667",
+          "BeginX": "50.34455708364606",
+          "BeginY": "595.4358722967889",
+          "EndX": "47.43663806427183",
+          "EndY": "623.4477170304252"
+        },
+        "effectiveLineColor": {
+          "formula": "THEMEGUARD(IF(CELLISTHEMED(FALSE),SETATREFEXPR(THEMEGUARD(RGB(0,153,69))),SETATREFEXPR(THEMEGUARD(RGB(0,153,69)))))",
+          "resolution": "resolved",
+          "rgb": "#009945",
+          "source_id": "38874",
+          "source_kind": "shape",
+          "value": "#009945"
+        },
+        "effectiveLinePattern": {
+          "formula": "THEMEGUARD(IF(CELLISTHEMED(FALSE),THEME(\"ConnectorPattern\"),SETATREFEXPR(THEME(\"ConnectorPattern\"))))",
+          "source_id": "7",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "effectiveLineWeight": {
+          "formula": "THEMEGUARD(IF(CELLISTHEMED(FALSE),THEME(\"ConnectorWeight\"),SETATREFEXPR(0.75PT)))",
+          "source_id": "38874",
+          "source_kind": "shape",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 50.34455708364606,
+          "y": 595.435872296789
+        },
+        "endWorld": {
+          "x": 47.43663806427183,
+          "y": 623.4477170304252
+        },
+        "length": 28.16237629186474,
+        "ownerMaster": "21",
+        "shapeName": "Dynamic connector.38874",
+        "shapeType": "Shape",
+        "associatedFibers": [
+          {
+            "cable": "C148",
+            "fiberNumber": 151,
+            "markerShapeId": "38630",
+            "bankShapeId": "15124",
+            "residual": 0.019532031389530857,
+            "physicalColor": "#ff0000"
+          }
+        ],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C148",
+            "fiberNumber": 151,
+            "markerShapeId": "38630",
+            "residual": 0.019532031389530857,
+            "radius": 0.047244094488188976
+          },
+          "end": {
+            "cable": "C148",
+            "fiberNumber": 119,
+            "markerShapeId": "38525",
+            "residual": 28.03060013665994,
+            "radius": 0.047244094488188976
+          }
+        },
+        "cable": "C148",
+        "fiberNumber": 151,
+        "physicalFiberColor": "#ff0000",
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [],
+        "disposition": "green_solid_opennet_otdr",
+        "usageState": "in_use",
+        "organization": "OpenNet",
+        "purpose": "OTDR",
+        "reason": null,
+        "companyLabelShapeIds": [],
+        "companyOccurrenceIds": [],
+        "otdrAnnotationShapeIds": [
+          "17667"
+        ],
+        "otdrAnnotations": [
+          {
+            "shapeId": "17667",
+            "text": "OTDR"
+          }
+        ],
+        "evidenceBasis": [
+          "effective_style",
+          "numbered_marker_alignment",
+          "owner_confirmation"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "1",
+        "sourceConnects": []
+      },
+      {
+        "shapeId": "32935",
+        "rootShapeId": "32935",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "LineColor": "#009945",
+          "BeginX": "50.34288806427184",
+          "BeginY": "588.2715399469724",
+          "EndX": "50.34288806427184",
+          "EndY": "575.132829113829"
+        },
+        "effectiveLineColor": {
+          "formula": "THEMEGUARD(RGB(0,153,69))",
+          "resolution": "resolved",
+          "rgb": "#009945",
+          "source_id": "32935",
+          "source_kind": "shape",
+          "value": "#009945"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 50.34288806427184,
+          "y": 588.2715399469724
+        },
+        "endWorld": {
+          "x": 50.34288806427184,
+          "y": 575.132829113829
+        },
+        "length": 13.138710833143477,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [
+          {
+            "cable": "C148",
+            "fiberNumber": 151,
+            "markerShapeId": "16423",
+            "bankShapeId": "16115",
+            "residual": 0.026852723051987028,
+            "physicalColor": "#ff0000"
+          },
+          {
+            "cable": "C150",
+            "fiberNumber": 151,
+            "markerShapeId": "19663",
+            "bankShapeId": "19355",
+            "residual": 0.027440803335458317,
+            "physicalColor": "#ff0000"
+          }
+        ],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C148",
+            "fiberNumber": 151,
+            "markerShapeId": "16423",
+            "residual": 0.026852723051987028,
+            "radius": 0.047244094488188976
+          },
+          "end": {
+            "cable": "C150",
+            "fiberNumber": 151,
+            "markerShapeId": "19663",
+            "residual": 0.027440803335458317,
+            "radius": 0.047244094488188976
+          }
+        },
+        "cable": "C148",
+        "fiberNumber": 151,
+        "physicalFiberColor": "#ff0000",
+        "decodedTransitionId": "NFT-205-32935",
+        "decodedTransitionNode": "205",
+        "nearbySourceText": [],
+        "disposition": "green_solid_opennet_otdr",
+        "usageState": "in_use",
+        "organization": "OpenNet",
+        "purpose": "OTDR",
+        "reason": null,
+        "companyLabelShapeIds": [],
+        "companyOccurrenceIds": [],
+        "otdrAnnotationShapeIds": [
+          "17667"
+        ],
+        "otdrAnnotations": [
+          {
+            "shapeId": "17667",
+            "text": "OTDR"
+          }
+        ],
+        "evidenceBasis": [
+          "effective_style",
+          "numbered_marker_alignment",
+          "owner_confirmation"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "1",
+        "sourceConnects": []
+      }
+    ],
+    "red_dashed_review_required": [
+      {
+        "shapeId": "23804",
+        "rootShapeId": "23804",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "LineColor": "#ff0000",
+          "LinePattern": "2",
+          "BeginX": "53.0130132829945",
+          "BeginY": "527.7071941718779",
+          "EndX": "53.0130132829945",
+          "EndY": "526.5565920190425"
+        },
+        "effectiveLineColor": {
+          "formula": "THEMEGUARD(RGB(255,0,0))",
+          "resolution": "resolved",
+          "rgb": "#ff0000",
+          "source_id": "23804",
+          "source_kind": "shape",
+          "value": "#ff0000"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "23804",
+          "source_kind": "shape",
+          "value": "2"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 53.0130132829945,
+          "y": 527.7071941718779
+        },
+        "endWorld": {
+          "x": 53.0130132829945,
+          "y": 526.5565920190425
+        },
+        "length": 1.150602152835404,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [
+          {
+            "cable": "C153",
+            "fiberNumber": 1,
+            "markerShapeId": "15995",
+            "bankShapeId": "15992",
+            "residual": 0.0351451981777531,
+            "physicalColor": "#0000ff"
+          }
+        ],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C153",
+            "fiberNumber": 1,
+            "markerShapeId": "15995",
+            "residual": 0.0351451981777531,
+            "radius": 0.047244094488188976
+          },
+          "end": {
+            "cable": "C153",
+            "fiberNumber": 1,
+            "markerShapeId": "15995",
+            "residual": 1.1852313245035915,
+            "radius": 0.047244094488188976
+          }
+        },
+        "cable": "C153",
+        "fiberNumber": 1,
+        "physicalFiberColor": "#0000ff",
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [],
+        "disposition": "red_dashed_review_required",
+        "usageState": "review_required",
+        "organization": null,
+        "purpose": null,
+        "reason": "Owner-confirmed meaning is unresolved for this dashed red style.",
+        "companyLabelShapeIds": [],
+        "companyOccurrenceIds": [],
+        "otdrAnnotationShapeIds": [],
+        "otdrAnnotations": [],
+        "evidenceBasis": [
+          "effective_style",
+          "numbered_marker_alignment",
+          "owner_confirmation"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "2",
+        "sourceConnects": []
+      },
+      {
+        "shapeId": "23816",
+        "rootShapeId": "23816",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "LineColor": "#ff0000",
+          "LinePattern": "2",
+          "BeginX": "53.01224949647342",
+          "BeginY": "528.461300076082",
+          "EndX": "53.01224949647342",
+          "EndY": "527.7756622473023"
+        },
+        "effectiveLineColor": {
+          "formula": "THEMEGUARD(RGB(255,0,0))",
+          "resolution": "resolved",
+          "rgb": "#ff0000",
+          "source_id": "23816",
+          "source_kind": "shape",
+          "value": "#ff0000"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "23816",
+          "source_kind": "shape",
+          "value": "2"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 53.01224949647342,
+          "y": 528.461300076082
+        },
+        "endWorld": {
+          "x": 53.01224949647342,
+          "y": 527.7756622473023
+        },
+        "length": 0.6856378287797043,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [
+          {
+            "cable": "C153",
+            "fiberNumber": 1,
+            "markerShapeId": "15995",
+            "bankShapeId": "15992",
+            "residual": 0.03427097520226265,
+            "physicalColor": "#0000ff"
+          }
+        ],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C153",
+            "fiberNumber": 1,
+            "markerShapeId": "16047",
+            "residual": 0.027986518942675766,
+            "radius": 0.047244094488188976
+          },
+          "end": {
+            "cable": "C153",
+            "fiberNumber": 1,
+            "markerShapeId": "15995",
+            "residual": 0.03427097520226265,
+            "radius": 0.047244094488188976
+          }
+        },
+        "cable": "C153",
+        "fiberNumber": 1,
+        "physicalFiberColor": "#0000ff",
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [],
+        "disposition": "red_dashed_review_required",
+        "usageState": "review_required",
+        "organization": null,
+        "purpose": null,
+        "reason": "Owner-confirmed meaning is unresolved for this dashed red style.",
+        "companyLabelShapeIds": [],
+        "companyOccurrenceIds": [],
+        "otdrAnnotationShapeIds": [],
+        "otdrAnnotations": [],
+        "evidenceBasis": [
+          "effective_style",
+          "numbered_marker_alignment",
+          "owner_confirmation"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "2",
+        "sourceConnects": []
+      },
+      {
+        "shapeId": "17557",
+        "rootShapeId": "17557",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "LineColor": "#ff0000",
+          "LinePattern": "2",
+          "BeginX": "40.37413806427184",
+          "BeginY": "595.3979668489294",
+          "EndX": "40.37413806427184",
+          "EndY": "588.3142210280904"
+        },
+        "effectiveLineColor": {
+          "formula": "THEMEGUARD(RGB(255,0,0))",
+          "resolution": "resolved",
+          "rgb": "#ff0000",
+          "source_id": "17557",
+          "source_kind": "shape",
+          "value": "#ff0000"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "17557",
+          "source_kind": "shape",
+          "value": "2"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 40.37413806427184,
+          "y": 595.3979668489294
+        },
+        "endWorld": {
+          "x": 40.37413806427184,
+          "y": 588.3142210280904
+        },
+        "length": 7.083745820838999,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [
+          {
+            "cable": "C148",
+            "fiberNumber": 41,
+            "markerShapeId": "16185",
+            "bankShapeId": "16115",
+            "residual": 0.017070082701113556,
+            "physicalColor": "#808080"
+          }
+        ],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C148",
+            "fiberNumber": 41,
+            "markerShapeId": "15633",
+            "residual": 0.0187215901371224,
+            "radius": 0.047244094488188976
+          },
+          "end": {
+            "cable": "C148",
+            "fiberNumber": 41,
+            "markerShapeId": "16185",
+            "residual": 0.017070082701113556,
+            "radius": 0.047244094488188976
+          }
+        },
+        "cable": "C148",
+        "fiberNumber": 41,
+        "physicalFiberColor": "#808080",
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [],
+        "disposition": "red_dashed_review_required",
+        "usageState": "review_required",
+        "organization": null,
+        "purpose": null,
+        "reason": "Owner-confirmed meaning is unresolved for this dashed red style.",
+        "companyLabelShapeIds": [],
+        "companyOccurrenceIds": [],
+        "otdrAnnotationShapeIds": [],
+        "otdrAnnotations": [],
+        "evidenceBasis": [
+          "effective_style",
+          "numbered_marker_alignment",
+          "owner_confirmation"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "2",
+        "sourceConnects": []
+      },
+      {
+        "shapeId": "17619",
+        "rootShapeId": "17619",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "LineColor": "#ff0000",
+          "LinePattern": "2",
+          "BeginX": "45.98351306427184",
+          "BeginY": "595.3979668489294",
+          "EndX": "45.98351306427184",
+          "EndY": "588.3142210280904"
+        },
+        "effectiveLineColor": {
+          "formula": "THEMEGUARD(RGB(255,0,0))",
+          "resolution": "resolved",
+          "rgb": "#ff0000",
+          "source_id": "17619",
+          "source_kind": "shape",
+          "value": "#ff0000"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "17619",
+          "source_kind": "shape",
+          "value": "2"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 45.98351306427184,
+          "y": 595.3979668489294
+        },
+        "endWorld": {
+          "x": 45.98351306427184,
+          "y": 588.3142210280904
+        },
+        "length": 7.083745820838999,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [
+          {
+            "cable": "C148",
+            "fiberNumber": 103,
+            "markerShapeId": "16309",
+            "bankShapeId": "16115",
+            "residual": 0.01661402292052786,
+            "physicalColor": "#ff0000"
+          }
+        ],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C148",
+            "fiberNumber": 103,
+            "markerShapeId": "38290",
+            "residual": 0.01940796792779526,
+            "radius": 0.047244094488188976
+          },
+          "end": {
+            "cable": "C148",
+            "fiberNumber": 103,
+            "markerShapeId": "16309",
+            "residual": 0.01661402292052786,
+            "radius": 0.047244094488188976
+          }
+        },
+        "cable": "C148",
+        "fiberNumber": 103,
+        "physicalFiberColor": "#ff0000",
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [],
+        "disposition": "red_dashed_review_required",
+        "usageState": "review_required",
+        "organization": null,
+        "purpose": null,
+        "reason": "Owner-confirmed meaning is unresolved for this dashed red style.",
+        "companyLabelShapeIds": [],
+        "companyOccurrenceIds": [],
+        "otdrAnnotationShapeIds": [],
+        "otdrAnnotations": [],
+        "evidenceBasis": [
+          "effective_style",
+          "numbered_marker_alignment",
+          "owner_confirmation"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "2",
+        "sourceConnects": []
+      }
+    ],
+    "red_solid_in_use_named": [
+      {
+        "shapeId": "17536",
+        "rootShapeId": "17536",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "LineColor": "#ff0000",
+          "BeginX": "38.46788806427184",
+          "BeginY": "595.3979668489294",
+          "EndX": "38.46788806427184",
+          "EndY": "588.3142210280904"
+        },
+        "effectiveLineColor": {
+          "formula": "THEMEGUARD(RGB(255,0,0))",
+          "resolution": "resolved",
+          "rgb": "#ff0000",
+          "source_id": "17536",
+          "source_kind": "shape",
+          "value": "#ff0000"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 38.46788806427184,
+          "y": 595.3979668489294
+        },
+        "endWorld": {
+          "x": 38.46788806427184,
+          "y": 588.3142210280904
+        },
+        "length": 7.083745820838999,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [
+          {
+            "cable": "C148",
+            "fiberNumber": 20,
+            "markerShapeId": "16148",
+            "bankShapeId": "16115",
+            "residual": 0.016565481730705066,
+            "physicalColor": "#000000"
+          }
+        ],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C148",
+            "fiberNumber": 20,
+            "markerShapeId": "15443",
+            "residual": 0.01962784377055806,
+            "radius": 0.047244094488188976
+          },
+          "end": {
+            "cable": "C148",
+            "fiberNumber": 20,
+            "markerShapeId": "16148",
+            "residual": 0.016565481730705066,
+            "radius": 0.047244094488188976
+          }
+        },
+        "cable": "C148",
+        "fiberNumber": 20,
+        "physicalFiberColor": "#000000",
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [
+          {
+            "shapeId": "17536",
+            "occurrenceId": "ORG-17536",
+            "organization": "Magti",
+            "rawText": "მაგთი"
+          }
+        ],
+        "disposition": "red_solid_in_use_named",
+        "usageState": "in_use",
+        "organization": "Magti",
+        "purpose": null,
+        "reason": null,
+        "companyLabelShapeIds": [
+          "17536"
+        ],
+        "companyOccurrenceIds": [
+          "ORG-17536"
+        ],
+        "otdrAnnotationShapeIds": [],
+        "otdrAnnotations": [],
+        "evidenceBasis": [
+          "effective_style",
+          "numbered_marker_alignment",
+          "owner_confirmation"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "1",
+        "sourceConnects": []
+      },
+      {
+        "shapeId": "17537",
+        "rootShapeId": "17537",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "LineColor": "#ff0000",
+          "BeginX": "38.56554431427184",
+          "BeginY": "595.3979668489294",
+          "EndX": "38.56554431427184",
+          "EndY": "588.3142210280904"
+        },
+        "effectiveLineColor": {
+          "formula": "THEMEGUARD(RGB(255,0,0))",
+          "resolution": "resolved",
+          "rgb": "#ff0000",
+          "source_id": "17537",
+          "source_kind": "shape",
+          "value": "#ff0000"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 38.56554431427184,
+          "y": 595.3979668489294
+        },
+        "endWorld": {
+          "x": 38.56554431427184,
+          "y": 588.3142210280904
+        },
+        "length": 7.083745820838999,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [
+          {
+            "cable": "C148",
+            "fiberNumber": 21,
+            "markerShapeId": "16149",
+            "bankShapeId": "16115",
+            "residual": 0.018117014373801397,
+            "physicalColor": "#ffff00"
+          }
+        ],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C148",
+            "fiberNumber": 21,
+            "markerShapeId": "15444",
+            "residual": 0.01837823678303157,
+            "radius": 0.047244094488188976
+          },
+          "end": {
+            "cable": "C148",
+            "fiberNumber": 21,
+            "markerShapeId": "16149",
+            "residual": 0.018117014373801397,
+            "radius": 0.047244094488188976
+          }
+        },
+        "cable": "C148",
+        "fiberNumber": 21,
+        "physicalFiberColor": "#ffff00",
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [
+          {
+            "shapeId": "17537",
+            "occurrenceId": "ORG-17537",
+            "organization": "Magti",
+            "rawText": "მაგთი"
+          }
+        ],
+        "disposition": "red_solid_in_use_named",
+        "usageState": "in_use",
+        "organization": "Magti",
+        "purpose": null,
+        "reason": null,
+        "companyLabelShapeIds": [
+          "17537"
+        ],
+        "companyOccurrenceIds": [
+          "ORG-17537"
+        ],
+        "otdrAnnotationShapeIds": [],
+        "otdrAnnotations": [],
+        "evidenceBasis": [
+          "effective_style",
+          "numbered_marker_alignment",
+          "owner_confirmation"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "1",
+        "sourceConnects": []
+      },
+      {
+        "shapeId": "17665",
+        "rootShapeId": "17665",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "LineColor": "#ff0000",
+          "BeginX": "50.15538806427184",
+          "BeginY": "595.3979668489294",
+          "EndX": "50.15538806427184",
+          "EndY": "588.3142210280904"
+        },
+        "effectiveLineColor": {
+          "formula": "THEMEGUARD(RGB(255,0,0))",
+          "resolution": "resolved",
+          "rgb": "#ff0000",
+          "source_id": "17665",
+          "source_kind": "shape",
+          "value": "#ff0000"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 50.15538806427184,
+          "y": 595.3979668489294
+        },
+        "endWorld": {
+          "x": 50.15538806427184,
+          "y": 588.3142210280904
+        },
+        "length": 7.083745820838999,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [
+          {
+            "cable": "C148",
+            "fiberNumber": 149,
+            "markerShapeId": "16417",
+            "bankShapeId": "16115",
+            "residual": 0.016570116287713526,
+            "physicalColor": "#808080"
+          }
+        ],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C148",
+            "fiberNumber": 149,
+            "markerShapeId": "38624",
+            "residual": 0.019599517970728075,
+            "radius": 0.047244094488188976
+          },
+          "end": {
+            "cable": "C148",
+            "fiberNumber": 149,
+            "markerShapeId": "16417",
+            "residual": 0.016570116287713526,
+            "radius": 0.047244094488188976
+          }
+        },
+        "cable": "C148",
+        "fiberNumber": 149,
+        "physicalFiberColor": "#808080",
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [
+          {
+            "shapeId": "17665",
+            "occurrenceId": "ORG-17665",
+            "organization": "Magti",
+            "rawText": "მაგთი"
+          }
+        ],
+        "disposition": "red_solid_in_use_named",
+        "usageState": "in_use",
+        "organization": "Magti",
+        "purpose": null,
+        "reason": null,
+        "companyLabelShapeIds": [
+          "17665"
+        ],
+        "companyOccurrenceIds": [
+          "ORG-17665"
+        ],
+        "otdrAnnotationShapeIds": [],
+        "otdrAnnotations": [],
+        "evidenceBasis": [
+          "effective_style",
+          "numbered_marker_alignment",
+          "owner_confirmation"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "1",
+        "sourceConnects": []
+      },
+      {
+        "shapeId": "17668",
+        "rootShapeId": "17668",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "LineColor": "#ff0000",
+          "BeginX": "50.42687243927184",
+          "BeginY": "595.3979668489294",
+          "EndX": "50.42687243927184",
+          "EndY": "588.3142210280904"
+        },
+        "effectiveLineColor": {
+          "formula": "THEMEGUARD(RGB(255,0,0))",
+          "resolution": "resolved",
+          "rgb": "#ff0000",
+          "source_id": "17668",
+          "source_kind": "shape",
+          "value": "#ff0000"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 50.42687243927184,
+          "y": 595.3979668489294
+        },
+        "endWorld": {
+          "x": 50.42687243927184,
+          "y": 588.3142210280904
+        },
+        "length": 7.083745820838999,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [
+          {
+            "cable": "C148",
+            "fiberNumber": 152,
+            "markerShapeId": "16424",
+            "bankShapeId": "16115",
+            "residual": 0.016573543859399038,
+            "physicalColor": "#000000"
+          }
+        ],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C148",
+            "fiberNumber": 152,
+            "markerShapeId": "38631",
+            "residual": 0.020396985078572096,
+            "radius": 0.047244094488188976
+          },
+          "end": {
+            "cable": "C148",
+            "fiberNumber": 152,
+            "markerShapeId": "16424",
+            "residual": 0.016573543859399038,
+            "radius": 0.047244094488188976
+          }
+        },
+        "cable": "C148",
+        "fiberNumber": 152,
+        "physicalFiberColor": "#000000",
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [
+          {
+            "shapeId": "17668",
+            "occurrenceId": "ORG-17668",
+            "organization": "Magti",
+            "rawText": "მაგთი"
+          }
+        ],
+        "disposition": "red_solid_in_use_named",
+        "usageState": "in_use",
+        "organization": "Magti",
+        "purpose": null,
+        "reason": null,
+        "companyLabelShapeIds": [
+          "17668"
+        ],
+        "companyOccurrenceIds": [
+          "ORG-17668"
+        ],
+        "otdrAnnotationShapeIds": [],
+        "otdrAnnotations": [],
+        "evidenceBasis": [
+          "effective_style",
+          "numbered_marker_alignment",
+          "owner_confirmation"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "1",
+        "sourceConnects": []
+      }
+    ],
+    "red_solid_in_use_organization_unknown": [
+      {
+        "shapeId": "23806",
+        "rootShapeId": "23806",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "LineColor": "#ff0000",
+          "BeginX": "53.19319290897874",
+          "BeginY": "527.7071941718779",
+          "EndX": "53.19319290897874",
+          "EndY": "526.5565920190425"
+        },
+        "effectiveLineColor": {
+          "formula": "THEMEGUARD(RGB(255,0,0))",
+          "resolution": "resolved",
+          "rgb": "#ff0000",
+          "source_id": "23806",
+          "source_kind": "shape",
+          "value": "#ff0000"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 53.19319290897874,
+          "y": 527.7071941718779
+        },
+        "endWorld": {
+          "x": 53.19319290897874,
+          "y": 526.5565920190425
+        },
+        "length": 1.150602152835404,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [
+          {
+            "cable": "C153",
+            "fiberNumber": 3,
+            "markerShapeId": "15997",
+            "bankShapeId": "15992",
+            "residual": 0.03483524595134337,
+            "physicalColor": "#008000"
+          }
+        ],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C153",
+            "fiberNumber": 3,
+            "markerShapeId": "15997",
+            "residual": 0.03483524595134337,
+            "radius": 0.047244094488188976
+          },
+          "end": {
+            "cable": "C153",
+            "fiberNumber": 3,
+            "markerShapeId": "15997",
+            "residual": 1.1852221741049547,
+            "radius": 0.047244094488188976
+          }
+        },
+        "cable": "C153",
+        "fiberNumber": 3,
+        "physicalFiberColor": "#008000",
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [],
+        "disposition": "red_solid_in_use_organization_unknown",
+        "usageState": "in_use",
+        "organization": "unknown",
+        "purpose": null,
+        "reason": null,
+        "companyLabelShapeIds": [],
+        "companyOccurrenceIds": [],
+        "otdrAnnotationShapeIds": [],
+        "otdrAnnotations": [],
+        "evidenceBasis": [
+          "effective_style",
+          "numbered_marker_alignment",
+          "owner_confirmation"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "1",
+        "sourceConnects": []
+      },
+      {
+        "shapeId": "23818",
+        "rootShapeId": "23818",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "LineColor": "#ff0000",
+          "BeginX": "53.19242912245766",
+          "BeginY": "528.461300076082",
+          "EndX": "53.19242912245766",
+          "EndY": "527.7756622473023"
+        },
+        "effectiveLineColor": {
+          "formula": "THEMEGUARD(RGB(255,0,0))",
+          "resolution": "resolved",
+          "rgb": "#ff0000",
+          "source_id": "23818",
+          "source_kind": "shape",
+          "value": "#ff0000"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 53.19242912245766,
+          "y": 528.461300076082
+        },
+        "endWorld": {
+          "x": 53.19242912245766,
+          "y": 527.7756622473023
+        },
+        "length": 0.6856378287797043,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [
+          {
+            "cable": "C153",
+            "fiberNumber": 3,
+            "markerShapeId": "15997",
+            "bankShapeId": "15992",
+            "residual": 0.03400173338095067,
+            "physicalColor": "#008000"
+          }
+        ],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C153",
+            "fiberNumber": 3,
+            "markerShapeId": "16049",
+            "residual": 0.027848210573044405,
+            "radius": 0.047244094488188976
+          },
+          "end": {
+            "cable": "C153",
+            "fiberNumber": 3,
+            "markerShapeId": "15997",
+            "residual": 0.03400173338095067,
+            "radius": 0.047244094488188976
+          }
+        },
+        "cable": "C153",
+        "fiberNumber": 3,
+        "physicalFiberColor": "#008000",
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [],
+        "disposition": "red_solid_in_use_organization_unknown",
+        "usageState": "in_use",
+        "organization": "unknown",
+        "purpose": null,
+        "reason": null,
+        "companyLabelShapeIds": [],
+        "companyOccurrenceIds": [],
+        "otdrAnnotationShapeIds": [],
+        "otdrAnnotations": [],
+        "evidenceBasis": [
+          "effective_style",
+          "numbered_marker_alignment",
+          "owner_confirmation"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "1",
+        "sourceConnects": []
+      },
+      {
+        "shapeId": "17519",
+        "rootShapeId": "17519",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "LineColor": "#ff0000",
+          "BeginX": "36.92491931427184",
+          "BeginY": "595.3979668489294",
+          "EndX": "36.92491931427184",
+          "EndY": "588.3142210280904"
+        },
+        "effectiveLineColor": {
+          "formula": "THEMEGUARD(RGB(255,0,0))",
+          "resolution": "resolved",
+          "rgb": "#ff0000",
+          "source_id": "17519",
+          "source_kind": "shape",
+          "value": "#ff0000"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 36.92491931427184,
+          "y": 595.3979668489294
+        },
+        "endWorld": {
+          "x": 36.92491931427184,
+          "y": 588.3142210280904
+        },
+        "length": 7.083745820838999,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [
+          {
+            "cable": "C148",
+            "fiberNumber": 3,
+            "markerShapeId": "16120",
+            "bankShapeId": "16115",
+            "residual": 0.01693790869667317,
+            "physicalColor": "#008000"
+          }
+        ],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C148",
+            "fiberNumber": 3,
+            "markerShapeId": "15129",
+            "residual": 0.018839635194727956,
+            "radius": 0.047244094488188976
+          },
+          "end": {
+            "cable": "C148",
+            "fiberNumber": 3,
+            "markerShapeId": "16120",
+            "residual": 0.01693790869667317,
+            "radius": 0.047244094488188976
+          }
+        },
+        "cable": "C148",
+        "fiberNumber": 3,
+        "physicalFiberColor": "#008000",
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [],
+        "disposition": "red_solid_in_use_organization_unknown",
+        "usageState": "in_use",
+        "organization": "unknown",
+        "purpose": null,
+        "reason": null,
+        "companyLabelShapeIds": [],
+        "companyOccurrenceIds": [],
+        "otdrAnnotationShapeIds": [],
+        "otdrAnnotations": [],
+        "evidenceBasis": [
+          "effective_style",
+          "numbered_marker_alignment",
+          "owner_confirmation"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "1",
+        "sourceConnects": []
+      },
+      {
+        "shapeId": "17558",
+        "rootShapeId": "17558",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "LineColor": "#ff0000",
+          "BeginX": "40.46007556427184",
+          "BeginY": "595.3979668489294",
+          "EndX": "40.46007556427184",
+          "EndY": "588.3142210280904"
+        },
+        "effectiveLineColor": {
+          "formula": "THEMEGUARD(RGB(255,0,0))",
+          "resolution": "resolved",
+          "rgb": "#ff0000",
+          "source_id": "17558",
+          "source_kind": "shape",
+          "value": "#ff0000"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 40.46007556427184,
+          "y": 595.3979668489294
+        },
+        "endWorld": {
+          "x": 40.46007556427184,
+          "y": 588.3142210280904
+        },
+        "length": 7.083745820838999,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [
+          {
+            "cable": "C148",
+            "fiberNumber": 42,
+            "markerShapeId": "16190",
+            "bankShapeId": "16115",
+            "residual": 0.016571781801668205,
+            "physicalColor": "#ffffff"
+          }
+        ],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C148",
+            "fiberNumber": 42,
+            "markerShapeId": "15638",
+            "residual": 0.02038469882027019,
+            "radius": 0.047244094488188976
+          },
+          "end": {
+            "cable": "C148",
+            "fiberNumber": 42,
+            "markerShapeId": "16190",
+            "residual": 0.016571781801668205,
+            "radius": 0.047244094488188976
+          }
+        },
+        "cable": "C148",
+        "fiberNumber": 42,
+        "physicalFiberColor": "#ffffff",
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [],
+        "disposition": "red_solid_in_use_organization_unknown",
+        "usageState": "in_use",
+        "organization": "unknown",
+        "purpose": null,
+        "reason": null,
+        "companyLabelShapeIds": [],
+        "companyOccurrenceIds": [],
+        "otdrAnnotationShapeIds": [],
+        "otdrAnnotations": [],
+        "evidenceBasis": [
+          "effective_style",
+          "numbered_marker_alignment",
+          "owner_confirmation"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "1",
+        "sourceConnects": []
+      }
+    ],
+    "rejected_non_fiber_graphic": [
+      {
+        "shapeId": "38917",
+        "rootShapeId": "38916",
+        "parentShapeId": "38916",
+        "groupAncestry": [
+          "38916"
+        ],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "LineColor": "#00b050",
+          "BeginX": "0.08938026701321178",
+          "BeginY": "24.87626793790431",
+          "EndX": "0.1206302670132118",
+          "EndY": "24.87626793790431"
+        },
+        "effectiveLineColor": {
+          "formula": "THEMEGUARD(RGB(0,176,80))",
+          "resolution": "resolved",
+          "rgb": "#00b050",
+          "source_id": "38917",
+          "source_kind": "shape",
+          "value": "#00b050"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 40.15538806427183,
+          "y": 623.5530213403102
+        },
+        "endWorld": {
+          "x": 40.18663806427183,
+          "y": 623.5530213403102
+        },
+        "length": 0.03125,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C148",
+            "fiberNumber": 39,
+            "markerShapeId": "15636",
+            "residual": 28.136709504954563,
+            "radius": 0.047244094488188976
+          },
+          "end": {
+            "cable": "C148",
+            "fiberNumber": 39,
+            "markerShapeId": "15636",
+            "residual": 28.13668243489305,
+            "radius": 0.047244094488188976
+          }
+        },
+        "cable": null,
+        "fiberNumber": null,
+        "physicalFiberColor": null,
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [],
+        "disposition": "rejected_non_fiber_graphic",
+        "usageState": null,
+        "organization": null,
+        "purpose": null,
+        "reason": "No numbered Fiber marker aligns with either transformed endpoint within the measured marker tolerance.",
+        "companyLabelShapeIds": [],
+        "companyOccurrenceIds": [],
+        "otdrAnnotationShapeIds": [],
+        "otdrAnnotations": [],
+        "evidenceBasis": [
+          "effective_style",
+          "transformed_geometry"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "1",
+        "sourceConnects": []
+      },
+      {
+        "shapeId": "33340",
+        "rootShapeId": "33340",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "BeginX": "44.26476306427184",
+          "BeginY": "509.6342368566248",
+          "EndX": "45.43663806427184",
+          "EndY": "509.6342368566248"
+        },
+        "effectiveLineColor": {
+          "formula": null,
+          "resolution": "resolved",
+          "rgb": "#000000",
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 44.26476306427184,
+          "y": 509.6342368566248
+        },
+        "endWorld": {
+          "x": 45.43663806427184,
+          "y": 509.6342368566248
+        },
+        "length": 1.171875,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C158",
+            "fiberNumber": 84,
+            "markerShapeId": "25904",
+            "residual": 2.6395158005549586,
+            "radius": 0.047244094488188976
+          },
+          "end": {
+            "cable": "C158",
+            "fiberNumber": 96,
+            "markerShapeId": "25926",
+            "residual": 2.6410031702395846,
+            "radius": 0.047244094488188976
+          }
+        },
+        "cable": null,
+        "fiberNumber": null,
+        "physicalFiberColor": null,
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [],
+        "disposition": "rejected_non_fiber_graphic",
+        "usageState": null,
+        "organization": null,
+        "purpose": null,
+        "reason": "No numbered Fiber marker aligns with either transformed endpoint within the measured marker tolerance.",
+        "companyLabelShapeIds": [],
+        "companyOccurrenceIds": [],
+        "otdrAnnotationShapeIds": [],
+        "otdrAnnotations": [],
+        "evidenceBasis": [
+          "effective_style",
+          "transformed_geometry"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "1",
+        "sourceConnects": []
+      },
+      {
+        "shapeId": "33349",
+        "rootShapeId": "33349",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "BeginX": "39.91320056427184",
+          "BeginY": "475.9922097428903",
+          "EndX": "41.08507556427184",
+          "EndY": "475.9922097428903"
+        },
+        "effectiveLineColor": {
+          "formula": null,
+          "resolution": "resolved",
+          "rgb": "#000000",
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 39.91320056427184,
+          "y": 475.9922097428903
+        },
+        "endWorld": {
+          "x": 41.08507556427184,
+          "y": 475.9922097428903
+        },
+        "length": 1.171875,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C166",
+            "fiberNumber": 36,
+            "markerShapeId": "30828",
+            "residual": 4.011126951632808,
+            "radius": 0.04724409448818898
+          },
+          "end": {
+            "cable": "C166",
+            "fiberNumber": 48,
+            "markerShapeId": "30850",
+            "residual": 4.0119602674167325,
+            "radius": 0.04724409448818898
+          }
+        },
+        "cable": null,
+        "fiberNumber": null,
+        "physicalFiberColor": null,
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [],
+        "disposition": "rejected_non_fiber_graphic",
+        "usageState": null,
+        "organization": null,
+        "purpose": null,
+        "reason": "No numbered Fiber marker aligns with either transformed endpoint within the measured marker tolerance.",
+        "companyLabelShapeIds": [],
+        "companyOccurrenceIds": [],
+        "otdrAnnotationShapeIds": [],
+        "otdrAnnotations": [],
+        "evidenceBasis": [
+          "effective_style",
+          "transformed_geometry"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "1",
+        "sourceConnects": []
+      },
+      {
+        "shapeId": "14985",
+        "rootShapeId": "14985",
+        "parentShapeId": null,
+        "groupAncestry": [],
+        "masterId": null,
+        "masterShapeId": null,
+        "source": {
+          "document": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "pagePart": "visio/pages/page1.xml",
+          "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d"
+        },
+        "rawLineCells": {
+          "BeginX": "47.5876797309385",
+          "BeginY": "581.9062356593935",
+          "EndX": "49.72309639760517",
+          "EndY": "581.9062356593935"
+        },
+        "effectiveLineColor": {
+          "formula": null,
+          "resolution": "resolved",
+          "rgb": "#000000",
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "effectiveLinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "effectiveLineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "beginWorld": {
+          "x": 47.5876797309385,
+          "y": 581.9062356593935
+        },
+        "endWorld": {
+          "x": 49.72309639760517,
+          "y": 581.9062356593935
+        },
+        "length": 2.1354166666666714,
+        "ownerMaster": null,
+        "shapeName": null,
+        "shapeType": "Shape",
+        "associatedFibers": [],
+        "endpointResiduals": {
+          "begin": {
+            "cable": "C148",
+            "fiberNumber": 121,
+            "markerShapeId": "16367",
+            "residual": 6.391473371263475,
+            "radius": 0.047244094488188976
+          },
+          "end": {
+            "cable": "C148",
+            "fiberNumber": 144,
+            "markerShapeId": "16400",
+            "residual": 6.391503820157745,
+            "radius": 0.047244094488188976
+          }
+        },
+        "cable": null,
+        "fiberNumber": null,
+        "physicalFiberColor": null,
+        "decodedTransitionId": null,
+        "decodedTransitionNode": null,
+        "nearbySourceText": [],
+        "disposition": "rejected_non_fiber_graphic",
+        "usageState": null,
+        "organization": null,
+        "purpose": null,
+        "reason": "No numbered Fiber marker aligns with either transformed endpoint within the measured marker tolerance.",
+        "companyLabelShapeIds": [],
+        "companyOccurrenceIds": [],
+        "otdrAnnotationShapeIds": [],
+        "otdrAnnotations": [],
+        "evidenceBasis": [
+          "effective_style",
+          "transformed_geometry"
+        ],
+        "interpretationRule": "tsageri-alpana-tvishi-fiber-usage-line/1",
+        "rawProperties": {},
+        "linePatternCode": "1",
+        "sourceConnects": []
+      }
+    ]
+  }
+}

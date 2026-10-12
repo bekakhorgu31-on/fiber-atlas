@@ -1,0 +1,34 @@
+import {useState,useMemo,useRef,useEffect,memo} from 'react';
+import type {ReactNode} from 'react';
+export type EvidenceShape={id:string;text:string;type:string;style:Record<string,{rgb?:string;value?:string}>;geometry:{global_pin:{x:number;y:number};world_angle?:number;world_bounds:{width:number;height:number};local_to_page:number[];local_bounds:{min_x?:number;min_y?:number;width:number;height:number};world_geometry_sections:Array<{rows:Array<{attributes:{T:string};world_point?:{x:number;y:number}}>}>}};
+export type EvidenceView={anchor:string;mode?:string;bounds:{minX:number;maxX:number;minY:number;maxY:number};truncated:boolean;shapes:EvidenceShape[];diagnosticState?:string;highlights?:Array<{shapeId:string;unresolvedEndpoint:{x:number;y:number};basis:string;reason:string;status:string}>};
+const drawings=new WeakMap<EvidenceView,ReactNode>();
+function drawingFor(view:EvidenceView):ReactNode{
+ const cached=drawings.get(view);if(cached)return cached;
+ const start=performance.now();const drawing=<>
+ {view.shapes.slice().sort((a,b)=>(b.geometry.world_bounds.width*b.geometry.world_bounds.height)-(a.geometry.world_bounds.width*a.geometry.world_bounds.height)).map(s=>{const annotated=view.highlights?.some(h=>h.shapeId===s.id),g=s.geometry,paths=g.world_geometry_sections??[],ellipse=paths.some(p=>p.rows.some(r=>r.attributes.T==='EllipticalArcTo')),fill=s.type==='Group'||s.style.FillPattern?.value==='0'?'none':s.style.FillForegnd?.rgb??'none',stroke=s.style.LineColor?.rgb??'#555',width=Math.max(.002,Number(s.style.LineWeight?.value)||.002),matrix=g.local_to_page,b=g.local_bounds;
+ return <g key={s.id} data-evidence-shape={s.id} data-rejected-stroke={annotated?s.id:undefined}><title>{s.id+' '+s.text}</title>{ellipse&&matrix&&b?<ellipse cx={(b.min_x??0)+b.width/2} cy={(b.min_y??0)+b.height/2} rx={b.width/2} ry={b.height/2} transform={`matrix(${matrix[0]},${-matrix[1]},${matrix[2]},${-matrix[3]},${matrix[4]},${-matrix[5]})`} fill={fill} stroke={stroke} strokeWidth={width}/>:paths.map((p,i)=>{let path='';for(const r of p.rows){if(!r.world_point)continue;const t=r.attributes.T;path+=(t.includes('MoveTo')?'M':'L')+r.world_point.x+' '+(-r.world_point.y)+' ';}return path?<path key={i} d={path} fill={fill} stroke={annotated?'#b45309':stroke} strokeWidth={annotated?Math.max(.012,width):width} strokeDasharray={s.style.LinePattern?.value==='2'?'.03 .02':undefined}/>:null;})}
+ {!!s.text&&s.text.split('\n').filter(Boolean).map((line,i)=><text key={i} x={g.global_pin.x} y={-g.global_pin.y+i*.09} fontSize={Math.max(.055,Math.min(.13,g.world_bounds.height*.6))} textAnchor="middle" dominantBaseline="middle" transform={`rotate(${-(g.world_angle??0)*180/Math.PI} ${g.global_pin.x} ${-g.global_pin.y})`} fill="#162d31">{line}</text>)}
+ {s.id===view.anchor&&<circle cx={g.global_pin.x} cy={-g.global_pin.y} r={Math.max(.06,Math.min(.4,g.world_bounds.width*.6))} fill="none" stroke="#b45309" strokeWidth=".009"/>}</g>;})}{view.highlights?.map(h=><g key={h.shapeId} data-unresolved-endpoint={h.shapeId}><circle cx={h.unresolvedEndpoint.x} cy={-h.unresolvedEndpoint.y} r={.04} fill="#fff4d8" stroke="#b45309" strokeWidth={.012}/><text x={h.unresolvedEndpoint.x+.03} y={-h.unresolvedEndpoint.y-.14} fontSize={.055} fill="#87420a">უცნობი ბოლო</text></g>)}</>;
+ drawings.set(view,drawing);performance.measure('fiber-atlas:source-static',{start,duration:performance.now()-start});return drawing;
+}
+const SourceCrop=memo(function SourceCrop({view}:{view:EvidenceView}){
+ const complete=[view.bounds.minX,-view.bounds.maxY,view.bounds.maxX-view.bounds.minX,view.bounds.maxY-view.bounds.minY];
+ const anchor=view.shapes.find(s=>s.id===view.anchor),pin=anchor?.geometry.global_pin;
+ const ellipse=anchor?.geometry.world_geometry_sections?.some(p=>p.rows.some(r=>r.attributes.T==='EllipticalArcTo'));
+ const width=Math.min(complete[2],Math.max(1.8,(anchor?.geometry.world_bounds.width??1)*1.5)),height=Math.min(complete[3],ellipse?1.6:2.6);
+ const highlight=view.highlights?.[0],end=highlight?.unresolvedEndpoint;
+ const endpointBox=pin&&end?[Math.min(pin.x,end.x)-.2,-Math.max(pin.y,end.y)-.2,Math.max(.8,Math.abs(pin.x-end.x)+.4),Math.max(.7,Math.abs(pin.y-end.y)+.4)]:null;
+ const initial=endpointBox??(view.mode==='port_bank'?complete:pin?[pin.x-width/2,-pin.y-height/2-(ellipse?0:.6),width,height]:complete);
+ const [box,setBox]=useState(initial),drag=useRef<{x:number;y:number;box:number[]}|null>(null),frame=useRef<number|null>(null),pendingBox=useRef<number[]|null>(null);
+ const drawing=useMemo(()=>drawingFor(view),[view]);
+ useEffect(()=>()=>{if(frame.current!==null)cancelAnimationFrame(frame.current);},[]);
+ const finish=()=>{drag.current=null;if(frame.current!==null){cancelAnimationFrame(frame.current);frame.current=null;}if(pendingBox.current){setBox(pendingBox.current);pendingBox.current=null;}};
+ const zoom=(factor:number)=>setBox(b=>[b[0]+b[2]*(1-factor)/2,b[1]+b[3]*(1-factor)/2,b[2]*factor,b[3]*factor]);
+ return <section className="review-source-crop"><div className="review-source-tools"><strong>წყაროს ადგილი · {view.anchor}</strong><button aria-label="წყაროს გადიდება" onClick={()=>zoom(.7)}>+</button><button aria-label="წყაროს შემცირება" onClick={()=>zoom(1.4)}>−</button><button onClick={()=>setBox(initial)}>მორგება</button><button onClick={()=>setBox(complete)}>მთელი ჩატვირთული ადგილი</button></div>
+ <svg role="img" aria-label={'Visio წყაროს გეომეტრია · Shape '+view.anchor} viewBox={box.join(' ')} onPointerDown={e=>{e.currentTarget.setPointerCapture(e.pointerId);drag.current={x:e.clientX,y:e.clientY,box};}} onPointerMove={e=>{const d=drag.current;if(!d)return;const r=e.currentTarget.getBoundingClientRect();pendingBox.current=[d.box[0]-(e.clientX-d.x)*d.box[2]/r.width,d.box[1]-(e.clientY-d.y)*d.box[3]/r.height,d.box[2],d.box[3]];if(frame.current===null)frame.current=requestAnimationFrame(()=>{frame.current=null;if(pendingBox.current){setBox(pendingBox.current);pendingBox.current=null;}});}} onPointerUp={e=>{finish();if(e.currentTarget.hasPointerCapture(e.pointerId))e.currentTarget.releasePointerCapture(e.pointerId);}} onPointerCancel={finish} onLostPointerCapture={finish}>
+ {drawing}</svg>
+ {view.highlights?.length?<p>ნარინჯისფერი ხაზი და წრე მიმოხილვის ნიშნებია. წრეში ჟილის ზუსტი ასოციაცია დასადგენია.</p>:null}{view.diagnosticState==='not_yet_established'&&<p data-missing-diagnostic>ამ შენახულ ინტერპრეტაციას უარყოფის სრული დიაგნოზი არ ახლავს. ნაჩვენები კანდიდატი ამავე წყაროს გეომეტრიიდანაა; სხვა გაშვების დიაგნოზი არ გამოყენებულა.</p>}
+ <p>გადაათრიეთ სანახავად. ფერები და პოზიციები შენახული Visio გეომეტრიიდანაა; ქსელის სქემა არ არის.</p>{view.truncated&&<p role="status">ეს ადგილი 600 ობიექტის საზღვარს აღწევს. ნაწილის მტკიცებულება გარეთ დარჩა; სრული ჩანაწერი იხილეთ წყაროში.</p>}</section>;
+});
+export function ReviewEvidence({views}:{views:EvidenceView[]}){return <div className="review-evidence">{views.map((view,i)=><SourceCrop key={view.anchor+':'+i} view={view}/>)}</div>;}

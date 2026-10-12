@@ -1,0 +1,421 @@
+{
+  "schemaVersion": 1,
+  "sourceSha256": "caae4badc9c8c30be0a5fa3ef26352c3e534a9de7c66e830ef470466bb34a6fa",
+  "source": {
+    "file": "Tsageri-Lentekhi 2025.vsdx",
+    "page": "ცაგერი-ლენტეხი",
+    "pageId": "4",
+    "part": "visio/pages/page1.xml"
+  },
+  "interpretationRule": "tsageri-lentekhi-target-path/1",
+  "colorRule": "tsageri-lentekhi-marker-colors/1",
+  "review": {
+    "reviewer": "iteration-07-source-evidence-review",
+    "reviewedAt": "2026-09-25T00:00:00.000Z",
+    "basis": "shape-level documentation review"
+  },
+  "relationships": [
+    {
+      "connectionId": "sc217-34089",
+      "location": {
+        "kind": "closure",
+        "id": "217"
+      },
+      "a": {
+        "kind": "fiber",
+        "segmentId": "CAB-000171",
+        "fiber": 29
+      },
+      "z": {
+        "kind": "fiber",
+        "segmentId": "CAB-000172",
+        "fiber": 29
+      },
+      "reviewResult": "accepted_connectivity",
+      "operation": "unknown",
+      "sourceShapeIds": [
+        "34089",
+        "34109",
+        "34157",
+        "34171",
+        "34524",
+        "34572",
+        "34586"
+      ],
+      "rawGeometry": {
+        "lineBegin": [
+          85.82812249660498,
+          529.6103924162592
+        ],
+        "lineEnd": [
+          85.82812249660498,
+          525.0341463658285
+        ],
+        "aMarker": [
+          85.8346075515159,
+          529.6275463873085
+        ],
+        "zMarker": [
+          85.8346075515159,
+          525.0376797937412
+        ],
+        "aResidualInches": 0.018339,
+        "zResidualInches": 0.007385
+      },
+      "basis": "A dedicated line terminates on the numbered F29 markers in the C171 and C172 endpoint groups at SC217. The operation mechanism is not encoded.",
+      "warnings": [
+        "Fusion splice, mechanical splice, connector, and uncut continuity remain unresolved."
+      ]
+    },
+    {
+      "connectionId": "sc218-33098",
+      "location": {
+        "kind": "closure",
+        "id": "218"
+      },
+      "a": {
+        "kind": "fiber",
+        "segmentId": "CAB-000172",
+        "fiber": 29
+      },
+      "z": {
+        "kind": "fiber",
+        "segmentId": "CAB-000173",
+        "fiber": 1
+      },
+      "reviewResult": "accepted_connectivity",
+      "operation": "unknown",
+      "sourceShapeIds": [
+        "33098",
+        "34626",
+        "34674",
+        "34688",
+        "34424",
+        "34427",
+        "34438"
+      ],
+      "rawGeometry": {
+        "lineBegin": [
+          85.83275672890294,
+          521.5097398626103
+        ],
+        "lineEnd": [
+          93.95304155483124,
+          514.4316148626103
+        ],
+        "aMarker": [
+          85.8346075515159,
+          521.5220547937412
+        ],
+        "zMarker": [
+          93.95222113702772,
+          514.4224805316968
+        ],
+        "aResidualInches": 0.012453,
+        "zResidualInches": 0.009171
+      },
+      "basis": "The dedicated diagonal line terminates on the numbered C172/F29 and C173/F01 markers. Neighboring pattern matches were not reviewed or promoted.",
+      "warnings": [
+        "Fusion splice, mechanical splice, connector, and uncut continuity remain unresolved."
+      ]
+    },
+    {
+      "connectionId": "ap51-34267",
+      "location": {
+        "kind": "ap",
+        "id": "51"
+      },
+      "a": {
+        "kind": "fiber",
+        "segmentId": "CAB-000173",
+        "fiber": 1
+      },
+      "z": {
+        "kind": "asset",
+        "assetId": "51",
+        "assetKind": "ap"
+      },
+      "reviewResult": "accepted_to_asset_port_candidate",
+      "operation": "unknown",
+      "candidatePort": 1,
+      "sourceShapeIds": [
+        "34371",
+        "34424",
+        "34427",
+        "34438",
+        "34279",
+        "34372",
+        "34375",
+        "34386",
+        "34267",
+        "34315",
+        "34263"
+      ],
+      "rawGeometry": {
+        "fiberToPanelBegin": [
+          93.95669898786167,
+          514.4200930986138
+        ],
+        "fiberToPanelEnd": [
+          93.95669898786167,
+          513.7344552698341
+        ],
+        "panelToPortBegin": [
+          93.95746277438275,
+          513.6659871944097
+        ],
+        "panelToPortEnd": [
+          93.95746277438275,
+          512.5153850415743
+        ],
+        "fiberMarker": [
+          93.95222113702772,
+          514.4224805316968
+        ],
+        "panelMarker": [
+          93.94976050710645,
+          513.7136922950958
+        ]
+      },
+      "basis": "C173/F01 has a continuous source line chain into the ODF-style object labelled 51. The aligned label 1 is retained as a port candidate because AP/ODF containment is unresolved.",
+      "warnings": [
+        "Destination AP51 is accepted; Port 1 and AP-versus-ODF containment remain unresolved.",
+        "Physical connector or termination mechanism is unknown."
+      ]
+    }
+  ],
+  "c173FirstTube": {
+    "segmentId": "CAB-000173",
+    "reviewResult": "accepted_physical_structure",
+    "records": [
+      {
+        "fiberNumber": 1,
+        "tubeNumber": 1,
+        "positionInTube": 1,
+        "fiberColorKey": "blue",
+        "tubeColorKey": "blue",
+        "rawInnerColor": "4",
+        "rawOuterColor": "4",
+        "sc218": {
+          "groupShapeId": "34424",
+          "markerShapeId": "34427",
+          "labelShapeId": "34438"
+        },
+        "ap51": {
+          "groupShapeId": "34372",
+          "markerShapeId": "34375",
+          "labelShapeId": "34386"
+        }
+      },
+      {
+        "fiberNumber": 2,
+        "tubeNumber": 1,
+        "positionInTube": 2,
+        "fiberColorKey": "orange",
+        "tubeColorKey": "blue",
+        "rawInnerColor": "#f48c37",
+        "rawOuterColor": "4",
+        "sc218": {
+          "groupShapeId": "34424",
+          "markerShapeId": "34428",
+          "labelShapeId": "34439"
+        },
+        "ap51": {
+          "groupShapeId": "34372",
+          "markerShapeId": "34376",
+          "labelShapeId": "34387"
+        }
+      },
+      {
+        "fiberNumber": 3,
+        "tubeNumber": 1,
+        "positionInTube": 3,
+        "fiberColorKey": "green",
+        "tubeColorKey": "blue",
+        "rawInnerColor": "9",
+        "rawOuterColor": "4",
+        "sc218": {
+          "groupShapeId": "34424",
+          "markerShapeId": "34429",
+          "labelShapeId": "34440"
+        },
+        "ap51": {
+          "groupShapeId": "34372",
+          "markerShapeId": "34377",
+          "labelShapeId": "34388"
+        }
+      },
+      {
+        "fiberNumber": 4,
+        "tubeNumber": 1,
+        "positionInTube": 4,
+        "fiberColorKey": "brown",
+        "tubeColorKey": "blue",
+        "rawInnerColor": "#9c4a09",
+        "rawOuterColor": "4",
+        "sc218": {
+          "groupShapeId": "34424",
+          "markerShapeId": "34430",
+          "labelShapeId": "34441"
+        },
+        "ap51": {
+          "groupShapeId": "34372",
+          "markerShapeId": "34378",
+          "labelShapeId": "34389"
+        }
+      },
+      {
+        "fiberNumber": 5,
+        "tubeNumber": 1,
+        "positionInTube": 5,
+        "fiberColorKey": "slate",
+        "tubeColorKey": "blue",
+        "rawInnerColor": "19",
+        "rawOuterColor": "4",
+        "sc218": {
+          "groupShapeId": "34424",
+          "markerShapeId": "34426",
+          "labelShapeId": "34442"
+        },
+        "ap51": {
+          "groupShapeId": "34372",
+          "markerShapeId": "34374",
+          "labelShapeId": "34390"
+        }
+      },
+      {
+        "fiberNumber": 6,
+        "tubeNumber": 1,
+        "positionInTube": 6,
+        "fiberColorKey": "white",
+        "tubeColorKey": "blue",
+        "rawInnerColor": "1",
+        "rawOuterColor": "4",
+        "sc218": {
+          "groupShapeId": "34424",
+          "markerShapeId": "34431",
+          "labelShapeId": "34443"
+        },
+        "ap51": {
+          "groupShapeId": "34372",
+          "markerShapeId": "34379",
+          "labelShapeId": "34391"
+        }
+      },
+      {
+        "fiberNumber": 7,
+        "tubeNumber": 1,
+        "positionInTube": 7,
+        "fiberColorKey": "red",
+        "tubeColorKey": "blue",
+        "rawInnerColor": "#ff0000",
+        "rawOuterColor": "4",
+        "sc218": {
+          "groupShapeId": "34424",
+          "markerShapeId": "34432",
+          "labelShapeId": "34444"
+        },
+        "ap51": {
+          "groupShapeId": "34372",
+          "markerShapeId": "34380",
+          "labelShapeId": "34392"
+        }
+      },
+      {
+        "fiberNumber": 8,
+        "tubeNumber": 1,
+        "positionInTube": 8,
+        "fiberColorKey": "black",
+        "tubeColorKey": "blue",
+        "rawInnerColor": "#000000",
+        "rawOuterColor": "4",
+        "sc218": {
+          "groupShapeId": "34424",
+          "markerShapeId": "34433",
+          "labelShapeId": "34445"
+        },
+        "ap51": {
+          "groupShapeId": "34372",
+          "markerShapeId": "34381",
+          "labelShapeId": "34393"
+        }
+      },
+      {
+        "fiberNumber": 9,
+        "tubeNumber": 1,
+        "positionInTube": 9,
+        "fiberColorKey": "yellow",
+        "tubeColorKey": "blue",
+        "rawInnerColor": "#ffff00",
+        "rawOuterColor": "4",
+        "sc218": {
+          "groupShapeId": "34424",
+          "markerShapeId": "34434",
+          "labelShapeId": "34446"
+        },
+        "ap51": {
+          "groupShapeId": "34372",
+          "markerShapeId": "34382",
+          "labelShapeId": "34394"
+        }
+      },
+      {
+        "fiberNumber": 10,
+        "tubeNumber": 1,
+        "positionInTube": 10,
+        "fiberColorKey": "violet",
+        "tubeColorKey": "blue",
+        "rawInnerColor": "#cc99ff",
+        "rawOuterColor": "4",
+        "sc218": {
+          "groupShapeId": "34424",
+          "markerShapeId": "34436",
+          "labelShapeId": "34447"
+        },
+        "ap51": {
+          "groupShapeId": "34372",
+          "markerShapeId": "34384",
+          "labelShapeId": "34395"
+        }
+      },
+      {
+        "fiberNumber": 11,
+        "tubeNumber": 1,
+        "positionInTube": 11,
+        "fiberColorKey": "rose",
+        "tubeColorKey": "blue",
+        "rawInnerColor": "#ff00ff",
+        "rawOuterColor": "4",
+        "sc218": {
+          "groupShapeId": "34424",
+          "markerShapeId": "34435",
+          "labelShapeId": "34448"
+        },
+        "ap51": {
+          "groupShapeId": "34372",
+          "markerShapeId": "34383",
+          "labelShapeId": "34396"
+        }
+      },
+      {
+        "fiberNumber": 12,
+        "tubeNumber": 1,
+        "positionInTube": 12,
+        "fiberColorKey": "aqua",
+        "tubeColorKey": "blue",
+        "rawInnerColor": "#00ffff",
+        "rawOuterColor": "4",
+        "sc218": {
+          "groupShapeId": "34424",
+          "markerShapeId": "34437",
+          "labelShapeId": "34449"
+        },
+        "ap51": {
+          "groupShapeId": "34372",
+          "markerShapeId": "34385",
+          "labelShapeId": "34397"
+        }
+      }
+    ]
+  }
+}

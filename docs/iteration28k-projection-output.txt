@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-10-05T07:29:40.361Z",
+  "hashes": {
+    "fiberPathProjection": "b6ab9799be24666d1d5ab4a74f111cfcb0eacc5be19919c239acbf5e1b2a1bfe",
+    "currentFiberLineages": "ce7e357170056ff7fe4845aaea6ca47d8a5b9236dcb0601a2ec9373c017205d9",
+    "fiberJourneySummaries": "598c181c82c520adbe77e8519028d99acd08a359e0533f2ba1ee5f0ddf7a31dd",
+    "fiberUsageProjection": "a36502235359101896c74a242a203ef311329c7e1e94fba9ce679fd4a5b768ef",
+    "nodeFiberTransitions": "5003371693a366cf99455d65d5ca74619603e612122a2528efe6cab40c8303f3",
+    "portTopologyBindings": "8859a5dd1696d0222a7dbc2f7048d169b153339b0934bbdbb97bf4944d61f6fc"
+  },
+  "counts": {
+    "cables": 37,
+    "fibers": 2088,
+    "activeTransitions": 1629,
+    "lentekhiBindings": 48,
+    "tsageriPorts": 192,
+    "c148Bindings": 0
+  },
+  "frozenManifest": "59ce208663b1dcb7f0fe5849faa9f9f1b62182bfc01cc7c5f4947cf366340125",
+  "status": "passed"
+}

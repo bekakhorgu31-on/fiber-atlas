@@ -1,0 +1,399 @@
+{
+  "referenceDataset": {
+    "id": "TSAGERI-LENTEKHI-REFERENCE-V1",
+    "status": "READY",
+    "sourceFile": "Tsageri-Lentekhi 2025.vsdx",
+    "sourceSha256": "caae4badc9c8c30be0a5fa3ef26352c3e534a9de7c66e830ef470466bb34a6fa",
+    "importerVersion": "iteration24-certified-v2",
+    "geometryResolverVersion": "world-geometry-effective-style-v2",
+    "interpreterVersion": "iteration26-reference-v1",
+    "generatedAt": "2026-09-29T00:00:00+04:00",
+    "ownerConfirmationRevision": "owner-confirmation-2026-09-29-sc225-termination",
+    "pendingManualReview": 0,
+    "fieldVerified": false,
+    "manifestPath": "reference/tsageri-lentekhi-v1.manifest.json",
+    "semanticCounts": {
+      "source_interpreted": 836,
+      "owner_confirmed": 18,
+      "intentional_termination": 16,
+      "source_conflict": 1,
+      "not_present_in_source": 5,
+      "external_document_boundary": 1,
+      "genuinely_ambiguous": 0
+    }
+  },
+  "counts": {
+    "cables": 20,
+    "fibers": 1176,
+    "tubes": 98,
+    "closures": 12,
+    "accessPoints": 6,
+    "aggregations": 2,
+    "portTopologyBindings": 192,
+    "nodeFiberTransitions": 854,
+    "activeFiberLineages": 278,
+    "supersededFiberLineages": 42,
+    "journeySummaries": 1176,
+    "companyAssignments": 13
+  },
+  "cables": [
+    {
+      "id": "CAB-000148",
+      "legacyCableId": "148",
+      "legacyLabels": [
+        "148-5-205-192"
+      ],
+      "fiberCount": 192,
+      "endpointA": {
+        "kind": "aggregation",
+        "id": "5"
+      },
+      "endpointB": {
+        "kind": "closure",
+        "id": "205"
+      }
+    },
+    {
+      "id": "CAB-000149",
+      "legacyCableId": "149",
+      "legacyLabels": [
+        "149-205-41-24"
+      ],
+      "fiberCount": 24,
+      "endpointA": {
+        "kind": "closure",
+        "id": "205"
+      },
+      "endpointB": {
+        "kind": "ap",
+        "id": "41"
+      }
+    },
+    {
+      "id": "CAB-000150",
+      "legacyCableId": "150",
+      "legacyLabels": [
+        "150-205-206-192"
+      ],
+      "fiberCount": 192,
+      "endpointA": {
+        "kind": "closure",
+        "id": "205"
+      },
+      "endpointB": {
+        "kind": "closure",
+        "id": "206"
+      }
+    },
+    {
+      "id": "CAB-000151",
+      "legacyCableId": "151",
+      "legacyLabels": [
+        "151-206-207-144"
+      ],
+      "fiberCount": 144,
+      "endpointA": {
+        "kind": "closure",
+        "id": "206"
+      },
+      "endpointB": {
+        "kind": "boundary",
+        "id": "BOUNDARY-SC207"
+      }
+    },
+    {
+      "id": "CAB-000169",
+      "legacyCableId": "169",
+      "legacyLabels": [
+        "169-206-216-48"
+      ],
+      "fiberCount": 48,
+      "endpointA": {
+        "kind": "closure",
+        "id": "206"
+      },
+      "endpointB": {
+        "kind": "closure",
+        "id": "216"
+      }
+    },
+    {
+      "id": "CAB-000170",
+      "legacyCableId": "170",
+      "legacyLabels": [
+        "170-216-50-24"
+      ],
+      "fiberCount": 24,
+      "endpointA": {
+        "kind": "closure",
+        "id": "216"
+      },
+      "endpointB": {
+        "kind": "ap",
+        "id": "50"
+      }
+    },
+    {
+      "id": "CAB-000171",
+      "legacyCableId": "171",
+      "legacyLabels": [
+        "171-216-217-48"
+      ],
+      "fiberCount": 48,
+      "endpointA": {
+        "kind": "closure",
+        "id": "216"
+      },
+      "endpointB": {
+        "kind": "closure",
+        "id": "217"
+      }
+    },
+    {
+      "id": "CAB-000172",
+      "legacyCableId": "172",
+      "legacyLabels": [
+        "172-217-218-48"
+      ],
+      "fiberCount": 48,
+      "endpointA": {
+        "kind": "closure",
+        "id": "217"
+      },
+      "endpointB": {
+        "kind": "closure",
+        "id": "218"
+      }
+    },
+    {
+      "id": "CAB-000173",
+      "legacyCableId": "173",
+      "legacyLabels": [
+        "173-218-51-24"
+      ],
+      "fiberCount": 24,
+      "endpointA": {
+        "kind": "closure",
+        "id": "218"
+      },
+      "endpointB": {
+        "kind": "ap",
+        "id": "51"
+      }
+    },
+    {
+      "id": "CAB-000174",
+      "legacyCableId": "174",
+      "legacyLabels": [
+        "174-218-219-48"
+      ],
+      "fiberCount": 48,
+      "endpointA": {
+        "kind": "closure",
+        "id": "218"
+      },
+      "endpointB": {
+        "kind": "closure",
+        "id": "219"
+      }
+    },
+    {
+      "id": "CAB-000175",
+      "legacyCableId": "175",
+      "legacyLabels": [
+        "175-219-52-24"
+      ],
+      "fiberCount": 24,
+      "endpointA": {
+        "kind": "closure",
+        "id": "219"
+      },
+      "endpointB": {
+        "kind": "ap",
+        "id": "52"
+      }
+    },
+    {
+      "id": "CAB-000176",
+      "legacyCableId": "176",
+      "legacyLabels": [
+        "176-219-220-48"
+      ],
+      "fiberCount": 48,
+      "endpointA": {
+        "kind": "closure",
+        "id": "219"
+      },
+      "endpointB": {
+        "kind": "closure",
+        "id": "220"
+      }
+    },
+    {
+      "id": "CAB-000177",
+      "legacyCableId": "177",
+      "legacyLabels": [
+        "177-220-221-48"
+      ],
+      "fiberCount": 48,
+      "endpointA": {
+        "kind": "closure",
+        "id": "220"
+      },
+      "endpointB": {
+        "kind": "closure",
+        "id": "221"
+      }
+    },
+    {
+      "id": "CAB-000178",
+      "legacyCableId": "178",
+      "legacyLabels": [
+        "178-221-222-48"
+      ],
+      "fiberCount": 48,
+      "endpointA": {
+        "kind": "closure",
+        "id": "221"
+      },
+      "endpointB": {
+        "kind": "closure",
+        "id": "222"
+      }
+    },
+    {
+      "id": "CAB-000179",
+      "legacyCableId": "179",
+      "legacyLabels": [
+        "179-222-223-48"
+      ],
+      "fiberCount": 48,
+      "endpointA": {
+        "kind": "closure",
+        "id": "222"
+      },
+      "endpointB": {
+        "kind": "closure",
+        "id": "223"
+      }
+    },
+    {
+      "id": "CAB-000180",
+      "legacyCableId": "180",
+      "legacyLabels": [
+        "180-223-224-48"
+      ],
+      "fiberCount": 48,
+      "endpointA": {
+        "kind": "closure",
+        "id": "223"
+      },
+      "endpointB": {
+        "kind": "closure",
+        "id": "224"
+      }
+    },
+    {
+      "id": "CAB-000181",
+      "legacyCableId": "181",
+      "legacyLabels": [
+        "181-224-225-24"
+      ],
+      "fiberCount": 24,
+      "endpointA": {
+        "kind": "closure",
+        "id": "224"
+      },
+      "endpointB": {
+        "kind": "closure",
+        "id": "225"
+      }
+    },
+    {
+      "id": "CAB-000182",
+      "legacyCableId": "182",
+      "legacyLabels": [
+        "182-225-53-24"
+      ],
+      "fiberCount": 24,
+      "endpointA": {
+        "kind": "closure",
+        "id": "225"
+      },
+      "endpointB": {
+        "kind": "ap",
+        "id": "53"
+      }
+    },
+    {
+      "id": "CAB-000183",
+      "legacyCableId": "183",
+      "legacyLabels": [
+        "183-225-54-24"
+      ],
+      "fiberCount": 24,
+      "endpointA": {
+        "kind": "closure",
+        "id": "225"
+      },
+      "endpointB": {
+        "kind": "ap",
+        "id": "54"
+      }
+    },
+    {
+      "id": "CAB-000184",
+      "legacyCableId": "184",
+      "legacyLabels": [
+        "184-6-224-48"
+      ],
+      "fiberCount": 48,
+      "endpointA": {
+        "kind": "aggregation",
+        "id": "AGG-LENTEKHI"
+      },
+      "endpointB": {
+        "kind": "closure",
+        "id": "224"
+      }
+    }
+  ],
+  "boundaries": [
+    {
+      "id": "BOUNDARY-SC207",
+      "directionLabel": "Continuation beyond SC206 toward closure 207 / Ambrolauri side",
+      "sourceFile": "Tsageri-Lentekhi 2025.vsdx",
+      "sourcePage": "ცაგერი-ლენტეხი",
+      "likelyContinuationName": "SC207",
+      "linkedRouteId": null,
+      "status": "document_known_not_imported",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "pageId": "4",
+        "part": "visio/pages/page1.xml",
+        "shapeIds": [
+          "15772"
+        ],
+        "rawValue": "151-206-207-144",
+        "interpretationRule": "tsageri-lentekhi-full-page/1"
+      },
+      "notes": [
+        "SC207 is label-referenced but has no closure property record on this page.",
+        "Current document ends here for this direction. The regional continuation can be linked when its source document is imported.",
+        "External-document boundary is accepted; the next document and matching asset remain nullable until the Ambrolauri source is imported.",
+        "Canonical matching must use source provenance, endpoint context and geometry; displayed name/number alone is insufficient."
+      ],
+      "currentSourceDocumentId": "DOC-TSAGERI-LENTEKHI-2025",
+      "externalDirectionKey": "alpana-tvishi-ambrolauri",
+      "nextSourceDocumentId": null,
+      "boundaryAssetId": null,
+      "evidenceIds": [],
+      "reviewState": "reviewed_no_change",
+      "originatingNode": {
+        "kind": "closure",
+        "id": "206"
+      }
+    }
+  ]
+}

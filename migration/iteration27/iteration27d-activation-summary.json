@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "status": "CERTIFIED_FOR_NETWORK_ACTIVATION",
+  "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d",
+  "frozenV1ManifestSha256BeforeAndAfter": "59ce208663b1dcb7f0fe5849faa9f9f1b62182bfc01cc7c5f4947cf366340125",
+  "candidateTransitions": 1151,
+  "exactTransitionsActivated": 775,
+  "duplicateOverlapEvidenceAttached": 376,
+  "unexplained": 0,
+  "cableLabels": 22,
+  "fiberPositions": 1512,
+  "sourceOnlyCables": 17,
+  "newPhysicalFibers": 912,
+  "sharedCanonicalCables": 5,
+  "sharedFibersNotDuplicated": 600,
+  "neutralNetworkNodes": 19,
+  "crossDocumentTransitionsAtNode207": 143,
+  "C151F118": "partial_no_inferred_continuation",
+  "C169CanonicalFibers": 48,
+  "C148TubeConflictPositions": 72,
+  "companyOccurrences": 24,
+  "companyAssignments": 0,
+  "sourceBPortBindings": 0,
+  "meaningfulTextOccurrences": 106,
+  "cutModuleNotes": {
+    "count": 3,
+    "classification": "source_instruction",
+    "executionStatus": "unknown"
+  },
+  "inventoryValidation": "PASS",
+  "ownerConfirmationsRequiredForTopology": 0
+}

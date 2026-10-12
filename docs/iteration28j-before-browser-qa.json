@@ -1,0 +1,284 @@
+{
+  "stage": "before",
+  "timestamp": "2026-10-03T19:04:53.390Z",
+  "sha256": "117fd2e39bba4daf111d09033ce1a3044cbf83116f30f796b5046cb0db1b309c",
+  "coldLoads": [
+    {
+      "ms": 2282.3394,
+      "longTasks": [
+        63,
+        85,
+        1797,
+        51
+      ]
+    },
+    {
+      "ms": 2056.0039999999995,
+      "longTasks": [
+        61,
+        83,
+        1699
+      ]
+    },
+    {
+      "ms": 2037.8859000000002,
+      "longTasks": [
+        50,
+        80,
+        1697
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "name": "baseline wheel reachability",
+      "width": 1440,
+      "height": 900,
+      "before": {
+        "rail": {
+          "top": 0,
+          "client": 831,
+          "height": 831
+        },
+        "canvasTop": 0,
+        "last": {
+          "x": 1336,
+          "y": 880.3125,
+          "width": 67,
+          "height": 68,
+          "top": 880.3125,
+          "right": 1403,
+          "bottom": 948.3125,
+          "left": 1336
+        },
+        "viewport": 900
+      },
+      "after": {
+        "rail": {
+          "top": 0,
+          "client": 831,
+          "height": 831
+        },
+        "canvasTop": 0,
+        "last": {
+          "x": 1336,
+          "y": 880.3125,
+          "width": 67,
+          "height": 68,
+          "top": 880.3125,
+          "right": 1403,
+          "bottom": 948.3125,
+          "left": 1336
+        },
+        "viewport": 900
+      }
+    },
+    {
+      "name": "baseline Port1",
+      "width": 1440,
+      "text": "ჟილის ცნობილი გზა\nPort 1 · C153/F01\n\nF01 · ლურჯი · ტუბი 1 · გამოყენების ჩანაწერი გადასამოწმებელია\n\nპორტის ფიზიკური სტატუსი: დაუდგენელია\n\nAGG5\nგაგრძელება წყაროში არ არის დადგენილი\nC148/F103\nSC205\nC150/F103\nSC206\nC151/F103\nSC207\nC152/F103\nSC208\nC152/F103 → C153/F01\nC153/F01\nAP42 / Port 1\nპორტთან აღწევს\nნაბიჯობრივი დათვალიერება\nწინა\nდაწყება\nშემდეგი\n1 / 6 · AGG5\nAGG5\n\nგაგრძელება წყაროში არ არის დადგენილი\n\nკვანძის დეტალები\nგზის წყარო და სრული ჩანაწერი",
+      "url": "file:///C:/Users/Beka/Desktop/Visio%20Alt/fiber-prototype.html#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=port%3Aap%3A42%3A1",
+      "detailsOpen": null
+    },
+    {
+      "name": "baseline wheel reachability",
+      "width": 1366,
+      "height": 768,
+      "before": {
+        "rail": {
+          "top": 0,
+          "client": 831,
+          "height": 831
+        },
+        "canvasTop": 0,
+        "last": {
+          "x": 1262,
+          "y": 880.3125,
+          "width": 67,
+          "height": 68,
+          "top": 880.3125,
+          "right": 1329,
+          "bottom": 948.3125,
+          "left": 1262
+        },
+        "viewport": 768
+      },
+      "after": {
+        "rail": {
+          "top": 0,
+          "client": 831,
+          "height": 831
+        },
+        "canvasTop": 0,
+        "last": {
+          "x": 1262,
+          "y": 880.3125,
+          "width": 67,
+          "height": 68,
+          "top": 880.3125,
+          "right": 1329,
+          "bottom": 948.3125,
+          "left": 1262
+        },
+        "viewport": 768
+      }
+    },
+    {
+      "name": "baseline Port1",
+      "width": 1366,
+      "text": "ჟილის ცნობილი გზა\nPort 1 · C153/F01\n\nF01 · ლურჯი · ტუბი 1 · გამოყენების ჩანაწერი გადასამოწმებელია\n\nპორტის ფიზიკური სტატუსი: დაუდგენელია\n\nAGG5\nგაგრძელება წყაროში არ არის დადგენილი\nC148/F103\nSC205\nC150/F103\nSC206\nC151/F103\nSC207\nC152/F103\nSC208\nC152/F103 → C153/F01\nC153/F01\nAP42 / Port 1\nპორტთან აღწევს\nნაბიჯობრივი დათვალიერება\nწინა\nდაწყება\nშემდეგი\n1 / 6 · AGG5\nAGG5\n\nგაგრძელება წყაროში არ არის დადგენილი\n\nკვანძის დეტალები\nგზის წყარო და სრული ჩანაწერი",
+      "url": "file:///C:/Users/Beka/Desktop/Visio%20Alt/fiber-prototype.html#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=port%3Aap%3A42%3A1",
+      "detailsOpen": null
+    },
+    {
+      "name": "baseline wheel reachability",
+      "width": 390,
+      "height": 844,
+      "before": {
+        "rail": {
+          "top": 0,
+          "client": 806,
+          "height": 806
+        },
+        "canvasTop": 0,
+        "last": {
+          "x": 283.5,
+          "y": 1078.703125,
+          "width": 79.5,
+          "height": 68,
+          "top": 1078.703125,
+          "right": 363,
+          "bottom": 1146.703125,
+          "left": 283.5
+        },
+        "viewport": 844
+      },
+      "after": {
+        "rail": {
+          "top": 0,
+          "client": 806,
+          "height": 806
+        },
+        "canvasTop": 0,
+        "last": {
+          "x": 283.5,
+          "y": 676.703125,
+          "width": 79.5,
+          "height": 68,
+          "top": 676.703125,
+          "right": 363,
+          "bottom": 744.703125,
+          "left": 283.5
+        },
+        "viewport": 844
+      }
+    },
+    {
+      "name": "baseline Port1",
+      "width": 390,
+      "text": "ჟილის ცნობილი გზა\nPort 1 · C153/F01\n\nF01 · ლურჯი · ტუბი 1 · გამოყენების ჩანაწერი გადასამოწმებელია\n\nპორტის ფიზიკური სტატუსი: დაუდგენელია\n\nAGG5\nგაგრძელება წყაროში არ არის დადგენილი\nC148/F103\nSC205\nC150/F103\nSC206\nC151/F103\nSC207\nC152/F103\nSC208\nC152/F103 → C153/F01\nC153/F01\nAP42 / Port 1\nპორტთან აღწევს\nნაბიჯობრივი დათვალიერება\nწინა\nდაწყება\nშემდეგი\n1 / 6 · AGG5\nAGG5\n\nგაგრძელება წყაროში არ არის დადგენილი\n\nკვანძის დეტალები\nგზის წყარო და სრული ჩანაწერი",
+      "url": "file:///C:/Users/Beka/Desktop/Visio%20Alt/fiber-prototype.html#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=port%3Aap%3A42%3A1",
+      "detailsOpen": null
+    },
+    {
+      "name": "baseline wheel reachability",
+      "width": 320,
+      "height": 844,
+      "before": {
+        "rail": {
+          "top": 0,
+          "client": 806,
+          "height": 806
+        },
+        "canvasTop": 0,
+        "last": {
+          "x": 231,
+          "y": 1078.703125,
+          "width": 62,
+          "height": 68,
+          "top": 1078.703125,
+          "right": 293,
+          "bottom": 1146.703125,
+          "left": 231
+        },
+        "viewport": 844
+      },
+      "after": {
+        "rail": {
+          "top": 0,
+          "client": 806,
+          "height": 806
+        },
+        "canvasTop": 0,
+        "last": {
+          "x": 231,
+          "y": 676.703125,
+          "width": 62,
+          "height": 68,
+          "top": 676.703125,
+          "right": 293,
+          "bottom": 744.703125,
+          "left": 231
+        },
+        "viewport": 844
+      }
+    },
+    {
+      "name": "baseline Port1",
+      "width": 320,
+      "text": "ჟილის ცნობილი გზა\nPort 1 · C153/F01\n\nF01 · ლურჯი · ტუბი 1 · გამოყენების ჩანაწერი გადასამოწმებელია\n\nპორტის ფიზიკური სტატუსი: დაუდგენელია\n\nAGG5\nგაგრძელება წყაროში არ არის დადგენილი\nC148/F103\nSC205\nC150/F103\nSC206\nC151/F103\nSC207\nC152/F103\nSC208\nC152/F103 → C153/F01\nC153/F01\nAP42 / Port 1\nპორტთან აღწევს\nნაბიჯობრივი დათვალიერება\nწინა\nდაწყება\nშემდეგი\n1 / 6 · AGG5\nAGG5\n\nგაგრძელება წყაროში არ არის დადგენილი\n\nკვანძის დეტალები\nგზის წყარო და სრული ჩანაწერი",
+      "url": "file:///C:/Users/Beka/Desktop/Visio%20Alt/fiber-prototype.html#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=port%3Aap%3A42%3A1",
+      "detailsOpen": null
+    }
+  ],
+  "errors": [],
+  "requests": [],
+  "authoritativeHashes": {
+    "src/data/c172-physical-evidence.json": "e0d8e3f33ed3e632994b0754d918397c975f3bef23c0996c9d39e8f4e783f1cc",
+    "src/data/fiber-lineage-evidence.json": "9d1da4adf3b04e2fb7f2c73015b927f2bab6b9795c40570d0db21b1ceed97c8a",
+    "src/data/full-page-migration.json": "5f3b8026ed3daf97bda5d346cb151dd2b850a728628c9cc19c858f36582c56de",
+    "src/data/iteration19-physical-evidence.json": "1a2cd845f5efa9078da7002326c9a51d16135af30301818e32191af58b9879fd",
+    "src/data/iteration21-routing-evidence.json": "66b09cfb1872bc8ccb59cbca0f8847bb51eb1391db0d92a6a240354af9398d69",
+    "src/data/iteration23-connection-reconciliation.json": "d9658ef780bc2a7e73851da06c5f704a86590ada1f560fc588348ec45df1345a",
+    "src/data/iteration23-fresh-summary.json": "6675bc83eefe1fc8121f79e514ec196a113a737c058d224454d815ecf3900bc5",
+    "src/data/iteration23-fresh-transitions.json": "b6d49878d8c226187984d379e47a43e35fcc13d1449cb746b4588abc4314ce08",
+    "src/data/iteration23-owner-confirmations.json": "eabb9a460c64c4526429aedf85541cbd416abde998c731fc25367de408238c1e",
+    "src/data/iteration23-physical-construction.json": "741199098ee4131c3b8024657d7caf80e736256f7e32661b693fd3ece868b666",
+    "src/data/iteration23-port-bindings.json": "e0d4fa38762ef03ace7c465c21396b1f0b9509c0248c3bbffb51f338e7c24bdc",
+    "src/data/iteration23-port-occupancy.json": "83ac8324a33c07a57f8a43a9ca0224321accac0cf004cea3a3f26acd1fbeaf5a",
+    "src/data/iteration23-transition-diff.json": "acbe58117902f37c70f80235007a4e2106f44848bba22db6c663afa7ae093729",
+    "src/data/iteration24-certification.json": "0f1dda8dee9edf4d98345f2bfe03e19927ea231ca8bc410f110c289483b883d5",
+    "src/data/iteration24-connection-reconciliation.json": "82ff4ca511d7bed4cfccfcabcdda644897907e0a4c7408f5e5806b0aac9c0919",
+    "src/data/iteration24-fresh-summary.json": "f3632d91059250e2cda36428e3d95dbcc9144c1fd078da5b4cd0f1f2958c4754",
+    "src/data/iteration24-fresh-transitions.json": "b7d4ef09a5c0fd67f0cf2d20cdbd570ef99bc3d38c884a535ecfef305836dd9e",
+    "src/data/iteration24-physical-construction.json": "1066ec1cf516fa6635ca57b9f23ae429cc7eac2e407827021ace442a8dce4cb2",
+    "src/data/iteration24-port-bindings.json": "3c3955f1fabfb2257e729de6b87b9b487086697e021127a3ec3c04d8812c0aab",
+    "src/data/iteration24-port-occupancy.json": "ce72f374e4ff10ea503555164dba6da808e7417416274a775c7beb5c2d568601",
+    "src/data/iteration24-shape-diagnostics.json": "21f41457b28a84776be313080f70c5d6f744fe2202e5567fce663794a3e39139",
+    "src/data/iteration25-company-usage.json": "1f7c0cdd61ba286718f489689063c654bc390f05ac97350f9ad816bcb92136cb",
+    "src/data/iteration25-port-interpretation.json": "6fe83271949175243318aff89f7565d2db977e64fca6ff738191edd21dfda228",
+    "src/data/iteration25-sc225-routing.json": "13e7fbd78dad4fb22bfbe38417207e2dee7b509bbaf25853213055d867c0b787",
+    "src/data/iteration25-semantic-diff.json": "725c4aa9c41e6664a110742089833d207a49af58d162ff2b9b5d02620e87bb34",
+    "src/data/iteration25-summary.json": "2e962e4968ead9649ec4d74e6a0e996521e428ef0a3480361753594b0a79fe63",
+    "src/data/iteration25-unresolved-evidence.json": "edaf02166264501310d43a69cee01cfd1bad029f61b4e0097f101f466d1671f8",
+    "src/data/iteration27d-network-projection.json": "ae9cfbb5120c91805efb3f240ed1cef6c837f94237d61fb57a1fa4c5b05e3dbb",
+    "src/data/iteration27d-owner-confirmations.json": "6367b53617e1c4e226dc9d725ac3f97185e2405c3476651c04a5ec574dd93be4",
+    "src/data/pilot.json": "05dbb652ae8410712898598c0abef786a620beccdc20c7fe6ab391795ec07e19",
+    "src/data/primary-route-evidence.json": "fb6ae54ab6191700b231a6bb67313b8a4d57a93e8e9c60367fdecfb415e82ab5",
+    "src/data/source-annotations.json": "5c12355b9536fcbf9ad328200b15e7ebb53076a354b445cc2533cff2737d6293",
+    "src/data/source-b-ap-inventory.json": "573988938dad56ea3cad034ea3b50608ab71ff9876aa565cbb649f0e11ab039d",
+    "src/data/source-b-closure-inventory.json": "c03e4cc0a4f07f461e05cae8c3452c984f5ee183bf6c021d6293156e03d1123c",
+    "src/data/source-b-fiber-usage-evidence.json": "474822934f60fca8fff313ea4c0c1f9c8f817c99e5a3ceef039b36113caec6c9",
+    "src/data/source-evidence.json": "ad6e4a181c09c90c4dbbb2e91aa5168888515ee1dbea6ce667b11d0763a0cfc1",
+    "src/data/target-path-evidence.json": "b1aff25fe8388b45107ee54e42487cbe022e080da726479e1925a6cd26edbb53",
+    "src/data/tsageri-aggregation-evidence.json": "6cb0fc0ad9e03c1f55fd90f178394474c3cc19df15a606e964eb151c2da03894",
+    "reference/fiber-atlas-network-v1.manifest.json": "c7434809c31b5e1edbdb4faec2704e4bea01433410817bb7bb4ac1d06643466c",
+    "reference/tsageri-lentekhi-v1.golden-fixtures.json": "d6b5edaba0671809519fc553e5f7c1027a447c81a114e4646339ed761f9f0750",
+    "reference/tsageri-lentekhi-v1.inventory.json": "ba0b943e25d7a68d4b59eed0d9ed95ff65e0d83aae62bd093fea67e49d9152cf",
+    "reference/tsageri-lentekhi-v1.lineages.json": "14213a5f27935bdf7a5f71b3e60f5c359199222117b952d76b31f638abd52584",
+    "reference/tsageri-lentekhi-v1.manifest.json": "59ce208663b1dcb7f0fe5849faa9f9f1b62182bfc01cc7c5f4947cf366340125",
+    "reference/tsageri-lentekhi-v1.semantic-summary.json": "235f5486feb3ac1949beb792362fe970173d40947e5723e35d00f6cdab92a6f5",
+    "reference/tsageri-lentekhi-v1.transitions.json": "e38c03db3da3f3fe8caa12cc5bdfdd4ab3d80555263899251def84c9a21410fb"
+  },
+  "browser": "154.0.4258.48"
+}

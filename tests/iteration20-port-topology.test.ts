@@ -1,0 +1,30 @@
+import assert from 'node:assert/strict';
+import test from 'node:test';
+import pilotJson from '../src/data/pilot.json' with { type: 'json' };
+import { applyConfirmedC172Construction } from '../src/domain/colors';
+import { applyIteration07PathReview } from '../src/domain/pathReview';
+import { applyIteration08CableRoute } from '../src/domain/cableRoutes';
+import { applyIteration09Foundations } from '../src/domain/foundations';
+import { applyIteration10AggregationTopology, TSAGERI_ODF_ID } from '../src/domain/aggregationTopology';
+import { applyIteration12FullMigration } from '../src/domain/fullMigration';
+import { applyIteration15Showcase } from '../src/domain/showcase';
+import { applyIteration16CableContinuity } from '../src/domain/cableContinuity';
+import { applyIteration17FiberLineage } from '../src/domain/fiberLineage';
+import { applyIteration19 } from '../src/domain/iteration19';
+import { LENTEKHI_ODF_ID, applyIteration20, portTopologyBinding, validateIteration20 } from '../src/domain/iteration20';
+import type { Inventory } from '../src/domain/types';
+
+const build = () => applyIteration20(applyIteration19(applyIteration17FiberLineage(applyIteration16CableContinuity(applyIteration15Showcase(applyIteration12FullMigration(applyIteration10AggregationTopology(applyIteration09Foundations(applyIteration08CableRoute(applyIteration07PathReview(applyConfirmedC172Construction(structuredClone(pilotJson) as Inventory)))))))))));
+
+test('1 creates one topology binding for every modeled ODF and AP Port', () => assert.equal(build().portTopologyBindings?.length, 384));
+test('2 Tsageri contributes 192 bindings', () => assert.equal(build().portTopologyBindings?.filter(item => item.ownerId === TSAGERI_ODF_ID).length, 192));
+test('3 six AP banks contribute 144 projected bindings', () => assert.equal(build().portTopologyBindings?.filter(item => item.ownerType === 'ap').length, 144));
+test('4 Lentekhi contributes 48 source-interpreted bindings', () => assert.equal(build().portTopologyBindings?.filter(item => item.ownerId === LENTEKHI_ODF_ID).length, 48));
+test('5 Tsageri Port145 binds to C148/F145', () => { const item = portTopologyBinding(build(), 'odf', TSAGERI_ODF_ID, 145)!; assert.deepEqual([item.segmentId, item.fiberNumber], ['CAB-000148',145]); });
+test('6 Tsageri Port175 carries the reviewed AP51 lineage', () => assert.ok(portTopologyBinding(build(), 'odf', TSAGERI_ODF_ID, 175)?.lineageIds.includes('LINEAGE-AP51-NORTH-03')));
+test('7 Tsageri Port117 preserves intentional SC205 termination', () => assert.equal(portTopologyBinding(build(), 'odf', TSAGERI_ODF_ID, 117)?.role, 'local_termination'));
+test('8 Tsageri Port23 preserves external-direction range independently from local C148 identity', () => assert.deepEqual([portTopologyBinding(build(), 'odf', TSAGERI_ODF_ID, 23)?.role, portTopologyBinding(build(), 'odf', TSAGERI_ODF_ID, 23)?.fiberNumber], ['external_direction',23]));
+test('9 AP51 Port3 binds to C173/F03 and the full lineage', () => assert.deepEqual([portTopologyBinding(build(), 'ap', '51', 3)?.segmentId, portTopologyBinding(build(), 'ap', '51', 3)?.fiberNumber, portTopologyBinding(build(), 'ap', '51', 3)?.lineageIds[0]], ['CAB-000173',3,'LINEAGE-AP51-NORTH-03']));
+test('10 AP41 Port18 retains return role and C149/F18', () => assert.deepEqual([portTopologyBinding(build(), 'ap', '41', 18)?.role, portTopologyBinding(build(), 'ap', '41', 18)?.fiberNumber], ['ap_return',18]));
+test('11 Lentekhi Port31 binds to C184/F31 without resolving its numeric aggregation conflict', () => assert.deepEqual([portTopologyBinding(build(), 'odf', LENTEKHI_ODF_ID, 31)?.segmentId, portTopologyBinding(build(), 'odf', LENTEKHI_ODF_ID, 31)?.fiberNumber], ['CAB-000184',31]));
+test('12 Iteration 20 binding validation passes', () => assert.deepEqual(validateIteration20(build()), []));

@@ -1,0 +1,47 @@
+{
+  "note": "One-time identity allocation. IDs are stored keys; future edits must not regenerate them from labels or endpoints.",
+  "cables": [
+    {
+      "id": "CAB-000169",
+      "legacyCableId": "169",
+      "legacyLabels": [
+        "169-206-216-48"
+      ]
+    },
+    {
+      "id": "CAB-000170",
+      "legacyCableId": "170",
+      "legacyLabels": [
+        "170-216-50-24"
+      ]
+    },
+    {
+      "id": "CAB-000171",
+      "legacyCableId": "171",
+      "legacyLabels": [
+        "171-216-217-48"
+      ]
+    },
+    {
+      "id": "CAB-000172",
+      "legacyCableId": "172",
+      "legacyLabels": [
+        "172-217-218-48"
+      ]
+    },
+    {
+      "id": "CAB-000173",
+      "legacyCableId": "173",
+      "legacyLabels": [
+        "173-218-51-24"
+      ]
+    },
+    {
+      "id": "CAB-000174",
+      "legacyCableId": "174",
+      "legacyLabels": [
+        "174-218-219-48"
+      ]
+    }
+  ]
+}

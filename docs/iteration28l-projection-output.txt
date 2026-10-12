@@ -1,0 +1,36 @@
+{
+  "counts": {
+    "before": {
+      "transitions": 1629,
+      "currentLineages": 475
+    },
+    "after": {
+      "transitions": 1631,
+      "currentLineages": 473
+    },
+    "affectedLocalFibers": 24
+  },
+  "organizations": [
+    {
+      "name": "OpenNet",
+      "groups": "17→17",
+      "legs": "154→154"
+    },
+    {
+      "name": "Magti",
+      "groups": "4→4",
+      "legs": "40→40"
+    },
+    {
+      "name": "Silknet",
+      "groups": "4→3",
+      "legs": "28→36"
+    },
+    {
+      "name": "Skytel",
+      "groups": "4→3",
+      "legs": "18→18"
+    }
+  ],
+  "conflicts": 12
+}

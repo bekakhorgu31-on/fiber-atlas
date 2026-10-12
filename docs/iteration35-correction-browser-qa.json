@@ -1,0 +1,40 @@
+{
+  "scope": "known synthetic correction fixture; never real AP18",
+  "ownerServerWrites": 0,
+  "workflows": [
+    {
+      "width": 1440,
+      "draftPersisted": true,
+      "previewUnapplied": true,
+      "explicitApply": true,
+      "historyAfterReload": true,
+      "portJourney": true,
+      "explicitReversal": true,
+      "defaultOpenListExcludesAppliedCase": true,
+      "reviewedHistoryShowsCorrectedLabel": true,
+      "exactPortBindingVisible": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "width": 390,
+      "draftPersisted": true,
+      "previewUnapplied": true,
+      "explicitApply": true,
+      "historyAfterReload": true,
+      "portJourney": true,
+      "explicitReversal": true,
+      "defaultOpenListExcludesAppliedCase": true,
+      "reviewedHistoryShowsCorrectedLabel": true,
+      "exactPortBindingVisible": true,
+      "noHorizontalOverflow": true
+    }
+  ],
+  "errors": [],
+  "screenshots": [
+    "docs/iteration35-correction-preview-1440.png",
+    "docs/iteration35-applied-review-1440.png",
+    "docs/iteration35-correction-preview-390.png",
+    "docs/iteration35-applied-review-390.png"
+  ],
+  "measurements": []
+}

@@ -1,0 +1,21 @@
+{
+  "ownerServerWrites": 0,
+  "geometryDecoded": false,
+  "source": {
+    "file": "შიდა ქართლი 2026.vsdx",
+    "sha256": "e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+    "size_bytes": 6757465
+  },
+  "topologyProjected": false,
+  "benchmark": {
+    "elapsedSeconds": 7.19,
+    "sampledPeakWorkingSetMiB": 24.29,
+    "exitCode": 0
+  },
+  "inventory": {
+    "pages": 1,
+    "all_page_shapes_including_subshapes": 62670,
+    "direct_text_shapes": 23343,
+    "xml_elements_scanned": 2753039
+  }
+}

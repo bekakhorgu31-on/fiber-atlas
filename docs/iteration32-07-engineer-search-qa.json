@@ -1,0 +1,24 @@
+{
+  "task": "32-07",
+  "dataProfile": "isolated local QA",
+  "ownerServerWrites": 0,
+  "journeys": [
+    {
+      "width": 1440,
+      "case": "empty-network Engineer Search, keyboard entry, active state and Import Visio"
+    },
+    {
+      "width": 390,
+      "case": "empty-network Engineer Search, keyboard entry, active state and Import Visio"
+    },
+    {
+      "width": 1440,
+      "case": "populated direct Engineer Search → map → Back restores query"
+    },
+    {
+      "width": 390,
+      "case": "populated direct Engineer Search → map → Back restores query"
+    }
+  ],
+  "errors": []
+}

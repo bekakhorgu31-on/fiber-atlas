@@ -1,0 +1,14 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+.dev-runtime/
+backend/vendor/
+backend/.env
+backend/.env.testing
+backend/.env.local
+backend/.env.isolation
+backend/storage/*.key
+/tmp/ap20-baseline-current-compiler.json
+/tmp/ap20-corrected-proposal.json
+/tmp/iteration33-shida-proposal.json

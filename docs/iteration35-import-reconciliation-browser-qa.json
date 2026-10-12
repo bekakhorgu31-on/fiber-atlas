@@ -1,0 +1,17 @@
+{
+  "scope": "synthetic reprocess comparison; no new real source upload",
+  "workflows": [
+    {
+      "width": 390,
+      "name": "conflict blocks Add; complete comparison and explicit source decision preserve active network"
+    },
+    {
+      "width": 390,
+      "name": "reconciled staged index has current digest/revision; separate Add activates fresh source and retains prior human history"
+    }
+  ],
+  "errors": [],
+  "screenshots": [
+    "docs/iteration35-import-reconciliation-390.png"
+  ]
+}

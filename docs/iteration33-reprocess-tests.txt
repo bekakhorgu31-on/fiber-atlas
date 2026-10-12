@@ -1,0 +1,10 @@
+PHPUnit 12.5.38 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.3.35
+Configuration: C:\Users\Beka\Desktop\Visio Alt\fiber-prototype\backend\phpunit.xml
+
+....                                                                4 / 4 (100%)
+
+Time: 00:02.522, Memory: 54.00 MB
+
+[30;42mOK (4 tests, 34 assertions)[0m

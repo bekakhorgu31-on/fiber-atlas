@@ -1,0 +1,38 @@
+{
+  "journeys": [
+    {
+      "width": 1440,
+      "case": "Back/Forward restore query, source revision and selected case"
+    },
+    {
+      "width": 1440,
+      "case": "evidence failure explains missing context and retries exact source without fallback"
+    },
+    {
+      "width": 1440,
+      "case": "AP43 original printed anomaly appears in exact source; no renumbering"
+    },
+    {
+      "width": 1440,
+      "case": "AP47 original printed anomaly appears in exact source; no renumbering"
+    },
+    {
+      "width": 390,
+      "case": "Back/Forward restore query, source revision and selected case"
+    },
+    {
+      "width": 390,
+      "case": "evidence failure explains missing context and retries exact source without fallback"
+    },
+    {
+      "width": 390,
+      "case": "AP43 original printed anomaly appears in exact source; no renumbering"
+    },
+    {
+      "width": 390,
+      "case": "AP47 original printed anomaly appears in exact source; no renumbering"
+    }
+  ],
+  "errors": [],
+  "ownerServerWrites": 0
+}

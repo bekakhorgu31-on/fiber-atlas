@@ -1,0 +1,118 @@
+{
+  "desktop": [
+    {
+      "name": "C172/F01",
+      "selection": "fiber:CAB-000172:1",
+      "required": [
+        "AGG5 / Port 145",
+        "Lentekhi aggregation / Port-Fiber 1",
+        "C148 → C150",
+        "C169 → C171 → C172 → C174"
+      ],
+      "size": {
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "C172/F31",
+      "selection": "fiber:CAB-000172:31",
+      "required": [
+        "AGG5 / Port 175",
+        "AP51 / Port 3",
+        "F175 → F31",
+        "F31 → F03",
+        "OTDR",
+        "Selected Fiber journey · F03"
+      ],
+      "size": {
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "C172/F29",
+      "selection": "fiber:CAB-000172:29",
+      "required": [
+        "C171",
+        "C172",
+        "C173",
+        "AP51 / Port 1"
+      ],
+      "size": {
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "AP51/Port3",
+      "selection": "port:ap:51:3",
+      "required": [
+        "C173 / F03 → AP51 / Port 3",
+        "in use",
+        "Unused does not mean free or commercially available"
+      ],
+      "size": {
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "AGG5/Port145",
+      "selection": "port:odf:ODF-TSAGERI-01:145",
+      "required": [
+        "AGG5 / Port 145",
+        "Lentekhi aggregation / Port-Fiber 1"
+      ],
+      "size": {
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "AGG5/Port175",
+      "selection": "port:odf:ODF-TSAGERI-01:175",
+      "required": [
+        "AGG5 / Port 175",
+        "AP51 / Port 3"
+      ],
+      "size": {
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "OpenNet",
+      "selection": "fiber:CAB-000172:1",
+      "required": [
+        "Used by: OpenNet",
+        "separate from ownership"
+      ],
+      "size": {
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "Manager View",
+      "manager": {
+        "engineering": "none",
+        "clarification": "block",
+        "banner": "Manager ViewInteractive network context with engineering review controls reduced."
+      }
+    }
+  ],
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "inspector": "fixed",
+    "journeyColumns": "165.5px 165.5px"
+  },
+  "standalone": {
+    "width": 1280,
+    "scrollWidth": 1280,
+    "scripts": 1,
+    "linkedStyles": 0
+  },
+  "logs": []
+}

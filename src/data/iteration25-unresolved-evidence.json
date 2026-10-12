@@ -1,0 +1,157 @@
+{
+  "deterministic": true,
+  "interpreter": "interpret-iteration25-source.py/1",
+  "page": "ცაგერი-ლენტეხი",
+  "pageId": "4",
+  "part": "visio/pages/page1.xml",
+  "rawArtifactSha256": "e14e79f5930a1b063db11e4db53d2ac47925fb49ffc3a915449468a54cfb066f",
+  "records": [
+    {
+      "fiberNumber": 5,
+      "id": "SC225-C181-F05",
+      "legacySegmentId": "181",
+      "nodeId": "SC225",
+      "ownerConfirmedAPSide": false,
+      "reason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end.",
+      "sourceShapeIds": []
+    },
+    {
+      "fiberNumber": 6,
+      "id": "SC225-C181-F06",
+      "legacySegmentId": "181",
+      "nodeId": "SC225",
+      "ownerConfirmedAPSide": true,
+      "reason": "Owner confirms AP-side continuation, but no source connector reaches C182 or C183.",
+      "sourceShapeIds": []
+    },
+    {
+      "fiberNumber": 7,
+      "id": "SC225-C181-F07",
+      "legacySegmentId": "181",
+      "nodeId": "SC225",
+      "ownerConfirmedAPSide": false,
+      "reason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end.",
+      "sourceShapeIds": []
+    },
+    {
+      "fiberNumber": 8,
+      "id": "SC225-C181-F08",
+      "legacySegmentId": "181",
+      "nodeId": "SC225",
+      "ownerConfirmedAPSide": false,
+      "reason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end.",
+      "sourceShapeIds": []
+    },
+    {
+      "fiberNumber": 9,
+      "id": "SC225-C181-F09",
+      "legacySegmentId": "181",
+      "nodeId": "SC225",
+      "ownerConfirmedAPSide": false,
+      "reason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end.",
+      "sourceShapeIds": []
+    },
+    {
+      "fiberNumber": 10,
+      "id": "SC225-C181-F10",
+      "legacySegmentId": "181",
+      "nodeId": "SC225",
+      "ownerConfirmedAPSide": false,
+      "reason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end.",
+      "sourceShapeIds": []
+    },
+    {
+      "fiberNumber": 11,
+      "id": "SC225-C181-F11",
+      "legacySegmentId": "181",
+      "nodeId": "SC225",
+      "ownerConfirmedAPSide": false,
+      "reason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end.",
+      "sourceShapeIds": []
+    },
+    {
+      "fiberNumber": 12,
+      "id": "SC225-C181-F12",
+      "legacySegmentId": "181",
+      "nodeId": "SC225",
+      "ownerConfirmedAPSide": false,
+      "reason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end.",
+      "sourceShapeIds": []
+    },
+    {
+      "fiberNumber": 17,
+      "id": "SC225-C181-F17",
+      "legacySegmentId": "181",
+      "nodeId": "SC225",
+      "ownerConfirmedAPSide": false,
+      "reason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end.",
+      "sourceShapeIds": []
+    },
+    {
+      "fiberNumber": 18,
+      "id": "SC225-C181-F18",
+      "legacySegmentId": "181",
+      "nodeId": "SC225",
+      "ownerConfirmedAPSide": false,
+      "reason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end.",
+      "sourceShapeIds": []
+    },
+    {
+      "fiberNumber": 19,
+      "id": "SC225-C181-F19",
+      "legacySegmentId": "181",
+      "nodeId": "SC225",
+      "ownerConfirmedAPSide": false,
+      "reason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end.",
+      "sourceShapeIds": []
+    },
+    {
+      "fiberNumber": 20,
+      "id": "SC225-C181-F20",
+      "legacySegmentId": "181",
+      "nodeId": "SC225",
+      "ownerConfirmedAPSide": false,
+      "reason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end.",
+      "sourceShapeIds": []
+    },
+    {
+      "fiberNumber": 21,
+      "id": "SC225-C181-F21",
+      "legacySegmentId": "181",
+      "nodeId": "SC225",
+      "ownerConfirmedAPSide": false,
+      "reason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end.",
+      "sourceShapeIds": []
+    },
+    {
+      "fiberNumber": 22,
+      "id": "SC225-C181-F22",
+      "legacySegmentId": "181",
+      "nodeId": "SC225",
+      "ownerConfirmedAPSide": false,
+      "reason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end.",
+      "sourceShapeIds": []
+    },
+    {
+      "fiberNumber": 23,
+      "id": "SC225-C181-F23",
+      "legacySegmentId": "181",
+      "nodeId": "SC225",
+      "ownerConfirmedAPSide": false,
+      "reason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end.",
+      "sourceShapeIds": []
+    },
+    {
+      "fiberNumber": 24,
+      "id": "SC225-C181-F24",
+      "legacySegmentId": "181",
+      "nodeId": "SC225",
+      "ownerConfirmedAPSide": false,
+      "reason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end.",
+      "sourceShapeIds": []
+    }
+  ],
+  "schemaVersion": 1,
+  "sourceFile": "Tsageri-Lentekhi 2025.vsdx",
+  "sourceSha256": "caae4badc9c8c30be0a5fa3ef26352c3e534a9de7c66e830ef470466bb34a6fa"
+}

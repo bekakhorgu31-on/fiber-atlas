@@ -1,0 +1,202 @@
+{
+  "rule": "SC217-unique-endpoint-inside-decoded-marker-ellipse/1",
+  "sourceSha256": "caae4badc9c8c30be0a5fa3ef26352c3e534a9de7c66e830ef470466bb34a6fa",
+  "rawArtifact": "migration\\iteration24\\tsageri-lentekhi.iteration24.raw.json.gz",
+  "corrections": [
+    {
+      "connectorShapeId": "34070",
+      "begin": {
+        "x": 84.09765374660498,
+        "y": 529.6103924162592
+      },
+      "end": {
+        "x": 84.09765374660498,
+        "y": 525.0341463658285
+      },
+      "a": {
+        "segment": "171",
+        "fiber": 10,
+        "shape": "34121",
+        "group": "34109",
+        "pin": {
+          "x": 84.11398617770735,
+          "y": 529.6275463873085
+        },
+        "bounds": {
+          "height": 0.05905511811022279,
+          "max_x": 84.14351373676247,
+          "max_y": 529.6570739463637,
+          "min_x": 84.08445861865223,
+          "min_y": 529.5980188282534,
+          "width": 0.059055118110237004
+        },
+        "fill": {
+          "formula": "THEMEGUARD(RGB(204,153,255))",
+          "resolution": "resolved",
+          "rgb": "#cc99ff",
+          "source_id": "34121",
+          "source_kind": "shape",
+          "value": "#cc99ff"
+        },
+        "ring": {
+          "formula": null,
+          "resolution": "resolved",
+          "rgb": "#0000ff",
+          "source_id": "34121",
+          "source_kind": "shape",
+          "value": "4"
+        }
+      },
+      "z": {
+        "segment": "172",
+        "fiber": 10,
+        "shape": "34536",
+        "group": "34524",
+        "pin": {
+          "x": 84.11398617770735,
+          "y": 525.0376797937412
+        },
+        "bounds": {
+          "height": 0.05905511811022279,
+          "max_x": 84.14351373676247,
+          "max_y": 525.0672073527963,
+          "min_x": 84.08445861865223,
+          "min_y": 525.0081522346861,
+          "width": 0.059055118110237004
+        },
+        "fill": {
+          "formula": "THEMEGUARD(RGB(204,153,255))",
+          "resolution": "resolved",
+          "rgb": "#cc99ff",
+          "source_id": "34536",
+          "source_kind": "shape",
+          "value": "#cc99ff"
+        },
+        "ring": {
+          "formula": null,
+          "resolution": "resolved",
+          "rgb": "#0000ff",
+          "source_id": "34536",
+          "source_kind": "shape",
+          "value": "4"
+        }
+      },
+      "connectRows": [],
+      "oldTolerancePass": false,
+      "endpointEllipseHits": [
+        1,
+        1
+      ],
+      "priorExtractionCorroboration": {
+        "BeginX": "84.09765374660498",
+        "BeginY": "529.6103924162592",
+        "EndX": "84.09765374660498",
+        "EndY": "525.0341463658285"
+      }
+    },
+    {
+      "connectorShapeId": "34072",
+      "begin": {
+        "x": 84.27734124660498,
+        "y": 529.6103924162592
+      },
+      "end": {
+        "x": 84.27734124660498,
+        "y": 525.0341463658285
+      },
+      "a": {
+        "segment": "171",
+        "fiber": 12,
+        "shape": "34122",
+        "group": "34109",
+        "pin": {
+          "x": 84.29245307575958,
+          "y": 529.6275463873085
+        },
+        "bounds": {
+          "height": 0.05905511811022279,
+          "max_x": 84.32198063481471,
+          "max_y": 529.6570739463637,
+          "min_x": 84.26292551670447,
+          "min_y": 529.5980188282534,
+          "width": 0.059055118110237004
+        },
+        "fill": {
+          "formula": "THEMEGUARD(RGB(0,255,255))",
+          "resolution": "resolved",
+          "rgb": "#00ffff",
+          "source_id": "34122",
+          "source_kind": "shape",
+          "value": "#00ffff"
+        },
+        "ring": {
+          "formula": null,
+          "resolution": "resolved",
+          "rgb": "#0000ff",
+          "source_id": "34122",
+          "source_kind": "shape",
+          "value": "4"
+        }
+      },
+      "z": {
+        "segment": "172",
+        "fiber": 12,
+        "shape": "34537",
+        "group": "34524",
+        "pin": {
+          "x": 84.29245307575958,
+          "y": 525.0376797937412
+        },
+        "bounds": {
+          "height": 0.05905511811022279,
+          "max_x": 84.32198063481471,
+          "max_y": 525.0672073527963,
+          "min_x": 84.26292551670447,
+          "min_y": 525.0081522346861,
+          "width": 0.059055118110237004
+        },
+        "fill": {
+          "formula": "THEMEGUARD(RGB(0,255,255))",
+          "resolution": "resolved",
+          "rgb": "#00ffff",
+          "source_id": "34537",
+          "source_kind": "shape",
+          "value": "#00ffff"
+        },
+        "ring": {
+          "formula": null,
+          "resolution": "resolved",
+          "rgb": "#0000ff",
+          "source_id": "34537",
+          "source_kind": "shape",
+          "value": "4"
+        }
+      },
+      "connectRows": [],
+      "oldTolerancePass": false,
+      "endpointEllipseHits": [
+        1,
+        1
+      ],
+      "priorExtractionCorroboration": {
+        "BeginX": "84.27734124660498",
+        "BeginY": "529.6103924162592",
+        "EndX": "84.27734124660498",
+        "EndY": "525.0341463658285"
+      }
+    }
+  ],
+  "ownerReport": {
+    "id": "OWNER-2026-10-05-C169-F12-LENTEKHI",
+    "recordedAt": "2026-10-05",
+    "selectedSegmentId": "CAB-000169",
+    "selectedFiberNumber": 12,
+    "reportedEndpoint": {
+      "kind": "aggregation",
+      "id": "AGG-LENTEKHI"
+    },
+    "reportedOrganization": "Silknet",
+    "basis": "Owner report preserved in Iteration 28L task; no exact local pair asserted by owner.",
+    "fieldVerified": false
+  }
+}

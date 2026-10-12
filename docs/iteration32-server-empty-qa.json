@@ -1,0 +1,26 @@
+{
+  "serverImportsPerformed": 0,
+  "accountWritesPerformed": 0,
+  "journeys": [
+    {
+      "width": 1440,
+      "case": "real server empty network and independent import",
+      "user": null,
+      "setupAvailable": true,
+      "networkRevision": null,
+      "reviewCount": 0
+    },
+    {
+      "width": 390,
+      "case": "real server empty network and independent import",
+      "user": null,
+      "setupAvailable": true,
+      "networkRevision": null,
+      "reviewCount": 0
+    },
+    {
+      "case": "private first-owner setup form is usable; no account submitted"
+    }
+  ],
+  "errors": []
+}

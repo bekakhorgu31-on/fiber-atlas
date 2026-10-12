@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import {writeFile,readFile} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {pathToFileURL} from 'node:url';
+import {runWorkflows} from './iteration28j-workflows.mjs';
+const {chromium}=await import(pathToFileURL('C:/Users/Beka/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs'));
+const file='C:/Users/Beka/Desktop/Visio Alt/fiber-prototype.html',url=pathToFileURL(file).href,result={timestamp:new Date().toISOString(),sha256:createHash('sha256').update(await readFile(file)).digest('hex'),screenshotPrefix:'iteration28k-ap-regression',flows:[],errors:[],requests:[]};
+const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'});
+const setup=async(width=1440,height=900,motion='reduce')=>{const context=await browser.newContext({viewport:{width,height},offline:true,hasTouch:width<760,reducedMotion:motion}),page=await context.newPage();page.on('pageerror',e=>result.errors.push(e.message));page.on('request',r=>{if(/^https?:/.test(r.url()))result.requests.push(r.url())});return{context,page};};
+try{await runWorkflows(browser,setup,result,url);assert.deepEqual(result.errors,[]);assert.deepEqual(result.requests,[]);result.status='passed';}finally{await browser.close();await writeFile('docs/iteration28k-ap-regression.json',JSON.stringify(result,null,2)+'\n');}console.log(JSON.stringify({flows:result.flows.length,status:result.status,errors:result.errors}));

@@ -1,0 +1,4035 @@
+{
+  "timestamp": "2026-10-05T07:11:01.495Z",
+  "hashes": {
+    "fiberPathProjection": "b6ab9799be24666d1d5ab4a74f111cfcb0eacc5be19919c239acbf5e1b2a1bfe",
+    "currentFiberLineages": "ce7e357170056ff7fe4845aaea6ca47d8a5b9236dcb0601a2ec9373c017205d9",
+    "fiberJourneySummaries": "598c181c82c520adbe77e8519028d99acd08a359e0533f2ba1ee5f0ddf7a31dd",
+    "fiberUsageProjection": "a36502235359101896c74a242a203ef311329c7e1e94fba9ce679fd4a5b768ef",
+    "nodeFiberTransitions": "5003371693a366cf99455d65d5ca74619603e612122a2528efe6cab40c8303f3",
+    "portTopologyBindings": "8859a5dd1696d0222a7dbc2f7048d169b153339b0934bbdbb97bf4944d61f6fc",
+    "organizationNetworkProjection": "80d843efc4372c86a81a5432e4f2179784b5399a6f71350f14551df92766c9f5",
+    "aggregationOperationalProjection": "7c620cd5ba72ba30b1f0d8fe8e20c9b8b24226eeb99325c5ae366c2494993003"
+  },
+  "organizations": [
+    {
+      "id": "opennet",
+      "name": "OpenNet",
+      "aliases": [
+        "Open Net",
+        "ოპენნეტი",
+        "ოპენნეტ",
+        "ოუფენ ნეტი"
+      ],
+      "legs": [
+        "CAB-000148/F1",
+        "CAB-000150/F1",
+        "CAB-000151/F1",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F1",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F1",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F1",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F1",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F1",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C164/F13",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C166/F13",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C167/F13",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C168/F1",
+        "CAB-000148/F38",
+        "CAB-000150/F38",
+        "CAB-000151/F38",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F38",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F38",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F38",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F38",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F38",
+        "CAB-000148/F146",
+        "CAB-000150/F146",
+        "CAB-000169/F2",
+        "CAB-000171/F2",
+        "CAB-000172/F2",
+        "CAB-000174/F2",
+        "CAB-000176/F2",
+        "CAB-000177/F2",
+        "CAB-000178/F2",
+        "CAB-000179/F2",
+        "CAB-000180/F2",
+        "CAB-000184/F2",
+        "CAB-000148/F145",
+        "CAB-000150/F145",
+        "CAB-000169/F1",
+        "CAB-000171/F1",
+        "CAB-000172/F1",
+        "CAB-000174/F1",
+        "CAB-000176/F1",
+        "CAB-000177/F1",
+        "CAB-000178/F1",
+        "CAB-000179/F1",
+        "CAB-000180/F1",
+        "CAB-000184/F1",
+        "CAB-000148/F129",
+        "CAB-000149/F1",
+        "CAB-000148/F151",
+        "CAB-000150/F151",
+        "CAB-000169/F7",
+        "CAB-000171/F7",
+        "CAB-000172/F7",
+        "CAB-000174/F7",
+        "CAB-000176/F7",
+        "CAB-000177/F7",
+        "CAB-000178/F7",
+        "CAB-000179/F7",
+        "CAB-000180/F7",
+        "CAB-000184/F7",
+        "CAB-000148/F130",
+        "CAB-000149/F2",
+        "CAB-000148/F39",
+        "CAB-000150/F39",
+        "CAB-000151/F39",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F39",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F39",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F39",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F39",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F39",
+        "CAB-000148/F147",
+        "CAB-000150/F147",
+        "CAB-000169/F3",
+        "CAB-000171/F3",
+        "CAB-000172/F3",
+        "CAB-000174/F3",
+        "CAB-000176/F3",
+        "CAB-000177/F3",
+        "CAB-000178/F3",
+        "CAB-000179/F3",
+        "CAB-000180/F3",
+        "CAB-000184/F3",
+        "CAB-000148/F70",
+        "CAB-000150/F70",
+        "CAB-000151/F70",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F70",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F70",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F70",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F70",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C160/F2",
+        "CAB-000148/F69",
+        "CAB-000150/F69",
+        "CAB-000151/F69",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F69",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F69",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F69",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F69",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C160/F1",
+        "CAB-000148/F2",
+        "CAB-000150/F2",
+        "CAB-000151/F2",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F2",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F2",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F2",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F2",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F2",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C164/F14",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C166/F14",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C167/F14",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C168/F2",
+        "CAB-000148/F148",
+        "CAB-000150/F148",
+        "CAB-000169/F4",
+        "CAB-000171/F4",
+        "CAB-000172/F4",
+        "CAB-000174/F4",
+        "CAB-000176/F4",
+        "CAB-000177/F4",
+        "CAB-000178/F4",
+        "CAB-000179/F4",
+        "CAB-000180/F4",
+        "CAB-000184/F4",
+        "CAB-000148/F40",
+        "CAB-000150/F40",
+        "CAB-000151/F40",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F40",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F40",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F40",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F40",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F40",
+        "CAB-000148/F61",
+        "CAB-000150/F61",
+        "CAB-000151/F61",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F61",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F61",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F61",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F61",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F61",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C162/F1",
+        "CAB-000148/F62",
+        "CAB-000150/F62",
+        "CAB-000151/F62",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F62",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F62",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F62",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F62",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F62",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C162/F2",
+        "CAB-000148/F37",
+        "CAB-000150/F37",
+        "CAB-000151/F37",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F37",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F37",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F37",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F37",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F37"
+      ],
+      "cableIds": [
+        "CAB-000148",
+        "CAB-000150",
+        "CAB-000151",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C164",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C166",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C167",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C168",
+        "CAB-000169",
+        "CAB-000171",
+        "CAB-000172",
+        "CAB-000174",
+        "CAB-000176",
+        "CAB-000177",
+        "CAB-000178",
+        "CAB-000179",
+        "CAB-000180",
+        "CAB-000184",
+        "CAB-000149",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C160",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C162"
+      ],
+      "apIds": [
+        "49",
+        "41",
+        "46",
+        "47"
+      ],
+      "portBindingIds": [
+        "28D-SOURCE-B-AP49-P1",
+        "PTB-LENTEKHI-P02-C184-F02",
+        "PTB-LENTEKHI-P01-C184-F01",
+        "PTB-AP41-P01-C149-F01",
+        "PTB-LENTEKHI-P07-C184-F07",
+        "PTB-AP41-P02-C149-F02",
+        "PTB-LENTEKHI-P03-C184-F03",
+        "28D-SOURCE-B-AP46-P2",
+        "28D-SOURCE-B-AP46-P1",
+        "28D-SOURCE-B-AP49-P2",
+        "PTB-LENTEKHI-P04-C184-F04",
+        "28D-SOURCE-B-AP47-P1",
+        "28D-SOURCE-B-AP47-P2"
+      ],
+      "strands": [
+        {
+          "id": "ORG-STRAND-opennet-028288030dd14771",
+          "representative": {
+            "segmentId": "CAB-000148",
+            "fiberNumber": 1
+          },
+          "memberLegs": [
+            "CAB-000148/F1",
+            "CAB-000150/F1",
+            "CAB-000151/F1",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F1",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F1",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F1",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F1",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F1",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C164/F13",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C166/F13",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C167/F13",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C168/F1"
+          ],
+          "status": "ზუსტი პორტის მიბმა დაუდგენელია",
+          "pathSignature": "canonical-active-fiber-path/1/426b4718e9c5002a",
+          "journeys": [
+            {
+              "nodes": [
+                "5",
+                "205",
+                "206",
+                "207",
+                "208",
+                "209",
+                "210",
+                "211",
+                "212",
+                "213",
+                "214",
+                "215",
+                "49"
+              ],
+              "legs": [
+                "CAB-000148/F1",
+                "CAB-000150/F1",
+                "CAB-000151/F1",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F1",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F1",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F1",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F1",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F1",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C164/F13",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C166/F13",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C167/F13",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C168/F1"
+              ],
+              "remaps": [
+                "C161/F01 → C164/F13",
+                "C167/F13 → C168/F01"
+              ],
+              "stops": [
+                "no_transition",
+                "port"
+              ]
+            }
+          ],
+          "bindings": [
+            {
+              "id": "28D-SOURCE-B-AP49-P1",
+              "label": "AP49 / Port 1",
+              "ownerType": "ap",
+              "ownerId": "49",
+              "portNumber": 1,
+              "occupancy": "in_use"
+            }
+          ],
+          "evidence": [
+            {
+              "shapeId": "17517",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00049",
+              "directLeg": "CAB-000148/F1"
+            },
+            {
+              "shapeId": "19163",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00241",
+              "directLeg": "CAB-000150/F1"
+            },
+            {
+              "shapeId": "20269",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00433",
+              "directLeg": "CAB-000151/F1"
+            },
+            {
+              "shapeId": "20816",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00577",
+              "directLeg": "CAB-000151/F1"
+            },
+            {
+              "shapeId": "21541",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00720",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F1"
+            },
+            {
+              "shapeId": "24334",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00912",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F1"
+            },
+            {
+              "shapeId": "25302",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01056",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F1"
+            },
+            {
+              "shapeId": "26668",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01200",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F1"
+            },
+            {
+              "shapeId": "29191",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01440",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F1"
+            },
+            {
+              "shapeId": "29744",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01572",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C164/F13"
+            },
+            {
+              "shapeId": "29645",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01618",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C166/F13"
+            },
+            {
+              "shapeId": "30204",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01666",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C166/F13"
+            },
+            {
+              "shapeId": "30983",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01702",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C168/F1"
+            },
+            {
+              "shapeId": "30995",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01714",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C168/F1"
+            },
+            {
+              "shapeId": "31128",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01762",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C167/F13"
+            },
+            {
+              "shapeId": "20752",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01798",
+              "directLeg": "CAB-000150/F1"
+            },
+            {
+              "shapeId": "38725",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02010",
+              "directLeg": "CAB-000148/F1"
+            },
+            {
+              "shapeId": "14219",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02202",
+              "directLeg": "CAB-000148/F1"
+            },
+            {
+              "shapeId": "15787",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02420",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F1"
+            },
+            {
+              "shapeId": "24145",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02528",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F1"
+            },
+            {
+              "shapeId": "15853",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02624",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F1"
+            },
+            {
+              "shapeId": "27047",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02704",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F1"
+            },
+            {
+              "shapeId": "28610",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02832",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C164/F13"
+            },
+            {
+              "shapeId": "41031",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03078",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F1"
+            },
+            {
+              "shapeId": "41050",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03079",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C167/F13"
+            }
+          ]
+        },
+        {
+          "id": "ORG-STRAND-opennet-02e8ae39bbe212ef",
+          "representative": {
+            "segmentId": "CAB-000148",
+            "fiberNumber": 38
+          },
+          "memberLegs": [
+            "CAB-000148/F38",
+            "CAB-000150/F38",
+            "CAB-000151/F38",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F38",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F38",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F38",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F38",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F38"
+          ],
+          "status": "ზუსტი პორტის მიბმა დაუდგენელია",
+          "pathSignature": "canonical-active-fiber-path/1/0db007922dd1a2ea",
+          "journeys": [
+            {
+              "nodes": [
+                "5",
+                "205",
+                "206",
+                "207",
+                "208",
+                "209",
+                "210",
+                "211",
+                "212"
+              ],
+              "legs": [
+                "CAB-000148/F38",
+                "CAB-000150/F38",
+                "CAB-000151/F38",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F38",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F38",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F38",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F38",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F38"
+              ],
+              "remaps": [],
+              "stops": [
+                "no_transition",
+                "no_transition"
+              ]
+            }
+          ],
+          "bindings": [],
+          "evidence": [
+            {
+              "shapeId": "17554",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00086",
+              "directLeg": "CAB-000148/F38"
+            },
+            {
+              "shapeId": "19200",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00278",
+              "directLeg": "CAB-000150/F38"
+            },
+            {
+              "shapeId": "20306",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00470",
+              "directLeg": "CAB-000151/F38"
+            },
+            {
+              "shapeId": "20853",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00614",
+              "directLeg": "CAB-000151/F38"
+            },
+            {
+              "shapeId": "21578",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00757",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F38"
+            },
+            {
+              "shapeId": "24371",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00949",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F38"
+            },
+            {
+              "shapeId": "25339",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01093",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F38"
+            },
+            {
+              "shapeId": "26705",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01237",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F38"
+            },
+            {
+              "shapeId": "29228",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01477",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F38"
+            },
+            {
+              "shapeId": "33127",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01835",
+              "directLeg": "CAB-000150/F38"
+            },
+            {
+              "shapeId": "38762",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02047",
+              "directLeg": "CAB-000148/F38"
+            },
+            {
+              "shapeId": "14464",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02239",
+              "directLeg": "CAB-000148/F38"
+            },
+            {
+              "shapeId": "23878",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02457",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F38"
+            },
+            {
+              "shapeId": "24182",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02565",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F38"
+            },
+            {
+              "shapeId": "15890",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02661",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F38"
+            },
+            {
+              "shapeId": "27092",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02741",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F38"
+            },
+            {
+              "shapeId": "32966",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02793",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F38"
+            }
+          ]
+        },
+        {
+          "id": "ORG-STRAND-opennet-04f3c0ad0122916f",
+          "representative": {
+            "segmentId": "CAB-000148",
+            "fiberNumber": 146
+          },
+          "memberLegs": [
+            "CAB-000148/F146",
+            "CAB-000150/F146",
+            "CAB-000169/F2",
+            "CAB-000171/F2",
+            "CAB-000172/F2",
+            "CAB-000174/F2",
+            "CAB-000176/F2",
+            "CAB-000177/F2",
+            "CAB-000178/F2",
+            "CAB-000179/F2",
+            "CAB-000180/F2",
+            "CAB-000184/F2"
+          ],
+          "status": "ზუსტი პორტის მიბმა დაუდგენელია",
+          "pathSignature": "canonical-active-fiber-path/1/54422c7b658789ff",
+          "journeys": [
+            {
+              "nodes": [
+                "AGG-LENTEKHI",
+                "224",
+                "223",
+                "222",
+                "221",
+                "220",
+                "219",
+                "218",
+                "217",
+                "216",
+                "206",
+                "205",
+                "5"
+              ],
+              "legs": [
+                "CAB-000184/F2",
+                "CAB-000180/F2",
+                "CAB-000179/F2",
+                "CAB-000178/F2",
+                "CAB-000177/F2",
+                "CAB-000176/F2",
+                "CAB-000174/F2",
+                "CAB-000172/F2",
+                "CAB-000171/F2",
+                "CAB-000169/F2",
+                "CAB-000150/F146",
+                "CAB-000148/F146"
+              ],
+              "remaps": [
+                "C169/F02 → C150/F146",
+                "C150/F146 → C148/F146"
+              ],
+              "stops": [
+                "port",
+                "no_transition"
+              ]
+            }
+          ],
+          "bindings": [
+            {
+              "id": "PTB-LENTEKHI-P02-C184-F02",
+              "label": "ლენტეხის აგრეგაცია / Port 2",
+              "ownerType": "odf",
+              "ownerId": "ODF-LENTEKHI-01",
+              "portNumber": 2,
+              "occupancy": "unknown"
+            }
+          ],
+          "evidence": [
+            {
+              "shapeId": "17662",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03123",
+              "directLeg": "CAB-000148/F146"
+            },
+            {
+              "shapeId": "19308",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03097",
+              "directLeg": "CAB-000150/F146"
+            },
+            {
+              "shapeId": "33805",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03127",
+              "directLeg": "CAB-000169/F2"
+            },
+            {
+              "shapeId": "38539",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03098",
+              "directLeg": "CAB-000169/F2"
+            },
+            {
+              "shapeId": "38869",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02154",
+              "directLeg": "CAB-000148/F146"
+            },
+            {
+              "shapeId": "25662",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02329",
+              "directLeg": "CAB-000148/F146"
+            },
+            {
+              "shapeId": "37551",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03098",
+              "directLeg": "CAB-000169/F2"
+            },
+            {
+              "shapeId": "17662",
+              "file": "Tsageri-Lentekhi 2025.vsdx",
+              "claimId": "28E-USE-03099",
+              "directLeg": "CAB-000184/F2"
+            },
+            {
+              "shapeId": "37551",
+              "file": "Tsageri-Lentekhi 2025.vsdx",
+              "claimId": "28E-USE-03099",
+              "directLeg": "CAB-000184/F2"
+            },
+            {
+              "shapeId": "38539",
+              "file": "Tsageri-Lentekhi 2025.vsdx",
+              "claimId": "28E-USE-03099",
+              "directLeg": "CAB-000184/F2"
+            }
+          ]
+        },
+        {
+          "id": "ORG-STRAND-opennet-07a9c141f7d128ef",
+          "representative": {
+            "segmentId": "CAB-000148",
+            "fiberNumber": 145
+          },
+          "memberLegs": [
+            "CAB-000148/F145",
+            "CAB-000150/F145",
+            "CAB-000169/F1",
+            "CAB-000171/F1",
+            "CAB-000172/F1",
+            "CAB-000174/F1",
+            "CAB-000176/F1",
+            "CAB-000177/F1",
+            "CAB-000178/F1",
+            "CAB-000179/F1",
+            "CAB-000180/F1",
+            "CAB-000184/F1"
+          ],
+          "status": "ზუსტი პორტის მიბმა დაუდგენელია",
+          "pathSignature": "canonical-active-fiber-path/1/62fabcedf8d30f99",
+          "journeys": [
+            {
+              "nodes": [
+                "AGG-LENTEKHI",
+                "224",
+                "223",
+                "222",
+                "221",
+                "220",
+                "219",
+                "218",
+                "217",
+                "216",
+                "206",
+                "205",
+                "5"
+              ],
+              "legs": [
+                "CAB-000184/F1",
+                "CAB-000180/F1",
+                "CAB-000179/F1",
+                "CAB-000178/F1",
+                "CAB-000177/F1",
+                "CAB-000176/F1",
+                "CAB-000174/F1",
+                "CAB-000172/F1",
+                "CAB-000171/F1",
+                "CAB-000169/F1",
+                "CAB-000150/F145",
+                "CAB-000148/F145"
+              ],
+              "remaps": [
+                "C169/F01 → C150/F145",
+                "C150/F145 → C148/F145"
+              ],
+              "stops": [
+                "port",
+                "no_transition"
+              ]
+            }
+          ],
+          "bindings": [
+            {
+              "id": "PTB-LENTEKHI-P01-C184-F01",
+              "label": "ლენტეხის აგრეგაცია / Port 1",
+              "ownerType": "odf",
+              "ownerId": "ODF-LENTEKHI-01",
+              "portNumber": 1,
+              "occupancy": "unknown"
+            }
+          ],
+          "evidence": [
+            {
+              "shapeId": "17661",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03122",
+              "directLeg": "CAB-000148/F145"
+            },
+            {
+              "shapeId": "19307",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03093",
+              "directLeg": "CAB-000150/F145"
+            },
+            {
+              "shapeId": "33804",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03126",
+              "directLeg": "CAB-000169/F1"
+            },
+            {
+              "shapeId": "38538",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03094",
+              "directLeg": "CAB-000169/F1"
+            },
+            {
+              "shapeId": "38868",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02153",
+              "directLeg": "CAB-000148/F145"
+            },
+            {
+              "shapeId": "25552",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02328",
+              "directLeg": "CAB-000148/F145"
+            },
+            {
+              "shapeId": "37550",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03094",
+              "directLeg": "CAB-000169/F1"
+            },
+            {
+              "shapeId": "17661",
+              "file": "Tsageri-Lentekhi 2025.vsdx",
+              "claimId": "28E-USE-03095",
+              "directLeg": "CAB-000184/F1"
+            },
+            {
+              "shapeId": "37550",
+              "file": "Tsageri-Lentekhi 2025.vsdx",
+              "claimId": "28E-USE-03095",
+              "directLeg": "CAB-000184/F1"
+            },
+            {
+              "shapeId": "38538",
+              "file": "Tsageri-Lentekhi 2025.vsdx",
+              "claimId": "28E-USE-03095",
+              "directLeg": "CAB-000184/F1"
+            }
+          ]
+        },
+        {
+          "id": "ORG-STRAND-opennet-0a13f9d35482a94b",
+          "representative": {
+            "segmentId": "CAB-000148",
+            "fiberNumber": 129
+          },
+          "memberLegs": [
+            "CAB-000148/F129",
+            "CAB-000149/F1"
+          ],
+          "status": "ზუსტი პორტის მიბმა დაუდგენელია",
+          "pathSignature": "canonical-active-fiber-path/1/f3f3e9910934862d",
+          "journeys": [
+            {
+              "nodes": [
+                "5",
+                "205",
+                "41"
+              ],
+              "legs": [
+                "CAB-000148/F129",
+                "CAB-000149/F1"
+              ],
+              "remaps": [
+                "C148/F129 → C149/F01"
+              ],
+              "stops": [
+                "no_transition",
+                "port"
+              ]
+            }
+          ],
+          "bindings": [
+            {
+              "id": "PTB-AP41-P01-C149-F01",
+              "label": "AP41 / Port 1",
+              "ownerType": "ap",
+              "ownerId": "41",
+              "portNumber": 1,
+              "occupancy": "in_use"
+            }
+          ],
+          "evidence": [
+            {
+              "shapeId": "17645",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00177",
+              "directLeg": "CAB-000148/F129"
+            },
+            {
+              "shapeId": "38852",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02137",
+              "directLeg": "CAB-000148/F129"
+            },
+            {
+              "shapeId": "32949",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02348",
+              "directLeg": "CAB-000148/F129"
+            },
+            {
+              "shapeId": "12436",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02360",
+              "directLeg": "CAB-000149/F1"
+            },
+            {
+              "shapeId": "12448",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02372",
+              "directLeg": "CAB-000149/F1"
+            }
+          ]
+        },
+        {
+          "id": "ORG-STRAND-opennet-12027b712aedcdbf",
+          "representative": {
+            "segmentId": "CAB-000148",
+            "fiberNumber": 151
+          },
+          "memberLegs": [
+            "CAB-000148/F151",
+            "CAB-000150/F151",
+            "CAB-000169/F7",
+            "CAB-000171/F7",
+            "CAB-000172/F7",
+            "CAB-000174/F7",
+            "CAB-000176/F7",
+            "CAB-000177/F7",
+            "CAB-000178/F7",
+            "CAB-000179/F7",
+            "CAB-000180/F7",
+            "CAB-000184/F7"
+          ],
+          "status": "ზუსტი პორტის მიბმა დაუდგენელია",
+          "pathSignature": "canonical-active-fiber-path/1/8bc3876a93e82cdc",
+          "journeys": [
+            {
+              "nodes": [
+                "AGG-LENTEKHI",
+                "224",
+                "223",
+                "222",
+                "221",
+                "220",
+                "219",
+                "218",
+                "217",
+                "216",
+                "206",
+                "205",
+                "5"
+              ],
+              "legs": [
+                "CAB-000184/F7",
+                "CAB-000180/F7",
+                "CAB-000179/F7",
+                "CAB-000178/F7",
+                "CAB-000177/F7",
+                "CAB-000176/F7",
+                "CAB-000174/F7",
+                "CAB-000172/F7",
+                "CAB-000171/F7",
+                "CAB-000169/F7",
+                "CAB-000150/F151",
+                "CAB-000148/F151"
+              ],
+              "remaps": [
+                "C169/F07 → C150/F151",
+                "C150/F151 → C148/F151"
+              ],
+              "stops": [
+                "port",
+                "no_transition"
+              ]
+            }
+          ],
+          "bindings": [
+            {
+              "id": "PTB-LENTEKHI-P07-C184-F07",
+              "label": "ლენტეხის აგრეგაცია / Port 7",
+              "ownerType": "odf",
+              "ownerId": "ODF-LENTEKHI-01",
+              "portNumber": 7,
+              "occupancy": "unknown"
+            }
+          ],
+          "evidence": [
+            {
+              "shapeId": "17667",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00199",
+              "directLeg": "CAB-000148/F151"
+            },
+            {
+              "shapeId": "19313",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00391",
+              "directLeg": "CAB-000150/F151"
+            },
+            {
+              "shapeId": "33810",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01924",
+              "directLeg": "CAB-000169/F7"
+            },
+            {
+              "shapeId": "38544",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01972",
+              "directLeg": "CAB-000150/F151"
+            },
+            {
+              "shapeId": "38874",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02159",
+              "directLeg": "CAB-000148/F151"
+            },
+            {
+              "shapeId": "32935",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02334",
+              "directLeg": "CAB-000148/F151"
+            }
+          ]
+        },
+        {
+          "id": "ORG-STRAND-opennet-249cd1f095f1e690",
+          "representative": {
+            "segmentId": "CAB-000148",
+            "fiberNumber": 130
+          },
+          "memberLegs": [
+            "CAB-000148/F130",
+            "CAB-000149/F2"
+          ],
+          "status": "ზუსტი პორტის მიბმა დაუდგენელია",
+          "pathSignature": "canonical-active-fiber-path/1/3a421e12b77130c6",
+          "journeys": [
+            {
+              "nodes": [
+                "5",
+                "205",
+                "41"
+              ],
+              "legs": [
+                "CAB-000148/F130",
+                "CAB-000149/F2"
+              ],
+              "remaps": [
+                "C148/F130 → C149/F02"
+              ],
+              "stops": [
+                "no_transition",
+                "port"
+              ]
+            }
+          ],
+          "bindings": [
+            {
+              "id": "PTB-AP41-P02-C149-F02",
+              "label": "AP41 / Port 2",
+              "ownerType": "ap",
+              "ownerId": "41",
+              "portNumber": 2,
+              "occupancy": "in_use"
+            }
+          ],
+          "evidence": [
+            {
+              "shapeId": "17646",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00178",
+              "directLeg": "CAB-000148/F130"
+            },
+            {
+              "shapeId": "38853",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02138",
+              "directLeg": "CAB-000148/F130"
+            },
+            {
+              "shapeId": "32950",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02349",
+              "directLeg": "CAB-000148/F130"
+            },
+            {
+              "shapeId": "12437",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02361",
+              "directLeg": "CAB-000149/F2"
+            },
+            {
+              "shapeId": "12449",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02373",
+              "directLeg": "CAB-000149/F2"
+            }
+          ]
+        },
+        {
+          "id": "ORG-STRAND-opennet-266f58e3fbe31a63",
+          "representative": {
+            "segmentId": "CAB-000148",
+            "fiberNumber": 39
+          },
+          "memberLegs": [
+            "CAB-000148/F39",
+            "CAB-000150/F39",
+            "CAB-000151/F39",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F39",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F39",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F39",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F39",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F39"
+          ],
+          "status": "ზუსტი პორტის მიბმა დაუდგენელია",
+          "pathSignature": "canonical-active-fiber-path/1/172be31c39e94e38",
+          "journeys": [
+            {
+              "nodes": [
+                "5",
+                "205",
+                "206",
+                "207",
+                "208",
+                "209",
+                "210",
+                "211",
+                "212"
+              ],
+              "legs": [
+                "CAB-000148/F39",
+                "CAB-000150/F39",
+                "CAB-000151/F39",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F39",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F39",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F39",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F39",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F39"
+              ],
+              "remaps": [],
+              "stops": [
+                "no_transition",
+                "no_transition"
+              ]
+            }
+          ],
+          "bindings": [],
+          "evidence": [
+            {
+              "shapeId": "17555",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00087",
+              "directLeg": "CAB-000148/F39"
+            },
+            {
+              "shapeId": "19201",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00279",
+              "directLeg": "CAB-000150/F39"
+            },
+            {
+              "shapeId": "20307",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00471",
+              "directLeg": "CAB-000151/F39"
+            },
+            {
+              "shapeId": "20854",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00615",
+              "directLeg": "CAB-000151/F39"
+            },
+            {
+              "shapeId": "21579",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00758",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F39"
+            },
+            {
+              "shapeId": "24372",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00950",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F39"
+            },
+            {
+              "shapeId": "25340",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01094",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F39"
+            },
+            {
+              "shapeId": "26706",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01238",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F39"
+            },
+            {
+              "shapeId": "29229",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01478",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F39"
+            },
+            {
+              "shapeId": "33128",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01836",
+              "directLeg": "CAB-000150/F39"
+            },
+            {
+              "shapeId": "38918",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02201",
+              "directLeg": "CAB-000148/F39"
+            },
+            {
+              "shapeId": "14481",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02240",
+              "directLeg": "CAB-000148/F39"
+            },
+            {
+              "shapeId": "23879",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02458",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F39"
+            },
+            {
+              "shapeId": "24183",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02566",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F39"
+            },
+            {
+              "shapeId": "15891",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02662",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F39"
+            },
+            {
+              "shapeId": "27093",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02742",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F39"
+            },
+            {
+              "shapeId": "32967",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02794",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F39"
+            }
+          ]
+        },
+        {
+          "id": "ORG-STRAND-opennet-43a381c5b5e55c3f",
+          "representative": {
+            "segmentId": "CAB-000148",
+            "fiberNumber": 147
+          },
+          "memberLegs": [
+            "CAB-000148/F147",
+            "CAB-000150/F147",
+            "CAB-000169/F3",
+            "CAB-000171/F3",
+            "CAB-000172/F3",
+            "CAB-000174/F3",
+            "CAB-000176/F3",
+            "CAB-000177/F3",
+            "CAB-000178/F3",
+            "CAB-000179/F3",
+            "CAB-000180/F3",
+            "CAB-000184/F3"
+          ],
+          "status": "ზუსტი პორტის მიბმა დაუდგენელია",
+          "pathSignature": "canonical-active-fiber-path/1/495217fa3d9e0f76",
+          "journeys": [
+            {
+              "nodes": [
+                "AGG-LENTEKHI",
+                "224",
+                "223",
+                "222",
+                "221",
+                "220",
+                "219",
+                "218",
+                "217",
+                "216",
+                "206",
+                "205",
+                "5"
+              ],
+              "legs": [
+                "CAB-000184/F3",
+                "CAB-000180/F3",
+                "CAB-000179/F3",
+                "CAB-000178/F3",
+                "CAB-000177/F3",
+                "CAB-000176/F3",
+                "CAB-000174/F3",
+                "CAB-000172/F3",
+                "CAB-000171/F3",
+                "CAB-000169/F3",
+                "CAB-000150/F147",
+                "CAB-000148/F147"
+              ],
+              "remaps": [
+                "C169/F03 → C150/F147",
+                "C150/F147 → C148/F147"
+              ],
+              "stops": [
+                "port",
+                "no_transition"
+              ]
+            }
+          ],
+          "bindings": [
+            {
+              "id": "PTB-LENTEKHI-P03-C184-F03",
+              "label": "ლენტეხის აგრეგაცია / Port 3",
+              "ownerType": "odf",
+              "ownerId": "ODF-LENTEKHI-01",
+              "portNumber": 3,
+              "occupancy": "unknown"
+            }
+          ],
+          "evidence": [
+            {
+              "shapeId": "17663",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03124",
+              "directLeg": "CAB-000148/F147"
+            },
+            {
+              "shapeId": "19309",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03101",
+              "directLeg": "CAB-000150/F147"
+            },
+            {
+              "shapeId": "33806",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03128",
+              "directLeg": "CAB-000169/F3"
+            },
+            {
+              "shapeId": "38540",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03102",
+              "directLeg": "CAB-000169/F3"
+            },
+            {
+              "shapeId": "38870",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02155",
+              "directLeg": "CAB-000148/F147"
+            },
+            {
+              "shapeId": "32931",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02330",
+              "directLeg": "CAB-000148/F147"
+            },
+            {
+              "shapeId": "37552",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03102",
+              "directLeg": "CAB-000169/F3"
+            },
+            {
+              "shapeId": "17663",
+              "file": "Tsageri-Lentekhi 2025.vsdx",
+              "claimId": "28E-USE-03103",
+              "directLeg": "CAB-000184/F3"
+            },
+            {
+              "shapeId": "37552",
+              "file": "Tsageri-Lentekhi 2025.vsdx",
+              "claimId": "28E-USE-03103",
+              "directLeg": "CAB-000184/F3"
+            },
+            {
+              "shapeId": "38540",
+              "file": "Tsageri-Lentekhi 2025.vsdx",
+              "claimId": "28E-USE-03103",
+              "directLeg": "CAB-000184/F3"
+            }
+          ]
+        },
+        {
+          "id": "ORG-STRAND-opennet-4573ad5759f000b7",
+          "representative": {
+            "segmentId": "CAB-000148",
+            "fiberNumber": 70
+          },
+          "memberLegs": [
+            "CAB-000148/F70",
+            "CAB-000150/F70",
+            "CAB-000151/F70",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F70",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F70",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F70",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F70",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C160/F2"
+          ],
+          "status": "ზუსტი პორტის მიბმა დაუდგენელია",
+          "pathSignature": "canonical-active-fiber-path/1/590a57cff01427a5",
+          "journeys": [
+            {
+              "nodes": [
+                "5",
+                "205",
+                "206",
+                "207",
+                "208",
+                "209",
+                "210",
+                "211",
+                "46"
+              ],
+              "legs": [
+                "CAB-000148/F70",
+                "CAB-000150/F70",
+                "CAB-000151/F70",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F70",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F70",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F70",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F70",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C160/F2"
+              ],
+              "remaps": [
+                "C158/F70 → C160/F02"
+              ],
+              "stops": [
+                "no_transition",
+                "port"
+              ]
+            }
+          ],
+          "bindings": [
+            {
+              "id": "28D-SOURCE-B-AP46-P2",
+              "label": "AP46 / Port 2",
+              "ownerType": "ap",
+              "ownerId": "46",
+              "portNumber": 2,
+              "occupancy": "in_use"
+            }
+          ],
+          "evidence": [
+            {
+              "shapeId": "17586",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00118",
+              "directLeg": "CAB-000148/F70"
+            },
+            {
+              "shapeId": "19232",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00310",
+              "directLeg": "CAB-000150/F70"
+            },
+            {
+              "shapeId": "20338",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00502",
+              "directLeg": "CAB-000151/F70"
+            },
+            {
+              "shapeId": "20885",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00646",
+              "directLeg": "CAB-000151/F70"
+            },
+            {
+              "shapeId": "21610",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00789",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F70"
+            },
+            {
+              "shapeId": "24403",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00981",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F70"
+            },
+            {
+              "shapeId": "25371",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01125",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F70"
+            },
+            {
+              "shapeId": "26737",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01269",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F70"
+            },
+            {
+              "shapeId": "26772",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01297",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C160/F2"
+            },
+            {
+              "shapeId": "26784",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01309",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C160/F2"
+            },
+            {
+              "shapeId": "33159",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01867",
+              "directLeg": "CAB-000150/F70"
+            },
+            {
+              "shapeId": "38793",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02078",
+              "directLeg": "CAB-000148/F70"
+            },
+            {
+              "shapeId": "15033",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02271",
+              "directLeg": "CAB-000148/F70"
+            },
+            {
+              "shapeId": "23910",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02489",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F70"
+            },
+            {
+              "shapeId": "24214",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02597",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F70"
+            },
+            {
+              "shapeId": "15922",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02693",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F70"
+            },
+            {
+              "shapeId": "32974",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02773",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F70"
+            }
+          ]
+        },
+        {
+          "id": "ORG-STRAND-opennet-54ba908c6fbe7ddc",
+          "representative": {
+            "segmentId": "CAB-000148",
+            "fiberNumber": 69
+          },
+          "memberLegs": [
+            "CAB-000148/F69",
+            "CAB-000150/F69",
+            "CAB-000151/F69",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F69",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F69",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F69",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F69",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C160/F1"
+          ],
+          "status": "ზუსტი პორტის მიბმა დაუდგენელია",
+          "pathSignature": "canonical-active-fiber-path/1/241872edcdb1aed7",
+          "journeys": [
+            {
+              "nodes": [
+                "5",
+                "205",
+                "206",
+                "207",
+                "208",
+                "209",
+                "210",
+                "211",
+                "46"
+              ],
+              "legs": [
+                "CAB-000148/F69",
+                "CAB-000150/F69",
+                "CAB-000151/F69",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F69",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F69",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F69",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F69",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C160/F1"
+              ],
+              "remaps": [
+                "C158/F69 → C160/F01"
+              ],
+              "stops": [
+                "no_transition",
+                "port"
+              ]
+            }
+          ],
+          "bindings": [
+            {
+              "id": "28D-SOURCE-B-AP46-P1",
+              "label": "AP46 / Port 1",
+              "ownerType": "ap",
+              "ownerId": "46",
+              "portNumber": 1,
+              "occupancy": "in_use"
+            }
+          ],
+          "evidence": [
+            {
+              "shapeId": "17585",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00117",
+              "directLeg": "CAB-000148/F69"
+            },
+            {
+              "shapeId": "19231",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00309",
+              "directLeg": "CAB-000150/F69"
+            },
+            {
+              "shapeId": "20337",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00501",
+              "directLeg": "CAB-000151/F69"
+            },
+            {
+              "shapeId": "20884",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00645",
+              "directLeg": "CAB-000151/F69"
+            },
+            {
+              "shapeId": "21609",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00788",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F69"
+            },
+            {
+              "shapeId": "24402",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00980",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F69"
+            },
+            {
+              "shapeId": "25370",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01124",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F69"
+            },
+            {
+              "shapeId": "26736",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01268",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F69"
+            },
+            {
+              "shapeId": "26771",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01296",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C160/F1"
+            },
+            {
+              "shapeId": "26783",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01308",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C160/F1"
+            },
+            {
+              "shapeId": "33158",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01866",
+              "directLeg": "CAB-000150/F69"
+            },
+            {
+              "shapeId": "38792",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02077",
+              "directLeg": "CAB-000148/F69"
+            },
+            {
+              "shapeId": "15032",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02270",
+              "directLeg": "CAB-000148/F69"
+            },
+            {
+              "shapeId": "23909",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02488",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F69"
+            },
+            {
+              "shapeId": "24213",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02596",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F69"
+            },
+            {
+              "shapeId": "15921",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02692",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F69"
+            },
+            {
+              "shapeId": "32973",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02772",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F69"
+            }
+          ]
+        },
+        {
+          "id": "ORG-STRAND-opennet-64354eaf5eb740a5",
+          "representative": {
+            "segmentId": "CAB-000148",
+            "fiberNumber": 2
+          },
+          "memberLegs": [
+            "CAB-000148/F2",
+            "CAB-000150/F2",
+            "CAB-000151/F2",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F2",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F2",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F2",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F2",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F2",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C164/F14",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C166/F14",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C167/F14",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C168/F2"
+          ],
+          "status": "ზუსტი პორტის მიბმა დაუდგენელია",
+          "pathSignature": "canonical-active-fiber-path/1/8e754faf72c6d5d3",
+          "journeys": [
+            {
+              "nodes": [
+                "5",
+                "205",
+                "206",
+                "207",
+                "208",
+                "209",
+                "210",
+                "211",
+                "212",
+                "213",
+                "214",
+                "215",
+                "49"
+              ],
+              "legs": [
+                "CAB-000148/F2",
+                "CAB-000150/F2",
+                "CAB-000151/F2",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F2",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F2",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F2",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F2",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F2",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C164/F14",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C166/F14",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C167/F14",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C168/F2"
+              ],
+              "remaps": [
+                "C161/F02 → C164/F14",
+                "C167/F14 → C168/F02"
+              ],
+              "stops": [
+                "no_transition",
+                "port"
+              ]
+            }
+          ],
+          "bindings": [
+            {
+              "id": "28D-SOURCE-B-AP49-P2",
+              "label": "AP49 / Port 2",
+              "ownerType": "ap",
+              "ownerId": "49",
+              "portNumber": 2,
+              "occupancy": "in_use"
+            }
+          ],
+          "evidence": [
+            {
+              "shapeId": "17518",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00050",
+              "directLeg": "CAB-000148/F2"
+            },
+            {
+              "shapeId": "19164",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00242",
+              "directLeg": "CAB-000150/F2"
+            },
+            {
+              "shapeId": "20270",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00434",
+              "directLeg": "CAB-000151/F2"
+            },
+            {
+              "shapeId": "20817",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00578",
+              "directLeg": "CAB-000151/F2"
+            },
+            {
+              "shapeId": "21542",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00721",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F2"
+            },
+            {
+              "shapeId": "24335",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00913",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F2"
+            },
+            {
+              "shapeId": "25303",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01057",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F2"
+            },
+            {
+              "shapeId": "26669",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01201",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F2"
+            },
+            {
+              "shapeId": "29192",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01441",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F2"
+            },
+            {
+              "shapeId": "29745",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01573",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C164/F14"
+            },
+            {
+              "shapeId": "29646",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01619",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C166/F14"
+            },
+            {
+              "shapeId": "30205",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01667",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C166/F14"
+            },
+            {
+              "shapeId": "30984",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01703",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C168/F2"
+            },
+            {
+              "shapeId": "30996",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01715",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C168/F2"
+            },
+            {
+              "shapeId": "31129",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01763",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C167/F14"
+            },
+            {
+              "shapeId": "20753",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01799",
+              "directLeg": "CAB-000150/F2"
+            },
+            {
+              "shapeId": "38726",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02011",
+              "directLeg": "CAB-000148/F2"
+            },
+            {
+              "shapeId": "14220",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02203",
+              "directLeg": "CAB-000148/F2"
+            },
+            {
+              "shapeId": "15788",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02421",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F2"
+            },
+            {
+              "shapeId": "24146",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02529",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F2"
+            },
+            {
+              "shapeId": "15854",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02625",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F2"
+            },
+            {
+              "shapeId": "27048",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02705",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F2"
+            },
+            {
+              "shapeId": "28611",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02833",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C164/F14"
+            },
+            {
+              "shapeId": "31060",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02856",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C167/F14"
+            },
+            {
+              "shapeId": "41030",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03077",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F2"
+            }
+          ]
+        },
+        {
+          "id": "ORG-STRAND-opennet-932cb579b77c36c7",
+          "representative": {
+            "segmentId": "CAB-000148",
+            "fiberNumber": 148
+          },
+          "memberLegs": [
+            "CAB-000148/F148",
+            "CAB-000150/F148",
+            "CAB-000169/F4",
+            "CAB-000171/F4",
+            "CAB-000172/F4",
+            "CAB-000174/F4",
+            "CAB-000176/F4",
+            "CAB-000177/F4",
+            "CAB-000178/F4",
+            "CAB-000179/F4",
+            "CAB-000180/F4",
+            "CAB-000184/F4"
+          ],
+          "status": "ზუსტი პორტის მიბმა დაუდგენელია",
+          "pathSignature": "canonical-active-fiber-path/1/1c1dea104d6b2dec",
+          "journeys": [
+            {
+              "nodes": [
+                "AGG-LENTEKHI",
+                "224",
+                "223",
+                "222",
+                "221",
+                "220",
+                "219",
+                "218",
+                "217",
+                "216",
+                "206",
+                "205",
+                "5"
+              ],
+              "legs": [
+                "CAB-000184/F4",
+                "CAB-000180/F4",
+                "CAB-000179/F4",
+                "CAB-000178/F4",
+                "CAB-000177/F4",
+                "CAB-000176/F4",
+                "CAB-000174/F4",
+                "CAB-000172/F4",
+                "CAB-000171/F4",
+                "CAB-000169/F4",
+                "CAB-000150/F148",
+                "CAB-000148/F148"
+              ],
+              "remaps": [
+                "C169/F04 → C150/F148",
+                "C150/F148 → C148/F148"
+              ],
+              "stops": [
+                "port",
+                "no_transition"
+              ]
+            }
+          ],
+          "bindings": [
+            {
+              "id": "PTB-LENTEKHI-P04-C184-F04",
+              "label": "ლენტეხის აგრეგაცია / Port 4",
+              "ownerType": "odf",
+              "ownerId": "ODF-LENTEKHI-01",
+              "portNumber": 4,
+              "occupancy": "unknown"
+            }
+          ],
+          "evidence": [
+            {
+              "shapeId": "17664",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03125",
+              "directLeg": "CAB-000148/F148"
+            },
+            {
+              "shapeId": "19310",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03105",
+              "directLeg": "CAB-000150/F148"
+            },
+            {
+              "shapeId": "33807",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03129",
+              "directLeg": "CAB-000169/F4"
+            },
+            {
+              "shapeId": "38541",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03106",
+              "directLeg": "CAB-000169/F4"
+            },
+            {
+              "shapeId": "38871",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02156",
+              "directLeg": "CAB-000148/F148"
+            },
+            {
+              "shapeId": "32932",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02331",
+              "directLeg": "CAB-000148/F148"
+            },
+            {
+              "shapeId": "37553",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03106",
+              "directLeg": "CAB-000169/F4"
+            },
+            {
+              "shapeId": "17664",
+              "file": "Tsageri-Lentekhi 2025.vsdx",
+              "claimId": "28E-USE-03107",
+              "directLeg": "CAB-000184/F4"
+            },
+            {
+              "shapeId": "37553",
+              "file": "Tsageri-Lentekhi 2025.vsdx",
+              "claimId": "28E-USE-03107",
+              "directLeg": "CAB-000184/F4"
+            },
+            {
+              "shapeId": "38541",
+              "file": "Tsageri-Lentekhi 2025.vsdx",
+              "claimId": "28E-USE-03107",
+              "directLeg": "CAB-000184/F4"
+            }
+          ]
+        },
+        {
+          "id": "ORG-STRAND-opennet-984ec9d34cad0bab",
+          "representative": {
+            "segmentId": "CAB-000148",
+            "fiberNumber": 40
+          },
+          "memberLegs": [
+            "CAB-000148/F40",
+            "CAB-000150/F40",
+            "CAB-000151/F40",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F40",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F40",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F40",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F40",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F40"
+          ],
+          "status": "ზუსტი პორტის მიბმა დაუდგენელია",
+          "pathSignature": "canonical-active-fiber-path/1/217830489e17dcf8",
+          "journeys": [
+            {
+              "nodes": [
+                "5",
+                "205",
+                "206",
+                "207",
+                "208",
+                "209",
+                "210",
+                "211",
+                "212"
+              ],
+              "legs": [
+                "CAB-000148/F40",
+                "CAB-000150/F40",
+                "CAB-000151/F40",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F40",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F40",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F40",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F40",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F40"
+              ],
+              "remaps": [],
+              "stops": [
+                "no_transition",
+                "no_transition"
+              ]
+            }
+          ],
+          "bindings": [],
+          "evidence": [
+            {
+              "shapeId": "17556",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00088",
+              "directLeg": "CAB-000148/F40"
+            },
+            {
+              "shapeId": "19202",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00280",
+              "directLeg": "CAB-000150/F40"
+            },
+            {
+              "shapeId": "20308",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00472",
+              "directLeg": "CAB-000151/F40"
+            },
+            {
+              "shapeId": "20855",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00616",
+              "directLeg": "CAB-000151/F40"
+            },
+            {
+              "shapeId": "21580",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00759",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F40"
+            },
+            {
+              "shapeId": "24373",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00951",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F40"
+            },
+            {
+              "shapeId": "25341",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01095",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F40"
+            },
+            {
+              "shapeId": "26707",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01239",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F40"
+            },
+            {
+              "shapeId": "29230",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01479",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F40"
+            },
+            {
+              "shapeId": "33129",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01837",
+              "directLeg": "CAB-000150/F40"
+            },
+            {
+              "shapeId": "38763",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02048",
+              "directLeg": "CAB-000148/F40"
+            },
+            {
+              "shapeId": "14482",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02241",
+              "directLeg": "CAB-000148/F40"
+            },
+            {
+              "shapeId": "23880",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02459",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F40"
+            },
+            {
+              "shapeId": "24184",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02567",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F40"
+            },
+            {
+              "shapeId": "15892",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02663",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F40"
+            },
+            {
+              "shapeId": "27094",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02743",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F40"
+            },
+            {
+              "shapeId": "32968",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02795",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F40"
+            }
+          ]
+        },
+        {
+          "id": "ORG-STRAND-opennet-a217cbf502a763e3",
+          "representative": {
+            "segmentId": "CAB-000148",
+            "fiberNumber": 61
+          },
+          "memberLegs": [
+            "CAB-000148/F61",
+            "CAB-000150/F61",
+            "CAB-000151/F61",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F61",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F61",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F61",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F61",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F61",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C162/F1"
+          ],
+          "status": "ზუსტი პორტის მიბმა დაუდგენელია",
+          "pathSignature": "canonical-active-fiber-path/1/856d9375491ddd73",
+          "journeys": [
+            {
+              "nodes": [
+                "5",
+                "205",
+                "206",
+                "207",
+                "208",
+                "209",
+                "210",
+                "211",
+                "212",
+                "47"
+              ],
+              "legs": [
+                "CAB-000148/F61",
+                "CAB-000150/F61",
+                "CAB-000151/F61",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F61",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F61",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F61",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F61",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F61",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C162/F1"
+              ],
+              "remaps": [
+                "C161/F61 → C162/F01"
+              ],
+              "stops": [
+                "no_transition",
+                "port"
+              ]
+            }
+          ],
+          "bindings": [
+            {
+              "id": "28D-SOURCE-B-AP47-P1",
+              "label": "AP47 / Port 1",
+              "ownerType": "ap",
+              "ownerId": "47",
+              "portNumber": 1,
+              "occupancy": "in_use"
+            }
+          ],
+          "evidence": [
+            {
+              "shapeId": "17577",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00109",
+              "directLeg": "CAB-000148/F61"
+            },
+            {
+              "shapeId": "19223",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00301",
+              "directLeg": "CAB-000150/F61"
+            },
+            {
+              "shapeId": "20329",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00493",
+              "directLeg": "CAB-000151/F61"
+            },
+            {
+              "shapeId": "20876",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00637",
+              "directLeg": "CAB-000151/F61"
+            },
+            {
+              "shapeId": "21601",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00780",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F61"
+            },
+            {
+              "shapeId": "24394",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00972",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F61"
+            },
+            {
+              "shapeId": "25362",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01116",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F61"
+            },
+            {
+              "shapeId": "26728",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01260",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F61"
+            },
+            {
+              "shapeId": "28526",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01392",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C162/F1"
+            },
+            {
+              "shapeId": "28538",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01404",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C162/F1"
+            },
+            {
+              "shapeId": "29251",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01500",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F61"
+            },
+            {
+              "shapeId": "33150",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01858",
+              "directLeg": "CAB-000150/F61"
+            },
+            {
+              "shapeId": "38784",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02069",
+              "directLeg": "CAB-000148/F61"
+            },
+            {
+              "shapeId": "15024",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02262",
+              "directLeg": "CAB-000148/F61"
+            },
+            {
+              "shapeId": "23901",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02480",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F61"
+            },
+            {
+              "shapeId": "24205",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02588",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F61"
+            },
+            {
+              "shapeId": "15913",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02684",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F61"
+            },
+            {
+              "shapeId": "27115",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02764",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F61"
+            },
+            {
+              "shapeId": "33001",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02816",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F61"
+            }
+          ]
+        },
+        {
+          "id": "ORG-STRAND-opennet-ab80878a74a713f0",
+          "representative": {
+            "segmentId": "CAB-000148",
+            "fiberNumber": 62
+          },
+          "memberLegs": [
+            "CAB-000148/F62",
+            "CAB-000150/F62",
+            "CAB-000151/F62",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F62",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F62",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F62",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F62",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F62",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C162/F2"
+          ],
+          "status": "ზუსტი პორტის მიბმა დაუდგენელია",
+          "pathSignature": "canonical-active-fiber-path/1/fd3a5d72d481bdfa",
+          "journeys": [
+            {
+              "nodes": [
+                "5",
+                "205",
+                "206",
+                "207",
+                "208",
+                "209",
+                "210",
+                "211",
+                "212",
+                "47"
+              ],
+              "legs": [
+                "CAB-000148/F62",
+                "CAB-000150/F62",
+                "CAB-000151/F62",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F62",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F62",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F62",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F62",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F62",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C162/F2"
+              ],
+              "remaps": [
+                "C161/F62 → C162/F02"
+              ],
+              "stops": [
+                "no_transition",
+                "port"
+              ]
+            }
+          ],
+          "bindings": [
+            {
+              "id": "28D-SOURCE-B-AP47-P2",
+              "label": "AP47 / Port 2",
+              "ownerType": "ap",
+              "ownerId": "47",
+              "portNumber": 2,
+              "occupancy": "in_use"
+            }
+          ],
+          "evidence": [
+            {
+              "shapeId": "17578",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00110",
+              "directLeg": "CAB-000148/F62"
+            },
+            {
+              "shapeId": "19224",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00302",
+              "directLeg": "CAB-000150/F62"
+            },
+            {
+              "shapeId": "20330",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00494",
+              "directLeg": "CAB-000151/F62"
+            },
+            {
+              "shapeId": "20877",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00638",
+              "directLeg": "CAB-000151/F62"
+            },
+            {
+              "shapeId": "21602",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00781",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F62"
+            },
+            {
+              "shapeId": "24395",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00973",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F62"
+            },
+            {
+              "shapeId": "25363",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01117",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F62"
+            },
+            {
+              "shapeId": "26729",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01261",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F62"
+            },
+            {
+              "shapeId": "28527",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01393",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C162/F2"
+            },
+            {
+              "shapeId": "28539",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01405",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C162/F2"
+            },
+            {
+              "shapeId": "29252",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01501",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F62"
+            },
+            {
+              "shapeId": "33151",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01859",
+              "directLeg": "CAB-000150/F62"
+            },
+            {
+              "shapeId": "38785",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02070",
+              "directLeg": "CAB-000148/F62"
+            },
+            {
+              "shapeId": "15025",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02263",
+              "directLeg": "CAB-000148/F62"
+            },
+            {
+              "shapeId": "23902",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02481",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F62"
+            },
+            {
+              "shapeId": "24206",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02589",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F62"
+            },
+            {
+              "shapeId": "15914",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02685",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F62"
+            },
+            {
+              "shapeId": "27116",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02765",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F62"
+            },
+            {
+              "shapeId": "33002",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02817",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F62"
+            }
+          ]
+        },
+        {
+          "id": "ORG-STRAND-opennet-d7e92aaba340d923",
+          "representative": {
+            "segmentId": "CAB-000148",
+            "fiberNumber": 37
+          },
+          "memberLegs": [
+            "CAB-000148/F37",
+            "CAB-000150/F37",
+            "CAB-000151/F37",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F37",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F37",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F37",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F37",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F37"
+          ],
+          "status": "ზუსტი პორტის მიბმა დაუდგენელია",
+          "pathSignature": "canonical-active-fiber-path/1/201973b5add8fdbd",
+          "journeys": [
+            {
+              "nodes": [
+                "5",
+                "205",
+                "206",
+                "207",
+                "208",
+                "209",
+                "210",
+                "211",
+                "212"
+              ],
+              "legs": [
+                "CAB-000148/F37",
+                "CAB-000150/F37",
+                "CAB-000151/F37",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F37",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F37",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F37",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F37",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F37"
+              ],
+              "remaps": [],
+              "stops": [
+                "no_transition",
+                "no_transition"
+              ]
+            }
+          ],
+          "bindings": [],
+          "evidence": [
+            {
+              "shapeId": "17553",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00085",
+              "directLeg": "CAB-000148/F37"
+            },
+            {
+              "shapeId": "19199",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00277",
+              "directLeg": "CAB-000150/F37"
+            },
+            {
+              "shapeId": "20305",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00469",
+              "directLeg": "CAB-000151/F37"
+            },
+            {
+              "shapeId": "20852",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00613",
+              "directLeg": "CAB-000151/F37"
+            },
+            {
+              "shapeId": "21577",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00756",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F37"
+            },
+            {
+              "shapeId": "24370",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-00948",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F37"
+            },
+            {
+              "shapeId": "25338",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01092",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F37"
+            },
+            {
+              "shapeId": "26704",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01236",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F37"
+            },
+            {
+              "shapeId": "29227",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01476",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F37"
+            },
+            {
+              "shapeId": "33126",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01834",
+              "directLeg": "CAB-000150/F37"
+            },
+            {
+              "shapeId": "38761",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02046",
+              "directLeg": "CAB-000148/F37"
+            },
+            {
+              "shapeId": "14463",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02238",
+              "directLeg": "CAB-000148/F37"
+            },
+            {
+              "shapeId": "23877",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02456",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F37"
+            },
+            {
+              "shapeId": "24181",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02564",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F37"
+            },
+            {
+              "shapeId": "15889",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02660",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F37"
+            },
+            {
+              "shapeId": "27091",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02740",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F37"
+            },
+            {
+              "shapeId": "32965",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02792",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F37"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "magti",
+      "name": "Magti",
+      "aliases": [
+        "მაგთი",
+        "მაგთიკომი"
+      ],
+      "legs": [
+        "CAB-000148/F20",
+        "CAB-000150/F20",
+        "CAB-000151/F20",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F20",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F20",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F20",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F20",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F20",
+        "CAB-000148/F21",
+        "CAB-000150/F21",
+        "CAB-000151/F21",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F21",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F21",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F21",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F21",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F21",
+        "CAB-000148/F152",
+        "CAB-000150/F152",
+        "CAB-000169/F8",
+        "CAB-000171/F8",
+        "CAB-000172/F8",
+        "CAB-000174/F8",
+        "CAB-000176/F8",
+        "CAB-000177/F8",
+        "CAB-000178/F8",
+        "CAB-000179/F8",
+        "CAB-000180/F8",
+        "CAB-000184/F8",
+        "CAB-000148/F149",
+        "CAB-000150/F149",
+        "CAB-000169/F5",
+        "CAB-000171/F5",
+        "CAB-000172/F5",
+        "CAB-000174/F5",
+        "CAB-000176/F5",
+        "CAB-000177/F5",
+        "CAB-000178/F5",
+        "CAB-000179/F5",
+        "CAB-000180/F5",
+        "CAB-000184/F5"
+      ],
+      "cableIds": [
+        "CAB-000148",
+        "CAB-000150",
+        "CAB-000151",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+        "CAB-000169",
+        "CAB-000171",
+        "CAB-000172",
+        "CAB-000174",
+        "CAB-000176",
+        "CAB-000177",
+        "CAB-000178",
+        "CAB-000179",
+        "CAB-000180",
+        "CAB-000184"
+      ],
+      "apIds": [],
+      "portBindingIds": [
+        "PTB-LENTEKHI-P08-C184-F08",
+        "PTB-LENTEKHI-P05-C184-F05"
+      ],
+      "strands": [
+        {
+          "id": "ORG-STRAND-magti-2c8b171b8413659b",
+          "representative": {
+            "segmentId": "CAB-000148",
+            "fiberNumber": 20
+          },
+          "memberLegs": [
+            "CAB-000148/F20",
+            "CAB-000150/F20",
+            "CAB-000151/F20",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F20",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F20",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F20",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F20",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F20"
+          ],
+          "status": "ზუსტი პორტის მიბმა დაუდგენელია",
+          "pathSignature": "canonical-active-fiber-path/1/5abeaa08e27223e0",
+          "journeys": [
+            {
+              "nodes": [
+                "5",
+                "205",
+                "206",
+                "207",
+                "208",
+                "209",
+                "210",
+                "211",
+                "212"
+              ],
+              "legs": [
+                "CAB-000148/F20",
+                "CAB-000150/F20",
+                "CAB-000151/F20",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F20",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F20",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F20",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F20",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F20"
+              ],
+              "remaps": [],
+              "stops": [
+                "no_transition",
+                "no_transition"
+              ]
+            }
+          ],
+          "bindings": [],
+          "evidence": [
+            {
+              "shapeId": "17536",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02221",
+              "directLeg": "CAB-000148/F20"
+            },
+            {
+              "shapeId": "29210",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03063",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F20"
+            },
+            {
+              "shapeId": "40999",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03063",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F20"
+            },
+            {
+              "shapeId": "38744",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02029",
+              "directLeg": "CAB-000148/F20"
+            },
+            {
+              "shapeId": "14238",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02221",
+              "directLeg": "CAB-000148/F20"
+            }
+          ]
+        },
+        {
+          "id": "ORG-STRAND-magti-6788d8c9b6ea8bf7",
+          "representative": {
+            "segmentId": "CAB-000148",
+            "fiberNumber": 21
+          },
+          "memberLegs": [
+            "CAB-000148/F21",
+            "CAB-000150/F21",
+            "CAB-000151/F21",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F21",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F21",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F21",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F21",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F21"
+          ],
+          "status": "ზუსტი პორტის მიბმა დაუდგენელია",
+          "pathSignature": "canonical-active-fiber-path/1/d55c418c350a83b4",
+          "journeys": [
+            {
+              "nodes": [
+                "5",
+                "205",
+                "206",
+                "207",
+                "208",
+                "209",
+                "210",
+                "211",
+                "212"
+              ],
+              "legs": [
+                "CAB-000148/F21",
+                "CAB-000150/F21",
+                "CAB-000151/F21",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152/F21",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154/F21",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156/F21",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158/F21",
+                "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F21"
+              ],
+              "remaps": [],
+              "stops": [
+                "no_transition",
+                "no_transition"
+              ]
+            }
+          ],
+          "bindings": [],
+          "evidence": [
+            {
+              "shapeId": "17537",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02222",
+              "directLeg": "CAB-000148/F21"
+            },
+            {
+              "shapeId": "29211",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03064",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F21"
+            },
+            {
+              "shapeId": "41000",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03064",
+              "directLeg": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161/F21"
+            },
+            {
+              "shapeId": "38745",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02030",
+              "directLeg": "CAB-000148/F21"
+            },
+            {
+              "shapeId": "14239",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02222",
+              "directLeg": "CAB-000148/F21"
+            }
+          ]
+        },
+        {
+          "id": "ORG-STRAND-magti-9088bad5295966f7",
+          "representative": {
+            "segmentId": "CAB-000148",
+            "fiberNumber": 152
+          },
+          "memberLegs": [
+            "CAB-000148/F152",
+            "CAB-000150/F152",
+            "CAB-000169/F8",
+            "CAB-000171/F8",
+            "CAB-000172/F8",
+            "CAB-000174/F8",
+            "CAB-000176/F8",
+            "CAB-000177/F8",
+            "CAB-000178/F8",
+            "CAB-000179/F8",
+            "CAB-000180/F8",
+            "CAB-000184/F8"
+          ],
+          "status": "ზუსტი პორტის მიბმა დაუდგენელია",
+          "pathSignature": "canonical-active-fiber-path/1/74b1925fe55fc3eb",
+          "journeys": [
+            {
+              "nodes": [
+                "AGG-LENTEKHI",
+                "224",
+                "223",
+                "222",
+                "221",
+                "220",
+                "219",
+                "218",
+                "217",
+                "216",
+                "206",
+                "205",
+                "5"
+              ],
+              "legs": [
+                "CAB-000184/F8",
+                "CAB-000180/F8",
+                "CAB-000179/F8",
+                "CAB-000178/F8",
+                "CAB-000177/F8",
+                "CAB-000176/F8",
+                "CAB-000174/F8",
+                "CAB-000172/F8",
+                "CAB-000171/F8",
+                "CAB-000169/F8",
+                "CAB-000150/F152",
+                "CAB-000148/F152"
+              ],
+              "remaps": [
+                "C169/F08 → C150/F152",
+                "C150/F152 → C148/F152"
+              ],
+              "stops": [
+                "port",
+                "no_transition"
+              ]
+            }
+          ],
+          "bindings": [
+            {
+              "id": "PTB-LENTEKHI-P08-C184-F08",
+              "label": "ლენტეხის აგრეგაცია / Port 8",
+              "ownerType": "odf",
+              "ownerId": "ODF-LENTEKHI-01",
+              "portNumber": 8,
+              "occupancy": "unknown"
+            }
+          ],
+          "evidence": [
+            {
+              "shapeId": "17668",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03090",
+              "directLeg": "CAB-000169/F8"
+            },
+            {
+              "shapeId": "33811",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03090",
+              "directLeg": "CAB-000169/F8"
+            },
+            {
+              "shapeId": "38875",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02160",
+              "directLeg": "CAB-000148/F152"
+            },
+            {
+              "shapeId": "32936",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02335",
+              "directLeg": "CAB-000148/F152"
+            },
+            {
+              "shapeId": "37557",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03090",
+              "directLeg": "CAB-000169/F8"
+            },
+            {
+              "shapeId": "38545",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03090",
+              "directLeg": "CAB-000169/F8"
+            },
+            {
+              "shapeId": "19314",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03089",
+              "directLeg": "CAB-000150/F152"
+            },
+            {
+              "shapeId": "17668",
+              "file": "Tsageri-Lentekhi 2025.vsdx",
+              "claimId": "28E-USE-03091",
+              "directLeg": "CAB-000184/F8"
+            },
+            {
+              "shapeId": "37557",
+              "file": "Tsageri-Lentekhi 2025.vsdx",
+              "claimId": "28E-USE-03091",
+              "directLeg": "CAB-000184/F8"
+            },
+            {
+              "shapeId": "38545",
+              "file": "Tsageri-Lentekhi 2025.vsdx",
+              "claimId": "28E-USE-03091",
+              "directLeg": "CAB-000184/F8"
+            }
+          ]
+        },
+        {
+          "id": "ORG-STRAND-magti-cae7c89902e37617",
+          "representative": {
+            "segmentId": "CAB-000148",
+            "fiberNumber": 149
+          },
+          "memberLegs": [
+            "CAB-000148/F149",
+            "CAB-000150/F149",
+            "CAB-000169/F5",
+            "CAB-000171/F5",
+            "CAB-000172/F5",
+            "CAB-000174/F5",
+            "CAB-000176/F5",
+            "CAB-000177/F5",
+            "CAB-000178/F5",
+            "CAB-000179/F5",
+            "CAB-000180/F5",
+            "CAB-000184/F5"
+          ],
+          "status": "ზუსტი პორტის მიბმა დაუდგენელია",
+          "pathSignature": "canonical-active-fiber-path/1/724d97031490f88f",
+          "journeys": [
+            {
+              "nodes": [
+                "AGG-LENTEKHI",
+                "224",
+                "223",
+                "222",
+                "221",
+                "220",
+                "219",
+                "218",
+                "217",
+                "216",
+                "206",
+                "205",
+                "5"
+              ],
+              "legs": [
+                "CAB-000184/F5",
+                "CAB-000180/F5",
+                "CAB-000179/F5",
+                "CAB-000178/F5",
+                "CAB-000177/F5",
+                "CAB-000176/F5",
+                "CAB-000174/F5",
+                "CAB-000172/F5",
+                "CAB-000171/F5",
+                "CAB-000169/F5",
+                "CAB-000150/F149",
+                "CAB-000148/F149"
+              ],
+              "remaps": [
+                "C169/F05 → C150/F149",
+                "C150/F149 → C148/F149"
+              ],
+              "stops": [
+                "port",
+                "no_transition"
+              ]
+            }
+          ],
+          "bindings": [
+            {
+              "id": "PTB-LENTEKHI-P05-C184-F05",
+              "label": "ლენტეხის აგრეგაცია / Port 5",
+              "ownerType": "odf",
+              "ownerId": "ODF-LENTEKHI-01",
+              "portNumber": 5,
+              "occupancy": "unknown"
+            }
+          ],
+          "evidence": [
+            {
+              "shapeId": "17665",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03086",
+              "directLeg": "CAB-000169/F5"
+            },
+            {
+              "shapeId": "33808",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03086",
+              "directLeg": "CAB-000169/F5"
+            },
+            {
+              "shapeId": "38872",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02157",
+              "directLeg": "CAB-000148/F149"
+            },
+            {
+              "shapeId": "32933",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02332",
+              "directLeg": "CAB-000148/F149"
+            },
+            {
+              "shapeId": "37554",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03086",
+              "directLeg": "CAB-000169/F5"
+            },
+            {
+              "shapeId": "38542",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03086",
+              "directLeg": "CAB-000169/F5"
+            },
+            {
+              "shapeId": "19311",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03085",
+              "directLeg": "CAB-000150/F149"
+            },
+            {
+              "shapeId": "17665",
+              "file": "Tsageri-Lentekhi 2025.vsdx",
+              "claimId": "28E-USE-03087",
+              "directLeg": "CAB-000184/F5"
+            },
+            {
+              "shapeId": "37554",
+              "file": "Tsageri-Lentekhi 2025.vsdx",
+              "claimId": "28E-USE-03087",
+              "directLeg": "CAB-000184/F5"
+            },
+            {
+              "shapeId": "38542",
+              "file": "Tsageri-Lentekhi 2025.vsdx",
+              "claimId": "28E-USE-03087",
+              "directLeg": "CAB-000184/F5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silknet",
+      "name": "Silknet",
+      "aliases": [
+        "სილქნეტი"
+      ],
+      "legs": [
+        "CAB-000184/F10",
+        "CAB-000180/F10",
+        "CAB-000179/F10",
+        "CAB-000178/F10",
+        "CAB-000177/F10",
+        "CAB-000176/F10",
+        "CAB-000174/F10",
+        "CAB-000172/F10",
+        "CAB-000169/F12",
+        "CAB-000150/F156",
+        "CAB-000148/F156",
+        "CAB-000171/F12",
+        "CAB-000148/F154",
+        "CAB-000150/F154",
+        "CAB-000169/F10",
+        "CAB-000171/F10",
+        "CAB-000148/F155",
+        "CAB-000150/F155",
+        "CAB-000169/F11",
+        "CAB-000171/F11",
+        "CAB-000172/F11",
+        "CAB-000174/F11",
+        "CAB-000176/F11",
+        "CAB-000177/F11",
+        "CAB-000178/F11",
+        "CAB-000179/F11",
+        "CAB-000180/F11",
+        "CAB-000184/F11"
+      ],
+      "cableIds": [
+        "CAB-000184",
+        "CAB-000180",
+        "CAB-000179",
+        "CAB-000178",
+        "CAB-000177",
+        "CAB-000176",
+        "CAB-000174",
+        "CAB-000172",
+        "CAB-000169",
+        "CAB-000150",
+        "CAB-000148",
+        "CAB-000171"
+      ],
+      "apIds": [],
+      "portBindingIds": [
+        "PTB-LENTEKHI-P10-C184-F10",
+        "PTB-LENTEKHI-P11-C184-F11"
+      ],
+      "strands": [
+        {
+          "id": "ORG-STRAND-silknet-1877730fce941ad3",
+          "representative": {
+            "segmentId": "CAB-000184",
+            "fiberNumber": 10
+          },
+          "memberLegs": [
+            "CAB-000184/F10",
+            "CAB-000180/F10",
+            "CAB-000179/F10",
+            "CAB-000178/F10",
+            "CAB-000177/F10",
+            "CAB-000176/F10",
+            "CAB-000174/F10",
+            "CAB-000172/F10"
+          ],
+          "status": "ნაწილობრივი ცნობილი გზა",
+          "pathSignature": "canonical-active-fiber-path/1/7d6f392e5aa034c6",
+          "journeys": [
+            {
+              "nodes": [
+                "AGG-LENTEKHI",
+                "224",
+                "223",
+                "222",
+                "221",
+                "220",
+                "219",
+                "218",
+                "217"
+              ],
+              "legs": [
+                "CAB-000184/F10",
+                "CAB-000180/F10",
+                "CAB-000179/F10",
+                "CAB-000178/F10",
+                "CAB-000177/F10",
+                "CAB-000176/F10",
+                "CAB-000174/F10",
+                "CAB-000172/F10"
+              ],
+              "remaps": [],
+              "stops": [
+                "port",
+                "no_transition"
+              ]
+            }
+          ],
+          "bindings": [
+            {
+              "id": "PTB-LENTEKHI-P10-C184-F10",
+              "label": "ლენტეხის აგრეგაცია / Port 10",
+              "ownerType": "odf",
+              "ownerId": "ODF-LENTEKHI-01",
+              "portNumber": 10,
+              "occupancy": "unknown"
+            }
+          ],
+          "evidence": [
+            {
+              "shapeId": "37559",
+              "file": "Tsageri-Lentekhi 2025.vsdx",
+              "claimId": "28E-USE-03115",
+              "directLeg": "CAB-000184/F10"
+            }
+          ]
+        },
+        {
+          "id": "ORG-STRAND-silknet-7b09d3ff064fafed",
+          "representative": {
+            "segmentId": "CAB-000169",
+            "fiberNumber": 12
+          },
+          "memberLegs": [
+            "CAB-000169/F12",
+            "CAB-000150/F156",
+            "CAB-000148/F156",
+            "CAB-000171/F12"
+          ],
+          "status": "ზუსტი პორტის მიბმა დაუდგენელია",
+          "pathSignature": "canonical-active-fiber-path/1/0692f56b3e40414d",
+          "journeys": [
+            {
+              "nodes": [
+                "5",
+                "205",
+                "206",
+                "216",
+                "217"
+              ],
+              "legs": [
+                "CAB-000148/F156",
+                "CAB-000150/F156",
+                "CAB-000169/F12",
+                "CAB-000171/F12"
+              ],
+              "remaps": [
+                "C148/F156 → C150/F156",
+                "C150/F156 → C169/F12"
+              ],
+              "stops": [
+                "no_transition",
+                "no_transition"
+              ]
+            }
+          ],
+          "bindings": [],
+          "evidence": [
+            {
+              "shapeId": "33815",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-01929",
+              "directLeg": "CAB-000169/F12"
+            }
+          ]
+        },
+        {
+          "id": "ORG-STRAND-silknet-8ec71e1b0f7fbdc5",
+          "representative": {
+            "segmentId": "CAB-000148",
+            "fiberNumber": 154
+          },
+          "memberLegs": [
+            "CAB-000148/F154",
+            "CAB-000150/F154",
+            "CAB-000169/F10",
+            "CAB-000171/F10"
+          ],
+          "status": "ზუსტი პორტის მიბმა დაუდგენელია",
+          "pathSignature": "canonical-active-fiber-path/1/1e2040d757f360d3",
+          "journeys": [
+            {
+              "nodes": [
+                "5",
+                "205",
+                "206",
+                "216",
+                "217"
+              ],
+              "legs": [
+                "CAB-000148/F154",
+                "CAB-000150/F154",
+                "CAB-000169/F10",
+                "CAB-000171/F10"
+              ],
+              "remaps": [
+                "C148/F154 → C150/F154",
+                "C150/F154 → C169/F10"
+              ],
+              "stops": [
+                "no_transition",
+                "no_transition"
+              ]
+            }
+          ],
+          "bindings": [],
+          "evidence": [
+            {
+              "shapeId": "17670",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03110",
+              "directLeg": "CAB-000169/F10"
+            },
+            {
+              "shapeId": "33813",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03110",
+              "directLeg": "CAB-000169/F10"
+            },
+            {
+              "shapeId": "38877",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02162",
+              "directLeg": "CAB-000148/F154"
+            },
+            {
+              "shapeId": "32938",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02337",
+              "directLeg": "CAB-000148/F154"
+            },
+            {
+              "shapeId": "38547",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03110",
+              "directLeg": "CAB-000169/F10"
+            },
+            {
+              "shapeId": "19316",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03109",
+              "directLeg": "CAB-000150/F154"
+            }
+          ]
+        },
+        {
+          "id": "ORG-STRAND-silknet-a64c92d9d2b7a6d7",
+          "representative": {
+            "segmentId": "CAB-000148",
+            "fiberNumber": 155
+          },
+          "memberLegs": [
+            "CAB-000148/F155",
+            "CAB-000150/F155",
+            "CAB-000169/F11",
+            "CAB-000171/F11",
+            "CAB-000172/F11",
+            "CAB-000174/F11",
+            "CAB-000176/F11",
+            "CAB-000177/F11",
+            "CAB-000178/F11",
+            "CAB-000179/F11",
+            "CAB-000180/F11",
+            "CAB-000184/F11"
+          ],
+          "status": "ზუსტი პორტის მიბმა დაუდგენელია",
+          "pathSignature": "canonical-active-fiber-path/1/993833bf93a5c58d",
+          "journeys": [
+            {
+              "nodes": [
+                "AGG-LENTEKHI",
+                "224",
+                "223",
+                "222",
+                "221",
+                "220",
+                "219",
+                "218",
+                "217",
+                "216",
+                "206",
+                "205",
+                "5"
+              ],
+              "legs": [
+                "CAB-000184/F11",
+                "CAB-000180/F11",
+                "CAB-000179/F11",
+                "CAB-000178/F11",
+                "CAB-000177/F11",
+                "CAB-000176/F11",
+                "CAB-000174/F11",
+                "CAB-000172/F11",
+                "CAB-000171/F11",
+                "CAB-000169/F11",
+                "CAB-000150/F155",
+                "CAB-000148/F155"
+              ],
+              "remaps": [
+                "C169/F11 → C150/F155",
+                "C150/F155 → C148/F155"
+              ],
+              "stops": [
+                "port",
+                "no_transition"
+              ]
+            }
+          ],
+          "bindings": [
+            {
+              "id": "PTB-LENTEKHI-P11-C184-F11",
+              "label": "ლენტეხის აგრეგაცია / Port 11",
+              "ownerType": "odf",
+              "ownerId": "ODF-LENTEKHI-01",
+              "portNumber": 11,
+              "occupancy": "unknown"
+            }
+          ],
+          "evidence": [
+            {
+              "shapeId": "17671",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03113",
+              "directLeg": "CAB-000169/F11"
+            },
+            {
+              "shapeId": "33814",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03113",
+              "directLeg": "CAB-000169/F11"
+            },
+            {
+              "shapeId": "38878",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02163",
+              "directLeg": "CAB-000148/F155"
+            },
+            {
+              "shapeId": "32939",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02338",
+              "directLeg": "CAB-000148/F155"
+            },
+            {
+              "shapeId": "37560",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03113",
+              "directLeg": "CAB-000169/F11"
+            },
+            {
+              "shapeId": "38548",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03113",
+              "directLeg": "CAB-000169/F11"
+            },
+            {
+              "shapeId": "19317",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03112",
+              "directLeg": "CAB-000150/F155"
+            },
+            {
+              "shapeId": "17671",
+              "file": "Tsageri-Lentekhi 2025.vsdx",
+              "claimId": "28E-USE-03114",
+              "directLeg": "CAB-000184/F11"
+            },
+            {
+              "shapeId": "37560",
+              "file": "Tsageri-Lentekhi 2025.vsdx",
+              "claimId": "28E-USE-03114",
+              "directLeg": "CAB-000184/F11"
+            },
+            {
+              "shapeId": "38548",
+              "file": "Tsageri-Lentekhi 2025.vsdx",
+              "claimId": "28E-USE-03114",
+              "directLeg": "CAB-000184/F11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skytel",
+      "name": "Skytel",
+      "aliases": [
+        "სქაიტელი",
+        "სკაიტელი"
+      ],
+      "legs": [
+        "CAB-000183/F3",
+        "CAB-000181/F3",
+        "CAB-000184/F35",
+        "CAB-000148/F156",
+        "CAB-000150/F156",
+        "CAB-000169/F12",
+        "CAB-000171/F12",
+        "CAB-000184/F12",
+        "CAB-000180/F12",
+        "CAB-000179/F12",
+        "CAB-000178/F12",
+        "CAB-000177/F12",
+        "CAB-000176/F12",
+        "CAB-000174/F12",
+        "CAB-000172/F12",
+        "CAB-000183/F4",
+        "CAB-000181/F4",
+        "CAB-000184/F36"
+      ],
+      "cableIds": [
+        "CAB-000183",
+        "CAB-000181",
+        "CAB-000184",
+        "CAB-000148",
+        "CAB-000150",
+        "CAB-000169",
+        "CAB-000171",
+        "CAB-000180",
+        "CAB-000179",
+        "CAB-000178",
+        "CAB-000177",
+        "CAB-000176",
+        "CAB-000174",
+        "CAB-000172"
+      ],
+      "apIds": [
+        "54"
+      ],
+      "portBindingIds": [
+        "PTB-LENTEKHI-P35-C184-F35",
+        "PTB-AP54-P03-C183-F03",
+        "PTB-LENTEKHI-P12-C184-F12",
+        "PTB-LENTEKHI-P36-C184-F36",
+        "PTB-AP54-P04-C183-F04"
+      ],
+      "strands": [
+        {
+          "id": "ORG-STRAND-skytel-364b2a668bd2d5bc",
+          "representative": {
+            "segmentId": "CAB-000183",
+            "fiberNumber": 3
+          },
+          "memberLegs": [
+            "CAB-000183/F3",
+            "CAB-000181/F3",
+            "CAB-000184/F35"
+          ],
+          "status": "წყაროთი მხარდაჭერილი ცნობილი გზა",
+          "pathSignature": "canonical-active-fiber-path/1/0844a351d0ce12ef",
+          "journeys": [
+            {
+              "nodes": [
+                "AGG-LENTEKHI",
+                "224",
+                "225",
+                "54"
+              ],
+              "legs": [
+                "CAB-000184/F35",
+                "CAB-000181/F3",
+                "CAB-000183/F3"
+              ],
+              "remaps": [
+                "C184/F35 → C181/F03"
+              ],
+              "stops": [
+                "port",
+                "port"
+              ]
+            }
+          ],
+          "bindings": [
+            {
+              "id": "PTB-LENTEKHI-P35-C184-F35",
+              "label": "ლენტეხის აგრეგაცია / Port 35",
+              "ownerType": "odf",
+              "ownerId": "ODF-LENTEKHI-01",
+              "portNumber": 35,
+              "occupancy": "unknown"
+            },
+            {
+              "id": "PTB-AP54-P03-C183-F03",
+              "label": "AP54 / Port 3",
+              "ownerType": "ap",
+              "ownerId": "54",
+              "portNumber": 3,
+              "occupancy": "unknown"
+            }
+          ],
+          "evidence": [
+            {
+              "shapeId": "37584",
+              "file": "Tsageri-Lentekhi 2025.vsdx",
+              "claimId": "28E-USE-03120",
+              "directLeg": "CAB-000183/F3"
+            },
+            {
+              "shapeId": "38318",
+              "file": "Tsageri-Lentekhi 2025.vsdx",
+              "claimId": "28E-USE-03120",
+              "directLeg": "CAB-000183/F3"
+            }
+          ]
+        },
+        {
+          "id": "ORG-STRAND-skytel-7b09d3ff064fafed",
+          "representative": {
+            "segmentId": "CAB-000148",
+            "fiberNumber": 156
+          },
+          "memberLegs": [
+            "CAB-000148/F156",
+            "CAB-000150/F156",
+            "CAB-000169/F12",
+            "CAB-000171/F12"
+          ],
+          "status": "ზუსტი პორტის მიბმა დაუდგენელია",
+          "pathSignature": "canonical-active-fiber-path/1/a83c89e724b7e8dd",
+          "journeys": [
+            {
+              "nodes": [
+                "5",
+                "205",
+                "206",
+                "216",
+                "217"
+              ],
+              "legs": [
+                "CAB-000148/F156",
+                "CAB-000150/F156",
+                "CAB-000169/F12",
+                "CAB-000171/F12"
+              ],
+              "remaps": [
+                "C148/F156 → C150/F156",
+                "C150/F156 → C169/F12"
+              ],
+              "stops": [
+                "no_transition",
+                "no_transition"
+              ]
+            }
+          ],
+          "bindings": [],
+          "evidence": [
+            {
+              "shapeId": "17672",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03118",
+              "directLeg": "CAB-000169/F12"
+            },
+            {
+              "shapeId": "38879",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02164",
+              "directLeg": "CAB-000148/F156"
+            },
+            {
+              "shapeId": "32940",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-02339",
+              "directLeg": "CAB-000148/F156"
+            },
+            {
+              "shapeId": "38549",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03118",
+              "directLeg": "CAB-000169/F12"
+            },
+            {
+              "shapeId": "19318",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03117",
+              "directLeg": "CAB-000150/F156"
+            },
+            {
+              "shapeId": "33815",
+              "file": "Tsageri-Alpana-Tvishi.vsdx",
+              "claimId": "28E-USE-03118",
+              "directLeg": "CAB-000169/F12"
+            }
+          ]
+        },
+        {
+          "id": "ORG-STRAND-skytel-8c52e40b9f96fc73",
+          "representative": {
+            "segmentId": "CAB-000184",
+            "fiberNumber": 12
+          },
+          "memberLegs": [
+            "CAB-000184/F12",
+            "CAB-000180/F12",
+            "CAB-000179/F12",
+            "CAB-000178/F12",
+            "CAB-000177/F12",
+            "CAB-000176/F12",
+            "CAB-000174/F12",
+            "CAB-000172/F12"
+          ],
+          "status": "ნაწილობრივი ცნობილი გზა",
+          "pathSignature": "canonical-active-fiber-path/1/198736773e1aed6b",
+          "journeys": [
+            {
+              "nodes": [
+                "AGG-LENTEKHI",
+                "224",
+                "223",
+                "222",
+                "221",
+                "220",
+                "219",
+                "218",
+                "217"
+              ],
+              "legs": [
+                "CAB-000184/F12",
+                "CAB-000180/F12",
+                "CAB-000179/F12",
+                "CAB-000178/F12",
+                "CAB-000177/F12",
+                "CAB-000176/F12",
+                "CAB-000174/F12",
+                "CAB-000172/F12"
+              ],
+              "remaps": [],
+              "stops": [
+                "port",
+                "no_transition"
+              ]
+            }
+          ],
+          "bindings": [
+            {
+              "id": "PTB-LENTEKHI-P12-C184-F12",
+              "label": "ლენტეხის აგრეგაცია / Port 12",
+              "ownerType": "odf",
+              "ownerId": "ODF-LENTEKHI-01",
+              "portNumber": 12,
+              "occupancy": "unknown"
+            }
+          ],
+          "evidence": [
+            {
+              "shapeId": "37561",
+              "file": "Tsageri-Lentekhi 2025.vsdx",
+              "claimId": "28E-USE-03119",
+              "directLeg": "CAB-000184/F12"
+            }
+          ]
+        },
+        {
+          "id": "ORG-STRAND-skytel-d4fa1a874565d54b",
+          "representative": {
+            "segmentId": "CAB-000183",
+            "fiberNumber": 4
+          },
+          "memberLegs": [
+            "CAB-000183/F4",
+            "CAB-000181/F4",
+            "CAB-000184/F36"
+          ],
+          "status": "წყაროთი მხარდაჭერილი ცნობილი გზა",
+          "pathSignature": "canonical-active-fiber-path/1/78657315b3e2c707",
+          "journeys": [
+            {
+              "nodes": [
+                "AGG-LENTEKHI",
+                "224",
+                "225",
+                "54"
+              ],
+              "legs": [
+                "CAB-000184/F36",
+                "CAB-000181/F4",
+                "CAB-000183/F4"
+              ],
+              "remaps": [
+                "C184/F36 → C181/F04"
+              ],
+              "stops": [
+                "port",
+                "port"
+              ]
+            }
+          ],
+          "bindings": [
+            {
+              "id": "PTB-LENTEKHI-P36-C184-F36",
+              "label": "ლენტეხის აგრეგაცია / Port 36",
+              "ownerType": "odf",
+              "ownerId": "ODF-LENTEKHI-01",
+              "portNumber": 36,
+              "occupancy": "unknown"
+            },
+            {
+              "id": "PTB-AP54-P04-C183-F04",
+              "label": "AP54 / Port 4",
+              "ownerType": "ap",
+              "ownerId": "54",
+              "portNumber": 4,
+              "occupancy": "unknown"
+            }
+          ],
+          "evidence": [
+            {
+              "shapeId": "37585",
+              "file": "Tsageri-Lentekhi 2025.vsdx",
+              "claimId": "28E-USE-03121",
+              "directLeg": "CAB-000183/F4"
+            },
+            {
+              "shapeId": "38317",
+              "file": "Tsageri-Lentekhi 2025.vsdx",
+              "claimId": "28E-USE-03121",
+              "directLeg": "CAB-000183/F4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+✔ 28L adds only the two source-backed SC217 pairs; repeated application is idempotent (33.3709ms)
+✔ 28L F10/F12 reach exact Lentekhi Ports from both ends through a real SC217 edge (158.9182ms)
+✔ 28L F11 is unchanged; unrelated genuine gaps, termination and remaps remain valid (229.7809ms)
+✔ 28L owner endpoint report does not become a fabricated owner-confirmed splice or overwritten use claim (16.7944ms)
+✔ 28L recomputes groups and search from corrected authority; no obsolete four-group rule (45.7248ms)
+✔ 28L corrections remain outside the immutable frozen V1 adapter (221.8704ms)
+✔ 28L never silently overrides a competing active SC217 interpretation (210.9673ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6658.2732

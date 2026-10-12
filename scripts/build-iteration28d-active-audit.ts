@@ -1,0 +1,17 @@
+import {writeFileSync,readFileSync,mkdirSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {repository,loadFrozenV1Reference} from '../src/data/repository';
+import {applyIteration27D} from '../src/domain/iteration27d';
+import {applyIteration28B} from '../src/domain/iteration28b';
+import {applyIteration28C} from '../src/domain/iteration28c';
+import {validateIteration28D,sourceBAPInventory} from '../src/domain/iteration28d';
+import {resolveCurrentFiberPath,validateCurrentFiberPaths} from '../src/domain/currentFiberPath';
+const before=applyIteration28C(applyIteration28B(applyIteration27D(await loadFrozenV1Reference()))),data=await repository.load();
+const hash=(x:unknown)=>createHash('sha256').update(JSON.stringify(x)).digest('hex');
+if(hash(data.nodeFiberTransitions)!==hash(before.nodeFiberTransitions)||hash(data.cables.map(c=>[c.id,c.endpointA,c.endpointB]))!==hash(before.cables.map(c=>[c.id,c.endpointA,c.endpointB])))throw Error('Certified topology mutation');
+if(JSON.stringify(data.portTopologyBindings?.filter(b=>!b.id.startsWith('28D-')))!==JSON.stringify(before.portTopologyBindings))throw Error('Source A Port binding mutation');
+const errors=[...validateCurrentFiberPaths(data),...validateIteration28D(data)];if(errors.length)throw Error(errors.join(';'));
+const changed=Object.values(data.fiberPathProjection!.paths).filter(p=>p.signature!==before.fiberPathProjection?.paths[p.cableId+':'+p.fiberNumber]?.signature);
+const c152=data.cables.find(c=>c.legacyCableId==='152')!,c153=data.cables.find(c=>c.legacyCableId==='153')!;
+const active={sourceSha256:sourceBAPInventory.sourceSha256,counts:{cables:data.cables.length,fibers:data.fibers.length,transitionRecords:data.nodeFiberTransitions!.length,newCanonicalAPPorts:data.apPorts!.length,newBindings:data.portTopologyBindings!.filter(p=>p.id.startsWith('28D-')).length,newNetworkUseAssignments:data.networkUseAssignments!.filter(u=>u.id.startsWith('SOURCE-B-')).length,currentLineages:data.currentFiberLineages!.length,changedEndpointPaths:changed.length,...data.fiberPathProjection!.counts},topologyRevision:data.fiberPathProjection!.topologyRevision,transitionDigest:hash(data.nodeFiberTransitions),priorTransitionDigest:hash(before.nodeFiberTransitions),frozenManifestSha256:createHash('sha256').update(readFileSync('reference/tsageri-lentekhi-v1.manifest.json')).digest('hex'),ap42Port1:resolveCurrentFiberPath(data,c153.id,1),f11:resolveCurrentFiberPath(data,c152.id,11),changedEndpointPaths:changed.map(p=>({cableId:p.cableId,fiberNumber:p.fiberNumber,signature:p.signature,stops:p.sides.map(s=>s.stop)})),errors};
+mkdirSync('migration/iteration28d',{recursive:true});writeFileSync('migration/iteration28d/active-projection-audit.json',JSON.stringify(active,null,2)+'\n');console.log(active.counts);

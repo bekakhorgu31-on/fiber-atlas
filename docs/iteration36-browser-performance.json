@@ -1,0 +1,966 @@
+{
+  "environment": "Windows / headless Edge / guarded local PostgreSQL 55432 / full audited Shida source; no CPU or network throttling",
+  "measurement": "Browser click event to explanation/drawing independently; two animation frames confirm painting. No concurrent full test suite.",
+  "ownerWrites": 0,
+  "samples": [
+    {
+      "width": 1440,
+      "pass": "first-visit",
+      "category": "fiber_port_binding_ambiguous",
+      "caseId": "SHIDA-REVIEW-2900cb948f6d65c8e3d083f2",
+      "explanationMs": 346.7999999523163,
+      "drawingMs": 887.0999999046326,
+      "listRequests": 0,
+      "evidenceRequests": 1,
+      "views": 1
+    },
+    {
+      "width": 1440,
+      "pass": "first-visit",
+      "category": "fiber_port_binding_ambiguous",
+      "caseId": "SHIDA-REVIEW-2480adeafc49ee523cbbe6c2",
+      "explanationMs": 334.5,
+      "drawingMs": 868.9000000953674,
+      "listRequests": 0,
+      "evidenceRequests": 1,
+      "views": 1
+    },
+    {
+      "width": 1440,
+      "pass": "first-visit",
+      "category": "fiber_port_binding_ambiguous",
+      "caseId": "SHIDA-REVIEW-c1d69fc937fb7bc43ececb45",
+      "explanationMs": 345.89999985694885,
+      "drawingMs": 884.7999999523163,
+      "listRequests": 0,
+      "evidenceRequests": 1,
+      "views": 1
+    },
+    {
+      "width": 1440,
+      "pass": "first-visit",
+      "category": "fiber_port_binding_ambiguous",
+      "caseId": "SHIDA-REVIEW-12ebe9e4b029009f0d6d1413",
+      "explanationMs": 339.19999980926514,
+      "drawingMs": 879.2999999523163,
+      "listRequests": 0,
+      "evidenceRequests": 1,
+      "views": 1
+    },
+    {
+      "width": 1440,
+      "pass": "first-visit",
+      "category": "fiber_port_binding_ambiguous",
+      "caseId": "SHIDA-REVIEW-be4caa942f61b083e560a69c",
+      "explanationMs": 337.7000000476837,
+      "drawingMs": 875.2000000476837,
+      "listRequests": 0,
+      "evidenceRequests": 1,
+      "views": 1
+    },
+    {
+      "width": 1440,
+      "pass": "first-visit",
+      "category": "source_conflict",
+      "caseId": "SHIDA-REVIEW-bcb71871d7b1dfe16b21b55e",
+      "explanationMs": 346,
+      "drawingMs": 889.5,
+      "listRequests": 0,
+      "evidenceRequests": 1,
+      "views": 2
+    },
+    {
+      "width": 1440,
+      "pass": "first-visit",
+      "category": "source_conflict",
+      "caseId": "SHIDA-REVIEW-089f0407c155faca4064b677",
+      "explanationMs": 334.7000000476837,
+      "drawingMs": 878.9000000953674,
+      "listRequests": 0,
+      "evidenceRequests": 1,
+      "views": 2
+    },
+    {
+      "width": 1440,
+      "pass": "first-visit",
+      "category": "source_conflict",
+      "caseId": "SHIDA-REVIEW-48e3c79607f154f522b6aa17",
+      "explanationMs": 331.5,
+      "drawingMs": 876.2999999523163,
+      "listRequests": 0,
+      "evidenceRequests": 1,
+      "views": 2
+    },
+    {
+      "width": 1440,
+      "pass": "first-visit",
+      "category": "source_conflict",
+      "caseId": "SHIDA-REVIEW-f19fb7dfc8dca080d4b007ba",
+      "explanationMs": 326.90000009536743,
+      "drawingMs": 865.2000000476837,
+      "listRequests": 0,
+      "evidenceRequests": 1,
+      "views": 2
+    },
+    {
+      "width": 1440,
+      "pass": "first-visit",
+      "category": "source_conflict",
+      "caseId": "SHIDA-REVIEW-e67e5867fa8a30e522b64d2a",
+      "explanationMs": 327.7999999523163,
+      "drawingMs": 870.4000000953674,
+      "listRequests": 0,
+      "evidenceRequests": 1,
+      "views": 2
+    },
+    {
+      "width": 1440,
+      "pass": "first-visit",
+      "category": "source_port_numbering",
+      "caseId": "SHIDA-REVIEW-a58db9519943144fd9523437",
+      "explanationMs": 350,
+      "drawingMs": 888,
+      "listRequests": 0,
+      "evidenceRequests": 1,
+      "views": 1
+    },
+    {
+      "width": 1440,
+      "pass": "first-visit",
+      "category": "source_port_numbering",
+      "caseId": "SHIDA-REVIEW-259e90b8e3fdcc7710845e17",
+      "explanationMs": 337.60000014305115,
+      "drawingMs": 875,
+      "listRequests": 0,
+      "evidenceRequests": 1,
+      "views": 1
+    },
+    {
+      "width": 1440,
+      "pass": "first-visit",
+      "category": "source_port_numbering",
+      "caseId": "SHIDA-REVIEW-a58db9519943144fd9523437",
+      "explanationMs": 337.2999999523163,
+      "drawingMs": 50.39999985694885,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 1
+    },
+    {
+      "width": 1440,
+      "pass": "first-visit",
+      "category": "source_port_numbering",
+      "caseId": "SHIDA-REVIEW-259e90b8e3fdcc7710845e17",
+      "explanationMs": 339.39999985694885,
+      "drawingMs": 50.19999980926514,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 1
+    },
+    {
+      "width": 1440,
+      "pass": "first-visit",
+      "category": "source_port_numbering",
+      "caseId": "SHIDA-REVIEW-a58db9519943144fd9523437",
+      "explanationMs": 321.40000009536743,
+      "drawingMs": 70.60000014305115,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 1
+    },
+    {
+      "width": 1440,
+      "pass": "first-visit",
+      "category": "source_representation_ambiguous",
+      "caseId": "SHIDA-REVIEW-9c9e72a25177a0d1b032fc3b",
+      "explanationMs": 346.59999990463257,
+      "drawingMs": 895.0999999046326,
+      "listRequests": 0,
+      "evidenceRequests": 1,
+      "views": 2
+    },
+    {
+      "width": 1440,
+      "pass": "first-visit",
+      "category": "source_representation_ambiguous",
+      "caseId": "SHIDA-REVIEW-9c9e72a25177a0d1b032fc3b",
+      "explanationMs": 49.90000009536743,
+      "drawingMs": 90.29999995231628,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 2
+    },
+    {
+      "width": 1440,
+      "pass": "first-visit",
+      "category": "source_representation_ambiguous",
+      "caseId": "SHIDA-REVIEW-9c9e72a25177a0d1b032fc3b",
+      "explanationMs": 46.5,
+      "drawingMs": 69.90000009536743,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 2
+    },
+    {
+      "width": 1440,
+      "pass": "first-visit",
+      "category": "source_representation_ambiguous",
+      "caseId": "SHIDA-REVIEW-9c9e72a25177a0d1b032fc3b",
+      "explanationMs": 54.09999990463257,
+      "drawingMs": 87.5,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 2
+    },
+    {
+      "width": 1440,
+      "pass": "first-visit",
+      "category": "source_representation_ambiguous",
+      "caseId": "SHIDA-REVIEW-9c9e72a25177a0d1b032fc3b",
+      "explanationMs": 47,
+      "drawingMs": 87,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 2
+    },
+    {
+      "width": 1440,
+      "pass": "cached-revisit",
+      "category": "fiber_port_binding_ambiguous",
+      "caseId": "SHIDA-REVIEW-2900cb948f6d65c8e3d083f2",
+      "explanationMs": 347.40000009536743,
+      "drawingMs": 70.30000019073486,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 1
+    },
+    {
+      "width": 1440,
+      "pass": "cached-revisit",
+      "category": "fiber_port_binding_ambiguous",
+      "caseId": "SHIDA-REVIEW-2480adeafc49ee523cbbe6c2",
+      "explanationMs": 340.7999999523163,
+      "drawingMs": 68.70000004768372,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 1
+    },
+    {
+      "width": 1440,
+      "pass": "cached-revisit",
+      "category": "fiber_port_binding_ambiguous",
+      "caseId": "SHIDA-REVIEW-c1d69fc937fb7bc43ececb45",
+      "explanationMs": 347.2999999523163,
+      "drawingMs": 69,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 1
+    },
+    {
+      "width": 1440,
+      "pass": "cached-revisit",
+      "category": "fiber_port_binding_ambiguous",
+      "caseId": "SHIDA-REVIEW-12ebe9e4b029009f0d6d1413",
+      "explanationMs": 349.40000009536743,
+      "drawingMs": 88.90000009536743,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 1
+    },
+    {
+      "width": 1440,
+      "pass": "cached-revisit",
+      "category": "fiber_port_binding_ambiguous",
+      "caseId": "SHIDA-REVIEW-be4caa942f61b083e560a69c",
+      "explanationMs": 351.5,
+      "drawingMs": 69.89999985694885,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 1
+    },
+    {
+      "width": 1440,
+      "pass": "cached-revisit",
+      "category": "source_conflict",
+      "caseId": "SHIDA-REVIEW-bcb71871d7b1dfe16b21b55e",
+      "explanationMs": 370.90000009536743,
+      "drawingMs": 89.30000019073486,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 2
+    },
+    {
+      "width": 1440,
+      "pass": "cached-revisit",
+      "category": "source_conflict",
+      "caseId": "SHIDA-REVIEW-089f0407c155faca4064b677",
+      "explanationMs": 277,
+      "drawingMs": 86.79999995231628,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 2
+    },
+    {
+      "width": 1440,
+      "pass": "cached-revisit",
+      "category": "source_conflict",
+      "caseId": "SHIDA-REVIEW-48e3c79607f154f522b6aa17",
+      "explanationMs": 343.10000014305115,
+      "drawingMs": 68.29999995231628,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 2
+    },
+    {
+      "width": 1440,
+      "pass": "cached-revisit",
+      "category": "source_conflict",
+      "caseId": "SHIDA-REVIEW-f19fb7dfc8dca080d4b007ba",
+      "explanationMs": 351.40000009536743,
+      "drawingMs": 69.40000009536743,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 2
+    },
+    {
+      "width": 1440,
+      "pass": "cached-revisit",
+      "category": "source_conflict",
+      "caseId": "SHIDA-REVIEW-e67e5867fa8a30e522b64d2a",
+      "explanationMs": 353.2999999523163,
+      "drawingMs": 68.5,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 2
+    },
+    {
+      "width": 1440,
+      "pass": "cached-revisit",
+      "category": "source_port_numbering",
+      "caseId": "SHIDA-REVIEW-a58db9519943144fd9523437",
+      "explanationMs": 338.90000009536743,
+      "drawingMs": 50.40000009536743,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 1
+    },
+    {
+      "width": 1440,
+      "pass": "cached-revisit",
+      "category": "source_port_numbering",
+      "caseId": "SHIDA-REVIEW-259e90b8e3fdcc7710845e17",
+      "explanationMs": 339.2000000476837,
+      "drawingMs": 51.200000047683716,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 1
+    },
+    {
+      "width": 1440,
+      "pass": "cached-revisit",
+      "category": "source_port_numbering",
+      "caseId": "SHIDA-REVIEW-a58db9519943144fd9523437",
+      "explanationMs": 340.2000000476837,
+      "drawingMs": 52.59999990463257,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 1
+    },
+    {
+      "width": 1440,
+      "pass": "cached-revisit",
+      "category": "source_port_numbering",
+      "caseId": "SHIDA-REVIEW-259e90b8e3fdcc7710845e17",
+      "explanationMs": 339.5,
+      "drawingMs": 50.5,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 1
+    },
+    {
+      "width": 1440,
+      "pass": "cached-revisit",
+      "category": "source_port_numbering",
+      "caseId": "SHIDA-REVIEW-a58db9519943144fd9523437",
+      "explanationMs": 328.09999990463257,
+      "drawingMs": 49.700000047683716,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 1
+    },
+    {
+      "width": 1440,
+      "pass": "cached-revisit",
+      "category": "source_representation_ambiguous",
+      "caseId": "SHIDA-REVIEW-9c9e72a25177a0d1b032fc3b",
+      "explanationMs": 372.5,
+      "drawingMs": 88.70000004768372,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 2
+    },
+    {
+      "width": 1440,
+      "pass": "cached-revisit",
+      "category": "source_representation_ambiguous",
+      "caseId": "SHIDA-REVIEW-9c9e72a25177a0d1b032fc3b",
+      "explanationMs": 46.700000047683716,
+      "drawingMs": 69.79999995231628,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 2
+    },
+    {
+      "width": 1440,
+      "pass": "cached-revisit",
+      "category": "source_representation_ambiguous",
+      "caseId": "SHIDA-REVIEW-9c9e72a25177a0d1b032fc3b",
+      "explanationMs": 45,
+      "drawingMs": 69.5,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 2
+    },
+    {
+      "width": 1440,
+      "pass": "cached-revisit",
+      "category": "source_representation_ambiguous",
+      "caseId": "SHIDA-REVIEW-9c9e72a25177a0d1b032fc3b",
+      "explanationMs": 40.700000047683716,
+      "drawingMs": 68.40000009536743,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 2
+    },
+    {
+      "width": 1440,
+      "pass": "cached-revisit",
+      "category": "source_representation_ambiguous",
+      "caseId": "SHIDA-REVIEW-9c9e72a25177a0d1b032fc3b",
+      "explanationMs": 43.200000047683716,
+      "drawingMs": 69.80000019073486,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 2
+    },
+    {
+      "width": 390,
+      "pass": "first-visit",
+      "category": "fiber_port_binding_ambiguous",
+      "caseId": "SHIDA-REVIEW-2900cb948f6d65c8e3d083f2",
+      "explanationMs": 238.69999980926514,
+      "drawingMs": 877.2999999523163,
+      "listRequests": 0,
+      "evidenceRequests": 1,
+      "views": 1
+    },
+    {
+      "width": 390,
+      "pass": "first-visit",
+      "category": "fiber_port_binding_ambiguous",
+      "caseId": "SHIDA-REVIEW-2480adeafc49ee523cbbe6c2",
+      "explanationMs": 343.2000000476837,
+      "drawingMs": 883,
+      "listRequests": 0,
+      "evidenceRequests": 1,
+      "views": 1
+    },
+    {
+      "width": 390,
+      "pass": "first-visit",
+      "category": "fiber_port_binding_ambiguous",
+      "caseId": "SHIDA-REVIEW-c1d69fc937fb7bc43ececb45",
+      "explanationMs": 236.70000004768372,
+      "drawingMs": 896.9000000953674,
+      "listRequests": 0,
+      "evidenceRequests": 1,
+      "views": 1
+    },
+    {
+      "width": 390,
+      "pass": "first-visit",
+      "category": "fiber_port_binding_ambiguous",
+      "caseId": "SHIDA-REVIEW-12ebe9e4b029009f0d6d1413",
+      "explanationMs": 345.59999990463257,
+      "drawingMs": 884.2000000476837,
+      "listRequests": 0,
+      "evidenceRequests": 1,
+      "views": 1
+    },
+    {
+      "width": 390,
+      "pass": "first-visit",
+      "category": "fiber_port_binding_ambiguous",
+      "caseId": "SHIDA-REVIEW-be4caa942f61b083e560a69c",
+      "explanationMs": 336.2000000476837,
+      "drawingMs": 879.0999999046326,
+      "listRequests": 0,
+      "evidenceRequests": 1,
+      "views": 1
+    },
+    {
+      "width": 390,
+      "pass": "first-visit",
+      "category": "source_conflict",
+      "caseId": "SHIDA-REVIEW-bcb71871d7b1dfe16b21b55e",
+      "explanationMs": 320.5,
+      "drawingMs": 866.5999999046326,
+      "listRequests": 0,
+      "evidenceRequests": 1,
+      "views": 2
+    },
+    {
+      "width": 390,
+      "pass": "first-visit",
+      "category": "source_conflict",
+      "caseId": "SHIDA-REVIEW-089f0407c155faca4064b677",
+      "explanationMs": 339.59999990463257,
+      "drawingMs": 881.7000000476837,
+      "listRequests": 0,
+      "evidenceRequests": 1,
+      "views": 2
+    },
+    {
+      "width": 390,
+      "pass": "first-visit",
+      "category": "source_conflict",
+      "caseId": "SHIDA-REVIEW-48e3c79607f154f522b6aa17",
+      "explanationMs": 348.90000009536743,
+      "drawingMs": 894.9000000953674,
+      "listRequests": 0,
+      "evidenceRequests": 1,
+      "views": 2
+    },
+    {
+      "width": 390,
+      "pass": "first-visit",
+      "category": "source_conflict",
+      "caseId": "SHIDA-REVIEW-f19fb7dfc8dca080d4b007ba",
+      "explanationMs": 320,
+      "drawingMs": 866.2999999523163,
+      "listRequests": 0,
+      "evidenceRequests": 1,
+      "views": 2
+    },
+    {
+      "width": 390,
+      "pass": "first-visit",
+      "category": "source_conflict",
+      "caseId": "SHIDA-REVIEW-e67e5867fa8a30e522b64d2a",
+      "explanationMs": 337.59999990463257,
+      "drawingMs": 880.0999999046326,
+      "listRequests": 0,
+      "evidenceRequests": 1,
+      "views": 2
+    },
+    {
+      "width": 390,
+      "pass": "first-visit",
+      "category": "source_port_numbering",
+      "caseId": "SHIDA-REVIEW-a58db9519943144fd9523437",
+      "explanationMs": 332.7000000476837,
+      "drawingMs": 874.7999999523163,
+      "listRequests": 0,
+      "evidenceRequests": 1,
+      "views": 1
+    },
+    {
+      "width": 390,
+      "pass": "first-visit",
+      "category": "source_port_numbering",
+      "caseId": "SHIDA-REVIEW-259e90b8e3fdcc7710845e17",
+      "explanationMs": 344.60000014305115,
+      "drawingMs": 881.7000000476837,
+      "listRequests": 0,
+      "evidenceRequests": 1,
+      "views": 1
+    },
+    {
+      "width": 390,
+      "pass": "first-visit",
+      "category": "source_port_numbering",
+      "caseId": "SHIDA-REVIEW-a58db9519943144fd9523437",
+      "explanationMs": 325,
+      "drawingMs": 70.5,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 1
+    },
+    {
+      "width": 390,
+      "pass": "first-visit",
+      "category": "source_port_numbering",
+      "caseId": "SHIDA-REVIEW-259e90b8e3fdcc7710845e17",
+      "explanationMs": 341.59999990463257,
+      "drawingMs": 51.299999952316284,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 1
+    },
+    {
+      "width": 390,
+      "pass": "first-visit",
+      "category": "source_port_numbering",
+      "caseId": "SHIDA-REVIEW-a58db9519943144fd9523437",
+      "explanationMs": 339.59999990463257,
+      "drawingMs": 52.39999985694885,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 1
+    },
+    {
+      "width": 390,
+      "pass": "first-visit",
+      "category": "source_representation_ambiguous",
+      "caseId": "SHIDA-REVIEW-9c9e72a25177a0d1b032fc3b",
+      "explanationMs": 331.2000000476837,
+      "drawingMs": 870.9000000953674,
+      "listRequests": 0,
+      "evidenceRequests": 1,
+      "views": 2
+    },
+    {
+      "width": 390,
+      "pass": "first-visit",
+      "category": "source_representation_ambiguous",
+      "caseId": "SHIDA-REVIEW-9c9e72a25177a0d1b032fc3b",
+      "explanationMs": 36.200000047683716,
+      "drawingMs": 68.70000004768372,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 2
+    },
+    {
+      "width": 390,
+      "pass": "first-visit",
+      "category": "source_representation_ambiguous",
+      "caseId": "SHIDA-REVIEW-9c9e72a25177a0d1b032fc3b",
+      "explanationMs": 46.299999952316284,
+      "drawingMs": 70.90000009536743,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 2
+    },
+    {
+      "width": 390,
+      "pass": "first-visit",
+      "category": "source_representation_ambiguous",
+      "caseId": "SHIDA-REVIEW-9c9e72a25177a0d1b032fc3b",
+      "explanationMs": 67,
+      "drawingMs": 90.29999995231628,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 2
+    },
+    {
+      "width": 390,
+      "pass": "first-visit",
+      "category": "source_representation_ambiguous",
+      "caseId": "SHIDA-REVIEW-9c9e72a25177a0d1b032fc3b",
+      "explanationMs": 41.799999952316284,
+      "drawingMs": 70.60000014305115,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 2
+    },
+    {
+      "width": 390,
+      "pass": "cached-revisit",
+      "category": "fiber_port_binding_ambiguous",
+      "caseId": "SHIDA-REVIEW-2900cb948f6d65c8e3d083f2",
+      "explanationMs": 240.10000014305115,
+      "drawingMs": 68.5,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 1
+    },
+    {
+      "width": 390,
+      "pass": "cached-revisit",
+      "category": "fiber_port_binding_ambiguous",
+      "caseId": "SHIDA-REVIEW-2480adeafc49ee523cbbe6c2",
+      "explanationMs": 332.90000009536743,
+      "drawingMs": 52.80000019073486,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 1
+    },
+    {
+      "width": 390,
+      "pass": "cached-revisit",
+      "category": "fiber_port_binding_ambiguous",
+      "caseId": "SHIDA-REVIEW-c1d69fc937fb7bc43ececb45",
+      "explanationMs": 328,
+      "drawingMs": 67.5,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 1
+    },
+    {
+      "width": 390,
+      "pass": "cached-revisit",
+      "category": "fiber_port_binding_ambiguous",
+      "caseId": "SHIDA-REVIEW-12ebe9e4b029009f0d6d1413",
+      "explanationMs": 340,
+      "drawingMs": 52,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 1
+    },
+    {
+      "width": 390,
+      "pass": "cached-revisit",
+      "category": "fiber_port_binding_ambiguous",
+      "caseId": "SHIDA-REVIEW-be4caa942f61b083e560a69c",
+      "explanationMs": 330.2000000476837,
+      "drawingMs": 89,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 1
+    },
+    {
+      "width": 390,
+      "pass": "cached-revisit",
+      "category": "source_conflict",
+      "caseId": "SHIDA-REVIEW-bcb71871d7b1dfe16b21b55e",
+      "explanationMs": 352.5,
+      "drawingMs": 69.5,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 2
+    },
+    {
+      "width": 390,
+      "pass": "cached-revisit",
+      "category": "source_conflict",
+      "caseId": "SHIDA-REVIEW-089f0407c155faca4064b677",
+      "explanationMs": 279.89999985694885,
+      "drawingMs": 108.69999980926514,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 2
+    },
+    {
+      "width": 390,
+      "pass": "cached-revisit",
+      "category": "source_conflict",
+      "caseId": "SHIDA-REVIEW-48e3c79607f154f522b6aa17",
+      "explanationMs": 324.2000000476837,
+      "drawingMs": 90.59999990463257,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 2
+    },
+    {
+      "width": 390,
+      "pass": "cached-revisit",
+      "category": "source_conflict",
+      "caseId": "SHIDA-REVIEW-f19fb7dfc8dca080d4b007ba",
+      "explanationMs": 263.5,
+      "drawingMs": 70.5,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 2
+    },
+    {
+      "width": 390,
+      "pass": "cached-revisit",
+      "category": "source_conflict",
+      "caseId": "SHIDA-REVIEW-e67e5867fa8a30e522b64d2a",
+      "explanationMs": 368.2000000476837,
+      "drawingMs": 88.39999985694885,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 2
+    },
+    {
+      "width": 390,
+      "pass": "cached-revisit",
+      "category": "source_port_numbering",
+      "caseId": "SHIDA-REVIEW-a58db9519943144fd9523437",
+      "explanationMs": 335.7999999523163,
+      "drawingMs": 52.89999985694885,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 1
+    },
+    {
+      "width": 390,
+      "pass": "cached-revisit",
+      "category": "source_port_numbering",
+      "caseId": "SHIDA-REVIEW-259e90b8e3fdcc7710845e17",
+      "explanationMs": 331.5,
+      "drawingMs": 89.70000004768372,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 1
+    },
+    {
+      "width": 390,
+      "pass": "cached-revisit",
+      "category": "source_port_numbering",
+      "caseId": "SHIDA-REVIEW-a58db9519943144fd9523437",
+      "explanationMs": 341.59999990463257,
+      "drawingMs": 51.799999952316284,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 1
+    },
+    {
+      "width": 390,
+      "pass": "cached-revisit",
+      "category": "source_port_numbering",
+      "caseId": "SHIDA-REVIEW-259e90b8e3fdcc7710845e17",
+      "explanationMs": 328.7000000476837,
+      "drawingMs": 71.79999995231628,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 1
+    },
+    {
+      "width": 390,
+      "pass": "cached-revisit",
+      "category": "source_port_numbering",
+      "caseId": "SHIDA-REVIEW-a58db9519943144fd9523437",
+      "explanationMs": 333.5,
+      "drawingMs": 52.09999990463257,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 1
+    },
+    {
+      "width": 390,
+      "pass": "cached-revisit",
+      "category": "source_representation_ambiguous",
+      "caseId": "SHIDA-REVIEW-9c9e72a25177a0d1b032fc3b",
+      "explanationMs": 347.2999999523163,
+      "drawingMs": 68.29999995231628,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 2
+    },
+    {
+      "width": 390,
+      "pass": "cached-revisit",
+      "category": "source_representation_ambiguous",
+      "caseId": "SHIDA-REVIEW-9c9e72a25177a0d1b032fc3b",
+      "explanationMs": 42.90000009536743,
+      "drawingMs": 69.70000004768372,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 2
+    },
+    {
+      "width": 390,
+      "pass": "cached-revisit",
+      "category": "source_representation_ambiguous",
+      "caseId": "SHIDA-REVIEW-9c9e72a25177a0d1b032fc3b",
+      "explanationMs": 43.5,
+      "drawingMs": 70.40000009536743,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 2
+    },
+    {
+      "width": 390,
+      "pass": "cached-revisit",
+      "category": "source_representation_ambiguous",
+      "caseId": "SHIDA-REVIEW-9c9e72a25177a0d1b032fc3b",
+      "explanationMs": 43.89999985694885,
+      "drawingMs": 69.39999985694885,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 2
+    },
+    {
+      "width": 390,
+      "pass": "cached-revisit",
+      "category": "source_representation_ambiguous",
+      "caseId": "SHIDA-REVIEW-9c9e72a25177a0d1b032fc3b",
+      "explanationMs": 48.09999990463257,
+      "drawingMs": 88.70000004768372,
+      "listRequests": 0,
+      "evidenceRequests": 0,
+      "views": 2
+    }
+  ],
+  "checks": [
+    {
+      "width": 1440,
+      "reviewStartupGraphRequests": 0,
+      "firstListRequests": 1
+    },
+    {
+      "width": 1440,
+      "panSteps": 30,
+      "staticRebuildsDuringPan": 0,
+      "fitRestoresViewport": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "width": 1440,
+      "lateCaseFailureIgnored": true,
+      "independentSourceRetry": true
+    },
+    {
+      "width": 1440,
+      "noteRefreshNoGeometryRequest": true,
+      "filterOnlyNoGeometryRequest": true,
+      "noGraphDuringReadingOrNotes": true
+    },
+    {
+      "width": 390,
+      "reviewStartupGraphRequests": 0,
+      "firstListRequests": 1
+    },
+    {
+      "width": 390,
+      "panSteps": 30,
+      "staticRebuildsDuringPan": 0,
+      "fitRestoresViewport": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "width": 390,
+      "lateCaseFailureIgnored": true,
+      "independentSourceRetry": true
+    },
+    {
+      "width": 390,
+      "noteRefreshNoGeometryRequest": true,
+      "filterOnlyNoGeometryRequest": true,
+      "noGraphDuringReadingOrNotes": true
+    }
+  ],
+  "errors": [],
+  "percentiles": [
+    {
+      "width": 1440,
+      "pass": "first-visit",
+      "samples": 20,
+      "p95ExplanationMs": 346.7999999523163,
+      "p95DrawingMs": 889.5
+    },
+    {
+      "width": 1440,
+      "pass": "cached-revisit",
+      "samples": 20,
+      "p95ExplanationMs": 370.90000009536743,
+      "p95DrawingMs": 88.90000009536743
+    },
+    {
+      "width": 390,
+      "pass": "first-visit",
+      "samples": 20,
+      "p95ExplanationMs": 345.59999990463257,
+      "p95DrawingMs": 894.9000000953674
+    },
+    {
+      "width": 390,
+      "pass": "cached-revisit",
+      "samples": 20,
+      "p95ExplanationMs": 352.5,
+      "p95DrawingMs": 90.59999990463257
+    }
+  ]
+}

@@ -1,0 +1,1119 @@
+{
+  "freshCounts": {
+    "cableBanks": 39,
+    "cables": 20,
+    "circularMarkerShapes": 2209,
+    "connectionLineShapes": 2364,
+    "exactTransitions": 838,
+    "fiberMarkers": 2208,
+    "groupShapes": 62,
+    "physicalConstructionFibers": 1176,
+    "physicalConstructionTubes": 98,
+    "portBindings": 192,
+    "portLikeNumericShapes": 144,
+    "portOccupancyRecords": 384
+  },
+  "generation": {
+    "deterministic": true,
+    "oldFixtureInput": false,
+    "rawArtifactSha256": "52f353aa6e9be12d94b6cd4cac3ae6db737655d865119d412b5df17e47effdb8"
+  },
+  "inventory": {
+    "accessPoints": [
+      "41",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54"
+    ],
+    "aggregations": [
+      "5",
+      "AGG-LENTEKHI"
+    ],
+    "assetEvidence": {
+      "accessPoints": [
+        {
+          "groupShapeId": "12432",
+          "id": "41",
+          "labelShapeIds": [
+            "12435"
+          ]
+        },
+        {
+          "groupShapeId": "33591",
+          "id": "50",
+          "labelShapeIds": [
+            "33594"
+          ]
+        },
+        {
+          "groupShapeId": "34263",
+          "id": "51",
+          "labelShapeIds": [
+            "34266"
+          ]
+        },
+        {
+          "groupShapeId": "35041",
+          "id": "52",
+          "labelShapeIds": [
+            "35044"
+          ]
+        },
+        {
+          "groupShapeId": "37759",
+          "id": "53",
+          "labelShapeIds": [
+            "37762"
+          ]
+        },
+        {
+          "groupShapeId": "38310",
+          "id": "54",
+          "labelShapeIds": [
+            "38313"
+          ]
+        }
+      ],
+      "aggregations": [
+        {
+          "cableLabelShapeIds": [
+            "15769"
+          ],
+          "id": "5"
+        },
+        {
+          "cableLabelShapeIds": [
+            "15991"
+          ],
+          "id": "AGG-LENTEKHI"
+        }
+      ],
+      "closures": [
+        {
+          "cableLabelShapeIds": [
+            "14250",
+            "15769",
+            "15770"
+          ],
+          "id": "205"
+        },
+        {
+          "cableLabelShapeIds": [
+            "15770",
+            "15772",
+            "34056"
+          ],
+          "id": "206"
+        },
+        {
+          "cableLabelShapeIds": [
+            "15982",
+            "33699",
+            "34056"
+          ],
+          "id": "216"
+        },
+        {
+          "cableLabelShapeIds": [
+            "15982",
+            "15983"
+          ],
+          "id": "217"
+        },
+        {
+          "cableLabelShapeIds": [
+            "15983",
+            "15985",
+            "34371"
+          ],
+          "id": "218"
+        },
+        {
+          "cableLabelShapeIds": [
+            "15985",
+            "15988",
+            "35121"
+          ],
+          "id": "219"
+        },
+        {
+          "cableLabelShapeIds": [
+            "15988",
+            "15989"
+          ],
+          "id": "220"
+        },
+        {
+          "cableLabelShapeIds": [
+            "15989",
+            "43428"
+          ],
+          "id": "221"
+        },
+        {
+          "cableLabelShapeIds": [
+            "42871",
+            "43428"
+          ],
+          "id": "222"
+        },
+        {
+          "cableLabelShapeIds": [
+            "15990",
+            "42871"
+          ],
+          "id": "223"
+        },
+        {
+          "cableLabelShapeIds": [
+            "15990",
+            "15991",
+            "37984"
+          ],
+          "id": "224"
+        },
+        {
+          "cableLabelShapeIds": [
+            "37907",
+            "37984",
+            "38438"
+          ],
+          "id": "225"
+        }
+      ]
+    },
+    "cables": [
+      {
+        "capacity": 192,
+        "exactLabel": "148-5-205-192",
+        "fromToken": "5",
+        "legacySegmentId": "148",
+        "position": {
+          "x": 33.65626116677122,
+          "y": 592.086883484229
+        },
+        "shapeId": "15769",
+        "toToken": "205"
+      },
+      {
+        "capacity": 24,
+        "exactLabel": "149-205-41-24",
+        "fromToken": "205",
+        "legacySegmentId": "149",
+        "position": {
+          "x": 57.19792783343788,
+          "y": 574.6971245025952
+        },
+        "shapeId": "14250",
+        "toToken": "41"
+      },
+      {
+        "capacity": 192,
+        "exactLabel": "150-205-206-192",
+        "fromToken": "205",
+        "legacySegmentId": "150",
+        "position": {
+          "x": 33.65626116677122,
+          "y": 571.8035252712247
+        },
+        "shapeId": "15770",
+        "toToken": "206"
+      },
+      {
+        "capacity": 144,
+        "exactLabel": "151-206-207-144",
+        "fromToken": "206",
+        "legacySegmentId": "151",
+        "position": {
+          "x": 33.65626116677122,
+          "y": 545.4922112048441
+        },
+        "shapeId": "15772",
+        "toToken": "207"
+      },
+      {
+        "capacity": 48,
+        "exactLabel": "169-206-216-48",
+        "fromToken": "206",
+        "legacySegmentId": "169",
+        "position": {
+          "x": 85.37499749660498,
+          "y": 545.2525155855527
+        },
+        "shapeId": "34056",
+        "toToken": "216"
+      },
+      {
+        "capacity": 24,
+        "exactLabel": "170-216-50-24",
+        "fromToken": "216",
+        "legacySegmentId": "170",
+        "position": {
+          "x": 95.4409697188272,
+          "y": 536.0396066083417
+        },
+        "shapeId": "33699",
+        "toToken": "50"
+      },
+      {
+        "capacity": 48,
+        "exactLabel": "171-216-217-48",
+        "fromToken": "216",
+        "legacySegmentId": "171",
+        "position": {
+          "x": 85.37499749660498,
+          "y": 532.6704500702018
+        },
+        "shapeId": "15982",
+        "toToken": "217"
+      },
+      {
+        "capacity": 48,
+        "exactLabel": "172-217-218-48",
+        "fromToken": "217",
+        "legacySegmentId": "172",
+        "position": {
+          "x": 85.37499749660498,
+          "y": 523.4482278479795
+        },
+        "shapeId": "15983",
+        "toToken": "218"
+      },
+      {
+        "capacity": 24,
+        "exactLabel": "173-218-51-24",
+        "fromToken": "218",
+        "legacySegmentId": "173",
+        "position": {
+          "x": 95.03558777438275,
+          "y": 514.0183364293778
+        },
+        "shapeId": "34371",
+        "toToken": "51"
+      },
+      {
+        "capacity": 48,
+        "exactLabel": "174-218-219-48",
+        "fromToken": "218",
+        "legacySegmentId": "174",
+        "position": {
+          "x": 85.37499749660498,
+          "y": 512.7918097865834
+        },
+        "shapeId": "15985",
+        "toToken": "219"
+      },
+      {
+        "capacity": 24,
+        "exactLabel": "175-219-52-24",
+        "fromToken": "219",
+        "legacySegmentId": "175",
+        "position": {
+          "x": 94.56249749660498,
+          "y": 503.4060100415742
+        },
+        "shapeId": "35121",
+        "toToken": "52"
+      },
+      {
+        "capacity": 48,
+        "exactLabel": "176-219-220-48",
+        "fromToken": "219",
+        "legacySegmentId": "176",
+        "position": {
+          "x": 85.37499749660498,
+          "y": 502.2607854044028
+        },
+        "shapeId": "15988",
+        "toToken": "220"
+      },
+      {
+        "capacity": 48,
+        "exactLabel": "177-220-221-48",
+        "fromToken": "220",
+        "legacySegmentId": "177",
+        "position": {
+          "x": 85.37499749660498,
+          "y": 494.7607854044028
+        },
+        "shapeId": "15989",
+        "toToken": "221"
+      },
+      {
+        "capacity": 48,
+        "exactLabel": "178-221-222-48",
+        "fromToken": "221",
+        "legacySegmentId": "178",
+        "position": {
+          "x": 85.37499749660498,
+          "y": 487.3642896076192
+        },
+        "shapeId": "43428",
+        "toToken": "222"
+      },
+      {
+        "capacity": 48,
+        "exactLabel": "179-222-223-48",
+        "fromToken": "222",
+        "legacySegmentId": "179",
+        "position": {
+          "x": 85.37499749660498,
+          "y": 479.5302064344625
+        },
+        "shapeId": "42871",
+        "toToken": "223"
+      },
+      {
+        "capacity": 48,
+        "exactLabel": "180-223-224-48",
+        "fromToken": "223",
+        "legacySegmentId": "180",
+        "position": {
+          "x": 85.37499749660498,
+          "y": 471.1765611621769
+        },
+        "shapeId": "15990",
+        "toToken": "224"
+      },
+      {
+        "capacity": 24,
+        "exactLabel": "181-224-225-24",
+        "fromToken": "224",
+        "legacySegmentId": "181",
+        "position": {
+          "x": 123.999997496605,
+          "y": 453.3881892314955
+        },
+        "shapeId": "37984",
+        "toToken": "225"
+      },
+      {
+        "capacity": 24,
+        "exactLabel": "182-225-53-24",
+        "fromToken": "225",
+        "legacySegmentId": "182",
+        "position": {
+          "x": 133.2847197188272,
+          "y": 444.874706459995
+        },
+        "shapeId": "37907",
+        "toToken": "53"
+      },
+      {
+        "capacity": 24,
+        "exactLabel": "183-225-54-24",
+        "fromToken": "225",
+        "legacySegmentId": "183",
+        "position": {
+          "x": 124.1002057787544,
+          "y": 444.8844031046168
+        },
+        "shapeId": "38438",
+        "toToken": "54"
+      },
+      {
+        "capacity": 48,
+        "exactLabel": "184-6-224-48",
+        "fromToken": "6",
+        "legacySegmentId": "184",
+        "position": {
+          "x": 85.37499749660498,
+          "y": 452.3154500510658
+        },
+        "shapeId": "15991",
+        "toToken": "224"
+      }
+    ],
+    "closures": [
+      "205",
+      "206",
+      "216",
+      "217",
+      "218",
+      "219",
+      "220",
+      "221",
+      "222",
+      "223",
+      "224",
+      "225"
+    ]
+  },
+  "page": {
+    "id": "4",
+    "name": "ცაგერი-ლენტეხი",
+    "pageSheet": null,
+    "part": "visio/pages/page1.xml",
+    "relationships": [
+      {
+        "id": "rId3",
+        "resolved_part": "visio/masters/master21.xml",
+        "target": "../masters/master21.xml",
+        "target_mode": null,
+        "type": "http://schemas.microsoft.com/visio/2010/relationships/master"
+      },
+      {
+        "id": "rId2",
+        "resolved_part": "visio/masters/master6.xml",
+        "target": "../masters/master6.xml",
+        "target_mode": null,
+        "type": "http://schemas.microsoft.com/visio/2010/relationships/master"
+      },
+      {
+        "id": "rId1",
+        "resolved_part": "visio/masters/master20.xml",
+        "target": "../masters/master20.xml",
+        "target_mode": null,
+        "type": "http://schemas.microsoft.com/visio/2010/relationships/master"
+      },
+      {
+        "id": "rId4",
+        "resolved_part": "visio/masters/master19.xml",
+        "target": "../masters/master19.xml",
+        "target_mode": null,
+        "type": "http://schemas.microsoft.com/visio/2010/relationships/master"
+      }
+    ]
+  },
+  "rawAnchors": {
+    "c172Fiber29Marker": {
+      "depth": 1,
+      "effectiveStyle": {
+        "FillBkgnd": {
+          "formula": null,
+          "rgb": "#000000",
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "FillBkgndTrans": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "FillForegnd": {
+          "formula": null,
+          "rgb": "#808080",
+          "source_id": "34674",
+          "source_kind": "shape",
+          "value": "19"
+        },
+        "FillForegndTrans": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "FillPattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "LineColor": {
+          "formula": "THEMEGUARD(RGB(0,128,0))",
+          "rgb": "#008000",
+          "source_id": "34674",
+          "source_kind": "shape",
+          "value": "#008000"
+        },
+        "LineColorTrans": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "LinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "LineWeight": {
+          "formula": null,
+          "source_id": "34674",
+          "source_kind": "shape",
+          "value": "0.006944444444444444"
+        },
+        "ShdwForegnd": {
+          "formula": null,
+          "rgb": "#000000",
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "ShdwPattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        }
+      },
+      "geometry": {
+        "angle": 0.0,
+        "global_pin": {
+          "x": 85.8346075515159,
+          "y": 521.5220547937412
+        },
+        "height": 0.05905511811023622,
+        "local_pin": {
+          "x": 2.636406314753423,
+          "y": 0.1256076029146982
+        },
+        "local_to_page": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          85.80507999246078,
+          521.4925272346861
+        ],
+        "width": 0.05905511811023623
+      },
+      "masterId": null,
+      "masterShapeId": null,
+      "parentId": "34626",
+      "shapeId": "34674",
+      "text": ""
+    },
+    "connectRow": {
+      "FromCell": "EndX",
+      "FromPart": "12",
+      "FromSheet": "44243",
+      "ToCell": "Connections.X2",
+      "ToPart": "101",
+      "ToSheet": "37815"
+    },
+    "greenAp41Port1": {
+      "depth": 0,
+      "effectiveStyle": {
+        "FillBkgnd": {
+          "formula": "THEMEGUARD(SHADE(FillForegnd,LUMDIFF(THEME(\"FillColor\"),THEME(\"FillColor2\"))))",
+          "rgb": "#b0dd80",
+          "source_id": "12484",
+          "source_kind": "shape",
+          "value": "#b0dd80"
+        },
+        "FillBkgndTrans": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "FillForegnd": {
+          "formula": "THEMEGUARD(RGB(146,208,80))",
+          "rgb": "#92d050",
+          "source_id": "12484",
+          "source_kind": "shape",
+          "value": "#92d050"
+        },
+        "FillForegndTrans": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "FillPattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "LineColor": {
+          "formula": "THEMEGUARD(RGB(146,208,80))",
+          "rgb": "#92d050",
+          "source_id": "12484",
+          "source_kind": "shape",
+          "value": "#92d050"
+        },
+        "LineColorTrans": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "LinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "LineWeight": {
+          "formula": null,
+          "source_id": "12484",
+          "source_kind": "shape",
+          "value": "0.003472222222222222"
+        },
+        "ShdwForegnd": {
+          "formula": null,
+          "rgb": "#000000",
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "ShdwPattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        }
+      },
+      "geometry": {
+        "angle": 0.0,
+        "global_pin": {
+          "x": 56.10950150879879,
+          "y": 573.0969014724072
+        },
+        "height": 0.23197246753956,
+        "local_pin": {
+          "x": 56.10950150879879,
+          "y": 573.0969014724072
+        },
+        "local_to_page": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          56.06406956572137,
+          572.9809152386374
+        ],
+        "width": 0.09086388615485019
+      },
+      "masterId": null,
+      "masterShapeId": null,
+      "parentId": null,
+      "shapeId": "12484",
+      "text": "1"
+    },
+    "masterInheritedStyle": {
+      "depth": 0,
+      "effectiveStyle": {
+        "FillBkgnd": {
+          "formula": "THEMEGUARD(SHADE(FillForegnd,LUMDIFF(THEME(\"FillColor\"),THEME(\"FillColor2\"))))",
+          "rgb": "#d0d0d0",
+          "source_id": "5",
+          "source_kind": "master-shape",
+          "value": "#d0d0d0"
+        },
+        "FillBkgndTrans": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "FillForegnd": {
+          "formula": "THEMEGUARD(MSOTINT(RGB(255,255,255),-25))",
+          "rgb": "#bfbfbf",
+          "source_id": "5",
+          "source_kind": "master-shape",
+          "value": "#bfbfbf"
+        },
+        "FillForegndTrans": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "FillPattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "LineColor": {
+          "formula": "THEMEGUARD(RGB(0,176,80))",
+          "rgb": "#00b050",
+          "source_id": "12428",
+          "source_kind": "shape",
+          "value": "#00b050"
+        },
+        "LineColorTrans": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "LinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "LineWeight": {
+          "formula": null,
+          "source_id": "5",
+          "source_kind": "master-shape",
+          "value": "0.003472222222222222"
+        },
+        "ShdwForegnd": {
+          "formula": "THEMEGUARD(RGB(255,0,0))",
+          "rgb": "#ff0000",
+          "source_id": "5",
+          "source_kind": "master-shape",
+          "value": "#ff0000"
+        },
+        "ShdwPattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        }
+      },
+      "geometry": {
+        "angle": 0.0,
+        "global_pin": {
+          "x": 42.6701500556601,
+          "y": 581.6940479205064
+        },
+        "height": 13.20062452222581,
+        "local_pin": {
+          "x": 42.6701500556601,
+          "y": 581.6940479205064
+        },
+        "local_to_page": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          20.420150055660102,
+          575.0937356593935
+        ],
+        "width": 44.5
+      },
+      "masterId": "23",
+      "masterShapeId": "5",
+      "parentId": null,
+      "shapeId": "12428",
+      "text": ""
+    },
+    "nestedGroup": {
+      "depth": 1,
+      "effectiveStyle": {
+        "FillBkgnd": {
+          "formula": null,
+          "rgb": "#000000",
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "FillBkgndTrans": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "FillForegnd": {
+          "formula": null,
+          "rgb": "#ffffff",
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "FillForegndTrans": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "FillPattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "LineColor": {
+          "formula": null,
+          "rgb": "#000000",
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "LineColorTrans": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "LinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "LineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "ShdwForegnd": {
+          "formula": null,
+          "rgb": "#000000",
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "ShdwPattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        }
+      },
+      "geometry": {
+        "angle": 0.0,
+        "global_pin": {
+          "x": 36.34375070501117,
+          "y": 595.4062538919969
+        },
+        "height": 0.2382584064327489,
+        "local_pin": {
+          "x": 8.9765625,
+          "y": 0.1191292032164029
+        },
+        "local_to_page": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          27.367188205011168,
+          595.2871246887805
+        ],
+        "width": 17.953125
+      },
+      "masterId": null,
+      "masterShapeId": null,
+      "parentId": "43429",
+      "shapeId": "43430",
+      "text": ""
+    },
+    "segmentLabelC172": {
+      "depth": 0,
+      "effectiveStyle": {
+        "FillBkgnd": {
+          "formula": null,
+          "rgb": "#000000",
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "FillBkgndTrans": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "FillForegnd": {
+          "formula": null,
+          "rgb": "#ffffff",
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "FillForegndTrans": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "FillPattern": {
+          "formula": "THEMEGUARD(0)",
+          "source_id": "15983",
+          "source_kind": "shape",
+          "value": "0"
+        },
+        "LineColor": {
+          "formula": null,
+          "rgb": "#000000",
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "LineColorTrans": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "LinePattern": {
+          "formula": "THEMEGUARD(0)",
+          "source_id": "15983",
+          "source_kind": "shape",
+          "value": "0"
+        },
+        "LineWeight": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0.01041666666666667"
+        },
+        "ShdwForegnd": {
+          "formula": null,
+          "rgb": "#000000",
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "ShdwPattern": {
+          "formula": "THEMEGUARD(0)",
+          "source_id": "15983",
+          "source_kind": "shape",
+          "value": "0"
+        }
+      },
+      "geometry": {
+        "angle": 0.0,
+        "global_pin": {
+          "x": 85.37499749660498,
+          "y": 523.4482278479795
+        },
+        "height": 0.2777777777777778,
+        "local_pin": {
+          "x": 85.37499749660498,
+          "y": 523.4482278479795
+        },
+        "local_to_page": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          82.8472197188272,
+          523.3093389590906
+        ],
+        "width": 5.055555555555543
+      },
+      "masterId": null,
+      "masterShapeId": null,
+      "parentId": null,
+      "shapeId": "15983",
+      "text": "172-217-218-48"
+    },
+    "whiteAp41Port4": {
+      "depth": 0,
+      "effectiveStyle": {
+        "FillBkgnd": {
+          "formula": "THEMEGUARD(IF(User.visDGCBVFill<>1.5,TINT(FillForegnd,LUMDIFF(THEME(\"FillColor2\"),THEME(\"FillColor\"))),IF(CELLISTHEMED(FALSE),THEME(\"FillColor2\"),0)))",
+          "rgb": "#ffffff",
+          "source_id": "12487",
+          "source_kind": "shape",
+          "value": "#ffffff"
+        },
+        "FillBkgndTrans": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "FillForegnd": {
+          "formula": "THEMEGUARD(IF(User.visDGCBVFill<>1.5,User.visDGCBVFill,IF(CELLISTHEMED(FALSE),THEME(\"FillColor\"),1)))",
+          "rgb": "#ffffff",
+          "source_id": "12487",
+          "source_kind": "shape",
+          "value": "#ffffff"
+        },
+        "FillForegndTrans": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "FillPattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "LineColor": {
+          "formula": null,
+          "rgb": "#000000",
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "LineColorTrans": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "LinePattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "1"
+        },
+        "LineWeight": {
+          "formula": null,
+          "source_id": "12487",
+          "source_kind": "shape",
+          "value": "0.003472222222222222"
+        },
+        "ShdwForegnd": {
+          "formula": null,
+          "rgb": "#000000",
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        },
+        "ShdwPattern": {
+          "formula": null,
+          "source_id": "0",
+          "source_kind": "style",
+          "value": "0"
+        }
+      },
+      "geometry": {
+        "angle": 0.0,
+        "global_pin": {
+          "x": 56.38209316726336,
+          "y": 573.0969014724072
+        },
+        "height": 0.23197246753956,
+        "local_pin": {
+          "x": 56.38209316726336,
+          "y": 573.0969014724072
+        },
+        "local_to_page": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          56.33666122418594,
+          572.9809152386374
+        ],
+        "width": 0.09086388615485019
+      },
+      "masterId": null,
+      "masterShapeId": null,
+      "parentId": null,
+      "shapeId": "12487",
+      "text": "4"
+    }
+  },
+  "rawCounts": {
+    "all_page_shapes_including_subshapes": 7349,
+    "comments": 1,
+    "connect_rows": 203,
+    "direct_text_shapes": 2676,
+    "masters": 22,
+    "package_parts": 41,
+    "pages": 1,
+    "shapes_with_effective_fill": 7349,
+    "shapes_with_local_property_sections": 218,
+    "shapes_with_master_reference": 418,
+    "styles": 7,
+    "top_level_shapes": 2640,
+    "xml_parts_preserved_verbatim": 40
+  },
+  "schemaVersion": 1,
+  "source": {
+    "absolute_path": "C:\\Users\\Beka\\Desktop\\Visio Alt\\Tsageri-Lentekhi 2025.vsdx",
+    "file": "Tsageri-Lentekhi 2025.vsdx",
+    "modified_at": "2026-05-20T15:04:21.710335+00:00",
+    "sha256": "caae4badc9c8c30be0a5fa3ef26352c3e534a9de7c66e830ef470466bb34a6fa",
+    "size_bytes": 1223326
+  }
+}

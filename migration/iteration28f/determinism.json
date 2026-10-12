@@ -1,0 +1,12 @@
+{
+  "rule": "iteration28f-deterministic-projection-build/1",
+  "topologyRevision": "canonical-active-fiber-path/1/e7d1e8bcb8c747e2",
+  "runsCompared": 2,
+  "byteIdentical": true,
+  "outputs": {
+    "migration/iteration28f/organization-network-projection.json": "e5aaa93270c4411cc804fe0dec8bc0d5d95b7061e3ef8c516cef2466d447c094",
+    "migration/iteration28f/aggregation-operational-projection.json": "eee40dec25ba5d26e251da936d23847443e34eafa32f22a81a694792d344352d",
+    "docs/ITERATION-28F-AGGREGATION-OPERATIONAL-PROJECTION.md": "f055d22d842129778902df240311aecd265c944d19072edfe6187de1ffc6db07",
+    "docs/ITERATION-28F-ORGANIZATION-SEARCH.md": "8fc130a23cf8bcfcc2ff96d80fc44bba312accb37df76344bf5f50d62aa1ed9b"
+  }
+}

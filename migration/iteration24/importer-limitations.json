@@ -1,0 +1,20 @@
+{
+  "criticalCount": 0,
+  "limitations": [
+    {
+      "area": "theme formulas",
+      "detail": "No unresolved effective colors occur in this file; the resolver preserves theme XML but does not implement every possible future Visio theme formula.",
+      "severity": "Medium"
+    },
+    {
+      "area": "curve rendering",
+      "detail": "NURBS and elliptical-arc raw cells are preserved and endpoints transformed; full sampled curve tessellation is deferred because current topology uses connector endpoints.",
+      "severity": "Medium"
+    },
+    {
+      "area": "rendered-page comparison",
+      "detail": "Certification uses structured VSDX evidence and known visual anchors; no pixel-perfect Visio renderer is bundled.",
+      "severity": "Low"
+    }
+  ]
+}

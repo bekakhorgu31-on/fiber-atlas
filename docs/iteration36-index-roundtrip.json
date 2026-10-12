@@ -1,0 +1,306 @@
+{
+    "environment": "guarded local Shida \/ Windows PHP \/ PostgreSQL 55432; no owner writes",
+    "revision": "UPLOAD-6ff5f3085ec49b9ee97a4ba8ab8d55d7",
+    "reads": [
+        {
+            "category": "fiber_port_binding_ambiguous",
+            "case": "SHIDA-REVIEW-2900cb948f6d65c8e3d083f2",
+            "repeat": 0,
+            "contextMs": 25.3439,
+            "contextQueries": 7,
+            "contextSqlMs": 3.34,
+            "cropMs": 27.0886,
+            "cropQueries": 3,
+            "cropSqlMs": 7.68,
+            "shapes": [
+                92
+            ],
+            "jsonMs": 2.517,
+            "bytes": 170953
+        },
+        {
+            "category": "fiber_port_binding_ambiguous",
+            "case": "SHIDA-REVIEW-2900cb948f6d65c8e3d083f2",
+            "repeat": 1,
+            "contextMs": 25.1684,
+            "contextQueries": 7,
+            "contextSqlMs": 3.6900000000000004,
+            "cropMs": 7.4085,
+            "cropQueries": 2,
+            "cropSqlMs": 2.86,
+            "shapes": [
+                92
+            ],
+            "jsonMs": 1.7528,
+            "bytes": 170953
+        },
+        {
+            "category": "source_conflict",
+            "case": "SHIDA-REVIEW-bcb71871d7b1dfe16b21b55e",
+            "repeat": 0,
+            "contextMs": 29.7079,
+            "contextQueries": 7,
+            "contextSqlMs": 4.2299999999999995,
+            "cropMs": 144.2452,
+            "cropQueries": 7,
+            "cropSqlMs": 35.269999999999996,
+            "shapes": [
+                395,
+                397
+            ],
+            "jsonMs": 16.0906,
+            "bytes": 1442981
+        },
+        {
+            "category": "source_conflict",
+            "case": "SHIDA-REVIEW-bcb71871d7b1dfe16b21b55e",
+            "repeat": 1,
+            "contextMs": 26.2012,
+            "contextQueries": 7,
+            "contextSqlMs": 4.49,
+            "cropMs": 34.9456,
+            "cropQueries": 5,
+            "cropSqlMs": 3.1,
+            "shapes": [
+                395,
+                397
+            ],
+            "jsonMs": 15.5942,
+            "bytes": 1442981
+        },
+        {
+            "category": "source_port_numbering",
+            "case": "SHIDA-REVIEW-a58db9519943144fd9523437",
+            "repeat": 0,
+            "contextMs": 25.0826,
+            "contextQueries": 7,
+            "contextSqlMs": 2.3699999999999997,
+            "cropMs": 29.053,
+            "cropQueries": 4,
+            "cropSqlMs": 6.73,
+            "shapes": [
+                49
+            ],
+            "jsonMs": 1.3925,
+            "bytes": 89624
+        },
+        {
+            "category": "source_port_numbering",
+            "case": "SHIDA-REVIEW-a58db9519943144fd9523437",
+            "repeat": 1,
+            "contextMs": 29.1972,
+            "contextQueries": 7,
+            "contextSqlMs": 2.92,
+            "cropMs": 9.2888,
+            "cropQueries": 3,
+            "cropSqlMs": 3.66,
+            "shapes": [
+                49
+            ],
+            "jsonMs": 0.9212,
+            "bytes": 89624
+        },
+        {
+            "category": "source_representation_ambiguous",
+            "case": "SHIDA-REVIEW-9c9e72a25177a0d1b032fc3b",
+            "repeat": 0,
+            "contextMs": 22.8123,
+            "contextQueries": 7,
+            "contextSqlMs": 1.94,
+            "cropMs": 103.3985,
+            "cropQueries": 5,
+            "cropSqlMs": 25.11,
+            "shapes": [
+                204,
+                311
+            ],
+            "jsonMs": 23.559,
+            "bytes": 986752
+        },
+        {
+            "category": "source_representation_ambiguous",
+            "case": "SHIDA-REVIEW-9c9e72a25177a0d1b032fc3b",
+            "repeat": 1,
+            "contextMs": 30.5881,
+            "contextQueries": 7,
+            "contextSqlMs": 5.06,
+            "cropMs": 33.2338,
+            "cropQueries": 3,
+            "cropSqlMs": 6.699999999999999,
+            "shapes": [
+                204,
+                311
+            ],
+            "jsonMs": 12.5152,
+            "bytes": 986752
+        }
+    ],
+    "indexRoundtrip": {
+        "rollbackRemovesOnlyIndex": true,
+        "reapplyRestoresIndex": true,
+        "sourceShapeCount": 62670,
+        "beforeIndexPlan": [
+            {
+                "Plan": {
+                    "Node Type": "Gather",
+                    "Parallel Aware": false,
+                    "Async Capable": false,
+                    "Startup Cost": 1000,
+                    "Total Cost": 7492.12,
+                    "Plan Rows": 774,
+                    "Plan Width": 5,
+                    "Actual Startup Time": 38.607,
+                    "Actual Total Time": 446.3,
+                    "Actual Rows": 92,
+                    "Actual Loops": 1,
+                    "Disabled": false,
+                    "Workers Planned": 2,
+                    "Workers Launched": 2,
+                    "Single Copy": false,
+                    "Shared Hit Blocks": 169690,
+                    "Shared Read Blocks": 20518,
+                    "Shared Dirtied Blocks": 0,
+                    "Shared Written Blocks": 14419,
+                    "Local Hit Blocks": 0,
+                    "Local Read Blocks": 0,
+                    "Local Dirtied Blocks": 0,
+                    "Local Written Blocks": 0,
+                    "Temp Read Blocks": 0,
+                    "Temp Written Blocks": 0,
+                    "Plans": [
+                        {
+                            "Node Type": "Seq Scan",
+                            "Parent Relationship": "Outer",
+                            "Parallel Aware": true,
+                            "Async Capable": false,
+                            "Relation Name": "source_shapes",
+                            "Alias": "source_shapes",
+                            "Startup Cost": 0,
+                            "Total Cost": 6414.72,
+                            "Plan Rows": 322,
+                            "Plan Width": 5,
+                            "Actual Startup Time": 230.151,
+                            "Actual Total Time": 370.986,
+                            "Actual Rows": 30.67,
+                            "Actual Loops": 3,
+                            "Disabled": false,
+                            "Filter": "(((source_revision)::text = 'DOC-11c64fc7-ebe2-432d-b7c1-87ce03a5b694\/e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060'::text) AND (import_run = '3d552b75-d03e-4858-8cc2-a1e2ba2de56c'::uuid) AND ((page_id)::text = '0'::text) AND (((((payload -> 'geometry'::text) -> 'world_bounds'::text) ->> 'min_x'::text))::double precision <= '89.581695089774'::double precision) AND (((((payload -> 'geometry'::text) -> 'world_bounds'::text) ->> 'max_x'::text))::double precision >= '86.490831203619'::double precision) AND (((((payload -> 'geometry'::text) -> 'world_bounds'::text) ->> 'min_y'::text))::double precision <= '519.26102692224'::double precision) AND (((((payload -> 'geometry'::text) -> 'world_bounds'::text) ->> 'max_y'::text))::double precision >= '516.0290544547'::double precision))",
+                            "Rows Removed by Filter": 20859,
+                            "Shared Hit Blocks": 169690,
+                            "Shared Read Blocks": 20518,
+                            "Shared Dirtied Blocks": 0,
+                            "Shared Written Blocks": 14419,
+                            "Local Hit Blocks": 0,
+                            "Local Read Blocks": 0,
+                            "Local Dirtied Blocks": 0,
+                            "Local Written Blocks": 0,
+                            "Temp Read Blocks": 0,
+                            "Temp Written Blocks": 0,
+                            "Workers": []
+                        }
+                    ]
+                },
+                "Planning": {
+                    "Shared Hit Blocks": 5,
+                    "Shared Read Blocks": 1,
+                    "Shared Dirtied Blocks": 0,
+                    "Shared Written Blocks": 0,
+                    "Local Hit Blocks": 0,
+                    "Local Read Blocks": 0,
+                    "Local Dirtied Blocks": 0,
+                    "Local Written Blocks": 0,
+                    "Temp Read Blocks": 0,
+                    "Temp Written Blocks": 0
+                },
+                "Planning Time": 0.125,
+                "Triggers": [],
+                "Execution Time": 446.342
+            }
+        ]
+    },
+    "frameworkBootstrapMs": 101.188,
+    "explicitPdoGetMs": 56.6372,
+    "setupCaveat": "Framework bootstrap may initialize the connection; HTTP includes PHP startup, middleware and wire time as well.",
+    "cropPlan": [
+        {
+            "Plan": {
+                "Node Type": "Bitmap Heap Scan",
+                "Parallel Aware": false,
+                "Async Capable": false,
+                "Relation Name": "source_shapes",
+                "Alias": "source_shapes",
+                "Startup Cost": 18.71,
+                "Total Cost": 1016.18,
+                "Plan Rows": 313,
+                "Plan Width": 5,
+                "Actual Startup Time": 0.037,
+                "Actual Total Time": 0.064,
+                "Actual Rows": 92,
+                "Actual Loops": 1,
+                "Disabled": false,
+                "Recheck Cond": "(box(point(((((payload -> 'geometry'::text) -> 'world_bounds'::text) ->> 'min_x'::text))::double precision, ((((payload -> 'geometry'::text) -> 'world_bounds'::text) ->> 'min_y'::text))::double precision), point(((((payload -> 'geometry'::text) -> 'world_bounds'::text) ->> 'max_x'::text))::double precision, ((((payload -> 'geometry'::text) -> 'world_bounds'::text) ->> 'max_y'::text))::double precision)) && '(89.581695089774,519.26102692224),(86.490831203619,516.0290544547)'::box)",
+                "Rows Removed by Index Recheck": 0,
+                "Filter": "(((source_revision)::text = 'DOC-11c64fc7-ebe2-432d-b7c1-87ce03a5b694\/e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060'::text) AND (import_run = '3d552b75-d03e-4858-8cc2-a1e2ba2de56c'::uuid) AND ((page_id)::text = '0'::text))",
+                "Rows Removed by Filter": 0,
+                "Exact Heap Blocks": 14,
+                "Lossy Heap Blocks": 0,
+                "Shared Hit Blocks": 19,
+                "Shared Read Blocks": 0,
+                "Shared Dirtied Blocks": 0,
+                "Shared Written Blocks": 0,
+                "Local Hit Blocks": 0,
+                "Local Read Blocks": 0,
+                "Local Dirtied Blocks": 0,
+                "Local Written Blocks": 0,
+                "Temp Read Blocks": 0,
+                "Temp Written Blocks": 0,
+                "Plans": [
+                    {
+                        "Node Type": "Bitmap Index Scan",
+                        "Parent Relationship": "Outer",
+                        "Parallel Aware": false,
+                        "Async Capable": false,
+                        "Index Name": "source_shapes_bounds_gist",
+                        "Startup Cost": 0,
+                        "Total Cost": 18.63,
+                        "Plan Rows": 313,
+                        "Plan Width": 0,
+                        "Actual Startup Time": 0.026,
+                        "Actual Total Time": 0.026,
+                        "Actual Rows": 92,
+                        "Actual Loops": 1,
+                        "Disabled": false,
+                        "Index Cond": "(box(point(((((payload -> 'geometry'::text) -> 'world_bounds'::text) ->> 'min_x'::text))::double precision, ((((payload -> 'geometry'::text) -> 'world_bounds'::text) ->> 'min_y'::text))::double precision), point(((((payload -> 'geometry'::text) -> 'world_bounds'::text) ->> 'max_x'::text))::double precision, ((((payload -> 'geometry'::text) -> 'world_bounds'::text) ->> 'max_y'::text))::double precision)) && '(89.581695089774,519.26102692224),(86.490831203619,516.0290544547)'::box)",
+                        "Index Searches": 1,
+                        "Shared Hit Blocks": 5,
+                        "Shared Read Blocks": 0,
+                        "Shared Dirtied Blocks": 0,
+                        "Shared Written Blocks": 0,
+                        "Local Hit Blocks": 0,
+                        "Local Read Blocks": 0,
+                        "Local Dirtied Blocks": 0,
+                        "Local Written Blocks": 0,
+                        "Temp Read Blocks": 0,
+                        "Temp Written Blocks": 0
+                    }
+                ]
+            },
+            "Planning": {
+                "Shared Hit Blocks": 0,
+                "Shared Read Blocks": 0,
+                "Shared Dirtied Blocks": 0,
+                "Shared Written Blocks": 0,
+                "Local Hit Blocks": 0,
+                "Local Read Blocks": 0,
+                "Local Dirtied Blocks": 0,
+                "Local Written Blocks": 0,
+                "Temp Read Blocks": 0,
+                "Temp Written Blocks": 0
+            },
+            "Planning Time": 0.095,
+            "Triggers": [],
+            "Execution Time": 0.085
+        }
+    ],
+    "boundsIndexExists": true
+}

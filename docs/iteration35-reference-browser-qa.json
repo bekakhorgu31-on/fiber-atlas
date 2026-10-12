@@ -1,0 +1,70 @@
+{
+  "dataProfile": "actual preserved Tsageri reference; read-only offline mode",
+  "workflows": [
+    {
+      "width": 1440,
+      "selection": "C176/F32",
+      "pathSignature": "canonical-active-fiber-path/1/31bd39b751237a87"
+    },
+    {
+      "width": 1440,
+      "selection": "C184/F38",
+      "pathSignature": "canonical-active-fiber-path/1/1c2867a4f508c270"
+    },
+    {
+      "width": 1440,
+      "selection": "C169/F12",
+      "pathSignature": "canonical-active-fiber-path/1/f3ffd382f4396464"
+    },
+    {
+      "width": 1440,
+      "selection": "C172/F1",
+      "pathSignature": "canonical-active-fiber-path/1/f6838c55a260f485"
+    },
+    {
+      "width": 1440,
+      "selection": "C172/F29",
+      "pathSignature": "canonical-active-fiber-path/1/47fa6c4b98d57fd9"
+    },
+    {
+      "width": 1440,
+      "selection": "C172/F31",
+      "pathSignature": "canonical-active-fiber-path/1/cb3ee08423045092"
+    },
+    {
+      "width": 390,
+      "selection": "C176/F32",
+      "pathSignature": "canonical-active-fiber-path/1/31bd39b751237a87"
+    },
+    {
+      "width": 390,
+      "selection": "C184/F38",
+      "pathSignature": "canonical-active-fiber-path/1/1c2867a4f508c270"
+    },
+    {
+      "width": 390,
+      "selection": "C169/F12",
+      "pathSignature": "canonical-active-fiber-path/1/f3ffd382f4396464"
+    },
+    {
+      "width": 390,
+      "selection": "C172/F1",
+      "pathSignature": "canonical-active-fiber-path/1/f6838c55a260f485"
+    },
+    {
+      "width": 390,
+      "selection": "C172/F29",
+      "pathSignature": "canonical-active-fiber-path/1/47fa6c4b98d57fd9"
+    },
+    {
+      "width": 390,
+      "selection": "C172/F31",
+      "pathSignature": "canonical-active-fiber-path/1/cb3ee08423045092"
+    }
+  ],
+  "errors": [],
+  "screenshots": [
+    "docs/iteration35-tsageri-f32-1440.png",
+    "docs/iteration35-tsageri-f32-390.png"
+  ]
+}

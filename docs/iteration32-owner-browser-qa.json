@@ -1,0 +1,91 @@
+{
+  "journeys": [
+    {
+      "width": 1440,
+      "case": "empty application, three links, independent import"
+    },
+    {
+      "width": 390,
+      "case": "empty application, three links, independent import"
+    },
+    {
+      "case": "first owner chooses account through actual setup UI"
+    },
+    {
+      "case": "fresh UI upload and atomic Add to network",
+      "file": "Tsageri-Lentekhi 2025.vsdx",
+      "counts": {
+        "cables": 20,
+        "fibers": 1176,
+        "transitions": 840,
+        "bindings": 192
+      }
+    },
+    {
+      "case": "fresh UI upload and atomic Add to network",
+      "file": "Tsageri-Alpana-Tvishi.vsdx",
+      "counts": {
+        "cables": 37,
+        "fibers": 2088,
+        "transitions": 1615,
+        "bindings": 384
+      }
+    },
+    {
+      "width": 1440,
+      "selection": "fiber:CAB-000176:32"
+    },
+    {
+      "width": 1440,
+      "selection": "fiber:CAB-000184:38"
+    },
+    {
+      "width": 1440,
+      "selection": "fiber:CAB-000169:10"
+    },
+    {
+      "width": 1440,
+      "selection": "fiber:CAB-000169:11"
+    },
+    {
+      "width": 1440,
+      "selection": "fiber:CAB-000169:12"
+    },
+    {
+      "width": 390,
+      "selection": "fiber:CAB-000176:32"
+    },
+    {
+      "width": 390,
+      "selection": "fiber:CAB-000184:38"
+    },
+    {
+      "width": 390,
+      "selection": "fiber:CAB-000169:10"
+    },
+    {
+      "width": 390,
+      "selection": "fiber:CAB-000169:11"
+    },
+    {
+      "width": 390,
+      "selection": "fiber:CAB-000169:12"
+    },
+    {
+      "case": "byte-identical reimport retains two history entries"
+    },
+    {
+      "case": "session and history survive reload"
+    },
+    {
+      "case": "outage has no empty-state or offline fallback"
+    }
+  ],
+  "screenshots": [
+    "iteration32-empty-1440.png",
+    "iteration32-empty-390.png",
+    "iteration32-network-1440.png",
+    "iteration32-network-390.png"
+  ],
+  "errors": []
+}

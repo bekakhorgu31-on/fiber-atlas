@@ -1,0 +1,84 @@
+{
+  "timestamp": "2026-10-03T18:40:23.760Z",
+  "scope": "28J planning reproduction, not implementation acceptance",
+  "errors": [],
+  "ap": {
+    "url": "file:///C:/Users/Beka/Desktop/Visio%20Alt/fiber-prototype.html#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=network_node%3A42",
+    "text": "არჩეული ობიექტი\nAP42\nC153 · SC208 ↔ AP42",
+    "detailsOpen": null
+  },
+  "scroll": [
+    {
+      "selector": ".route-workspace-body",
+      "clientHeight": 771,
+      "scrollHeight": 935,
+      "scrollTop": 164,
+      "overflowY": "hidden",
+      "bottom": 900
+    },
+    {
+      "selector": ".selected-details",
+      "clientHeight": 901,
+      "scrollHeight": 901,
+      "scrollTop": 0,
+      "overflowY": "visible",
+      "bottom": 884.40625
+    },
+    {
+      "selector": ".context-inspector",
+      "clientHeight": 831,
+      "scrollHeight": 831,
+      "scrollTop": 0,
+      "overflowY": "auto",
+      "bottom": 883.40625
+    }
+  ],
+  "port": {
+    "url": "file:///C:/Users/Beka/Desktop/Visio%20Alt/fiber-prototype.html#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=port%3Aap%3A42%3A1",
+    "text": "ჟილის ცნობილი გზა\nPort 1 · C153/F01\n\nF01 · ლურჯი · ტუბი 1 · გამოყენების ჩანაწერი გადასამოწმებელია\n\nპორტის ფიზიკური სტატუსი: დაუდგენელია\n\nAGG5\nგაგრძელება წყაროში არ არის დადგენილი\nC148/F103\nSC205\nC150/F103\nSC206\nC151/F103\nSC207\nC152/F103\nSC208\nC152/F103 → C153/F01\nC153/F01\nAP42 / Port 1\nპორტთან აღწევს\nნაბიჯობრივი დათვალიერება\nწინა\nდაწყება\nშემდეგი\n1 / 6 · AGG5\nAGG5\n\nგაგრძელება წყაროში არ არის დადგენილი\n\nკვანძის დეტალები\nგზის წყარო და სრული ჩანაწერი",
+    "detailsOpen": null,
+    "nodes": [
+      {
+        "id": "5",
+        "text": "AGG5\nგაგრძელება წყაროში არ არის დადგენილი\nC148/F103"
+      },
+      {
+        "id": "205",
+        "text": "SC205\nC150/F103"
+      },
+      {
+        "id": "206",
+        "text": "SC206\nC151/F103"
+      },
+      {
+        "id": "207",
+        "text": "SC207\nC152/F103"
+      },
+      {
+        "id": "208",
+        "text": "SC208\nC152/F103 → C153/F01\nC153/F01"
+      },
+      {
+        "id": "42",
+        "text": "AP42 / Port 1\nპორტთან აღწევს"
+      }
+    ]
+  },
+  "actualWheel": {
+    "before": {
+      "inspectorScrollTop": 0,
+      "bodyScrollTop": 0,
+      "port24Top": 880.3125,
+      "port24Bottom": 948.3125,
+      "viewport": 900
+    },
+    "after": {
+      "inspectorScrollTop": 0,
+      "bodyScrollTop": 0,
+      "port24Top": 880.3125,
+      "port24Bottom": 948.3125,
+      "viewport": 900
+    },
+    "deltaY": 700
+  }
+}

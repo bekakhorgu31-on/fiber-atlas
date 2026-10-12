@@ -1,0 +1,26 @@
+test_child_point_translation (__main__.GeometryTests.test_child_point_translation) ... ok
+test_flipped_shape (__main__.GeometryTests.test_flipped_shape) ... ok
+test_integrated_containment_with_rotation_scale_nesting_and_flip (__main__.GeometryTests.test_integrated_containment_with_rotation_scale_nesting_and_flip) ... ok
+test_marker_ellipse_includes_boundary_but_not_outside (__main__.GeometryTests.test_marker_ellipse_includes_boundary_but_not_outside) ... ok
+test_marker_matcher_preserves_ambiguous_hits (__main__.GeometryTests.test_marker_matcher_preserves_ambiguous_hits) ... ok
+test_nested_group (__main__.GeometryTests.test_nested_group) ... ok
+test_rotated_group (__main__.GeometryTests.test_rotated_group) ... ok
+test_rotated_non_circular_ellipse_rejects_bbox_false_hit (__main__.GeometryTests.test_rotated_non_circular_ellipse_rejects_bbox_false_hit) ... ok
+test_scaled_group (__main__.GeometryTests.test_scaled_group) ... ok
+test_unsupported_transform_is_not_reported_as_outside (__main__.GeometryTests.test_unsupported_transform_is_not_reported_as_outside) ... ok
+test_f10_f11_f12_source_connectors_have_unique_ellipse_hits (__main__.SC217GeometryRegressionTests.test_f10_f11_f12_source_connectors_have_unique_ellipse_hits) ... ok
+test_generator_reproduces_actual_source_audit_without_evidence_changes (__main__.SC217GeometryRegressionTests.test_generator_reproduces_actual_source_audit_without_evidence_changes) ... ok
+test_geometry_recovers_f10_f12_missed_by_old_tolerance (__main__.SC217GeometryRegressionTests.test_geometry_recovers_f10_f12_missed_by_old_tolerance) ... ok
+test_scoped_corrections_are_only_f10_and_f12 (__main__.SC217GeometryRegressionTests.test_scoped_corrections_are_only_f10_and_f12) ... ok
+test_connect_integrity_and_known_row (__main__.SourceRegressionTests.test_connect_integrity_and_known_row) ... ok
+test_fiber_tube_marker_anchor (__main__.SourceRegressionTests.test_fiber_tube_marker_anchor) ... ok
+test_master_and_style_resolution (__main__.SourceRegressionTests.test_master_and_style_resolution) ... ok
+test_package_pages_relationships_masters (__main__.SourceRegressionTests.test_package_pages_relationships_masters) ... ok
+test_port_color_and_number_anchors (__main__.SourceRegressionTests.test_port_color_and_number_anchors) ... ok
+test_rotated_company_and_comment (__main__.SourceRegressionTests.test_rotated_company_and_comment) ... ok
+test_shape_hierarchy_and_exact_text (__main__.SourceRegressionTests.test_shape_hierarchy_and_exact_text) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 7.041s
+
+OK

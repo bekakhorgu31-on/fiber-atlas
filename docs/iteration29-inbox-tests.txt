@@ -1,0 +1,11 @@
+test_active_catalog_is_not_written_for_staged_document (test_import_inbox.InboxTests.test_active_catalog_is_not_written_for_staged_document) ... ok
+test_duplicate_sha_of_staged_source_is_not_reimported (test_import_inbox.InboxTests.test_duplicate_sha_of_staged_source_is_not_reimported) ... ok
+test_locked_scan_does_not_start_second_import (test_import_inbox.InboxTests.test_locked_scan_does_not_start_second_import) ... ok
+test_same_filename_with_different_sha_is_a_new_revision (test_import_inbox.InboxTests.test_same_filename_with_different_sha_is_a_new_revision) ... ok
+test_stability_waits_for_identical_size_and_modified_time (test_import_inbox.InboxTests.test_stability_waits_for_identical_size_and_modified_time) ... ok
+test_valid_package_gate_and_corrupt_package_rejection (test_import_inbox.InboxTests.test_valid_package_gate_and_corrupt_package_rejection) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.814s
+
+OK

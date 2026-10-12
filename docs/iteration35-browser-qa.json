@@ -1,0 +1,174 @@
+{
+  "iteration": 35,
+  "delivery": "35-01–04",
+  "fixture": "preserved actual audited Shida candidate and exact source run",
+  "ownerServerWrites": 0,
+  "workflows": [
+    {
+      "width": 1440,
+      "name": "Network opens scoped finder without selecting the first Route"
+    },
+    {
+      "width": 1440,
+      "name": "AP16 Port13 reaches AP17 through SC25017 with unchanged signature and two correct legs"
+    },
+    {
+      "width": 1440,
+      "name": "Optional playback is finite and reduced motion has no animated edges"
+    },
+    {
+      "width": 1440,
+      "name": "Port1 stops at exact unknown continuation instead of borrowing Port13"
+    },
+    {
+      "width": 1440,
+      "name": "Back, Forward and refresh restore place and selected Port"
+    },
+    {
+      "width": 1440,
+      "name": "Engineer Search shares the exact same journey component and signature"
+    },
+    {
+      "width": 1440,
+      "name": "AP18 Port1 has an honest unknown binding and no optical playback"
+    },
+    {
+      "width": 1440,
+      "name": "AP18 exact-run Port12158 / stroke12110 / unresolved end visible; older rejection metadata explicitly missing"
+    },
+    {
+      "width": 1440,
+      "name": "Actionable review and bounded source geometry for source_bank_association"
+    },
+    {
+      "width": 1440,
+      "name": "Actionable review and bounded source geometry for source_conflict"
+    },
+    {
+      "width": 1440,
+      "name": "Actionable review and bounded source geometry for source_representation_ambiguous"
+    },
+    {
+      "width": 1440,
+      "name": "Actionable review and bounded source geometry for source_port_numbering"
+    },
+    {
+      "width": 1440,
+      "name": "Printed numbering retained and zoom/fit for AP43"
+    },
+    {
+      "width": 1440,
+      "name": "Printed numbering retained and zoom/fit for AP47"
+    },
+    {
+      "width": 1440,
+      "name": "Evidence failure is distinct and retry restores exact crop"
+    },
+    {
+      "width": 1440,
+      "name": "Observation remains append-only after refresh; active revision unchanged"
+    },
+    {
+      "width": 390,
+      "name": "Network opens scoped finder without selecting the first Route"
+    },
+    {
+      "width": 390,
+      "name": "AP16 Port13 reaches AP17 through SC25017 with unchanged signature and two correct legs"
+    },
+    {
+      "width": 390,
+      "name": "Optional playback is finite and reduced motion has no animated edges"
+    },
+    {
+      "width": 390,
+      "name": "Port1 stops at exact unknown continuation instead of borrowing Port13"
+    },
+    {
+      "width": 390,
+      "name": "Back, Forward and refresh restore place and selected Port"
+    },
+    {
+      "width": 390,
+      "name": "Engineer Search shares the exact same journey component and signature"
+    },
+    {
+      "width": 390,
+      "name": "AP18 Port1 has an honest unknown binding and no optical playback"
+    },
+    {
+      "width": 390,
+      "name": "AP18 exact-run Port12158 / stroke12110 / unresolved end visible; older rejection metadata explicitly missing"
+    },
+    {
+      "width": 390,
+      "name": "Actionable review and bounded source geometry for source_bank_association"
+    },
+    {
+      "width": 390,
+      "name": "Actionable review and bounded source geometry for source_conflict"
+    },
+    {
+      "width": 390,
+      "name": "Actionable review and bounded source geometry for source_representation_ambiguous"
+    },
+    {
+      "width": 390,
+      "name": "Actionable review and bounded source geometry for source_port_numbering"
+    },
+    {
+      "width": 390,
+      "name": "Printed numbering retained and zoom/fit for AP43"
+    },
+    {
+      "width": 390,
+      "name": "Printed numbering retained and zoom/fit for AP47"
+    },
+    {
+      "width": 390,
+      "name": "Evidence failure is distinct and retry restores exact crop"
+    },
+    {
+      "width": 390,
+      "name": "Observation remains append-only after refresh; active revision unchanged"
+    },
+    {
+      "width": 390,
+      "name": "Empty database stays empty without demo inventory"
+    }
+  ],
+  "measurements": [
+    {
+      "width": 1440,
+      "kind": "operational",
+      "bytes": 40871497,
+      "ms": 1064.0999999046326
+    },
+    {
+      "width": 1440,
+      "kind": "AP18 source crop",
+      "bytes": 170953,
+      "ms": 627.2999999523163
+    },
+    {
+      "width": 390,
+      "kind": "operational",
+      "bytes": 40871497,
+      "ms": 1155.8999998569489
+    },
+    {
+      "width": 390,
+      "kind": "AP18 source crop",
+      "bytes": 170953,
+      "ms": 700
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "screenshots": [
+    "docs/iteration35-ap16-port13-1440.png",
+    "docs/iteration35-ap18-evidence-1440.png",
+    "docs/iteration35-ap16-port13-390.png",
+    "docs/iteration35-ap18-evidence-390.png"
+  ]
+}

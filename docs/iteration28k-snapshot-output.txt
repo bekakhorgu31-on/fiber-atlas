@@ -1,0 +1,41 @@
+[
+  {
+    "name": "OpenNet",
+    "paths": 17,
+    "legs": 154,
+    "cables": 25,
+    "bindings": 13,
+    "apIds": [
+      "49",
+      "41",
+      "46",
+      "47"
+    ]
+  },
+  {
+    "name": "Magti",
+    "paths": 4,
+    "legs": 40,
+    "cables": 18,
+    "bindings": 2,
+    "apIds": []
+  },
+  {
+    "name": "Silknet",
+    "paths": 4,
+    "legs": 28,
+    "cables": 12,
+    "bindings": 2,
+    "apIds": []
+  },
+  {
+    "name": "Skytel",
+    "paths": 4,
+    "legs": 18,
+    "cables": 14,
+    "bindings": 5,
+    "apIds": [
+      "54"
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "sourceDocumentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34",
+  "topologyCriticalConfirmationCount": 0,
+  "nonBlockingEnrichment": [
+    { "id": "endpoint-types-207-215", "question": "Do source endpoint tokens 207–215 correspond to field Closures SC207–SC215?", "status": "unconfirmed", "topologyImpact": "none while neutral physical nodes are retained" },
+    { "id": "endpoint-types-41-49", "question": "Do source endpoint tokens 41–49 correspond to AP41–AP49?", "status": "unconfirmed", "topologyImpact": "none while neutral terminal endpoints are retained" },
+    { "id": "aggregation-5", "question": "Does ‘Aagregacia #5 / cageri’ refer to the existing Tsageri Aggregation #5?", "status": "source-reconciled; owner confirmation useful", "topologyImpact": "no Port mapping is inferred" },
+    { "id": "cut-module-status", "question": "Are the three ‘გაიჭრას ... მოდული’ notes instructions, completed work, or mixed?", "status": "unknown", "topologyImpact": "connector-backed transitions remain unchanged" },
+    { "id": "company-use-scope", "question": "Do company labels refer to Fiber ranges, Ports, Cable use, or general annotations?", "status": "unresolved", "topologyImpact": "no logical assignments are inferred" },
+    { "id": "route-annotation-scope", "question": "Which route spans do the place and direction labels describe?", "status": "unresolved where unscoped", "topologyImpact": "annotations create no optical edges" }
+  ],
+  "topologyCriticalConfirmations": []
+}

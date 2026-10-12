@@ -1,0 +1,116 @@
+{
+  "sourceEvidence": [
+    {
+      "iteration25": true,
+      "sc225Rows": 24,
+      "identityConflictVisible": true,
+      "size": {
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    }
+  ],
+  "sc225": [
+    {
+      "name": "C181 F03 to C183 F03",
+      "size": {
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "C181 F06 unresolved",
+      "size": {
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "C181 F13 to C182 F01",
+      "size": {
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    }
+  ],
+  "companies": [
+    {
+      "id": "opennet",
+      "label": "OpenNet",
+      "rows": 4
+    },
+    {
+      "id": "magti",
+      "label": "Magti",
+      "rows": 2
+    },
+    {
+      "id": "silknet",
+      "label": "Silknet",
+      "rows": 2
+    },
+    {
+      "id": "skytel",
+      "label": "Skytel",
+      "rows": 1
+    }
+  ],
+  "ports": [
+    {
+      "name": "AP53 Port1",
+      "size": {
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "AP54 Port3 Skytel",
+      "size": {
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "Lentekhi Port5 Magti",
+      "size": {
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    }
+  ],
+  "mobile": [
+    {
+      "name": "SC225 F06 mobile",
+      "size": {
+        "width": 390,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "name": "AP54 Skytel mobile",
+      "size": {
+        "width": 390,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "name": "source matrix mobile",
+      "size": {
+        "width": 390,
+        "scrollWidth": 390
+      }
+    }
+  ],
+  "print": {
+    "sidebar": "none",
+    "sheet": "grid",
+    "company": true
+  },
+  "standalone": {
+    "scripts": 1,
+    "linkedStyles": 0,
+    "width": 1280,
+    "scrollWidth": 1280
+  },
+  "logs": []
+}

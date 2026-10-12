@@ -1,0 +1,16 @@
+{
+  "source": {
+    "file": "Tsageri-Lentekhi 2025.vsdx",
+    "sha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+    "size_bytes": 1223476
+  },
+  "summary": {
+    "pages": 1,
+    "all_page_shapes_including_subshapes": 7349,
+    "top_level_shapes": 2640,
+    "direct_text_shapes": 2676,
+    "shapes_with_local_property_sections": 218,
+    "connect_rows": 203,
+    "comments": 1
+  }
+}

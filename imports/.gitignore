@@ -1,0 +1,7 @@
+# Raw network documents and machine-local import job state are user source data.
+inbox/*.vsdx
+processing/
+processed/
+failed/
+archive/
+state/

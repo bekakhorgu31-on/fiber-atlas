@@ -1,0 +1,28 @@
+import { pathToFileURL } from 'node:url';
+import { writeFile } from 'node:fs/promises';
+const { chromium } = await import(pathToFileURL('C:/Users/Beka/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs'));
+const browser = await chromium.launch({ headless:true, executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe' });
+const root='http://127.0.0.1:4176';
+const route=`${root}/#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=`;
+const result={desktop:[],mobile:[],standalone:null,logs:[]};
+const assert=(v,m)=>{if(!v)throw new Error(m)};
+const watch=p=>{p.on('pageerror',e=>result.logs.push(`pageerror: ${e.message}`));p.on('console',m=>{if(['error','warning'].includes(m.type()))result.logs.push(`${m.type()}: ${m.text()}`)})};
+const state=async p=>p.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,inspectorWidth:document.querySelector('.context-inspector')?.clientWidth,inspectorScroll:document.querySelector('.context-inspector')?.scrollWidth,active:[...document.querySelectorAll('.workspace-segment-shell.is-lineage-active')].map(e=>e.getAttribute('data-workspace-key'))}));
+const check=async(p,name,url,selector,required,forbidden=[])=>{await p.goto(url);await p.waitForSelector(selector);const target=selector.startsWith('[data-lineage')?'.context-inspector':selector;const text=await p.locator(target).innerText();for(const t of required)assert(text.includes(t),`${name}: missing ${t}`);for(const t of forbidden)assert(!text.includes(t),`${name}: forbidden ${t}`);const s=await state(p);assert(s.scrollWidth<=s.width,`${name}: page overflow`);if(target==='.context-inspector')assert((s.inspectorScroll??0)<=(s.inspectorWidth??0),`${name}: inspector overflow`);result.desktop.push({name,state:s});return {text,state:s}};
+const dc=await browser.newContext({viewport:{width:1440,height:900}});const p=await dc.newPage();watch(p);
+let r=await check(p,'Port38 termination',`${route}${encodeURIComponent('fiber:CAB-000184:38')}`,'[data-lineage-id="GOLDEN-LENTEKHI-P38-SC225-AP"]',['ლენტეხის აგრეგაცია / Port 38','C184/F38 → C181/F06','SC225','აქ მთავრდება','ცნობილი დასრულება'],['AP51','AP53–AP54','SC223']);
+assert(r.state.active.includes('segment:CAB-000184')&&r.state.active.includes('segment:CAB-000181')&&!r.state.active.includes('segment:CAB-000180'),'Port38 highlight does not stop on nested branch');
+await p.screenshot({path:'docs/iteration26-port38-desktop.png',fullPage:true});
+r=await check(p,'SC225 F06 termination',`${root}/#/splice/closure/225?focus=${encodeURIComponent('fiber:CAB-000181:6')}`,'.splice-workspace',['C181 · მთავრდება SC225-ზე','C181/F06','მთავრდება SC225-ზე','ცნობილი დასრულება'],['AP მხარე დაუზუსტებელია','გაგრძელება დაუდგენელია']);
+await p.getByRole('button',{name:'დასრულებული',exact:true}).click();assert(await p.locator('.splice-sheet-row').count()===16,'termination filter does not show sixteen rows');
+r=await check(p,'SC225 closure summary',`${route}${encodeURIComponent('closure:225')}`,'.context-inspector',['4 ჟილა → AP54','4 ჟილა → AP53','16 ჟილა მთავრდება SC225-ზე'],['AP branch unresolved']);
+r=await check(p,'Reference dashboard',`${root}/#/import?shape=37907`,'[aria-label="Reference dataset finalization"]',['TSAGERI-LENTEKHI-REFERENCE-V1','READY','16','pending manual review','field verification'],['owner-anchored unresolved','other unresolved C181']);
+await dc.close();
+const mc=await browser.newContext({viewport:{width:390,height:844}});const mp=await mc.newPage();watch(mp);
+for(const [name,url,selector,required,forbidden] of [
+ ['Port38 mobile',`${route}${encodeURIComponent('fiber:CAB-000184:38')}`,'[data-lineage-id="GOLDEN-LENTEKHI-P38-SC225-AP"]',['C184/F38 → C181/F06','აქ მთავრდება'],['AP51','SC223']],
+ ['SC225 terminal mobile',`${root}/#/splice/closure/225?focus=${encodeURIComponent('fiber:CAB-000181:6')}`,'.splice-workspace',['F06','მთავრდება SC225-ზე'],['გაგრძელება დაუდგენელია']]
+]){await mp.goto(url);await mp.waitForSelector(selector);const target=selector.startsWith('[data-lineage')?'.context-inspector':selector;const text=await mp.locator(target).innerText();for(const t of required)assert(text.includes(t),`${name}: missing ${t}`);for(const t of forbidden)assert(!text.includes(t),`${name}: forbidden ${t}`);const s=await state(mp);assert(s.width===390&&s.scrollWidth<=390,`${name}: overflow`);result.mobile.push({name,state:s})}
+await mp.screenshot({path:'docs/iteration26-port38-mobile.png',fullPage:true});await mc.close();
+const sc=await browser.newContext({viewport:{width:1280,height:800}});const sp=await sc.newPage();watch(sp);await sp.goto(`file:///C:/Users/Beka/Desktop/Visio%20Alt/fiber-prototype.html#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=${encodeURIComponent('fiber:CAB-000184:38')}`);await sp.waitForSelector('[data-lineage-id="GOLDEN-LENTEKHI-P38-SC225-AP"]');const st=await sp.locator('main').innerText();assert(st.includes('აქ მთავრდება')&&!st.includes('AP53–AP54'),'standalone termination semantics failed');result.standalone=await sp.evaluate(()=>({scripts:document.scripts.length,linkedStyles:document.querySelectorAll('link[rel="stylesheet"]').length,width:innerWidth,scrollWidth:document.documentElement.scrollWidth}));assert(result.standalone.linkedStyles===0&&result.standalone.scrollWidth<=result.standalone.width,'standalone embedding/overflow failed');await sc.close();
+await browser.close();assert(result.logs.length===0,`browser logs: ${result.logs.join(' | ')}`);await writeFile('docs/iteration26-browser-qa.json',`${JSON.stringify(result,null,2)}\n`);console.log(JSON.stringify({desktop:result.desktop.length,mobile:result.mobile.length,standalone:result.standalone,logs:result.logs.length}));

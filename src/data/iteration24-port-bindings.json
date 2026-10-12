@@ -1,0 +1,3418 @@
+{
+  "bindings": [
+    {
+      "alignmentDelta": 0.002599057362772328,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 1,
+      "id": "PTB-AP50-P01-C170-F01",
+      "legacySegmentId": "170",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "portNumber": 1,
+      "sourceShapeIds": [
+        "33643",
+        "33703",
+        "33700"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0029079851325093387,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 2,
+      "id": "PTB-AP50-P02-C170-F02",
+      "legacySegmentId": "170",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "portNumber": 2,
+      "sourceShapeIds": [
+        "33644",
+        "33704",
+        "33700"
+      ]
+    },
+    {
+      "alignmentDelta": 0.003216912902203717,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 3,
+      "id": "PTB-AP50-P03-C170-F03",
+      "legacySegmentId": "170",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "portNumber": 3,
+      "sourceShapeIds": [
+        "33645",
+        "33705",
+        "33700"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0035258406719407276,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 4,
+      "id": "PTB-AP50-P04-C170-F04",
+      "legacySegmentId": "170",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "portNumber": 4,
+      "sourceShapeIds": [
+        "33646",
+        "33706",
+        "33700"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0038347684416493166,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 5,
+      "id": "PTB-AP50-P05-C170-F05",
+      "legacySegmentId": "170",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "portNumber": 5,
+      "sourceShapeIds": [
+        "33647",
+        "33702",
+        "33700"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004143696211357906,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 6,
+      "id": "PTB-AP50-P06-C170-F06",
+      "legacySegmentId": "170",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "portNumber": 6,
+      "sourceShapeIds": [
+        "33648",
+        "33707",
+        "33700"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004452623981109127,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 7,
+      "id": "PTB-AP50-P07-C170-F07",
+      "legacySegmentId": "170",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "portNumber": 7,
+      "sourceShapeIds": [
+        "33649",
+        "33708",
+        "33700"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004761551750817716,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 8,
+      "id": "PTB-AP50-P08-C170-F08",
+      "legacySegmentId": "170",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "portNumber": 8,
+      "sourceShapeIds": [
+        "33650",
+        "33709",
+        "33700"
+      ]
+    },
+    {
+      "alignmentDelta": 0.005070479520526305,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 9,
+      "id": "PTB-AP50-P09-C170-F09",
+      "legacySegmentId": "170",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "portNumber": 9,
+      "sourceShapeIds": [
+        "33651",
+        "33710",
+        "33700"
+      ]
+    },
+    {
+      "alignmentDelta": 0.009258137087172713,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 10,
+      "id": "PTB-AP50-P10-C170-F10",
+      "legacySegmentId": "170",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "portNumber": 10,
+      "sourceShapeIds": [
+        "33652",
+        "33712",
+        "33700"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004331750932365708,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 11,
+      "id": "PTB-AP50-P11-C170-F11",
+      "legacySegmentId": "170",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "portNumber": 11,
+      "sourceShapeIds": [
+        "33653",
+        "33711",
+        "33700"
+      ]
+    },
+    {
+      "alignmentDelta": 0.005997262829723127,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 12,
+      "id": "PTB-AP50-P12-C170-F12",
+      "legacySegmentId": "170",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "portNumber": 12,
+      "sourceShapeIds": [
+        "33654",
+        "33713",
+        "33700"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0020761735044914076,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 13,
+      "id": "PTB-AP50-P13-C170-F13",
+      "legacySegmentId": "170",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "portNumber": 13,
+      "sourceShapeIds": [
+        "33655",
+        "33727",
+        "33700"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0023851012742284183,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 14,
+      "id": "PTB-AP50-P14-C170-F14",
+      "legacySegmentId": "170",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "portNumber": 14,
+      "sourceShapeIds": [
+        "33656",
+        "33728",
+        "33700"
+      ]
+    },
+    {
+      "alignmentDelta": 0.00269402904397964,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 15,
+      "id": "PTB-AP50-P15-C170-F15",
+      "legacySegmentId": "170",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "portNumber": 15,
+      "sourceShapeIds": [
+        "33657",
+        "33729",
+        "33700"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0030029568136598073,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 16,
+      "id": "PTB-AP50-P16-C170-F16",
+      "legacySegmentId": "170",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "portNumber": 16,
+      "sourceShapeIds": [
+        "33658",
+        "33730",
+        "33700"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0033118845834252397,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 17,
+      "id": "PTB-AP50-P17-C170-F17",
+      "legacySegmentId": "170",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "portNumber": 17,
+      "sourceShapeIds": [
+        "33659",
+        "33726",
+        "33700"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0036208123531338288,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 18,
+      "id": "PTB-AP50-P18-C170-F18",
+      "legacySegmentId": "170",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "portNumber": 18,
+      "sourceShapeIds": [
+        "33660",
+        "33731",
+        "33700"
+      ]
+    },
+    {
+      "alignmentDelta": 0.003929740122828207,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 19,
+      "id": "PTB-AP50-P19-C170-F19",
+      "legacySegmentId": "170",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "portNumber": 19,
+      "sourceShapeIds": [
+        "33661",
+        "33732",
+        "33700"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004238667892536796,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 20,
+      "id": "PTB-AP50-P20-C170-F20",
+      "legacySegmentId": "170",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "portNumber": 20,
+      "sourceShapeIds": [
+        "33662",
+        "33733",
+        "33700"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0045475956623022284,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 21,
+      "id": "PTB-AP50-P21-C170-F21",
+      "legacySegmentId": "170",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "portNumber": 21,
+      "sourceShapeIds": [
+        "33663",
+        "33734",
+        "33700"
+      ]
+    },
+    {
+      "alignmentDelta": 0.012641503228920214,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 22,
+      "id": "PTB-AP50-P22-C170-F22",
+      "legacySegmentId": "170",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "portNumber": 22,
+      "sourceShapeIds": [
+        "33664",
+        "33751",
+        "33700"
+      ]
+    },
+    {
+      "alignmentDelta": 0.007715117074056366,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 23,
+      "id": "PTB-AP50-P23-C170-F23",
+      "legacySegmentId": "170",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "portNumber": 23,
+      "sourceShapeIds": [
+        "33665",
+        "33750",
+        "33700"
+      ]
+    },
+    {
+      "alignmentDelta": 0.005474378971470628,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 24,
+      "id": "PTB-AP50-P24-C170-F24",
+      "legacySegmentId": "170",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "portNumber": 24,
+      "sourceShapeIds": [
+        "33666",
+        "33735",
+        "33700"
+      ]
+    },
+    {
+      "alignmentDelta": 0.002599057362772328,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 1,
+      "id": "PTB-AP51-P01-C173-F01",
+      "legacySegmentId": "173",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "portNumber": 1,
+      "sourceShapeIds": [
+        "34315",
+        "34375",
+        "34372"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0029079851325093387,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 2,
+      "id": "PTB-AP51-P02-C173-F02",
+      "legacySegmentId": "173",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "portNumber": 2,
+      "sourceShapeIds": [
+        "34316",
+        "34376",
+        "34372"
+      ]
+    },
+    {
+      "alignmentDelta": 0.003216912902203717,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 3,
+      "id": "PTB-AP51-P03-C173-F03",
+      "legacySegmentId": "173",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "portNumber": 3,
+      "sourceShapeIds": [
+        "34317",
+        "34377",
+        "34372"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0035258406719407276,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 4,
+      "id": "PTB-AP51-P04-C173-F04",
+      "legacySegmentId": "173",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "portNumber": 4,
+      "sourceShapeIds": [
+        "34318",
+        "34378",
+        "34372"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0038347684416493166,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 5,
+      "id": "PTB-AP51-P05-C173-F05",
+      "legacySegmentId": "173",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "portNumber": 5,
+      "sourceShapeIds": [
+        "34319",
+        "34374",
+        "34372"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004143696211357906,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 6,
+      "id": "PTB-AP51-P06-C173-F06",
+      "legacySegmentId": "173",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "portNumber": 6,
+      "sourceShapeIds": [
+        "34320",
+        "34379",
+        "34372"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004452623981109127,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 7,
+      "id": "PTB-AP51-P07-C173-F07",
+      "legacySegmentId": "173",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "portNumber": 7,
+      "sourceShapeIds": [
+        "34321",
+        "34380",
+        "34372"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004761551750817716,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 8,
+      "id": "PTB-AP51-P08-C173-F08",
+      "legacySegmentId": "173",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "portNumber": 8,
+      "sourceShapeIds": [
+        "34322",
+        "34381",
+        "34372"
+      ]
+    },
+    {
+      "alignmentDelta": 0.005070479520526305,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 9,
+      "id": "PTB-AP51-P09-C173-F09",
+      "legacySegmentId": "173",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "portNumber": 9,
+      "sourceShapeIds": [
+        "34323",
+        "34382",
+        "34372"
+      ]
+    },
+    {
+      "alignmentDelta": 0.009258137087172713,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 10,
+      "id": "PTB-AP51-P10-C173-F10",
+      "legacySegmentId": "173",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "portNumber": 10,
+      "sourceShapeIds": [
+        "34324",
+        "34384",
+        "34372"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004331750932365708,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 11,
+      "id": "PTB-AP51-P11-C173-F11",
+      "legacySegmentId": "173",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "portNumber": 11,
+      "sourceShapeIds": [
+        "34325",
+        "34383",
+        "34372"
+      ]
+    },
+    {
+      "alignmentDelta": 0.005997262829723127,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 12,
+      "id": "PTB-AP51-P12-C173-F12",
+      "legacySegmentId": "173",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "portNumber": 12,
+      "sourceShapeIds": [
+        "34326",
+        "34385",
+        "34372"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0020761735044914076,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 13,
+      "id": "PTB-AP51-P13-C173-F13",
+      "legacySegmentId": "173",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "portNumber": 13,
+      "sourceShapeIds": [
+        "34327",
+        "34399",
+        "34372"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0023851012742284183,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 14,
+      "id": "PTB-AP51-P14-C173-F14",
+      "legacySegmentId": "173",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "portNumber": 14,
+      "sourceShapeIds": [
+        "34328",
+        "34400",
+        "34372"
+      ]
+    },
+    {
+      "alignmentDelta": 0.00269402904397964,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 15,
+      "id": "PTB-AP51-P15-C173-F15",
+      "legacySegmentId": "173",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "portNumber": 15,
+      "sourceShapeIds": [
+        "34329",
+        "34401",
+        "34372"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0030029568136598073,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 16,
+      "id": "PTB-AP51-P16-C173-F16",
+      "legacySegmentId": "173",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "portNumber": 16,
+      "sourceShapeIds": [
+        "34330",
+        "34402",
+        "34372"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0033118845834252397,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 17,
+      "id": "PTB-AP51-P17-C173-F17",
+      "legacySegmentId": "173",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "portNumber": 17,
+      "sourceShapeIds": [
+        "34331",
+        "34398",
+        "34372"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0036208123531338288,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 18,
+      "id": "PTB-AP51-P18-C173-F18",
+      "legacySegmentId": "173",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "portNumber": 18,
+      "sourceShapeIds": [
+        "34332",
+        "34403",
+        "34372"
+      ]
+    },
+    {
+      "alignmentDelta": 0.003929740122828207,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 19,
+      "id": "PTB-AP51-P19-C173-F19",
+      "legacySegmentId": "173",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "portNumber": 19,
+      "sourceShapeIds": [
+        "34333",
+        "34404",
+        "34372"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004238667892536796,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 20,
+      "id": "PTB-AP51-P20-C173-F20",
+      "legacySegmentId": "173",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "portNumber": 20,
+      "sourceShapeIds": [
+        "34334",
+        "34405",
+        "34372"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0045475956623022284,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 21,
+      "id": "PTB-AP51-P21-C173-F21",
+      "legacySegmentId": "173",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "portNumber": 21,
+      "sourceShapeIds": [
+        "34335",
+        "34406",
+        "34372"
+      ]
+    },
+    {
+      "alignmentDelta": 0.012641503228920214,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 22,
+      "id": "PTB-AP51-P22-C173-F22",
+      "legacySegmentId": "173",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "portNumber": 22,
+      "sourceShapeIds": [
+        "34336",
+        "34423",
+        "34372"
+      ]
+    },
+    {
+      "alignmentDelta": 0.007715117074056366,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 23,
+      "id": "PTB-AP51-P23-C173-F23",
+      "legacySegmentId": "173",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "portNumber": 23,
+      "sourceShapeIds": [
+        "34337",
+        "34422",
+        "34372"
+      ]
+    },
+    {
+      "alignmentDelta": 0.005474378971470628,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 24,
+      "id": "PTB-AP51-P24-C173-F24",
+      "legacySegmentId": "173",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "portNumber": 24,
+      "sourceShapeIds": [
+        "34338",
+        "34407",
+        "34372"
+      ]
+    },
+    {
+      "alignmentDelta": 0.002599057362772328,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 1,
+      "id": "PTB-AP52-P01-C175-F01",
+      "legacySegmentId": "175",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "portNumber": 1,
+      "sourceShapeIds": [
+        "35093",
+        "35125",
+        "35122"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0029079851325093387,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 2,
+      "id": "PTB-AP52-P02-C175-F02",
+      "legacySegmentId": "175",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "portNumber": 2,
+      "sourceShapeIds": [
+        "35094",
+        "35126",
+        "35122"
+      ]
+    },
+    {
+      "alignmentDelta": 0.003216912902203717,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 3,
+      "id": "PTB-AP52-P03-C175-F03",
+      "legacySegmentId": "175",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "portNumber": 3,
+      "sourceShapeIds": [
+        "35095",
+        "35127",
+        "35122"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0035258406719407276,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 4,
+      "id": "PTB-AP52-P04-C175-F04",
+      "legacySegmentId": "175",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "portNumber": 4,
+      "sourceShapeIds": [
+        "35096",
+        "35128",
+        "35122"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0038347684416493166,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 5,
+      "id": "PTB-AP52-P05-C175-F05",
+      "legacySegmentId": "175",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "portNumber": 5,
+      "sourceShapeIds": [
+        "35097",
+        "35124",
+        "35122"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004143696211357906,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 6,
+      "id": "PTB-AP52-P06-C175-F06",
+      "legacySegmentId": "175",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "portNumber": 6,
+      "sourceShapeIds": [
+        "35098",
+        "35129",
+        "35122"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004452623981109127,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 7,
+      "id": "PTB-AP52-P07-C175-F07",
+      "legacySegmentId": "175",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "portNumber": 7,
+      "sourceShapeIds": [
+        "35099",
+        "35130",
+        "35122"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004761551750817716,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 8,
+      "id": "PTB-AP52-P08-C175-F08",
+      "legacySegmentId": "175",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "portNumber": 8,
+      "sourceShapeIds": [
+        "35100",
+        "35131",
+        "35122"
+      ]
+    },
+    {
+      "alignmentDelta": 0.005070479520526305,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 9,
+      "id": "PTB-AP52-P09-C175-F09",
+      "legacySegmentId": "175",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "portNumber": 9,
+      "sourceShapeIds": [
+        "35101",
+        "35132",
+        "35122"
+      ]
+    },
+    {
+      "alignmentDelta": 0.009258137087172713,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 10,
+      "id": "PTB-AP52-P10-C175-F10",
+      "legacySegmentId": "175",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "portNumber": 10,
+      "sourceShapeIds": [
+        "35102",
+        "35134",
+        "35122"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004331750932365708,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 11,
+      "id": "PTB-AP52-P11-C175-F11",
+      "legacySegmentId": "175",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "portNumber": 11,
+      "sourceShapeIds": [
+        "35103",
+        "35133",
+        "35122"
+      ]
+    },
+    {
+      "alignmentDelta": 0.005997262829723127,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 12,
+      "id": "PTB-AP52-P12-C175-F12",
+      "legacySegmentId": "175",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "portNumber": 12,
+      "sourceShapeIds": [
+        "35104",
+        "35135",
+        "35122"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0020761735044914076,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 13,
+      "id": "PTB-AP52-P13-C175-F13",
+      "legacySegmentId": "175",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "portNumber": 13,
+      "sourceShapeIds": [
+        "35105",
+        "35149",
+        "35122"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0023851012742284183,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 14,
+      "id": "PTB-AP52-P14-C175-F14",
+      "legacySegmentId": "175",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "portNumber": 14,
+      "sourceShapeIds": [
+        "35106",
+        "35150",
+        "35122"
+      ]
+    },
+    {
+      "alignmentDelta": 0.00269402904397964,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 15,
+      "id": "PTB-AP52-P15-C175-F15",
+      "legacySegmentId": "175",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "portNumber": 15,
+      "sourceShapeIds": [
+        "35107",
+        "35151",
+        "35122"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0030029568136598073,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 16,
+      "id": "PTB-AP52-P16-C175-F16",
+      "legacySegmentId": "175",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "portNumber": 16,
+      "sourceShapeIds": [
+        "35108",
+        "35152",
+        "35122"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0033118845834252397,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 17,
+      "id": "PTB-AP52-P17-C175-F17",
+      "legacySegmentId": "175",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "portNumber": 17,
+      "sourceShapeIds": [
+        "35109",
+        "35148",
+        "35122"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0036208123531338288,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 18,
+      "id": "PTB-AP52-P18-C175-F18",
+      "legacySegmentId": "175",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "portNumber": 18,
+      "sourceShapeIds": [
+        "35110",
+        "35153",
+        "35122"
+      ]
+    },
+    {
+      "alignmentDelta": 0.003929740122828207,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 19,
+      "id": "PTB-AP52-P19-C175-F19",
+      "legacySegmentId": "175",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "portNumber": 19,
+      "sourceShapeIds": [
+        "35111",
+        "35154",
+        "35122"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004238667892536796,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 20,
+      "id": "PTB-AP52-P20-C175-F20",
+      "legacySegmentId": "175",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "portNumber": 20,
+      "sourceShapeIds": [
+        "35112",
+        "35155",
+        "35122"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0045475956623022284,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 21,
+      "id": "PTB-AP52-P21-C175-F21",
+      "legacySegmentId": "175",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "portNumber": 21,
+      "sourceShapeIds": [
+        "35113",
+        "35156",
+        "35122"
+      ]
+    },
+    {
+      "alignmentDelta": 0.012641503228920214,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 22,
+      "id": "PTB-AP52-P22-C175-F22",
+      "legacySegmentId": "175",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "portNumber": 22,
+      "sourceShapeIds": [
+        "35114",
+        "35173",
+        "35122"
+      ]
+    },
+    {
+      "alignmentDelta": 0.007715117074056366,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 23,
+      "id": "PTB-AP52-P23-C175-F23",
+      "legacySegmentId": "175",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "portNumber": 23,
+      "sourceShapeIds": [
+        "35115",
+        "35172",
+        "35122"
+      ]
+    },
+    {
+      "alignmentDelta": 0.005474378971470628,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 24,
+      "id": "PTB-AP52-P24-C175-F24",
+      "legacySegmentId": "175",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "portNumber": 24,
+      "sourceShapeIds": [
+        "35116",
+        "35157",
+        "35122"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0025990573627154845,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 1,
+      "id": "PTB-AP53-P01-C182-F01",
+      "legacySegmentId": "182",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "portNumber": 1,
+      "sourceShapeIds": [
+        "37811",
+        "37858",
+        "37855"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0029079851325093387,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 2,
+      "id": "PTB-AP53-P02-C182-F02",
+      "legacySegmentId": "182",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "portNumber": 2,
+      "sourceShapeIds": [
+        "37812",
+        "37859",
+        "37855"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0032169129021610843,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 3,
+      "id": "PTB-AP53-P03-C182-F03",
+      "legacySegmentId": "182",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "portNumber": 3,
+      "sourceShapeIds": [
+        "37813",
+        "37860",
+        "37855"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0035258406719549384,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 4,
+      "id": "PTB-AP53-P04-C182-F04",
+      "legacySegmentId": "182",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "portNumber": 4,
+      "sourceShapeIds": [
+        "37814",
+        "37861",
+        "37855"
+      ]
+    },
+    {
+      "alignmentDelta": 0.003834768441606684,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 5,
+      "id": "PTB-AP53-P05-C182-F05",
+      "legacySegmentId": "182",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "portNumber": 5,
+      "sourceShapeIds": [
+        "37815",
+        "37857",
+        "37855"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004143696211286851,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 6,
+      "id": "PTB-AP53-P06-C182-F06",
+      "legacySegmentId": "182",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "portNumber": 6,
+      "sourceShapeIds": [
+        "37816",
+        "37862",
+        "37855"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004452623981052284,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 7,
+      "id": "PTB-AP53-P07-C182-F07",
+      "legacySegmentId": "182",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "portNumber": 7,
+      "sourceShapeIds": [
+        "37817",
+        "37863",
+        "37855"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004761551750846138,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 8,
+      "id": "PTB-AP53-P08-C182-F08",
+      "legacySegmentId": "182",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "portNumber": 8,
+      "sourceShapeIds": [
+        "37818",
+        "37864",
+        "37855"
+      ]
+    },
+    {
+      "alignmentDelta": 0.005070479520526305,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 9,
+      "id": "PTB-AP53-P09-C182-F09",
+      "legacySegmentId": "182",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "portNumber": 9,
+      "sourceShapeIds": [
+        "37819",
+        "37865",
+        "37855"
+      ]
+    },
+    {
+      "alignmentDelta": 0.00925813708713008,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 10,
+      "id": "PTB-AP53-P10-C182-F10",
+      "legacySegmentId": "182",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "portNumber": 10,
+      "sourceShapeIds": [
+        "37820",
+        "37867",
+        "37855"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004331750932323075,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 11,
+      "id": "PTB-AP53-P11-C182-F11",
+      "legacySegmentId": "182",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "portNumber": 11,
+      "sourceShapeIds": [
+        "37821",
+        "37866",
+        "37855"
+      ]
+    },
+    {
+      "alignmentDelta": 0.005997262829737338,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 12,
+      "id": "PTB-AP53-P12-C182-F12",
+      "legacySegmentId": "182",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "portNumber": 12,
+      "sourceShapeIds": [
+        "37822",
+        "37868",
+        "37855"
+      ]
+    },
+    {
+      "alignmentDelta": 0.002076173504434564,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 13,
+      "id": "PTB-AP53-P13-C182-F13",
+      "legacySegmentId": "182",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "portNumber": 13,
+      "sourceShapeIds": [
+        "37823",
+        "37882",
+        "37855"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0023851012741999966,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 14,
+      "id": "PTB-AP53-P14-C182-F14",
+      "legacySegmentId": "182",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "portNumber": 14,
+      "sourceShapeIds": [
+        "37824",
+        "37883",
+        "37855"
+      ]
+    },
+    {
+      "alignmentDelta": 0.002694029043965429,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 15,
+      "id": "PTB-AP53-P15-C182-F15",
+      "legacySegmentId": "182",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "portNumber": 15,
+      "sourceShapeIds": [
+        "37825",
+        "37884",
+        "37855"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0030029568136455964,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 16,
+      "id": "PTB-AP53-P16-C182-F16",
+      "legacySegmentId": "182",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "portNumber": 16,
+      "sourceShapeIds": [
+        "37826",
+        "37885",
+        "37855"
+      ]
+    },
+    {
+      "alignmentDelta": 0.003311884583411029,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 17,
+      "id": "PTB-AP53-P17-C182-F17",
+      "legacySegmentId": "182",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "portNumber": 17,
+      "sourceShapeIds": [
+        "37827",
+        "37881",
+        "37855"
+      ]
+    },
+    {
+      "alignmentDelta": 0.003620812353091196,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 18,
+      "id": "PTB-AP53-P18-C182-F18",
+      "legacySegmentId": "182",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "portNumber": 18,
+      "sourceShapeIds": [
+        "37828",
+        "37886",
+        "37855"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0039297401227713635,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 19,
+      "id": "PTB-AP53-P19-C182-F19",
+      "legacySegmentId": "182",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "portNumber": 19,
+      "sourceShapeIds": [
+        "37829",
+        "37887",
+        "37855"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004238667892451531,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 20,
+      "id": "PTB-AP53-P20-C182-F20",
+      "legacySegmentId": "182",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "portNumber": 20,
+      "sourceShapeIds": [
+        "37830",
+        "37888",
+        "37855"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004547595662245385,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 21,
+      "id": "PTB-AP53-P21-C182-F21",
+      "legacySegmentId": "182",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "portNumber": 21,
+      "sourceShapeIds": [
+        "37831",
+        "37889",
+        "37855"
+      ]
+    },
+    {
+      "alignmentDelta": 0.012641503228934425,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 22,
+      "id": "PTB-AP53-P22-C182-F22",
+      "legacySegmentId": "182",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "portNumber": 22,
+      "sourceShapeIds": [
+        "37832",
+        "37906",
+        "37855"
+      ]
+    },
+    {
+      "alignmentDelta": 0.007715117074013733,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 23,
+      "id": "PTB-AP53-P23-C182-F23",
+      "legacySegmentId": "182",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "portNumber": 23,
+      "sourceShapeIds": [
+        "37833",
+        "37905",
+        "37855"
+      ]
+    },
+    {
+      "alignmentDelta": 0.005474378971456417,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 24,
+      "id": "PTB-AP53-P24-C182-F24",
+      "legacySegmentId": "182",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "portNumber": 24,
+      "sourceShapeIds": [
+        "37834",
+        "37890",
+        "37855"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0025990573628149605,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 1,
+      "id": "PTB-AP54-P01-C183-F01",
+      "legacySegmentId": "183",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "portNumber": 1,
+      "sourceShapeIds": [
+        "38362",
+        "38389",
+        "38386"
+      ]
+    },
+    {
+      "alignmentDelta": 0.002907985132480917,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 2,
+      "id": "PTB-AP54-P02-C183-F02",
+      "legacySegmentId": "183",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "portNumber": 2,
+      "sourceShapeIds": [
+        "38363",
+        "38390",
+        "38386"
+      ]
+    },
+    {
+      "alignmentDelta": 0.003216912902175295,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 3,
+      "id": "PTB-AP54-P03-C183-F03",
+      "legacySegmentId": "183",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "portNumber": 3,
+      "sourceShapeIds": [
+        "38364",
+        "38391",
+        "38386"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0035258406719407276,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 4,
+      "id": "PTB-AP54-P04-C183-F04",
+      "legacySegmentId": "183",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "portNumber": 4,
+      "sourceShapeIds": [
+        "38365",
+        "38392",
+        "38386"
+      ]
+    },
+    {
+      "alignmentDelta": 0.003834768441620895,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 5,
+      "id": "PTB-AP54-P05-C183-F05",
+      "legacySegmentId": "183",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "portNumber": 5,
+      "sourceShapeIds": [
+        "38366",
+        "38388",
+        "38386"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004143696211386327,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 6,
+      "id": "PTB-AP54-P06-C183-F06",
+      "legacySegmentId": "183",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "portNumber": 6,
+      "sourceShapeIds": [
+        "38367",
+        "38393",
+        "38386"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0044526239810807056,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 7,
+      "id": "PTB-AP54-P07-C183-F07",
+      "legacySegmentId": "183",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "portNumber": 7,
+      "sourceShapeIds": [
+        "38368",
+        "38394",
+        "38386"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004761551750846138,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 8,
+      "id": "PTB-AP54-P08-C183-F08",
+      "legacySegmentId": "183",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "portNumber": 8,
+      "sourceShapeIds": [
+        "38369",
+        "38395",
+        "38386"
+      ]
+    },
+    {
+      "alignmentDelta": 0.005070479520526305,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 9,
+      "id": "PTB-AP54-P09-C183-F09",
+      "legacySegmentId": "183",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "portNumber": 9,
+      "sourceShapeIds": [
+        "38370",
+        "38396",
+        "38386"
+      ]
+    },
+    {
+      "alignmentDelta": 0.00925813708713008,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 10,
+      "id": "PTB-AP54-P10-C183-F10",
+      "legacySegmentId": "183",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "portNumber": 10,
+      "sourceShapeIds": [
+        "38371",
+        "38398",
+        "38386"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004331750932337286,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 11,
+      "id": "PTB-AP54-P11-C183-F11",
+      "legacySegmentId": "183",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "portNumber": 11,
+      "sourceShapeIds": [
+        "38372",
+        "38397",
+        "38386"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0059972628297515485,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 12,
+      "id": "PTB-AP54-P12-C183-F12",
+      "legacySegmentId": "183",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "portNumber": 12,
+      "sourceShapeIds": [
+        "38373",
+        "38399",
+        "38386"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0020761735045198293,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 13,
+      "id": "PTB-AP54-P13-C183-F13",
+      "legacySegmentId": "183",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "portNumber": 13,
+      "sourceShapeIds": [
+        "38374",
+        "38413",
+        "38386"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0023851012742852618,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 14,
+      "id": "PTB-AP54-P14-C183-F14",
+      "legacySegmentId": "183",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "portNumber": 14,
+      "sourceShapeIds": [
+        "38375",
+        "38414",
+        "38386"
+      ]
+    },
+    {
+      "alignmentDelta": 0.00269402904397964,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 15,
+      "id": "PTB-AP54-P15-C183-F15",
+      "legacySegmentId": "183",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "portNumber": 15,
+      "sourceShapeIds": [
+        "38376",
+        "38415",
+        "38386"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0030029568136455964,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 16,
+      "id": "PTB-AP54-P16-C183-F16",
+      "legacySegmentId": "183",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "portNumber": 16,
+      "sourceShapeIds": [
+        "38377",
+        "38416",
+        "38386"
+      ]
+    },
+    {
+      "alignmentDelta": 0.003311884583411029,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 17,
+      "id": "PTB-AP54-P17-C183-F17",
+      "legacySegmentId": "183",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "portNumber": 17,
+      "sourceShapeIds": [
+        "38378",
+        "38412",
+        "38386"
+      ]
+    },
+    {
+      "alignmentDelta": 0.003620812353190672,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 18,
+      "id": "PTB-AP54-P18-C183-F18",
+      "legacySegmentId": "183",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "portNumber": 18,
+      "sourceShapeIds": [
+        "38379",
+        "38417",
+        "38386"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0039297401228708395,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 19,
+      "id": "PTB-AP54-P19-C183-F19",
+      "legacySegmentId": "183",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "portNumber": 19,
+      "sourceShapeIds": [
+        "38380",
+        "38418",
+        "38386"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004238667892551007,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 20,
+      "id": "PTB-AP54-P20-C183-F20",
+      "legacySegmentId": "183",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "portNumber": 20,
+      "sourceShapeIds": [
+        "38381",
+        "38419",
+        "38386"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004547595662316439,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 21,
+      "id": "PTB-AP54-P21-C183-F21",
+      "legacySegmentId": "183",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "portNumber": 21,
+      "sourceShapeIds": [
+        "38382",
+        "38420",
+        "38386"
+      ]
+    },
+    {
+      "alignmentDelta": 0.012641503228934425,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 22,
+      "id": "PTB-AP54-P22-C183-F22",
+      "legacySegmentId": "183",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "portNumber": 22,
+      "sourceShapeIds": [
+        "38383",
+        "38437",
+        "38386"
+      ]
+    },
+    {
+      "alignmentDelta": 0.007715117074027944,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 23,
+      "id": "PTB-AP54-P23-C183-F23",
+      "legacySegmentId": "183",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "portNumber": 23,
+      "sourceShapeIds": [
+        "38384",
+        "38436",
+        "38386"
+      ]
+    },
+    {
+      "alignmentDelta": 0.005474378971456417,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 24,
+      "id": "PTB-AP54-P24-C183-F24",
+      "legacySegmentId": "183",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "portNumber": 24,
+      "sourceShapeIds": [
+        "38385",
+        "38421",
+        "38386"
+      ]
+    },
+    {
+      "alignmentDelta": 0.003601234416045429,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 1,
+      "id": "PTB-AP41-P01-C149-F01",
+      "legacySegmentId": "149",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "portNumber": 1,
+      "sourceShapeIds": [
+        "12484",
+        "14254",
+        "14251"
+      ]
+    },
+    {
+      "alignmentDelta": 0.003292306646322629,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 2,
+      "id": "PTB-AP41-P02-C149-F02",
+      "legacySegmentId": "149",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "portNumber": 2,
+      "sourceShapeIds": [
+        "12485",
+        "14255",
+        "14251"
+      ]
+    },
+    {
+      "alignmentDelta": 0.002983378876642462,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 3,
+      "id": "PTB-AP41-P03-C149-F03",
+      "legacySegmentId": "149",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "portNumber": 3,
+      "sourceShapeIds": [
+        "12486",
+        "14256",
+        "14251"
+      ]
+    },
+    {
+      "alignmentDelta": 0.002674451106884135,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 4,
+      "id": "PTB-AP41-P04-C149-F04",
+      "legacySegmentId": "149",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "portNumber": 4,
+      "sourceShapeIds": [
+        "12487",
+        "14257",
+        "14251"
+      ]
+    },
+    {
+      "alignmentDelta": 0.002365523337182651,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 5,
+      "id": "PTB-AP41-P05-C149-F05",
+      "legacySegmentId": "149",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "portNumber": 5,
+      "sourceShapeIds": [
+        "12488",
+        "14253",
+        "14251"
+      ]
+    },
+    {
+      "alignmentDelta": 0.002056595567474062,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 6,
+      "id": "PTB-AP41-P06-C149-F06",
+      "legacySegmentId": "149",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "portNumber": 6,
+      "sourceShapeIds": [
+        "12489",
+        "14258",
+        "14251"
+      ]
+    },
+    {
+      "alignmentDelta": 0.001747667797729946,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 7,
+      "id": "PTB-AP41-P07-C149-F07",
+      "legacySegmentId": "149",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "portNumber": 7,
+      "sourceShapeIds": [
+        "12490",
+        "14259",
+        "14251"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0014387400280142515,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 8,
+      "id": "PTB-AP41-P08-C149-F08",
+      "legacySegmentId": "149",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "portNumber": 8,
+      "sourceShapeIds": [
+        "12491",
+        "14260",
+        "14251"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0011298122583056625,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 9,
+      "id": "PTB-AP41-P09-C149-F09",
+      "legacySegmentId": "149",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "portNumber": 9,
+      "sourceShapeIds": [
+        "12492",
+        "14261",
+        "14251"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0030578453083407453,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 10,
+      "id": "PTB-AP41-P10-C149-F10",
+      "legacySegmentId": "149",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "portNumber": 10,
+      "sourceShapeIds": [
+        "12493",
+        "14263",
+        "14251"
+      ]
+    },
+    {
+      "alignmentDelta": 0.001868540846480471,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 11,
+      "id": "PTB-AP41-P11-C149-F11",
+      "legacySegmentId": "149",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "portNumber": 11,
+      "sourceShapeIds": [
+        "12494",
+        "14262",
+        "14251"
+      ]
+    },
+    {
+      "alignmentDelta": 0.00020302894912305192,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 12,
+      "id": "PTB-AP41-P12-C149-F12",
+      "legacySegmentId": "149",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "portNumber": 12,
+      "sourceShapeIds": [
+        "12495",
+        "14264",
+        "14251"
+      ]
+    },
+    {
+      "alignmentDelta": 0.00412411827434056,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 13,
+      "id": "PTB-AP41-P13-C149-F13",
+      "legacySegmentId": "149",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "portNumber": 13,
+      "sourceShapeIds": [
+        "12496",
+        "14278",
+        "14251"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0038151905046035495,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 14,
+      "id": "PTB-AP41-P14-C149-F14",
+      "legacySegmentId": "149",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "portNumber": 14,
+      "sourceShapeIds": [
+        "12497",
+        "14279",
+        "14251"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0035062627348665387,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 15,
+      "id": "PTB-AP41-P15-C149-F15",
+      "legacySegmentId": "149",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "portNumber": 15,
+      "sourceShapeIds": [
+        "13900",
+        "14280",
+        "14251"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0031973349651721605,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 16,
+      "id": "PTB-AP41-P16-C149-F16",
+      "legacySegmentId": "149",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "portNumber": 16,
+      "sourceShapeIds": [
+        "13901",
+        "14281",
+        "14251"
+      ]
+    },
+    {
+      "alignmentDelta": 0.002888407195406728,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 17,
+      "id": "PTB-AP41-P17-C149-F17",
+      "legacySegmentId": "149",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "portNumber": 17,
+      "sourceShapeIds": [
+        "13902",
+        "14277",
+        "14251"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0025794794257052445,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 18,
+      "id": "PTB-AP41-P18-C149-F18",
+      "legacySegmentId": "149",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "portNumber": 18,
+      "sourceShapeIds": [
+        "13903",
+        "14282",
+        "14251"
+      ]
+    },
+    {
+      "alignmentDelta": 0.002270551656025077,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 19,
+      "id": "PTB-AP41-P19-C149-F19",
+      "legacySegmentId": "149",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "portNumber": 19,
+      "sourceShapeIds": [
+        "13904",
+        "14283",
+        "14251"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0019616238862738555,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 20,
+      "id": "PTB-AP41-P20-C149-F20",
+      "legacySegmentId": "149",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "portNumber": 20,
+      "sourceShapeIds": [
+        "13905",
+        "14284",
+        "14251"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0016526961165368448,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 21,
+      "id": "PTB-AP41-P21-C149-F21",
+      "legacySegmentId": "149",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "portNumber": 21,
+      "sourceShapeIds": [
+        "13906",
+        "14285",
+        "14251"
+      ]
+    },
+    {
+      "alignmentDelta": 0.006441211450074036,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 22,
+      "id": "PTB-AP41-P22-C149-F22",
+      "legacySegmentId": "149",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "portNumber": 22,
+      "sourceShapeIds": [
+        "13907",
+        "14480",
+        "14251"
+      ]
+    },
+    {
+      "alignmentDelta": 0.001514825295210187,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 23,
+      "id": "PTB-AP41-P23-C149-F23",
+      "legacySegmentId": "149",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "portNumber": 23,
+      "sourceShapeIds": [
+        "13908",
+        "14479",
+        "14251"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0007259128073684451,
+      "basis": [
+        "source_geometry",
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 24,
+      "id": "PTB-AP41-P24-C149-F24",
+      "legacySegmentId": "149",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "portNumber": 24,
+      "sourceShapeIds": [
+        "13909",
+        "14286",
+        "14251"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0023991141732295773,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 1,
+      "id": "PTB-LENTEKHI-P01-C184-F01",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 1,
+      "sourceShapeIds": [
+        "37438",
+        "36534",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 1.0049763002486571,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 2,
+      "id": "PTB-LENTEKHI-P02-C184-F02",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 2,
+      "sourceShapeIds": [
+        "37439",
+        "36535",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 1.9997409863240705,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 3,
+      "id": "PTB-LENTEKHI-P03-C184-F03",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 3,
+      "sourceShapeIds": [
+        "37440",
+        "36536",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 2.994505672399498,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 4,
+      "id": "PTB-LENTEKHI-P04-C184-F04",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 4,
+      "sourceShapeIds": [
+        "37441",
+        "36537",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.002917141525074385,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 5,
+      "id": "PTB-LENTEKHI-P05-C184-F05",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 5,
+      "sourceShapeIds": [
+        "36549",
+        "36533",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.00033995544964682267,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 6,
+      "id": "PTB-LENTEKHI-P06-C184-F06",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 6,
+      "sourceShapeIds": [
+        "36550",
+        "36538",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0022372306257665286,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 7,
+      "id": "PTB-LENTEKHI-P07-C184-F07",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 7,
+      "sourceShapeIds": [
+        "36551",
+        "36539",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004814416701194091,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 8,
+      "id": "PTB-LENTEKHI-P08-C184-F08",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 8,
+      "sourceShapeIds": [
+        "36552",
+        "36540",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.000420897223378347,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 9,
+      "id": "PTB-LENTEKHI-P09-C184-F09",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 9,
+      "sourceShapeIds": [
+        "36553",
+        "36541",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0017224409448886036,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 10,
+      "id": "PTB-LENTEKHI-P10-C184-F10",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 10,
+      "sourceShapeIds": [
+        "36554",
+        "36543",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0017224409448886036,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 11,
+      "id": "PTB-LENTEKHI-P11-C184-F11",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 11,
+      "sourceShapeIds": [
+        "36555",
+        "36542",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0005018389971098713,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 12,
+      "id": "PTB-LENTEKHI-P12-C184-F12",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 12,
+      "sourceShapeIds": [
+        "36556",
+        "36544",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.005413385826770423,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 13,
+      "id": "PTB-LENTEKHI-P13-C184-F13",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 13,
+      "sourceShapeIds": [
+        "36567",
+        "36558",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0028361997513428605,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 14,
+      "id": "PTB-LENTEKHI-P14-C184-F14",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 14,
+      "sourceShapeIds": [
+        "36568",
+        "36559",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0002590136759295092,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 15,
+      "id": "PTB-LENTEKHI-P15-C184-F15",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 15,
+      "sourceShapeIds": [
+        "36569",
+        "36560",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.005494327600501947,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 16,
+      "id": "PTB-LENTEKHI-P16-C184-F16",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 16,
+      "sourceShapeIds": [
+        "36570",
+        "36561",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.002917141525074385,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 17,
+      "id": "PTB-LENTEKHI-P17-C184-F17",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 17,
+      "sourceShapeIds": [
+        "36571",
+        "36557",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.00033995544964682267,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 18,
+      "id": "PTB-LENTEKHI-P18-C184-F18",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 18,
+      "sourceShapeIds": [
+        "36572",
+        "36562",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0022372306257665286,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 19,
+      "id": "PTB-LENTEKHI-P19-C184-F19",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 19,
+      "sourceShapeIds": [
+        "36573",
+        "36563",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004814416701194091,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 20,
+      "id": "PTB-LENTEKHI-P20-C184-F20",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 20,
+      "sourceShapeIds": [
+        "36574",
+        "36564",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.000420897223378347,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 21,
+      "id": "PTB-LENTEKHI-P21-C184-F21",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 21,
+      "sourceShapeIds": [
+        "36575",
+        "36565",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0056286909448886036,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 22,
+      "id": "PTB-LENTEKHI-P22-C184-F22",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 22,
+      "sourceShapeIds": [
+        "36576",
+        "37443",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0056286909448886036,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 23,
+      "id": "PTB-LENTEKHI-P23-C184-F23",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 23,
+      "sourceShapeIds": [
+        "37392",
+        "37442",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0005018389971098713,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 24,
+      "id": "PTB-LENTEKHI-P24-C184-F24",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 24,
+      "sourceShapeIds": [
+        "37393",
+        "36566",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.006090059055125607,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 25,
+      "id": "PTB-LENTEKHI-P25-C184-F25",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 25,
+      "sourceShapeIds": [
+        "37404",
+        "37395",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.003512872979698045,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 26,
+      "id": "PTB-LENTEKHI-P26-C184-F26",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 26,
+      "sourceShapeIds": [
+        "37405",
+        "37396",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.000935686904270483,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 27,
+      "id": "PTB-LENTEKHI-P27-C184-F27",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 27,
+      "sourceShapeIds": [
+        "37406",
+        "37397",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.006171000828842921,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 28,
+      "id": "PTB-LENTEKHI-P28-C184-F28",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 28,
+      "sourceShapeIds": [
+        "37407",
+        "37398",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0035938147534295695,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 29,
+      "id": "PTB-LENTEKHI-P29-C184-F29",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 29,
+      "sourceShapeIds": [
+        "37408",
+        "37394",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0010166286780020073,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 30,
+      "id": "PTB-LENTEKHI-P30-C184-F30",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 30,
+      "sourceShapeIds": [
+        "37409",
+        "37399",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0015605573974255549,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 31,
+      "id": "PTB-LENTEKHI-P31-C184-F31",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 31,
+      "sourceShapeIds": [
+        "37410",
+        "37400",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004137743472853117,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 32,
+      "id": "PTB-LENTEKHI-P32-C184-F32",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 32,
+      "sourceShapeIds": [
+        "37411",
+        "37401",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0010975704517335316,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 33,
+      "id": "PTB-LENTEKHI-P33-C184-F33",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 33,
+      "sourceShapeIds": [
+        "37412",
+        "37402",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.00390625,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 34,
+      "id": "PTB-LENTEKHI-P34-C184-F34",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 34,
+      "sourceShapeIds": [
+        "37413",
+        "37445",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.00390625,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 35,
+      "id": "PTB-LENTEKHI-P35-C184-F35",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 35,
+      "sourceShapeIds": [
+        "37414",
+        "37444",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.001178512225450845,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 36,
+      "id": "PTB-LENTEKHI-P36-C184-F36",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 36,
+      "sourceShapeIds": [
+        "37415",
+        "37403",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.006090059055125607,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 37,
+      "id": "PTB-LENTEKHI-P37-C184-F37",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 37,
+      "sourceShapeIds": [
+        "37426",
+        "37417",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.003512872979698045,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 38,
+      "id": "PTB-LENTEKHI-P38-C184-F38",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 38,
+      "sourceShapeIds": [
+        "37427",
+        "37418",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.000935686904270483,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 39,
+      "id": "PTB-LENTEKHI-P39-C184-F39",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 39,
+      "sourceShapeIds": [
+        "37428",
+        "37419",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.006171000828842921,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 40,
+      "id": "PTB-LENTEKHI-P40-C184-F40",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 40,
+      "sourceShapeIds": [
+        "37429",
+        "37420",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0035938147534295695,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 41,
+      "id": "PTB-LENTEKHI-P41-C184-F41",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 41,
+      "sourceShapeIds": [
+        "37430",
+        "37416",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0010166286780020073,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 42,
+      "id": "PTB-LENTEKHI-P42-C184-F42",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 42,
+      "sourceShapeIds": [
+        "37431",
+        "37421",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0015605573974255549,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 43,
+      "id": "PTB-LENTEKHI-P43-C184-F43",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 43,
+      "sourceShapeIds": [
+        "37432",
+        "37422",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.004137743472853117,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 44,
+      "id": "PTB-LENTEKHI-P44-C184-F44",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 44,
+      "sourceShapeIds": [
+        "37433",
+        "37423",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.0010975704517335316,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 45,
+      "id": "PTB-LENTEKHI-P45-C184-F45",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 45,
+      "sourceShapeIds": [
+        "37434",
+        "37424",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.00390625,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 46,
+      "id": "PTB-LENTEKHI-P46-C184-F46",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 46,
+      "sourceShapeIds": [
+        "37435",
+        "37447",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.00390625,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 47,
+      "id": "PTB-LENTEKHI-P47-C184-F47",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 47,
+      "sourceShapeIds": [
+        "37436",
+        "37446",
+        "36531"
+      ]
+    },
+    {
+      "alignmentDelta": 0.001178512225450845,
+      "basis": [
+        "ordered_marker_alignment"
+      ],
+      "fiberNumber": 48,
+      "id": "PTB-LENTEKHI-P48-C184-F48",
+      "legacySegmentId": "184",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "portNumber": 48,
+      "sourceShapeIds": [
+        "37437",
+        "37425",
+        "36531"
+      ]
+    }
+  ],
+  "generationVersions": {
+    "domainProjection": "fiber-atlas-domain-projection/24",
+    "sourceGrammar": "tsageri-lentekhi-source-grammar/4"
+  },
+  "schemaVersion": 1,
+  "sourceSha256": "caae4badc9c8c30be0a5fa3ef26352c3e534a9de7c66e830ef470466bb34a6fa"
+}

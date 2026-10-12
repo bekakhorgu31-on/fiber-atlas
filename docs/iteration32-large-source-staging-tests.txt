@@ -1,0 +1,13 @@
+PHPUnit 12.5.38 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.3.35
+Configuration: C:\Users\Beka\Desktop\Visio Alt\fiber-prototype\backend\phpunit.xml
+
+Time: 01:49.073, Memory: 54.00 MB
+
+[4mOwner Import (Tests\Feature\OwnerImport)[0m
+[32m ✔ [0mLarge source upload is staged without geometry or network activation
+[32m ✔ [0mPackage limits reject before source records are created
+
+[30;42mOK (2 tests, 29 assertions)[0m
+{"tool":"phpunit","result":"passed","tests":2,"passed":2,"assertions":29,"duration_ms":109073}

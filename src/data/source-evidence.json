@@ -1,0 +1,2612 @@
+{
+  "analysis_date": "2026-09-24",
+  "source_sha256": "caae4badc9c8c30be0a5fa3ef26352c3e534a9de7c66e830ef470466bb34a6fa",
+  "method": "Direct VSDX XML/master/property/glue extraction plus geometric endpoint matching and local approximate reconstruction. Native Visio rendering was unavailable. No field verification or validated complete import performed.",
+  "counts": {
+    "pages": 1,
+    "all_page_shapes_including_subshapes": 7349,
+    "top_level_shapes": 2640,
+    "direct_text_shapes": 2676,
+    "shapes_with_local_property_sections": 218,
+    "connect_rows": 203,
+    "connect_from_shapes": 148,
+    "connect_from_shapes_with_two_rows": 55,
+    "cable_label_candidates": 20,
+    "closure_property_records": 12,
+    "access_point_ODF_records": 6,
+    "aggregation_symbols": 2,
+    "closure_218_candidate_connections": 52
+  },
+  "owner_legend": {
+    "cable_label": "cable ID / typed endpoint A / typed endpoint Z / fiber count",
+    "yellow_rectangle": "aggregation point",
+    "violet_rectangle": "access point; legacy ODF stencil",
+    "aggregation_5_capacity_ports": 192,
+    "direction_colors": "reused; not unique direction IDs",
+    "cable_170_fiber_count": 24,
+    "Loop": "legacy_disabled"
+  },
+  "aggregations": [
+    {
+      "id_candidate": "5",
+      "name": "ცაგერი",
+      "capacity_ports": 192,
+      "capacity_evidence": "owner_confirmed",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "12426",
+          "12427"
+        ]
+      }
+    },
+    {
+      "id_candidate": "6",
+      "name": "ლენტეხი",
+      "conflicting_property_id": "5",
+      "verification": "identity_conflict",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "36475",
+          "37059"
+        ]
+      }
+    }
+  ],
+  "closures": [
+    {
+      "id": "205",
+      "model": "GJS  - 3019A",
+      "declared_cable_count": 3,
+      "closure_role_raw": "გამანაწილებელი",
+      "mounting_raw": null,
+      "coordinates_raw": "42°46'32.095\"E  42°39'7.663\"N ",
+      "normalized_coordinates": {
+        "longitude": 42.7755819,
+        "latitude": 42.6521286
+      },
+      "coordinate_status": "parsed_DMS_datum_unconfirmed",
+      "verification": "documented_not_field_verified",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "12428"
+        ]
+      }
+    },
+    {
+      "id": "206",
+      "model": "GJS  - 3019A",
+      "declared_cable_count": 3,
+      "closure_role_raw": "გამანაწილებელი",
+      "mounting_raw": null,
+      "coordinates_raw": "42°46'18.669\"E  42°39'22.455\"N ",
+      "normalized_coordinates": {
+        "longitude": 42.7718525,
+        "latitude": 42.6562375
+      },
+      "coordinate_status": "parsed_DMS_datum_unconfirmed",
+      "verification": "documented_not_field_verified",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "15597"
+        ]
+      }
+    },
+    {
+      "id": "216",
+      "model": "GJS  - 3019A",
+      "declared_cable_count": 3,
+      "closure_role_raw": "გამანაწილებელი",
+      "mounting_raw": "ბოძი",
+      "coordinates_raw": "42°46'7.904\"E  42°40'56.887\"N ",
+      "normalized_coordinates": {
+        "longitude": 42.7688622,
+        "latitude": 42.6824686
+      },
+      "coordinate_status": "parsed_DMS_datum_unconfirmed",
+      "verification": "documented_not_field_verified",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33587"
+        ]
+      }
+    },
+    {
+      "id": "217",
+      "model": "GJS  - 3019A",
+      "declared_cable_count": 2,
+      "closure_role_raw": "ტრანზიტი",
+      "mounting_raw": "ბოძი",
+      "coordinates_raw": "42°45'38.538\"E  42°41'38.449\"N ",
+      "normalized_coordinates": {
+        "longitude": 42.760705,
+        "latitude": 42.6940136
+      },
+      "coordinate_status": "parsed_DMS_datum_unconfirmed",
+      "verification": "documented_not_field_verified",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "34057"
+        ]
+      }
+    },
+    {
+      "id": "218",
+      "model": "GJS  - 3019A",
+      "declared_cable_count": 3,
+      "closure_role_raw": "გამანაწილებელი",
+      "mounting_raw": "ბოძი",
+      "coordinates_raw": "42°45'55.907\"E  42°42'6.407\"N ",
+      "normalized_coordinates": {
+        "longitude": 42.7655297,
+        "latitude": 42.7017797
+      },
+      "coordinate_status": "parsed_DMS_datum_unconfirmed",
+      "verification": "documented_not_field_verified",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "34259"
+        ]
+      }
+    },
+    {
+      "id": "219",
+      "model": "GJS  - 3019A",
+      "declared_cable_count": 3,
+      "closure_role_raw": "გამანაწილებელი",
+      "mounting_raw": "ბოძი",
+      "coordinates_raw": "42°45'42.149\"E  42°43'44.777\"N ",
+      "normalized_coordinates": {
+        "longitude": 42.7617081,
+        "latitude": 42.7291047
+      },
+      "coordinate_status": "parsed_DMS_datum_unconfirmed",
+      "verification": "documented_not_field_verified",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "35037"
+        ]
+      }
+    },
+    {
+      "id": "220",
+      "model": "GJS  - 3019A",
+      "declared_cable_count": 2,
+      "closure_role_raw": "ტრანზიტი",
+      "mounting_raw": "ბოძი",
+      "coordinates_raw": "42°45'31.198\"E  42°43'45.18\"N ",
+      "normalized_coordinates": {
+        "longitude": 42.7586661,
+        "latitude": 42.7292167
+      },
+      "coordinate_status": "parsed_DMS_datum_unconfirmed",
+      "verification": "documented_not_field_verified",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "36212"
+        ]
+      }
+    },
+    {
+      "id": "221",
+      "model": "GJS  - 3019A",
+      "declared_cable_count": 2,
+      "closure_role_raw": "ტრანზიტი",
+      "mounting_raw": "ბოძი",
+      "coordinates_raw": "42.762488° 42.747036°",
+      "normalized_coordinates": null,
+      "coordinate_status": "axis_order_and_datum_unconfirmed",
+      "verification": "documented_not_field_verified",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "43124"
+        ]
+      }
+    },
+    {
+      "id": "222",
+      "model": "GJS  - 3019A",
+      "declared_cable_count": 2,
+      "closure_role_raw": "ტრანზიტი",
+      "mounting_raw": "ბოძი",
+      "coordinates_raw": "42.763965° 42.745912°",
+      "normalized_coordinates": null,
+      "coordinate_status": "axis_order_and_datum_unconfirmed",
+      "verification": "documented_not_field_verified",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "42417"
+        ]
+      }
+    },
+    {
+      "id": "223",
+      "model": "GJS  - 3019A",
+      "declared_cable_count": 2,
+      "closure_role_raw": "ტრანზიტი",
+      "mounting_raw": "ბოძი",
+      "coordinates_raw": "42°44'47.032\"E  42°45'49.849\"N ",
+      "normalized_coordinates": {
+        "longitude": 42.7463978,
+        "latitude": 42.7638469
+      },
+      "coordinate_status": "parsed_DMS_datum_unconfirmed",
+      "verification": "documented_not_field_verified",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "36309"
+        ]
+      }
+    },
+    {
+      "id": "224",
+      "model": "GJS  - 3019A",
+      "declared_cable_count": 3,
+      "closure_role_raw": "გამანაწილებელი",
+      "mounting_raw": "ბოძი",
+      "coordinates_raw": "42°43'3.22\"E  42°47'15.383\"N ",
+      "normalized_coordinates": {
+        "longitude": 42.7175611,
+        "latitude": 42.7876064
+      },
+      "coordinate_status": "parsed_DMS_datum_unconfirmed",
+      "verification": "documented_not_field_verified",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "36985"
+        ]
+      }
+    },
+    {
+      "id": "225",
+      "model": "GJS  - 3019A",
+      "declared_cable_count": 3,
+      "closure_role_raw": "გამანაწილებელი",
+      "mounting_raw": "ბოძი",
+      "coordinates_raw": "42°40'38.971\"E  42°47'32.457\"N ",
+      "normalized_coordinates": {
+        "longitude": 42.6774919,
+        "latitude": 42.7923492
+      },
+      "coordinate_status": "parsed_DMS_datum_unconfirmed",
+      "verification": "documented_not_field_verified",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "37755"
+        ]
+      }
+    }
+  ],
+  "access_points": [
+    {
+      "id": "41",
+      "entity_type": "access_point",
+      "legacy_symbol_type": "ODF",
+      "address_raw": "ჩხუტელი",
+      "capacity_ports": 24,
+      "asset_vs_panel_relationship": "needs_confirmation",
+      "verification": "documented_not_field_verified",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "12432"
+        ]
+      }
+    },
+    {
+      "id": "50",
+      "entity_type": "access_point",
+      "legacy_symbol_type": "ODF",
+      "address_raw": "რცხმელეთი",
+      "capacity_ports": 24,
+      "asset_vs_panel_relationship": "needs_confirmation",
+      "verification": "documented_not_field_verified",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33591"
+        ]
+      }
+    },
+    {
+      "id": "51",
+      "entity_type": "access_point",
+      "legacy_symbol_type": "ODF",
+      "address_raw": "ყვედრეში",
+      "capacity_ports": 24,
+      "asset_vs_panel_relationship": "needs_confirmation",
+      "verification": "documented_not_field_verified",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "34263"
+        ]
+      }
+    },
+    {
+      "id": "52",
+      "entity_type": "access_point",
+      "legacy_symbol_type": "ODF",
+      "address_raw": "ხოფური",
+      "capacity_ports": 24,
+      "asset_vs_panel_relationship": "needs_confirmation",
+      "verification": "documented_not_field_verified",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "35041"
+        ]
+      }
+    },
+    {
+      "id": "53",
+      "entity_type": "access_point",
+      "legacy_symbol_type": "ODF",
+      "address_raw": "წანაში",
+      "capacity_ports": 24,
+      "asset_vs_panel_relationship": "needs_confirmation",
+      "verification": "documented_not_field_verified",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "37759"
+        ]
+      }
+    },
+    {
+      "id": "54",
+      "entity_type": "access_point",
+      "legacy_symbol_type": "ODF",
+      "address_raw": "ხელედი",
+      "capacity_ports": 24,
+      "asset_vs_panel_relationship": "needs_confirmation",
+      "verification": "documented_not_field_verified",
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "38310"
+        ]
+      }
+    }
+  ],
+  "cables": [
+    {
+      "id": "148",
+      "legacy_label": "148-5-205-192",
+      "end_a": {
+        "id": "5",
+        "kind": "aggregation_point"
+      },
+      "end_z": {
+        "id": "205",
+        "kind": "closure"
+      },
+      "fiber_count": 192,
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "15769"
+        ]
+      },
+      "verification": "parsed_label_owner_confirmed_grammar"
+    },
+    {
+      "id": "149",
+      "legacy_label": "149-205-41-24",
+      "end_a": {
+        "id": "205",
+        "kind": "closure"
+      },
+      "end_z": {
+        "id": "41",
+        "kind": "access_point"
+      },
+      "fiber_count": 24,
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "14250"
+        ]
+      },
+      "verification": "parsed_label_owner_confirmed_grammar"
+    },
+    {
+      "id": "150",
+      "legacy_label": "150-205-206-192",
+      "end_a": {
+        "id": "205",
+        "kind": "closure"
+      },
+      "end_z": {
+        "id": "206",
+        "kind": "closure"
+      },
+      "fiber_count": 192,
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "15770"
+        ]
+      },
+      "verification": "parsed_label_owner_confirmed_grammar"
+    },
+    {
+      "id": "151",
+      "legacy_label": "151-206-207-144",
+      "end_a": {
+        "id": "206",
+        "kind": "closure"
+      },
+      "end_z": {
+        "id": "207",
+        "kind": "unresolved_boundary"
+      },
+      "fiber_count": 144,
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "15772"
+        ]
+      },
+      "verification": "parsed_label_owner_confirmed_grammar"
+    },
+    {
+      "id": "169",
+      "legacy_label": "169-206-216-48",
+      "end_a": {
+        "id": "206",
+        "kind": "closure"
+      },
+      "end_z": {
+        "id": "216",
+        "kind": "closure"
+      },
+      "fiber_count": 48,
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "34056"
+        ]
+      },
+      "verification": "parsed_label_owner_confirmed_grammar"
+    },
+    {
+      "id": "170",
+      "legacy_label": "170-216-50-24",
+      "end_a": {
+        "id": "216",
+        "kind": "closure"
+      },
+      "end_z": {
+        "id": "50",
+        "kind": "access_point"
+      },
+      "fiber_count": 24,
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33699"
+        ]
+      },
+      "verification": "parsed_label_owner_confirmed_grammar"
+    },
+    {
+      "id": "171",
+      "legacy_label": "171-216-217-48",
+      "end_a": {
+        "id": "216",
+        "kind": "closure"
+      },
+      "end_z": {
+        "id": "217",
+        "kind": "closure"
+      },
+      "fiber_count": 48,
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "15982"
+        ]
+      },
+      "verification": "parsed_label_owner_confirmed_grammar"
+    },
+    {
+      "id": "172",
+      "legacy_label": "172-217-218-48",
+      "end_a": {
+        "id": "217",
+        "kind": "closure"
+      },
+      "end_z": {
+        "id": "218",
+        "kind": "closure"
+      },
+      "fiber_count": 48,
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "15983"
+        ]
+      },
+      "verification": "parsed_label_owner_confirmed_grammar"
+    },
+    {
+      "id": "173",
+      "legacy_label": "173-218-51-24",
+      "end_a": {
+        "id": "218",
+        "kind": "closure"
+      },
+      "end_z": {
+        "id": "51",
+        "kind": "access_point"
+      },
+      "fiber_count": 24,
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "34371"
+        ]
+      },
+      "verification": "parsed_label_owner_confirmed_grammar"
+    },
+    {
+      "id": "174",
+      "legacy_label": "174-218-219-48",
+      "end_a": {
+        "id": "218",
+        "kind": "closure"
+      },
+      "end_z": {
+        "id": "219",
+        "kind": "closure"
+      },
+      "fiber_count": 48,
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "15985"
+        ]
+      },
+      "verification": "parsed_label_owner_confirmed_grammar"
+    },
+    {
+      "id": "175",
+      "legacy_label": "175-219-52-24",
+      "end_a": {
+        "id": "219",
+        "kind": "closure"
+      },
+      "end_z": {
+        "id": "52",
+        "kind": "access_point"
+      },
+      "fiber_count": 24,
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "35121"
+        ]
+      },
+      "verification": "parsed_label_owner_confirmed_grammar"
+    },
+    {
+      "id": "176",
+      "legacy_label": "176-219-220-48",
+      "end_a": {
+        "id": "219",
+        "kind": "closure"
+      },
+      "end_z": {
+        "id": "220",
+        "kind": "closure"
+      },
+      "fiber_count": 48,
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "15988"
+        ]
+      },
+      "verification": "parsed_label_owner_confirmed_grammar"
+    },
+    {
+      "id": "177",
+      "legacy_label": "177-220-221-48",
+      "end_a": {
+        "id": "220",
+        "kind": "closure"
+      },
+      "end_z": {
+        "id": "221",
+        "kind": "closure"
+      },
+      "fiber_count": 48,
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "15989"
+        ]
+      },
+      "verification": "parsed_label_owner_confirmed_grammar"
+    },
+    {
+      "id": "178",
+      "legacy_label": "178-221-222-48",
+      "end_a": {
+        "id": "221",
+        "kind": "closure"
+      },
+      "end_z": {
+        "id": "222",
+        "kind": "closure"
+      },
+      "fiber_count": 48,
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "43428"
+        ]
+      },
+      "verification": "parsed_label_owner_confirmed_grammar"
+    },
+    {
+      "id": "179",
+      "legacy_label": "179-222-223-48",
+      "end_a": {
+        "id": "222",
+        "kind": "closure"
+      },
+      "end_z": {
+        "id": "223",
+        "kind": "closure"
+      },
+      "fiber_count": 48,
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "42871"
+        ]
+      },
+      "verification": "parsed_label_owner_confirmed_grammar"
+    },
+    {
+      "id": "180",
+      "legacy_label": "180-223-224-48",
+      "end_a": {
+        "id": "223",
+        "kind": "closure"
+      },
+      "end_z": {
+        "id": "224",
+        "kind": "closure"
+      },
+      "fiber_count": 48,
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "15990"
+        ]
+      },
+      "verification": "parsed_label_owner_confirmed_grammar"
+    },
+    {
+      "id": "181",
+      "legacy_label": "181-224-225-24",
+      "end_a": {
+        "id": "224",
+        "kind": "closure"
+      },
+      "end_z": {
+        "id": "225",
+        "kind": "closure"
+      },
+      "fiber_count": 24,
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "37984"
+        ]
+      },
+      "verification": "parsed_label_owner_confirmed_grammar"
+    },
+    {
+      "id": "182",
+      "legacy_label": "182-225-53-24",
+      "end_a": {
+        "id": "225",
+        "kind": "closure"
+      },
+      "end_z": {
+        "id": "53",
+        "kind": "access_point"
+      },
+      "fiber_count": 24,
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "37907"
+        ]
+      },
+      "verification": "parsed_label_owner_confirmed_grammar"
+    },
+    {
+      "id": "183",
+      "legacy_label": "183-225-54-24",
+      "end_a": {
+        "id": "225",
+        "kind": "closure"
+      },
+      "end_z": {
+        "id": "54",
+        "kind": "access_point"
+      },
+      "fiber_count": 24,
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "38438"
+        ]
+      },
+      "verification": "parsed_label_owner_confirmed_grammar"
+    },
+    {
+      "id": "184",
+      "legacy_label": "184-6-224-48",
+      "end_a": {
+        "id": "6",
+        "kind": "aggregation_point"
+      },
+      "end_z": {
+        "id": "224",
+        "kind": "closure"
+      },
+      "fiber_count": 48,
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "15991"
+        ]
+      },
+      "verification": "parsed_label_owner_confirmed_grammar"
+    }
+  ],
+  "closure_218_connection_candidates": [
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 1,
+      "to_cable": "174",
+      "to_fiber": 1,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33009",
+      "endpoint_label_shapes": [
+        "34640",
+        "35541"
+      ],
+      "line_color": "#00b050",
+      "match_residual_drawing_inches": [
+        0.01592,
+        0.03088
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33009",
+          "34640",
+          "35541"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 2,
+      "to_cable": "174",
+      "to_fiber": 2,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33010",
+      "endpoint_label_shapes": [
+        "34641",
+        "35542"
+      ],
+      "line_color": "#00b050",
+      "match_residual_drawing_inches": [
+        0.01592,
+        0.03088
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33010",
+          "34641",
+          "35542"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 3,
+      "to_cable": "174",
+      "to_fiber": 3,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33011",
+      "endpoint_label_shapes": [
+        "34642",
+        "35543"
+      ],
+      "line_color": "#00b050",
+      "match_residual_drawing_inches": [
+        0.01615,
+        0.031
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33011",
+          "34642",
+          "35543"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 4,
+      "to_cable": "174",
+      "to_fiber": 4,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33012",
+      "endpoint_label_shapes": [
+        "34643",
+        "35544"
+      ],
+      "line_color": "#00b050",
+      "match_residual_drawing_inches": [
+        0.01589,
+        0.03086
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33012",
+          "34643",
+          "35544"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 5,
+      "to_cable": "174",
+      "to_fiber": 5,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33013",
+      "endpoint_label_shapes": [
+        "34644",
+        "35545"
+      ],
+      "line_color": "#ff0000",
+      "match_residual_drawing_inches": [
+        0.01592,
+        0.03088
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33013",
+          "34644",
+          "35545"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 6,
+      "to_cable": "174",
+      "to_fiber": 6,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33014",
+      "endpoint_label_shapes": [
+        "34645",
+        "35546"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.01728,
+        0.0316
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33014",
+          "34645",
+          "35546"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 7,
+      "to_cable": "174",
+      "to_fiber": 7,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33015",
+      "endpoint_label_shapes": [
+        "34646",
+        "35547"
+      ],
+      "line_color": "#00b050",
+      "match_residual_drawing_inches": [
+        0.01728,
+        0.0316
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33015",
+          "34646",
+          "35547"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 8,
+      "to_cable": "174",
+      "to_fiber": 8,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33065",
+      "endpoint_label_shapes": [
+        "34647",
+        "35548"
+      ],
+      "line_color": "#ff0000",
+      "match_residual_drawing_inches": [
+        0.01728,
+        0.0316
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33065",
+          "34647",
+          "35548"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 9,
+      "to_cable": "174",
+      "to_fiber": 9,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33066",
+      "endpoint_label_shapes": [
+        "34648",
+        "35549"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.01592,
+        0.03088
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33066",
+          "34648",
+          "35549"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 10,
+      "to_cable": "174",
+      "to_fiber": 10,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33067",
+      "endpoint_label_shapes": [
+        "34649",
+        "35550"
+      ],
+      "line_color": "#ff0000",
+      "match_residual_drawing_inches": [
+        0.01728,
+        0.0316
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33067",
+          "34649",
+          "35550"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 11,
+      "to_cable": "174",
+      "to_fiber": 11,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33068",
+      "endpoint_label_shapes": [
+        "34650",
+        "35551"
+      ],
+      "line_color": "#ff0000",
+      "match_residual_drawing_inches": [
+        0.01592,
+        0.03088
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33068",
+          "34650",
+          "35551"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 12,
+      "to_cable": "174",
+      "to_fiber": 12,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33069",
+      "endpoint_label_shapes": [
+        "34651",
+        "35552"
+      ],
+      "line_color": "#ff0000",
+      "match_residual_drawing_inches": [
+        0.01615,
+        0.031
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33069",
+          "34651",
+          "35552"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 13,
+      "to_cable": "174",
+      "to_fiber": 13,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33070",
+      "endpoint_label_shapes": [
+        "34662",
+        "35563"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.01592,
+        0.03088
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33070",
+          "34662",
+          "35563"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 14,
+      "to_cable": "174",
+      "to_fiber": 14,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33071",
+      "endpoint_label_shapes": [
+        "34663",
+        "35564"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.01728,
+        0.0316
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33071",
+          "34663",
+          "35564"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 15,
+      "to_cable": "174",
+      "to_fiber": 15,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33072",
+      "endpoint_label_shapes": [
+        "34664",
+        "35565"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.01615,
+        0.031
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33072",
+          "34664",
+          "35565"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 16,
+      "to_cable": "174",
+      "to_fiber": 16,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33073",
+      "endpoint_label_shapes": [
+        "34665",
+        "35566"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.01589,
+        0.03086
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33073",
+          "34665",
+          "35566"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 17,
+      "to_cable": "174",
+      "to_fiber": 17,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33074",
+      "endpoint_label_shapes": [
+        "34666",
+        "35567"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.01592,
+        0.03088
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33074",
+          "34666",
+          "35567"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 18,
+      "to_cable": "174",
+      "to_fiber": 18,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33075",
+      "endpoint_label_shapes": [
+        "34667",
+        "35568"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.01728,
+        0.0316
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33075",
+          "34667",
+          "35568"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 19,
+      "to_cable": "174",
+      "to_fiber": 19,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33088",
+      "endpoint_label_shapes": [
+        "34668",
+        "35569"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.01728,
+        0.0316
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33088",
+          "34668",
+          "35569"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 20,
+      "to_cable": "174",
+      "to_fiber": 20,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33089",
+      "endpoint_label_shapes": [
+        "34669",
+        "35570"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.02158,
+        0.03415
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33089",
+          "34669",
+          "35570"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 21,
+      "to_cable": "174",
+      "to_fiber": 21,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33090",
+      "endpoint_label_shapes": [
+        "34670",
+        "35571"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.01615,
+        0.031
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33090",
+          "34670",
+          "35571"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 22,
+      "to_cable": "174",
+      "to_fiber": 22,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33091",
+      "endpoint_label_shapes": [
+        "34671",
+        "35572"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.01592,
+        0.03088
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33091",
+          "34671",
+          "35572"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 23,
+      "to_cable": "174",
+      "to_fiber": 23,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33092",
+      "endpoint_label_shapes": [
+        "34672",
+        "35573"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.01592,
+        0.03088
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33092",
+          "34672",
+          "35573"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 24,
+      "to_cable": "174",
+      "to_fiber": 24,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33093",
+      "endpoint_label_shapes": [
+        "34673",
+        "35574"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.01728,
+        0.0316
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33093",
+          "34673",
+          "35574"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 25,
+      "to_cable": "174",
+      "to_fiber": 25,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33094",
+      "endpoint_label_shapes": [
+        "34684",
+        "35585"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.01592,
+        0.03088
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33094",
+          "34684",
+          "35585"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 26,
+      "to_cable": "174",
+      "to_fiber": 26,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33095",
+      "endpoint_label_shapes": [
+        "34685",
+        "35586"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.01615,
+        0.031
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33095",
+          "34685",
+          "35586"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 27,
+      "to_cable": "174",
+      "to_fiber": 27,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33096",
+      "endpoint_label_shapes": [
+        "34686",
+        "35587"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.01615,
+        0.031
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33096",
+          "34686",
+          "35587"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 28,
+      "to_cable": "174",
+      "to_fiber": 28,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33097",
+      "endpoint_label_shapes": [
+        "34687",
+        "35588"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.01615,
+        0.031
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33097",
+          "34687",
+          "35588"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 29,
+      "to_cable": "173",
+      "to_fiber": 1,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33098",
+      "endpoint_label_shapes": [
+        "34688",
+        "34438"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.00176,
+        0.00625
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33098",
+          "34688",
+          "34438"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 30,
+      "to_cable": "173",
+      "to_fiber": 2,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33099",
+      "endpoint_label_shapes": [
+        "34689",
+        "34439"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.00087,
+        0.00368
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33099",
+          "34689",
+          "34439"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 31,
+      "to_cable": "173",
+      "to_fiber": 3,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33100",
+      "endpoint_label_shapes": [
+        "34690",
+        "34440"
+      ],
+      "line_color": "#128729",
+      "match_residual_drawing_inches": [
+        0.00342,
+        0.00115
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33100",
+          "34690",
+          "34440"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 32,
+      "to_cable": "173",
+      "to_fiber": 4,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "33101",
+      "endpoint_label_shapes": [
+        "34691",
+        "34441"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.00599,
+        0.00633
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "33101",
+          "34691",
+          "34441"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 33,
+      "to_cable": "173",
+      "to_fiber": 5,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "37687",
+      "endpoint_label_shapes": [
+        "34692",
+        "34442"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.00683,
+        0.00479
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "37687",
+          "34692",
+          "34442"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 34,
+      "to_cable": "173",
+      "to_fiber": 6,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "37688",
+      "endpoint_label_shapes": [
+        "34693",
+        "34443"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.0081,
+        0.00524
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "37688",
+          "34693",
+          "34443"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 35,
+      "to_cable": "173",
+      "to_fiber": 7,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "37689",
+      "endpoint_label_shapes": [
+        "34694",
+        "34444"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.0064,
+        0.00673
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "37689",
+          "34694",
+          "34444"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 36,
+      "to_cable": "173",
+      "to_fiber": 8,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "37690",
+      "endpoint_label_shapes": [
+        "34695",
+        "34445"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.0068,
+        0.00874
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "37690",
+          "34695",
+          "34445"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 37,
+      "to_cable": "173",
+      "to_fiber": 9,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "37691",
+      "endpoint_label_shapes": [
+        "34706",
+        "34446"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.0125,
+        0.00521
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "37691",
+          "34706",
+          "34446"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 38,
+      "to_cable": "173",
+      "to_fiber": 10,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "37692",
+      "endpoint_label_shapes": [
+        "34707",
+        "34447"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.01499,
+        0.00484
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "37692",
+          "34707",
+          "34447"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 39,
+      "to_cable": "173",
+      "to_fiber": 11,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "37693",
+      "endpoint_label_shapes": [
+        "34708",
+        "34448"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.00803,
+        0.00407
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "37693",
+          "34708",
+          "34448"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "172",
+      "from_fiber": 40,
+      "to_cable": "173",
+      "to_fiber": 12,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "37694",
+      "endpoint_label_shapes": [
+        "34709",
+        "34449"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.01257,
+        0.00518
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "37694",
+          "34709",
+          "34449"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "174",
+      "from_fiber": 35,
+      "to_cable": "173",
+      "to_fiber": 19,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "37695",
+      "endpoint_label_shapes": [
+        "35595",
+        "34466"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.01953,
+        0.02019
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "37695",
+          "35595",
+          "34466"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "174",
+      "from_fiber": 36,
+      "to_cable": "173",
+      "to_fiber": 20,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "37696",
+      "endpoint_label_shapes": [
+        "35596",
+        "34467"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.01893,
+        0.02063
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "37696",
+          "35596",
+          "34467"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "174",
+      "from_fiber": 34,
+      "to_cable": "173",
+      "to_fiber": 18,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "37697",
+      "endpoint_label_shapes": [
+        "35594",
+        "34465"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.02204,
+        0.02007
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "37697",
+          "35594",
+          "34465"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "174",
+      "from_fiber": 33,
+      "to_cable": "173",
+      "to_fiber": 17,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "37698",
+      "endpoint_label_shapes": [
+        "35593",
+        "34464"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.02199,
+        0.02027
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "37698",
+          "35593",
+          "34464"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "174",
+      "from_fiber": 32,
+      "to_cable": "173",
+      "to_fiber": 16,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "37699",
+      "endpoint_label_shapes": [
+        "35592",
+        "34463"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.0224,
+        0.0208
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "37699",
+          "35592",
+          "34463"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "174",
+      "from_fiber": 31,
+      "to_cable": "173",
+      "to_fiber": 15,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "37700",
+      "endpoint_label_shapes": [
+        "35591",
+        "34462"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.02204,
+        0.02007
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "37700",
+          "35591",
+          "34462"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "174",
+      "from_fiber": 30,
+      "to_cable": "173",
+      "to_fiber": 14,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "37701",
+      "endpoint_label_shapes": [
+        "35590",
+        "34461"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.02198,
+        0.02026
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "37701",
+          "35590",
+          "34461"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "174",
+      "from_fiber": 29,
+      "to_cable": "173",
+      "to_fiber": 13,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "37702",
+      "endpoint_label_shapes": [
+        "35589",
+        "34460"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.02223,
+        0.02078
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "37702",
+          "35589",
+          "34460"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "174",
+      "from_fiber": 37,
+      "to_cable": "173",
+      "to_fiber": 21,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "37703",
+      "endpoint_label_shapes": [
+        "35607",
+        "34468"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.04194,
+        0.02007
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "37703",
+          "35607",
+          "34468"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "174",
+      "from_fiber": 38,
+      "to_cable": "173",
+      "to_fiber": 22,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "37704",
+      "endpoint_label_shapes": [
+        "35608",
+        "34469"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.04164,
+        0.02084
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "37704",
+          "35608",
+          "34469"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "174",
+      "from_fiber": 39,
+      "to_cable": "173",
+      "to_fiber": 23,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "37705",
+      "endpoint_label_shapes": [
+        "35609",
+        "34470"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.0415,
+        0.02159
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "37705",
+          "35609",
+          "34470"
+        ]
+      }
+    },
+    {
+      "closure": "218",
+      "from_cable": "174",
+      "from_fiber": 40,
+      "to_cable": "173",
+      "to_fiber": 24,
+      "evidence": "geometry_candidate",
+      "approval": "needs_engineer_review",
+      "operation_kind": "unknown",
+      "line_shape": "37706",
+      "endpoint_label_shapes": [
+        "35610",
+        "34471"
+      ],
+      "line_color": "#0000ff",
+      "match_residual_drawing_inches": [
+        0.04195,
+        0.02007
+      ],
+      "source": {
+        "file": "Tsageri-Lentekhi 2025.vsdx",
+        "page": "ცაგერი-ლენტეხი",
+        "page_id": "4",
+        "part": "visio/pages/page1.xml",
+        "shape_ids": [
+          "37706",
+          "35610",
+          "34471"
+        ]
+      }
+    }
+  ],
+  "approved_connection_count": 0,
+  "issues": [
+    {
+      "id": "Q01",
+      "severity": "review",
+      "topic": "Aggregation identity conflict",
+      "evidence": "Heading Aagregacia #6 lentexi; station property Row_1=5",
+      "shape_ids": [
+        "37059",
+        "36475"
+      ],
+      "action": "Resolve canonical identity; preserve both values. Do not merge with Tsageri #5."
+    },
+    {
+      "id": "Q02",
+      "severity": "review",
+      "topic": "Known uncertain fiber mapping",
+      "evidence": "მე5 ჟილა სადღაც ქუროში არეულია და მიდის მე-9 ზე",
+      "translation": "Fiber 5 is mixed up somewhere in a closure and goes to fiber 9.",
+      "shape_ids": [
+        "44236"
+      ],
+      "action": "Create an investigation issue. Exact closure and cable are unknown; do not create a 5-to-9 splice."
+    },
+    {
+      "id": "Q03",
+      "severity": "review",
+      "topic": "Port status semantics",
+      "evidence": "144 page shape State properties read თავისუფალი (free), drawn from six sets of 24. Choice list also includes პირდაპირი and ტრანზიტი.",
+      "action": "Separate allocation from continuity; test whether values are maintained or copied defaults. Do not publish 144 available ports."
+    },
+    {
+      "id": "Q04",
+      "severity": "review",
+      "topic": "Coordinate axis and reference system",
+      "evidence": "Most coordinates use E/N-labelled DMS. Closures 221 and 222 use two decimal-degree values without E/N. No datum confirmed.",
+      "shape_ids": [
+        "43124",
+        "42417"
+      ],
+      "action": "Retain raw coordinates, validate axis order and CRS before GIS publication."
+    },
+    {
+      "id": "Q05",
+      "severity": "boundary",
+      "topic": "Referenced closure outside extracted inventory",
+      "evidence": "151-206-207-144 refers to closure 207; no corresponding top-level closure record found in this page.",
+      "shape_ids": [
+        "15772"
+      ],
+      "action": "Create external/unresolved boundary reference; look in adjacent territory diagrams."
+    },
+    {
+      "id": "Q06",
+      "severity": "resolved_by_owner",
+      "topic": "Cable 170 capacity",
+      "evidence": "User first wrote 25; file label is 170-216-50-24. User confirmed 24 fibers.",
+      "shape_ids": [
+        "33699"
+      ],
+      "action": "Import 24; retain correction provenance."
+    },
+    {
+      "id": "Q07",
+      "severity": "owner_instruction",
+      "topic": "Legacy Loop annotation",
+      "evidence": "User says Loop should be disabled and was used before OTDR.",
+      "action": "Classify Loop annotations as legacy_disabled. Do not use them as approved live continuity; physical edges require separate review."
+    },
+    {
+      "id": "Q08",
+      "severity": "review",
+      "topic": "Cut/module notes",
+      "evidence": "გაიჭრას #3 #4 მოდული; previous engineer divided cable into modules according to user.",
+      "shape_ids": [
+        "15252"
+      ],
+      "action": "Preserve note; do not automatically turn an instruction into completed work or invent trays."
+    },
+    {
+      "id": "Q09",
+      "severity": "review",
+      "topic": "Numbering anomalies in long text strips",
+      "evidence": "One text sequence contains 60,161,62; another contains 156,1157,158.",
+      "shape_ids": [
+        "15122",
+        "15123"
+      ],
+      "action": "Check against individual strand/port shapes before correcting or generating records."
+    }
+  ]
+}

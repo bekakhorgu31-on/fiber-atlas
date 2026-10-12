@@ -1,0 +1,135 @@
+{
+  "browser": "154.0.4258.53",
+  "journeys": [
+    {
+      "name": "overall map SC206 → C169 → F10 → SC217; details and selected Fiber stay independent"
+    },
+    {
+      "name": "direct C169/F12 search enters the same network workspace and corrected journey"
+    },
+    {
+      "name": "Silknet search and organization strand view retain local Fiber scope",
+      "strandFound": true
+    },
+    {
+      "name": "Lentekhi Ports 10/11/12 each open the matching C184 Fiber journey",
+      "ports": [
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "name": "F10 path, Closure/Cable inspection, physical context and browser history",
+      "rail": "მარშრუტი\nკაბელის მონაკვეთი\nSC216 ↔ SC217 · 48F\n\nLegacy C171\n\nსაიდან მოდის\nAGG5 · ცაგერი → SC205 → SC206 → SC216\nეს მონაკვეთი\nSC216 ↔ SC217 · 48F\nსად მიდის ჟილები\nF01–F28\n→ გაგრძელება დაუდგენელია\nF29\n→ C172 / F29\nF30–F48\n→ გაგრძელება დაუდგენელია\nკაბელის შემადგენლობა\n\n48 ჟილა · 4 ტუბი\n\nლურჯი\nტუბი 1\nF01–F12\nნარინჯისფერი\nტუბი 2\nF13–F24\nმწვანე\nტუბი 3\nF25–F36\nყავისფერი\nტუბი 4\nF37–F48\nჟილების ნახვა\nსრული გზა\nშეერთებების სქემა\nდამატებითი ინფორმაცია"
+    },
+    {
+      "name": "F12 Lentekhi correction and retained Silknet/Skytel use conflict"
+    },
+    {
+      "name": "F32 AP52 port cross-navigation and explicit destination workspace"
+    },
+    {
+      "name": "Lentekhi F38 follows SC224–C181 to the source-confirmed SC225 termination"
+    },
+    {
+      "name": "shared Fiber playback animates a graph-derived journey leg with finite controls"
+    },
+    {
+      "name": "persistent inspection layout 1366px",
+      "boxes": {
+        "viewport": 1366,
+        "document": 1366,
+        "map": {
+          "x": 248,
+          "y": 172,
+          "width": 678,
+          "height": 596,
+          "top": 172,
+          "right": 926,
+          "bottom": 768,
+          "left": 248
+        },
+        "rail": {
+          "x": 926,
+          "y": 172,
+          "width": 440,
+          "height": 596,
+          "top": 172,
+          "right": 1366,
+          "bottom": 768,
+          "left": 926
+        },
+        "position": "relative"
+      }
+    },
+    {
+      "name": "persistent inspection layout 390px",
+      "boxes": {
+        "viewport": 390,
+        "document": 390,
+        "map": {
+          "x": 0,
+          "y": 211,
+          "width": 390,
+          "height": 664.484375,
+          "top": 211,
+          "right": 390,
+          "bottom": 875.484375,
+          "left": 0
+        },
+        "rail": {
+          "x": 0,
+          "y": 875.484375,
+          "width": 390,
+          "height": 548.59375,
+          "top": 875.484375,
+          "right": 390,
+          "bottom": 1424.078125,
+          "left": 0
+        },
+        "position": "static"
+      }
+    },
+    {
+      "name": "persistent inspection layout 320px",
+      "boxes": {
+        "viewport": 320,
+        "document": 320,
+        "map": {
+          "x": 0,
+          "y": 211,
+          "width": 320,
+          "height": 692.484375,
+          "top": 211,
+          "right": 320,
+          "bottom": 903.484375,
+          "left": 0
+        },
+        "rail": {
+          "x": 0,
+          "y": 903.484375,
+          "width": 320,
+          "height": 548.59375,
+          "top": 903.484375,
+          "right": 320,
+          "bottom": 1452.078125,
+          "left": 0
+        },
+        "position": "static"
+      }
+    },
+    {
+      "name": "200% zoom layout at 720×450",
+      "size": {
+        "width": 720,
+        "scroll": 720
+      }
+    }
+  ],
+  "errors": [],
+  "screenshots": [
+    "docs/iteration28l-map-desktop.png",
+    "docs/iteration28l-map-mobile-390.png"
+  ]
+}

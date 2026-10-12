@@ -1,0 +1,31 @@
+import { pathToFileURL } from 'node:url';
+import { writeFile } from 'node:fs/promises';
+const { chromium } = await import(pathToFileURL('C:/Users/Beka/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs'));
+const browser = await chromium.launch({ headless: true, executablePath: 'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe' });
+const base = 'file:///C:/Users/Beka/Desktop/Visio%20Alt/fiber-prototype.html';
+const result = { desktop: [], mobile: [], standalone: null, logs: [] };
+const watch = page => { page.on('pageerror', error => result.logs.push(error.message)); page.on('console', msg => { if (['error','warning'].includes(msg.type())) result.logs.push(msg.text()); }); };
+const viewport = async page => { const size = await page.evaluate(() => ({ width: innerWidth, scrollWidth: document.documentElement.scrollWidth })); if (size.scrollWidth > size.width) throw new Error(`Overflow: ${JSON.stringify(size)}`); return size; };
+const desktop = await browser.newContext({ viewport: { width: 1440, height: 900 } }), page = await desktop.newPage(); watch(page);
+await page.goto(base); await page.waitForSelector('[data-workspace-key="network_node:207"]');
+for (const [id, label] of [['207','SC207'],['211','SC211'],['215','SC215']]) {
+  const node = page.locator(`[data-workspace-key="network_node:${id}"]`); if (!(await node.innerText()).includes(label)) throw new Error(`${label} missing from combined graph`);
+  await node.locator('.network-node-main').click(); await page.waitForFunction(label => document.querySelector('.context-inspector')?.innerText.includes(label) && document.querySelector('.context-inspector')?.innerText.includes('EXACT LOCAL FIBER TRANSITIONS'), label);
+  const text = await page.locator('.context-inspector').innerText(); if (!text.includes(label)) throw new Error(`${label} Inspector did not open: ${text.slice(0,400)}`);
+  if (id === '207' && (!text.includes('GJS - 3019A') || !text.includes('42°47'))) throw new Error('SC207 source coordinate/reference missing');
+  result.desktop.push({ closure: label, ...await viewport(page) });
+}
+await page.goto(`${base}#/engineer?q=${encodeURIComponent('GIS-3019A')}`); await page.waitForSelector('.engineer-answer');
+const search = await page.locator('.engineer-answer').innerText(); if (!search.includes('SC207') || !search.includes('No objects were merged')) throw new Error(`GIS duplicate-reference disambiguation missing: ${search.slice(0,500)}`);
+result.desktop.push({ flow: 'GIS-3019A duplicate-reference disambiguation', ...await viewport(page) });
+result.standalone = await page.evaluate(() => ({ scripts: document.scripts.length, linkedStyles: document.querySelectorAll('link[rel="stylesheet"]').length }));
+if (result.standalone.scripts !== 1 || result.standalone.linkedStyles !== 0) throw new Error('Standalone file is not self-contained');
+await desktop.close();
+const mobile = await browser.newContext({ viewport: { width: 390, height: 844 } }), m = await mobile.newPage(); watch(m); await m.goto(base); await m.waitForSelector('[data-workspace-key="network_node:207"]');
+await m.locator('[data-workspace-key="network_node:207"] .network-node-main').click(); await m.waitForFunction(() => document.querySelector('.context-inspector')?.innerText.includes('EXTERNAL GIS REFERENCE'));
+const mobileText = await m.locator('.context-inspector').innerText(); if (!mobileText.includes('GJS - 3019A') || !mobileText.includes('42°47')) throw new Error('390px SC207 coordinate/reference fields missing');
+result.mobile.push({ flow: 'SC207 coordinate and reference Inspector', ...await viewport(m) });
+await mobile.close(); await browser.close();
+if (result.logs.length) throw new Error(result.logs.join('\n'));
+await writeFile('docs/iteration28b-browser-qa.json', JSON.stringify(result, null, 2) + '\n');
+console.log(JSON.stringify({ desktop: result.desktop.length, mobile: result.mobile.length, standalone: result.standalone, logs: result.logs.length }));

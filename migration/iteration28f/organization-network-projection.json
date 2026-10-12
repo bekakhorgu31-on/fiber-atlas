@@ -1,0 +1,4338 @@
+{
+  "rule": "fiber-usage-to-network-context/1",
+  "topologyRevision": "canonical-active-fiber-path/1/e7d1e8bcb8c747e2",
+  "usageRule": "exact-current-fiber-path-usage/1",
+  "organizations": [
+    {
+      "organizationId": "opennet",
+      "name": "OpenNet",
+      "aliases": [
+        "Open Net",
+        "ოპენნეტი",
+        "ოპენნეტ",
+        "ოუფენ ნეტი"
+      ],
+      "strands": [
+        {
+          "id": "ORG-STRAND-opennet-028288030dd14771",
+          "organizationId": "opennet",
+          "usageState": "in_use",
+          "purpose": "internal",
+          "claimIds": [
+            "28E-USE-00049",
+            "28E-USE-00241",
+            "28E-USE-00433",
+            "28E-USE-00577",
+            "28E-USE-00720",
+            "28E-USE-00912",
+            "28E-USE-01056",
+            "28E-USE-01200",
+            "28E-USE-01440",
+            "28E-USE-01572",
+            "28E-USE-01618",
+            "28E-USE-01666",
+            "28E-USE-01702",
+            "28E-USE-01714",
+            "28E-USE-01762",
+            "28E-USE-01798",
+            "28E-USE-02010",
+            "28E-USE-02202",
+            "28E-USE-02420",
+            "28E-USE-02528",
+            "28E-USE-02624",
+            "28E-USE-02704",
+            "28E-USE-02832",
+            "28E-USE-03078",
+            "28E-USE-03079"
+          ],
+          "localFiberLegs": [
+            {
+              "segmentId": "CAB-000148",
+              "fiberNumber": 1
+            },
+            {
+              "segmentId": "CAB-000150",
+              "fiberNumber": 1
+            },
+            {
+              "segmentId": "CAB-000151",
+              "fiberNumber": 1
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+              "fiberNumber": 1
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+              "fiberNumber": 1
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+              "fiberNumber": 1
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+              "fiberNumber": 1
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+              "fiberNumber": 1
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C164",
+              "fiberNumber": 13
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C166",
+              "fiberNumber": 13
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C167",
+              "fiberNumber": 13
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C168",
+              "fiberNumber": 1
+            }
+          ],
+          "cableIds": [
+            "CAB-000148",
+            "CAB-000150",
+            "CAB-000151",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C164",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C166",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C167",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C168"
+          ],
+          "portBindingIds": [
+            "28D-SOURCE-B-AP49-P1"
+          ],
+          "apIds": [
+            "49"
+          ],
+          "aggregationIds": [
+            "5"
+          ],
+          "closureIds": [
+            "205",
+            "206",
+            "207",
+            "208",
+            "209",
+            "210",
+            "211",
+            "212",
+            "213",
+            "214",
+            "215"
+          ],
+          "sourceOccurrenceIds": [],
+          "sourceLabelShapeIds": [],
+          "pathSignatures": [
+            "canonical-active-fiber-path/1/426b4718e9c5002a",
+            "canonical-active-fiber-path/1/a768a01b72b239f7",
+            "canonical-active-fiber-path/1/20fa78d852859994",
+            "canonical-active-fiber-path/1/127cd76181a870c9",
+            "canonical-active-fiber-path/1/9e5c31fde99cb7b9",
+            "canonical-active-fiber-path/1/0b1a413488cdaa8e",
+            "canonical-active-fiber-path/1/95f1b7f58366a605",
+            "canonical-active-fiber-path/1/992ae2c5a8fdbac5",
+            "canonical-active-fiber-path/1/573225b7fa198b25",
+            "canonical-active-fiber-path/1/8ca766fb1a220889",
+            "canonical-active-fiber-path/1/5d088c9a3b58be74",
+            "canonical-active-fiber-path/1/7a320662993e3002"
+          ],
+          "pathEndpoints": [
+            "AGG5",
+            "AP49"
+          ],
+          "unknownPort": false,
+          "conflicts": [],
+          "reviewCaseIds": []
+        },
+        {
+          "id": "ORG-STRAND-opennet-02e8ae39bbe212ef",
+          "organizationId": "opennet",
+          "usageState": "in_use",
+          "purpose": "internal",
+          "claimIds": [
+            "28E-USE-00086",
+            "28E-USE-00278",
+            "28E-USE-00470",
+            "28E-USE-00614",
+            "28E-USE-00757",
+            "28E-USE-00949",
+            "28E-USE-01093",
+            "28E-USE-01237",
+            "28E-USE-01477",
+            "28E-USE-01835",
+            "28E-USE-02047",
+            "28E-USE-02239",
+            "28E-USE-02457",
+            "28E-USE-02565",
+            "28E-USE-02661",
+            "28E-USE-02741",
+            "28E-USE-02793"
+          ],
+          "localFiberLegs": [
+            {
+              "segmentId": "CAB-000148",
+              "fiberNumber": 38
+            },
+            {
+              "segmentId": "CAB-000150",
+              "fiberNumber": 38
+            },
+            {
+              "segmentId": "CAB-000151",
+              "fiberNumber": 38
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+              "fiberNumber": 38
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+              "fiberNumber": 38
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+              "fiberNumber": 38
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+              "fiberNumber": 38
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+              "fiberNumber": 38
+            }
+          ],
+          "cableIds": [
+            "CAB-000148",
+            "CAB-000150",
+            "CAB-000151",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161"
+          ],
+          "portBindingIds": [],
+          "apIds": [],
+          "aggregationIds": [
+            "5"
+          ],
+          "closureIds": [
+            "212",
+            "205",
+            "206",
+            "207",
+            "208",
+            "209",
+            "210",
+            "211"
+          ],
+          "sourceOccurrenceIds": [],
+          "sourceLabelShapeIds": [],
+          "pathSignatures": [
+            "canonical-active-fiber-path/1/0db007922dd1a2ea",
+            "canonical-active-fiber-path/1/ffeb2af584a30e0f",
+            "canonical-active-fiber-path/1/72fdbc02a84922f4",
+            "canonical-active-fiber-path/1/1387d74323660529",
+            "canonical-active-fiber-path/1/11ae154989b8db25",
+            "canonical-active-fiber-path/1/82624dce53664f3e",
+            "canonical-active-fiber-path/1/9865939559d65391",
+            "canonical-active-fiber-path/1/0263840b1d92b9e9"
+          ],
+          "pathEndpoints": [
+            "AGG5",
+            "SC212"
+          ],
+          "unknownPort": true,
+          "conflicts": [],
+          "reviewCaseIds": []
+        },
+        {
+          "id": "ORG-STRAND-opennet-04f3c0ad0122916f",
+          "organizationId": "opennet",
+          "usageState": "in_use",
+          "purpose": "internal",
+          "claimIds": [
+            "28E-USE-00194",
+            "28E-USE-00386",
+            "28E-USE-01919",
+            "28E-USE-01967",
+            "28E-USE-02154",
+            "28E-USE-02329",
+            "28E-USE-03096",
+            "28E-USE-03097",
+            "28E-USE-03098",
+            "28E-USE-03099",
+            "28E-USE-03123",
+            "28E-USE-03127"
+          ],
+          "localFiberLegs": [
+            {
+              "segmentId": "CAB-000148",
+              "fiberNumber": 146
+            },
+            {
+              "segmentId": "CAB-000150",
+              "fiberNumber": 146
+            },
+            {
+              "segmentId": "CAB-000169",
+              "fiberNumber": 2
+            },
+            {
+              "segmentId": "CAB-000171",
+              "fiberNumber": 2
+            },
+            {
+              "segmentId": "CAB-000172",
+              "fiberNumber": 2
+            },
+            {
+              "segmentId": "CAB-000174",
+              "fiberNumber": 2
+            },
+            {
+              "segmentId": "CAB-000176",
+              "fiberNumber": 2
+            },
+            {
+              "segmentId": "CAB-000177",
+              "fiberNumber": 2
+            },
+            {
+              "segmentId": "CAB-000178",
+              "fiberNumber": 2
+            },
+            {
+              "segmentId": "CAB-000179",
+              "fiberNumber": 2
+            },
+            {
+              "segmentId": "CAB-000180",
+              "fiberNumber": 2
+            },
+            {
+              "segmentId": "CAB-000184",
+              "fiberNumber": 2
+            }
+          ],
+          "cableIds": [
+            "CAB-000148",
+            "CAB-000150",
+            "CAB-000169",
+            "CAB-000171",
+            "CAB-000172",
+            "CAB-000174",
+            "CAB-000176",
+            "CAB-000177",
+            "CAB-000178",
+            "CAB-000179",
+            "CAB-000180",
+            "CAB-000184"
+          ],
+          "portBindingIds": [
+            "PTB-LENTEKHI-P02-C184-F02"
+          ],
+          "apIds": [],
+          "aggregationIds": [
+            "5",
+            "AGG-LENTEKHI"
+          ],
+          "closureIds": [
+            "205",
+            "206",
+            "216",
+            "217",
+            "218",
+            "219",
+            "220",
+            "221",
+            "222",
+            "223",
+            "224"
+          ],
+          "sourceOccurrenceIds": [
+            "ORG-17662",
+            "ORG-33805",
+            "NUO-17662",
+            "NUO-37551",
+            "NUO-38539"
+          ],
+          "sourceLabelShapeIds": [
+            "17662",
+            "33805",
+            "37551",
+            "38539"
+          ],
+          "pathSignatures": [
+            "canonical-active-fiber-path/1/54422c7b658789ff",
+            "canonical-active-fiber-path/1/555c00da86c67856",
+            "canonical-active-fiber-path/1/b789208943f5297b",
+            "canonical-active-fiber-path/1/ed26356288772c64"
+          ],
+          "pathEndpoints": [
+            "AGG5",
+            "ლენტეხის აგრეგაცია"
+          ],
+          "unknownPort": false,
+          "conflicts": [],
+          "reviewCaseIds": []
+        },
+        {
+          "id": "ORG-STRAND-opennet-07a9c141f7d128ef",
+          "organizationId": "opennet",
+          "usageState": "in_use",
+          "purpose": "internal",
+          "claimIds": [
+            "28E-USE-00193",
+            "28E-USE-00385",
+            "28E-USE-01918",
+            "28E-USE-01966",
+            "28E-USE-02153",
+            "28E-USE-02328",
+            "28E-USE-03092",
+            "28E-USE-03093",
+            "28E-USE-03094",
+            "28E-USE-03095",
+            "28E-USE-03122",
+            "28E-USE-03126"
+          ],
+          "localFiberLegs": [
+            {
+              "segmentId": "CAB-000148",
+              "fiberNumber": 145
+            },
+            {
+              "segmentId": "CAB-000150",
+              "fiberNumber": 145
+            },
+            {
+              "segmentId": "CAB-000169",
+              "fiberNumber": 1
+            },
+            {
+              "segmentId": "CAB-000171",
+              "fiberNumber": 1
+            },
+            {
+              "segmentId": "CAB-000172",
+              "fiberNumber": 1
+            },
+            {
+              "segmentId": "CAB-000174",
+              "fiberNumber": 1
+            },
+            {
+              "segmentId": "CAB-000176",
+              "fiberNumber": 1
+            },
+            {
+              "segmentId": "CAB-000177",
+              "fiberNumber": 1
+            },
+            {
+              "segmentId": "CAB-000178",
+              "fiberNumber": 1
+            },
+            {
+              "segmentId": "CAB-000179",
+              "fiberNumber": 1
+            },
+            {
+              "segmentId": "CAB-000180",
+              "fiberNumber": 1
+            },
+            {
+              "segmentId": "CAB-000184",
+              "fiberNumber": 1
+            }
+          ],
+          "cableIds": [
+            "CAB-000148",
+            "CAB-000150",
+            "CAB-000169",
+            "CAB-000171",
+            "CAB-000172",
+            "CAB-000174",
+            "CAB-000176",
+            "CAB-000177",
+            "CAB-000178",
+            "CAB-000179",
+            "CAB-000180",
+            "CAB-000184"
+          ],
+          "portBindingIds": [
+            "PTB-LENTEKHI-P01-C184-F01"
+          ],
+          "apIds": [],
+          "aggregationIds": [
+            "5",
+            "AGG-LENTEKHI"
+          ],
+          "closureIds": [
+            "205",
+            "206",
+            "216",
+            "217",
+            "218",
+            "219",
+            "220",
+            "221",
+            "222",
+            "223",
+            "224"
+          ],
+          "sourceOccurrenceIds": [
+            "ORG-17661",
+            "ORG-33804",
+            "NUO-17661",
+            "NUO-37550",
+            "NUO-38538"
+          ],
+          "sourceLabelShapeIds": [
+            "17661",
+            "33804",
+            "37550",
+            "38538"
+          ],
+          "pathSignatures": [
+            "canonical-active-fiber-path/1/62fabcedf8d30f99",
+            "canonical-active-fiber-path/1/1ae92f46f2c9cb4c",
+            "canonical-active-fiber-path/1/f1636cff0a63de75",
+            "canonical-active-fiber-path/1/e11122942ea7adca"
+          ],
+          "pathEndpoints": [
+            "AGG5",
+            "ლენტეხის აგრეგაცია"
+          ],
+          "unknownPort": false,
+          "conflicts": [],
+          "reviewCaseIds": []
+        },
+        {
+          "id": "ORG-STRAND-opennet-0a13f9d35482a94b",
+          "organizationId": "opennet",
+          "usageState": "in_use",
+          "purpose": "internal",
+          "claimIds": [
+            "28E-USE-00177",
+            "28E-USE-02137",
+            "28E-USE-02348",
+            "28E-USE-02360",
+            "28E-USE-02372"
+          ],
+          "localFiberLegs": [
+            {
+              "segmentId": "CAB-000148",
+              "fiberNumber": 129
+            },
+            {
+              "segmentId": "CAB-000149",
+              "fiberNumber": 1
+            }
+          ],
+          "cableIds": [
+            "CAB-000148",
+            "CAB-000149"
+          ],
+          "portBindingIds": [
+            "PTB-AP41-P01-C149-F01"
+          ],
+          "apIds": [
+            "41"
+          ],
+          "aggregationIds": [
+            "5"
+          ],
+          "closureIds": [
+            "205"
+          ],
+          "sourceOccurrenceIds": [],
+          "sourceLabelShapeIds": [],
+          "pathSignatures": [
+            "canonical-active-fiber-path/1/f3f3e9910934862d",
+            "canonical-active-fiber-path/1/c126582029cee69e"
+          ],
+          "pathEndpoints": [
+            "AGG5",
+            "AP41"
+          ],
+          "unknownPort": false,
+          "conflicts": [],
+          "reviewCaseIds": []
+        },
+        {
+          "id": "ORG-STRAND-opennet-12027b712aedcdbf",
+          "organizationId": "opennet",
+          "usageState": "in_use",
+          "purpose": "OTDR, internal",
+          "claimIds": [
+            "28E-USE-00199",
+            "28E-USE-00391",
+            "28E-USE-01924",
+            "28E-USE-01972",
+            "28E-USE-02159",
+            "28E-USE-02334"
+          ],
+          "localFiberLegs": [
+            {
+              "segmentId": "CAB-000148",
+              "fiberNumber": 151
+            },
+            {
+              "segmentId": "CAB-000150",
+              "fiberNumber": 151
+            },
+            {
+              "segmentId": "CAB-000169",
+              "fiberNumber": 7
+            },
+            {
+              "segmentId": "CAB-000171",
+              "fiberNumber": 7
+            },
+            {
+              "segmentId": "CAB-000172",
+              "fiberNumber": 7
+            },
+            {
+              "segmentId": "CAB-000174",
+              "fiberNumber": 7
+            },
+            {
+              "segmentId": "CAB-000176",
+              "fiberNumber": 7
+            },
+            {
+              "segmentId": "CAB-000177",
+              "fiberNumber": 7
+            },
+            {
+              "segmentId": "CAB-000178",
+              "fiberNumber": 7
+            },
+            {
+              "segmentId": "CAB-000179",
+              "fiberNumber": 7
+            },
+            {
+              "segmentId": "CAB-000180",
+              "fiberNumber": 7
+            },
+            {
+              "segmentId": "CAB-000184",
+              "fiberNumber": 7
+            }
+          ],
+          "cableIds": [
+            "CAB-000148",
+            "CAB-000150",
+            "CAB-000169",
+            "CAB-000171",
+            "CAB-000172",
+            "CAB-000174",
+            "CAB-000176",
+            "CAB-000177",
+            "CAB-000178",
+            "CAB-000179",
+            "CAB-000180",
+            "CAB-000184"
+          ],
+          "portBindingIds": [
+            "PTB-LENTEKHI-P07-C184-F07"
+          ],
+          "apIds": [],
+          "aggregationIds": [
+            "5",
+            "AGG-LENTEKHI"
+          ],
+          "closureIds": [
+            "205",
+            "206",
+            "216",
+            "217",
+            "218",
+            "219",
+            "220",
+            "221",
+            "222",
+            "223",
+            "224"
+          ],
+          "sourceOccurrenceIds": [],
+          "sourceLabelShapeIds": [],
+          "pathSignatures": [
+            "canonical-active-fiber-path/1/8bc3876a93e82cdc",
+            "canonical-active-fiber-path/1/897db46f6924f56d",
+            "canonical-active-fiber-path/1/8218f2617c5edf6f"
+          ],
+          "pathEndpoints": [
+            "AGG5",
+            "ლენტეხის აგრეგაცია"
+          ],
+          "unknownPort": false,
+          "conflicts": [],
+          "reviewCaseIds": []
+        },
+        {
+          "id": "ORG-STRAND-opennet-249cd1f095f1e690",
+          "organizationId": "opennet",
+          "usageState": "in_use",
+          "purpose": "internal",
+          "claimIds": [
+            "28E-USE-00178",
+            "28E-USE-02138",
+            "28E-USE-02349",
+            "28E-USE-02361",
+            "28E-USE-02373"
+          ],
+          "localFiberLegs": [
+            {
+              "segmentId": "CAB-000148",
+              "fiberNumber": 130
+            },
+            {
+              "segmentId": "CAB-000149",
+              "fiberNumber": 2
+            }
+          ],
+          "cableIds": [
+            "CAB-000148",
+            "CAB-000149"
+          ],
+          "portBindingIds": [
+            "PTB-AP41-P02-C149-F02"
+          ],
+          "apIds": [
+            "41"
+          ],
+          "aggregationIds": [
+            "5"
+          ],
+          "closureIds": [
+            "205"
+          ],
+          "sourceOccurrenceIds": [],
+          "sourceLabelShapeIds": [],
+          "pathSignatures": [
+            "canonical-active-fiber-path/1/3a421e12b77130c6",
+            "canonical-active-fiber-path/1/0deda82299933ea2"
+          ],
+          "pathEndpoints": [
+            "AGG5",
+            "AP41"
+          ],
+          "unknownPort": false,
+          "conflicts": [],
+          "reviewCaseIds": []
+        },
+        {
+          "id": "ORG-STRAND-opennet-266f58e3fbe31a63",
+          "organizationId": "opennet",
+          "usageState": "in_use",
+          "purpose": "internal",
+          "claimIds": [
+            "28E-USE-00087",
+            "28E-USE-00279",
+            "28E-USE-00471",
+            "28E-USE-00615",
+            "28E-USE-00758",
+            "28E-USE-00950",
+            "28E-USE-01094",
+            "28E-USE-01238",
+            "28E-USE-01478",
+            "28E-USE-01836",
+            "28E-USE-02201",
+            "28E-USE-02240",
+            "28E-USE-02458",
+            "28E-USE-02566",
+            "28E-USE-02662",
+            "28E-USE-02742",
+            "28E-USE-02794"
+          ],
+          "localFiberLegs": [
+            {
+              "segmentId": "CAB-000148",
+              "fiberNumber": 39
+            },
+            {
+              "segmentId": "CAB-000150",
+              "fiberNumber": 39
+            },
+            {
+              "segmentId": "CAB-000151",
+              "fiberNumber": 39
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+              "fiberNumber": 39
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+              "fiberNumber": 39
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+              "fiberNumber": 39
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+              "fiberNumber": 39
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+              "fiberNumber": 39
+            }
+          ],
+          "cableIds": [
+            "CAB-000148",
+            "CAB-000150",
+            "CAB-000151",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161"
+          ],
+          "portBindingIds": [],
+          "apIds": [],
+          "aggregationIds": [
+            "5"
+          ],
+          "closureIds": [
+            "212",
+            "205",
+            "206",
+            "207",
+            "208",
+            "209",
+            "210",
+            "211"
+          ],
+          "sourceOccurrenceIds": [],
+          "sourceLabelShapeIds": [],
+          "pathSignatures": [
+            "canonical-active-fiber-path/1/172be31c39e94e38",
+            "canonical-active-fiber-path/1/1eaedc83a9b8d1d5",
+            "canonical-active-fiber-path/1/6ceb38a6e4e03e9a",
+            "canonical-active-fiber-path/1/dba57da70d31f2b7",
+            "canonical-active-fiber-path/1/1b59627bdbfe7e1f",
+            "canonical-active-fiber-path/1/6e6e73f624804d18",
+            "canonical-active-fiber-path/1/fd0902ab9d7601bb",
+            "canonical-active-fiber-path/1/de65557d0d9afb7b"
+          ],
+          "pathEndpoints": [
+            "AGG5",
+            "SC212"
+          ],
+          "unknownPort": true,
+          "conflicts": [],
+          "reviewCaseIds": []
+        },
+        {
+          "id": "ORG-STRAND-opennet-43a381c5b5e55c3f",
+          "organizationId": "opennet",
+          "usageState": "in_use",
+          "purpose": "internal",
+          "claimIds": [
+            "28E-USE-00195",
+            "28E-USE-00387",
+            "28E-USE-01920",
+            "28E-USE-01968",
+            "28E-USE-02155",
+            "28E-USE-02330",
+            "28E-USE-03100",
+            "28E-USE-03101",
+            "28E-USE-03102",
+            "28E-USE-03103",
+            "28E-USE-03124",
+            "28E-USE-03128"
+          ],
+          "localFiberLegs": [
+            {
+              "segmentId": "CAB-000148",
+              "fiberNumber": 147
+            },
+            {
+              "segmentId": "CAB-000150",
+              "fiberNumber": 147
+            },
+            {
+              "segmentId": "CAB-000169",
+              "fiberNumber": 3
+            },
+            {
+              "segmentId": "CAB-000171",
+              "fiberNumber": 3
+            },
+            {
+              "segmentId": "CAB-000172",
+              "fiberNumber": 3
+            },
+            {
+              "segmentId": "CAB-000174",
+              "fiberNumber": 3
+            },
+            {
+              "segmentId": "CAB-000176",
+              "fiberNumber": 3
+            },
+            {
+              "segmentId": "CAB-000177",
+              "fiberNumber": 3
+            },
+            {
+              "segmentId": "CAB-000178",
+              "fiberNumber": 3
+            },
+            {
+              "segmentId": "CAB-000179",
+              "fiberNumber": 3
+            },
+            {
+              "segmentId": "CAB-000180",
+              "fiberNumber": 3
+            },
+            {
+              "segmentId": "CAB-000184",
+              "fiberNumber": 3
+            }
+          ],
+          "cableIds": [
+            "CAB-000148",
+            "CAB-000150",
+            "CAB-000169",
+            "CAB-000171",
+            "CAB-000172",
+            "CAB-000174",
+            "CAB-000176",
+            "CAB-000177",
+            "CAB-000178",
+            "CAB-000179",
+            "CAB-000180",
+            "CAB-000184"
+          ],
+          "portBindingIds": [
+            "PTB-LENTEKHI-P03-C184-F03"
+          ],
+          "apIds": [],
+          "aggregationIds": [
+            "5",
+            "AGG-LENTEKHI"
+          ],
+          "closureIds": [
+            "205",
+            "206",
+            "216",
+            "217",
+            "218",
+            "219",
+            "220",
+            "221",
+            "222",
+            "223",
+            "224"
+          ],
+          "sourceOccurrenceIds": [
+            "ORG-17663",
+            "ORG-33806",
+            "NUO-17663",
+            "NUO-37552",
+            "NUO-38540"
+          ],
+          "sourceLabelShapeIds": [
+            "17663",
+            "33806",
+            "37552",
+            "38540"
+          ],
+          "pathSignatures": [
+            "canonical-active-fiber-path/1/495217fa3d9e0f76",
+            "canonical-active-fiber-path/1/f26f2ba119590ac3",
+            "canonical-active-fiber-path/1/088ffd5c96a38ee2",
+            "canonical-active-fiber-path/1/eb7a60a51ece6001"
+          ],
+          "pathEndpoints": [
+            "AGG5",
+            "ლენტეხის აგრეგაცია"
+          ],
+          "unknownPort": false,
+          "conflicts": [],
+          "reviewCaseIds": []
+        },
+        {
+          "id": "ORG-STRAND-opennet-4573ad5759f000b7",
+          "organizationId": "opennet",
+          "usageState": "in_use",
+          "purpose": "internal",
+          "claimIds": [
+            "28E-USE-00118",
+            "28E-USE-00310",
+            "28E-USE-00502",
+            "28E-USE-00646",
+            "28E-USE-00789",
+            "28E-USE-00981",
+            "28E-USE-01125",
+            "28E-USE-01269",
+            "28E-USE-01297",
+            "28E-USE-01309",
+            "28E-USE-01867",
+            "28E-USE-02078",
+            "28E-USE-02271",
+            "28E-USE-02489",
+            "28E-USE-02597",
+            "28E-USE-02693",
+            "28E-USE-02773"
+          ],
+          "localFiberLegs": [
+            {
+              "segmentId": "CAB-000148",
+              "fiberNumber": 70
+            },
+            {
+              "segmentId": "CAB-000150",
+              "fiberNumber": 70
+            },
+            {
+              "segmentId": "CAB-000151",
+              "fiberNumber": 70
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+              "fiberNumber": 70
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+              "fiberNumber": 70
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+              "fiberNumber": 70
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+              "fiberNumber": 70
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C160",
+              "fiberNumber": 2
+            }
+          ],
+          "cableIds": [
+            "CAB-000148",
+            "CAB-000150",
+            "CAB-000151",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C160"
+          ],
+          "portBindingIds": [
+            "28D-SOURCE-B-AP46-P2"
+          ],
+          "apIds": [
+            "46"
+          ],
+          "aggregationIds": [
+            "5"
+          ],
+          "closureIds": [
+            "205",
+            "206",
+            "207",
+            "208",
+            "209",
+            "210",
+            "211"
+          ],
+          "sourceOccurrenceIds": [],
+          "sourceLabelShapeIds": [],
+          "pathSignatures": [
+            "canonical-active-fiber-path/1/590a57cff01427a5",
+            "canonical-active-fiber-path/1/a724a9a09460f168",
+            "canonical-active-fiber-path/1/2c7f917ddaa014b7",
+            "canonical-active-fiber-path/1/d73cf19886a78702",
+            "canonical-active-fiber-path/1/b38df550d2c95aa2",
+            "canonical-active-fiber-path/1/bee10ff9c8c09ea5",
+            "canonical-active-fiber-path/1/f93293800168173e",
+            "canonical-active-fiber-path/1/5264aacd647c43d9"
+          ],
+          "pathEndpoints": [
+            "AGG5",
+            "AP46"
+          ],
+          "unknownPort": false,
+          "conflicts": [],
+          "reviewCaseIds": []
+        },
+        {
+          "id": "ORG-STRAND-opennet-54ba908c6fbe7ddc",
+          "organizationId": "opennet",
+          "usageState": "in_use",
+          "purpose": "internal",
+          "claimIds": [
+            "28E-USE-00117",
+            "28E-USE-00309",
+            "28E-USE-00501",
+            "28E-USE-00645",
+            "28E-USE-00788",
+            "28E-USE-00980",
+            "28E-USE-01124",
+            "28E-USE-01268",
+            "28E-USE-01296",
+            "28E-USE-01308",
+            "28E-USE-01866",
+            "28E-USE-02077",
+            "28E-USE-02270",
+            "28E-USE-02488",
+            "28E-USE-02596",
+            "28E-USE-02692",
+            "28E-USE-02772"
+          ],
+          "localFiberLegs": [
+            {
+              "segmentId": "CAB-000148",
+              "fiberNumber": 69
+            },
+            {
+              "segmentId": "CAB-000150",
+              "fiberNumber": 69
+            },
+            {
+              "segmentId": "CAB-000151",
+              "fiberNumber": 69
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+              "fiberNumber": 69
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+              "fiberNumber": 69
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+              "fiberNumber": 69
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+              "fiberNumber": 69
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C160",
+              "fiberNumber": 1
+            }
+          ],
+          "cableIds": [
+            "CAB-000148",
+            "CAB-000150",
+            "CAB-000151",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C160"
+          ],
+          "portBindingIds": [
+            "28D-SOURCE-B-AP46-P1"
+          ],
+          "apIds": [
+            "46"
+          ],
+          "aggregationIds": [
+            "5"
+          ],
+          "closureIds": [
+            "205",
+            "206",
+            "207",
+            "208",
+            "209",
+            "210",
+            "211"
+          ],
+          "sourceOccurrenceIds": [],
+          "sourceLabelShapeIds": [],
+          "pathSignatures": [
+            "canonical-active-fiber-path/1/241872edcdb1aed7",
+            "canonical-active-fiber-path/1/f21e77125a533402",
+            "canonical-active-fiber-path/1/7e315b172a719f85",
+            "canonical-active-fiber-path/1/1485e39c5891b69c",
+            "canonical-active-fiber-path/1/4d9d4036b137b050",
+            "canonical-active-fiber-path/1/4ceb1dc57eb70c73",
+            "canonical-active-fiber-path/1/7e4c24ba6fca797c",
+            "canonical-active-fiber-path/1/b089cfda3d759d9c"
+          ],
+          "pathEndpoints": [
+            "AGG5",
+            "AP46"
+          ],
+          "unknownPort": false,
+          "conflicts": [],
+          "reviewCaseIds": []
+        },
+        {
+          "id": "ORG-STRAND-opennet-64354eaf5eb740a5",
+          "organizationId": "opennet",
+          "usageState": "in_use",
+          "purpose": "internal",
+          "claimIds": [
+            "28E-USE-00050",
+            "28E-USE-00242",
+            "28E-USE-00434",
+            "28E-USE-00578",
+            "28E-USE-00721",
+            "28E-USE-00913",
+            "28E-USE-01057",
+            "28E-USE-01201",
+            "28E-USE-01441",
+            "28E-USE-01573",
+            "28E-USE-01619",
+            "28E-USE-01667",
+            "28E-USE-01703",
+            "28E-USE-01715",
+            "28E-USE-01763",
+            "28E-USE-01799",
+            "28E-USE-02011",
+            "28E-USE-02203",
+            "28E-USE-02421",
+            "28E-USE-02529",
+            "28E-USE-02625",
+            "28E-USE-02705",
+            "28E-USE-02833",
+            "28E-USE-02856",
+            "28E-USE-03077"
+          ],
+          "localFiberLegs": [
+            {
+              "segmentId": "CAB-000148",
+              "fiberNumber": 2
+            },
+            {
+              "segmentId": "CAB-000150",
+              "fiberNumber": 2
+            },
+            {
+              "segmentId": "CAB-000151",
+              "fiberNumber": 2
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+              "fiberNumber": 2
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+              "fiberNumber": 2
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+              "fiberNumber": 2
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+              "fiberNumber": 2
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+              "fiberNumber": 2
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C164",
+              "fiberNumber": 14
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C166",
+              "fiberNumber": 14
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C167",
+              "fiberNumber": 14
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C168",
+              "fiberNumber": 2
+            }
+          ],
+          "cableIds": [
+            "CAB-000148",
+            "CAB-000150",
+            "CAB-000151",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C164",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C166",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C167",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C168"
+          ],
+          "portBindingIds": [
+            "28D-SOURCE-B-AP49-P2"
+          ],
+          "apIds": [
+            "49"
+          ],
+          "aggregationIds": [
+            "5"
+          ],
+          "closureIds": [
+            "205",
+            "206",
+            "207",
+            "208",
+            "209",
+            "210",
+            "211",
+            "212",
+            "213",
+            "214",
+            "215"
+          ],
+          "sourceOccurrenceIds": [],
+          "sourceLabelShapeIds": [],
+          "pathSignatures": [
+            "canonical-active-fiber-path/1/8e754faf72c6d5d3",
+            "canonical-active-fiber-path/1/0df431d62f9c8062",
+            "canonical-active-fiber-path/1/ac8c710535e0df51",
+            "canonical-active-fiber-path/1/94fb2b685fd5d59c",
+            "canonical-active-fiber-path/1/e91f3f8e54a03c90",
+            "canonical-active-fiber-path/1/34d7ee8d8d296683",
+            "canonical-active-fiber-path/1/36ad11668c6dfebc",
+            "canonical-active-fiber-path/1/96c607902a6fc070",
+            "canonical-active-fiber-path/1/f3dd3b805d2aae18",
+            "canonical-active-fiber-path/1/06c9da740865004c",
+            "canonical-active-fiber-path/1/c0e9817f1487ecf9",
+            "canonical-active-fiber-path/1/2703313d6854683f"
+          ],
+          "pathEndpoints": [
+            "AGG5",
+            "AP49"
+          ],
+          "unknownPort": false,
+          "conflicts": [],
+          "reviewCaseIds": []
+        },
+        {
+          "id": "ORG-STRAND-opennet-932cb579b77c36c7",
+          "organizationId": "opennet",
+          "usageState": "in_use",
+          "purpose": "internal",
+          "claimIds": [
+            "28E-USE-00196",
+            "28E-USE-00388",
+            "28E-USE-01921",
+            "28E-USE-01969",
+            "28E-USE-02156",
+            "28E-USE-02331",
+            "28E-USE-03104",
+            "28E-USE-03105",
+            "28E-USE-03106",
+            "28E-USE-03107",
+            "28E-USE-03125",
+            "28E-USE-03129"
+          ],
+          "localFiberLegs": [
+            {
+              "segmentId": "CAB-000148",
+              "fiberNumber": 148
+            },
+            {
+              "segmentId": "CAB-000150",
+              "fiberNumber": 148
+            },
+            {
+              "segmentId": "CAB-000169",
+              "fiberNumber": 4
+            },
+            {
+              "segmentId": "CAB-000171",
+              "fiberNumber": 4
+            },
+            {
+              "segmentId": "CAB-000172",
+              "fiberNumber": 4
+            },
+            {
+              "segmentId": "CAB-000174",
+              "fiberNumber": 4
+            },
+            {
+              "segmentId": "CAB-000176",
+              "fiberNumber": 4
+            },
+            {
+              "segmentId": "CAB-000177",
+              "fiberNumber": 4
+            },
+            {
+              "segmentId": "CAB-000178",
+              "fiberNumber": 4
+            },
+            {
+              "segmentId": "CAB-000179",
+              "fiberNumber": 4
+            },
+            {
+              "segmentId": "CAB-000180",
+              "fiberNumber": 4
+            },
+            {
+              "segmentId": "CAB-000184",
+              "fiberNumber": 4
+            }
+          ],
+          "cableIds": [
+            "CAB-000148",
+            "CAB-000150",
+            "CAB-000169",
+            "CAB-000171",
+            "CAB-000172",
+            "CAB-000174",
+            "CAB-000176",
+            "CAB-000177",
+            "CAB-000178",
+            "CAB-000179",
+            "CAB-000180",
+            "CAB-000184"
+          ],
+          "portBindingIds": [
+            "PTB-LENTEKHI-P04-C184-F04"
+          ],
+          "apIds": [],
+          "aggregationIds": [
+            "5",
+            "AGG-LENTEKHI"
+          ],
+          "closureIds": [
+            "205",
+            "206",
+            "216",
+            "217",
+            "218",
+            "219",
+            "220",
+            "221",
+            "222",
+            "223",
+            "224"
+          ],
+          "sourceOccurrenceIds": [
+            "ORG-17664",
+            "ORG-33807",
+            "NUO-17664",
+            "NUO-37553",
+            "NUO-38541"
+          ],
+          "sourceLabelShapeIds": [
+            "17664",
+            "33807",
+            "37553",
+            "38541"
+          ],
+          "pathSignatures": [
+            "canonical-active-fiber-path/1/1c1dea104d6b2dec",
+            "canonical-active-fiber-path/1/acaf387d6c942a5d",
+            "canonical-active-fiber-path/1/a36fe7dc10ff2cc4",
+            "canonical-active-fiber-path/1/30e522174db1696b"
+          ],
+          "pathEndpoints": [
+            "AGG5",
+            "ლენტეხის აგრეგაცია"
+          ],
+          "unknownPort": false,
+          "conflicts": [],
+          "reviewCaseIds": []
+        },
+        {
+          "id": "ORG-STRAND-opennet-984ec9d34cad0bab",
+          "organizationId": "opennet",
+          "usageState": "in_use",
+          "purpose": "internal",
+          "claimIds": [
+            "28E-USE-00088",
+            "28E-USE-00280",
+            "28E-USE-00472",
+            "28E-USE-00616",
+            "28E-USE-00759",
+            "28E-USE-00951",
+            "28E-USE-01095",
+            "28E-USE-01239",
+            "28E-USE-01479",
+            "28E-USE-01837",
+            "28E-USE-02048",
+            "28E-USE-02241",
+            "28E-USE-02459",
+            "28E-USE-02567",
+            "28E-USE-02663",
+            "28E-USE-02743",
+            "28E-USE-02795"
+          ],
+          "localFiberLegs": [
+            {
+              "segmentId": "CAB-000148",
+              "fiberNumber": 40
+            },
+            {
+              "segmentId": "CAB-000150",
+              "fiberNumber": 40
+            },
+            {
+              "segmentId": "CAB-000151",
+              "fiberNumber": 40
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+              "fiberNumber": 40
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+              "fiberNumber": 40
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+              "fiberNumber": 40
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+              "fiberNumber": 40
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+              "fiberNumber": 40
+            }
+          ],
+          "cableIds": [
+            "CAB-000148",
+            "CAB-000150",
+            "CAB-000151",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161"
+          ],
+          "portBindingIds": [],
+          "apIds": [],
+          "aggregationIds": [
+            "5"
+          ],
+          "closureIds": [
+            "212",
+            "205",
+            "206",
+            "207",
+            "208",
+            "209",
+            "210",
+            "211"
+          ],
+          "sourceOccurrenceIds": [],
+          "sourceLabelShapeIds": [],
+          "pathSignatures": [
+            "canonical-active-fiber-path/1/217830489e17dcf8",
+            "canonical-active-fiber-path/1/1bec5d69adb6f231",
+            "canonical-active-fiber-path/1/b53f7506df63fb0a",
+            "canonical-active-fiber-path/1/1d45d163fe2741cf",
+            "canonical-active-fiber-path/1/f4bb1a6315332867",
+            "canonical-active-fiber-path/1/fec6d49c381857a4",
+            "canonical-active-fiber-path/1/a3df6b2fbd06c5ab",
+            "canonical-active-fiber-path/1/0ba1a7af7b58e66f"
+          ],
+          "pathEndpoints": [
+            "AGG5",
+            "SC212"
+          ],
+          "unknownPort": true,
+          "conflicts": [],
+          "reviewCaseIds": []
+        },
+        {
+          "id": "ORG-STRAND-opennet-a217cbf502a763e3",
+          "organizationId": "opennet",
+          "usageState": "in_use",
+          "purpose": "internal",
+          "claimIds": [
+            "28E-USE-00109",
+            "28E-USE-00301",
+            "28E-USE-00493",
+            "28E-USE-00637",
+            "28E-USE-00780",
+            "28E-USE-00972",
+            "28E-USE-01116",
+            "28E-USE-01260",
+            "28E-USE-01392",
+            "28E-USE-01404",
+            "28E-USE-01500",
+            "28E-USE-01858",
+            "28E-USE-02069",
+            "28E-USE-02262",
+            "28E-USE-02480",
+            "28E-USE-02588",
+            "28E-USE-02684",
+            "28E-USE-02764",
+            "28E-USE-02816"
+          ],
+          "localFiberLegs": [
+            {
+              "segmentId": "CAB-000148",
+              "fiberNumber": 61
+            },
+            {
+              "segmentId": "CAB-000150",
+              "fiberNumber": 61
+            },
+            {
+              "segmentId": "CAB-000151",
+              "fiberNumber": 61
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+              "fiberNumber": 61
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+              "fiberNumber": 61
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+              "fiberNumber": 61
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+              "fiberNumber": 61
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+              "fiberNumber": 61
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C162",
+              "fiberNumber": 1
+            }
+          ],
+          "cableIds": [
+            "CAB-000148",
+            "CAB-000150",
+            "CAB-000151",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C162"
+          ],
+          "portBindingIds": [
+            "28D-SOURCE-B-AP47-P1"
+          ],
+          "apIds": [
+            "47"
+          ],
+          "aggregationIds": [
+            "5"
+          ],
+          "closureIds": [
+            "205",
+            "206",
+            "207",
+            "208",
+            "209",
+            "210",
+            "211",
+            "212"
+          ],
+          "sourceOccurrenceIds": [],
+          "sourceLabelShapeIds": [],
+          "pathSignatures": [
+            "canonical-active-fiber-path/1/856d9375491ddd73",
+            "canonical-active-fiber-path/1/5ae0eb462d2947ce",
+            "canonical-active-fiber-path/1/e175c865c79f19bd",
+            "canonical-active-fiber-path/1/7ec4d4667b42509c",
+            "canonical-active-fiber-path/1/5f4e0f1cb74d9fa8",
+            "canonical-active-fiber-path/1/a3ab6ff325ddbb73",
+            "canonical-active-fiber-path/1/99de51648ef1d574",
+            "canonical-active-fiber-path/1/65ecd2169f1059e0",
+            "canonical-active-fiber-path/1/b470e9a650023568"
+          ],
+          "pathEndpoints": [
+            "AGG5",
+            "AP47"
+          ],
+          "unknownPort": false,
+          "conflicts": [],
+          "reviewCaseIds": []
+        },
+        {
+          "id": "ORG-STRAND-opennet-ab80878a74a713f0",
+          "organizationId": "opennet",
+          "usageState": "in_use",
+          "purpose": "internal",
+          "claimIds": [
+            "28E-USE-00110",
+            "28E-USE-00302",
+            "28E-USE-00494",
+            "28E-USE-00638",
+            "28E-USE-00781",
+            "28E-USE-00973",
+            "28E-USE-01117",
+            "28E-USE-01261",
+            "28E-USE-01393",
+            "28E-USE-01405",
+            "28E-USE-01501",
+            "28E-USE-01859",
+            "28E-USE-02070",
+            "28E-USE-02263",
+            "28E-USE-02481",
+            "28E-USE-02589",
+            "28E-USE-02685",
+            "28E-USE-02765",
+            "28E-USE-02817"
+          ],
+          "localFiberLegs": [
+            {
+              "segmentId": "CAB-000148",
+              "fiberNumber": 62
+            },
+            {
+              "segmentId": "CAB-000150",
+              "fiberNumber": 62
+            },
+            {
+              "segmentId": "CAB-000151",
+              "fiberNumber": 62
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+              "fiberNumber": 62
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+              "fiberNumber": 62
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+              "fiberNumber": 62
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+              "fiberNumber": 62
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+              "fiberNumber": 62
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C162",
+              "fiberNumber": 2
+            }
+          ],
+          "cableIds": [
+            "CAB-000148",
+            "CAB-000150",
+            "CAB-000151",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C162"
+          ],
+          "portBindingIds": [
+            "28D-SOURCE-B-AP47-P2"
+          ],
+          "apIds": [
+            "47"
+          ],
+          "aggregationIds": [
+            "5"
+          ],
+          "closureIds": [
+            "205",
+            "206",
+            "207",
+            "208",
+            "209",
+            "210",
+            "211",
+            "212"
+          ],
+          "sourceOccurrenceIds": [],
+          "sourceLabelShapeIds": [],
+          "pathSignatures": [
+            "canonical-active-fiber-path/1/fd3a5d72d481bdfa",
+            "canonical-active-fiber-path/1/314f55e9f9be35af",
+            "canonical-active-fiber-path/1/3405954c72e06af0",
+            "canonical-active-fiber-path/1/e6acf47bfe946d41",
+            "canonical-active-fiber-path/1/9998584538bf3a0d",
+            "canonical-active-fiber-path/1/bf19aed2e4813266",
+            "canonical-active-fiber-path/1/b6301f91376905b1",
+            "canonical-active-fiber-path/1/d23229291cf39171",
+            "canonical-active-fiber-path/1/6460748f89b80bcd"
+          ],
+          "pathEndpoints": [
+            "AGG5",
+            "AP47"
+          ],
+          "unknownPort": false,
+          "conflicts": [],
+          "reviewCaseIds": []
+        },
+        {
+          "id": "ORG-STRAND-opennet-d7e92aaba340d923",
+          "organizationId": "opennet",
+          "usageState": "in_use",
+          "purpose": "internal",
+          "claimIds": [
+            "28E-USE-00085",
+            "28E-USE-00277",
+            "28E-USE-00469",
+            "28E-USE-00613",
+            "28E-USE-00756",
+            "28E-USE-00948",
+            "28E-USE-01092",
+            "28E-USE-01236",
+            "28E-USE-01476",
+            "28E-USE-01834",
+            "28E-USE-02046",
+            "28E-USE-02238",
+            "28E-USE-02456",
+            "28E-USE-02564",
+            "28E-USE-02660",
+            "28E-USE-02740",
+            "28E-USE-02792"
+          ],
+          "localFiberLegs": [
+            {
+              "segmentId": "CAB-000148",
+              "fiberNumber": 37
+            },
+            {
+              "segmentId": "CAB-000150",
+              "fiberNumber": 37
+            },
+            {
+              "segmentId": "CAB-000151",
+              "fiberNumber": 37
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+              "fiberNumber": 37
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+              "fiberNumber": 37
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+              "fiberNumber": 37
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+              "fiberNumber": 37
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+              "fiberNumber": 37
+            }
+          ],
+          "cableIds": [
+            "CAB-000148",
+            "CAB-000150",
+            "CAB-000151",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161"
+          ],
+          "portBindingIds": [],
+          "apIds": [],
+          "aggregationIds": [
+            "5"
+          ],
+          "closureIds": [
+            "212",
+            "205",
+            "206",
+            "207",
+            "208",
+            "209",
+            "210",
+            "211"
+          ],
+          "sourceOccurrenceIds": [],
+          "sourceLabelShapeIds": [],
+          "pathSignatures": [
+            "canonical-active-fiber-path/1/201973b5add8fdbd",
+            "canonical-active-fiber-path/1/6a0ebacedc92cc00",
+            "canonical-active-fiber-path/1/d89fbc03f9e121c7",
+            "canonical-active-fiber-path/1/dd91d3ee023f5bba",
+            "canonical-active-fiber-path/1/73d4a7ea231af5fa",
+            "canonical-active-fiber-path/1/b1be40cf32203a75",
+            "canonical-active-fiber-path/1/56971444817d75fa",
+            "canonical-active-fiber-path/1/8475e65804cb9606"
+          ],
+          "pathEndpoints": [
+            "AGG5",
+            "SC212"
+          ],
+          "unknownPort": true,
+          "conflicts": [],
+          "reviewCaseIds": []
+        }
+      ],
+      "localFiberLegs": [
+        {
+          "segmentId": "CAB-000148",
+          "fiberNumber": 1
+        },
+        {
+          "segmentId": "CAB-000150",
+          "fiberNumber": 1
+        },
+        {
+          "segmentId": "CAB-000151",
+          "fiberNumber": 1
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+          "fiberNumber": 1
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+          "fiberNumber": 1
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+          "fiberNumber": 1
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+          "fiberNumber": 1
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+          "fiberNumber": 1
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C164",
+          "fiberNumber": 13
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C166",
+          "fiberNumber": 13
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C167",
+          "fiberNumber": 13
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C168",
+          "fiberNumber": 1
+        },
+        {
+          "segmentId": "CAB-000148",
+          "fiberNumber": 38
+        },
+        {
+          "segmentId": "CAB-000150",
+          "fiberNumber": 38
+        },
+        {
+          "segmentId": "CAB-000151",
+          "fiberNumber": 38
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+          "fiberNumber": 38
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+          "fiberNumber": 38
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+          "fiberNumber": 38
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+          "fiberNumber": 38
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+          "fiberNumber": 38
+        },
+        {
+          "segmentId": "CAB-000148",
+          "fiberNumber": 146
+        },
+        {
+          "segmentId": "CAB-000150",
+          "fiberNumber": 146
+        },
+        {
+          "segmentId": "CAB-000169",
+          "fiberNumber": 2
+        },
+        {
+          "segmentId": "CAB-000171",
+          "fiberNumber": 2
+        },
+        {
+          "segmentId": "CAB-000172",
+          "fiberNumber": 2
+        },
+        {
+          "segmentId": "CAB-000174",
+          "fiberNumber": 2
+        },
+        {
+          "segmentId": "CAB-000176",
+          "fiberNumber": 2
+        },
+        {
+          "segmentId": "CAB-000177",
+          "fiberNumber": 2
+        },
+        {
+          "segmentId": "CAB-000178",
+          "fiberNumber": 2
+        },
+        {
+          "segmentId": "CAB-000179",
+          "fiberNumber": 2
+        },
+        {
+          "segmentId": "CAB-000180",
+          "fiberNumber": 2
+        },
+        {
+          "segmentId": "CAB-000184",
+          "fiberNumber": 2
+        },
+        {
+          "segmentId": "CAB-000148",
+          "fiberNumber": 145
+        },
+        {
+          "segmentId": "CAB-000150",
+          "fiberNumber": 145
+        },
+        {
+          "segmentId": "CAB-000169",
+          "fiberNumber": 1
+        },
+        {
+          "segmentId": "CAB-000171",
+          "fiberNumber": 1
+        },
+        {
+          "segmentId": "CAB-000172",
+          "fiberNumber": 1
+        },
+        {
+          "segmentId": "CAB-000174",
+          "fiberNumber": 1
+        },
+        {
+          "segmentId": "CAB-000176",
+          "fiberNumber": 1
+        },
+        {
+          "segmentId": "CAB-000177",
+          "fiberNumber": 1
+        },
+        {
+          "segmentId": "CAB-000178",
+          "fiberNumber": 1
+        },
+        {
+          "segmentId": "CAB-000179",
+          "fiberNumber": 1
+        },
+        {
+          "segmentId": "CAB-000180",
+          "fiberNumber": 1
+        },
+        {
+          "segmentId": "CAB-000184",
+          "fiberNumber": 1
+        },
+        {
+          "segmentId": "CAB-000148",
+          "fiberNumber": 129
+        },
+        {
+          "segmentId": "CAB-000149",
+          "fiberNumber": 1
+        },
+        {
+          "segmentId": "CAB-000148",
+          "fiberNumber": 151
+        },
+        {
+          "segmentId": "CAB-000150",
+          "fiberNumber": 151
+        },
+        {
+          "segmentId": "CAB-000169",
+          "fiberNumber": 7
+        },
+        {
+          "segmentId": "CAB-000171",
+          "fiberNumber": 7
+        },
+        {
+          "segmentId": "CAB-000172",
+          "fiberNumber": 7
+        },
+        {
+          "segmentId": "CAB-000174",
+          "fiberNumber": 7
+        },
+        {
+          "segmentId": "CAB-000176",
+          "fiberNumber": 7
+        },
+        {
+          "segmentId": "CAB-000177",
+          "fiberNumber": 7
+        },
+        {
+          "segmentId": "CAB-000178",
+          "fiberNumber": 7
+        },
+        {
+          "segmentId": "CAB-000179",
+          "fiberNumber": 7
+        },
+        {
+          "segmentId": "CAB-000180",
+          "fiberNumber": 7
+        },
+        {
+          "segmentId": "CAB-000184",
+          "fiberNumber": 7
+        },
+        {
+          "segmentId": "CAB-000148",
+          "fiberNumber": 130
+        },
+        {
+          "segmentId": "CAB-000149",
+          "fiberNumber": 2
+        },
+        {
+          "segmentId": "CAB-000148",
+          "fiberNumber": 39
+        },
+        {
+          "segmentId": "CAB-000150",
+          "fiberNumber": 39
+        },
+        {
+          "segmentId": "CAB-000151",
+          "fiberNumber": 39
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+          "fiberNumber": 39
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+          "fiberNumber": 39
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+          "fiberNumber": 39
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+          "fiberNumber": 39
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+          "fiberNumber": 39
+        },
+        {
+          "segmentId": "CAB-000148",
+          "fiberNumber": 147
+        },
+        {
+          "segmentId": "CAB-000150",
+          "fiberNumber": 147
+        },
+        {
+          "segmentId": "CAB-000169",
+          "fiberNumber": 3
+        },
+        {
+          "segmentId": "CAB-000171",
+          "fiberNumber": 3
+        },
+        {
+          "segmentId": "CAB-000172",
+          "fiberNumber": 3
+        },
+        {
+          "segmentId": "CAB-000174",
+          "fiberNumber": 3
+        },
+        {
+          "segmentId": "CAB-000176",
+          "fiberNumber": 3
+        },
+        {
+          "segmentId": "CAB-000177",
+          "fiberNumber": 3
+        },
+        {
+          "segmentId": "CAB-000178",
+          "fiberNumber": 3
+        },
+        {
+          "segmentId": "CAB-000179",
+          "fiberNumber": 3
+        },
+        {
+          "segmentId": "CAB-000180",
+          "fiberNumber": 3
+        },
+        {
+          "segmentId": "CAB-000184",
+          "fiberNumber": 3
+        },
+        {
+          "segmentId": "CAB-000148",
+          "fiberNumber": 70
+        },
+        {
+          "segmentId": "CAB-000150",
+          "fiberNumber": 70
+        },
+        {
+          "segmentId": "CAB-000151",
+          "fiberNumber": 70
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+          "fiberNumber": 70
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+          "fiberNumber": 70
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+          "fiberNumber": 70
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+          "fiberNumber": 70
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C160",
+          "fiberNumber": 2
+        },
+        {
+          "segmentId": "CAB-000148",
+          "fiberNumber": 69
+        },
+        {
+          "segmentId": "CAB-000150",
+          "fiberNumber": 69
+        },
+        {
+          "segmentId": "CAB-000151",
+          "fiberNumber": 69
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+          "fiberNumber": 69
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+          "fiberNumber": 69
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+          "fiberNumber": 69
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+          "fiberNumber": 69
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C160",
+          "fiberNumber": 1
+        },
+        {
+          "segmentId": "CAB-000148",
+          "fiberNumber": 2
+        },
+        {
+          "segmentId": "CAB-000150",
+          "fiberNumber": 2
+        },
+        {
+          "segmentId": "CAB-000151",
+          "fiberNumber": 2
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+          "fiberNumber": 2
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+          "fiberNumber": 2
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+          "fiberNumber": 2
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+          "fiberNumber": 2
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+          "fiberNumber": 2
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C164",
+          "fiberNumber": 14
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C166",
+          "fiberNumber": 14
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C167",
+          "fiberNumber": 14
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C168",
+          "fiberNumber": 2
+        },
+        {
+          "segmentId": "CAB-000148",
+          "fiberNumber": 148
+        },
+        {
+          "segmentId": "CAB-000150",
+          "fiberNumber": 148
+        },
+        {
+          "segmentId": "CAB-000169",
+          "fiberNumber": 4
+        },
+        {
+          "segmentId": "CAB-000171",
+          "fiberNumber": 4
+        },
+        {
+          "segmentId": "CAB-000172",
+          "fiberNumber": 4
+        },
+        {
+          "segmentId": "CAB-000174",
+          "fiberNumber": 4
+        },
+        {
+          "segmentId": "CAB-000176",
+          "fiberNumber": 4
+        },
+        {
+          "segmentId": "CAB-000177",
+          "fiberNumber": 4
+        },
+        {
+          "segmentId": "CAB-000178",
+          "fiberNumber": 4
+        },
+        {
+          "segmentId": "CAB-000179",
+          "fiberNumber": 4
+        },
+        {
+          "segmentId": "CAB-000180",
+          "fiberNumber": 4
+        },
+        {
+          "segmentId": "CAB-000184",
+          "fiberNumber": 4
+        },
+        {
+          "segmentId": "CAB-000148",
+          "fiberNumber": 40
+        },
+        {
+          "segmentId": "CAB-000150",
+          "fiberNumber": 40
+        },
+        {
+          "segmentId": "CAB-000151",
+          "fiberNumber": 40
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+          "fiberNumber": 40
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+          "fiberNumber": 40
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+          "fiberNumber": 40
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+          "fiberNumber": 40
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+          "fiberNumber": 40
+        },
+        {
+          "segmentId": "CAB-000148",
+          "fiberNumber": 61
+        },
+        {
+          "segmentId": "CAB-000150",
+          "fiberNumber": 61
+        },
+        {
+          "segmentId": "CAB-000151",
+          "fiberNumber": 61
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+          "fiberNumber": 61
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+          "fiberNumber": 61
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+          "fiberNumber": 61
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+          "fiberNumber": 61
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+          "fiberNumber": 61
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C162",
+          "fiberNumber": 1
+        },
+        {
+          "segmentId": "CAB-000148",
+          "fiberNumber": 62
+        },
+        {
+          "segmentId": "CAB-000150",
+          "fiberNumber": 62
+        },
+        {
+          "segmentId": "CAB-000151",
+          "fiberNumber": 62
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+          "fiberNumber": 62
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+          "fiberNumber": 62
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+          "fiberNumber": 62
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+          "fiberNumber": 62
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+          "fiberNumber": 62
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C162",
+          "fiberNumber": 2
+        },
+        {
+          "segmentId": "CAB-000148",
+          "fiberNumber": 37
+        },
+        {
+          "segmentId": "CAB-000150",
+          "fiberNumber": 37
+        },
+        {
+          "segmentId": "CAB-000151",
+          "fiberNumber": 37
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+          "fiberNumber": 37
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+          "fiberNumber": 37
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+          "fiberNumber": 37
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+          "fiberNumber": 37
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+          "fiberNumber": 37
+        }
+      ],
+      "cableIds": [
+        "CAB-000148",
+        "CAB-000150",
+        "CAB-000151",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C164",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C166",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C167",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C168",
+        "CAB-000169",
+        "CAB-000171",
+        "CAB-000172",
+        "CAB-000174",
+        "CAB-000176",
+        "CAB-000177",
+        "CAB-000178",
+        "CAB-000179",
+        "CAB-000180",
+        "CAB-000184",
+        "CAB-000149",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C160",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C162"
+      ],
+      "portBindingIds": [
+        "28D-SOURCE-B-AP49-P1",
+        "PTB-LENTEKHI-P02-C184-F02",
+        "PTB-LENTEKHI-P01-C184-F01",
+        "PTB-AP41-P01-C149-F01",
+        "PTB-LENTEKHI-P07-C184-F07",
+        "PTB-AP41-P02-C149-F02",
+        "PTB-LENTEKHI-P03-C184-F03",
+        "28D-SOURCE-B-AP46-P2",
+        "28D-SOURCE-B-AP46-P1",
+        "28D-SOURCE-B-AP49-P2",
+        "PTB-LENTEKHI-P04-C184-F04",
+        "28D-SOURCE-B-AP47-P1",
+        "28D-SOURCE-B-AP47-P2"
+      ],
+      "apIds": [
+        "49",
+        "41",
+        "46",
+        "47"
+      ],
+      "aggregationIds": [
+        "5",
+        "AGG-LENTEKHI"
+      ],
+      "closureIds": [
+        "205",
+        "206",
+        "207",
+        "208",
+        "209",
+        "210",
+        "211",
+        "212",
+        "213",
+        "214",
+        "215",
+        "216",
+        "217",
+        "218",
+        "219",
+        "220",
+        "221",
+        "222",
+        "223",
+        "224"
+      ],
+      "sourceOccurrenceIds": [
+        "ORG-17662",
+        "ORG-33805",
+        "NUO-17662",
+        "NUO-37551",
+        "NUO-38539",
+        "ORG-17661",
+        "ORG-33804",
+        "NUO-17661",
+        "NUO-37550",
+        "NUO-38538",
+        "ORG-17663",
+        "ORG-33806",
+        "NUO-17663",
+        "NUO-37552",
+        "NUO-38540",
+        "ORG-17664",
+        "ORG-33807",
+        "NUO-17664",
+        "NUO-37553",
+        "NUO-38541"
+      ],
+      "conflicts": [],
+      "reviewCaseIds": []
+    },
+    {
+      "organizationId": "magti",
+      "name": "Magti",
+      "aliases": [
+        "მაგთი",
+        "მაგთიკომი"
+      ],
+      "strands": [
+        {
+          "id": "ORG-STRAND-magti-2c8b171b8413659b",
+          "organizationId": "magti",
+          "usageState": "in_use",
+          "purpose": null,
+          "claimIds": [
+            "28E-USE-00068",
+            "28E-USE-01459",
+            "28E-USE-02029",
+            "28E-USE-02221",
+            "28E-USE-03063"
+          ],
+          "localFiberLegs": [
+            {
+              "segmentId": "CAB-000148",
+              "fiberNumber": 20
+            },
+            {
+              "segmentId": "CAB-000150",
+              "fiberNumber": 20
+            },
+            {
+              "segmentId": "CAB-000151",
+              "fiberNumber": 20
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+              "fiberNumber": 20
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+              "fiberNumber": 20
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+              "fiberNumber": 20
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+              "fiberNumber": 20
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+              "fiberNumber": 20
+            }
+          ],
+          "cableIds": [
+            "CAB-000148",
+            "CAB-000150",
+            "CAB-000151",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161"
+          ],
+          "portBindingIds": [],
+          "apIds": [],
+          "aggregationIds": [
+            "5"
+          ],
+          "closureIds": [
+            "212",
+            "205",
+            "206",
+            "207",
+            "208",
+            "209",
+            "210",
+            "211"
+          ],
+          "sourceOccurrenceIds": [
+            "ORG-17536",
+            "ORG-29210",
+            "ORG-40999"
+          ],
+          "sourceLabelShapeIds": [
+            "17536",
+            "29210",
+            "40999"
+          ],
+          "pathSignatures": [
+            "canonical-active-fiber-path/1/5abeaa08e27223e0",
+            "canonical-active-fiber-path/1/db1d649dda80852b"
+          ],
+          "pathEndpoints": [
+            "AGG5",
+            "SC212"
+          ],
+          "unknownPort": true,
+          "conflicts": [],
+          "reviewCaseIds": [
+            "28E-RED-ORG-19182",
+            "28E-RED-ORG-20288",
+            "28E-RED-ORG-20835",
+            "28E-RED-ORG-21560",
+            "28E-RED-ORG-24353",
+            "28E-RED-ORG-25321",
+            "28E-RED-ORG-26687",
+            "28E-RED-ORG-33033",
+            "28E-RED-ORG-15806",
+            "28E-RED-ORG-24164",
+            "28E-RED-ORG-15872",
+            "28E-RED-ORG-27074"
+          ]
+        },
+        {
+          "id": "ORG-STRAND-magti-6788d8c9b6ea8bf7",
+          "organizationId": "magti",
+          "usageState": "in_use",
+          "purpose": null,
+          "claimIds": [
+            "28E-USE-00069",
+            "28E-USE-01460",
+            "28E-USE-02030",
+            "28E-USE-02222",
+            "28E-USE-03064"
+          ],
+          "localFiberLegs": [
+            {
+              "segmentId": "CAB-000148",
+              "fiberNumber": 21
+            },
+            {
+              "segmentId": "CAB-000150",
+              "fiberNumber": 21
+            },
+            {
+              "segmentId": "CAB-000151",
+              "fiberNumber": 21
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+              "fiberNumber": 21
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+              "fiberNumber": 21
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+              "fiberNumber": 21
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+              "fiberNumber": 21
+            },
+            {
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+              "fiberNumber": 21
+            }
+          ],
+          "cableIds": [
+            "CAB-000148",
+            "CAB-000150",
+            "CAB-000151",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+            "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161"
+          ],
+          "portBindingIds": [],
+          "apIds": [],
+          "aggregationIds": [
+            "5"
+          ],
+          "closureIds": [
+            "212",
+            "205",
+            "206",
+            "207",
+            "208",
+            "209",
+            "210",
+            "211"
+          ],
+          "sourceOccurrenceIds": [
+            "ORG-17537",
+            "ORG-29211",
+            "ORG-41000"
+          ],
+          "sourceLabelShapeIds": [
+            "17537",
+            "29211",
+            "41000"
+          ],
+          "pathSignatures": [
+            "canonical-active-fiber-path/1/d55c418c350a83b4",
+            "canonical-active-fiber-path/1/90a2248d769cc167"
+          ],
+          "pathEndpoints": [
+            "AGG5",
+            "SC212"
+          ],
+          "unknownPort": true,
+          "conflicts": [],
+          "reviewCaseIds": [
+            "28E-RED-ORG-19183",
+            "28E-RED-ORG-20289",
+            "28E-RED-ORG-20836",
+            "28E-RED-ORG-21561",
+            "28E-RED-ORG-24354",
+            "28E-RED-ORG-25322",
+            "28E-RED-ORG-26688",
+            "28E-RED-ORG-33034",
+            "28E-RED-ORG-15807",
+            "28E-RED-ORG-24165",
+            "28E-RED-ORG-15873",
+            "28E-RED-ORG-27075"
+          ]
+        },
+        {
+          "id": "ORG-STRAND-magti-9088bad5295966f7",
+          "organizationId": "magti",
+          "usageState": "in_use",
+          "purpose": null,
+          "claimIds": [
+            "28E-USE-00200",
+            "28E-USE-01925",
+            "28E-USE-02160",
+            "28E-USE-02335",
+            "28E-USE-03088",
+            "28E-USE-03089",
+            "28E-USE-03090",
+            "28E-USE-03091"
+          ],
+          "localFiberLegs": [
+            {
+              "segmentId": "CAB-000148",
+              "fiberNumber": 152
+            },
+            {
+              "segmentId": "CAB-000150",
+              "fiberNumber": 152
+            },
+            {
+              "segmentId": "CAB-000169",
+              "fiberNumber": 8
+            },
+            {
+              "segmentId": "CAB-000171",
+              "fiberNumber": 8
+            },
+            {
+              "segmentId": "CAB-000172",
+              "fiberNumber": 8
+            },
+            {
+              "segmentId": "CAB-000174",
+              "fiberNumber": 8
+            },
+            {
+              "segmentId": "CAB-000176",
+              "fiberNumber": 8
+            },
+            {
+              "segmentId": "CAB-000177",
+              "fiberNumber": 8
+            },
+            {
+              "segmentId": "CAB-000178",
+              "fiberNumber": 8
+            },
+            {
+              "segmentId": "CAB-000179",
+              "fiberNumber": 8
+            },
+            {
+              "segmentId": "CAB-000180",
+              "fiberNumber": 8
+            },
+            {
+              "segmentId": "CAB-000184",
+              "fiberNumber": 8
+            }
+          ],
+          "cableIds": [
+            "CAB-000148",
+            "CAB-000150",
+            "CAB-000169",
+            "CAB-000171",
+            "CAB-000172",
+            "CAB-000174",
+            "CAB-000176",
+            "CAB-000177",
+            "CAB-000178",
+            "CAB-000179",
+            "CAB-000180",
+            "CAB-000184"
+          ],
+          "portBindingIds": [
+            "PTB-LENTEKHI-P08-C184-F08"
+          ],
+          "apIds": [],
+          "aggregationIds": [
+            "5",
+            "AGG-LENTEKHI"
+          ],
+          "closureIds": [
+            "205",
+            "206",
+            "216",
+            "217",
+            "218",
+            "219",
+            "220",
+            "221",
+            "222",
+            "223",
+            "224"
+          ],
+          "sourceOccurrenceIds": [
+            "ORG-17668",
+            "ORG-33811",
+            "NUO-17668",
+            "NUO-37557",
+            "NUO-38545"
+          ],
+          "sourceLabelShapeIds": [
+            "17668",
+            "33811",
+            "37557",
+            "38545"
+          ],
+          "pathSignatures": [
+            "canonical-active-fiber-path/1/74b1925fe55fc3eb",
+            "canonical-active-fiber-path/1/6f9b700a386c8e10",
+            "canonical-active-fiber-path/1/a3930f448f796466",
+            "canonical-active-fiber-path/1/205d3d0db488f637"
+          ],
+          "pathEndpoints": [
+            "AGG5",
+            "ლენტეხის აგრეგაცია"
+          ],
+          "unknownPort": false,
+          "conflicts": [],
+          "reviewCaseIds": [
+            "28E-RED-ORG-19314",
+            "28E-RED-ORG-38545"
+          ]
+        },
+        {
+          "id": "ORG-STRAND-magti-cae7c89902e37617",
+          "organizationId": "magti",
+          "usageState": "in_use",
+          "purpose": null,
+          "claimIds": [
+            "28E-USE-00197",
+            "28E-USE-01922",
+            "28E-USE-02157",
+            "28E-USE-02332",
+            "28E-USE-03084",
+            "28E-USE-03085",
+            "28E-USE-03086",
+            "28E-USE-03087"
+          ],
+          "localFiberLegs": [
+            {
+              "segmentId": "CAB-000148",
+              "fiberNumber": 149
+            },
+            {
+              "segmentId": "CAB-000150",
+              "fiberNumber": 149
+            },
+            {
+              "segmentId": "CAB-000169",
+              "fiberNumber": 5
+            },
+            {
+              "segmentId": "CAB-000171",
+              "fiberNumber": 5
+            },
+            {
+              "segmentId": "CAB-000172",
+              "fiberNumber": 5
+            },
+            {
+              "segmentId": "CAB-000174",
+              "fiberNumber": 5
+            },
+            {
+              "segmentId": "CAB-000176",
+              "fiberNumber": 5
+            },
+            {
+              "segmentId": "CAB-000177",
+              "fiberNumber": 5
+            },
+            {
+              "segmentId": "CAB-000178",
+              "fiberNumber": 5
+            },
+            {
+              "segmentId": "CAB-000179",
+              "fiberNumber": 5
+            },
+            {
+              "segmentId": "CAB-000180",
+              "fiberNumber": 5
+            },
+            {
+              "segmentId": "CAB-000184",
+              "fiberNumber": 5
+            }
+          ],
+          "cableIds": [
+            "CAB-000148",
+            "CAB-000150",
+            "CAB-000169",
+            "CAB-000171",
+            "CAB-000172",
+            "CAB-000174",
+            "CAB-000176",
+            "CAB-000177",
+            "CAB-000178",
+            "CAB-000179",
+            "CAB-000180",
+            "CAB-000184"
+          ],
+          "portBindingIds": [
+            "PTB-LENTEKHI-P05-C184-F05"
+          ],
+          "apIds": [],
+          "aggregationIds": [
+            "5",
+            "AGG-LENTEKHI"
+          ],
+          "closureIds": [
+            "205",
+            "206",
+            "216",
+            "217",
+            "218",
+            "219",
+            "220",
+            "221",
+            "222",
+            "223",
+            "224"
+          ],
+          "sourceOccurrenceIds": [
+            "ORG-17665",
+            "ORG-33808",
+            "NUO-17665",
+            "NUO-37554",
+            "NUO-38542"
+          ],
+          "sourceLabelShapeIds": [
+            "17665",
+            "33808",
+            "37554",
+            "38542"
+          ],
+          "pathSignatures": [
+            "canonical-active-fiber-path/1/724d97031490f88f",
+            "canonical-active-fiber-path/1/286f4d0d4c040adb",
+            "canonical-active-fiber-path/1/0a0e17884a81bf62",
+            "canonical-active-fiber-path/1/090139b6f8d07fac"
+          ],
+          "pathEndpoints": [
+            "AGG5",
+            "ლენტეხის აგრეგაცია"
+          ],
+          "unknownPort": false,
+          "conflicts": [],
+          "reviewCaseIds": [
+            "28E-RED-ORG-19311",
+            "28E-RED-ORG-38542"
+          ]
+        }
+      ],
+      "localFiberLegs": [
+        {
+          "segmentId": "CAB-000148",
+          "fiberNumber": 20
+        },
+        {
+          "segmentId": "CAB-000150",
+          "fiberNumber": 20
+        },
+        {
+          "segmentId": "CAB-000151",
+          "fiberNumber": 20
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+          "fiberNumber": 20
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+          "fiberNumber": 20
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+          "fiberNumber": 20
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+          "fiberNumber": 20
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+          "fiberNumber": 20
+        },
+        {
+          "segmentId": "CAB-000148",
+          "fiberNumber": 21
+        },
+        {
+          "segmentId": "CAB-000150",
+          "fiberNumber": 21
+        },
+        {
+          "segmentId": "CAB-000151",
+          "fiberNumber": 21
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+          "fiberNumber": 21
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+          "fiberNumber": 21
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+          "fiberNumber": 21
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+          "fiberNumber": 21
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+          "fiberNumber": 21
+        },
+        {
+          "segmentId": "CAB-000148",
+          "fiberNumber": 152
+        },
+        {
+          "segmentId": "CAB-000150",
+          "fiberNumber": 152
+        },
+        {
+          "segmentId": "CAB-000169",
+          "fiberNumber": 8
+        },
+        {
+          "segmentId": "CAB-000171",
+          "fiberNumber": 8
+        },
+        {
+          "segmentId": "CAB-000172",
+          "fiberNumber": 8
+        },
+        {
+          "segmentId": "CAB-000174",
+          "fiberNumber": 8
+        },
+        {
+          "segmentId": "CAB-000176",
+          "fiberNumber": 8
+        },
+        {
+          "segmentId": "CAB-000177",
+          "fiberNumber": 8
+        },
+        {
+          "segmentId": "CAB-000178",
+          "fiberNumber": 8
+        },
+        {
+          "segmentId": "CAB-000179",
+          "fiberNumber": 8
+        },
+        {
+          "segmentId": "CAB-000180",
+          "fiberNumber": 8
+        },
+        {
+          "segmentId": "CAB-000184",
+          "fiberNumber": 8
+        },
+        {
+          "segmentId": "CAB-000148",
+          "fiberNumber": 149
+        },
+        {
+          "segmentId": "CAB-000150",
+          "fiberNumber": 149
+        },
+        {
+          "segmentId": "CAB-000169",
+          "fiberNumber": 5
+        },
+        {
+          "segmentId": "CAB-000171",
+          "fiberNumber": 5
+        },
+        {
+          "segmentId": "CAB-000172",
+          "fiberNumber": 5
+        },
+        {
+          "segmentId": "CAB-000174",
+          "fiberNumber": 5
+        },
+        {
+          "segmentId": "CAB-000176",
+          "fiberNumber": 5
+        },
+        {
+          "segmentId": "CAB-000177",
+          "fiberNumber": 5
+        },
+        {
+          "segmentId": "CAB-000178",
+          "fiberNumber": 5
+        },
+        {
+          "segmentId": "CAB-000179",
+          "fiberNumber": 5
+        },
+        {
+          "segmentId": "CAB-000180",
+          "fiberNumber": 5
+        },
+        {
+          "segmentId": "CAB-000184",
+          "fiberNumber": 5
+        }
+      ],
+      "cableIds": [
+        "CAB-000148",
+        "CAB-000150",
+        "CAB-000151",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+        "CAB-000169",
+        "CAB-000171",
+        "CAB-000172",
+        "CAB-000174",
+        "CAB-000176",
+        "CAB-000177",
+        "CAB-000178",
+        "CAB-000179",
+        "CAB-000180",
+        "CAB-000184"
+      ],
+      "portBindingIds": [
+        "PTB-LENTEKHI-P08-C184-F08",
+        "PTB-LENTEKHI-P05-C184-F05"
+      ],
+      "apIds": [],
+      "aggregationIds": [
+        "5",
+        "AGG-LENTEKHI"
+      ],
+      "closureIds": [
+        "212",
+        "205",
+        "206",
+        "207",
+        "208",
+        "209",
+        "210",
+        "211",
+        "216",
+        "217",
+        "218",
+        "219",
+        "220",
+        "221",
+        "222",
+        "223",
+        "224"
+      ],
+      "sourceOccurrenceIds": [
+        "ORG-17536",
+        "ORG-29210",
+        "ORG-40999",
+        "ORG-17537",
+        "ORG-29211",
+        "ORG-41000",
+        "ORG-17668",
+        "ORG-33811",
+        "NUO-17668",
+        "NUO-37557",
+        "NUO-38545",
+        "ORG-17665",
+        "ORG-33808",
+        "NUO-17665",
+        "NUO-37554",
+        "NUO-38542"
+      ],
+      "conflicts": [],
+      "reviewCaseIds": [
+        "28E-RED-ORG-19182",
+        "28E-RED-ORG-20288",
+        "28E-RED-ORG-20835",
+        "28E-RED-ORG-21560",
+        "28E-RED-ORG-24353",
+        "28E-RED-ORG-25321",
+        "28E-RED-ORG-26687",
+        "28E-RED-ORG-33033",
+        "28E-RED-ORG-15806",
+        "28E-RED-ORG-24164",
+        "28E-RED-ORG-15872",
+        "28E-RED-ORG-27074",
+        "28E-RED-ORG-19183",
+        "28E-RED-ORG-20289",
+        "28E-RED-ORG-20836",
+        "28E-RED-ORG-21561",
+        "28E-RED-ORG-24354",
+        "28E-RED-ORG-25322",
+        "28E-RED-ORG-26688",
+        "28E-RED-ORG-33034",
+        "28E-RED-ORG-15807",
+        "28E-RED-ORG-24165",
+        "28E-RED-ORG-15873",
+        "28E-RED-ORG-27075",
+        "28E-RED-ORG-19314",
+        "28E-RED-ORG-38545",
+        "28E-RED-ORG-19311",
+        "28E-RED-ORG-38542"
+      ]
+    },
+    {
+      "organizationId": "silknet",
+      "name": "Silknet",
+      "aliases": [
+        "სილქნეტი"
+      ],
+      "strands": [
+        {
+          "id": "ORG-STRAND-silknet-1877730fce941ad3",
+          "organizationId": "silknet",
+          "usageState": "in_use",
+          "purpose": null,
+          "claimIds": [
+            "28E-USE-03115"
+          ],
+          "localFiberLegs": [
+            {
+              "segmentId": "CAB-000184",
+              "fiberNumber": 10
+            },
+            {
+              "segmentId": "CAB-000180",
+              "fiberNumber": 10
+            },
+            {
+              "segmentId": "CAB-000179",
+              "fiberNumber": 10
+            },
+            {
+              "segmentId": "CAB-000178",
+              "fiberNumber": 10
+            },
+            {
+              "segmentId": "CAB-000177",
+              "fiberNumber": 10
+            },
+            {
+              "segmentId": "CAB-000176",
+              "fiberNumber": 10
+            },
+            {
+              "segmentId": "CAB-000174",
+              "fiberNumber": 10
+            },
+            {
+              "segmentId": "CAB-000172",
+              "fiberNumber": 10
+            }
+          ],
+          "cableIds": [
+            "CAB-000184",
+            "CAB-000180",
+            "CAB-000179",
+            "CAB-000178",
+            "CAB-000177",
+            "CAB-000176",
+            "CAB-000174",
+            "CAB-000172"
+          ],
+          "portBindingIds": [
+            "PTB-LENTEKHI-P10-C184-F10"
+          ],
+          "apIds": [],
+          "aggregationIds": [
+            "AGG-LENTEKHI"
+          ],
+          "closureIds": [
+            "217",
+            "224",
+            "223",
+            "222",
+            "221",
+            "220",
+            "219",
+            "218"
+          ],
+          "sourceOccurrenceIds": [
+            "NUO-37559"
+          ],
+          "sourceLabelShapeIds": [
+            "37559"
+          ],
+          "pathSignatures": [
+            "canonical-active-fiber-path/1/7d6f392e5aa034c6"
+          ],
+          "pathEndpoints": [
+            "ლენტეხის აგრეგაცია",
+            "SC217"
+          ],
+          "unknownPort": false,
+          "conflicts": [],
+          "reviewCaseIds": []
+        },
+        {
+          "id": "ORG-STRAND-silknet-7b09d3ff064fafed",
+          "organizationId": "silknet",
+          "usageState": "in_use",
+          "purpose": null,
+          "claimIds": [
+            "28E-USE-01929"
+          ],
+          "localFiberLegs": [
+            {
+              "segmentId": "CAB-000169",
+              "fiberNumber": 12
+            },
+            {
+              "segmentId": "CAB-000150",
+              "fiberNumber": 156
+            },
+            {
+              "segmentId": "CAB-000148",
+              "fiberNumber": 156
+            },
+            {
+              "segmentId": "CAB-000171",
+              "fiberNumber": 12
+            }
+          ],
+          "cableIds": [
+            "CAB-000169",
+            "CAB-000150",
+            "CAB-000148",
+            "CAB-000171"
+          ],
+          "portBindingIds": [],
+          "apIds": [],
+          "aggregationIds": [
+            "5"
+          ],
+          "closureIds": [
+            "206",
+            "205",
+            "217",
+            "216"
+          ],
+          "sourceOccurrenceIds": [
+            "ORG-33815"
+          ],
+          "sourceLabelShapeIds": [
+            "33815"
+          ],
+          "pathSignatures": [
+            "canonical-active-fiber-path/1/0692f56b3e40414d"
+          ],
+          "pathEndpoints": [
+            "AGG5",
+            "SC217"
+          ],
+          "unknownPort": true,
+          "conflicts": [],
+          "reviewCaseIds": [
+            "28E-RED-ORG-19318",
+            "28E-RED-ORG-38549",
+            "28E-CONFLICT-CAB-000169-12",
+            "28E-CONFLICT-CAB-000171-12",
+            "28E-CONFLICT-CAB-000148-156",
+            "28E-CONFLICT-CAB-000150-156"
+          ]
+        },
+        {
+          "id": "ORG-STRAND-silknet-8ec71e1b0f7fbdc5",
+          "organizationId": "silknet",
+          "usageState": "in_use",
+          "purpose": null,
+          "claimIds": [
+            "28E-USE-00202",
+            "28E-USE-01927",
+            "28E-USE-02162",
+            "28E-USE-02337",
+            "28E-USE-03108",
+            "28E-USE-03109",
+            "28E-USE-03110"
+          ],
+          "localFiberLegs": [
+            {
+              "segmentId": "CAB-000148",
+              "fiberNumber": 154
+            },
+            {
+              "segmentId": "CAB-000150",
+              "fiberNumber": 154
+            },
+            {
+              "segmentId": "CAB-000169",
+              "fiberNumber": 10
+            },
+            {
+              "segmentId": "CAB-000171",
+              "fiberNumber": 10
+            }
+          ],
+          "cableIds": [
+            "CAB-000148",
+            "CAB-000150",
+            "CAB-000169",
+            "CAB-000171"
+          ],
+          "portBindingIds": [],
+          "apIds": [],
+          "aggregationIds": [
+            "5"
+          ],
+          "closureIds": [
+            "217",
+            "205",
+            "206",
+            "216"
+          ],
+          "sourceOccurrenceIds": [
+            "ORG-17670",
+            "ORG-33813",
+            "NUO-17670",
+            "NUO-38547"
+          ],
+          "sourceLabelShapeIds": [
+            "17670",
+            "33813",
+            "38547"
+          ],
+          "pathSignatures": [
+            "canonical-active-fiber-path/1/1e2040d757f360d3",
+            "canonical-active-fiber-path/1/194f4817fc1f269b",
+            "canonical-active-fiber-path/1/b727c9cef07c9d4a"
+          ],
+          "pathEndpoints": [
+            "AGG5",
+            "SC217"
+          ],
+          "unknownPort": true,
+          "conflicts": [],
+          "reviewCaseIds": [
+            "28E-RED-ORG-19316",
+            "28E-RED-ORG-38547"
+          ]
+        },
+        {
+          "id": "ORG-STRAND-silknet-a64c92d9d2b7a6d7",
+          "organizationId": "silknet",
+          "usageState": "in_use",
+          "purpose": null,
+          "claimIds": [
+            "28E-USE-00203",
+            "28E-USE-01928",
+            "28E-USE-02163",
+            "28E-USE-02338",
+            "28E-USE-03111",
+            "28E-USE-03112",
+            "28E-USE-03113",
+            "28E-USE-03114"
+          ],
+          "localFiberLegs": [
+            {
+              "segmentId": "CAB-000148",
+              "fiberNumber": 155
+            },
+            {
+              "segmentId": "CAB-000150",
+              "fiberNumber": 155
+            },
+            {
+              "segmentId": "CAB-000169",
+              "fiberNumber": 11
+            },
+            {
+              "segmentId": "CAB-000171",
+              "fiberNumber": 11
+            },
+            {
+              "segmentId": "CAB-000172",
+              "fiberNumber": 11
+            },
+            {
+              "segmentId": "CAB-000174",
+              "fiberNumber": 11
+            },
+            {
+              "segmentId": "CAB-000176",
+              "fiberNumber": 11
+            },
+            {
+              "segmentId": "CAB-000177",
+              "fiberNumber": 11
+            },
+            {
+              "segmentId": "CAB-000178",
+              "fiberNumber": 11
+            },
+            {
+              "segmentId": "CAB-000179",
+              "fiberNumber": 11
+            },
+            {
+              "segmentId": "CAB-000180",
+              "fiberNumber": 11
+            },
+            {
+              "segmentId": "CAB-000184",
+              "fiberNumber": 11
+            }
+          ],
+          "cableIds": [
+            "CAB-000148",
+            "CAB-000150",
+            "CAB-000169",
+            "CAB-000171",
+            "CAB-000172",
+            "CAB-000174",
+            "CAB-000176",
+            "CAB-000177",
+            "CAB-000178",
+            "CAB-000179",
+            "CAB-000180",
+            "CAB-000184"
+          ],
+          "portBindingIds": [
+            "PTB-LENTEKHI-P11-C184-F11"
+          ],
+          "apIds": [],
+          "aggregationIds": [
+            "5",
+            "AGG-LENTEKHI"
+          ],
+          "closureIds": [
+            "205",
+            "206",
+            "216",
+            "217",
+            "218",
+            "219",
+            "220",
+            "221",
+            "222",
+            "223",
+            "224"
+          ],
+          "sourceOccurrenceIds": [
+            "ORG-17671",
+            "ORG-33814",
+            "NUO-17671",
+            "NUO-37560",
+            "NUO-38548"
+          ],
+          "sourceLabelShapeIds": [
+            "17671",
+            "33814",
+            "37560",
+            "38548"
+          ],
+          "pathSignatures": [
+            "canonical-active-fiber-path/1/993833bf93a5c58d",
+            "canonical-active-fiber-path/1/d5a210275edbbcbd",
+            "canonical-active-fiber-path/1/62d7806a23ae912c",
+            "canonical-active-fiber-path/1/fa02541cd29a479a"
+          ],
+          "pathEndpoints": [
+            "AGG5",
+            "ლენტეხის აგრეგაცია"
+          ],
+          "unknownPort": false,
+          "conflicts": [],
+          "reviewCaseIds": [
+            "28E-RED-ORG-19317",
+            "28E-RED-ORG-38548"
+          ]
+        }
+      ],
+      "localFiberLegs": [
+        {
+          "segmentId": "CAB-000184",
+          "fiberNumber": 10
+        },
+        {
+          "segmentId": "CAB-000180",
+          "fiberNumber": 10
+        },
+        {
+          "segmentId": "CAB-000179",
+          "fiberNumber": 10
+        },
+        {
+          "segmentId": "CAB-000178",
+          "fiberNumber": 10
+        },
+        {
+          "segmentId": "CAB-000177",
+          "fiberNumber": 10
+        },
+        {
+          "segmentId": "CAB-000176",
+          "fiberNumber": 10
+        },
+        {
+          "segmentId": "CAB-000174",
+          "fiberNumber": 10
+        },
+        {
+          "segmentId": "CAB-000172",
+          "fiberNumber": 10
+        },
+        {
+          "segmentId": "CAB-000169",
+          "fiberNumber": 12
+        },
+        {
+          "segmentId": "CAB-000150",
+          "fiberNumber": 156
+        },
+        {
+          "segmentId": "CAB-000148",
+          "fiberNumber": 156
+        },
+        {
+          "segmentId": "CAB-000171",
+          "fiberNumber": 12
+        },
+        {
+          "segmentId": "CAB-000148",
+          "fiberNumber": 154
+        },
+        {
+          "segmentId": "CAB-000150",
+          "fiberNumber": 154
+        },
+        {
+          "segmentId": "CAB-000169",
+          "fiberNumber": 10
+        },
+        {
+          "segmentId": "CAB-000171",
+          "fiberNumber": 10
+        },
+        {
+          "segmentId": "CAB-000148",
+          "fiberNumber": 155
+        },
+        {
+          "segmentId": "CAB-000150",
+          "fiberNumber": 155
+        },
+        {
+          "segmentId": "CAB-000169",
+          "fiberNumber": 11
+        },
+        {
+          "segmentId": "CAB-000171",
+          "fiberNumber": 11
+        },
+        {
+          "segmentId": "CAB-000172",
+          "fiberNumber": 11
+        },
+        {
+          "segmentId": "CAB-000174",
+          "fiberNumber": 11
+        },
+        {
+          "segmentId": "CAB-000176",
+          "fiberNumber": 11
+        },
+        {
+          "segmentId": "CAB-000177",
+          "fiberNumber": 11
+        },
+        {
+          "segmentId": "CAB-000178",
+          "fiberNumber": 11
+        },
+        {
+          "segmentId": "CAB-000179",
+          "fiberNumber": 11
+        },
+        {
+          "segmentId": "CAB-000180",
+          "fiberNumber": 11
+        },
+        {
+          "segmentId": "CAB-000184",
+          "fiberNumber": 11
+        }
+      ],
+      "cableIds": [
+        "CAB-000184",
+        "CAB-000180",
+        "CAB-000179",
+        "CAB-000178",
+        "CAB-000177",
+        "CAB-000176",
+        "CAB-000174",
+        "CAB-000172",
+        "CAB-000169",
+        "CAB-000150",
+        "CAB-000148",
+        "CAB-000171"
+      ],
+      "portBindingIds": [
+        "PTB-LENTEKHI-P10-C184-F10",
+        "PTB-LENTEKHI-P11-C184-F11"
+      ],
+      "apIds": [],
+      "aggregationIds": [
+        "AGG-LENTEKHI",
+        "5"
+      ],
+      "closureIds": [
+        "217",
+        "224",
+        "223",
+        "222",
+        "221",
+        "220",
+        "219",
+        "218",
+        "206",
+        "205",
+        "216"
+      ],
+      "sourceOccurrenceIds": [
+        "NUO-37559",
+        "ORG-33815",
+        "ORG-17670",
+        "ORG-33813",
+        "NUO-17670",
+        "NUO-38547",
+        "ORG-17671",
+        "ORG-33814",
+        "NUO-17671",
+        "NUO-37560",
+        "NUO-38548"
+      ],
+      "conflicts": [],
+      "reviewCaseIds": [
+        "28E-RED-ORG-19318",
+        "28E-RED-ORG-38549",
+        "28E-CONFLICT-CAB-000169-12",
+        "28E-CONFLICT-CAB-000171-12",
+        "28E-CONFLICT-CAB-000148-156",
+        "28E-CONFLICT-CAB-000150-156",
+        "28E-RED-ORG-19316",
+        "28E-RED-ORG-38547",
+        "28E-RED-ORG-19317",
+        "28E-RED-ORG-38548"
+      ]
+    },
+    {
+      "organizationId": "skytel",
+      "name": "Skytel",
+      "aliases": [
+        "სქაიტელი",
+        "სკაიტელი"
+      ],
+      "strands": [
+        {
+          "id": "ORG-STRAND-skytel-364b2a668bd2d5bc",
+          "organizationId": "skytel",
+          "usageState": "in_use",
+          "purpose": null,
+          "claimIds": [
+            "28E-USE-03120"
+          ],
+          "localFiberLegs": [
+            {
+              "segmentId": "CAB-000183",
+              "fiberNumber": 3
+            },
+            {
+              "segmentId": "CAB-000181",
+              "fiberNumber": 3
+            },
+            {
+              "segmentId": "CAB-000184",
+              "fiberNumber": 35
+            }
+          ],
+          "cableIds": [
+            "CAB-000183",
+            "CAB-000181",
+            "CAB-000184"
+          ],
+          "portBindingIds": [
+            "PTB-LENTEKHI-P35-C184-F35",
+            "PTB-AP54-P03-C183-F03"
+          ],
+          "apIds": [
+            "54"
+          ],
+          "aggregationIds": [
+            "AGG-LENTEKHI"
+          ],
+          "closureIds": [
+            "225",
+            "224"
+          ],
+          "sourceOccurrenceIds": [
+            "NUO-37584",
+            "NUO-38318"
+          ],
+          "sourceLabelShapeIds": [
+            "37584",
+            "38318"
+          ],
+          "pathSignatures": [
+            "canonical-active-fiber-path/1/0844a351d0ce12ef"
+          ],
+          "pathEndpoints": [
+            "ლენტეხის აგრეგაცია",
+            "AP54"
+          ],
+          "unknownPort": false,
+          "conflicts": [],
+          "reviewCaseIds": []
+        },
+        {
+          "id": "ORG-STRAND-skytel-7b09d3ff064fafed",
+          "organizationId": "skytel",
+          "usageState": "in_use",
+          "purpose": null,
+          "claimIds": [
+            "28E-USE-00204",
+            "28E-USE-02164",
+            "28E-USE-02339",
+            "28E-USE-03116",
+            "28E-USE-03117",
+            "28E-USE-03118"
+          ],
+          "localFiberLegs": [
+            {
+              "segmentId": "CAB-000148",
+              "fiberNumber": 156
+            },
+            {
+              "segmentId": "CAB-000150",
+              "fiberNumber": 156
+            },
+            {
+              "segmentId": "CAB-000169",
+              "fiberNumber": 12
+            },
+            {
+              "segmentId": "CAB-000171",
+              "fiberNumber": 12
+            }
+          ],
+          "cableIds": [
+            "CAB-000148",
+            "CAB-000150",
+            "CAB-000169",
+            "CAB-000171"
+          ],
+          "portBindingIds": [],
+          "apIds": [],
+          "aggregationIds": [
+            "5"
+          ],
+          "closureIds": [
+            "217",
+            "205",
+            "206",
+            "216"
+          ],
+          "sourceOccurrenceIds": [
+            "ORG-17672",
+            "NUO-17672",
+            "NUO-38549"
+          ],
+          "sourceLabelShapeIds": [
+            "17672",
+            "38549"
+          ],
+          "pathSignatures": [
+            "canonical-active-fiber-path/1/a83c89e724b7e8dd",
+            "canonical-active-fiber-path/1/7c4501fa33202824",
+            "canonical-active-fiber-path/1/0692f56b3e40414d"
+          ],
+          "pathEndpoints": [
+            "AGG5",
+            "SC217"
+          ],
+          "unknownPort": true,
+          "conflicts": [],
+          "reviewCaseIds": [
+            "28E-RED-ORG-19318",
+            "28E-RED-ORG-38549",
+            "28E-CONFLICT-CAB-000169-12",
+            "28E-CONFLICT-CAB-000171-12",
+            "28E-CONFLICT-CAB-000148-156",
+            "28E-CONFLICT-CAB-000150-156"
+          ]
+        },
+        {
+          "id": "ORG-STRAND-skytel-8c52e40b9f96fc73",
+          "organizationId": "skytel",
+          "usageState": "in_use",
+          "purpose": null,
+          "claimIds": [
+            "28E-USE-03119"
+          ],
+          "localFiberLegs": [
+            {
+              "segmentId": "CAB-000184",
+              "fiberNumber": 12
+            },
+            {
+              "segmentId": "CAB-000180",
+              "fiberNumber": 12
+            },
+            {
+              "segmentId": "CAB-000179",
+              "fiberNumber": 12
+            },
+            {
+              "segmentId": "CAB-000178",
+              "fiberNumber": 12
+            },
+            {
+              "segmentId": "CAB-000177",
+              "fiberNumber": 12
+            },
+            {
+              "segmentId": "CAB-000176",
+              "fiberNumber": 12
+            },
+            {
+              "segmentId": "CAB-000174",
+              "fiberNumber": 12
+            },
+            {
+              "segmentId": "CAB-000172",
+              "fiberNumber": 12
+            }
+          ],
+          "cableIds": [
+            "CAB-000184",
+            "CAB-000180",
+            "CAB-000179",
+            "CAB-000178",
+            "CAB-000177",
+            "CAB-000176",
+            "CAB-000174",
+            "CAB-000172"
+          ],
+          "portBindingIds": [
+            "PTB-LENTEKHI-P12-C184-F12"
+          ],
+          "apIds": [],
+          "aggregationIds": [
+            "AGG-LENTEKHI"
+          ],
+          "closureIds": [
+            "217",
+            "224",
+            "223",
+            "222",
+            "221",
+            "220",
+            "219",
+            "218"
+          ],
+          "sourceOccurrenceIds": [
+            "NUO-37561"
+          ],
+          "sourceLabelShapeIds": [
+            "37561"
+          ],
+          "pathSignatures": [
+            "canonical-active-fiber-path/1/198736773e1aed6b"
+          ],
+          "pathEndpoints": [
+            "ლენტეხის აგრეგაცია",
+            "SC217"
+          ],
+          "unknownPort": false,
+          "conflicts": [],
+          "reviewCaseIds": []
+        },
+        {
+          "id": "ORG-STRAND-skytel-d4fa1a874565d54b",
+          "organizationId": "skytel",
+          "usageState": "in_use",
+          "purpose": null,
+          "claimIds": [
+            "28E-USE-03121"
+          ],
+          "localFiberLegs": [
+            {
+              "segmentId": "CAB-000183",
+              "fiberNumber": 4
+            },
+            {
+              "segmentId": "CAB-000181",
+              "fiberNumber": 4
+            },
+            {
+              "segmentId": "CAB-000184",
+              "fiberNumber": 36
+            }
+          ],
+          "cableIds": [
+            "CAB-000183",
+            "CAB-000181",
+            "CAB-000184"
+          ],
+          "portBindingIds": [
+            "PTB-LENTEKHI-P36-C184-F36",
+            "PTB-AP54-P04-C183-F04"
+          ],
+          "apIds": [
+            "54"
+          ],
+          "aggregationIds": [
+            "AGG-LENTEKHI"
+          ],
+          "closureIds": [
+            "225",
+            "224"
+          ],
+          "sourceOccurrenceIds": [
+            "NUO-37585",
+            "NUO-38317"
+          ],
+          "sourceLabelShapeIds": [
+            "37585",
+            "38317"
+          ],
+          "pathSignatures": [
+            "canonical-active-fiber-path/1/78657315b3e2c707"
+          ],
+          "pathEndpoints": [
+            "ლენტეხის აგრეგაცია",
+            "AP54"
+          ],
+          "unknownPort": false,
+          "conflicts": [],
+          "reviewCaseIds": []
+        }
+      ],
+      "localFiberLegs": [
+        {
+          "segmentId": "CAB-000183",
+          "fiberNumber": 3
+        },
+        {
+          "segmentId": "CAB-000181",
+          "fiberNumber": 3
+        },
+        {
+          "segmentId": "CAB-000184",
+          "fiberNumber": 35
+        },
+        {
+          "segmentId": "CAB-000148",
+          "fiberNumber": 156
+        },
+        {
+          "segmentId": "CAB-000150",
+          "fiberNumber": 156
+        },
+        {
+          "segmentId": "CAB-000169",
+          "fiberNumber": 12
+        },
+        {
+          "segmentId": "CAB-000171",
+          "fiberNumber": 12
+        },
+        {
+          "segmentId": "CAB-000184",
+          "fiberNumber": 12
+        },
+        {
+          "segmentId": "CAB-000180",
+          "fiberNumber": 12
+        },
+        {
+          "segmentId": "CAB-000179",
+          "fiberNumber": 12
+        },
+        {
+          "segmentId": "CAB-000178",
+          "fiberNumber": 12
+        },
+        {
+          "segmentId": "CAB-000177",
+          "fiberNumber": 12
+        },
+        {
+          "segmentId": "CAB-000176",
+          "fiberNumber": 12
+        },
+        {
+          "segmentId": "CAB-000174",
+          "fiberNumber": 12
+        },
+        {
+          "segmentId": "CAB-000172",
+          "fiberNumber": 12
+        },
+        {
+          "segmentId": "CAB-000183",
+          "fiberNumber": 4
+        },
+        {
+          "segmentId": "CAB-000181",
+          "fiberNumber": 4
+        },
+        {
+          "segmentId": "CAB-000184",
+          "fiberNumber": 36
+        }
+      ],
+      "cableIds": [
+        "CAB-000183",
+        "CAB-000181",
+        "CAB-000184",
+        "CAB-000148",
+        "CAB-000150",
+        "CAB-000169",
+        "CAB-000171",
+        "CAB-000180",
+        "CAB-000179",
+        "CAB-000178",
+        "CAB-000177",
+        "CAB-000176",
+        "CAB-000174",
+        "CAB-000172"
+      ],
+      "portBindingIds": [
+        "PTB-LENTEKHI-P35-C184-F35",
+        "PTB-AP54-P03-C183-F03",
+        "PTB-LENTEKHI-P12-C184-F12",
+        "PTB-LENTEKHI-P36-C184-F36",
+        "PTB-AP54-P04-C183-F04"
+      ],
+      "apIds": [
+        "54"
+      ],
+      "aggregationIds": [
+        "AGG-LENTEKHI",
+        "5"
+      ],
+      "closureIds": [
+        "225",
+        "224",
+        "217",
+        "205",
+        "206",
+        "216",
+        "223",
+        "222",
+        "221",
+        "220",
+        "219",
+        "218"
+      ],
+      "sourceOccurrenceIds": [
+        "NUO-37584",
+        "NUO-38318",
+        "ORG-17672",
+        "NUO-17672",
+        "NUO-38549",
+        "NUO-37561",
+        "NUO-37585",
+        "NUO-38317"
+      ],
+      "conflicts": [],
+      "reviewCaseIds": [
+        "28E-RED-ORG-19318",
+        "28E-RED-ORG-38549",
+        "28E-CONFLICT-CAB-000169-12",
+        "28E-CONFLICT-CAB-000171-12",
+        "28E-CONFLICT-CAB-000148-156",
+        "28E-CONFLICT-CAB-000150-156"
+      ]
+    }
+  ],
+  "counts": {
+    "organizations": 4,
+    "strands": 29,
+    "localFiberLegs": 236,
+    "cables": 27,
+    "portBindings": 22,
+    "aggregations": 2,
+    "closures": 21
+  }
+}

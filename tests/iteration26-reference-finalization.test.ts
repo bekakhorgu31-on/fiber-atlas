@@ -1,0 +1,34 @@
+import assert from 'node:assert/strict';
+import { createHash } from 'node:crypto';
+import { readFileSync } from 'node:fs';
+import test from 'node:test';
+import { repository } from '../src/data/repository';
+import { validateIteration26 } from '../src/domain/iteration26';
+import { fiberJourneySummary, portTopologyBinding } from '../src/domain/iteration20';
+
+const data = await repository.load();
+const c181 = data.cables.find(item => item.legacyCableId === '181')!;
+const terminal = data.nodeFiberTransitions!.filter(item => item.active && item.node.id === '225' && item.a.segmentId === c181.id && item.transitionType === 'intentional_termination');
+const terminalNumbers = terminal.map(item => item.a.fiberNumber).sort((a,b)=>a-b);
+const lineageFor = (segmentId:string, fiberNumber:number) => data.fiberLineages!.find(item => item.legs.some(leg => leg.segmentId===segmentId && leg.fiberNumber===fiberNumber));
+
+test('1 reference dataset identity is frozen and READY', () => assert.deepEqual([data.referenceDataset?.id,data.referenceDataset?.status], ['TSAGERI-LENTEKHI-REFERENCE-V1','READY']));
+test('2 no manual reference review remains pending', () => assert.equal(data.referenceDataset?.pendingManualReview,0));
+test('3 reference facts are not labeled field verified', () => assert.equal(data.referenceDataset?.fieldVerified,false));
+test('4 certified source hash remains fixed', () => assert.equal(data.referenceDataset?.sourceSha256,'caae4badc9c8c30be0a5fa3ef26352c3e534a9de7c66e830ef470466bb34a6fa'));
+test('5 all sixteen owner-confirmed SC225 terminations exist', () => assert.deepEqual(terminalNumbers,[5,6,7,8,9,10,11,12,17,18,19,20,21,22,23,24]));
+test('6 termination records have no outgoing Fiber', () => assert.ok(terminal.every(item => item.z===null && item.operation==='terminated' && item.projectionStatus==='owner_confirmed')));
+test('7 F06 superseded AP-side transition is absent', () => assert.equal(data.nodeFiberTransitions!.some(item=>item.active&&item.id.includes('F06-AP-UNRESOLVED')),false));
+test('8 C181 F01-F04 continue to C183 AP54 side', () => assert.ok([1,2,3,4].every(number=>data.nodeFiberTransitions!.some(item=>item.node.id==='225'&&item.a.segmentId===c181.id&&item.a.fiberNumber===number&&item.z?.segmentId==='CAB-000183'))));
+test('9 C181 F13-F16 continue to C182 AP53 side', () => assert.ok([13,14,15,16].every(number=>data.nodeFiberTransitions!.some(item=>item.node.id==='225'&&item.a.segmentId===c181.id&&item.a.fiberNumber===number&&item.z?.segmentId==='CAB-000182'))));
+test('10 every C181 Fiber has one canonical SC225 outcome', () => assert.ok(Array.from({length:24},(_,i)=>i+1).every(number=>data.nodeFiberTransitions!.filter(item=>item.node.id==='225'&&item.a.segmentId===c181.id&&item.a.fiberNumber===number).length===1)));
+test('11 Port38 remains bound to C184 F38', () => assert.deepEqual([portTopologyBinding(data,'odf','ODF-LENTEKHI-01',38)?.segmentId,portTopologyBinding(data,'odf','ODF-LENTEKHI-01',38)?.fiberNumber],['CAB-000184',38]));
+test('12 Port38 lineage reaches C181 F06', () => assert.ok(lineageFor('CAB-000184',38)?.legs.some(leg=>leg.segmentId===c181.id&&leg.fiberNumber===6)));
+test('13 Port38 journey is a clean termination', () => { const j=fiberJourneySummary(data,'CAB-000184',38)!; assert.equal(j.scope,'termination'); assert.equal(j.knownTo,'SC225 / აქ მთავრდება'); assert.match(j.stopReasonKa,/SC225-ზე მთავრდება/); });
+test('14 Port38 journey contains no AP53 AP54 or AP51 destination', () => assert.equal(/AP5[134]/.test(JSON.stringify(lineageFor('CAB-000184',38)?.endpointB)),false));
+test('15 termination sheet has no fake target bank', () => { const sheet=data.connectionSheets!.find(item=>item.node.id==='225'&&item.rightBank.endpointType==='termination')!; assert.equal(sheet.rows.length,16); assert.ok(sheet.rows.every(row=>row.state==='termination'&&row.right.segmentId===null)); });
+test('16 AP occupancy keeps unused distinct from availability', () => assert.equal(data.apPortFlows?.find(item=>item.accessPointId==='51'&&item.portNumber===1)?.physicalUsage,'unused'));
+test('17 all company assignments use the generic model', () => assert.deepEqual([...new Set(data.networkUseAssignments?.map(item=>item.organizationId))].sort(),['magti','opennet','silknet','skytel']));
+test('18 Ambrolauri boundary has a stable nullable handoff contract', () => { const b=data.externalBoundaries?.find(item=>item.id==='BOUNDARY-SC207')!; assert.deepEqual([b.originatingNode,b.externalDirectionKey,b.nextSourceDocumentId,b.linkedRouteId,b.status],[{kind:'closure',id:'206'},'alpana-tvishi-ambrolauri',null,null,'document_known_not_imported']); });
+test('19 frozen manifest records no field verification and matches generated files', () => { const m=JSON.parse(readFileSync(new URL('../reference/tsageri-lentekhi-v1.manifest.json',import.meta.url),'utf8')); assert.deepEqual([m.id,m.status,m.pendingManualReview,m.fieldVerified],['TSAGERI-LENTEKHI-REFERENCE-V1','READY',0,false]); for (const name of ['tsageri-lentekhi-v1.inventory.json','tsageri-lentekhi-v1.transitions.json','tsageri-lentekhi-v1.lineages.json','tsageri-lentekhi-v1.golden-fixtures.json','tsageri-lentekhi-v1.semantic-summary.json']) assert.equal(createHash('sha256').update(readFileSync(new URL(`../reference/${name}`,import.meta.url))).digest('hex'),m.hashes[name]); });
+test('20 finalization validation passes', () => assert.deepEqual(validateIteration26(data),[]));

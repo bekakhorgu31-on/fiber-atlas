@@ -1,0 +1,8 @@
+{
+  "scope": "guarded actual Shida fixture; notes only, no topology writes",
+  "crossTabHistoryAndListRefresh": true,
+  "geometryRequestsForNoteChanges": 0,
+  "staleVersionRefused": true,
+  "roleChangeRevalidatesSource": true,
+  "errors": []
+}

@@ -1,0 +1,2173 @@
+{
+  "schemaVersion": 1,
+  "grammar": "tsageri-alpana-tvishi-closure-block/1",
+  "sourceHash": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d",
+  "ownerConfirmation": {
+    "id": "OWNER-CONFIRMED-28B-CLOSURE-GRAMMAR",
+    "basis": "owner_confirmation",
+    "statement": "A large grey Visio Closure block carrying its own Closure number, coordinate text, and GIS/external reference, with network connectivity drawn against it, represents a physical Closure.",
+    "fieldVerified": false
+  },
+  "records": {
+    "205": {
+      "canonicalId": "closure:205",
+      "sourceEndpointToken": "205",
+      "closureNumber": 205,
+      "displayName": "SC205",
+      "coordinates": {
+        "rawCoordinateText": "42°46'32.095\"E  42°39'7.663\"N ",
+        "longitudeDms": {
+          "degrees": 42,
+          "minutes": 46,
+          "seconds": 32.095,
+          "hemisphere": "E",
+          "decimalDegrees": 42.77558194444445
+        },
+        "latitudeDms": {
+          "degrees": 42,
+          "minutes": 39,
+          "seconds": 7.663,
+          "hemisphere": "N",
+          "decimalDegrees": 42.65212861111111
+        },
+        "longitudeDecimalDegrees": 42.77558194444445,
+        "latitudeDecimalDegrees": 42.65212861111111,
+        "crs": "unknown",
+        "parseState": "parsed",
+        "sourceShapeId": "12430"
+      },
+      "externalReferences": [
+        {
+          "system": "GJS",
+          "value": "3019A",
+          "rawText": "GJS  - 3019A",
+          "sourceShapeId": "12429"
+        }
+      ],
+      "sourceRepresentation": {
+        "source": {
+          "file": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "12428",
+            "12429",
+            "12430",
+            "12431"
+          ],
+          "rawValue": "205",
+          "interpretationRule": "tsageri-alpana-tvishi-closure-block/1"
+        },
+        "sourceHash": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d",
+        "rootShapeId": "12428",
+        "childShapeIds": [
+          "12429",
+          "12430",
+          "12431"
+        ],
+        "root": {
+          "uniqueId": "{3C7A6B58-0BDC-4BC3-9F42-019B40B9F5DC}",
+          "masterId": "23",
+          "masterShapeId": "5",
+          "masterName": "ქურო",
+          "propertyRows": [
+            {
+              "key": "Row_1",
+              "label": null,
+              "value": "205"
+            },
+            {
+              "key": "Row_2",
+              "label": null,
+              "value": "42°46'32.095\"E  42°39'7.663\"N "
+            },
+            {
+              "key": "Row_3",
+              "label": "2 ქუროს მოდელი",
+              "value": "GJS  - 3019A"
+            },
+            {
+              "key": "Row_4",
+              "label": null,
+              "value": "3"
+            },
+            {
+              "key": "Row_5",
+              "label": null,
+              "value": "გამანაწილებელი"
+            }
+          ],
+          "bounds": {
+            "height": 13.20062452222578,
+            "max_x": 74.21007556427185,
+            "max_y": 588.2943601816191,
+            "min_x": 29.71007556427184,
+            "min_y": 575.0937356593934,
+            "width": 44.50000000000001
+          },
+          "fill": "#bfbfbf",
+          "line": "#00b050",
+          "rectangleGeometry": [
+            {
+              "sectionIndex": "0",
+              "rows": [
+                {
+                  "type": "MoveTo",
+                  "point": {
+                    "x": 29.71007556427184,
+                    "y": 575.0937356593934
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 74.21007556427185,
+                    "y": 575.0937356593934
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 74.21007556427185,
+                    "y": 588.2943601816191
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 29.71007556427184,
+                    "y": 588.2943601816191
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 29.71007556427184,
+                    "y": 575.0937356593934
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "masterReference": {
+          "masterId": "23",
+          "masterUniqueId": "{FCA88BE8-0017-0000-8E40-00608CF305B2}",
+          "rootShapeId": "5",
+          "rootShapeName": "ქურო",
+          "childShapeIds": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ]
+        },
+        "numberShapeId": "12431",
+        "coordinateShapeId": "12430",
+        "externalReferenceShapeId": "12429",
+        "connectedCableEvidence": [
+          {
+            "legacyId": "148",
+            "label": "148-5-205-192",
+            "sourceShapeIds": [
+              "15769"
+            ],
+            "endpointTokens": [
+              "5",
+              "205"
+            ]
+          },
+          {
+            "legacyId": "149",
+            "label": "149-205-41-24",
+            "sourceShapeIds": [
+              "14250"
+            ],
+            "endpointTokens": [
+              "205",
+              "41"
+            ]
+          },
+          {
+            "legacyId": "150",
+            "label": "150-205-206-192",
+            "sourceShapeIds": [
+              "15770"
+            ],
+            "endpointTokens": [
+              "205",
+              "206"
+            ]
+          }
+        ],
+        "directVisioConnectRowsToSymbol": []
+      },
+      "verification": "documentation_reviewed",
+      "fieldVerified": false
+    },
+    "206": {
+      "canonicalId": "closure:206",
+      "sourceEndpointToken": "206",
+      "closureNumber": 206,
+      "displayName": "SC206",
+      "coordinates": {
+        "rawCoordinateText": "42°46'18.669\"E  42°39'22.455\"N ",
+        "longitudeDms": {
+          "degrees": 42,
+          "minutes": 46,
+          "seconds": 18.669,
+          "hemisphere": "E",
+          "decimalDegrees": 42.7718525
+        },
+        "latitudeDms": {
+          "degrees": 42,
+          "minutes": 39,
+          "seconds": 22.455,
+          "hemisphere": "N",
+          "decimalDegrees": 42.656237499999996
+        },
+        "longitudeDecimalDegrees": 42.7718525,
+        "latitudeDecimalDegrees": 42.656237499999996,
+        "crs": "unknown",
+        "parseState": "parsed",
+        "sourceShapeId": "15599"
+      },
+      "externalReferences": [
+        {
+          "system": "GJS",
+          "value": "3019A",
+          "rawText": "GJS  - 3019A",
+          "sourceShapeId": "15598"
+        }
+      ],
+      "sourceRepresentation": {
+        "source": {
+          "file": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "15597",
+            "15598",
+            "15599",
+            "15600"
+          ],
+          "rawValue": "206",
+          "interpretationRule": "tsageri-alpana-tvishi-closure-block/1"
+        },
+        "sourceHash": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d",
+        "rootShapeId": "15597",
+        "childShapeIds": [
+          "15598",
+          "15599",
+          "15600"
+        ],
+        "root": {
+          "uniqueId": "{A930230F-A65D-4B1E-B0DD-AA3B421753C5}",
+          "masterId": "23",
+          "masterShapeId": "5",
+          "masterName": "ქურო",
+          "propertyRows": [
+            {
+              "key": "Row_1",
+              "label": null,
+              "value": "206"
+            },
+            {
+              "key": "Row_2",
+              "label": null,
+              "value": "42°46'18.669\"E  42°39'22.455\"N "
+            },
+            {
+              "key": "Row_3",
+              "label": "2 ქუროს მოდელი",
+              "value": "GJS  - 3019A"
+            },
+            {
+              "key": "Row_4",
+              "label": null,
+              "value": "3"
+            },
+            {
+              "key": "Row_5",
+              "label": null,
+              "value": "გამანაწილებელი"
+            }
+          ],
+          "bounds": {
+            "height": 20.900424890350905,
+            "max_x": 114.71007556427183,
+            "max_y": 567.9941605497442,
+            "min_x": 29.710075564271833,
+            "min_y": 547.0937356593932,
+            "width": 85
+          },
+          "fill": "#bfbfbf",
+          "line": "#00ff00",
+          "rectangleGeometry": [
+            {
+              "sectionIndex": "0",
+              "rows": [
+                {
+                  "type": "MoveTo",
+                  "point": {
+                    "x": 29.710075564271833,
+                    "y": 547.0937356593932
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 114.71007556427183,
+                    "y": 547.0937356593932
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 114.71007556427183,
+                    "y": 567.9941605497442
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 29.710075564271833,
+                    "y": 567.9941605497442
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 29.710075564271833,
+                    "y": 547.0937356593932
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "masterReference": {
+          "masterId": "23",
+          "masterUniqueId": "{FCA88BE8-0017-0000-8E40-00608CF305B2}",
+          "rootShapeId": "5",
+          "rootShapeName": "ქურო",
+          "childShapeIds": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ]
+        },
+        "numberShapeId": "15600",
+        "coordinateShapeId": "15599",
+        "externalReferenceShapeId": "15598",
+        "connectedCableEvidence": [
+          {
+            "legacyId": "150",
+            "label": "150-205-206-192",
+            "sourceShapeIds": [
+              "15770"
+            ],
+            "endpointTokens": [
+              "205",
+              "206"
+            ]
+          },
+          {
+            "legacyId": "151",
+            "label": "151-206-207-144",
+            "sourceShapeIds": [
+              "15772"
+            ],
+            "endpointTokens": [
+              "206",
+              "207"
+            ]
+          },
+          {
+            "legacyId": "169",
+            "label": "169-206-216-48",
+            "sourceShapeIds": [
+              "34056"
+            ],
+            "endpointTokens": [
+              "206",
+              "216"
+            ]
+          }
+        ],
+        "directVisioConnectRowsToSymbol": []
+      },
+      "verification": "documentation_reviewed",
+      "fieldVerified": false
+    },
+    "207": {
+      "canonicalId": "network_node:207",
+      "sourceEndpointToken": "207",
+      "closureNumber": 207,
+      "displayName": "SC207",
+      "coordinates": {
+        "rawCoordinateText": "42°47'38.509\"E  42°39'12.421\"N ",
+        "longitudeDms": {
+          "degrees": 42,
+          "minutes": 47,
+          "seconds": 38.509,
+          "hemisphere": "E",
+          "decimalDegrees": 42.79403027777778
+        },
+        "latitudeDms": {
+          "degrees": 42,
+          "minutes": 39,
+          "seconds": 12.421,
+          "hemisphere": "N",
+          "decimalDegrees": 42.65345027777778
+        },
+        "longitudeDecimalDegrees": 42.79403027777778,
+        "latitudeDecimalDegrees": 42.65345027777778,
+        "crs": "unknown",
+        "parseState": "parsed",
+        "sourceShapeId": "19956"
+      },
+      "externalReferences": [
+        {
+          "system": "GJS",
+          "value": "3019A",
+          "rawText": "GJS  - 3019A",
+          "sourceShapeId": "19955"
+        }
+      ],
+      "sourceRepresentation": {
+        "source": {
+          "file": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "19954",
+            "19955",
+            "19956",
+            "19957"
+          ],
+          "rawValue": "207",
+          "interpretationRule": "tsageri-alpana-tvishi-closure-block/1"
+        },
+        "sourceHash": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d",
+        "rootShapeId": "19954",
+        "childShapeIds": [
+          "19955",
+          "19956",
+          "19957"
+        ],
+        "root": {
+          "uniqueId": "{C2D54620-BF80-42C8-8F8D-FD6E834A4B75}",
+          "masterId": "23",
+          "masterShapeId": "5",
+          "masterName": "ქურო",
+          "propertyRows": [
+            {
+              "key": "Row_1",
+              "label": null,
+              "value": "207"
+            },
+            {
+              "key": "Row_2",
+              "label": null,
+              "value": "42°47'38.509\"E  42°39'12.421\"N "
+            },
+            {
+              "key": "Row_3",
+              "label": "2 ქუროს მოდელი",
+              "value": "GJS  - 3019A"
+            },
+            {
+              "key": "Row_4",
+              "label": null,
+              "value": "2"
+            },
+            {
+              "key": "Row_5",
+              "label": null,
+              "value": "ტრანზიტი"
+            }
+          ],
+          "bounds": {
+            "height": 4.59375,
+            "max_x": 64.71007556427185,
+            "max_y": 544.0863249829532,
+            "min_x": 29.71007556427184,
+            "min_y": 539.4925749829532,
+            "width": 35.00000000000001
+          },
+          "fill": "#bfbfbf",
+          "line": "#00ff00",
+          "rectangleGeometry": [
+            {
+              "sectionIndex": "0",
+              "rows": [
+                {
+                  "type": "MoveTo",
+                  "point": {
+                    "x": 29.71007556427184,
+                    "y": 539.4925749829532
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 64.71007556427185,
+                    "y": 539.4925749829532
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 64.71007556427185,
+                    "y": 544.0863249829532
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 29.71007556427184,
+                    "y": 544.0863249829532
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 29.71007556427184,
+                    "y": 539.4925749829532
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "masterReference": {
+          "masterId": "23",
+          "masterUniqueId": "{FCA88BE8-0017-0000-8E40-00608CF305B2}",
+          "rootShapeId": "5",
+          "rootShapeName": "ქურო",
+          "childShapeIds": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ]
+        },
+        "numberShapeId": "19957",
+        "coordinateShapeId": "19956",
+        "externalReferenceShapeId": "19955",
+        "connectedCableEvidence": [
+          {
+            "legacyId": "151",
+            "label": "151-206-207-144",
+            "sourceShapeIds": [
+              "15772"
+            ],
+            "endpointTokens": [
+              "206",
+              "207"
+            ]
+          },
+          {
+            "legacyId": "152",
+            "label": "152-207-208-144",
+            "sourceShapeIds": [
+              "15775"
+            ],
+            "endpointTokens": [
+              "207",
+              "208"
+            ]
+          }
+        ],
+        "directVisioConnectRowsToSymbol": []
+      },
+      "verification": "documentation_reviewed",
+      "fieldVerified": false
+    },
+    "208": {
+      "canonicalId": "network_node:208",
+      "sourceEndpointToken": "208",
+      "closureNumber": 208,
+      "displayName": "SC208",
+      "coordinates": {
+        "rawCoordinateText": "42°49'45.14\"E  42°37'52.434\"N ",
+        "longitudeDms": {
+          "degrees": 42,
+          "minutes": 49,
+          "seconds": 45.14,
+          "hemisphere": "E",
+          "decimalDegrees": 42.82920555555556
+        },
+        "latitudeDms": {
+          "degrees": 42,
+          "minutes": 37,
+          "seconds": 52.434,
+          "hemisphere": "N",
+          "decimalDegrees": 42.631231666666665
+        },
+        "longitudeDecimalDegrees": 42.82920555555556,
+        "latitudeDecimalDegrees": 42.631231666666665,
+        "crs": "unknown",
+        "parseState": "parsed",
+        "sourceShapeId": "23798"
+      },
+      "externalReferences": [
+        {
+          "system": "GJS",
+          "value": "3019A",
+          "rawText": "GJS  - 3019A",
+          "sourceShapeId": "23797"
+        }
+      ],
+      "sourceRepresentation": {
+        "source": {
+          "file": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "23796",
+            "23797",
+            "23798",
+            "23799"
+          ],
+          "rawValue": "208",
+          "interpretationRule": "tsageri-alpana-tvishi-closure-block/1"
+        },
+        "sourceHash": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d",
+        "rootShapeId": "23796",
+        "childShapeIds": [
+          "23797",
+          "23798",
+          "23799"
+        ],
+        "root": {
+          "uniqueId": "{85AC43DD-B86F-487F-B746-FA6107252930}",
+          "masterId": "23",
+          "masterShapeId": "5",
+          "masterName": "ქურო",
+          "propertyRows": [
+            {
+              "key": "Row_1",
+              "label": null,
+              "value": "208"
+            },
+            {
+              "key": "Row_2",
+              "label": null,
+              "value": "42°49'45.14\"E  42°37'52.434\"N "
+            },
+            {
+              "key": "Row_3",
+              "label": "2 ქუროს მოდელი",
+              "value": "GJS  - 3019A"
+            },
+            {
+              "key": "Row_4",
+              "label": null,
+              "value": "3"
+            },
+            {
+              "key": "Row_5",
+              "label": null,
+              "value": "გამანაწილებელი"
+            }
+          ],
+          "bounds": {
+            "height": 7.142612390350905,
+            "max_x": 64.71007556427185,
+            "max_y": 535.6249856593935,
+            "min_x": 29.71007556427184,
+            "min_y": 528.4823732690426,
+            "width": 35.00000000000001
+          },
+          "fill": "#bfbfbf",
+          "line": "#00ff00",
+          "rectangleGeometry": [
+            {
+              "sectionIndex": "0",
+              "rows": [
+                {
+                  "type": "MoveTo",
+                  "point": {
+                    "x": 29.71007556427184,
+                    "y": 528.4823732690426
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 64.71007556427185,
+                    "y": 528.4823732690426
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 64.71007556427185,
+                    "y": 535.6249856593935
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 29.71007556427184,
+                    "y": 535.6249856593935
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 29.71007556427184,
+                    "y": 528.4823732690426
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "masterReference": {
+          "masterId": "23",
+          "masterUniqueId": "{FCA88BE8-0017-0000-8E40-00608CF305B2}",
+          "rootShapeId": "5",
+          "rootShapeName": "ქურო",
+          "childShapeIds": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ]
+        },
+        "numberShapeId": "23799",
+        "coordinateShapeId": "23798",
+        "externalReferenceShapeId": "23797",
+        "connectedCableEvidence": [
+          {
+            "legacyId": "152",
+            "label": "152-207-208-144",
+            "sourceShapeIds": [
+              "15775"
+            ],
+            "endpointTokens": [
+              "207",
+              "208"
+            ]
+          },
+          {
+            "legacyId": "153",
+            "label": "153-208-42-24",
+            "sourceShapeIds": [
+              "23959"
+            ],
+            "endpointTokens": [
+              "208",
+              "42"
+            ]
+          },
+          {
+            "legacyId": "154",
+            "label": "154-208-209-144",
+            "sourceShapeIds": [
+              "15830"
+            ],
+            "endpointTokens": [
+              "208",
+              "209"
+            ]
+          }
+        ],
+        "directVisioConnectRowsToSymbol": []
+      },
+      "verification": "documentation_reviewed",
+      "fieldVerified": false
+    },
+    "209": {
+      "canonicalId": "network_node:209",
+      "sourceEndpointToken": "209",
+      "closureNumber": 209,
+      "displayName": "SC209",
+      "coordinates": {
+        "rawCoordinateText": "42°49'48.601\"E  42°37'6.401\"N ",
+        "longitudeDms": {
+          "degrees": 42,
+          "minutes": 49,
+          "seconds": 48.601,
+          "hemisphere": "E",
+          "decimalDegrees": 42.83016694444445
+        },
+        "latitudeDms": {
+          "degrees": 42,
+          "minutes": 37,
+          "seconds": 6.401,
+          "hemisphere": "N",
+          "decimalDegrees": 42.61844472222222
+        },
+        "longitudeDecimalDegrees": 42.83016694444445,
+        "latitudeDecimalDegrees": 42.61844472222222,
+        "crs": "unknown",
+        "parseState": "parsed",
+        "sourceShapeId": "24067"
+      },
+      "externalReferences": [
+        {
+          "system": "GJS",
+          "value": "3019A",
+          "rawText": "GJS  - 3019A",
+          "sourceShapeId": "24066"
+        }
+      ],
+      "sourceRepresentation": {
+        "source": {
+          "file": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "24065",
+            "24066",
+            "24067",
+            "24068"
+          ],
+          "rawValue": "209",
+          "interpretationRule": "tsageri-alpana-tvishi-closure-block/1"
+        },
+        "sourceHash": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d",
+        "rootShapeId": "24065",
+        "childShapeIds": [
+          "24066",
+          "24067",
+          "24068"
+        ],
+        "root": {
+          "uniqueId": "{CCDC7D1E-EC06-46AF-966D-0B9D118CCF95}",
+          "masterId": "23",
+          "masterShapeId": "5",
+          "masterName": "ქურო",
+          "propertyRows": [
+            {
+              "key": "Row_1",
+              "label": null,
+              "value": "209"
+            },
+            {
+              "key": "Row_2",
+              "label": null,
+              "value": "42°49'48.601\"E  42°37'6.401\"N "
+            },
+            {
+              "key": "Row_3",
+              "label": "2 ქუროს მოდელი",
+              "value": "GJS  - 3019A"
+            },
+            {
+              "key": "Row_4",
+              "label": null,
+              "value": "3"
+            },
+            {
+              "key": "Row_5",
+              "label": null,
+              "value": "გამანაწილებელი"
+            }
+          ],
+          "bounds": {
+            "height": 7.056691203684068,
+            "max_x": 64.71007556427185,
+            "max_y": 523.9140644727266,
+            "min_x": 29.71007556427184,
+            "min_y": 516.8573732690426,
+            "width": 35.00000000000001
+          },
+          "fill": "#bfbfbf",
+          "line": "#00ff00",
+          "rectangleGeometry": [
+            {
+              "sectionIndex": "0",
+              "rows": [
+                {
+                  "type": "MoveTo",
+                  "point": {
+                    "x": 29.71007556427184,
+                    "y": 516.8573732690426
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 64.71007556427185,
+                    "y": 516.8573732690426
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 64.71007556427185,
+                    "y": 523.9140644727266
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 29.71007556427184,
+                    "y": 523.9140644727266
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 29.71007556427184,
+                    "y": 516.8573732690426
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "masterReference": {
+          "masterId": "23",
+          "masterUniqueId": "{FCA88BE8-0017-0000-8E40-00608CF305B2}",
+          "rootShapeId": "5",
+          "rootShapeName": "ქურო",
+          "childShapeIds": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ]
+        },
+        "numberShapeId": "24068",
+        "coordinateShapeId": "24067",
+        "externalReferenceShapeId": "24066",
+        "connectedCableEvidence": [
+          {
+            "legacyId": "154",
+            "label": "154-208-209-144",
+            "sourceShapeIds": [
+              "15830"
+            ],
+            "endpointTokens": [
+              "208",
+              "209"
+            ]
+          },
+          {
+            "legacyId": "155",
+            "label": "155-209-43-24",
+            "sourceShapeIds": [
+              "24228"
+            ],
+            "endpointTokens": [
+              "209",
+              "43"
+            ]
+          },
+          {
+            "legacyId": "156",
+            "label": "156-209-210-96",
+            "sourceShapeIds": [
+              "15831"
+            ],
+            "endpointTokens": [
+              "209",
+              "210"
+            ]
+          }
+        ],
+        "directVisioConnectRowsToSymbol": []
+      },
+      "verification": "documentation_reviewed",
+      "fieldVerified": false
+    },
+    "210": {
+      "canonicalId": "network_node:210",
+      "sourceEndpointToken": "210",
+      "closureNumber": 210,
+      "displayName": "SC210",
+      "coordinates": {
+        "rawCoordinateText": "42°49'55.196\"E  42°36'43.483\"N ",
+        "longitudeDms": {
+          "degrees": 42,
+          "minutes": 49,
+          "seconds": 55.196,
+          "hemisphere": "E",
+          "decimalDegrees": 42.83199888888889
+        },
+        "latitudeDms": {
+          "degrees": 42,
+          "minutes": 36,
+          "seconds": 43.483,
+          "hemisphere": "N",
+          "decimalDegrees": 42.612078611111116
+        },
+        "longitudeDecimalDegrees": 42.83199888888889,
+        "latitudeDecimalDegrees": 42.612078611111116,
+        "crs": "unknown",
+        "parseState": "parsed",
+        "sourceShapeId": "25299"
+      },
+      "externalReferences": [
+        {
+          "system": "GJS",
+          "value": "3019A",
+          "rawText": "GJS  - 3019A",
+          "sourceShapeId": "25298"
+        }
+      ],
+      "sourceRepresentation": {
+        "source": {
+          "file": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "25297",
+            "25298",
+            "25299",
+            "25300"
+          ],
+          "rawValue": "210",
+          "interpretationRule": "tsageri-alpana-tvishi-closure-block/1"
+        },
+        "sourceHash": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d",
+        "rootShapeId": "25297",
+        "childShapeIds": [
+          "25298",
+          "25299",
+          "25300"
+        ],
+        "root": {
+          "uniqueId": "{B3BCC02B-0715-437B-BEFE-A53FBA81E1EB}",
+          "masterId": "23",
+          "masterShapeId": "5",
+          "masterName": "ქურო",
+          "propertyRows": [
+            {
+              "key": "Row_1",
+              "label": null,
+              "value": "210"
+            },
+            {
+              "key": "Row_2",
+              "label": null,
+              "value": "42°49'55.196\"E  42°36'43.483\"N "
+            },
+            {
+              "key": "Row_3",
+              "label": "2 ქუროს მოდელი",
+              "value": "GJS  - 3019A"
+            },
+            {
+              "key": "Row_4",
+              "label": null,
+              "value": "3"
+            },
+            {
+              "key": "Row_5",
+              "label": null,
+              "value": "გამანაწილებელი"
+            }
+          ],
+          "bounds": {
+            "height": 6.809541509787664,
+            "max_x": 64.71007556427185,
+            "max_y": 513.7919147788301,
+            "min_x": 29.71007556427184,
+            "min_y": 506.98237326904245,
+            "width": 35.00000000000001
+          },
+          "fill": "#bfbfbf",
+          "line": "#00ff00",
+          "rectangleGeometry": [
+            {
+              "sectionIndex": "0",
+              "rows": [
+                {
+                  "type": "MoveTo",
+                  "point": {
+                    "x": 29.71007556427184,
+                    "y": 506.98237326904245
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 64.71007556427185,
+                    "y": 506.98237326904245
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 64.71007556427185,
+                    "y": 513.7919147788301
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 29.71007556427184,
+                    "y": 513.7919147788301
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 29.71007556427184,
+                    "y": 506.98237326904245
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "masterReference": {
+          "masterId": "23",
+          "masterUniqueId": "{FCA88BE8-0017-0000-8E40-00608CF305B2}",
+          "rootShapeId": "5",
+          "rootShapeName": "ქურო",
+          "childShapeIds": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ]
+        },
+        "numberShapeId": "25300",
+        "coordinateShapeId": "25299",
+        "externalReferenceShapeId": "25298",
+        "connectedCableEvidence": [
+          {
+            "legacyId": "156",
+            "label": "156-209-210-96",
+            "sourceShapeIds": [
+              "15831"
+            ],
+            "endpointTokens": [
+              "209",
+              "210"
+            ]
+          },
+          {
+            "legacyId": "157",
+            "label": "157-210-44-24",
+            "sourceShapeIds": [
+              "25557"
+            ],
+            "endpointTokens": [
+              "210",
+              "44"
+            ]
+          },
+          {
+            "legacyId": "158",
+            "label": "158-210-211-96",
+            "sourceShapeIds": [
+              "15833"
+            ],
+            "endpointTokens": [
+              "210",
+              "211"
+            ]
+          }
+        ],
+        "directVisioConnectRowsToSymbol": []
+      },
+      "verification": "documentation_reviewed",
+      "fieldVerified": false
+    },
+    "211": {
+      "canonicalId": "network_node:211",
+      "sourceEndpointToken": "211",
+      "closureNumber": 211,
+      "displayName": "SC211",
+      "coordinates": {
+        "rawCoordinateText": "42°51'12.771\"E  42°35'50.747\"N ",
+        "longitudeDms": {
+          "degrees": 42,
+          "minutes": 51,
+          "seconds": 12.771,
+          "hemisphere": "E",
+          "decimalDegrees": 42.853547500000005
+        },
+        "latitudeDms": {
+          "degrees": 42,
+          "minutes": 35,
+          "seconds": 50.747,
+          "hemisphere": "N",
+          "decimalDegrees": 42.59742972222222
+        },
+        "longitudeDecimalDegrees": 42.853547500000005,
+        "latitudeDecimalDegrees": 42.59742972222222,
+        "crs": "unknown",
+        "parseState": "parsed",
+        "sourceShapeId": "26969"
+      },
+      "externalReferences": [
+        {
+          "system": "GJS",
+          "value": "3019A",
+          "rawText": "GJS  - 3019A",
+          "sourceShapeId": "26968"
+        }
+      ],
+      "sourceRepresentation": {
+        "source": {
+          "file": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "26967",
+            "26968",
+            "26969",
+            "26970"
+          ],
+          "rawValue": "211",
+          "interpretationRule": "tsageri-alpana-tvishi-closure-block/1"
+        },
+        "sourceHash": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d",
+        "rootShapeId": "26967",
+        "childShapeIds": [
+          "26968",
+          "26969",
+          "26970"
+        ],
+        "root": {
+          "uniqueId": "{FE9F533B-41F6-42D2-B999-D4C9F83BC466}",
+          "masterId": "23",
+          "masterShapeId": "5",
+          "masterName": "ქურო",
+          "propertyRows": [
+            {
+              "key": "Row_1",
+              "label": null,
+              "value": "211"
+            },
+            {
+              "key": "Row_2",
+              "label": null,
+              "value": "42°51'12.771\"E  42°35'50.747\"N "
+            },
+            {
+              "key": "Row_3",
+              "label": "2 ქუროს მოდელი",
+              "value": "GJS  - 3019A"
+            },
+            {
+              "key": "Row_4",
+              "label": null,
+              "value": "3"
+            },
+            {
+              "key": "Row_5",
+              "label": null,
+              "value": "გამანაწილებელი"
+            }
+          ],
+          "bounds": {
+            "height": 7.7399454033315465,
+            "max_x": 76.96007556427185,
+            "max_y": 503.93748565939336,
+            "min_x": 29.71007556427184,
+            "min_y": 496.1975402560618,
+            "width": 47.25000000000001
+          },
+          "fill": "#bfbfbf",
+          "line": "#00ff00",
+          "rectangleGeometry": [
+            {
+              "sectionIndex": "0",
+              "rows": [
+                {
+                  "type": "MoveTo",
+                  "point": {
+                    "x": 29.71007556427184,
+                    "y": 496.1975402560618
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 76.96007556427185,
+                    "y": 496.1975402560618
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 76.96007556427185,
+                    "y": 503.93748565939336
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 29.71007556427184,
+                    "y": 503.93748565939336
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 29.71007556427184,
+                    "y": 496.1975402560618
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "masterReference": {
+          "masterId": "23",
+          "masterUniqueId": "{FCA88BE8-0017-0000-8E40-00608CF305B2}",
+          "rootShapeId": "5",
+          "rootShapeName": "ქურო",
+          "childShapeIds": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ]
+        },
+        "numberShapeId": "26970",
+        "coordinateShapeId": "26969",
+        "externalReferenceShapeId": "26968",
+        "connectedCableEvidence": [
+          {
+            "legacyId": "158",
+            "label": "158-210-211-96",
+            "sourceShapeIds": [
+              "15833"
+            ],
+            "endpointTokens": [
+              "210",
+              "211"
+            ]
+          },
+          {
+            "legacyId": "159",
+            "label": "159-211-45-24",
+            "sourceShapeIds": [
+              "27662"
+            ],
+            "endpointTokens": [
+              "211",
+              "45"
+            ]
+          },
+          {
+            "legacyId": "160",
+            "label": "160-211-46-24",
+            "sourceShapeIds": [
+              "25540"
+            ],
+            "endpointTokens": [
+              "211",
+              "46"
+            ]
+          },
+          {
+            "legacyId": "161",
+            "label": "161-211-212-72",
+            "sourceShapeIds": [
+              "15836"
+            ],
+            "endpointTokens": [
+              "211",
+              "212"
+            ]
+          }
+        ],
+        "directVisioConnectRowsToSymbol": []
+      },
+      "verification": "documentation_reviewed",
+      "fieldVerified": false
+    },
+    "212": {
+      "canonicalId": "network_node:212",
+      "sourceEndpointToken": "212",
+      "closureNumber": 212,
+      "displayName": "SC212",
+      "coordinates": {
+        "rawCoordinateText": "42°51'43.255\"E  42°33'40.618\"N ",
+        "longitudeDms": {
+          "degrees": 42,
+          "minutes": 51,
+          "seconds": 43.255,
+          "hemisphere": "E",
+          "decimalDegrees": 42.86201527777778
+        },
+        "latitudeDms": {
+          "degrees": 42,
+          "minutes": 33,
+          "seconds": 40.618,
+          "hemisphere": "N",
+          "decimalDegrees": 42.56128277777778
+        },
+        "longitudeDecimalDegrees": 42.86201527777778,
+        "latitudeDecimalDegrees": 42.56128277777778,
+        "crs": "unknown",
+        "parseState": "parsed",
+        "sourceShapeId": "28520"
+      },
+      "externalReferences": [
+        {
+          "system": "GJS",
+          "value": "3019A",
+          "rawText": "GJS  - 3019A",
+          "sourceShapeId": "28519"
+        }
+      ],
+      "sourceRepresentation": {
+        "source": {
+          "file": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "28518",
+            "28519",
+            "28520",
+            "28521"
+          ],
+          "rawValue": "212",
+          "interpretationRule": "tsageri-alpana-tvishi-closure-block/1"
+        },
+        "sourceHash": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d",
+        "rootShapeId": "28518",
+        "childShapeIds": [
+          "28519",
+          "28520",
+          "28521"
+        ],
+        "root": {
+          "uniqueId": "{496FBB6F-A97B-4210-A1EB-1957C430EF20}",
+          "masterId": "23",
+          "masterShapeId": "5",
+          "masterName": "ქურო",
+          "propertyRows": [
+            {
+              "key": "Row_1",
+              "label": null,
+              "value": "212"
+            },
+            {
+              "key": "Row_2",
+              "label": null,
+              "value": "42°51'43.255\"E  42°33'40.618\"N "
+            },
+            {
+              "key": "Row_3",
+              "label": "2 ქუროს მოდელი",
+              "value": "GJS  - 3019A"
+            },
+            {
+              "key": "Row_4",
+              "label": null,
+              "value": "3"
+            },
+            {
+              "key": "Row_5",
+              "label": null,
+              "value": "გამანაწილებელი"
+            }
+          ],
+          "bounds": {
+            "height": 7.7243351269808045,
+            "max_x": 76.9965277777778,
+            "max_y": 492.6769781890042,
+            "min_x": 29.746527777777793,
+            "min_y": 484.9526430620234,
+            "width": 47.25000000000001
+          },
+          "fill": "#bfbfbf",
+          "line": "#00ff00",
+          "rectangleGeometry": [
+            {
+              "sectionIndex": "0",
+              "rows": [
+                {
+                  "type": "MoveTo",
+                  "point": {
+                    "x": 29.746527777777793,
+                    "y": 484.9526430620234
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 76.9965277777778,
+                    "y": 484.9526430620234
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 76.9965277777778,
+                    "y": 492.6769781890042
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 29.746527777777793,
+                    "y": 492.6769781890042
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 29.746527777777793,
+                    "y": 484.9526430620234
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "masterReference": {
+          "masterId": "23",
+          "masterUniqueId": "{FCA88BE8-0017-0000-8E40-00608CF305B2}",
+          "rootShapeId": "5",
+          "rootShapeName": "ქურო",
+          "childShapeIds": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ]
+        },
+        "numberShapeId": "28521",
+        "coordinateShapeId": "28520",
+        "externalReferenceShapeId": "28519",
+        "connectedCableEvidence": [
+          {
+            "legacyId": "161",
+            "label": "161-211-212-72",
+            "sourceShapeIds": [
+              "15836"
+            ],
+            "endpointTokens": [
+              "211",
+              "212"
+            ]
+          },
+          {
+            "legacyId": "162",
+            "label": "162-212-47-24",
+            "sourceShapeIds": [
+              "28681"
+            ],
+            "endpointTokens": [
+              "212",
+              "47"
+            ]
+          },
+          {
+            "legacyId": "164",
+            "label": "164-212-213-48",
+            "sourceShapeIds": [
+              "15839"
+            ],
+            "endpointTokens": [
+              "212",
+              "213"
+            ]
+          }
+        ],
+        "directVisioConnectRowsToSymbol": []
+      },
+      "verification": "documentation_reviewed",
+      "fieldVerified": false
+    },
+    "213": {
+      "canonicalId": "network_node:213",
+      "sourceEndpointToken": "213",
+      "closureNumber": 213,
+      "displayName": "SC213",
+      "coordinates": {
+        "rawCoordinateText": "42°49'29.467\"E  42°33'32.291\"N ",
+        "longitudeDms": {
+          "degrees": 42,
+          "minutes": 49,
+          "seconds": 29.467,
+          "hemisphere": "E",
+          "decimalDegrees": 42.82485194444445
+        },
+        "latitudeDms": {
+          "degrees": 42,
+          "minutes": 33,
+          "seconds": 32.291,
+          "hemisphere": "N",
+          "decimalDegrees": 42.55896972222222
+        },
+        "longitudeDecimalDegrees": 42.82485194444445,
+        "latitudeDecimalDegrees": 42.55896972222222,
+        "crs": "unknown",
+        "parseState": "parsed",
+        "sourceShapeId": "28660"
+      },
+      "externalReferences": [
+        {
+          "system": "GJS",
+          "value": "3019A",
+          "rawText": "GJS  - 3019A",
+          "sourceShapeId": "28659"
+        }
+      ],
+      "sourceRepresentation": {
+        "source": {
+          "file": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "28658",
+            "28659",
+            "28660",
+            "28661"
+          ],
+          "rawValue": "213",
+          "interpretationRule": "tsageri-alpana-tvishi-closure-block/1"
+        },
+        "sourceHash": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d",
+        "rootShapeId": "28658",
+        "childShapeIds": [
+          "28659",
+          "28660",
+          "28661"
+        ],
+        "root": {
+          "uniqueId": "{E3858C4C-98FA-4EE2-BF3F-83EDEDA18B81}",
+          "masterId": "23",
+          "masterShapeId": "5",
+          "masterName": "ქურო",
+          "propertyRows": [
+            {
+              "key": "Row_1",
+              "label": null,
+              "value": "213"
+            },
+            {
+              "key": "Row_2",
+              "label": null,
+              "value": "42°49'29.467\"E  42°33'32.291\"N "
+            },
+            {
+              "key": "Row_3",
+              "label": "2 ქუროს მოდელი",
+              "value": "GJS  - 3019A"
+            },
+            {
+              "key": "Row_4",
+              "label": null,
+              "value": "3"
+            },
+            {
+              "key": "Row_5",
+              "label": null,
+              "value": "გამანაწილებელი"
+            },
+            {
+              "key": "Row_6",
+              "label": null,
+              "value": "ბოძი"
+            }
+          ],
+          "bounds": {
+            "height": 9.4609375,
+            "max_x": 57.71007556427185,
+            "max_y": 481.4325950661085,
+            "min_x": 29.710075564271847,
+            "min_y": 471.9716575661085,
+            "width": 28
+          },
+          "fill": "#bfbfbf",
+          "line": "#00ff00",
+          "rectangleGeometry": [
+            {
+              "sectionIndex": "0",
+              "rows": [
+                {
+                  "type": "MoveTo",
+                  "point": {
+                    "x": 29.710075564271847,
+                    "y": 471.9716575661085
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 57.71007556427185,
+                    "y": 471.9716575661085
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 57.71007556427185,
+                    "y": 481.4325950661085
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 29.710075564271847,
+                    "y": 481.4325950661085
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 29.710075564271847,
+                    "y": 471.9716575661085
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "masterReference": {
+          "masterId": "23",
+          "masterUniqueId": "{FCA88BE8-0017-0000-8E40-00608CF305B2}",
+          "rootShapeId": "5",
+          "rootShapeName": "ქურო",
+          "childShapeIds": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ]
+        },
+        "numberShapeId": "28661",
+        "coordinateShapeId": "28660",
+        "externalReferenceShapeId": "28659",
+        "connectedCableEvidence": [
+          {
+            "legacyId": "164",
+            "label": "164-212-213-48",
+            "sourceShapeIds": [
+              "15839"
+            ],
+            "endpointTokens": [
+              "212",
+              "213"
+            ]
+          },
+          {
+            "legacyId": "165",
+            "label": "165-213-48-24",
+            "sourceShapeIds": [
+              "28976"
+            ],
+            "endpointTokens": [
+              "213",
+              "48"
+            ]
+          },
+          {
+            "legacyId": "166",
+            "label": "166-213-214-48",
+            "sourceShapeIds": [
+              "15842"
+            ],
+            "endpointTokens": [
+              "213",
+              "214"
+            ]
+          }
+        ],
+        "directVisioConnectRowsToSymbol": []
+      },
+      "verification": "documentation_reviewed",
+      "fieldVerified": false
+    },
+    "214": {
+      "canonicalId": "network_node:214",
+      "sourceEndpointToken": "214",
+      "closureNumber": 214,
+      "displayName": "SC214",
+      "coordinates": {
+        "rawCoordinateText": "42°49'3.641\"E  42°33'27.597\"N ",
+        "longitudeDms": {
+          "degrees": 42,
+          "minutes": 49,
+          "seconds": 3.641,
+          "hemisphere": "E",
+          "decimalDegrees": 42.81767805555556
+        },
+        "latitudeDms": {
+          "degrees": 42,
+          "minutes": 33,
+          "seconds": 27.597,
+          "hemisphere": "N",
+          "decimalDegrees": 42.55766583333333
+        },
+        "longitudeDecimalDegrees": 42.81767805555556,
+        "latitudeDecimalDegrees": 42.55766583333333,
+        "crs": "unknown",
+        "parseState": "parsed",
+        "sourceShapeId": "29631"
+      },
+      "externalReferences": [
+        {
+          "system": "GJS",
+          "value": "3019A",
+          "rawText": "GJS  - 3019A",
+          "sourceShapeId": "29630"
+        }
+      ],
+      "sourceRepresentation": {
+        "source": {
+          "file": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "28977",
+            "29630",
+            "29631",
+            "29632"
+          ],
+          "rawValue": "214",
+          "interpretationRule": "tsageri-alpana-tvishi-closure-block/1"
+        },
+        "sourceHash": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d",
+        "rootShapeId": "28977",
+        "childShapeIds": [
+          "29630",
+          "29631",
+          "29632"
+        ],
+        "root": {
+          "uniqueId": "{8CD84BE0-757A-45C1-BB18-93D3D6821406}",
+          "masterId": "23",
+          "masterShapeId": "5",
+          "masterName": "ქურო",
+          "propertyRows": [
+            {
+              "key": "Row_1",
+              "label": null,
+              "value": "214"
+            },
+            {
+              "key": "Row_2",
+              "label": null,
+              "value": "42°49'3.641\"E  42°33'27.597\"N "
+            },
+            {
+              "key": "Row_3",
+              "label": "2 ქუროს მოდელი",
+              "value": "GJS  - 3019A"
+            },
+            {
+              "key": "Row_4",
+              "label": null,
+              "value": "2"
+            },
+            {
+              "key": "Row_5",
+              "label": null,
+              "value": "ტრანზიტი"
+            },
+            {
+              "key": "Row_6",
+              "label": null,
+              "value": "ბოძი"
+            }
+          ],
+          "bounds": {
+            "height": 4.59375,
+            "max_x": 57.71007556427185,
+            "max_y": 468.4667939561771,
+            "min_x": 29.710075564271847,
+            "min_y": 463.8730439561771,
+            "width": 28
+          },
+          "fill": "#bfbfbf",
+          "line": "#00ff00",
+          "rectangleGeometry": [
+            {
+              "sectionIndex": "0",
+              "rows": [
+                {
+                  "type": "MoveTo",
+                  "point": {
+                    "x": 29.710075564271847,
+                    "y": 463.8730439561771
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 57.71007556427185,
+                    "y": 463.8730439561771
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 57.71007556427185,
+                    "y": 468.4667939561771
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 29.710075564271847,
+                    "y": 468.4667939561771
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 29.710075564271847,
+                    "y": 463.8730439561771
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "masterReference": {
+          "masterId": "23",
+          "masterUniqueId": "{FCA88BE8-0017-0000-8E40-00608CF305B2}",
+          "rootShapeId": "5",
+          "rootShapeName": "ქურო",
+          "childShapeIds": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ]
+        },
+        "numberShapeId": "29632",
+        "coordinateShapeId": "29631",
+        "externalReferenceShapeId": "29630",
+        "connectedCableEvidence": [
+          {
+            "legacyId": "166",
+            "label": "166-213-214-48",
+            "sourceShapeIds": [
+              "15842"
+            ],
+            "endpointTokens": [
+              "213",
+              "214"
+            ]
+          },
+          {
+            "legacyId": "167",
+            "label": "167-214-215-48",
+            "sourceShapeIds": [
+              "15843"
+            ],
+            "endpointTokens": [
+              "214",
+              "215"
+            ]
+          }
+        ],
+        "directVisioConnectRowsToSymbol": []
+      },
+      "verification": "documentation_reviewed",
+      "fieldVerified": false
+    },
+    "215": {
+      "canonicalId": "network_node:215",
+      "sourceEndpointToken": "215",
+      "closureNumber": 215,
+      "displayName": "SC215",
+      "coordinates": {
+        "rawCoordinateText": "42°47'36.11\"E  42°31'37.071\"N ",
+        "longitudeDms": {
+          "degrees": 42,
+          "minutes": 47,
+          "seconds": 36.11,
+          "hemisphere": "E",
+          "decimalDegrees": 42.793363888888884
+        },
+        "latitudeDms": {
+          "degrees": 42,
+          "minutes": 31,
+          "seconds": 37.071,
+          "hemisphere": "N",
+          "decimalDegrees": 42.526964166666666
+        },
+        "longitudeDecimalDegrees": 42.793363888888884,
+        "latitudeDecimalDegrees": 42.526964166666666,
+        "crs": "unknown",
+        "parseState": "parsed",
+        "sourceShapeId": "30977"
+      },
+      "externalReferences": [
+        {
+          "system": "GJS",
+          "value": "3019A",
+          "rawText": "GJS  - 3019A",
+          "sourceShapeId": "30976"
+        }
+      ],
+      "sourceRepresentation": {
+        "source": {
+          "file": "Tsageri-Alpana-Tvishi.vsdx",
+          "page": "სვანეთი",
+          "pageId": "4",
+          "part": "visio/pages/page1.xml",
+          "shapeIds": [
+            "30975",
+            "30976",
+            "30977",
+            "30978"
+          ],
+          "rawValue": "215",
+          "interpretationRule": "tsageri-alpana-tvishi-closure-block/1"
+        },
+        "sourceHash": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d",
+        "rootShapeId": "30975",
+        "childShapeIds": [
+          "30976",
+          "30977",
+          "30978"
+        ],
+        "root": {
+          "uniqueId": "{E4F1FF24-4FCE-4E0A-AD9D-D10995912236}",
+          "masterId": "23",
+          "masterShapeId": "5",
+          "masterName": "ქურო",
+          "propertyRows": [
+            {
+              "key": "Row_1",
+              "label": null,
+              "value": "215"
+            },
+            {
+              "key": "Row_2",
+              "label": null,
+              "value": "42°47'36.11\"E  42°31'37.071\"N "
+            },
+            {
+              "key": "Row_3",
+              "label": "2 ქუროს მოდელი",
+              "value": "GJS  - 3019A"
+            },
+            {
+              "key": "Row_4",
+              "label": null,
+              "value": "3"
+            },
+            {
+              "key": "Row_5",
+              "label": null,
+              "value": "გამანაწილებელი"
+            },
+            {
+              "key": "Row_6",
+              "label": null,
+              "value": "ბოძი"
+            }
+          ],
+          "bounds": {
+            "height": 7.7535987361039815,
+            "max_x": 57.71007556427185,
+            "max_y": 460.3566479846968,
+            "min_x": 29.710075564271847,
+            "min_y": 452.6030492485928,
+            "width": 28
+          },
+          "fill": "#bfbfbf",
+          "line": "#00ff00",
+          "rectangleGeometry": [
+            {
+              "sectionIndex": "0",
+              "rows": [
+                {
+                  "type": "MoveTo",
+                  "point": {
+                    "x": 29.710075564271847,
+                    "y": 452.6030492485928
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 57.71007556427185,
+                    "y": 452.6030492485928
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 57.71007556427185,
+                    "y": 460.3566479846968
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 29.710075564271847,
+                    "y": 460.3566479846968
+                  }
+                },
+                {
+                  "type": "LineTo",
+                  "point": {
+                    "x": 29.710075564271847,
+                    "y": 452.6030492485928
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "masterReference": {
+          "masterId": "23",
+          "masterUniqueId": "{FCA88BE8-0017-0000-8E40-00608CF305B2}",
+          "rootShapeId": "5",
+          "rootShapeName": "ქურო",
+          "childShapeIds": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ]
+        },
+        "numberShapeId": "30978",
+        "coordinateShapeId": "30977",
+        "externalReferenceShapeId": "30976",
+        "connectedCableEvidence": [
+          {
+            "legacyId": "167",
+            "label": "167-214-215-48",
+            "sourceShapeIds": [
+              "15843"
+            ],
+            "endpointTokens": [
+              "214",
+              "215"
+            ]
+          },
+          {
+            "legacyId": "168",
+            "label": "168-215-49-24",
+            "sourceShapeIds": [
+              "31115"
+            ],
+            "endpointTokens": [
+              "215",
+              "49"
+            ]
+          }
+        ],
+        "directVisioConnectRowsToSymbol": []
+      },
+      "verification": "documentation_reviewed",
+      "fieldVerified": false
+    }
+  }
+}

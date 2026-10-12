@@ -1,0 +1,943 @@
+{
+  "stage": "after",
+  "timestamp": "2026-10-03T11:45:13.448Z",
+  "browser": "154.0.4258.48",
+  "profile": "headless Edge, offline file, desktop 1440×900 / emulated 390×844 and 320×740; reduced motion; not real-device certification",
+  "sha256": "117fd2e39bba4daf111d09033ce1a3044cbf83116f30f796b5046cb0db1b309c",
+  "coldLoads": [
+    {
+      "elapsed": 2385.7436,
+      "longTasks": [
+        57,
+        82,
+        1912,
+        52
+      ],
+      "moduleReady": 281.7999999523163,
+      "marks": [
+        {
+          "name": "fiber-atlas:first-render",
+          "duration": 2269.899999976158
+        },
+        {
+          "name": "fiber-atlas:clone",
+          "duration": 1.2999999523162842
+        },
+        {
+          "name": "fiber-atlas:inventory:construction",
+          "duration": 0.6000000238418579
+        },
+        {
+          "name": "fiber-atlas:inventory:07",
+          "duration": 0.3999999761581421
+        },
+        {
+          "name": "fiber-atlas:inventory:08",
+          "duration": 0.10000002384185791
+        },
+        {
+          "name": "fiber-atlas:inventory:09",
+          "duration": 0.6999999284744263
+        },
+        {
+          "name": "fiber-atlas:inventory:10",
+          "duration": 0.5
+        },
+        {
+          "name": "fiber-atlas:inventory:12",
+          "duration": 2.8000000715255737
+        },
+        {
+          "name": "fiber-atlas:inventory:15",
+          "duration": 1.1999999284744263
+        },
+        {
+          "name": "fiber-atlas:inventory:16",
+          "duration": 1
+        },
+        {
+          "name": "fiber-atlas:inventory:17",
+          "duration": 6.800000071525574
+        },
+        {
+          "name": "fiber-atlas:inventory:19",
+          "duration": 25
+        },
+        {
+          "name": "fiber-atlas:inventory:20",
+          "duration": 26.399999976158142
+        },
+        {
+          "name": "fiber-atlas:inventory:24",
+          "duration": 10.300000071525574
+        },
+        {
+          "name": "fiber-atlas:inventory:21",
+          "duration": 138.10000002384186
+        },
+        {
+          "name": "fiber-atlas:inventory:22",
+          "duration": 12.799999952316284
+        },
+        {
+          "name": "fiber-atlas:inventory:25",
+          "duration": 11.5
+        },
+        {
+          "name": "fiber-atlas:inventory:26",
+          "duration": 31
+        },
+        {
+          "name": "fiber-atlas:inventory:27D",
+          "duration": 122.39999997615814
+        },
+        {
+          "name": "fiber-atlas:inventory:28B",
+          "duration": 122.60000002384186
+        },
+        {
+          "name": "fiber-atlas:inventory:28D",
+          "duration": 1167.5
+        },
+        {
+          "name": "fiber-atlas:inventory:28E",
+          "duration": 112
+        },
+        {
+          "name": "fiber-atlas:inventory:28F",
+          "duration": 112.59999990463257
+        },
+        {
+          "name": "fiber-atlas:search-index",
+          "duration": 13.700000047683716
+        }
+      ],
+      "navigation": [
+        {
+          "domContentLoaded": 283.60000002384186,
+          "load": 286.6999999284744
+        }
+      ]
+    },
+    {
+      "elapsed": 2165.3149999999996,
+      "longTasks": [
+        53,
+        103,
+        1786
+      ],
+      "moduleReady": 248.5,
+      "marks": [
+        {
+          "name": "fiber-atlas:first-render",
+          "duration": 2092.4000000953674
+        },
+        {
+          "name": "fiber-atlas:clone",
+          "duration": 2.399999976158142
+        },
+        {
+          "name": "fiber-atlas:inventory:construction",
+          "duration": 0.8999999761581421
+        },
+        {
+          "name": "fiber-atlas:inventory:07",
+          "duration": 0.6000000238418579
+        },
+        {
+          "name": "fiber-atlas:inventory:08",
+          "duration": 0.20000004768371582
+        },
+        {
+          "name": "fiber-atlas:inventory:09",
+          "duration": 1
+        },
+        {
+          "name": "fiber-atlas:inventory:10",
+          "duration": 0.7999999523162842
+        },
+        {
+          "name": "fiber-atlas:inventory:12",
+          "duration": 3.5
+        },
+        {
+          "name": "fiber-atlas:inventory:15",
+          "duration": 1.600000023841858
+        },
+        {
+          "name": "fiber-atlas:inventory:16",
+          "duration": 1.2999999523162842
+        },
+        {
+          "name": "fiber-atlas:inventory:17",
+          "duration": 8.899999976158142
+        },
+        {
+          "name": "fiber-atlas:inventory:19",
+          "duration": 26.299999952316284
+        },
+        {
+          "name": "fiber-atlas:inventory:20",
+          "duration": 19.800000071525574
+        },
+        {
+          "name": "fiber-atlas:inventory:24",
+          "duration": 9.100000023841858
+        },
+        {
+          "name": "fiber-atlas:inventory:21",
+          "duration": 111.59999990463257
+        },
+        {
+          "name": "fiber-atlas:inventory:22",
+          "duration": 12.100000023841858
+        },
+        {
+          "name": "fiber-atlas:inventory:25",
+          "duration": 11.899999976158142
+        },
+        {
+          "name": "fiber-atlas:inventory:26",
+          "duration": 28
+        },
+        {
+          "name": "fiber-atlas:inventory:27D",
+          "duration": 116.30000007152557
+        },
+        {
+          "name": "fiber-atlas:inventory:28B",
+          "duration": 120.79999995231628
+        },
+        {
+          "name": "fiber-atlas:inventory:28D",
+          "duration": 1100.8999999761581
+        },
+        {
+          "name": "fiber-atlas:inventory:28E",
+          "duration": 96.39999997615814
+        },
+        {
+          "name": "fiber-atlas:inventory:28F",
+          "duration": 99.80000007152557
+        },
+        {
+          "name": "fiber-atlas:search-index",
+          "duration": 7.600000023841858
+        }
+      ],
+      "navigation": [
+        {
+          "domContentLoaded": 249.90000009536743,
+          "load": 253.60000002384186
+        }
+      ]
+    },
+    {
+      "elapsed": 2073.1974,
+      "longTasks": [
+        52,
+        77,
+        1731
+      ],
+      "moduleReady": 218.09999990463257,
+      "marks": [
+        {
+          "name": "fiber-atlas:first-render",
+          "duration": 2012.5999999046326
+        },
+        {
+          "name": "fiber-atlas:clone",
+          "duration": 1.3000000715255737
+        },
+        {
+          "name": "fiber-atlas:inventory:construction",
+          "duration": 0.6000000238418579
+        },
+        {
+          "name": "fiber-atlas:inventory:07",
+          "duration": 0.5
+        },
+        {
+          "name": "fiber-atlas:inventory:08",
+          "duration": 0.09999990463256836
+        },
+        {
+          "name": "fiber-atlas:inventory:09",
+          "duration": 0.7000000476837158
+        },
+        {
+          "name": "fiber-atlas:inventory:10",
+          "duration": 0.7999999523162842
+        },
+        {
+          "name": "fiber-atlas:inventory:12",
+          "duration": 2.600000023841858
+        },
+        {
+          "name": "fiber-atlas:inventory:15",
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "fiber-atlas:inventory:16",
+          "duration": 1
+        },
+        {
+          "name": "fiber-atlas:inventory:17",
+          "duration": 5.400000095367432
+        },
+        {
+          "name": "fiber-atlas:inventory:19",
+          "duration": 18.399999976158142
+        },
+        {
+          "name": "fiber-atlas:inventory:20",
+          "duration": 15.399999976158142
+        },
+        {
+          "name": "fiber-atlas:inventory:24",
+          "duration": 6.5
+        },
+        {
+          "name": "fiber-atlas:inventory:21",
+          "duration": 102.5
+        },
+        {
+          "name": "fiber-atlas:inventory:22",
+          "duration": 11.199999928474426
+        },
+        {
+          "name": "fiber-atlas:inventory:25",
+          "duration": 11.700000047683716
+        },
+        {
+          "name": "fiber-atlas:inventory:26",
+          "duration": 28.899999976158142
+        },
+        {
+          "name": "fiber-atlas:inventory:27D",
+          "duration": 115.5
+        },
+        {
+          "name": "fiber-atlas:inventory:28B",
+          "duration": 117.5
+        },
+        {
+          "name": "fiber-atlas:inventory:28D",
+          "duration": 1083.5
+        },
+        {
+          "name": "fiber-atlas:inventory:28E",
+          "duration": 99.29999995231628
+        },
+        {
+          "name": "fiber-atlas:inventory:28F",
+          "duration": 103.30000007152557
+        },
+        {
+          "name": "fiber-atlas:search-index",
+          "duration": 8.5
+        }
+      ],
+      "navigation": [
+        {
+          "domContentLoaded": 219.39999997615814,
+          "load": 222.89999997615814
+        }
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "query": "AP42",
+      "width": 1440,
+      "cards": [
+        "AP42 · ორბელი\nორბელი · C153 · 24 პორტი\n2 გამოიყენება · 22 არ გამოიყენება · 0 უცნობია\nRoute-ზე ნახვა"
+      ]
+    },
+    {
+      "name": "AP42",
+      "width": 1440,
+      "viewport": 1440,
+      "document": 1440
+    },
+    {
+      "name": "details-AP42",
+      "width": 1440,
+      "viewport": 1440,
+      "document": 1440
+    },
+    {
+      "query": "C158",
+      "width": 1440,
+      "cards": [
+        "C158 · SC210 ↔ SC211\n96 ჟილა · 8 ტუბი\nRoute-ზე ნახვა"
+      ]
+    },
+    {
+      "name": "C158",
+      "width": 1440,
+      "viewport": 1440,
+      "document": 1440
+    },
+    {
+      "name": "details-C158",
+      "width": 1440,
+      "viewport": 1440,
+      "document": 1440
+    },
+    {
+      "query": "C184",
+      "width": 1440,
+      "cards": [
+        "C184 · ლენტეხის აგრეგაცია ↔ SC224\n48 ჟილა · 4 ტუბი\nRoute-ზე ნახვა"
+      ]
+    },
+    {
+      "name": "C184",
+      "width": 1440,
+      "viewport": 1440,
+      "document": 1440
+    },
+    {
+      "name": "details-C184",
+      "width": 1440,
+      "viewport": 1440,
+      "document": 1440
+    },
+    {
+      "query": "Lentekhi Port38",
+      "width": 1440,
+      "cards": [
+        "ლენტეხის აგრეგაციის ODF · Port 38\nC184/F38 · გამოყენება დაუდგენელია\nTube 4 · ყავისფერი · F38 · ნარინჯისფერი\nRoute-ზე ნახვა"
+      ]
+    },
+    {
+      "name": "Lentekhi Port38",
+      "width": 1440,
+      "viewport": 1440,
+      "document": 1440
+    },
+    {
+      "name": "details-Lentekhi Port38",
+      "width": 1440,
+      "viewport": 1440,
+      "document": 1440
+    },
+    {
+      "query": "C151/F118",
+      "width": 1440,
+      "cards": [
+        "C151/F118 · SC206 ↔ SC207 · 144F\nTube 10 · ყვითელი · F118 · იისფერი\nგამოუყენებელი\nRoute-ზე ნახვა"
+      ]
+    },
+    {
+      "name": "C151/F118",
+      "width": 1440,
+      "viewport": 1440,
+      "document": 1440
+    },
+    {
+      "name": "details-C151/F118",
+      "width": 1440,
+      "viewport": 1440,
+      "document": 1440
+    },
+    {
+      "query": "Tsageri Port175",
+      "width": 1440,
+      "cards": [
+        "Tsageri aggregation ODF · Port 175\nFiber მიბმა და Port-ის ფიზიკური სტატუსი წყაროდან დაუდგენელია\nპორტის ფიზიკური სტატუსი წყაროდან არ არის დადგენილი\nRoute-ზე ნახვა"
+      ]
+    },
+    {
+      "name": "Tsageri Port175",
+      "width": 1440,
+      "viewport": 1440,
+      "document": 1440
+    },
+    {
+      "name": "details-Tsageri Port175",
+      "width": 1440,
+      "viewport": 1440,
+      "document": 1440
+    },
+    {
+      "name": "AP47-unknown",
+      "width": 1440,
+      "viewport": 1440,
+      "document": 1440
+    },
+    {
+      "name": "F11",
+      "width": 1440,
+      "viewport": 1440,
+      "document": 1440
+    },
+    {
+      "query": "AP42",
+      "width": 390,
+      "cards": [
+        "AP42 · ორბელი\nორბელი · C153 · 24 პორტი\n2 გამოიყენება · 22 არ გამოიყენება · 0 უცნობია\nRoute-ზე ნახვა"
+      ]
+    },
+    {
+      "name": "AP42",
+      "width": 390,
+      "viewport": 390,
+      "document": 390
+    },
+    {
+      "name": "details-AP42",
+      "width": 390,
+      "viewport": 390,
+      "document": 390
+    },
+    {
+      "query": "C158",
+      "width": 390,
+      "cards": [
+        "C158 · SC210 ↔ SC211\n96 ჟილა · 8 ტუბი\nRoute-ზე ნახვა"
+      ]
+    },
+    {
+      "name": "C158",
+      "width": 390,
+      "viewport": 390,
+      "document": 390
+    },
+    {
+      "name": "details-C158",
+      "width": 390,
+      "viewport": 390,
+      "document": 390
+    },
+    {
+      "query": "C184",
+      "width": 390,
+      "cards": [
+        "C184 · ლენტეხის აგრეგაცია ↔ SC224\n48 ჟილა · 4 ტუბი\nRoute-ზე ნახვა"
+      ]
+    },
+    {
+      "name": "C184",
+      "width": 390,
+      "viewport": 390,
+      "document": 390
+    },
+    {
+      "name": "details-C184",
+      "width": 390,
+      "viewport": 390,
+      "document": 390
+    },
+    {
+      "query": "Lentekhi Port38",
+      "width": 390,
+      "cards": [
+        "ლენტეხის აგრეგაციის ODF · Port 38\nC184/F38 · გამოყენება დაუდგენელია\nTube 4 · ყავისფერი · F38 · ნარინჯისფერი\nRoute-ზე ნახვა"
+      ]
+    },
+    {
+      "name": "Lentekhi Port38",
+      "width": 390,
+      "viewport": 390,
+      "document": 390
+    },
+    {
+      "name": "details-Lentekhi Port38",
+      "width": 390,
+      "viewport": 390,
+      "document": 390
+    },
+    {
+      "query": "C151/F118",
+      "width": 390,
+      "cards": [
+        "C151/F118 · SC206 ↔ SC207 · 144F\nTube 10 · ყვითელი · F118 · იისფერი\nგამოუყენებელი\nRoute-ზე ნახვა"
+      ]
+    },
+    {
+      "name": "C151/F118",
+      "width": 390,
+      "viewport": 390,
+      "document": 390
+    },
+    {
+      "name": "details-C151/F118",
+      "width": 390,
+      "viewport": 390,
+      "document": 390
+    },
+    {
+      "query": "Tsageri Port175",
+      "width": 390,
+      "cards": [
+        "Tsageri aggregation ODF · Port 175\nFiber მიბმა და Port-ის ფიზიკური სტატუსი წყაროდან დაუდგენელია\nპორტის ფიზიკური სტატუსი წყაროდან არ არის დადგენილი\nRoute-ზე ნახვა"
+      ]
+    },
+    {
+      "name": "Tsageri Port175",
+      "width": 390,
+      "viewport": 390,
+      "document": 390
+    },
+    {
+      "name": "details-Tsageri Port175",
+      "width": 390,
+      "viewport": 390,
+      "document": 390
+    },
+    {
+      "name": "AP47-unknown",
+      "width": 390,
+      "viewport": 390,
+      "document": 390
+    },
+    {
+      "name": "F11",
+      "width": 390,
+      "viewport": 390,
+      "document": 390
+    },
+    {
+      "query": "AP42",
+      "width": 320,
+      "cards": [
+        "AP42 · ორბელი\nორბელი · C153 · 24 პორტი\n2 გამოიყენება · 22 არ გამოიყენება · 0 უცნობია\nRoute-ზე ნახვა"
+      ]
+    },
+    {
+      "name": "AP42",
+      "width": 320,
+      "viewport": 320,
+      "document": 320
+    },
+    {
+      "name": "details-AP42",
+      "width": 320,
+      "viewport": 320,
+      "document": 320
+    },
+    {
+      "query": "C158",
+      "width": 320,
+      "cards": [
+        "C158 · SC210 ↔ SC211\n96 ჟილა · 8 ტუბი\nRoute-ზე ნახვა"
+      ]
+    },
+    {
+      "name": "C158",
+      "width": 320,
+      "viewport": 320,
+      "document": 320
+    },
+    {
+      "name": "details-C158",
+      "width": 320,
+      "viewport": 320,
+      "document": 320
+    },
+    {
+      "query": "C184",
+      "width": 320,
+      "cards": [
+        "C184 · ლენტეხის აგრეგაცია ↔ SC224\n48 ჟილა · 4 ტუბი\nRoute-ზე ნახვა"
+      ]
+    },
+    {
+      "name": "C184",
+      "width": 320,
+      "viewport": 320,
+      "document": 320
+    },
+    {
+      "name": "details-C184",
+      "width": 320,
+      "viewport": 320,
+      "document": 320
+    },
+    {
+      "query": "Lentekhi Port38",
+      "width": 320,
+      "cards": [
+        "ლენტეხის აგრეგაციის ODF · Port 38\nC184/F38 · გამოყენება დაუდგენელია\nTube 4 · ყავისფერი · F38 · ნარინჯისფერი\nRoute-ზე ნახვა"
+      ]
+    },
+    {
+      "name": "Lentekhi Port38",
+      "width": 320,
+      "viewport": 320,
+      "document": 320
+    },
+    {
+      "name": "details-Lentekhi Port38",
+      "width": 320,
+      "viewport": 320,
+      "document": 320
+    },
+    {
+      "query": "C151/F118",
+      "width": 320,
+      "cards": [
+        "C151/F118 · SC206 ↔ SC207 · 144F\nTube 10 · ყვითელი · F118 · იისფერი\nგამოუყენებელი\nRoute-ზე ნახვა"
+      ]
+    },
+    {
+      "name": "C151/F118",
+      "width": 320,
+      "viewport": 320,
+      "document": 320
+    },
+    {
+      "name": "details-C151/F118",
+      "width": 320,
+      "viewport": 320,
+      "document": 320
+    },
+    {
+      "query": "Tsageri Port175",
+      "width": 320,
+      "cards": [
+        "Tsageri aggregation ODF · Port 175\nFiber მიბმა და Port-ის ფიზიკური სტატუსი წყაროდან დაუდგენელია\nპორტის ფიზიკური სტატუსი წყაროდან არ არის დადგენილი\nRoute-ზე ნახვა"
+      ]
+    },
+    {
+      "name": "Tsageri Port175",
+      "width": 320,
+      "viewport": 320,
+      "document": 320
+    },
+    {
+      "name": "details-Tsageri Port175",
+      "width": 320,
+      "viewport": 320,
+      "document": 320
+    },
+    {
+      "name": "AP47-unknown",
+      "width": 320,
+      "viewport": 320,
+      "document": 320
+    },
+    {
+      "name": "F11",
+      "width": 320,
+      "viewport": 320,
+      "document": 320
+    }
+  ],
+  "searchDelays": [
+    {
+      "query": "AP42",
+      "width": 1440,
+      "ms": 30.641900000000533
+    },
+    {
+      "query": "C158",
+      "width": 1440,
+      "ms": 15.19839999999931
+    },
+    {
+      "query": "C184",
+      "width": 1440,
+      "ms": 15.612300000000687
+    },
+    {
+      "query": "Lentekhi Port38",
+      "width": 1440,
+      "ms": 57.20350000000144
+    },
+    {
+      "query": "C151/F118",
+      "width": 1440,
+      "ms": 50.84599999999955
+    },
+    {
+      "query": "Tsageri Port175",
+      "width": 1440,
+      "ms": 120.12149999999929
+    },
+    {
+      "query": "AP47",
+      "width": 1440,
+      "ms": 21.29700000000048
+    },
+    {
+      "query": "C152/F11",
+      "width": 1440,
+      "ms": 78.6903999999995
+    },
+    {
+      "query": "C148",
+      "width": 1440,
+      "ms": 20.639499999999316
+    },
+    {
+      "query": "AP42",
+      "width": 1440,
+      "ms": 7.170399999999063
+    },
+    {
+      "query": "AP42",
+      "width": 390,
+      "ms": 35.64650000000256
+    },
+    {
+      "query": "C158",
+      "width": 390,
+      "ms": 12.453600000000733
+    },
+    {
+      "query": "C184",
+      "width": 390,
+      "ms": 14.747200000001612
+    },
+    {
+      "query": "Lentekhi Port38",
+      "width": 390,
+      "ms": 59.5653999999995
+    },
+    {
+      "query": "C151/F118",
+      "width": 390,
+      "ms": 63.0038999999997
+    },
+    {
+      "query": "Tsageri Port175",
+      "width": 390,
+      "ms": 120.37320000000182
+    },
+    {
+      "query": "AP47",
+      "width": 390,
+      "ms": 17.84190000000308
+    },
+    {
+      "query": "C152/F11",
+      "width": 390,
+      "ms": 99.66899999999805
+    },
+    {
+      "query": "C148",
+      "width": 390,
+      "ms": 26.692800000000716
+    },
+    {
+      "query": "AP42",
+      "width": 390,
+      "ms": 7.180599999999686
+    },
+    {
+      "query": "AP42",
+      "width": 320,
+      "ms": 61.757000000001426
+    },
+    {
+      "query": "C158",
+      "width": 320,
+      "ms": 15.785800000001473
+    },
+    {
+      "query": "C184",
+      "width": 320,
+      "ms": 10.903200000000652
+    },
+    {
+      "query": "Lentekhi Port38",
+      "width": 320,
+      "ms": 62.220100000002276
+    },
+    {
+      "query": "C151/F118",
+      "width": 320,
+      "ms": 64.35429999999906
+    },
+    {
+      "query": "Tsageri Port175",
+      "width": 320,
+      "ms": 102.31269999999859
+    },
+    {
+      "query": "AP47",
+      "width": 320,
+      "ms": 9.917499999999563
+    },
+    {
+      "query": "C152/F11",
+      "width": 320,
+      "ms": 100.23440000000119
+    },
+    {
+      "query": "C148",
+      "width": 320,
+      "ms": 28.56040000000212
+    },
+    {
+      "query": "AP42",
+      "width": 320,
+      "ms": 6.993299999994633
+    }
+  ],
+  "errors": [],
+  "requests": [],
+  "authoritativeHashes": {
+    "src/data/c172-physical-evidence.json": "e0d8e3f33ed3e632994b0754d918397c975f3bef23c0996c9d39e8f4e783f1cc",
+    "src/data/fiber-lineage-evidence.json": "9d1da4adf3b04e2fb7f2c73015b927f2bab6b9795c40570d0db21b1ceed97c8a",
+    "src/data/full-page-migration.json": "5f3b8026ed3daf97bda5d346cb151dd2b850a728628c9cc19c858f36582c56de",
+    "src/data/iteration19-physical-evidence.json": "1a2cd845f5efa9078da7002326c9a51d16135af30301818e32191af58b9879fd",
+    "src/data/iteration21-routing-evidence.json": "66b09cfb1872bc8ccb59cbca0f8847bb51eb1391db0d92a6a240354af9398d69",
+    "src/data/iteration23-connection-reconciliation.json": "d9658ef780bc2a7e73851da06c5f704a86590ada1f560fc588348ec45df1345a",
+    "src/data/iteration23-fresh-summary.json": "6675bc83eefe1fc8121f79e514ec196a113a737c058d224454d815ecf3900bc5",
+    "src/data/iteration23-fresh-transitions.json": "b6d49878d8c226187984d379e47a43e35fcc13d1449cb746b4588abc4314ce08",
+    "src/data/iteration23-owner-confirmations.json": "eabb9a460c64c4526429aedf85541cbd416abde998c731fc25367de408238c1e",
+    "src/data/iteration23-physical-construction.json": "741199098ee4131c3b8024657d7caf80e736256f7e32661b693fd3ece868b666",
+    "src/data/iteration23-port-bindings.json": "e0d4fa38762ef03ace7c465c21396b1f0b9509c0248c3bbffb51f338e7c24bdc",
+    "src/data/iteration23-port-occupancy.json": "83ac8324a33c07a57f8a43a9ca0224321accac0cf004cea3a3f26acd1fbeaf5a",
+    "src/data/iteration23-transition-diff.json": "acbe58117902f37c70f80235007a4e2106f44848bba22db6c663afa7ae093729",
+    "src/data/iteration24-certification.json": "0f1dda8dee9edf4d98345f2bfe03e19927ea231ca8bc410f110c289483b883d5",
+    "src/data/iteration24-connection-reconciliation.json": "82ff4ca511d7bed4cfccfcabcdda644897907e0a4c7408f5e5806b0aac9c0919",
+    "src/data/iteration24-fresh-summary.json": "f3632d91059250e2cda36428e3d95dbcc9144c1fd078da5b4cd0f1f2958c4754",
+    "src/data/iteration24-fresh-transitions.json": "b7d4ef09a5c0fd67f0cf2d20cdbd570ef99bc3d38c884a535ecfef305836dd9e",
+    "src/data/iteration24-physical-construction.json": "1066ec1cf516fa6635ca57b9f23ae429cc7eac2e407827021ace442a8dce4cb2",
+    "src/data/iteration24-port-bindings.json": "3c3955f1fabfb2257e729de6b87b9b487086697e021127a3ec3c04d8812c0aab",
+    "src/data/iteration24-port-occupancy.json": "ce72f374e4ff10ea503555164dba6da808e7417416274a775c7beb5c2d568601",
+    "src/data/iteration24-shape-diagnostics.json": "21f41457b28a84776be313080f70c5d6f744fe2202e5567fce663794a3e39139",
+    "src/data/iteration25-company-usage.json": "1f7c0cdd61ba286718f489689063c654bc390f05ac97350f9ad816bcb92136cb",
+    "src/data/iteration25-port-interpretation.json": "6fe83271949175243318aff89f7565d2db977e64fca6ff738191edd21dfda228",
+    "src/data/iteration25-sc225-routing.json": "13e7fbd78dad4fb22bfbe38417207e2dee7b509bbaf25853213055d867c0b787",
+    "src/data/iteration25-semantic-diff.json": "725c4aa9c41e6664a110742089833d207a49af58d162ff2b9b5d02620e87bb34",
+    "src/data/iteration25-summary.json": "2e962e4968ead9649ec4d74e6a0e996521e428ef0a3480361753594b0a79fe63",
+    "src/data/iteration25-unresolved-evidence.json": "edaf02166264501310d43a69cee01cfd1bad029f61b4e0097f101f466d1671f8",
+    "src/data/iteration27d-network-projection.json": "ae9cfbb5120c91805efb3f240ed1cef6c837f94237d61fb57a1fa4c5b05e3dbb",
+    "src/data/iteration27d-owner-confirmations.json": "6367b53617e1c4e226dc9d725ac3f97185e2405c3476651c04a5ec574dd93be4",
+    "src/data/pilot.json": "05dbb652ae8410712898598c0abef786a620beccdc20c7fe6ab391795ec07e19",
+    "src/data/primary-route-evidence.json": "fb6ae54ab6191700b231a6bb67313b8a4d57a93e8e9c60367fdecfb415e82ab5",
+    "src/data/source-annotations.json": "5c12355b9536fcbf9ad328200b15e7ebb53076a354b445cc2533cff2737d6293",
+    "src/data/source-b-ap-inventory.json": "573988938dad56ea3cad034ea3b50608ab71ff9876aa565cbb649f0e11ab039d",
+    "src/data/source-b-closure-inventory.json": "c03e4cc0a4f07f461e05cae8c3452c984f5ee183bf6c021d6293156e03d1123c",
+    "src/data/source-b-fiber-usage-evidence.json": "474822934f60fca8fff313ea4c0c1f9c8f817c99e5a3ceef039b36113caec6c9",
+    "src/data/source-evidence.json": "ad6e4a181c09c90c4dbbb2e91aa5168888515ee1dbea6ce667b11d0763a0cfc1",
+    "src/data/target-path-evidence.json": "b1aff25fe8388b45107ee54e42487cbe022e080da726479e1925a6cd26edbb53",
+    "src/data/tsageri-aggregation-evidence.json": "6cb0fc0ad9e03c1f55fd90f178394474c3cc19df15a606e964eb151c2da03894",
+    "reference/fiber-atlas-network-v1.manifest.json": "c7434809c31b5e1edbdb4faec2704e4bea01433410817bb7bb4ac1d06643466c",
+    "reference/tsageri-lentekhi-v1.golden-fixtures.json": "d6b5edaba0671809519fc553e5f7c1027a447c81a114e4646339ed761f9f0750",
+    "reference/tsageri-lentekhi-v1.inventory.json": "ba0b943e25d7a68d4b59eed0d9ed95ff65e0d83aae62bd093fea67e49d9152cf",
+    "reference/tsageri-lentekhi-v1.lineages.json": "14213a5f27935bdf7a5f71b3e60f5c359199222117b952d76b31f638abd52584",
+    "reference/tsageri-lentekhi-v1.manifest.json": "59ce208663b1dcb7f0fe5849faa9f9f1b62182bfc01cc7c5f4947cf366340125",
+    "reference/tsageri-lentekhi-v1.semantic-summary.json": "235f5486feb3ac1949beb792362fe970173d40947e5723e35d00f6cdab92a6f5",
+    "reference/tsageri-lentekhi-v1.transitions.json": "e38c03db3da3f3fe8caa12cc5bdfdd4ab3d80555263899251def84c9a21410fb"
+  },
+  "status": "passed",
+  "acceptance": [
+    "one visible search; exact AP42 first; <=5 suggestions",
+    "C184 physical endpoints vs Port38 graph journey",
+    "Port38 ordered remap/termination; no SC223/AP51",
+    "keyboard Space/Enter; manual pause; playback ends; reduced motion",
+    "full-network selection and graph signature preserved",
+    "F118 gap; F11 remaps/AP49; C148 conflict",
+    "selected Port details; AP47 one unknown; Tsageri no fabricated binding",
+    "Back restores AP42 query; touch menu opens/closes",
+    "1440/390/320 document width; zero page errors/external requests",
+    "all authoritative file hashes unchanged"
+  ]
+}

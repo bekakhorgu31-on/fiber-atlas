@@ -1,0 +1,36 @@
+{
+  "desktop": [
+    {
+      "closure": "SC207",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "closure": "SC211",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "closure": "SC215",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "GIS-3019A duplicate-reference disambiguation",
+      "width": 1440,
+      "scrollWidth": 1440
+    }
+  ],
+  "mobile": [
+    {
+      "flow": "SC207 coordinate and reference Inspector",
+      "width": 390,
+      "scrollWidth": 390
+    }
+  ],
+  "standalone": {
+    "scripts": 1,
+    "linkedStyles": 0
+  },
+  "logs": []
+}

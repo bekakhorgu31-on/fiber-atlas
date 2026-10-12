@@ -1,0 +1,44 @@
+{
+  "desktop": [
+    {
+      "flow": "exact Fiber search opens Fiber route and browser Back restores the query",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "source Cable label resolves to compact C154 result",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "Magti search returns bounded operational results",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "Lentekhi Port38 exposes bound Fiber use and opens its exact path",
+      "width": 1440,
+      "scrollWidth": 1440
+    }
+  ],
+  "mobile": [
+    {
+      "flow": "48 bound Lentekhi Ports remain readable at 390px",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "flow": "Tsageri shows unknown Port binding separately from C148 use",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "flow": "compact exact Fiber result fits the 390px search view",
+      "width": 390,
+      "scrollWidth": 390
+    }
+  ],
+  "offline": true,
+  "externalRequests": [],
+  "logs": []
+}

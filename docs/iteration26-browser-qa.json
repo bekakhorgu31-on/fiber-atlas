@@ -1,0 +1,73 @@
+{
+  "desktop": [
+    {
+      "name": "Port38 termination",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "inspectorWidth": 412,
+        "inspectorScroll": 412,
+        "active": [
+          "segment:CAB-000181",
+          "segment:CAB-000184"
+        ]
+      }
+    },
+    {
+      "name": "SC225 F06 termination",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "active": []
+      }
+    },
+    {
+      "name": "SC225 closure summary",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "inspectorWidth": 412,
+        "inspectorScroll": 412,
+        "active": []
+      }
+    },
+    {
+      "name": "Reference dashboard",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "active": []
+      }
+    }
+  ],
+  "mobile": [
+    {
+      "name": "Port38 mobile",
+      "state": {
+        "width": 390,
+        "scrollWidth": 390,
+        "inspectorWidth": 390,
+        "inspectorScroll": 390,
+        "active": [
+          "segment:CAB-000181",
+          "segment:CAB-000184"
+        ]
+      }
+    },
+    {
+      "name": "SC225 terminal mobile",
+      "state": {
+        "width": 390,
+        "scrollWidth": 390,
+        "active": []
+      }
+    }
+  ],
+  "standalone": {
+    "scripts": 1,
+    "linkedStyles": 0,
+    "width": 1280,
+    "scrollWidth": 1280
+  },
+  "logs": []
+}

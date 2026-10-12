@@ -1,0 +1,590 @@
+{
+  "ruleVersion": "tsageri-lentekhi-fiber-lineage/1",
+  "source": {
+    "file": "Tsageri-Lentekhi 2025.vsdx",
+    "page": "ცაგერი-ლენტეხი",
+    "pageId": "4",
+    "part": "visio/pages/page1.xml",
+    "rawArtifact": "migration/tsageri-lentekhi-iteration09.raw.json.gz"
+  },
+  "method": [
+    "Identify Cable Segment sides from the endpoint order encoded by the legacy four-field cable label and canonical route nodes.",
+    "Read local Fiber number from the numbered marker aligned with each physical marker dot.",
+    "Read Fiber color from inner fill and Tube color from the outer marker ring under the source-specific marker convention.",
+    "Follow dedicated continuation lines between marker banks; same aligned position means same-number continuity unless the destination bank numbers establish an offset.",
+    "At SC218, ordered banks establish C172/F29–40 to C173/F01–12 and C174/F29–40 to C173/F13–24.",
+    "At AP51, aligned C173 Fiber lines and Port lines establish the same-index F01–24 to Port01–24 prototype mapping.",
+    "At Tsageri AGG5, the owner-confirmed F01→145 and F31→175 anchors establish the repeated +144 route-side to aggregation-side numbering rule.",
+    "Branch continuation is represented only where dedicated geometry and a destination bank exist; unresolved ranges stay partial."
+  ],
+  "prototypePolicy": {
+    "allowedStatuses": [
+      "owner_confirmed",
+      "source_interpreted",
+      "source_ambiguous"
+    ],
+    "normallyProjected": [
+      "owner_confirmed",
+      "source_interpreted"
+    ],
+    "fieldVerified": false,
+    "productionApproved": false
+  },
+  "goldenCases": {
+    "c172f01": {
+      "upstreamFiber": 145,
+      "downstreamFiber": 1,
+      "upstreamPort": 145,
+      "downstreamPort": 1
+    },
+    "c172f31": {
+      "upstreamFiber": 175,
+      "branchSegment": "C173",
+      "branchFiber": 3,
+      "destination": "AP51",
+      "destinationPort": 3
+    },
+    "preservedC172f29": {
+      "branchSegment": "C173",
+      "branchFiber": 1,
+      "destination": "AP51",
+      "destinationPort": 1
+    }
+  },
+  "ap51": {
+    "assetShapes": [
+      "34263",
+      "34264",
+      "34371",
+      "34372",
+      "34424"
+    ],
+    "mapping": [
+      {
+        "fiberNumber": 1,
+        "portNumber": 1,
+        "fiberLineShapeId": "34279",
+        "portLineShapeId": "34267",
+        "portLabelShapeId": "34315",
+        "xDelta": 0.0007637865210767814,
+        "sourceVisualState": "white_unused"
+      },
+      {
+        "fiberNumber": 2,
+        "portNumber": 2,
+        "fiberLineShapeId": "34280",
+        "portLineShapeId": "34268",
+        "portLabelShapeId": "34316",
+        "xDelta": 0.0003818932605383907,
+        "sourceVisualState": "white_unused"
+      },
+      {
+        "fiberNumber": 3,
+        "portNumber": 3,
+        "fiberLineShapeId": "34281",
+        "portLineShapeId": "34269",
+        "portLabelShapeId": "34317",
+        "xDelta": 0.0007637865210767814,
+        "sourceVisualState": "green_in_use"
+      },
+      {
+        "fiberNumber": 4,
+        "portNumber": 4,
+        "fiberLineShapeId": "34282",
+        "portLineShapeId": "34270",
+        "portLabelShapeId": "34318",
+        "xDelta": 0.0007637865210767814,
+        "sourceVisualState": "white_unused"
+      },
+      {
+        "fiberNumber": 5,
+        "portNumber": 5,
+        "fiberLineShapeId": "34283",
+        "portLineShapeId": "34271",
+        "portLabelShapeId": "34319",
+        "xDelta": 0.0007637865210767814,
+        "sourceVisualState": "white_unused"
+      },
+      {
+        "fiberNumber": 6,
+        "portNumber": 6,
+        "fiberLineShapeId": "34284",
+        "portLineShapeId": "34272",
+        "portLabelShapeId": "34320",
+        "xDelta": 0.0007637865210767814,
+        "sourceVisualState": "white_unused"
+      },
+      {
+        "fiberNumber": 7,
+        "portNumber": 7,
+        "fiberLineShapeId": "34285",
+        "portLineShapeId": "34273",
+        "portLabelShapeId": "34321",
+        "xDelta": 0.0007637865210767814,
+        "sourceVisualState": "white_unused"
+      },
+      {
+        "fiberNumber": 8,
+        "portNumber": 8,
+        "fiberLineShapeId": "34286",
+        "portLineShapeId": "34274",
+        "portLabelShapeId": "34322",
+        "xDelta": 0.0007637865210767814,
+        "sourceVisualState": "white_unused"
+      },
+      {
+        "fiberNumber": 9,
+        "portNumber": 9,
+        "fiberLineShapeId": "34287",
+        "portLineShapeId": "34275",
+        "portLabelShapeId": "34323",
+        "xDelta": 0.0007637865210767814,
+        "sourceVisualState": "white_unused"
+      },
+      {
+        "fiberNumber": 10,
+        "portNumber": 10,
+        "fiberLineShapeId": "34288",
+        "portLineShapeId": "34276",
+        "portLabelShapeId": "34324",
+        "xDelta": 0.0007637865210767814,
+        "sourceVisualState": "white_unused"
+      },
+      {
+        "fiberNumber": 11,
+        "portNumber": 11,
+        "fiberLineShapeId": "34289",
+        "portLineShapeId": "34277",
+        "portLabelShapeId": "34325",
+        "xDelta": 0.0007637865210767814,
+        "sourceVisualState": "white_unused"
+      },
+      {
+        "fiberNumber": 12,
+        "portNumber": 12,
+        "fiberLineShapeId": "34290",
+        "portLineShapeId": "34278",
+        "portLabelShapeId": "34326",
+        "xDelta": 0.0007637865210767814,
+        "sourceVisualState": "white_unused"
+      },
+      {
+        "fiberNumber": 13,
+        "portNumber": 13,
+        "fiberLineShapeId": "34291",
+        "portLineShapeId": "34279",
+        "portLabelShapeId": "34327",
+        "xDelta": 1.0864296259842376,
+        "sourceVisualState": "white_unused"
+      },
+      {
+        "fiberNumber": 14,
+        "portNumber": 14,
+        "fiberLineShapeId": "34292",
+        "portLineShapeId": "34280",
+        "portLabelShapeId": "34328",
+        "xDelta": 1.0942421259842376,
+        "sourceVisualState": "white_unused"
+      },
+      {
+        "fiberNumber": 15,
+        "portNumber": 15,
+        "fiberLineShapeId": "34293",
+        "portLineShapeId": "34281",
+        "portLabelShapeId": "34329",
+        "xDelta": 1.0854453740157624,
+        "sourceVisualState": "white_unused"
+      },
+      {
+        "fiberNumber": 16,
+        "portNumber": 16,
+        "fiberLineShapeId": "34294",
+        "portLineShapeId": "34282",
+        "portLabelShapeId": "34330",
+        "xDelta": 1.09375,
+        "sourceVisualState": "white_unused"
+      },
+      {
+        "fiberNumber": 17,
+        "portNumber": 17,
+        "fiberLineShapeId": "34295",
+        "portLineShapeId": "34283",
+        "portLabelShapeId": "34331",
+        "xDelta": 1.0867012865210768,
+        "sourceVisualState": "white_unused"
+      },
+      {
+        "fiberNumber": 18,
+        "portNumber": 18,
+        "fiberLineShapeId": "34296",
+        "portLineShapeId": "34284",
+        "portLabelShapeId": "34332",
+        "xDelta": 1.0940216605368391,
+        "sourceVisualState": "white_unused"
+      },
+      {
+        "fiberNumber": 19,
+        "portNumber": 19,
+        "fiberLineShapeId": "34297",
+        "portLineShapeId": "34285",
+        "portLabelShapeId": "34333",
+        "xDelta": 1.0940216605368391,
+        "sourceVisualState": "white_unused"
+      },
+      {
+        "fiberNumber": 20,
+        "portNumber": 20,
+        "fiberLineShapeId": "34298",
+        "portLineShapeId": "34286",
+        "portLabelShapeId": "34334",
+        "xDelta": 1.0863193932605384,
+        "sourceVisualState": "white_unused"
+      },
+      {
+        "fiberNumber": 21,
+        "portNumber": 21,
+        "fiberLineShapeId": "34299",
+        "portLineShapeId": "34287",
+        "portLabelShapeId": "34335",
+        "xDelta": 1.0858272672763007,
+        "sourceVisualState": "white_unused"
+      },
+      {
+        "fiberNumber": 22,
+        "portNumber": 22,
+        "fiberLineShapeId": "34300",
+        "portLineShapeId": "34288",
+        "portLabelShapeId": "34336",
+        "xDelta": 1.0944035537973775,
+        "sourceVisualState": "white_unused"
+      },
+      {
+        "fiberNumber": 23,
+        "portNumber": 23,
+        "fiberLineShapeId": "34301",
+        "portLineShapeId": "34289",
+        "portLabelShapeId": "34337",
+        "xDelta": 1.0979860087433053,
+        "sourceVisualState": "white_unused"
+      },
+      {
+        "fiberNumber": 24,
+        "portNumber": 24,
+        "fiberLineShapeId": "34302",
+        "portLineShapeId": "34290",
+        "portLabelShapeId": "34338",
+        "xDelta": 1.0867012865210768,
+        "sourceVisualState": "white_unused"
+      }
+    ],
+    "port3": {
+      "label": {
+        "id": "34317",
+        "text": "3",
+        "pinX": "94.1288892220534",
+        "pinY": "512.3993988078046",
+        "beginX": null,
+        "beginY": null,
+        "endX": null,
+        "endY": null,
+        "lineColor": null,
+        "fillColor": "#13861c"
+      },
+      "fiberLine": {
+        "id": "34281",
+        "text": "OTDR",
+        "pinX": "94.13687861384591",
+        "pinY": "514.0772741842241",
+        "beginX": "94.13687861384591",
+        "beginY": "514.4200930986139",
+        "endX": "94.13687861384591",
+        "endY": "513.7344552698341",
+        "lineColor": "#128729",
+        "fillColor": null
+      },
+      "portLine": {
+        "id": "34269",
+        "text": "",
+        "pinX": "94.13764240036699",
+        "pinY": "513.0906861179919",
+        "beginX": "94.13764240036699",
+        "beginY": "513.6659871944097",
+        "endX": "94.13764240036699",
+        "endY": "512.5153850415743",
+        "lineColor": "#128729",
+        "fillColor": null
+      },
+      "annotation": "OTDR"
+    }
+  },
+  "opennetUsage": {
+    "labels": [
+      {
+        "id": "17661",
+        "text": "Open net",
+        "pinX": "40.4982750556601",
+        "pinY": "591.85609393851",
+        "beginX": "40.4982750556601",
+        "beginY": "595.3979668489295",
+        "endX": "40.4982750556601",
+        "endY": "588.3142210280905",
+        "lineColor": "#00b050",
+        "fillColor": null
+      },
+      {
+        "id": "17662",
+        "text": "Open Net",
+        "pinX": "40.5881188056601",
+        "pinY": "591.85609393851",
+        "beginX": "40.5881188056601",
+        "beginY": "595.3979668489295",
+        "endX": "40.5881188056601",
+        "endY": "588.3142210280905",
+        "lineColor": "#00b050",
+        "fillColor": null
+      },
+      {
+        "id": "17663",
+        "text": "Open Net",
+        "pinX": "40.6818688056601",
+        "pinY": "591.85609393851",
+        "beginX": "40.6818688056601",
+        "beginY": "595.3979668489295",
+        "endX": "40.6818688056601",
+        "endY": "588.3142210280905",
+        "lineColor": "#00b050",
+        "fillColor": null
+      },
+      {
+        "id": "17664",
+        "text": "Open Net",
+        "pinX": "40.7756188056601",
+        "pinY": "591.85609393851",
+        "beginX": "40.7756188056601",
+        "beginY": "595.3979668489295",
+        "endX": "40.7756188056601",
+        "endY": "588.3142210280905",
+        "lineColor": "#00b050",
+        "fillColor": null
+      }
+    ],
+    "continuationLines": [
+      {
+        "id": "38538",
+        "text": "ოუფენ ნეტი",
+        "pinX": "61.89466715703806",
+        "pinY": "557.5481395163918",
+        "beginX": "40.49978219148687",
+        "beginY": "567.957428093604",
+        "endX": "83.28955212258924",
+        "endY": "547.1388509391795",
+        "lineColor": "#00b050",
+        "fillColor": null
+      },
+      {
+        "id": "38539",
+        "text": "ოუფენ ნეტი",
+        "pinX": "61.98583997096263",
+        "pinY": "557.5481395163918",
+        "beginX": "40.59095500541145",
+        "beginY": "567.957428093604",
+        "endX": "83.38072493651382",
+        "endY": "547.1388509391795",
+        "lineColor": "#00b050",
+        "fillColor": null
+      },
+      {
+        "id": "38540",
+        "text": "ოუფენ ნეტი",
+        "pinX": "62.0770127848872",
+        "pinY": "557.5481395163918",
+        "beginX": "40.68212781933602",
+        "beginY": "567.957428093604",
+        "endX": "83.47189775043839",
+        "endY": "547.1388509391795",
+        "lineColor": "#00b050",
+        "fillColor": null
+      },
+      {
+        "id": "38541",
+        "text": "ოუფენ ნეტი",
+        "pinX": "62.16818559881179",
+        "pinY": "557.5481395163918",
+        "beginX": "40.7733006332606",
+        "beginY": "567.957428093604",
+        "endX": "83.56307056436299",
+        "endY": "547.1388509391795",
+        "lineColor": "#00b050",
+        "fillColor": null
+      }
+    ],
+    "aggregationMarkers": [
+      {
+        "id": "19063",
+        "text": "",
+        "pinX": "13.14213213582677",
+        "pinY": "0.1256076029146982",
+        "beginX": null,
+        "beginY": null,
+        "endX": null,
+        "endY": null,
+        "lineColor": "4",
+        "fillColor": "4"
+      },
+      {
+        "id": "19064",
+        "text": "",
+        "pinX": "13.23330494975134",
+        "pinY": "0.1256076029146982",
+        "beginX": null,
+        "beginY": null,
+        "endX": null,
+        "endY": null,
+        "lineColor": "4",
+        "fillColor": "#f48c37"
+      },
+      {
+        "id": "19065",
+        "text": "",
+        "pinX": "13.32447776367592",
+        "pinY": "0.1256076029146982",
+        "beginX": null,
+        "beginY": null,
+        "endX": null,
+        "endY": null,
+        "lineColor": "4",
+        "fillColor": "9"
+      },
+      {
+        "id": "19066",
+        "text": "",
+        "pinX": "13.4156505776005",
+        "pinY": "0.1256076029146982",
+        "beginX": null,
+        "beginY": null,
+        "endX": null,
+        "endY": null,
+        "lineColor": "4",
+        "fillColor": "#9c4a09"
+      }
+    ],
+    "routeMarkers": [
+      {
+        "id": "33257",
+        "text": "",
+        "pinX": "0.09135088582677041",
+        "pinY": "0.1256076029146982",
+        "beginX": null,
+        "beginY": null,
+        "endX": null,
+        "endY": null,
+        "lineColor": "4",
+        "fillColor": "4"
+      },
+      {
+        "id": "33258",
+        "text": "",
+        "pinX": "0.1825236997513429",
+        "pinY": "0.1256076029146982",
+        "beginX": null,
+        "beginY": null,
+        "endX": null,
+        "endY": null,
+        "lineColor": "4",
+        "fillColor": "#f48c37"
+      },
+      {
+        "id": "33259",
+        "text": "",
+        "pinX": "0.2736965136759224",
+        "pinY": "0.1256076029146982",
+        "beginX": null,
+        "beginY": null,
+        "endX": null,
+        "endY": null,
+        "lineColor": "4",
+        "fillColor": "9"
+      },
+      {
+        "id": "33260",
+        "text": "",
+        "pinX": "0.364869327600502",
+        "pinY": "0.1256076029146982",
+        "beginX": null,
+        "beginY": null,
+        "endX": null,
+        "endY": null,
+        "lineColor": "4",
+        "fillColor": "#9c4a09"
+      }
+    ],
+    "interpretedScope": "Fiber Lineages 1–4",
+    "semantics": "usage_only_not_ownership"
+  },
+  "coverage": {
+    "flattenedShapes": 7349,
+    "cableLabelsFound": 20,
+    "targetCableSegments": [
+      "C148",
+      "C150",
+      "C169",
+      "C170",
+      "C171",
+      "C172",
+      "C173",
+      "C174",
+      "C175",
+      "C176",
+      "C177",
+      "C178",
+      "C179",
+      "C180",
+      "C181",
+      "C182",
+      "C183",
+      "C184"
+    ],
+    "exactLineageSegments": [
+      "C148",
+      "C150",
+      "C169",
+      "C171",
+      "C172",
+      "C173",
+      "C174",
+      "C176",
+      "C177",
+      "C178",
+      "C179",
+      "C180",
+      "C184"
+    ],
+    "attemptedButAmbiguous": [
+      "C170",
+      "C175",
+      "C181",
+      "C182",
+      "C183"
+    ],
+    "closuresCovered": [
+      "SC205",
+      "SC206",
+      "SC216",
+      "SC217",
+      "SC218",
+      "SC219",
+      "SC220",
+      "SC221",
+      "SC222",
+      "SC223",
+      "SC224"
+    ],
+    "aggregationContexts": [
+      "AGG5",
+      "Lentekhi conflicting boundary"
+    ],
+    "accessPointsWithExactPortMapping": [
+      "AP51"
+    ]
+  }
+}

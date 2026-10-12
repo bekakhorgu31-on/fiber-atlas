@@ -1,0 +1,168 @@
+{
+  "scope": "actual Shida source proposal and local owner activation",
+  "ownerServerWrites": 0,
+  "journeys": [
+    {
+      "case": "actual upload, bounded extraction, validated partial proposal; active network unchanged"
+    },
+    {
+      "case": "reload and identical reprocess reuse current intact proposal without another upload/run; older interpretations retained"
+    },
+    {
+      "case": "stale Add rejected with no activation"
+    },
+    {
+      "case": "owner Add button atomically applies actual proposal in disposable local schema"
+    },
+    {
+      "width": 1440,
+      "case": "AP16 Port24 → Fiber24 → AP17 at SC25017; Port/Fiber path signature agrees"
+    },
+    {
+      "width": 1440,
+      "case": "actual branch highlighted while SC25016 physical core stays neutral"
+    },
+    {
+      "width": 1440,
+      "case": "F1 keeps blue identity and truthful unknown continuation; F13 range not generalized"
+    },
+    {
+      "width": 1440,
+      "case": "dedicated Engineer Search uses scoped AP Port binding"
+    },
+    {
+      "width": 1440,
+      "case": "Port source opens its exact stored import/page/Shape evidence"
+    },
+    {
+      "width": 390,
+      "case": "AP16 Port24 → Fiber24 → AP17 at SC25017; Port/Fiber path signature agrees"
+    },
+    {
+      "width": 390,
+      "case": "actual branch highlighted while SC25016 physical core stays neutral"
+    },
+    {
+      "width": 390,
+      "case": "F1 keeps blue identity and truthful unknown continuation; F13 range not generalized"
+    },
+    {
+      "width": 390,
+      "case": "dedicated Engineer Search uses scoped AP Port binding"
+    },
+    {
+      "width": 390,
+      "case": "Port source opens its exact stored import/page/Shape evidence"
+    }
+  ],
+  "screenshots": [
+    "docs/iteration33-proposal-1440.png",
+    "docs/iteration33-journey-1440.png",
+    "docs/iteration33-journey-390.png"
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "proposal": {
+    "ready": true,
+    "counts": {
+      "fibers": 9356,
+      "fiber_paths": 9356,
+      "cable_segments": 176,
+      "node_fiber_transitions": 1759,
+      "port_topology_bindings": 766
+    },
+    "changes": {
+      "netAddedSegments": 176,
+      "previousSegments": 0,
+      "proposedSegments": 176
+    },
+    "artifact": "candidate-1.json",
+    "blockers": [],
+    "coverage": {
+      "apPorts": {
+        "ports": 1320,
+        "boundPorts": 766,
+        "unboundPorts": 554,
+        "completeAPBanks": 53
+      },
+      "markerBanks": 363,
+      "linesAudited": 19401,
+      "sourceShapes": 62670,
+      "ellipseShapes": 19372,
+      "numberedBanks": 363,
+      "lineDisposition": {
+        "no_marker_attachment": 1695,
+        "one_marker_attachment": 8299,
+        "ambiguous_marker_attachment": 388,
+        "two_unique_marker_attachments": 9019
+      },
+      "labelAssociation": {
+        "candidate_proximity_only": 66,
+        "drawn_links_corroborate_bank_pair": 112
+      },
+      "labelOccurrences": 178,
+      "linesWithBeginEnd": 19131,
+      "internalFiberLines": 3339,
+      "nodeContainerAudit": {
+        "apSymbols": 55,
+        "closureSymbols": 120,
+        "unresolvedLocalLinks": 2627,
+        "supportedLabelBankPairs": 87,
+        "localTransitionCandidates": 1759
+      },
+      "bankOwnershipCounts": [
+        47,
+        316
+      ],
+      "gapRecoveredEndpoints": 5140,
+      "candidateNodeTransitions": 2371,
+      "declaredEndpointMismatchLines": 151,
+      "directTopLevelMasterReferences": {
+        "2": 120,
+        "7": 3,
+        "8": 902,
+        "9": 1232,
+        "15": 1
+      },
+      "openGeometryWithoutEndpointCells": 270
+    },
+    "warnings": [
+      "Partial source coverage: unknown continuation is not a termination.",
+      "Cable records preserve source label occurrences; repeated construction references are not unique physical Cable identities.",
+      "Tube meaning, unresolved bank associations, aggregation Ports and usage/reserve/planned annotations require further source evidence.",
+      "Port source State and fill are preserved independently; physical usage, allocation and commercial availability remain unknown."
+    ],
+    "conflicts": 8,
+    "sourceOnly": true,
+    "reviewItems": 606,
+    "partialFibers": 9260,
+    "artifactSha256": "6e8334c7a132f104ffb87de997ec14796ff6f9d953a3bab0cca0895ced469dc0",
+    "acceptedSources": 1,
+    "networkRevision": "UPLOAD-e5e49eeb3c8bd3b3ffc4b1aed11a5b8f",
+    "expectedNetworkRevision": null
+  },
+  "resources": {
+    "limits": {
+      "depth": 128,
+      "shapes": 100000,
+      "elements": 6000000,
+      "entry_bytes": 134217728,
+      "root_shapes": 25000,
+      "root_elements": 1000000,
+      "elapsed_seconds": 300,
+      "working_set_bytes": 268435456,
+      "expanded_package_bytes": 268435456,
+      "compressed_source_bytes": 20971520
+    },
+    "semantic": {
+      "elapsed_seconds": 40.437,
+      "peak_working_set_bytes": 328605696,
+      "working_set_limit_bytes": 536870912
+    },
+    "elapsed_seconds": 32.266,
+    "indexing_seconds": 3.89,
+    "php_peak_memory_bytes": 1031798784,
+    "peak_working_set_bytes": 217931776,
+    "total_processing_seconds": 56.748
+  }
+}

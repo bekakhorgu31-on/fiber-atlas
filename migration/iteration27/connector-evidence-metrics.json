@@ -1,0 +1,5978 @@
+{
+  "schema": "iteration27c-connector-evidence-metrics/1",
+  "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d",
+  "previouslyUnreviewedCount": 775,
+  "evidenceCounts": {
+    "edges": 775,
+    "fiber_pair_true": 775,
+    "both_endpoints_attached_true": 775,
+    "line_shape_true": 575,
+    "green_true": 18,
+    "no_text_true": 775,
+    "no_parent_true": 775,
+    "green_false": 757,
+    "line_shape_false": 200
+  },
+  "connectorLineColors": {
+    "#009945": 18,
+    "#ff0000": 62,
+    "#0000ff": 653,
+    "#00b050": 42
+  },
+  "connectorColorRelation": [
+    {
+      "node": "SC207",
+      "relationship": "C151/C152",
+      "lineColor": "#0000ff",
+      "colorRelation": "both",
+      "count": 9
+    },
+    {
+      "node": "SC207",
+      "relationship": "C151/C152",
+      "lineColor": "#0000ff",
+      "colorRelation": "neither",
+      "count": 111
+    },
+    {
+      "node": "SC207",
+      "relationship": "C151/C152",
+      "lineColor": "#009945",
+      "colorRelation": "neither",
+      "count": 2
+    },
+    {
+      "node": "SC207",
+      "relationship": "C151/C152",
+      "lineColor": "#00b050",
+      "colorRelation": "neither",
+      "count": 8
+    },
+    {
+      "node": "SC207",
+      "relationship": "C151/C152",
+      "lineColor": "#ff0000",
+      "colorRelation": "both",
+      "count": 2
+    },
+    {
+      "node": "SC207",
+      "relationship": "C151/C152",
+      "lineColor": "#ff0000",
+      "colorRelation": "neither",
+      "count": 11
+    },
+    {
+      "node": "SC208",
+      "relationship": "C152/C153",
+      "lineColor": "#0000ff",
+      "colorRelation": "neither",
+      "count": 19
+    },
+    {
+      "node": "SC208",
+      "relationship": "C152/C153",
+      "lineColor": "#0000ff",
+      "colorRelation": "one",
+      "count": 3
+    },
+    {
+      "node": "SC208",
+      "relationship": "C152/C153",
+      "lineColor": "#ff0000",
+      "colorRelation": "neither",
+      "count": 1
+    },
+    {
+      "node": "SC208",
+      "relationship": "C152/C153",
+      "lineColor": "#ff0000",
+      "colorRelation": "one",
+      "count": 1
+    },
+    {
+      "node": "SC208",
+      "relationship": "C152/C154",
+      "lineColor": "#0000ff",
+      "colorRelation": "both",
+      "count": 6
+    },
+    {
+      "node": "SC208",
+      "relationship": "C152/C154",
+      "lineColor": "#0000ff",
+      "colorRelation": "neither",
+      "count": 81
+    },
+    {
+      "node": "SC208",
+      "relationship": "C152/C154",
+      "lineColor": "#009945",
+      "colorRelation": "neither",
+      "count": 2
+    },
+    {
+      "node": "SC208",
+      "relationship": "C152/C154",
+      "lineColor": "#00b050",
+      "colorRelation": "neither",
+      "count": 8
+    },
+    {
+      "node": "SC208",
+      "relationship": "C152/C154",
+      "lineColor": "#ff0000",
+      "colorRelation": "both",
+      "count": 1
+    },
+    {
+      "node": "SC208",
+      "relationship": "C152/C154",
+      "lineColor": "#ff0000",
+      "colorRelation": "neither",
+      "count": 10
+    },
+    {
+      "node": "SC209",
+      "relationship": "C154/C155",
+      "lineColor": "#0000ff",
+      "colorRelation": "both",
+      "count": 2
+    },
+    {
+      "node": "SC209",
+      "relationship": "C154/C155",
+      "lineColor": "#0000ff",
+      "colorRelation": "neither",
+      "count": 15
+    },
+    {
+      "node": "SC209",
+      "relationship": "C154/C155",
+      "lineColor": "#ff0000",
+      "colorRelation": "neither",
+      "count": 1
+    },
+    {
+      "node": "SC209",
+      "relationship": "C154/C156",
+      "lineColor": "#0000ff",
+      "colorRelation": "both",
+      "count": 4
+    },
+    {
+      "node": "SC209",
+      "relationship": "C154/C156",
+      "lineColor": "#0000ff",
+      "colorRelation": "neither",
+      "count": 65
+    },
+    {
+      "node": "SC209",
+      "relationship": "C154/C156",
+      "lineColor": "#0000ff",
+      "colorRelation": "one",
+      "count": 1
+    },
+    {
+      "node": "SC209",
+      "relationship": "C154/C156",
+      "lineColor": "#009945",
+      "colorRelation": "neither",
+      "count": 2
+    },
+    {
+      "node": "SC209",
+      "relationship": "C154/C156",
+      "lineColor": "#00b050",
+      "colorRelation": "neither",
+      "count": 8
+    },
+    {
+      "node": "SC209",
+      "relationship": "C154/C156",
+      "lineColor": "#ff0000",
+      "colorRelation": "both",
+      "count": 1
+    },
+    {
+      "node": "SC209",
+      "relationship": "C154/C156",
+      "lineColor": "#ff0000",
+      "colorRelation": "neither",
+      "count": 9
+    },
+    {
+      "node": "SC209",
+      "relationship": "C155/C156",
+      "lineColor": "#0000ff",
+      "colorRelation": "neither",
+      "count": 6
+    },
+    {
+      "node": "SC210",
+      "relationship": "C156/C157",
+      "lineColor": "#0000ff",
+      "colorRelation": "both",
+      "count": 1
+    },
+    {
+      "node": "SC210",
+      "relationship": "C156/C157",
+      "lineColor": "#0000ff",
+      "colorRelation": "neither",
+      "count": 11
+    },
+    {
+      "node": "SC210",
+      "relationship": "C156/C158",
+      "lineColor": "#0000ff",
+      "colorRelation": "both",
+      "count": 4
+    },
+    {
+      "node": "SC210",
+      "relationship": "C156/C158",
+      "lineColor": "#0000ff",
+      "colorRelation": "neither",
+      "count": 60
+    },
+    {
+      "node": "SC210",
+      "relationship": "C156/C158",
+      "lineColor": "#009945",
+      "colorRelation": "neither",
+      "count": 2
+    },
+    {
+      "node": "SC210",
+      "relationship": "C156/C158",
+      "lineColor": "#00b050",
+      "colorRelation": "neither",
+      "count": 8
+    },
+    {
+      "node": "SC210",
+      "relationship": "C156/C158",
+      "lineColor": "#ff0000",
+      "colorRelation": "both",
+      "count": 1
+    },
+    {
+      "node": "SC210",
+      "relationship": "C156/C158",
+      "lineColor": "#ff0000",
+      "colorRelation": "neither",
+      "count": 9
+    },
+    {
+      "node": "SC210",
+      "relationship": "C157/C158",
+      "lineColor": "#0000ff",
+      "colorRelation": "both",
+      "count": 1
+    },
+    {
+      "node": "SC210",
+      "relationship": "C157/C158",
+      "lineColor": "#0000ff",
+      "colorRelation": "neither",
+      "count": 11
+    },
+    {
+      "node": "SC211",
+      "relationship": "C158/C159",
+      "lineColor": "#0000ff",
+      "colorRelation": "neither",
+      "count": 11
+    },
+    {
+      "node": "SC211",
+      "relationship": "C158/C159",
+      "lineColor": "#0000ff",
+      "colorRelation": "one",
+      "count": 3
+    },
+    {
+      "node": "SC211",
+      "relationship": "C158/C160",
+      "lineColor": "#0000ff",
+      "colorRelation": "neither",
+      "count": 13
+    },
+    {
+      "node": "SC211",
+      "relationship": "C158/C160",
+      "lineColor": "#0000ff",
+      "colorRelation": "one",
+      "count": 2
+    },
+    {
+      "node": "SC211",
+      "relationship": "C158/C160",
+      "lineColor": "#00b050",
+      "colorRelation": "neither",
+      "count": 2
+    },
+    {
+      "node": "SC211",
+      "relationship": "C158/C160",
+      "lineColor": "#ff0000",
+      "colorRelation": "neither",
+      "count": 1
+    },
+    {
+      "node": "SC211",
+      "relationship": "C158/C161",
+      "lineColor": "#0000ff",
+      "colorRelation": "both",
+      "count": 3
+    },
+    {
+      "node": "SC211",
+      "relationship": "C158/C161",
+      "lineColor": "#0000ff",
+      "colorRelation": "neither",
+      "count": 44
+    },
+    {
+      "node": "SC211",
+      "relationship": "C158/C161",
+      "lineColor": "#009945",
+      "colorRelation": "neither",
+      "count": 2
+    },
+    {
+      "node": "SC211",
+      "relationship": "C158/C161",
+      "lineColor": "#00b050",
+      "colorRelation": "neither",
+      "count": 6
+    },
+    {
+      "node": "SC211",
+      "relationship": "C158/C161",
+      "lineColor": "#ff0000",
+      "colorRelation": "both",
+      "count": 1
+    },
+    {
+      "node": "SC211",
+      "relationship": "C158/C161",
+      "lineColor": "#ff0000",
+      "colorRelation": "neither",
+      "count": 8
+    },
+    {
+      "node": "SC211",
+      "relationship": "C159/C160",
+      "lineColor": "#0000ff",
+      "colorRelation": "neither",
+      "count": 2
+    },
+    {
+      "node": "SC211",
+      "relationship": "C159/C161",
+      "lineColor": "#0000ff",
+      "colorRelation": "neither",
+      "count": 8
+    },
+    {
+      "node": "SC212",
+      "relationship": "C161/C162",
+      "lineColor": "#0000ff",
+      "colorRelation": "neither",
+      "count": 8
+    },
+    {
+      "node": "SC212",
+      "relationship": "C161/C162",
+      "lineColor": "#00b050",
+      "colorRelation": "neither",
+      "count": 2
+    },
+    {
+      "node": "SC212",
+      "relationship": "C161/C162",
+      "lineColor": "#ff0000",
+      "colorRelation": "neither",
+      "count": 1
+    },
+    {
+      "node": "SC212",
+      "relationship": "C161/C164",
+      "lineColor": "#0000ff",
+      "colorRelation": "both",
+      "count": 1
+    },
+    {
+      "node": "SC212",
+      "relationship": "C161/C164",
+      "lineColor": "#0000ff",
+      "colorRelation": "neither",
+      "count": 18
+    },
+    {
+      "node": "SC212",
+      "relationship": "C161/C164",
+      "lineColor": "#0000ff",
+      "colorRelation": "one",
+      "count": 1
+    },
+    {
+      "node": "SC212",
+      "relationship": "C161/C164",
+      "lineColor": "#009945",
+      "colorRelation": "neither",
+      "count": 2
+    },
+    {
+      "node": "SC212",
+      "relationship": "C161/C164",
+      "lineColor": "#ff0000",
+      "colorRelation": "neither",
+      "count": 1
+    },
+    {
+      "node": "SC212",
+      "relationship": "C162/C164",
+      "lineColor": "#0000ff",
+      "colorRelation": "neither",
+      "count": 7
+    },
+    {
+      "node": "SC212",
+      "relationship": "C162/C164",
+      "lineColor": "#0000ff",
+      "colorRelation": "one",
+      "count": 1
+    },
+    {
+      "node": "SC213",
+      "relationship": "C164/C165",
+      "lineColor": "#0000ff",
+      "colorRelation": "both",
+      "count": 1
+    },
+    {
+      "node": "SC213",
+      "relationship": "C164/C165",
+      "lineColor": "#0000ff",
+      "colorRelation": "neither",
+      "count": 11
+    },
+    {
+      "node": "SC213",
+      "relationship": "C164/C166",
+      "lineColor": "#0000ff",
+      "colorRelation": "both",
+      "count": 2
+    },
+    {
+      "node": "SC213",
+      "relationship": "C164/C166",
+      "lineColor": "#0000ff",
+      "colorRelation": "neither",
+      "count": 31
+    },
+    {
+      "node": "SC213",
+      "relationship": "C164/C166",
+      "lineColor": "#009945",
+      "colorRelation": "neither",
+      "count": 2
+    },
+    {
+      "node": "SC213",
+      "relationship": "C164/C166",
+      "lineColor": "#ff0000",
+      "colorRelation": "neither",
+      "count": 1
+    },
+    {
+      "node": "SC213",
+      "relationship": "C165/C166",
+      "lineColor": "#0000ff",
+      "colorRelation": "both",
+      "count": 1
+    },
+    {
+      "node": "SC213",
+      "relationship": "C165/C166",
+      "lineColor": "#0000ff",
+      "colorRelation": "neither",
+      "count": 11
+    },
+    {
+      "node": "SC214",
+      "relationship": "C166/C167",
+      "lineColor": "#0000ff",
+      "colorRelation": "both",
+      "count": 3
+    },
+    {
+      "node": "SC214",
+      "relationship": "C166/C167",
+      "lineColor": "#0000ff",
+      "colorRelation": "neither",
+      "count": 40
+    },
+    {
+      "node": "SC214",
+      "relationship": "C166/C167",
+      "lineColor": "#009945",
+      "colorRelation": "neither",
+      "count": 2
+    },
+    {
+      "node": "SC214",
+      "relationship": "C166/C167",
+      "lineColor": "#ff0000",
+      "colorRelation": "neither",
+      "count": 1
+    },
+    {
+      "node": "SC215",
+      "relationship": "C167/C168",
+      "lineColor": "#0000ff",
+      "colorRelation": "both",
+      "count": 1
+    },
+    {
+      "node": "SC215",
+      "relationship": "C167/C168",
+      "lineColor": "#0000ff",
+      "colorRelation": "neither",
+      "count": 20
+    },
+    {
+      "node": "SC215",
+      "relationship": "C167/C168",
+      "lineColor": "#009945",
+      "colorRelation": "neither",
+      "count": 2
+    },
+    {
+      "node": "SC215",
+      "relationship": "C167/C168",
+      "lineColor": "#ff0000",
+      "colorRelation": "neither",
+      "count": 1
+    }
+  ],
+  "connectorWidthCellValues": {
+    "4.620488583087763": 131,
+    "4.620490515085862": 3,
+    "4.620488583087877": 4,
+    "4.62048858308799": 2,
+    "4.635978540404153": 2,
+    "4.635978540404267": 1,
+    "7.028257266873183": 1,
+    "7.028257266873176": 1,
+    "7.02825726687319": 4,
+    "7.028257266873204": 2,
+    "7.028257266873197": 1,
+    "7.02935483732491": 1,
+    "7.028933940101538": 2,
+    "7.109374999999886": 98,
+    "7.03606976687319": 2,
+    "7.036069766873183": 1,
+    "7.036069766873197": 3,
+    "7.036069766873212": 2,
+    "7.036069766873204": 1,
+    "7.038485069401162": 1,
+    "7.036746440101545": 2,
+    "7.109375": 4,
+    "-2.172187435246585": 3,
+    "-2.172187435246578": 1,
+    "-2.169691190944874": 1,
+    "-2.171875": 1,
+    "7.03125": 80,
+    "7.4817055403025": 2,
+    "7.474597233733931": 1,
+    "7.479832547658518": 1,
+    "7.481705540302514": 1,
+    "7.485935557397426": 2,
+    "7.485935557397411": 3,
+    "7.489814287194349": 1,
+    "7.484578973269763": 1,
+    "0.3565549886033921": 3,
+    "0.3528915639245724": 2,
+    "0.358126877849152": 2,
+    "8.202621238344548": 1,
+    "8.204494230988559": 1,
+    "9.655122986686862": 1,
+    "9.659244541804966": 2,
+    "9.655122986686855": 1,
+    "7.477619295741974": 3,
+    "7.472233430118273": 1,
+    "7.477468744042852": 1,
+    "7.485755562836886": 1,
+    "-1.272189377849152": 1,
+    "-1.272189377849145": 1,
+    "-1.272189377849159": 1,
+    "-1.277575243472853": 1,
+    "-1.272339929548274": 1,
+    "-1.265081071280569": 1,
+    "7.75945399917115": 1,
+    "7.759453999171164": 1,
+    "7.759453999171157": 7,
+    "6.765625000000057": 83,
+    "6.776863587582227": 1,
+    "7.759453999171143": 1,
+    "8.842097832544695": 1,
+    "8.842097832544702": 1,
+    "8.844335063170469": 2,
+    "8.844335063170462": 4,
+    "8.852233209539115": 1,
+    "8.860018189336046": 1,
+    "8.854782875411473": 1,
+    "8.852233209539129": 1,
+    "7.757231517935267": 1,
+    "7.760461094706919": 1,
+    "7.703125": 72,
+    "8.287237509835293": 3,
+    "8.287237509835279": 1,
+    "23.65829564545485": 5,
+    "23.65829564545484": 1,
+    "23.65829564545486": 2,
+    "23.66142809209803": 1,
+    "23.65577188095006": 1,
+    "23.66007150797038": 1,
+    "23.66184898932142": 1,
+    "7.203929561230844": 1,
+    "7.200266136552024": 1,
+    "7.205501450476604": 1,
+    "7.203929561230851": 1,
+    "7.212065828325756": 1,
+    "7.215944558122686": 1,
+    "9.567319273207659": 1,
+    "9.575104253004582": 1,
+    "9.569556503833439": 2,
+    "9.569556503833425": 3,
+    "9.569556503833411": 1,
+    "22.75451331330294": 3,
+    "22.74740500673438": 1,
+    "22.75264032065896": 1,
+    "22.75451331330296": 1,
+    "15.36433187422295": 1,
+    "15.3617822083506": 1,
+    "7.210709244198114": 1,
+    "7.212065828325763": 1,
+    "7.207835811230844": 1,
+    "7.207835811230837": 1,
+    "0.356554988603385": 1,
+    "5.591151737120612": 2,
+    "5.591151737120619": 1,
+    "5.591572634343976": 1,
+    "5.586799789630717": 1,
+    "5.58358958476655": 1,
+    "5.593794483770395": 1,
+    "5.602621550941713": 1,
+    "5.602883922202324": 1,
+    "5.586943750063021": 1,
+    "5.592255487872841": 1,
+    "8.486195585409028": 1,
+    "8.486195585409043": 1,
+    "8.488432816034795": 6,
+    "1.095880272905987": 1,
+    "1.082386375366397": 1,
+    "1.101562511937864": 2,
+    "1.093750011853196": 1,
+    "1.109375": 1,
+    "1.087890625": 1,
+    "1.1015625": 1,
+    "1.1103515625": 1,
+    "1.1064453125": 1,
+    "1.111328125": 1,
+    "9.43749999999983": 32,
+    "8.127433289588787": 2,
+    "8.12743328958878": 2,
+    "9.437499999999886": 4,
+    "8.125124023277451": 1,
+    "8.125124023277415": 1,
+    "8.125124023277436": 1,
+    "8.125124023277444": 1,
+    "8.130440278975748": 1,
+    "8.134319008772657": 1,
+    "8.129083694848085": 1,
+    "8.130440278975733": 1,
+    "9.205458225612318": 1,
+    "9.205458225612304": 1,
+    "9.207695456238099": 1,
+    "9.207695456238106": 1,
+    "9.207695456238085": 1,
+    "9.207695456238071": 3,
+    "9.215593602606731": 1,
+    "9.223378582403655": 1,
+    "9.218143268479082": 1,
+    "9.215593602606759": 1,
+    "4.576246050430655": 46,
+    "7.7265625": 12,
+    "-1.089325311215305": 3,
+    "-1.089325311215312": 5,
+    "-1.087965063454313": 1,
+    "-1.089325311215319": 1,
+    "-1.079113697042082": 2
+  },
+  "shapeForms": [
+    {
+      "count": 575,
+      "form": "((None, (None, None)),)"
+    },
+    {
+      "count": 98,
+      "form": "((None, (None, None, None)),)"
+    },
+    {
+      "count": 42,
+      "form": "((None, (None, None, None, None, None, None, None, None, None, None, None, None, None, None, None)),)"
+    },
+    {
+      "count": 12,
+      "form": "((None, (None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None)),)"
+    },
+    {
+      "count": 5,
+      "form": "((None, (None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None)),)"
+    },
+    {
+      "count": 5,
+      "form": "((None, (None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None)),)"
+    },
+    {
+      "count": 4,
+      "form": "((None, (None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None)),)"
+    },
+    {
+      "count": 4,
+      "form": "((None, (None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None)),)"
+    },
+    {
+      "count": 4,
+      "form": "((None, (None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None)),)"
+    },
+    {
+      "count": 4,
+      "form": "((None, (None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None)),)"
+    },
+    {
+      "count": 4,
+      "form": "((None, (None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None)),)"
+    },
+    {
+      "count": 3,
+      "form": "((None, (None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None)),)"
+    },
+    {
+      "count": 3,
+      "form": "((None, (None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None)),)"
+    },
+    {
+      "count": 3,
+      "form": "((None, (None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None)),)"
+    },
+    {
+      "count": 2,
+      "form": "((None, (None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None)),)"
+    },
+    {
+      "count": 1,
+      "form": "((None, (None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None)),)"
+    },
+    {
+      "count": 1,
+      "form": "((None, (None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None)),)"
+    },
+    {
+      "count": 1,
+      "form": "((None, (None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None)),)"
+    },
+    {
+      "count": 1,
+      "form": "((None, (None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None)),)"
+    },
+    {
+      "count": 1,
+      "form": "((None, (None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None)),)"
+    },
+    {
+      "count": 1,
+      "form": "((None, (None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None)),)"
+    },
+    {
+      "count": 1,
+      "form": "((None, (None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None)),)"
+    }
+  ],
+  "groups": [
+    {
+      "node": "SC207",
+      "relationship": "C151/C152",
+      "features": {
+        "fiber_pair_true": 143,
+        "both_endpoints_attached_true": 143,
+        "line_shape_true": 143,
+        "green_true": 2,
+        "no_text_true": 143,
+        "no_parent_true": 143,
+        "explicit_connect_rows": 0,
+        "unique_marker_endpoints": 286,
+        "ambiguous_marker_endpoints": 0,
+        "unmatched_marker_endpoints": 0,
+        "green_false": 141
+      }
+    },
+    {
+      "node": "SC208",
+      "relationship": "C152/C153",
+      "features": {
+        "fiber_pair_true": 24,
+        "both_endpoints_attached_true": 24,
+        "line_shape_false": 24,
+        "green_false": 24,
+        "no_text_true": 24,
+        "no_parent_true": 24,
+        "explicit_connect_rows": 0,
+        "unique_marker_endpoints": 48,
+        "ambiguous_marker_endpoints": 0,
+        "unmatched_marker_endpoints": 0
+      }
+    },
+    {
+      "node": "SC208",
+      "relationship": "C152/C154",
+      "features": {
+        "fiber_pair_true": 108,
+        "both_endpoints_attached_true": 108,
+        "line_shape_true": 102,
+        "green_true": 2,
+        "no_text_true": 108,
+        "no_parent_true": 108,
+        "explicit_connect_rows": 8,
+        "unique_marker_endpoints": 216,
+        "ambiguous_marker_endpoints": 0,
+        "unmatched_marker_endpoints": 0,
+        "green_false": 106,
+        "line_shape_false": 6
+      }
+    },
+    {
+      "node": "SC209",
+      "relationship": "C154/C155",
+      "features": {
+        "fiber_pair_true": 18,
+        "both_endpoints_attached_true": 18,
+        "line_shape_false": 18,
+        "green_false": 18,
+        "no_text_true": 18,
+        "no_parent_true": 18,
+        "explicit_connect_rows": 6,
+        "unique_marker_endpoints": 36,
+        "ambiguous_marker_endpoints": 0,
+        "unmatched_marker_endpoints": 0
+      }
+    },
+    {
+      "node": "SC209",
+      "relationship": "C154/C156",
+      "features": {
+        "fiber_pair_true": 90,
+        "both_endpoints_attached_true": 90,
+        "line_shape_true": 80,
+        "green_true": 2,
+        "no_text_true": 90,
+        "no_parent_true": 90,
+        "explicit_connect_rows": 20,
+        "unique_marker_endpoints": 180,
+        "ambiguous_marker_endpoints": 0,
+        "unmatched_marker_endpoints": 0,
+        "green_false": 88,
+        "line_shape_false": 10
+      }
+    },
+    {
+      "node": "SC209",
+      "relationship": "C155/C156",
+      "features": {
+        "fiber_pair_true": 6,
+        "both_endpoints_attached_true": 6,
+        "line_shape_false": 6,
+        "green_false": 6,
+        "no_text_true": 6,
+        "no_parent_true": 6,
+        "explicit_connect_rows": 12,
+        "unique_marker_endpoints": 12,
+        "ambiguous_marker_endpoints": 0,
+        "unmatched_marker_endpoints": 0
+      }
+    },
+    {
+      "node": "SC210",
+      "relationship": "C156/C157",
+      "features": {
+        "fiber_pair_true": 12,
+        "both_endpoints_attached_true": 12,
+        "line_shape_false": 12,
+        "green_false": 12,
+        "no_text_true": 12,
+        "no_parent_true": 12,
+        "explicit_connect_rows": 8,
+        "unique_marker_endpoints": 24,
+        "ambiguous_marker_endpoints": 0,
+        "unmatched_marker_endpoints": 0
+      }
+    },
+    {
+      "node": "SC210",
+      "relationship": "C156/C158",
+      "features": {
+        "fiber_pair_true": 84,
+        "both_endpoints_attached_true": 84,
+        "line_shape_true": 84,
+        "green_true": 2,
+        "no_text_true": 84,
+        "no_parent_true": 84,
+        "explicit_connect_rows": 0,
+        "unique_marker_endpoints": 168,
+        "ambiguous_marker_endpoints": 0,
+        "unmatched_marker_endpoints": 0,
+        "green_false": 82
+      }
+    },
+    {
+      "node": "SC210",
+      "relationship": "C157/C158",
+      "features": {
+        "fiber_pair_true": 12,
+        "both_endpoints_attached_true": 12,
+        "line_shape_false": 12,
+        "green_false": 12,
+        "no_text_true": 12,
+        "no_parent_true": 12,
+        "explicit_connect_rows": 12,
+        "unique_marker_endpoints": 24,
+        "ambiguous_marker_endpoints": 0,
+        "unmatched_marker_endpoints": 0
+      }
+    },
+    {
+      "node": "SC211",
+      "relationship": "C158/C159",
+      "features": {
+        "fiber_pair_true": 14,
+        "both_endpoints_attached_true": 14,
+        "line_shape_false": 14,
+        "green_false": 14,
+        "no_text_true": 14,
+        "no_parent_true": 14,
+        "explicit_connect_rows": 24,
+        "unique_marker_endpoints": 28,
+        "ambiguous_marker_endpoints": 0,
+        "unmatched_marker_endpoints": 0
+      }
+    },
+    {
+      "node": "SC211",
+      "relationship": "C158/C160",
+      "features": {
+        "fiber_pair_true": 18,
+        "both_endpoints_attached_true": 18,
+        "line_shape_false": 18,
+        "green_false": 18,
+        "no_text_true": 18,
+        "no_parent_true": 18,
+        "explicit_connect_rows": 23,
+        "unique_marker_endpoints": 36,
+        "ambiguous_marker_endpoints": 0,
+        "unmatched_marker_endpoints": 0
+      }
+    },
+    {
+      "node": "SC211",
+      "relationship": "C158/C161",
+      "features": {
+        "fiber_pair_true": 64,
+        "both_endpoints_attached_true": 64,
+        "line_shape_true": 64,
+        "green_true": 2,
+        "no_text_true": 64,
+        "no_parent_true": 64,
+        "explicit_connect_rows": 0,
+        "unique_marker_endpoints": 128,
+        "ambiguous_marker_endpoints": 0,
+        "unmatched_marker_endpoints": 0,
+        "green_false": 62
+      }
+    },
+    {
+      "node": "SC211",
+      "relationship": "C159/C160",
+      "features": {
+        "fiber_pair_true": 2,
+        "both_endpoints_attached_true": 2,
+        "line_shape_false": 2,
+        "green_false": 2,
+        "no_text_true": 2,
+        "no_parent_true": 2,
+        "explicit_connect_rows": 4,
+        "unique_marker_endpoints": 4,
+        "ambiguous_marker_endpoints": 0,
+        "unmatched_marker_endpoints": 0
+      }
+    },
+    {
+      "node": "SC211",
+      "relationship": "C159/C161",
+      "features": {
+        "fiber_pair_true": 8,
+        "both_endpoints_attached_true": 8,
+        "line_shape_false": 8,
+        "green_false": 8,
+        "no_text_true": 8,
+        "no_parent_true": 8,
+        "explicit_connect_rows": 8,
+        "unique_marker_endpoints": 16,
+        "ambiguous_marker_endpoints": 0,
+        "unmatched_marker_endpoints": 0
+      }
+    },
+    {
+      "node": "SC212",
+      "relationship": "C161/C162",
+      "features": {
+        "fiber_pair_true": 11,
+        "both_endpoints_attached_true": 11,
+        "line_shape_false": 11,
+        "green_false": 11,
+        "no_text_true": 11,
+        "no_parent_true": 11,
+        "explicit_connect_rows": 4,
+        "unique_marker_endpoints": 22,
+        "ambiguous_marker_endpoints": 0,
+        "unmatched_marker_endpoints": 0
+      }
+    },
+    {
+      "node": "SC212",
+      "relationship": "C161/C164",
+      "features": {
+        "fiber_pair_true": 23,
+        "both_endpoints_attached_true": 23,
+        "line_shape_true": 8,
+        "green_false": 21,
+        "no_text_true": 23,
+        "no_parent_true": 23,
+        "explicit_connect_rows": 0,
+        "unique_marker_endpoints": 46,
+        "ambiguous_marker_endpoints": 0,
+        "unmatched_marker_endpoints": 0,
+        "line_shape_false": 15,
+        "green_true": 2
+      }
+    },
+    {
+      "node": "SC212",
+      "relationship": "C162/C164",
+      "features": {
+        "fiber_pair_true": 8,
+        "both_endpoints_attached_true": 8,
+        "line_shape_false": 8,
+        "green_false": 8,
+        "no_text_true": 8,
+        "no_parent_true": 8,
+        "explicit_connect_rows": 8,
+        "unique_marker_endpoints": 16,
+        "ambiguous_marker_endpoints": 0,
+        "unmatched_marker_endpoints": 0
+      }
+    },
+    {
+      "node": "SC213",
+      "relationship": "C164/C165",
+      "features": {
+        "fiber_pair_true": 12,
+        "both_endpoints_attached_true": 12,
+        "line_shape_false": 12,
+        "green_false": 12,
+        "no_text_true": 12,
+        "no_parent_true": 12,
+        "explicit_connect_rows": 16,
+        "unique_marker_endpoints": 24,
+        "ambiguous_marker_endpoints": 0,
+        "unmatched_marker_endpoints": 0
+      }
+    },
+    {
+      "node": "SC213",
+      "relationship": "C164/C166",
+      "features": {
+        "fiber_pair_true": 36,
+        "both_endpoints_attached_true": 36,
+        "line_shape_true": 36,
+        "green_false": 34,
+        "no_text_true": 36,
+        "no_parent_true": 36,
+        "explicit_connect_rows": 0,
+        "unique_marker_endpoints": 72,
+        "ambiguous_marker_endpoints": 0,
+        "unmatched_marker_endpoints": 0,
+        "green_true": 2
+      }
+    },
+    {
+      "node": "SC213",
+      "relationship": "C165/C166",
+      "features": {
+        "fiber_pair_true": 12,
+        "both_endpoints_attached_true": 12,
+        "line_shape_false": 12,
+        "green_false": 12,
+        "no_text_true": 12,
+        "no_parent_true": 12,
+        "explicit_connect_rows": 0,
+        "unique_marker_endpoints": 24,
+        "ambiguous_marker_endpoints": 0,
+        "unmatched_marker_endpoints": 0
+      }
+    },
+    {
+      "node": "SC214",
+      "relationship": "C166/C167",
+      "features": {
+        "fiber_pair_true": 46,
+        "both_endpoints_attached_true": 46,
+        "line_shape_true": 46,
+        "green_false": 44,
+        "no_text_true": 46,
+        "no_parent_true": 46,
+        "explicit_connect_rows": 0,
+        "unique_marker_endpoints": 92,
+        "ambiguous_marker_endpoints": 0,
+        "unmatched_marker_endpoints": 0,
+        "green_true": 2
+      }
+    },
+    {
+      "node": "SC215",
+      "relationship": "C167/C168",
+      "features": {
+        "fiber_pair_true": 24,
+        "both_endpoints_attached_true": 24,
+        "line_shape_true": 12,
+        "green_true": 2,
+        "no_text_true": 24,
+        "no_parent_true": 24,
+        "explicit_connect_rows": 24,
+        "unique_marker_endpoints": 48,
+        "ambiguous_marker_endpoints": 0,
+        "unmatched_marker_endpoints": 0,
+        "green_false": 22,
+        "line_shape_false": 12
+      }
+    }
+  ],
+  "exceptionCount": 200,
+  "exceptions": [
+    {
+      "id": "NFT-208-4399",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#ff0000",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.00195,
+      "endpoint_distances": [
+        0.029569,
+        0.007175
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C153"
+    },
+    {
+      "id": "NFT-208-15776",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.00195,
+      "endpoint_distances": [
+        0.029569,
+        0.007175
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C153"
+    },
+    {
+      "id": "NFT-208-15777",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#ff0000",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.00195,
+      "endpoint_distances": [
+        0.029569,
+        0.007175
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C153"
+    },
+    {
+      "id": "NFT-208-15778",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.00195,
+      "endpoint_distances": [
+        0.029774,
+        0.007175
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C153"
+    },
+    {
+      "id": "NFT-208-15779",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.00195,
+      "endpoint_distances": [
+        0.028785,
+        0.007175
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C153"
+    },
+    {
+      "id": "NFT-208-15780",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.00195,
+      "endpoint_distances": [
+        0.029569,
+        0.007175
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C153"
+    },
+    {
+      "id": "NFT-208-15781",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.00195,
+      "endpoint_distances": [
+        0.031079,
+        0.007175
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C153"
+    },
+    {
+      "id": "NFT-208-15782",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.00195,
+      "endpoint_distances": [
+        0.031079,
+        0.007175
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C153"
+    },
+    {
+      "id": "NFT-208-15783",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.0296,
+      "endpoint_distances": [
+        0.011889,
+        0.007175
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C153"
+    },
+    {
+      "id": "NFT-208-15784",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.00242,
+      "endpoint_distances": [
+        0.032222,
+        0.007175
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C153"
+    },
+    {
+      "id": "NFT-208-15785",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.00119,
+      "endpoint_distances": [
+        0.031258,
+        0.007006
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C153"
+    },
+    {
+      "id": "NFT-208-15786",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.00195,
+      "endpoint_distances": [
+        0.031079,
+        0.007175
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C153"
+    },
+    {
+      "id": "NFT-208-25083",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.00744,
+      "endpoint_distances": [
+        0.029569,
+        0.00924
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C153"
+    },
+    {
+      "id": "NFT-208-25084",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.00744,
+      "endpoint_distances": [
+        0.029569,
+        0.00924
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C153"
+    },
+    {
+      "id": "NFT-208-25085",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.00744,
+      "endpoint_distances": [
+        0.029569,
+        0.00924
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C153"
+    },
+    {
+      "id": "NFT-208-25086",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.00744,
+      "endpoint_distances": [
+        0.029573,
+        0.00924
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C153"
+    },
+    {
+      "id": "NFT-208-25087",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.00744,
+      "endpoint_distances": [
+        0.028975,
+        0.00924
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C153"
+    },
+    {
+      "id": "NFT-208-25088",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.00744,
+      "endpoint_distances": [
+        0.029569,
+        0.00924
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C153"
+    },
+    {
+      "id": "NFT-208-25089",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.00744,
+      "endpoint_distances": [
+        0.031079,
+        0.00924
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C153"
+    },
+    {
+      "id": "NFT-208-25090",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.99006,
+      "endpoint_distances": [
+        0.031079,
+        0.021903
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C153"
+    },
+    {
+      "id": "NFT-208-25091",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.00744,
+      "endpoint_distances": [
+        0.031079,
+        0.00924
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C153"
+    },
+    {
+      "id": "NFT-208-25092",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.00792,
+      "endpoint_distances": [
+        0.032222,
+        0.007175
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C153"
+    },
+    {
+      "id": "NFT-208-25093",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.00668,
+      "endpoint_distances": [
+        0.031258,
+        0.007006
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C153"
+    },
+    {
+      "id": "NFT-208-25094",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.00744,
+      "endpoint_distances": [
+        0.031079,
+        0.00924
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C153"
+    },
+    {
+      "id": "NFT-208-40554",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.4151,
+      "endpoint_distances": [
+        0.022171,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C154"
+    },
+    {
+      "id": "NFT-208-40555",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.4151,
+      "endpoint_distances": [
+        0.022171,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C154"
+    },
+    {
+      "id": "NFT-208-40556",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.4151,
+      "endpoint_distances": [
+        0.022171,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C154"
+    },
+    {
+      "id": "NFT-208-40557",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.4151,
+      "endpoint_distances": [
+        0.022309,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C154"
+    },
+    {
+      "id": "NFT-208-40560",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.40734,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C154"
+    },
+    {
+      "id": "NFT-208-40561",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.40798,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "208",
+      "relationship": "C152/C154"
+    },
+    {
+      "id": "NFT-209-25553",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.26465,
+      "endpoint_distances": [
+        0.029578,
+        0.005145
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C154/C155"
+    },
+    {
+      "id": "NFT-209-25554",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.26465,
+      "endpoint_distances": [
+        0.029578,
+        0.005145
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C154/C155"
+    },
+    {
+      "id": "NFT-209-25555",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#ff0000",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.25947,
+      "endpoint_distances": [
+        0.03082,
+        0.005145
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C154/C155"
+    },
+    {
+      "id": "NFT-209-25556",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.26276,
+      "endpoint_distances": [
+        0.030517,
+        0.005145
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C154/C155"
+    },
+    {
+      "id": "NFT-209-27122",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.26465,
+      "endpoint_distances": [
+        0.029578,
+        0.005145
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C154/C155"
+    },
+    {
+      "id": "NFT-209-27123",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.26774,
+      "endpoint_distances": [
+        0.029634,
+        0.005145
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C154/C155"
+    },
+    {
+      "id": "NFT-209-27124",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.26774,
+      "endpoint_distances": [
+        0.029634,
+        0.005145
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C154/C155"
+    },
+    {
+      "id": "NFT-209-27125",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.26774,
+      "endpoint_distances": [
+        0.029634,
+        0.005145
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C154/C155"
+    },
+    {
+      "id": "NFT-209-32961",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.26774,
+      "endpoint_distances": [
+        0.029634,
+        0.005145
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C154/C155"
+    },
+    {
+      "id": "NFT-209-32962",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.27057,
+      "endpoint_distances": [
+        0.031054,
+        0.005145
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C154/C155"
+    },
+    {
+      "id": "NFT-209-32963",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.2661,
+      "endpoint_distances": [
+        0.029083,
+        0.005249
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C154/C155"
+    },
+    {
+      "id": "NFT-209-32964",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.26774,
+      "endpoint_distances": [
+        0.029634,
+        0.005145
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C154/C155"
+    },
+    {
+      "id": "NFT-209-33341",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 6.99583,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C154/C156"
+    },
+    {
+      "id": "NFT-209-33342",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 6.99565,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C154/C156"
+    },
+    {
+      "id": "NFT-209-33343",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 6.99514,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C154/C156"
+    },
+    {
+      "id": "NFT-209-33344",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 6.99583,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C154/C156"
+    },
+    {
+      "id": "NFT-209-40516",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 8.20264,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C155/C156"
+    },
+    {
+      "id": "NFT-209-40517",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 8.20451,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C155/C156"
+    },
+    {
+      "id": "NFT-209-40522",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.65513,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C155/C156"
+    },
+    {
+      "id": "NFT-209-40523",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.65926,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C155/C156"
+    },
+    {
+      "id": "NFT-209-40524",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.65926,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C155/C156"
+    },
+    {
+      "id": "NFT-209-40525",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.65513,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C155/C156"
+    },
+    {
+      "id": "NFT-209-40526",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.24361,
+      "endpoint_distances": [
+        0.029578,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C154/C155"
+    },
+    {
+      "id": "NFT-209-40527",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.24361,
+      "endpoint_distances": [
+        0.029578,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C154/C155"
+    },
+    {
+      "id": "NFT-209-40528",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.23968,
+      "endpoint_distances": [
+        0.030371,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C154/C155"
+    },
+    {
+      "id": "NFT-209-40529",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.24297,
+      "endpoint_distances": [
+        0.030362,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C154/C155"
+    },
+    {
+      "id": "NFT-209-40530",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.24361,
+      "endpoint_distances": [
+        0.029578,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C154/C155"
+    },
+    {
+      "id": "NFT-209-40531",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.24955,
+      "endpoint_distances": [
+        0.030216,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C154/C155"
+    },
+    {
+      "id": "NFT-209-40550",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.10162,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C154/C156"
+    },
+    {
+      "id": "NFT-209-40551",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.10162,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C154/C156"
+    },
+    {
+      "id": "NFT-209-40552",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.10162,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C154/C156"
+    },
+    {
+      "id": "NFT-209-40553",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.10259,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C154/C156"
+    },
+    {
+      "id": "NFT-209-40558",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.10088,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C154/C156"
+    },
+    {
+      "id": "NFT-209-40559",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.10035,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "209",
+      "relationship": "C154/C156"
+    },
+    {
+      "id": "NFT-210-15849",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.29952,
+      "endpoint_distances": [
+        0.029528,
+        0.004647
+      ],
+      "section_count": 1,
+      "node": "210",
+      "relationship": "C156/C157"
+    },
+    {
+      "id": "NFT-210-15850",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.29952,
+      "endpoint_distances": [
+        0.029528,
+        0.004647
+      ],
+      "section_count": 1,
+      "node": "210",
+      "relationship": "C156/C157"
+    },
+    {
+      "id": "NFT-210-15851",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.29952,
+      "endpoint_distances": [
+        0.029528,
+        0.004647
+      ],
+      "section_count": 1,
+      "node": "210",
+      "relationship": "C156/C157"
+    },
+    {
+      "id": "NFT-210-15852",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.29952,
+      "endpoint_distances": [
+        0.029528,
+        0.004647
+      ],
+      "section_count": 1,
+      "node": "210",
+      "relationship": "C156/C157"
+    },
+    {
+      "id": "NFT-210-40476",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.30507,
+      "endpoint_distances": [
+        0.005785,
+        0.022338
+      ],
+      "section_count": 1,
+      "node": "210",
+      "relationship": "C156/C157"
+    },
+    {
+      "id": "NFT-210-40477",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.30507,
+      "endpoint_distances": [
+        0.005785,
+        0.022338
+      ],
+      "section_count": 1,
+      "node": "210",
+      "relationship": "C156/C157"
+    },
+    {
+      "id": "NFT-210-40478",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.30507,
+      "endpoint_distances": [
+        0.005785,
+        0.022338
+      ],
+      "section_count": 1,
+      "node": "210",
+      "relationship": "C156/C157"
+    },
+    {
+      "id": "NFT-210-40479",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.30507,
+      "endpoint_distances": [
+        0.005785,
+        0.022338
+      ],
+      "section_count": 1,
+      "node": "210",
+      "relationship": "C156/C157"
+    },
+    {
+      "id": "NFT-210-40486",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.2948,
+      "endpoint_distances": [
+        0.010241,
+        0.022399
+      ],
+      "section_count": 1,
+      "node": "210",
+      "relationship": "C156/C157"
+    },
+    {
+      "id": "NFT-210-40487",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.2948,
+      "endpoint_distances": [
+        0.010746,
+        0.022423
+      ],
+      "section_count": 1,
+      "node": "210",
+      "relationship": "C156/C157"
+    },
+    {
+      "id": "NFT-210-40488",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 8.84212,
+      "endpoint_distances": [
+        0.008774,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "210",
+      "relationship": "C157/C158"
+    },
+    {
+      "id": "NFT-210-40489",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 8.84212,
+      "endpoint_distances": [
+        0.008774,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "210",
+      "relationship": "C157/C158"
+    },
+    {
+      "id": "NFT-210-40490",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 8.84435,
+      "endpoint_distances": [
+        0.008756,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "210",
+      "relationship": "C157/C158"
+    },
+    {
+      "id": "NFT-210-40491",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 8.84435,
+      "endpoint_distances": [
+        0.008756,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "210",
+      "relationship": "C157/C158"
+    },
+    {
+      "id": "NFT-210-40504",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 8.84435,
+      "endpoint_distances": [
+        0.008756,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "210",
+      "relationship": "C157/C158"
+    },
+    {
+      "id": "NFT-210-40505",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 8.84435,
+      "endpoint_distances": [
+        0.008756,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "210",
+      "relationship": "C157/C158"
+    },
+    {
+      "id": "NFT-210-40506",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 8.84435,
+      "endpoint_distances": [
+        0.008756,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "210",
+      "relationship": "C157/C158"
+    },
+    {
+      "id": "NFT-210-40507",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 8.84435,
+      "endpoint_distances": [
+        0.008756,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "210",
+      "relationship": "C157/C158"
+    },
+    {
+      "id": "NFT-210-40508",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 8.85223,
+      "endpoint_distances": [
+        0.025999,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "210",
+      "relationship": "C157/C158"
+    },
+    {
+      "id": "NFT-210-40509",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 8.86002,
+      "endpoint_distances": [
+        0.027457,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "210",
+      "relationship": "C157/C158"
+    },
+    {
+      "id": "NFT-210-40510",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 8.85478,
+      "endpoint_distances": [
+        0.025436,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "210",
+      "relationship": "C157/C158"
+    },
+    {
+      "id": "NFT-210-40511",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 8.85223,
+      "endpoint_distances": [
+        0.025999,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "210",
+      "relationship": "C157/C158"
+    },
+    {
+      "id": "NFT-210-40514",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.27547,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "210",
+      "relationship": "C156/C157"
+    },
+    {
+      "id": "NFT-210-40515",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.27791,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "210",
+      "relationship": "C156/C157"
+    },
+    {
+      "id": "NFT-211-27119",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 11.30207,
+      "endpoint_distances": [
+        0.008736,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C159"
+    },
+    {
+      "id": "NFT-211-27120",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 11.30207,
+      "endpoint_distances": [
+        0.008736,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C159"
+    },
+    {
+      "id": "NFT-211-27121",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 11.30207,
+      "endpoint_distances": [
+        0.008736,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C159"
+    },
+    {
+      "id": "NFT-211-27235",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 11.30207,
+      "endpoint_distances": [
+        0.008736,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C159"
+    },
+    {
+      "id": "NFT-211-32973",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#00b050",
+      "shape_type": "Shape",
+      "begin_end_distance": 24.88111,
+      "endpoint_distances": [
+        0.008168,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C160"
+    },
+    {
+      "id": "NFT-211-32974",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#00b050",
+      "shape_type": "Shape",
+      "begin_end_distance": 24.88111,
+      "endpoint_distances": [
+        0.005811,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C160"
+    },
+    {
+      "id": "NFT-211-32975",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#ff0000",
+      "shape_type": "Shape",
+      "begin_end_distance": 24.88111,
+      "endpoint_distances": [
+        0.000923,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C160"
+    },
+    {
+      "id": "NFT-211-32976",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 24.88111,
+      "endpoint_distances": [
+        0.008168,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C160"
+    },
+    {
+      "id": "NFT-211-32977",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 24.88111,
+      "endpoint_distances": [
+        0.004358,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C160"
+    },
+    {
+      "id": "NFT-211-32978",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 24.88111,
+      "endpoint_distances": [
+        0.004358,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C160"
+    },
+    {
+      "id": "NFT-211-32979",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 24.88111,
+      "endpoint_distances": [
+        0.004358,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C160"
+    },
+    {
+      "id": "NFT-211-32980",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 24.88111,
+      "endpoint_distances": [
+        0.004358,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C160"
+    },
+    {
+      "id": "NFT-211-32981",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 24.88231,
+      "endpoint_distances": [
+        0.004202,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C160"
+    },
+    {
+      "id": "NFT-211-32982",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 24.88124,
+      "endpoint_distances": [
+        0.004202,
+        0.018305
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C160"
+    },
+    {
+      "id": "NFT-211-32983",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 24.88078,
+      "endpoint_distances": [
+        0.004202,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C160"
+    },
+    {
+      "id": "NFT-211-32984",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 24.88449,
+      "endpoint_distances": [
+        0.001705,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C160"
+    },
+    {
+      "id": "NFT-211-40456",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.51829,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C159"
+    },
+    {
+      "id": "NFT-211-40457",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.51578,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C159"
+    },
+    {
+      "id": "NFT-211-40458",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.51993,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C159"
+    },
+    {
+      "id": "NFT-211-40459",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.51829,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C159"
+    },
+    {
+      "id": "NFT-211-40460",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.52386,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C159"
+    },
+    {
+      "id": "NFT-211-40461",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.52652,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C159"
+    },
+    {
+      "id": "NFT-211-40462",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.56734,
+      "endpoint_distances": [
+        0.016761,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C159/C161"
+    },
+    {
+      "id": "NFT-211-40463",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.57513,
+      "endpoint_distances": [
+        0.016362,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C159/C161"
+    },
+    {
+      "id": "NFT-211-40464",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.56957,
+      "endpoint_distances": [
+        0.019645,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C159/C161"
+    },
+    {
+      "id": "NFT-211-40465",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.56957,
+      "endpoint_distances": [
+        0.019937,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C159/C161"
+    },
+    {
+      "id": "NFT-211-40466",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.56957,
+      "endpoint_distances": [
+        0.019937,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C159/C161"
+    },
+    {
+      "id": "NFT-211-40467",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.56957,
+      "endpoint_distances": [
+        0.019937,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C159/C161"
+    },
+    {
+      "id": "NFT-211-40468",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.56957,
+      "endpoint_distances": [
+        0.019937,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C159/C161"
+    },
+    {
+      "id": "NFT-211-40469",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.56957,
+      "endpoint_distances": [
+        0.019937,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C159/C161"
+    },
+    {
+      "id": "NFT-211-40480",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 24.0134,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C160"
+    },
+    {
+      "id": "NFT-211-40481",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 24.0134,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C160"
+    },
+    {
+      "id": "NFT-211-40482",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 24.0134,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C160"
+    },
+    {
+      "id": "NFT-211-40483",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 24.00667,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C160"
+    },
+    {
+      "id": "NFT-211-40484",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 24.01187,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C160"
+    },
+    {
+      "id": "NFT-211-40485",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 24.0134,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C160"
+    },
+    {
+      "id": "NFT-211-40512",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 15.36433,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C159/C160"
+    },
+    {
+      "id": "NFT-211-40513",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 15.36179,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C159/C160"
+    },
+    {
+      "id": "NFT-211-40518",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.52237,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C159"
+    },
+    {
+      "id": "NFT-211-40519",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.52386,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C159"
+    },
+    {
+      "id": "NFT-211-40520",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.52096,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C159"
+    },
+    {
+      "id": "NFT-211-40521",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 10.52096,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "211",
+      "relationship": "C158/C159"
+    },
+    {
+      "id": "NFT-212-28669",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.68914,
+      "endpoint_distances": [
+        0.024125,
+        0.017253
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C161/C164"
+    },
+    {
+      "id": "NFT-212-32303",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.68897,
+      "endpoint_distances": [
+        0.024444,
+        0.017253
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C161/C164"
+    },
+    {
+      "id": "NFT-212-32304",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.68836,
+      "endpoint_distances": [
+        0.026036,
+        0.017253
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C161/C164"
+    },
+    {
+      "id": "NFT-212-32305",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.68914,
+      "endpoint_distances": [
+        0.024125,
+        0.017253
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C161/C164"
+    },
+    {
+      "id": "NFT-212-33001",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#00b050",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.49934,
+      "endpoint_distances": [
+        0.002452,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C161/C162"
+    },
+    {
+      "id": "NFT-212-33002",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#00b050",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.49934,
+      "endpoint_distances": [
+        0.002452,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C161/C162"
+    },
+    {
+      "id": "NFT-212-33003",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#ff0000",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.49934,
+      "endpoint_distances": [
+        0.002452,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C161/C162"
+    },
+    {
+      "id": "NFT-212-33004",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.5025,
+      "endpoint_distances": [
+        0.003374,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C161/C162"
+    },
+    {
+      "id": "NFT-212-40440",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.50025,
+      "endpoint_distances": [
+        0.006689,
+        0.020996
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C161/C162"
+    },
+    {
+      "id": "NFT-212-40441",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.49836,
+      "endpoint_distances": [
+        0.006689,
+        0.021607
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C161/C162"
+    },
+    {
+      "id": "NFT-212-40443",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.50727,
+      "endpoint_distances": [
+        0.004119,
+        0.021257
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C161/C162"
+    },
+    {
+      "id": "NFT-212-40444",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.50956,
+      "endpoint_distances": [
+        0.00535,
+        0.022284
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C161/C162"
+    },
+    {
+      "id": "NFT-212-40445",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.50972,
+      "endpoint_distances": [
+        0.005313,
+        0.02128
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C161/C162"
+    },
+    {
+      "id": "NFT-212-40446",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.50033,
+      "endpoint_distances": [
+        0.008727,
+        0.021091
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C161/C162"
+    },
+    {
+      "id": "NFT-212-40447",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.50637,
+      "endpoint_distances": [
+        0.002343,
+        0.021057
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C161/C162"
+    },
+    {
+      "id": "NFT-212-40448",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 8.48629,
+      "endpoint_distances": [
+        0.009082,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C162/C164"
+    },
+    {
+      "id": "NFT-212-40449",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 8.48629,
+      "endpoint_distances": [
+        0.001452,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C162/C164"
+    },
+    {
+      "id": "NFT-212-40450",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 8.48851,
+      "endpoint_distances": [
+        0.003986,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C162/C164"
+    },
+    {
+      "id": "NFT-212-40451",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 8.48851,
+      "endpoint_distances": [
+        0.003744,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C162/C164"
+    },
+    {
+      "id": "NFT-212-40452",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 8.48851,
+      "endpoint_distances": [
+        0.003744,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C162/C164"
+    },
+    {
+      "id": "NFT-212-40453",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 8.48851,
+      "endpoint_distances": [
+        0.003744,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C162/C164"
+    },
+    {
+      "id": "NFT-212-40454",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 8.48851,
+      "endpoint_distances": [
+        0.003744,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C162/C164"
+    },
+    {
+      "id": "NFT-212-40455",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 8.48851,
+      "endpoint_distances": [
+        0.003744,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C162/C164"
+    },
+    {
+      "id": "NFT-212-41018",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.78957,
+      "endpoint_distances": [
+        0.012352,
+        0.005022
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C161/C164"
+    },
+    {
+      "id": "NFT-212-41019",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.78651,
+      "endpoint_distances": [
+        0.015874,
+        0.006319
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C161/C164"
+    },
+    {
+      "id": "NFT-212-41022",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.7892,
+      "endpoint_distances": [
+        0.012412,
+        0.006545
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C161/C164"
+    },
+    {
+      "id": "NFT-212-41023",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.79696,
+      "endpoint_distances": [
+        0.018109,
+        0.011321
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C161/C164"
+    },
+    {
+      "id": "NFT-212-41024",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.79586,
+      "endpoint_distances": [
+        0.014724,
+        0.01255
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C161/C164"
+    },
+    {
+      "id": "NFT-212-41026",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.79807,
+      "endpoint_distances": [
+        0.012611,
+        0.017571
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C161/C164"
+    },
+    {
+      "id": "NFT-212-41027",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.79504,
+      "endpoint_distances": [
+        0.012478,
+        0.01231
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C161/C164"
+    },
+    {
+      "id": "NFT-212-41028",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.79696,
+      "endpoint_distances": [
+        0.013843,
+        0.010745
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C161/C164"
+    },
+    {
+      "id": "NFT-212-41029",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#ff0000",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.79821,
+      "endpoint_distances": [
+        0.014925,
+        0.01394
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C161/C164"
+    },
+    {
+      "id": "NFT-212-41030",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": true,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#009945",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.79766,
+      "endpoint_distances": [
+        0.014223,
+        0.012381
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C161/C164"
+    },
+    {
+      "id": "NFT-212-41031",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": true,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#009945",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.79835,
+      "endpoint_distances": [
+        0.016048,
+        0.013364
+      ],
+      "section_count": 1,
+      "node": "212",
+      "relationship": "C161/C164"
+    },
+    {
+      "id": "NFT-213-28900",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 12.44182,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "213",
+      "relationship": "C164/C165"
+    },
+    {
+      "id": "NFT-213-28901",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 12.44182,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "213",
+      "relationship": "C164/C165"
+    },
+    {
+      "id": "NFT-213-28902",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 12.44182,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "213",
+      "relationship": "C164/C165"
+    },
+    {
+      "id": "NFT-213-28903",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 12.44182,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "213",
+      "relationship": "C164/C165"
+    },
+    {
+      "id": "NFT-213-40432",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 12.45706,
+      "endpoint_distances": [
+        0.007773,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "213",
+      "relationship": "C164/C165"
+    },
+    {
+      "id": "NFT-213-40433",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 12.45706,
+      "endpoint_distances": [
+        0.007773,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "213",
+      "relationship": "C164/C165"
+    },
+    {
+      "id": "NFT-213-40434",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 12.45706,
+      "endpoint_distances": [
+        0.007773,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "213",
+      "relationship": "C164/C165"
+    },
+    {
+      "id": "NFT-213-40435",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 12.45706,
+      "endpoint_distances": [
+        0.007773,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "213",
+      "relationship": "C164/C165"
+    },
+    {
+      "id": "NFT-213-40436",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 12.46053,
+      "endpoint_distances": [
+        0.008008,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "213",
+      "relationship": "C164/C165"
+    },
+    {
+      "id": "NFT-213-40437",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 12.46306,
+      "endpoint_distances": [
+        0.007445,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "213",
+      "relationship": "C164/C165"
+    },
+    {
+      "id": "NFT-213-40438",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 12.45906,
+      "endpoint_distances": [
+        0.009428,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "213",
+      "relationship": "C164/C165"
+    },
+    {
+      "id": "NFT-213-40439",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 1,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 12.46053,
+      "endpoint_distances": [
+        0.008008,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "213",
+      "relationship": "C164/C165"
+    },
+    {
+      "id": "NFT-213-40492",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.20546,
+      "endpoint_distances": [
+        0.020772,
+        0.006013
+      ],
+      "section_count": 1,
+      "node": "213",
+      "relationship": "C165/C166"
+    },
+    {
+      "id": "NFT-213-40493",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.20546,
+      "endpoint_distances": [
+        0.020772,
+        0.006013
+      ],
+      "section_count": 1,
+      "node": "213",
+      "relationship": "C165/C166"
+    },
+    {
+      "id": "NFT-213-40494",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.2077,
+      "endpoint_distances": [
+        0.01707,
+        0.006013
+      ],
+      "section_count": 1,
+      "node": "213",
+      "relationship": "C165/C166"
+    },
+    {
+      "id": "NFT-213-40495",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.2077,
+      "endpoint_distances": [
+        0.01707,
+        0.006013
+      ],
+      "section_count": 1,
+      "node": "213",
+      "relationship": "C165/C166"
+    },
+    {
+      "id": "NFT-213-40496",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.2077,
+      "endpoint_distances": [
+        0.01707,
+        0.006013
+      ],
+      "section_count": 1,
+      "node": "213",
+      "relationship": "C165/C166"
+    },
+    {
+      "id": "NFT-213-40497",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.2077,
+      "endpoint_distances": [
+        0.01707,
+        0.006013
+      ],
+      "section_count": 1,
+      "node": "213",
+      "relationship": "C165/C166"
+    },
+    {
+      "id": "NFT-213-40498",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.2077,
+      "endpoint_distances": [
+        0.01707,
+        0.006013
+      ],
+      "section_count": 1,
+      "node": "213",
+      "relationship": "C165/C166"
+    },
+    {
+      "id": "NFT-213-40499",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.2077,
+      "endpoint_distances": [
+        0.018925,
+        0.041018
+      ],
+      "section_count": 1,
+      "node": "213",
+      "relationship": "C165/C166"
+    },
+    {
+      "id": "NFT-213-40500",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.21562,
+      "endpoint_distances": [
+        0.005674,
+        0.006013
+      ],
+      "section_count": 1,
+      "node": "213",
+      "relationship": "C165/C166"
+    },
+    {
+      "id": "NFT-213-40501",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.2234,
+      "endpoint_distances": [
+        0.003724,
+        0.006013
+      ],
+      "section_count": 1,
+      "node": "213",
+      "relationship": "C165/C166"
+    },
+    {
+      "id": "NFT-213-40502",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.21817,
+      "endpoint_distances": [
+        0.003292,
+        0.006014
+      ],
+      "section_count": 1,
+      "node": "213",
+      "relationship": "C165/C166"
+    },
+    {
+      "id": "NFT-213-40503",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 0,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 9.21562,
+      "endpoint_distances": [
+        0.005674,
+        0.006013
+      ],
+      "section_count": 1,
+      "node": "213",
+      "relationship": "C165/C166"
+    },
+    {
+      "id": "NFT-215-40420",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.77927,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "215",
+      "relationship": "C167/C168"
+    },
+    {
+      "id": "NFT-215-40421",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.77927,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "215",
+      "relationship": "C167/C168"
+    },
+    {
+      "id": "NFT-215-40422",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.77911,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "215",
+      "relationship": "C167/C168"
+    },
+    {
+      "id": "NFT-215-40423",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.77927,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "215",
+      "relationship": "C167/C168"
+    },
+    {
+      "id": "NFT-215-40424",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.77927,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "215",
+      "relationship": "C167/C168"
+    },
+    {
+      "id": "NFT-215-40425",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.77927,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "215",
+      "relationship": "C167/C168"
+    },
+    {
+      "id": "NFT-215-40426",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.77927,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "215",
+      "relationship": "C167/C168"
+    },
+    {
+      "id": "NFT-215-40427",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.77927,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "215",
+      "relationship": "C167/C168"
+    },
+    {
+      "id": "NFT-215-40428",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.77927,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "215",
+      "relationship": "C167/C168"
+    },
+    {
+      "id": "NFT-215-40429",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.77785,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "215",
+      "relationship": "C167/C168"
+    },
+    {
+      "id": "NFT-215-40430",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.77785,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "215",
+      "relationship": "C167/C168"
+    },
+    {
+      "id": "NFT-215-40431",
+      "fiber_pair": true,
+      "both_endpoints_attached": true,
+      "line_shape": false,
+      "green": false,
+      "no_text": true,
+      "no_parent": true,
+      "source_connect_rows": 2,
+      "endpoint_marker_counts": [
+        1,
+        1
+      ],
+      "line_color": "#0000ff",
+      "shape_type": "Shape",
+      "begin_end_distance": 7.77927,
+      "endpoint_distances": [
+        0.029528,
+        0.029528
+      ],
+      "section_count": 1,
+      "node": "215",
+      "relationship": "C167/C168"
+    }
+  ]
+}

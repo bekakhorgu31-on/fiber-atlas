@@ -1,0 +1,17 @@
+import {writeFileSync,readFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import assert from 'node:assert/strict';
+import {repository,loadIteration28KReference} from '../src/data/repository';
+import {validateCurrentFiberPaths} from '../src/domain/currentFiberPath';
+const before=await loadIteration28KReference(),after=await repository.load();
+const hash=(x:unknown)=>createHash('sha256').update(JSON.stringify(x)).digest('hex');
+const names=['nodeFiberTransitions','fiberPathProjection','currentFiberLineages','fiberJourneySummaries','fiberUsageProjection','organizationNetworkProjection','aggregationOperationalProjection','portTopologyBindings'] as const;
+const shape=(p:NonNullable<typeof after.fiberPathProjection>['paths'][string])=>({cableId:p.cableId,fiberNumber:p.fiberNumber,state:p.state,sides:p.sides.map(s=>({legs:s.legs.map(l=>[l.segmentId,l.fiberNumber]),transitions:s.transitions.map(t=>t.id),stop:s.stop}))});
+const changed=Object.entries(after.fiberPathProjection!.paths).flatMap(([key,p])=>JSON.stringify(shape(p))===JSON.stringify(shape(before.fiberPathProjection!.paths[key]))?[]:[{key,before:shape(before.fiberPathProjection!.paths[key]),after:shape(p)}]);
+assert.deepEqual(validateCurrentFiberPaths(after),[]);
+assert.equal(after.nodeFiberTransitions!.length-before.nodeFiberTransitions!.length,2);
+assert.ok(changed.every(p=>p.after.sides.some(s=>s.transitions.some(id=>['NFT-SC217-34070','NFT-SC217-34072'].includes(id)))));
+const output={timestamp:new Date().toISOString(),status:'passed',hashes:Object.fromEntries(names.map(n=>[n,{before:hash(before[n]),after:hash(after[n])}])),addedTransitions:after.nodeFiberTransitions!.filter(t=>!before.nodeFiberTransitions!.some(o=>o.id===t.id)),changedPaths:changed,counts:{before:{transitions:before.nodeFiberTransitions!.length,currentLineages:before.currentFiberLineages!.length},after:{transitions:after.nodeFiberTransitions!.length,currentLineages:after.currentFiberLineages!.length},affectedLocalFibers:changed.length},organizations:after.organizationNetworkProjection!.organizations.map(o=>({name:o.name,before:before.organizationNetworkProjection!.organizations.find(b=>b.organizationId===o.organizationId)!,after:o})),usageConflicts:after.fiberUsageProjection!.counts.conflicts,frozenManifest:createHash('sha256').update(readFileSync('reference/tsageri-lentekhi-v1.manifest.json')).digest('hex')};
+assert.equal(output.frozenManifest,'59ce208663b1dcb7f0fe5849faa9f9f1b62182bfc01cc7c5f4947cf366340125');
+writeFileSync('docs/iteration28l-projection-diff.json',JSON.stringify(output,null,2)+'\n');
+console.log(JSON.stringify({counts:output.counts,organizations:output.organizations.map(o=>({name:o.name,groups:`${o.before.strands.length}→${o.after.strands.length}`,legs:`${o.before.localFiberLegs.length}→${o.after.localFiberLegs.length}`})),conflicts:output.usageConflicts},null,2));

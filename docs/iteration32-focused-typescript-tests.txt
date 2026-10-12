@@ -1,0 +1,28 @@
+✔ 1 proposed groups render as fiber ranges without fake Tube identifiers (0.9237ms)
+✔ 2 documented Tube renders number, color and member range (0.1382ms)
+✔ 3 Cable primary view starts with topology and construction (0.1161ms)
+✔ 4 Cable metadata is collapsed by default (0.1065ms)
+✔ 5 Closure primary view prioritizes incoming, main path and branch (0.1927ms)
+✔ 6 Closure details retain model, mounting and coordinates (0.1749ms)
+✔ 7 empty Closure branches are conditionally omitted (0.1259ms)
+✔ 8 Fiber primary labels are Georgian and full journey remains (0.152ms)
+✔ 9 Iteration 32 removes the prototype banner and repeated card notices (0.3491ms)
+✔ 10 engineering disclosures use the shared hierarchy (0.2107ms)
+✔ 11 all 68 Fiber Lineages remain unchanged (20.3056ms)
+✔ 12 AP51 Port3 remains in use with OTDR annotation (14.4505ms)
+✔ 13 OpenNet usage remains attached to applicable golden journeys (10.3714ms)
+✔ 14 Manager mode does not hide primary operational content (0.347ms)
+✔ 15 mobile rules prevent inspector overflow (0.259ms)
+✔ the default browser fetch retains its required global receiver (16.7339ms)
+✔ database failure rejects visibly and never substitutes an offline snapshot (0.2517ms)
+✔ deferred evidence is pinned and cannot cross network revisions (0.9881ms)
+✔ an unknown requested data mode fails rather than silently switching modes (0.2051ms)
+✔ an explicit empty response is separate from corrupt authority and API failure (0.8334ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 785.7163

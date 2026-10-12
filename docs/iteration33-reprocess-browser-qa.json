@@ -1,0 +1,64 @@
+{
+  "iteration": 33,
+  "scope": "actual large-source upload, geometry reprocess and owner UI; topology interpretation pending",
+  "dataProfile": "loopback fiber_atlas_test / fiber_isolation",
+  "storage": "isolated app/isolation-private",
+  "ownerServerWrites": 0,
+  "journeys": [
+    {
+      "case": "owner setup in actual isolated application"
+    },
+    {
+      "case": "actual 6.7 MB owner source staged with inventory-only status"
+    },
+    {
+      "case": "real reprocess, 62,670 persisted geometry Shapes, unchanged source revision and inventory history, no proposal or activation"
+    },
+    {
+      "case": "five-field source label and blue marker evidence opened from the versioned source index"
+    },
+    {
+      "case": "reload and idempotent reprocess preserve exactly two history runs"
+    },
+    {
+      "width": 390,
+      "case": "fresh-session sign-in, accurate geometry status, four navigation entries, keyboard Engineer Search and no horizontal overflow"
+    },
+    {
+      "width": 1440,
+      "case": "pending decoded source is visible in Needs Review; badge counts one source revision and both immutable runs remain visible"
+    },
+    {
+      "width": 390,
+      "case": "pending decoded source is visible in Needs Review; badge counts one source revision and both immutable runs remain visible"
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "screenshots": [
+    "docs/iteration33-geometry-1440.png",
+    "docs/iteration33-geometry-390.png"
+  ],
+  "resources": {
+    "limits": {
+      "depth": 128,
+      "shapes": 100000,
+      "elements": 6000000,
+      "entry_bytes": 134217728,
+      "root_shapes": 25000,
+      "root_elements": 1000000,
+      "elapsed_seconds": 300,
+      "working_set_bytes": 268435456,
+      "expanded_package_bytes": 268435456,
+      "compressed_source_bytes": 20971520
+    },
+    "elapsed_seconds": 43.906,
+    "indexing_seconds": 28.651,
+    "php_peak_memory_bytes": 29360128,
+    "peak_working_set_bytes": 217899008,
+    "total_processing_seconds": 73.863
+  },
+  "sourceSha256": "e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+  "shapes": 62670,
+  "connectReferences": 330
+}

@@ -1,0 +1,44 @@
+{
+  "iteration": "04",
+  "url": "http://127.0.0.1:4174/fiber-prototype.html",
+  "requests": [
+    {
+      "url": "http://127.0.0.1:4174/fiber-prototype.html",
+      "type": "document"
+    }
+  ],
+  "pageErrors": [],
+  "checks": [
+    {
+      "name": "display-name search offline",
+      "pass": true
+    },
+    {
+      "name": "grouped fiber offline",
+      "pass": true
+    },
+    {
+      "name": "strict trace offline",
+      "pass": true
+    },
+    {
+      "name": "candidate trace offline",
+      "pass": true
+    },
+    {
+      "name": "ODF50 typed alias offline",
+      "pass": true
+    },
+    {
+      "name": "full legacy alias offline",
+      "pass": true
+    },
+    {
+      "name": "mobile expanded tube offline",
+      "pass": true
+    }
+  ],
+  "offlineInteractions": true,
+  "externalRequests": [],
+  "doubleClickFileUrlAutomated": false
+}

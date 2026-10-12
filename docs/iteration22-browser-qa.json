@@ -1,0 +1,119 @@
+{
+  "desktop": [
+    {
+      "name": "SC218 F29 branch",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "sheetWidth": 1138,
+        "sheetClientWidth": 1138,
+        "selectedRows": 1,
+        "svgLines": 12,
+        "hash": "#/splice/closure/218?focus=fiber%3ACAB-000172%3A29"
+      }
+    },
+    {
+      "name": "SC219 F32 AP52",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "sheetWidth": 1138,
+        "sheetClientWidth": 1138,
+        "selectedRows": 1,
+        "svgLines": 8,
+        "hash": "#/splice/closure/219?focus=fiber%3ACAB-000176%3A32"
+      }
+    },
+    {
+      "name": "AGG5 Port175",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "sheetWidth": 1138,
+        "sheetClientWidth": 1138,
+        "selectedRows": 1,
+        "svgLines": 12,
+        "hash": "#/splice/aggregation/5?focus=port%3AODF-TSAGERI-01%3A175"
+      }
+    },
+    {
+      "name": "AP51 Port3",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "sheetWidth": 1138,
+        "sheetClientWidth": 1138,
+        "selectedRows": 1,
+        "svgLines": 24,
+        "hash": "#/splice/ap/51?focus=port%3A51%3A3"
+      }
+    },
+    {
+      "name": "SC224 Port38 branch",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "sheetWidth": 1138,
+        "sheetClientWidth": 1138,
+        "selectedRows": 1,
+        "svgLines": 16,
+        "hash": "#/splice/closure/224?focus=fiber%3ACAB-000184%3A38"
+      }
+    },
+    {
+      "name": "SC225 unresolved block",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "sheetWidth": 1138,
+        "sheetClientWidth": 1138,
+        "selectedRows": 1,
+        "svgLines": 8,
+        "hash": "#/splice/closure/225?focus=fiber%3ACAB-000181%3A6"
+      }
+    }
+  ],
+  "mobile": [
+    {
+      "name": "SC219 F32 mobile",
+      "state": {
+        "width": 390,
+        "scrollWidth": 390,
+        "sheetClientWidth": 372
+      }
+    },
+    {
+      "name": "AGG5 Port175 mobile",
+      "state": {
+        "width": 390,
+        "scrollWidth": 390,
+        "sheetClientWidth": 372
+      }
+    },
+    {
+      "name": "SC225 mobile",
+      "state": {
+        "width": 390,
+        "scrollWidth": 390,
+        "sheetClientWidth": 372
+      }
+    }
+  ],
+  "print": {
+    "sidebar": "none",
+    "sheet": "grid",
+    "printButton": "none"
+  },
+  "photo": {
+    "previews": 1,
+    "warning": true,
+    "primary": true
+  },
+  "standalone": {
+    "width": 1280,
+    "scrollWidth": 1280,
+    "scripts": 1,
+    "linkedStyles": 0
+  },
+  "logs": []
+}

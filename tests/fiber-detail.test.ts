@@ -1,0 +1,55 @@
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import test from 'node:test';
+import pilotJson from '../src/data/pilot.json';
+import { applyIteration10AggregationTopology, TSAGERI_ODF_ID, portRangeFor } from '../src/domain/aggregationTopology';
+import { applyIteration08CableRoute } from '../src/domain/cableRoutes';
+import { applyConfirmedC172Construction } from '../src/domain/colors';
+import { buildFiberDetailModel, fiberDetailAvailability } from '../src/domain/fiberDetail';
+import { applyIteration09Foundations } from '../src/domain/foundations';
+import { parseRoute } from '../src/domain/navigation';
+import { attachedCables, traceFiber } from '../src/domain/network';
+import { applyIteration07PathReview } from '../src/domain/pathReview';
+import type { Inventory } from '../src/domain/types';
+
+const build = () => applyIteration10AggregationTopology(applyIteration09Foundations(applyIteration08CableRoute(applyIteration07PathReview(applyConfirmedC172Construction(structuredClone(pilotJson) as Inventory)))));
+const model = (data: Inventory, cable: string, fiber: number) => buildFiberDetailModel(data, cable, fiber)!;
+const viewSource = readFileSync(new URL('../src/views/NetworkViews.tsx', import.meta.url), 'utf8');
+const fiberViewSource = viewSource.slice(viewSource.indexOf('export function FiberView'), viewSource.indexOf('export function TraceView'));
+const cssSource = readFileSync(new URL('../src/styles.css', import.meta.url), 'utf8');
+
+test('1 Fiber Detail renders its primary physical color once', () => {
+  assert.equal((fiberViewSource.match(/PhysicalColorIdentity color=\{record\.physicalColor\}/g) ?? []).length, 1);
+  const detail = model(build(), '172', 1);
+  assert.equal(detail.compactPhysical.split(detail.primaryPhysicalColor).length - 1, 1);
+});
+test('2 accepted and candidate continuations have distinct states and classes', () => {
+  assert.equal(model(build(), '172', 29).acceptedContinuations[0].state, 'accepted');
+  assert.equal(model(build(), '172', 1).candidateContinuations[0].state, 'candidate');
+  assert.match(fiberViewSource, /state-\$\{step\.state\}/);
+});
+test('3 a fiber with no accepted continuation stops explicitly', () => assert.match(model(build(), '172', 41).currentEventSummary, /No accepted connection at SC218/));
+test('4 a candidate continuation never becomes accepted', () => { const detail = model(build(), '172', 1); assert.equal(detail.acceptedContinuations.length, 0); assert.equal(detail.candidateContinuations.length, 1); });
+test('5 C172 F29 shows accepted C173 F01', () => assert.ok(model(build(), '172', 29).acceptedContinuations.some(item => item.label === 'C173/F01')));
+test('6 C172 F01 does not inherit F29 acceptance', () => assert.equal(model(build(), '172', 1).acceptedContinuations.some(item => item.label === 'C173/F01'), false));
+test('7 C172 F41 does not infer neighboring mappings', () => { const detail = model(build(), '172', 41); assert.equal(detail.continuations.length, 0); assert.equal(detail.pathSteps.filter(item => item.kind === 'fiber').length, 1); });
+test('8 Current Segment identity is distinct from PhysicalCable', () => { const detail = model(build(), '172', 1); assert.equal(detail.technical.canonicalSegmentId, 'CAB-000172'); assert.equal(detail.physicalCable?.id, 'PC-TSAGERI-SC218-01'); assert.notEqual(detail.technical.canonicalSegmentId, detail.physicalCable?.id); });
+test('9 PhysicalCable is distinct from Cable Route', () => { const detail = model(build(), '172', 1); assert.notEqual(detail.physicalCable?.id, detail.routeId); });
+test('10 Fiber Trace is distinct from PhysicalCable', () => { const detail = model(build(), '172', 29); assert.ok(detail.pathSteps.some(item => item.kind === 'fiber')); assert.equal(detail.pathSteps.some(item => item.id === detail.physicalCable?.id), false); });
+test('11 PhysicalCable ending at SC218 does not prevent optical continuation', () => { const detail = model(build(), '172', 29); assert.match(detail.physicalCable!.endB.label, /SC218/); assert.ok(detail.pathSteps.some(item => item.label === 'C173/F01')); });
+test('12 exact upstream ODF port remains unresolved', () => assert.equal(model(build(), '172', 1).exactUpstreamOdfPort, null));
+test('13 direction knowledge creates no exact port mapping', () => { const detail = model(build(), '172', 1); assert.match(detail.upstreamSummary, /Upstream of SC217/); assert.equal(detail.exactUpstreamOdfPort, null); });
+test('14 unknown fields are grouped without changing underlying values', () => { const data = build(); const detail = model(data, '172', 1); assert.ok(detail.needsClarification.includes('Fiber condition')); assert.equal(detail.fiber.condition, 'unknown'); assert.equal(detail.fiber.allocation, 'unknown'); });
+test('15 commercial unknown remains unknown', () => { const detail = model(build(), '172', 1); assert.equal(detail.usage, 'Unknown'); assert.equal(detail.commercialDetails[4].value, 'უცნობი'); });
+test('16 condition and availability remain independent', () => { const data = build(); const fiber = data.fibers.find(item => item.cableId === 'CAB-000172' && item.number === 41)!; fiber.condition = 'serviceable'; assert.equal(fiberDetailAvailability(data, fiber), 'Unknown'); });
+test('17 accepted number and color mismatch remains valid', () => { const detail = model(build(), '172', 29); const accepted = detail.acceptedContinuations.find(item => item.label === 'C173/F01')!; assert.notEqual(accepted.sourceColor, accepted.destinationColor); assert.equal(accepted.state, 'accepted'); });
+test('18 multiple candidates are counted without auto-selection', () => { const data = build(); const original = data.connections.find(item => !item.approved && item.location.kind === 'closure' && item.location.id === '218' && [item.a, item.z].some(end => end.kind === 'fiber' && end.cableId === 'CAB-000172' && end.fiber === 1))!; const duplicate = structuredClone(original); duplicate.id = 'SECOND-CANDIDATE'; if (duplicate.a.kind === 'fiber' && duplicate.a.cableId === 'CAB-000174') duplicate.a.fiber = 2; if (duplicate.z.kind === 'fiber' && duplicate.z.cableId === 'CAB-000174') duplicate.z.fiber = 2; data.connections.push(duplicate); const detail = model(data, '172', 1); assert.equal(detail.candidateContinuations.length, 2); assert.equal(detail.acceptedContinuations.length, 0); });
+test('19 Evidence remains a secondary disclosure', () => { assert.match(fiberViewSource, /<summary>Evidence \/ წყარო<\/summary>/); assert.ok(model(build(), '172', 1).evidenceSources.length >= 2); });
+test('20 legacy direct fiber links still resolve', () => assert.deepEqual(parseRoute('#/fiber/172/29'), { view: 'fiber', cableId: '172', fiber: 29 }));
+test('21 narrow layout uses a vertical path and prevents page-wide graph width', () => { assert.match(cssSource, /\.operational-path \{ display:grid/); assert.match(cssSource, /@media \(max-width:560px\).*\.operational-path-step\{grid-template-columns:20px minmax\(0,1fr\)/s); });
+test('22 Iteration10 192-port ODF behavior remains unchanged', () => { const data = build(); assert.equal(data.odfPorts!.filter(item => item.odfId === TSAGERI_ODF_ID).length, 192); assert.equal(portRangeFor(data, TSAGERI_ODF_ID, 145)?.destination.type, 'cable_route'); });
+test('23 Chkhuteli backfeed remains unchanged', () => { const range = build().accessPointPortRanges![0]; assert.deepEqual([range.accessPointId, range.startPort, range.endPort, range.internalMapping], ['41', 3, 22, 'unresolved']); });
+test('24 strict and candidate Trace behavior remains unchanged', () => { const data = build(); const strict = traceFiber(data, 'CAB-000172', 29, false); const candidate = traceFiber(data, 'CAB-000172', 29, true); assert.equal(strict.steps.some(item => item.kind === 'port'), false); assert.equal(candidate.steps.some(item => item.kind === 'port' && item.candidate), true); });
+test('25 SC216 still has no invented three-way optical mapping', () => { const data = build(); assert.equal(data.connections.some(item => item.location.kind === 'closure' && item.location.id === '216'), false); assert.equal(attachedCables(data, { kind: 'closure', id: '216' }).length, 3); });
+test('C171 F29 retains the reviewed path through C172 and C173 to AP51', () => { const detail = model(build(), '171', 29); assert.ok(detail.pathSteps.some(item => item.label === 'C172/F29')); assert.ok(detail.pathSteps.some(item => item.label === 'C173/F01')); assert.ok(detail.pathSteps.some(item => item.label === 'AP51')); });
+test('Fiber Detail source keeps technical and commercial data collapsed', () => { assert.match(fiberViewSource, /<summary>Technical Details<\/summary>/); assert.match(fiberViewSource, /<summary>Commercial details \/ კომერციული დეტალები<\/summary>/); });

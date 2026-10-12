@@ -1,0 +1,22 @@
+[
+  {
+    "query": "C169/F10",
+    "url": "file:///C:/Users/Beka/Desktop/Visio%20Alt/fiber-prototype.html#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=fiber%3ACAB-000169%3A10",
+    "text": "ჟილის ცნობილი გზა\nC169/F10\n\nF10 · იისფერი · ტუბი 1 · Silknet\n\nAGG5\nგაგრძელება წყაროში არ არის დადგენილი\nC148/F154\nSC205\nC148/F154 → C150/F154\nC150/F154\nSC206\nC150/F154 → C169/F10\nC169/F10\nSC216\nC171/F10\nSC217\nგაგრძელება წყაროში არ არის დადგენილი\nნაბიჯობრივი დათვალიერება\nწინა\nდაწყება\nშემდეგი\n1 / 5 · AGG5\nAGG5\n\nგაგრძელება წყაროში არ არის დადგენილი\n\nკვანძის დეტალები\nგზის წყარო და სრული ჩანაწერი"
+  },
+  {
+    "query": "C169/F11",
+    "url": "file:///C:/Users/Beka/Desktop/Visio%20Alt/fiber-prototype.html#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=fiber%3ACAB-000169%3A11",
+    "text": "ჟილის ცნობილი გზა\nC169/F11\n\nF11 · ვარდისფერი · ტუბი 1 · Silknet\n\nლენტეხის აგრეგაცია / Port 11\nპორტთან აღწევს\nC184/F11\nSC224\nC180/F11\nSC223\nC179/F11\nშუა ნაბიჯების გაშლა · 7\nSC206\nC169/F11 → C150/F155\nC150/F155\nSC205\nC150/F155 → C148/F155\nC148/F155\nAGG5\nგაგრძელება წყაროში არ არის დადგენილი\nნაბიჯობრივი დათვალიერება\nწინა\nდაწყება\nშემდეგი\n1 / 13 · ლენტეხის აგრეგაცია / Port 11\nლენტეხის აგრეგაცია / Port 11\n\nპორტთან აღწევს\n\nკვანძის დეტალები\nგზის წყარო და სრული ჩანაწერი"
+  },
+  {
+    "query": "C169/F12",
+    "url": "file:///C:/Users/Beka/Desktop/Visio%20Alt/fiber-prototype.html#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=fiber%3ACAB-000169%3A12",
+    "text": "ჟილის ცნობილი გზა\nC169/F12\n\nF12 · ცისფერი · ტუბი 1 · გამოყენების ჩანაწერი გადასამოწმებელია\n\nAGG5\nგაგრძელება წყაროში არ არის დადგენილი\nC148/F156\nSC205\nC148/F156 → C150/F156\nC150/F156\nSC206\nC150/F156 → C169/F12\nC169/F12\nSC216\nC171/F12\nSC217\nგაგრძელება წყაროში არ არის დადგენილი\nნაბიჯობრივი დათვალიერება\nწინა\nდაწყება\nშემდეგი\n1 / 5 · AGG5\nAGG5\n\nგაგრძელება წყაროში არ არის დადგენილი\n\nკვანძის დეტალები\nგზის წყარო და სრული ჩანაწერი"
+  },
+  {
+    "query": "C184/F12",
+    "url": "file:///C:/Users/Beka/Desktop/Visio%20Alt/fiber-prototype.html#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=fiber%3ACAB-000184%3A12",
+    "text": "ჟილის ცნობილი გზა\nC184/F12\n\nF12 · ცისფერი · ტუბი 1 · Skytel\n\nლენტეხის აგრეგაცია / Port 12\nპორტთან აღწევს\nC184/F12\nSC224\nC180/F12\nSC223\nC179/F12\nSC222\nC178/F12\nSC221\nC177/F12\nSC220\nC176/F12\nSC219\nC174/F12\nSC218\nC172/F12\nSC217\nგაგრძელება წყაროში არ არის დადგენილი\nნაბიჯობრივი დათვალიერება\nწინა\nდაწყება\nშემდეგი\n1 / 9 · ლენტეხის აგრეგაცია / Port 12\nლენტეხის აგრეგაცია / Port 12\n\nპორტთან აღწევს\n\nკვანძის დეტალები\nგზის წყარო და სრული ჩანაწერი"
+  }
+]

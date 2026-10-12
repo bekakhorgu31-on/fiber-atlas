@@ -1,0 +1,992 @@
+{
+  "c182ToC183Transitions": [
+    {
+      "a": {
+        "bankIndex": 1,
+        "effectiveInnerColor": "#ff00ff",
+        "effectiveOuterColor": "#0000ff",
+        "fiberColorKey": "rose",
+        "fiberNumber": 11,
+        "legacySegmentId": "182",
+        "markerShapeId": "37919",
+        "rawInnerColor": "#ff00ff",
+        "rawOuterColor": "4",
+        "segment": "182",
+        "tubeColorKey": "blue",
+        "tubeNumber": 1
+      },
+      "basis": [
+        "explicit_connect",
+        "source_geometry"
+      ],
+      "connectorShapeId": "37459",
+      "geometry": {
+        "begin": {
+          "x": 124.660153746605,
+          "y": 445.2121980112705
+        },
+        "end": {
+          "x": 133.1324537008891,
+          "y": 445.2287645417984
+        }
+      },
+      "transitionId": "NFT-SC225-37459",
+      "z": {
+        "bankIndex": 1,
+        "effectiveInnerColor": "#ff0000",
+        "effectiveOuterColor": "#f48c37",
+        "fiberColorKey": "red",
+        "fiberNumber": 19,
+        "legacySegmentId": "183",
+        "markerShapeId": "38471",
+        "rawInnerColor": "#ff0000",
+        "rawOuterColor": "#f48c37",
+        "segment": "183",
+        "tubeColorKey": "orange",
+        "tubeNumber": 2
+      }
+    },
+    {
+      "a": {
+        "bankIndex": 1,
+        "effectiveInnerColor": "#00ffff",
+        "effectiveOuterColor": "#0000ff",
+        "fiberColorKey": "aqua",
+        "fiberNumber": 12,
+        "legacySegmentId": "182",
+        "markerShapeId": "37921",
+        "rawInnerColor": "#00ffff",
+        "rawOuterColor": "4",
+        "segment": "182",
+        "tubeColorKey": "blue",
+        "tubeNumber": 1
+      },
+      "basis": [
+        "explicit_connect",
+        "source_geometry"
+      ],
+      "connectorShapeId": "37460",
+      "geometry": {
+        "begin": {
+          "x": 124.7513265605296,
+          "y": 445.2121980112705
+        },
+        "end": {
+          "x": 133.2249830989413,
+          "y": 445.2279878605119
+        }
+      },
+      "transitionId": "NFT-SC225-37460",
+      "z": {
+        "bankIndex": 1,
+        "effectiveInnerColor": "#000000",
+        "effectiveOuterColor": "#f48c37",
+        "fiberColorKey": "black",
+        "fiberNumber": 20,
+        "legacySegmentId": "183",
+        "markerShapeId": "38472",
+        "rawInnerColor": "#000000",
+        "rawOuterColor": "#f48c37",
+        "segment": "183",
+        "tubeColorKey": "orange",
+        "tubeNumber": 2
+      }
+    },
+    {
+      "a": {
+        "bankIndex": 1,
+        "effectiveInnerColor": "#0000ff",
+        "effectiveOuterColor": "#0000ff",
+        "fiberColorKey": "blue",
+        "fiberNumber": 13,
+        "legacySegmentId": "182",
+        "markerShapeId": "37935",
+        "rawInnerColor": "4",
+        "rawOuterColor": "4",
+        "segment": "182",
+        "tubeColorKey": "orange",
+        "tubeNumber": 2
+      },
+      "basis": [
+        "explicit_connect",
+        "source_geometry"
+      ],
+      "connectorShapeId": "37461",
+      "geometry": {
+        "begin": {
+          "x": 124.8424993744541,
+          "y": 445.2121980112705
+        },
+        "end": {
+          "x": 133.311925895771,
+          "y": 445.2279878605119
+        }
+      },
+      "transitionId": "NFT-SC225-37461",
+      "z": {
+        "bankIndex": 1,
+        "effectiveInnerColor": "#ffff00",
+        "effectiveOuterColor": "#f48c37",
+        "fiberColorKey": "yellow",
+        "fiberNumber": 21,
+        "legacySegmentId": "183",
+        "markerShapeId": "38473",
+        "rawInnerColor": "#ffff00",
+        "rawOuterColor": "#f48c37",
+        "segment": "183",
+        "tubeColorKey": "orange",
+        "tubeNumber": 2
+      }
+    },
+    {
+      "a": {
+        "bankIndex": 1,
+        "effectiveInnerColor": "#f48c37",
+        "effectiveOuterColor": "#f48c37",
+        "fiberColorKey": "orange",
+        "fiberNumber": 14,
+        "legacySegmentId": "182",
+        "markerShapeId": "37936",
+        "rawInnerColor": "#f48c37",
+        "rawOuterColor": "#f48c37",
+        "segment": "182",
+        "tubeColorKey": "orange",
+        "tubeNumber": 2
+      },
+      "basis": [
+        "explicit_connect",
+        "source_geometry"
+      ],
+      "connectorShapeId": "37462",
+      "geometry": {
+        "begin": {
+          "x": 124.9390580540024,
+          "y": 445.2121980112705
+        },
+        "end": {
+          "x": 133.4030987096956,
+          "y": 445.2279878605119
+        }
+      },
+      "transitionId": "NFT-SC225-37462",
+      "z": {
+        "bankIndex": 1,
+        "effectiveInnerColor": "#cc99ff",
+        "effectiveOuterColor": "#ea700d",
+        "fiberColorKey": "violet",
+        "fiberNumber": 22,
+        "legacySegmentId": "183",
+        "markerShapeId": "38490",
+        "rawInnerColor": "#cc99ff",
+        "rawOuterColor": "#ea700d",
+        "segment": "183",
+        "tubeColorKey": "orange",
+        "tubeNumber": 2
+      }
+    },
+    {
+      "a": {
+        "bankIndex": 1,
+        "effectiveInnerColor": "#008000",
+        "effectiveOuterColor": "#f48c37",
+        "fiberColorKey": "green",
+        "fiberNumber": 15,
+        "legacySegmentId": "182",
+        "markerShapeId": "37937",
+        "rawInnerColor": "9",
+        "rawOuterColor": "#f48c37",
+        "segment": "182",
+        "tubeColorKey": "orange",
+        "tubeNumber": 2
+      },
+      "basis": [
+        "explicit_connect",
+        "source_geometry"
+      ],
+      "connectorShapeId": "37463",
+      "geometry": {
+        "begin": {
+          "x": 125.0249955540024,
+          "y": 445.2129746925569
+        },
+        "end": {
+          "x": 133.4942715236202,
+          "y": 445.2279878605119
+        }
+      },
+      "transitionId": "NFT-SC225-37463",
+      "z": {
+        "bankIndex": 1,
+        "effectiveInnerColor": "#ff00ff",
+        "effectiveOuterColor": "#ea700d",
+        "fiberColorKey": "rose",
+        "fiberNumber": 23,
+        "legacySegmentId": "183",
+        "markerShapeId": "38489",
+        "rawInnerColor": "#ff00ff",
+        "rawOuterColor": "#ea700d",
+        "segment": "183",
+        "tubeColorKey": "orange",
+        "tubeNumber": 2
+      }
+    },
+    {
+      "a": {
+        "bankIndex": 1,
+        "effectiveInnerColor": "#9c4a09",
+        "effectiveOuterColor": "#f48c37",
+        "fiberColorKey": "brown",
+        "fiberNumber": 16,
+        "legacySegmentId": "182",
+        "markerShapeId": "37938",
+        "rawInnerColor": "#9c4a09",
+        "rawOuterColor": "#f48c37",
+        "segment": "182",
+        "tubeColorKey": "orange",
+        "tubeNumber": 2
+      },
+      "basis": [
+        "explicit_connect",
+        "source_geometry"
+      ],
+      "connectorShapeId": "37464",
+      "geometry": {
+        "begin": {
+          "x": 125.1160178162279,
+          "y": 445.2121980112705
+        },
+        "end": {
+          "x": 133.5854443375447,
+          "y": 445.2279878605119
+        }
+      },
+      "transitionId": "NFT-SC225-37464",
+      "z": {
+        "bankIndex": 1,
+        "effectiveInnerColor": "#00ffff",
+        "effectiveOuterColor": "#f48c37",
+        "fiberColorKey": "aqua",
+        "fiberNumber": 24,
+        "legacySegmentId": "183",
+        "markerShapeId": "38474",
+        "rawInnerColor": "#00ffff",
+        "rawOuterColor": "#f48c37",
+        "segment": "183",
+        "tubeColorKey": "orange",
+        "tubeNumber": 2
+      }
+    },
+    {
+      "a": {
+        "bankIndex": 1,
+        "effectiveInnerColor": "#cc99ff",
+        "effectiveOuterColor": "#0000ff",
+        "fiberColorKey": "violet",
+        "fiberNumber": 10,
+        "legacySegmentId": "182",
+        "markerShapeId": "37920",
+        "rawInnerColor": "#cc99ff",
+        "rawOuterColor": "4",
+        "segment": "182",
+        "tubeColorKey": "blue",
+        "tubeNumber": 1
+      },
+      "basis": [
+        "explicit_connect",
+        "source_geometry"
+      ],
+      "connectorShapeId": "37465",
+      "geometry": {
+        "begin": {
+          "x": 124.5667437020546,
+          "y": 445.2170400819921
+        },
+        "end": {
+          "x": 133.0465162008891,
+          "y": 445.2279878605119
+        }
+      },
+      "transitionId": "NFT-SC225-37465",
+      "z": {
+        "bankIndex": 1,
+        "effectiveInnerColor": "#ffffff",
+        "effectiveOuterColor": "#f48c37",
+        "fiberColorKey": "white",
+        "fiberNumber": 18,
+        "legacySegmentId": "183",
+        "markerShapeId": "38470",
+        "rawInnerColor": "1",
+        "rawOuterColor": "#f48c37",
+        "segment": "183",
+        "tubeColorKey": "orange",
+        "tubeNumber": 2
+      }
+    },
+    {
+      "a": {
+        "bankIndex": 1,
+        "effectiveInnerColor": "#ffff00",
+        "effectiveOuterColor": "#0000ff",
+        "fiberColorKey": "yellow",
+        "fiberNumber": 9,
+        "legacySegmentId": "182",
+        "markerShapeId": "37918",
+        "rawInnerColor": "#ffff00",
+        "rawOuterColor": "4",
+        "segment": "182",
+        "tubeColorKey": "blue",
+        "tubeNumber": 1
+      },
+      "basis": [
+        "explicit_connect",
+        "source_geometry"
+      ],
+      "connectorShapeId": "37466",
+      "geometry": {
+        "begin": {
+          "x": 124.4755708881301,
+          "y": 445.2170400819921
+        },
+        "end": {
+          "x": 132.9514646571676,
+          "y": 445.2279878605119
+        }
+      },
+      "transitionId": "NFT-SC225-37466",
+      "z": {
+        "bankIndex": 1,
+        "effectiveInnerColor": "#808080",
+        "effectiveOuterColor": "#f48c37",
+        "fiberColorKey": "slate",
+        "fiberNumber": 17,
+        "legacySegmentId": "183",
+        "markerShapeId": "38465",
+        "rawInnerColor": "19",
+        "rawOuterColor": "#f48c37",
+        "segment": "183",
+        "tubeColorKey": "orange",
+        "tubeNumber": 2
+      }
+    },
+    {
+      "a": {
+        "bankIndex": 1,
+        "effectiveInnerColor": "#000000",
+        "effectiveOuterColor": "#0000ff",
+        "fiberColorKey": "black",
+        "fiberNumber": 8,
+        "legacySegmentId": "182",
+        "markerShapeId": "37917",
+        "rawInnerColor": "#000000",
+        "rawOuterColor": "4",
+        "segment": "182",
+        "tubeColorKey": "blue",
+        "tubeNumber": 1
+      },
+      "basis": [
+        "explicit_connect",
+        "source_geometry"
+      ],
+      "connectorShapeId": "37467",
+      "geometry": {
+        "begin": {
+          "x": 124.3843980742055,
+          "y": 445.2170400819921
+        },
+        "end": {
+          "x": 132.860291843243,
+          "y": 445.2279878605119
+        }
+      },
+      "transitionId": "NFT-SC225-37467",
+      "z": {
+        "bankIndex": 1,
+        "effectiveInnerColor": "#9c4a09",
+        "effectiveOuterColor": "#f48c37",
+        "fiberColorKey": "brown",
+        "fiberNumber": 16,
+        "legacySegmentId": "183",
+        "markerShapeId": "38469",
+        "rawInnerColor": "#9c4a09",
+        "rawOuterColor": "#f48c37",
+        "segment": "183",
+        "tubeColorKey": "orange",
+        "tubeNumber": 2
+      }
+    },
+    {
+      "a": {
+        "bankIndex": 1,
+        "effectiveInnerColor": "#ff0000",
+        "effectiveOuterColor": "#0000ff",
+        "fiberColorKey": "red",
+        "fiberNumber": 7,
+        "legacySegmentId": "182",
+        "markerShapeId": "37916",
+        "rawInnerColor": "#ff0000",
+        "rawOuterColor": "4",
+        "segment": "182",
+        "tubeColorKey": "blue",
+        "tubeNumber": 1
+      },
+      "basis": [
+        "explicit_connect",
+        "source_geometry"
+      ],
+      "connectorShapeId": "37468",
+      "geometry": {
+        "begin": {
+          "x": 124.2932252602809,
+          "y": 445.2170400819921
+        },
+        "end": {
+          "x": 132.7691190293185,
+          "y": 445.2279878605119
+        }
+      },
+      "transitionId": "NFT-SC225-37468",
+      "z": {
+        "bankIndex": 1,
+        "effectiveInnerColor": "#008000",
+        "effectiveOuterColor": "#f48c37",
+        "fiberColorKey": "green",
+        "fiberNumber": 15,
+        "legacySegmentId": "183",
+        "markerShapeId": "38468",
+        "rawInnerColor": "9",
+        "rawOuterColor": "#f48c37",
+        "segment": "183",
+        "tubeColorKey": "orange",
+        "tubeNumber": 2
+      }
+    },
+    {
+      "a": {
+        "bankIndex": 1,
+        "effectiveInnerColor": "#ffffff",
+        "effectiveOuterColor": "#0000ff",
+        "fiberColorKey": "white",
+        "fiberNumber": 6,
+        "legacySegmentId": "182",
+        "markerShapeId": "37915",
+        "rawInnerColor": "1",
+        "rawOuterColor": "4",
+        "segment": "182",
+        "tubeColorKey": "blue",
+        "tubeNumber": 1
+      },
+      "basis": [
+        "explicit_connect",
+        "source_geometry"
+      ],
+      "connectorShapeId": "37469",
+      "geometry": {
+        "begin": {
+          "x": 124.2020524463563,
+          "y": 445.2170400819921
+        },
+        "end": {
+          "x": 132.6779462153939,
+          "y": 445.2279878605118
+        }
+      },
+      "transitionId": "NFT-SC225-37469",
+      "z": {
+        "bankIndex": 1,
+        "effectiveInnerColor": "#f48c37",
+        "effectiveOuterColor": "#f48c37",
+        "fiberColorKey": "orange",
+        "fiberNumber": 14,
+        "legacySegmentId": "183",
+        "markerShapeId": "38467",
+        "rawInnerColor": "#f48c37",
+        "rawOuterColor": "#f48c37",
+        "segment": "183",
+        "tubeColorKey": "orange",
+        "tubeNumber": 2
+      }
+    },
+    {
+      "a": {
+        "bankIndex": 1,
+        "effectiveInnerColor": "#808080",
+        "effectiveOuterColor": "#0000ff",
+        "fiberColorKey": "slate",
+        "fiberNumber": 5,
+        "legacySegmentId": "182",
+        "markerShapeId": "37910",
+        "rawInnerColor": "19",
+        "rawOuterColor": "4",
+        "segment": "182",
+        "tubeColorKey": "blue",
+        "tubeNumber": 1
+      },
+      "basis": [
+        "explicit_connect",
+        "source_geometry"
+      ],
+      "connectorShapeId": "37470",
+      "geometry": {
+        "begin": {
+          "x": 124.1108796324318,
+          "y": 445.2170400819921
+        },
+        "end": {
+          "x": 132.5867734014693,
+          "y": 445.2279878605118
+        }
+      },
+      "transitionId": "NFT-SC225-37470",
+      "z": {
+        "bankIndex": 1,
+        "effectiveInnerColor": "#0000ff",
+        "effectiveOuterColor": "#0000ff",
+        "fiberColorKey": "blue",
+        "fiberNumber": 13,
+        "legacySegmentId": "183",
+        "markerShapeId": "38466",
+        "rawInnerColor": "4",
+        "rawOuterColor": "4",
+        "segment": "183",
+        "tubeColorKey": "orange",
+        "tubeNumber": 2
+      }
+    }
+  ],
+  "cableLabels": {
+    "181": {
+      "exactLabel": "181-224-225-24",
+      "fromToken": "224",
+      "shapeId": "37984",
+      "toToken": "225"
+    },
+    "182": {
+      "exactLabel": "182-225-53-24",
+      "fromToken": "225",
+      "shapeId": "37907",
+      "toToken": "53"
+    },
+    "183": {
+      "exactLabel": "183-225-54-24",
+      "fromToken": "225",
+      "shapeId": "38438",
+      "toToken": "54"
+    }
+  },
+  "counts": {
+    "c182C183ExactTransitions": 12,
+    "exactC181Routes": 8,
+    "ownerAnchoredUnresolved": 1,
+    "unresolved": 15
+  },
+  "deterministic": true,
+  "identityConflict": {
+    "actualCertifiedSource": {
+      "182": "182-225-53-24",
+      "183": "183-225-54-24"
+    },
+    "expectedInBrief": {
+      "182": "182-225-54-24",
+      "183": "183-225-53-24"
+    },
+    "resolution": "Certified VSDX source wins: C182 remains AP53 and C183 remains AP54. No swap is projected."
+  },
+  "interpreter": "interpret-iteration25-source.py/1",
+  "page": "ცაგერი-ლენტეხი",
+  "pageId": "4",
+  "part": "visio/pages/page1.xml",
+  "rawArtifactSha256": "e14e79f5930a1b063db11e4db53d2ac47925fb49ffc3a915449468a54cfb066f",
+  "rows": [
+    {
+      "classification": "exact",
+      "incomingFiberNumber": 1,
+      "incomingLegacySegmentId": "181",
+      "outgoing": {
+        "basis": [
+          "source_geometry"
+        ],
+        "connectorShapeId": "33325",
+        "destination": "AP54",
+        "geometry": {
+          "begin": {
+            "x": 123.023434996605,
+            "y": 451.9742341301898
+          },
+          "end": {
+            "x": 123.023434996605,
+            "y": 445.2173611049747
+          }
+        },
+        "outgoingFiberNumber": 1,
+        "outgoingLegacySegmentId": "183",
+        "transitionId": "NFT-SC225-33325"
+      },
+      "ownerConfirmedAPSide": false,
+      "sourceShapeIds": [
+        "33325"
+      ],
+      "unresolvedReason": null
+    },
+    {
+      "classification": "exact",
+      "incomingFiberNumber": 2,
+      "incomingLegacySegmentId": "181",
+      "outgoing": {
+        "basis": [
+          "source_geometry"
+        ],
+        "connectorShapeId": "33326",
+        "destination": "AP54",
+        "geometry": {
+          "begin": {
+            "x": 123.109372496605,
+            "y": 451.9742341301898
+          },
+          "end": {
+            "x": 123.109372496605,
+            "y": 445.2173611049747
+          }
+        },
+        "outgoingFiberNumber": 2,
+        "outgoingLegacySegmentId": "183",
+        "transitionId": "NFT-SC225-33326"
+      },
+      "ownerConfirmedAPSide": false,
+      "sourceShapeIds": [
+        "33326"
+      ],
+      "unresolvedReason": null
+    },
+    {
+      "classification": "exact",
+      "incomingFiberNumber": 3,
+      "incomingLegacySegmentId": "181",
+      "outgoing": {
+        "basis": [
+          "source_geometry"
+        ],
+        "connectorShapeId": "33327",
+        "destination": "AP54",
+        "geometry": {
+          "begin": {
+            "x": 123.203122496605,
+            "y": 451.9742341301898
+          },
+          "end": {
+            "x": 123.203122496605,
+            "y": 445.2173611049747
+          }
+        },
+        "outgoingFiberNumber": 3,
+        "outgoingLegacySegmentId": "183",
+        "transitionId": "NFT-SC225-33327"
+      },
+      "ownerConfirmedAPSide": false,
+      "sourceShapeIds": [
+        "33327"
+      ],
+      "unresolvedReason": null
+    },
+    {
+      "classification": "exact",
+      "incomingFiberNumber": 4,
+      "incomingLegacySegmentId": "181",
+      "outgoing": {
+        "basis": [
+          "source_geometry"
+        ],
+        "connectorShapeId": "33328",
+        "destination": "AP54",
+        "geometry": {
+          "begin": {
+            "x": 123.289059996605,
+            "y": 451.9713389126855
+          },
+          "end": {
+            "x": 123.289059996605,
+            "y": 445.2173611049747
+          }
+        },
+        "outgoingFiberNumber": 4,
+        "outgoingLegacySegmentId": "183",
+        "transitionId": "NFT-SC225-33328"
+      },
+      "ownerConfirmedAPSide": false,
+      "sourceShapeIds": [
+        "33328"
+      ],
+      "unresolvedReason": null
+    },
+    {
+      "classification": "unresolved",
+      "incomingFiberNumber": 5,
+      "incomingLegacySegmentId": "181",
+      "outgoing": null,
+      "ownerConfirmedAPSide": false,
+      "sourceShapeIds": [],
+      "unresolvedReason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end."
+    },
+    {
+      "classification": "owner_confirmed_ap_side_exact_ap_unresolved",
+      "incomingFiberNumber": 6,
+      "incomingLegacySegmentId": "181",
+      "outgoing": null,
+      "ownerConfirmedAPSide": true,
+      "sourceShapeIds": [],
+      "unresolvedReason": "Owner confirms AP-side continuation, but no source connector reaches C182 or C183."
+    },
+    {
+      "classification": "unresolved",
+      "incomingFiberNumber": 7,
+      "incomingLegacySegmentId": "181",
+      "outgoing": null,
+      "ownerConfirmedAPSide": false,
+      "sourceShapeIds": [],
+      "unresolvedReason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end."
+    },
+    {
+      "classification": "unresolved",
+      "incomingFiberNumber": 8,
+      "incomingLegacySegmentId": "181",
+      "outgoing": null,
+      "ownerConfirmedAPSide": false,
+      "sourceShapeIds": [],
+      "unresolvedReason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end."
+    },
+    {
+      "classification": "unresolved",
+      "incomingFiberNumber": 9,
+      "incomingLegacySegmentId": "181",
+      "outgoing": null,
+      "ownerConfirmedAPSide": false,
+      "sourceShapeIds": [],
+      "unresolvedReason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end."
+    },
+    {
+      "classification": "unresolved",
+      "incomingFiberNumber": 10,
+      "incomingLegacySegmentId": "181",
+      "outgoing": null,
+      "ownerConfirmedAPSide": false,
+      "sourceShapeIds": [],
+      "unresolvedReason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end."
+    },
+    {
+      "classification": "unresolved",
+      "incomingFiberNumber": 11,
+      "incomingLegacySegmentId": "181",
+      "outgoing": null,
+      "ownerConfirmedAPSide": false,
+      "sourceShapeIds": [],
+      "unresolvedReason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end."
+    },
+    {
+      "classification": "unresolved",
+      "incomingFiberNumber": 12,
+      "incomingLegacySegmentId": "181",
+      "outgoing": null,
+      "ownerConfirmedAPSide": false,
+      "sourceShapeIds": [],
+      "unresolvedReason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end."
+    },
+    {
+      "classification": "exact",
+      "incomingFiberNumber": 13,
+      "incomingLegacySegmentId": "181",
+      "outgoing": {
+        "basis": [
+          "explicit_connect",
+          "source_geometry"
+        ],
+        "connectorShapeId": "33321",
+        "destination": "AP53",
+        "geometry": {
+          "begin": {
+            "x": 124.106194228903,
+            "y": 451.9673611049747
+          },
+          "end": {
+            "x": 132.222082145771,
+            "y": 445.2279878605119
+          }
+        },
+        "outgoingFiberNumber": 1,
+        "outgoingLegacySegmentId": "182",
+        "transitionId": "NFT-SC225-33321"
+      },
+      "ownerConfirmedAPSide": false,
+      "sourceShapeIds": [
+        "33321"
+      ],
+      "unresolvedReason": null
+    },
+    {
+      "classification": "exact",
+      "incomingFiberNumber": 14,
+      "incomingLegacySegmentId": "181",
+      "outgoing": {
+        "basis": [
+          "explicit_connect",
+          "source_geometry"
+        ],
+        "connectorShapeId": "33322",
+        "destination": "AP53",
+        "geometry": {
+          "begin": {
+            "x": 124.1973670428275,
+            "y": 451.9673611049747
+          },
+          "end": {
+            "x": 132.3132549596955,
+            "y": 445.2279878605119
+          }
+        },
+        "outgoingFiberNumber": 2,
+        "outgoingLegacySegmentId": "182",
+        "transitionId": "NFT-SC225-33322"
+      },
+      "ownerConfirmedAPSide": false,
+      "sourceShapeIds": [
+        "33322"
+      ],
+      "unresolvedReason": null
+    },
+    {
+      "classification": "exact",
+      "incomingFiberNumber": 15,
+      "incomingLegacySegmentId": "181",
+      "outgoing": {
+        "basis": [
+          "explicit_connect",
+          "source_geometry"
+        ],
+        "connectorShapeId": "33323",
+        "destination": "AP53",
+        "geometry": {
+          "begin": {
+            "x": 124.2885398567521,
+            "y": 451.9673611049747
+          },
+          "end": {
+            "x": 132.4044277736201,
+            "y": 445.2279878605119
+          }
+        },
+        "outgoingFiberNumber": 3,
+        "outgoingLegacySegmentId": "182",
+        "transitionId": "NFT-SC225-33323"
+      },
+      "ownerConfirmedAPSide": false,
+      "sourceShapeIds": [
+        "33323"
+      ],
+      "unresolvedReason": null
+    },
+    {
+      "classification": "exact",
+      "incomingFiberNumber": 16,
+      "incomingLegacySegmentId": "181",
+      "outgoing": {
+        "basis": [
+          "explicit_connect",
+          "source_geometry"
+        ],
+        "connectorShapeId": "33324",
+        "destination": "AP53",
+        "geometry": {
+          "begin": {
+            "x": 124.3797126706767,
+            "y": 451.9673611049747
+          },
+          "end": {
+            "x": 132.4956005875447,
+            "y": 445.2279878605119
+          }
+        },
+        "outgoingFiberNumber": 4,
+        "outgoingLegacySegmentId": "182",
+        "transitionId": "NFT-SC225-33324"
+      },
+      "ownerConfirmedAPSide": false,
+      "sourceShapeIds": [
+        "33324"
+      ],
+      "unresolvedReason": null
+    },
+    {
+      "classification": "unresolved",
+      "incomingFiberNumber": 17,
+      "incomingLegacySegmentId": "181",
+      "outgoing": null,
+      "ownerConfirmedAPSide": false,
+      "sourceShapeIds": [],
+      "unresolvedReason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end."
+    },
+    {
+      "classification": "unresolved",
+      "incomingFiberNumber": 18,
+      "incomingLegacySegmentId": "181",
+      "outgoing": null,
+      "ownerConfirmedAPSide": false,
+      "sourceShapeIds": [],
+      "unresolvedReason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end."
+    },
+    {
+      "classification": "unresolved",
+      "incomingFiberNumber": 19,
+      "incomingLegacySegmentId": "181",
+      "outgoing": null,
+      "ownerConfirmedAPSide": false,
+      "sourceShapeIds": [],
+      "unresolvedReason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end."
+    },
+    {
+      "classification": "unresolved",
+      "incomingFiberNumber": 20,
+      "incomingLegacySegmentId": "181",
+      "outgoing": null,
+      "ownerConfirmedAPSide": false,
+      "sourceShapeIds": [],
+      "unresolvedReason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end."
+    },
+    {
+      "classification": "unresolved",
+      "incomingFiberNumber": 21,
+      "incomingLegacySegmentId": "181",
+      "outgoing": null,
+      "ownerConfirmedAPSide": false,
+      "sourceShapeIds": [],
+      "unresolvedReason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end."
+    },
+    {
+      "classification": "unresolved",
+      "incomingFiberNumber": 22,
+      "incomingLegacySegmentId": "181",
+      "outgoing": null,
+      "ownerConfirmedAPSide": false,
+      "sourceShapeIds": [],
+      "unresolvedReason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end."
+    },
+    {
+      "classification": "unresolved",
+      "incomingFiberNumber": 23,
+      "incomingLegacySegmentId": "181",
+      "outgoing": null,
+      "ownerConfirmedAPSide": false,
+      "sourceShapeIds": [],
+      "unresolvedReason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end."
+    },
+    {
+      "classification": "unresolved",
+      "incomingFiberNumber": 24,
+      "incomingLegacySegmentId": "181",
+      "outgoing": null,
+      "ownerConfirmedAPSide": false,
+      "sourceShapeIds": [],
+      "unresolvedReason": "No source connector from the SC225-side C181 marker reaches C182 or C183; no termination symbol establishes an intentional end."
+    }
+  ],
+  "schemaVersion": 1,
+  "sourceFile": "Tsageri-Lentekhi 2025.vsdx",
+  "sourceSha256": "caae4badc9c8c30be0a5fa3ef26352c3e534a9de7c66e830ef470466bb34a6fa"
+}

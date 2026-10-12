@@ -1,0 +1,20 @@
+{
+  "archivedAt": "2026-09-29",
+  "reason": "Iteration 24 certification before active-source switch",
+  "sourceSha256": "caae4badc9c8c30be0a5fa3ef26352c3e534a9de7c66e830ef470466bb34a6fa",
+  "files": [
+    "src\\data\\iteration23-fresh-summary.json",
+    "src\\data\\iteration23-fresh-transitions.json",
+    "src\\data\\iteration23-physical-construction.json",
+    "src\\data\\iteration23-port-bindings.json",
+    "src\\data\\iteration23-port-occupancy.json",
+    "src\\data\\iteration23-connection-reconciliation.json",
+    "src\\data\\iteration23-transition-diff.json",
+    "src\\data\\source-annotations.json",
+    "docs\\ITERATION-23-VSDX-IMPORT-AUDIT.md",
+    "docs\\ITERATION-23-FULL-CONNECTION-RECONCILIATION.md",
+    "docs\\ITERATION-23-PORT-OCCUPANCY-AUDIT.md",
+    "HANDOFF.md",
+    "docs\\VALIDATION.md"
+  ]
+}

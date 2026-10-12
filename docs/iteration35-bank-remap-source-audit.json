@@ -1,0 +1,2250 @@
+{
+  "scope": "saved local owner draft snapshot; candidate analysis only; no owner activation",
+  "ownerServerReads": 0,
+  "ownerServerWrites": 0,
+  "sourceRevision": "DOC-545093bf-a649-4f02-9847-64a244e33255/e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+  "candidates": [
+    {
+      "node": {
+        "kind": "network_node",
+        "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+      },
+      "portId": "SHIDA-PORT-0577d12545bf9f9c3bde83ec",
+      "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+      "portCount": 24,
+      "bindingCount": 23,
+      "offset": 1,
+      "status": "review_candidate",
+      "label": "AP18 · Kvemo Shakshaketi",
+      "legacyLabels": [
+        "25-128-25020-18-24"
+      ]
+    }
+  ],
+  "ap18": {
+    "bankRows": [
+      {
+        "portId": "SHIDA-PORT-0577d12545bf9f9c3bde83ec",
+        "portNumber": 1,
+        "before": null,
+        "after": {
+          "id": "OPERATOR-BINDING-11111111-2222-4333-8444-555555555555",
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 1,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 1,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "blue",
+            "nameKa": "ლურჯი",
+            "nameEn": "Blue",
+            "hex": "#0000ff",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "role": "local_termination",
+          "directionLabel": "Owner-confirmed bank Remap / Port 1",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "owner_confirmed",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown.",
+            "page": "Page-1",
+            "part": "visio/pages/page1.xml",
+            "pageId": "0",
+            "shapeIds": [
+              "12158"
+            ],
+            "importRunId": "3d389223-d477-43db-8839-19bdd9da00e5",
+            "sourceRevision": "DOC-545093bf-a649-4f02-9847-64a244e33255/e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+            "interpretationRule": "operator-ap-bank-remap/1"
+          },
+          "notes": [
+            "Owner-confirmed bank correction; original geometry preserved; field verification not established.",
+            "Owner confirms AP18 Port bank shifted left in drawing; this selected bank is F1→Port1 through F24→Port24."
+          ]
+        }
+      },
+      {
+        "portId": "SHIDA-PORT-3cb38f75f251a5c495ad4ec9",
+        "portNumber": 2,
+        "before": {
+          "id": "SHIDA-BINDING-3cb38f75f251a5c495ad4ec9",
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 2,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 1,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "blue",
+            "nameKa": "ლურჯი",
+            "nameEn": "Blue",
+            "hex": "#0000ff",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "role": "local_termination",
+          "directionLabel": "AP18 · Port 2",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "source_interpreted",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "page": "Page-1",
+            "pageId": "0",
+            "part": "visio/pages/page1.xml",
+            "shapeIds": [
+              "12159",
+              "12111",
+              "12198",
+              "12195"
+            ],
+            "interpretationRule": "shida-source-local-semantics/2",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown."
+          },
+          "notes": [
+            "Exact source Port rectangle and marker-attached stroke; service usage and physical operation unknown."
+          ]
+        },
+        "after": {
+          "id": "OPERATOR-BINDING-11111111-2222-4333-8444-555555555556",
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 2,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 2,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "orange",
+            "nameKa": "ნარინჯისფერი",
+            "nameEn": "Orange",
+            "hex": "#f48c37",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "role": "local_termination",
+          "directionLabel": "Owner-confirmed bank Remap / Port 2",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "owner_confirmed",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown.",
+            "page": "Page-1",
+            "part": "visio/pages/page1.xml",
+            "pageId": "0",
+            "shapeIds": [
+              "12158"
+            ],
+            "importRunId": "3d389223-d477-43db-8839-19bdd9da00e5",
+            "sourceRevision": "DOC-545093bf-a649-4f02-9847-64a244e33255/e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+            "interpretationRule": "operator-ap-bank-remap/1"
+          },
+          "notes": [
+            "Owner-confirmed bank correction; original geometry preserved; field verification not established.",
+            "Owner confirms AP18 Port bank shifted left in drawing; this selected bank is F1→Port1 through F24→Port24."
+          ]
+        }
+      },
+      {
+        "portId": "SHIDA-PORT-6ee9ee76b3d54502fad39059",
+        "portNumber": 3,
+        "before": {
+          "id": "SHIDA-BINDING-6ee9ee76b3d54502fad39059",
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 3,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 2,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "orange",
+            "nameKa": "ნარინჯისფერი",
+            "nameEn": "Orange",
+            "hex": "#f48c37",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "role": "local_termination",
+          "directionLabel": "AP18 · Port 3",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "source_interpreted",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "page": "Page-1",
+            "pageId": "0",
+            "part": "visio/pages/page1.xml",
+            "shapeIds": [
+              "12160",
+              "12112",
+              "12199",
+              "12195"
+            ],
+            "interpretationRule": "shida-source-local-semantics/2",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown."
+          },
+          "notes": [
+            "Exact source Port rectangle and marker-attached stroke; service usage and physical operation unknown."
+          ]
+        },
+        "after": {
+          "id": "OPERATOR-BINDING-11111111-2222-4333-8444-555555555557",
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 3,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 3,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "green",
+            "nameKa": "მწვანე",
+            "nameEn": "Green",
+            "hex": "#008000",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "role": "local_termination",
+          "directionLabel": "Owner-confirmed bank Remap / Port 3",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "owner_confirmed",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown.",
+            "page": "Page-1",
+            "part": "visio/pages/page1.xml",
+            "pageId": "0",
+            "shapeIds": [
+              "12158"
+            ],
+            "importRunId": "3d389223-d477-43db-8839-19bdd9da00e5",
+            "sourceRevision": "DOC-545093bf-a649-4f02-9847-64a244e33255/e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+            "interpretationRule": "operator-ap-bank-remap/1"
+          },
+          "notes": [
+            "Owner-confirmed bank correction; original geometry preserved; field verification not established.",
+            "Owner confirms AP18 Port bank shifted left in drawing; this selected bank is F1→Port1 through F24→Port24."
+          ]
+        }
+      },
+      {
+        "portId": "SHIDA-PORT-994e41aeb16673ab5c32fa15",
+        "portNumber": 4,
+        "before": {
+          "id": "SHIDA-BINDING-994e41aeb16673ab5c32fa15",
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 4,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 3,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "green",
+            "nameKa": "მწვანე",
+            "nameEn": "Green",
+            "hex": "#008000",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "role": "local_termination",
+          "directionLabel": "AP18 · Port 4",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "source_interpreted",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "page": "Page-1",
+            "pageId": "0",
+            "part": "visio/pages/page1.xml",
+            "shapeIds": [
+              "12161",
+              "12113",
+              "12200",
+              "12195"
+            ],
+            "interpretationRule": "shida-source-local-semantics/2",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown."
+          },
+          "notes": [
+            "Exact source Port rectangle and marker-attached stroke; service usage and physical operation unknown."
+          ]
+        },
+        "after": {
+          "id": "OPERATOR-BINDING-11111111-2222-4333-8444-555555555558",
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 4,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 4,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "brown",
+            "nameKa": "ყავისფერი",
+            "nameEn": "Brown",
+            "hex": "#9c4a09",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "role": "local_termination",
+          "directionLabel": "Owner-confirmed bank Remap / Port 4",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "owner_confirmed",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown.",
+            "page": "Page-1",
+            "part": "visio/pages/page1.xml",
+            "pageId": "0",
+            "shapeIds": [
+              "12158"
+            ],
+            "importRunId": "3d389223-d477-43db-8839-19bdd9da00e5",
+            "sourceRevision": "DOC-545093bf-a649-4f02-9847-64a244e33255/e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+            "interpretationRule": "operator-ap-bank-remap/1"
+          },
+          "notes": [
+            "Owner-confirmed bank correction; original geometry preserved; field verification not established.",
+            "Owner confirms AP18 Port bank shifted left in drawing; this selected bank is F1→Port1 through F24→Port24."
+          ]
+        }
+      },
+      {
+        "portId": "SHIDA-PORT-786029c70bd3aec6bc472499",
+        "portNumber": 5,
+        "before": {
+          "id": "SHIDA-BINDING-786029c70bd3aec6bc472499",
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 5,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 4,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "brown",
+            "nameKa": "ყავისფერი",
+            "nameEn": "Brown",
+            "hex": "#9c4a09",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "role": "local_termination",
+          "directionLabel": "AP18 · Port 5",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "source_interpreted",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "page": "Page-1",
+            "pageId": "0",
+            "part": "visio/pages/page1.xml",
+            "shapeIds": [
+              "12162",
+              "12114",
+              "12201",
+              "12195"
+            ],
+            "interpretationRule": "shida-source-local-semantics/2",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown."
+          },
+          "notes": [
+            "Exact source Port rectangle and marker-attached stroke; service usage and physical operation unknown."
+          ]
+        },
+        "after": {
+          "id": "OPERATOR-BINDING-11111111-2222-4333-8444-555555555559",
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 5,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 5,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "slate",
+            "nameKa": "ნაცრისფერი",
+            "nameEn": "Slate",
+            "hex": "#808080",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "role": "local_termination",
+          "directionLabel": "Owner-confirmed bank Remap / Port 5",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "owner_confirmed",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown.",
+            "page": "Page-1",
+            "part": "visio/pages/page1.xml",
+            "pageId": "0",
+            "shapeIds": [
+              "12158"
+            ],
+            "importRunId": "3d389223-d477-43db-8839-19bdd9da00e5",
+            "sourceRevision": "DOC-545093bf-a649-4f02-9847-64a244e33255/e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+            "interpretationRule": "operator-ap-bank-remap/1"
+          },
+          "notes": [
+            "Owner-confirmed bank correction; original geometry preserved; field verification not established.",
+            "Owner confirms AP18 Port bank shifted left in drawing; this selected bank is F1→Port1 through F24→Port24."
+          ]
+        }
+      },
+      {
+        "portId": "SHIDA-PORT-c3db38f4cd837ad123ef5504",
+        "portNumber": 6,
+        "before": {
+          "id": "SHIDA-BINDING-c3db38f4cd837ad123ef5504",
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 6,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 5,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "slate",
+            "nameKa": "ნაცრისფერი",
+            "nameEn": "Slate",
+            "hex": "#808080",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "role": "local_termination",
+          "directionLabel": "AP18 · Port 6",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "source_interpreted",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "page": "Page-1",
+            "pageId": "0",
+            "part": "visio/pages/page1.xml",
+            "shapeIds": [
+              "12163",
+              "12115",
+              "12197",
+              "12195"
+            ],
+            "interpretationRule": "shida-source-local-semantics/2",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown."
+          },
+          "notes": [
+            "Exact source Port rectangle and marker-attached stroke; service usage and physical operation unknown."
+          ]
+        },
+        "after": {
+          "id": "OPERATOR-BINDING-11111111-2222-4333-8444-55555555555a",
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 6,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 6,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "white",
+            "nameKa": "თეთრი",
+            "nameEn": "White",
+            "hex": "#ffffff",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "role": "local_termination",
+          "directionLabel": "Owner-confirmed bank Remap / Port 6",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "owner_confirmed",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown.",
+            "page": "Page-1",
+            "part": "visio/pages/page1.xml",
+            "pageId": "0",
+            "shapeIds": [
+              "12158"
+            ],
+            "importRunId": "3d389223-d477-43db-8839-19bdd9da00e5",
+            "sourceRevision": "DOC-545093bf-a649-4f02-9847-64a244e33255/e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+            "interpretationRule": "operator-ap-bank-remap/1"
+          },
+          "notes": [
+            "Owner-confirmed bank correction; original geometry preserved; field verification not established.",
+            "Owner confirms AP18 Port bank shifted left in drawing; this selected bank is F1→Port1 through F24→Port24."
+          ]
+        }
+      },
+      {
+        "portId": "SHIDA-PORT-880306aea85be8396f15ef47",
+        "portNumber": 7,
+        "before": {
+          "id": "SHIDA-BINDING-880306aea85be8396f15ef47",
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 7,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 6,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "white",
+            "nameKa": "თეთრი",
+            "nameEn": "White",
+            "hex": "#ffffff",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "role": "local_termination",
+          "directionLabel": "AP18 · Port 7",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "source_interpreted",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "page": "Page-1",
+            "pageId": "0",
+            "part": "visio/pages/page1.xml",
+            "shapeIds": [
+              "12164",
+              "12116",
+              "12202",
+              "12195"
+            ],
+            "interpretationRule": "shida-source-local-semantics/2",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown."
+          },
+          "notes": [
+            "Exact source Port rectangle and marker-attached stroke; service usage and physical operation unknown."
+          ]
+        },
+        "after": {
+          "id": "OPERATOR-BINDING-11111111-2222-4333-8444-55555555555b",
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 7,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 7,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "red",
+            "nameKa": "წითელი",
+            "nameEn": "Red",
+            "hex": "#ff0000",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "role": "local_termination",
+          "directionLabel": "Owner-confirmed bank Remap / Port 7",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "owner_confirmed",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown.",
+            "page": "Page-1",
+            "part": "visio/pages/page1.xml",
+            "pageId": "0",
+            "shapeIds": [
+              "12158"
+            ],
+            "importRunId": "3d389223-d477-43db-8839-19bdd9da00e5",
+            "sourceRevision": "DOC-545093bf-a649-4f02-9847-64a244e33255/e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+            "interpretationRule": "operator-ap-bank-remap/1"
+          },
+          "notes": [
+            "Owner-confirmed bank correction; original geometry preserved; field verification not established.",
+            "Owner confirms AP18 Port bank shifted left in drawing; this selected bank is F1→Port1 through F24→Port24."
+          ]
+        }
+      },
+      {
+        "portId": "SHIDA-PORT-d1d9b138b0dd4bb022319309",
+        "portNumber": 8,
+        "before": {
+          "id": "SHIDA-BINDING-d1d9b138b0dd4bb022319309",
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 8,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 7,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "red",
+            "nameKa": "წითელი",
+            "nameEn": "Red",
+            "hex": "#ff0000",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "role": "local_termination",
+          "directionLabel": "AP18 · Port 8",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "source_interpreted",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "page": "Page-1",
+            "pageId": "0",
+            "part": "visio/pages/page1.xml",
+            "shapeIds": [
+              "12165",
+              "12117",
+              "12203",
+              "12195"
+            ],
+            "interpretationRule": "shida-source-local-semantics/2",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown."
+          },
+          "notes": [
+            "Exact source Port rectangle and marker-attached stroke; service usage and physical operation unknown."
+          ]
+        },
+        "after": {
+          "id": "OPERATOR-BINDING-11111111-2222-4333-8444-55555555555c",
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 8,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 8,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "black",
+            "nameKa": "შავი",
+            "nameEn": "Black",
+            "hex": "#000000",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "role": "local_termination",
+          "directionLabel": "Owner-confirmed bank Remap / Port 8",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "owner_confirmed",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown.",
+            "page": "Page-1",
+            "part": "visio/pages/page1.xml",
+            "pageId": "0",
+            "shapeIds": [
+              "12158"
+            ],
+            "importRunId": "3d389223-d477-43db-8839-19bdd9da00e5",
+            "sourceRevision": "DOC-545093bf-a649-4f02-9847-64a244e33255/e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+            "interpretationRule": "operator-ap-bank-remap/1"
+          },
+          "notes": [
+            "Owner-confirmed bank correction; original geometry preserved; field verification not established.",
+            "Owner confirms AP18 Port bank shifted left in drawing; this selected bank is F1→Port1 through F24→Port24."
+          ]
+        }
+      },
+      {
+        "portId": "SHIDA-PORT-c1eda6b331ed344e5a6f4a71",
+        "portNumber": 9,
+        "before": {
+          "id": "SHIDA-BINDING-c1eda6b331ed344e5a6f4a71",
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 9,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 8,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "black",
+            "nameKa": "შავი",
+            "nameEn": "Black",
+            "hex": "#000000",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "role": "local_termination",
+          "directionLabel": "AP18 · Port 9",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "source_interpreted",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "page": "Page-1",
+            "pageId": "0",
+            "part": "visio/pages/page1.xml",
+            "shapeIds": [
+              "12166",
+              "12118",
+              "12204",
+              "12195"
+            ],
+            "interpretationRule": "shida-source-local-semantics/2",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown."
+          },
+          "notes": [
+            "Exact source Port rectangle and marker-attached stroke; service usage and physical operation unknown."
+          ]
+        },
+        "after": {
+          "id": "OPERATOR-BINDING-11111111-2222-4333-8444-55555555555d",
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 9,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 9,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "yellow",
+            "nameKa": "ყვითელი",
+            "nameEn": "Yellow",
+            "hex": "#ffff00",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "role": "local_termination",
+          "directionLabel": "Owner-confirmed bank Remap / Port 9",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "owner_confirmed",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown.",
+            "page": "Page-1",
+            "part": "visio/pages/page1.xml",
+            "pageId": "0",
+            "shapeIds": [
+              "12158"
+            ],
+            "importRunId": "3d389223-d477-43db-8839-19bdd9da00e5",
+            "sourceRevision": "DOC-545093bf-a649-4f02-9847-64a244e33255/e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+            "interpretationRule": "operator-ap-bank-remap/1"
+          },
+          "notes": [
+            "Owner-confirmed bank correction; original geometry preserved; field verification not established.",
+            "Owner confirms AP18 Port bank shifted left in drawing; this selected bank is F1→Port1 through F24→Port24."
+          ]
+        }
+      },
+      {
+        "portId": "SHIDA-PORT-a2d3d839d5613d7fd673dfea",
+        "portNumber": 10,
+        "before": {
+          "id": "SHIDA-BINDING-a2d3d839d5613d7fd673dfea",
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 10,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 9,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "yellow",
+            "nameKa": "ყვითელი",
+            "nameEn": "Yellow",
+            "hex": "#ffff00",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "role": "local_termination",
+          "directionLabel": "AP18 · Port 10",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "source_interpreted",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "page": "Page-1",
+            "pageId": "0",
+            "part": "visio/pages/page1.xml",
+            "shapeIds": [
+              "12167",
+              "12119",
+              "12205",
+              "12195"
+            ],
+            "interpretationRule": "shida-source-local-semantics/2",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown."
+          },
+          "notes": [
+            "Exact source Port rectangle and marker-attached stroke; service usage and physical operation unknown."
+          ]
+        },
+        "after": {
+          "id": "OPERATOR-BINDING-11111111-2222-4333-8444-55555555555e",
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 10,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 10,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "violet",
+            "nameKa": "იისფერი",
+            "nameEn": "Violet",
+            "hex": "#cc99ff",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "role": "local_termination",
+          "directionLabel": "Owner-confirmed bank Remap / Port 10",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "owner_confirmed",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown.",
+            "page": "Page-1",
+            "part": "visio/pages/page1.xml",
+            "pageId": "0",
+            "shapeIds": [
+              "12158"
+            ],
+            "importRunId": "3d389223-d477-43db-8839-19bdd9da00e5",
+            "sourceRevision": "DOC-545093bf-a649-4f02-9847-64a244e33255/e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+            "interpretationRule": "operator-ap-bank-remap/1"
+          },
+          "notes": [
+            "Owner-confirmed bank correction; original geometry preserved; field verification not established.",
+            "Owner confirms AP18 Port bank shifted left in drawing; this selected bank is F1→Port1 through F24→Port24."
+          ]
+        }
+      },
+      {
+        "portId": "SHIDA-PORT-d44db445d20a04f864f3f899",
+        "portNumber": 11,
+        "before": {
+          "id": "SHIDA-BINDING-d44db445d20a04f864f3f899",
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 11,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 10,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "violet",
+            "nameKa": "იისფერი",
+            "nameEn": "Violet",
+            "hex": "#cc99ff",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "role": "local_termination",
+          "directionLabel": "AP18 · Port 11",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "source_interpreted",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "page": "Page-1",
+            "pageId": "0",
+            "part": "visio/pages/page1.xml",
+            "shapeIds": [
+              "12168",
+              "12120",
+              "12207",
+              "12195"
+            ],
+            "interpretationRule": "shida-source-local-semantics/2",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown."
+          },
+          "notes": [
+            "Exact source Port rectangle and marker-attached stroke; service usage and physical operation unknown."
+          ]
+        },
+        "after": {
+          "id": "OPERATOR-BINDING-11111111-2222-4333-8444-55555555555f",
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 11,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 11,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "rose",
+            "nameKa": "ვარდისფერი",
+            "nameEn": "Rose",
+            "hex": "#ff00ff",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "role": "local_termination",
+          "directionLabel": "Owner-confirmed bank Remap / Port 11",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "owner_confirmed",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown.",
+            "page": "Page-1",
+            "part": "visio/pages/page1.xml",
+            "pageId": "0",
+            "shapeIds": [
+              "12158"
+            ],
+            "importRunId": "3d389223-d477-43db-8839-19bdd9da00e5",
+            "sourceRevision": "DOC-545093bf-a649-4f02-9847-64a244e33255/e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+            "interpretationRule": "operator-ap-bank-remap/1"
+          },
+          "notes": [
+            "Owner-confirmed bank correction; original geometry preserved; field verification not established.",
+            "Owner confirms AP18 Port bank shifted left in drawing; this selected bank is F1→Port1 through F24→Port24."
+          ]
+        }
+      },
+      {
+        "portId": "SHIDA-PORT-a4f88b4354815fbb18669608",
+        "portNumber": 12,
+        "before": {
+          "id": "SHIDA-BINDING-a4f88b4354815fbb18669608",
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 12,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 11,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "rose",
+            "nameKa": "ვარდისფერი",
+            "nameEn": "Rose",
+            "hex": "#ff00ff",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "role": "local_termination",
+          "directionLabel": "AP18 · Port 12",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "source_interpreted",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "page": "Page-1",
+            "pageId": "0",
+            "part": "visio/pages/page1.xml",
+            "shapeIds": [
+              "12169",
+              "12121",
+              "12206",
+              "12195"
+            ],
+            "interpretationRule": "shida-source-local-semantics/2",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown."
+          },
+          "notes": [
+            "Exact source Port rectangle and marker-attached stroke; service usage and physical operation unknown."
+          ]
+        },
+        "after": {
+          "id": "OPERATOR-BINDING-11111111-2222-4333-8444-555555555560",
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 12,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 12,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "aqua",
+            "nameKa": "ცისფერი",
+            "nameEn": "Aqua",
+            "hex": "#00ffff",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "role": "local_termination",
+          "directionLabel": "Owner-confirmed bank Remap / Port 12",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "owner_confirmed",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown.",
+            "page": "Page-1",
+            "part": "visio/pages/page1.xml",
+            "pageId": "0",
+            "shapeIds": [
+              "12158"
+            ],
+            "importRunId": "3d389223-d477-43db-8839-19bdd9da00e5",
+            "sourceRevision": "DOC-545093bf-a649-4f02-9847-64a244e33255/e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+            "interpretationRule": "operator-ap-bank-remap/1"
+          },
+          "notes": [
+            "Owner-confirmed bank correction; original geometry preserved; field verification not established.",
+            "Owner confirms AP18 Port bank shifted left in drawing; this selected bank is F1→Port1 through F24→Port24."
+          ]
+        }
+      },
+      {
+        "portId": "SHIDA-PORT-4fb8d89f02adead3726eb5ee",
+        "portNumber": 13,
+        "before": {
+          "id": "SHIDA-BINDING-4fb8d89f02adead3726eb5ee",
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 13,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 12,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "aqua",
+            "nameKa": "ცისფერი",
+            "nameEn": "Aqua",
+            "hex": "#00ffff",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "role": "local_termination",
+          "directionLabel": "AP18 · Port 13",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "source_interpreted",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "page": "Page-1",
+            "pageId": "0",
+            "part": "visio/pages/page1.xml",
+            "shapeIds": [
+              "12170",
+              "12146",
+              "12208",
+              "12195"
+            ],
+            "interpretationRule": "shida-source-local-semantics/2",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown."
+          },
+          "notes": [
+            "Exact source Port rectangle and marker-attached stroke; service usage and physical operation unknown."
+          ]
+        },
+        "after": {
+          "id": "OPERATOR-BINDING-11111111-2222-4333-8444-555555555561",
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 13,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 13,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "blue",
+            "nameKa": "ლურჯი",
+            "nameEn": "Blue",
+            "hex": "#0000ff",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "role": "local_termination",
+          "directionLabel": "Owner-confirmed bank Remap / Port 13",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "owner_confirmed",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown.",
+            "page": "Page-1",
+            "part": "visio/pages/page1.xml",
+            "pageId": "0",
+            "shapeIds": [
+              "12158"
+            ],
+            "importRunId": "3d389223-d477-43db-8839-19bdd9da00e5",
+            "sourceRevision": "DOC-545093bf-a649-4f02-9847-64a244e33255/e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+            "interpretationRule": "operator-ap-bank-remap/1"
+          },
+          "notes": [
+            "Owner-confirmed bank correction; original geometry preserved; field verification not established.",
+            "Owner confirms AP18 Port bank shifted left in drawing; this selected bank is F1→Port1 through F24→Port24."
+          ]
+        }
+      },
+      {
+        "portId": "SHIDA-PORT-0c747d5b326d86a0dce973d0",
+        "portNumber": 14,
+        "before": {
+          "id": "SHIDA-BINDING-0c747d5b326d86a0dce973d0",
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 14,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 13,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "blue",
+            "nameKa": "ლურჯი",
+            "nameEn": "Blue",
+            "hex": "#0000ff",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "role": "local_termination",
+          "directionLabel": "AP18 · Port 14",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "source_interpreted",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "page": "Page-1",
+            "pageId": "0",
+            "part": "visio/pages/page1.xml",
+            "shapeIds": [
+              "12171",
+              "12147",
+              "12222",
+              "12195"
+            ],
+            "interpretationRule": "shida-source-local-semantics/2",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown."
+          },
+          "notes": [
+            "Exact source Port rectangle and marker-attached stroke; service usage and physical operation unknown."
+          ]
+        },
+        "after": {
+          "id": "OPERATOR-BINDING-11111111-2222-4333-8444-555555555562",
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 14,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 14,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "orange",
+            "nameKa": "ნარინჯისფერი",
+            "nameEn": "Orange",
+            "hex": "#f48c37",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "role": "local_termination",
+          "directionLabel": "Owner-confirmed bank Remap / Port 14",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "owner_confirmed",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown.",
+            "page": "Page-1",
+            "part": "visio/pages/page1.xml",
+            "pageId": "0",
+            "shapeIds": [
+              "12158"
+            ],
+            "importRunId": "3d389223-d477-43db-8839-19bdd9da00e5",
+            "sourceRevision": "DOC-545093bf-a649-4f02-9847-64a244e33255/e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+            "interpretationRule": "operator-ap-bank-remap/1"
+          },
+          "notes": [
+            "Owner-confirmed bank correction; original geometry preserved; field verification not established.",
+            "Owner confirms AP18 Port bank shifted left in drawing; this selected bank is F1→Port1 through F24→Port24."
+          ]
+        }
+      },
+      {
+        "portId": "SHIDA-PORT-09793d8b5d8eea0a561a3f9c",
+        "portNumber": 15,
+        "before": {
+          "id": "SHIDA-BINDING-09793d8b5d8eea0a561a3f9c",
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 15,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 14,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "orange",
+            "nameKa": "ნარინჯისფერი",
+            "nameEn": "Orange",
+            "hex": "#f48c37",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "role": "local_termination",
+          "directionLabel": "AP18 · Port 15",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "source_interpreted",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "page": "Page-1",
+            "pageId": "0",
+            "part": "visio/pages/page1.xml",
+            "shapeIds": [
+              "12172",
+              "12148",
+              "12223",
+              "12195"
+            ],
+            "interpretationRule": "shida-source-local-semantics/2",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown."
+          },
+          "notes": [
+            "Exact source Port rectangle and marker-attached stroke; service usage and physical operation unknown."
+          ]
+        },
+        "after": {
+          "id": "OPERATOR-BINDING-11111111-2222-4333-8444-555555555563",
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 15,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 15,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "green",
+            "nameKa": "მწვანე",
+            "nameEn": "Green",
+            "hex": "#008000",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "role": "local_termination",
+          "directionLabel": "Owner-confirmed bank Remap / Port 15",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "owner_confirmed",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown.",
+            "page": "Page-1",
+            "part": "visio/pages/page1.xml",
+            "pageId": "0",
+            "shapeIds": [
+              "12158"
+            ],
+            "importRunId": "3d389223-d477-43db-8839-19bdd9da00e5",
+            "sourceRevision": "DOC-545093bf-a649-4f02-9847-64a244e33255/e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+            "interpretationRule": "operator-ap-bank-remap/1"
+          },
+          "notes": [
+            "Owner-confirmed bank correction; original geometry preserved; field verification not established.",
+            "Owner confirms AP18 Port bank shifted left in drawing; this selected bank is F1→Port1 through F24→Port24."
+          ]
+        }
+      },
+      {
+        "portId": "SHIDA-PORT-4ddf737fb87f854ef071e81a",
+        "portNumber": 16,
+        "before": {
+          "id": "SHIDA-BINDING-4ddf737fb87f854ef071e81a",
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 16,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 15,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "green",
+            "nameKa": "მწვანე",
+            "nameEn": "Green",
+            "hex": "#008000",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "role": "local_termination",
+          "directionLabel": "AP18 · Port 16",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "source_interpreted",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "page": "Page-1",
+            "pageId": "0",
+            "part": "visio/pages/page1.xml",
+            "shapeIds": [
+              "12173",
+              "12149",
+              "12224",
+              "12195"
+            ],
+            "interpretationRule": "shida-source-local-semantics/2",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown."
+          },
+          "notes": [
+            "Exact source Port rectangle and marker-attached stroke; service usage and physical operation unknown."
+          ]
+        },
+        "after": {
+          "id": "OPERATOR-BINDING-11111111-2222-4333-8444-555555555564",
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 16,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 16,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "brown",
+            "nameKa": "ყავისფერი",
+            "nameEn": "Brown",
+            "hex": "#9c4a09",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "role": "local_termination",
+          "directionLabel": "Owner-confirmed bank Remap / Port 16",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "owner_confirmed",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown.",
+            "page": "Page-1",
+            "part": "visio/pages/page1.xml",
+            "pageId": "0",
+            "shapeIds": [
+              "12158"
+            ],
+            "importRunId": "3d389223-d477-43db-8839-19bdd9da00e5",
+            "sourceRevision": "DOC-545093bf-a649-4f02-9847-64a244e33255/e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+            "interpretationRule": "operator-ap-bank-remap/1"
+          },
+          "notes": [
+            "Owner-confirmed bank correction; original geometry preserved; field verification not established.",
+            "Owner confirms AP18 Port bank shifted left in drawing; this selected bank is F1→Port1 through F24→Port24."
+          ]
+        }
+      },
+      {
+        "portId": "SHIDA-PORT-bc050279b621d01d16e6ec8f",
+        "portNumber": 17,
+        "before": {
+          "id": "SHIDA-BINDING-bc050279b621d01d16e6ec8f",
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 17,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 16,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "brown",
+            "nameKa": "ყავისფერი",
+            "nameEn": "Brown",
+            "hex": "#9c4a09",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "role": "local_termination",
+          "directionLabel": "AP18 · Port 17",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "source_interpreted",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "page": "Page-1",
+            "pageId": "0",
+            "part": "visio/pages/page1.xml",
+            "shapeIds": [
+              "12174",
+              "12150",
+              "12225",
+              "12195"
+            ],
+            "interpretationRule": "shida-source-local-semantics/2",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown."
+          },
+          "notes": [
+            "Exact source Port rectangle and marker-attached stroke; service usage and physical operation unknown."
+          ]
+        },
+        "after": {
+          "id": "OPERATOR-BINDING-11111111-2222-4333-8444-555555555565",
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 17,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 17,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "slate",
+            "nameKa": "ნაცრისფერი",
+            "nameEn": "Slate",
+            "hex": "#808080",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "role": "local_termination",
+          "directionLabel": "Owner-confirmed bank Remap / Port 17",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "owner_confirmed",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown.",
+            "page": "Page-1",
+            "part": "visio/pages/page1.xml",
+            "pageId": "0",
+            "shapeIds": [
+              "12158"
+            ],
+            "importRunId": "3d389223-d477-43db-8839-19bdd9da00e5",
+            "sourceRevision": "DOC-545093bf-a649-4f02-9847-64a244e33255/e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+            "interpretationRule": "operator-ap-bank-remap/1"
+          },
+          "notes": [
+            "Owner-confirmed bank correction; original geometry preserved; field verification not established.",
+            "Owner confirms AP18 Port bank shifted left in drawing; this selected bank is F1→Port1 through F24→Port24."
+          ]
+        }
+      },
+      {
+        "portId": "SHIDA-PORT-bfca5482e258dd21d665ac4c",
+        "portNumber": 18,
+        "before": {
+          "id": "SHIDA-BINDING-bfca5482e258dd21d665ac4c",
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 18,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 17,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "slate",
+            "nameKa": "ნაცრისფერი",
+            "nameEn": "Slate",
+            "hex": "#808080",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "role": "local_termination",
+          "directionLabel": "AP18 · Port 18",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "source_interpreted",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "page": "Page-1",
+            "pageId": "0",
+            "part": "visio/pages/page1.xml",
+            "shapeIds": [
+              "12175",
+              "12151",
+              "12221",
+              "12195"
+            ],
+            "interpretationRule": "shida-source-local-semantics/2",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown."
+          },
+          "notes": [
+            "Exact source Port rectangle and marker-attached stroke; service usage and physical operation unknown."
+          ]
+        },
+        "after": {
+          "id": "OPERATOR-BINDING-11111111-2222-4333-8444-555555555566",
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 18,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 18,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "white",
+            "nameKa": "თეთრი",
+            "nameEn": "White",
+            "hex": "#ffffff",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "role": "local_termination",
+          "directionLabel": "Owner-confirmed bank Remap / Port 18",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "owner_confirmed",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown.",
+            "page": "Page-1",
+            "part": "visio/pages/page1.xml",
+            "pageId": "0",
+            "shapeIds": [
+              "12158"
+            ],
+            "importRunId": "3d389223-d477-43db-8839-19bdd9da00e5",
+            "sourceRevision": "DOC-545093bf-a649-4f02-9847-64a244e33255/e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+            "interpretationRule": "operator-ap-bank-remap/1"
+          },
+          "notes": [
+            "Owner-confirmed bank correction; original geometry preserved; field verification not established.",
+            "Owner confirms AP18 Port bank shifted left in drawing; this selected bank is F1→Port1 through F24→Port24."
+          ]
+        }
+      },
+      {
+        "portId": "SHIDA-PORT-5fe2e0ab3d2a9d15fd012501",
+        "portNumber": 19,
+        "before": {
+          "id": "SHIDA-BINDING-5fe2e0ab3d2a9d15fd012501",
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 19,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 18,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "white",
+            "nameKa": "თეთრი",
+            "nameEn": "White",
+            "hex": "#ffffff",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "role": "local_termination",
+          "directionLabel": "AP18 · Port 19",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "source_interpreted",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "page": "Page-1",
+            "pageId": "0",
+            "part": "visio/pages/page1.xml",
+            "shapeIds": [
+              "12176",
+              "12152",
+              "12226",
+              "12195"
+            ],
+            "interpretationRule": "shida-source-local-semantics/2",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown."
+          },
+          "notes": [
+            "Exact source Port rectangle and marker-attached stroke; service usage and physical operation unknown."
+          ]
+        },
+        "after": {
+          "id": "OPERATOR-BINDING-11111111-2222-4333-8444-555555555567",
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 19,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 19,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "red",
+            "nameKa": "წითელი",
+            "nameEn": "Red",
+            "hex": "#ff0000",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "role": "local_termination",
+          "directionLabel": "Owner-confirmed bank Remap / Port 19",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "owner_confirmed",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown.",
+            "page": "Page-1",
+            "part": "visio/pages/page1.xml",
+            "pageId": "0",
+            "shapeIds": [
+              "12158"
+            ],
+            "importRunId": "3d389223-d477-43db-8839-19bdd9da00e5",
+            "sourceRevision": "DOC-545093bf-a649-4f02-9847-64a244e33255/e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+            "interpretationRule": "operator-ap-bank-remap/1"
+          },
+          "notes": [
+            "Owner-confirmed bank correction; original geometry preserved; field verification not established.",
+            "Owner confirms AP18 Port bank shifted left in drawing; this selected bank is F1→Port1 through F24→Port24."
+          ]
+        }
+      },
+      {
+        "portId": "SHIDA-PORT-f3cbbf5392b8a6175b43e71e",
+        "portNumber": 20,
+        "before": {
+          "id": "SHIDA-BINDING-f3cbbf5392b8a6175b43e71e",
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 20,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 19,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "red",
+            "nameKa": "წითელი",
+            "nameEn": "Red",
+            "hex": "#ff0000",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "role": "local_termination",
+          "directionLabel": "AP18 · Port 20",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "source_interpreted",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "page": "Page-1",
+            "pageId": "0",
+            "part": "visio/pages/page1.xml",
+            "shapeIds": [
+              "12177",
+              "12153",
+              "12227",
+              "12195"
+            ],
+            "interpretationRule": "shida-source-local-semantics/2",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown."
+          },
+          "notes": [
+            "Exact source Port rectangle and marker-attached stroke; service usage and physical operation unknown."
+          ]
+        },
+        "after": {
+          "id": "OPERATOR-BINDING-11111111-2222-4333-8444-555555555568",
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 20,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 20,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "black",
+            "nameKa": "შავი",
+            "nameEn": "Black",
+            "hex": "#000000",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "role": "local_termination",
+          "directionLabel": "Owner-confirmed bank Remap / Port 20",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "owner_confirmed",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown.",
+            "page": "Page-1",
+            "part": "visio/pages/page1.xml",
+            "pageId": "0",
+            "shapeIds": [
+              "12158"
+            ],
+            "importRunId": "3d389223-d477-43db-8839-19bdd9da00e5",
+            "sourceRevision": "DOC-545093bf-a649-4f02-9847-64a244e33255/e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+            "interpretationRule": "operator-ap-bank-remap/1"
+          },
+          "notes": [
+            "Owner-confirmed bank correction; original geometry preserved; field verification not established.",
+            "Owner confirms AP18 Port bank shifted left in drawing; this selected bank is F1→Port1 through F24→Port24."
+          ]
+        }
+      },
+      {
+        "portId": "SHIDA-PORT-dbc0ac40abc72738da7eb18e",
+        "portNumber": 21,
+        "before": {
+          "id": "SHIDA-BINDING-dbc0ac40abc72738da7eb18e",
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 21,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 20,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "black",
+            "nameKa": "შავი",
+            "nameEn": "Black",
+            "hex": "#000000",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "role": "local_termination",
+          "directionLabel": "AP18 · Port 21",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "source_interpreted",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "page": "Page-1",
+            "pageId": "0",
+            "part": "visio/pages/page1.xml",
+            "shapeIds": [
+              "12178",
+              "12154",
+              "12228",
+              "12195"
+            ],
+            "interpretationRule": "shida-source-local-semantics/2",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown."
+          },
+          "notes": [
+            "Exact source Port rectangle and marker-attached stroke; service usage and physical operation unknown."
+          ]
+        },
+        "after": {
+          "id": "OPERATOR-BINDING-11111111-2222-4333-8444-555555555569",
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 21,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 21,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "yellow",
+            "nameKa": "ყვითელი",
+            "nameEn": "Yellow",
+            "hex": "#ffff00",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "role": "local_termination",
+          "directionLabel": "Owner-confirmed bank Remap / Port 21",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "owner_confirmed",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown.",
+            "page": "Page-1",
+            "part": "visio/pages/page1.xml",
+            "pageId": "0",
+            "shapeIds": [
+              "12158"
+            ],
+            "importRunId": "3d389223-d477-43db-8839-19bdd9da00e5",
+            "sourceRevision": "DOC-545093bf-a649-4f02-9847-64a244e33255/e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+            "interpretationRule": "operator-ap-bank-remap/1"
+          },
+          "notes": [
+            "Owner-confirmed bank correction; original geometry preserved; field verification not established.",
+            "Owner confirms AP18 Port bank shifted left in drawing; this selected bank is F1→Port1 through F24→Port24."
+          ]
+        }
+      },
+      {
+        "portId": "SHIDA-PORT-a0e2d6977b2f8efa269e7d7b",
+        "portNumber": 22,
+        "before": {
+          "id": "SHIDA-BINDING-a0e2d6977b2f8efa269e7d7b",
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 22,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 21,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "yellow",
+            "nameKa": "ყვითელი",
+            "nameEn": "Yellow",
+            "hex": "#ffff00",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "role": "local_termination",
+          "directionLabel": "AP18 · Port 22",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "source_interpreted",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "page": "Page-1",
+            "pageId": "0",
+            "part": "visio/pages/page1.xml",
+            "shapeIds": [
+              "12179",
+              "12155",
+              "12229",
+              "12195"
+            ],
+            "interpretationRule": "shida-source-local-semantics/2",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown."
+          },
+          "notes": [
+            "Exact source Port rectangle and marker-attached stroke; service usage and physical operation unknown."
+          ]
+        },
+        "after": {
+          "id": "OPERATOR-BINDING-11111111-2222-4333-8444-55555555556a",
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 22,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 22,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "violet",
+            "nameKa": "იისფერი",
+            "nameEn": "Violet",
+            "hex": "#cc99ff",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "role": "local_termination",
+          "directionLabel": "Owner-confirmed bank Remap / Port 22",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "owner_confirmed",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown.",
+            "page": "Page-1",
+            "part": "visio/pages/page1.xml",
+            "pageId": "0",
+            "shapeIds": [
+              "12158"
+            ],
+            "importRunId": "3d389223-d477-43db-8839-19bdd9da00e5",
+            "sourceRevision": "DOC-545093bf-a649-4f02-9847-64a244e33255/e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+            "interpretationRule": "operator-ap-bank-remap/1"
+          },
+          "notes": [
+            "Owner-confirmed bank correction; original geometry preserved; field verification not established.",
+            "Owner confirms AP18 Port bank shifted left in drawing; this selected bank is F1→Port1 through F24→Port24."
+          ]
+        }
+      },
+      {
+        "portId": "SHIDA-PORT-65193aded62dde6aab0e9e0e",
+        "portNumber": 23,
+        "before": {
+          "id": "SHIDA-BINDING-65193aded62dde6aab0e9e0e",
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 23,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 22,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "violet",
+            "nameKa": "იისფერი",
+            "nameEn": "Violet",
+            "hex": "#cc99ff",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "role": "local_termination",
+          "directionLabel": "AP18 · Port 23",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "source_interpreted",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "page": "Page-1",
+            "pageId": "0",
+            "part": "visio/pages/page1.xml",
+            "shapeIds": [
+              "12180",
+              "12156",
+              "12246",
+              "12195"
+            ],
+            "interpretationRule": "shida-source-local-semantics/2",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown."
+          },
+          "notes": [
+            "Exact source Port rectangle and marker-attached stroke; service usage and physical operation unknown."
+          ]
+        },
+        "after": {
+          "id": "OPERATOR-BINDING-11111111-2222-4333-8444-55555555556b",
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 23,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 23,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "rose",
+            "nameKa": "ვარდისფერი",
+            "nameEn": "Rose",
+            "hex": "#ff00ff",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "role": "local_termination",
+          "directionLabel": "Owner-confirmed bank Remap / Port 23",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "owner_confirmed",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown.",
+            "page": "Page-1",
+            "part": "visio/pages/page1.xml",
+            "pageId": "0",
+            "shapeIds": [
+              "12158"
+            ],
+            "importRunId": "3d389223-d477-43db-8839-19bdd9da00e5",
+            "sourceRevision": "DOC-545093bf-a649-4f02-9847-64a244e33255/e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+            "interpretationRule": "operator-ap-bank-remap/1"
+          },
+          "notes": [
+            "Owner-confirmed bank correction; original geometry preserved; field verification not established.",
+            "Owner confirms AP18 Port bank shifted left in drawing; this selected bank is F1→Port1 through F24→Port24."
+          ]
+        }
+      },
+      {
+        "portId": "SHIDA-PORT-cea29bb5ae3ffba0f3843aa3",
+        "portNumber": 24,
+        "before": {
+          "id": "SHIDA-BINDING-cea29bb5ae3ffba0f3843aa3",
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 24,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 23,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "rose",
+            "nameKa": "ვარდისფერი",
+            "nameEn": "Rose",
+            "hex": "#ff00ff",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "role": "local_termination",
+          "directionLabel": "AP18 · Port 24",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "source_interpreted",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "page": "Page-1",
+            "pageId": "0",
+            "part": "visio/pages/page1.xml",
+            "shapeIds": [
+              "12181",
+              "12157",
+              "12245",
+              "12195"
+            ],
+            "interpretationRule": "shida-source-local-semantics/2",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown."
+          },
+          "notes": [
+            "Exact source Port rectangle and marker-attached stroke; service usage and physical operation unknown."
+          ]
+        },
+        "after": {
+          "id": "OPERATOR-BINDING-11111111-2222-4333-8444-55555555556c",
+          "canonicalNode": {
+            "kind": "network_node",
+            "id": "SHIDA-NODE-511456e409b5e4d0ff95bfaa"
+          },
+          "ownerType": "ap",
+          "ownerId": "SHIDA-NODE-511456e409b5e4d0ff95bfaa",
+          "portNumber": 24,
+          "segmentId": "SHIDA-CABLE-ad5748f2d540e80fca531e0e",
+          "fiberNumber": 24,
+          "tubeNumber": null,
+          "tubeColor": null,
+          "fiberColor": {
+            "key": "aqua",
+            "nameKa": "ცისფერი",
+            "nameEn": "Aqua",
+            "hex": "#00ffff",
+            "basis": "documented",
+            "verification": "documentation_reviewed"
+          },
+          "role": "local_termination",
+          "directionLabel": "Owner-confirmed bank Remap / Port 24",
+          "routeId": null,
+          "orientation": "from_port",
+          "lineageIds": [],
+          "projectionStatus": "owner_confirmed",
+          "source": {
+            "file": "შიდა ქართლი 2026.vsdx",
+            "note": "Source-only Shida interpretation. Leading construction references preserved; field verification and traffic direction unknown.",
+            "page": "Page-1",
+            "part": "visio/pages/page1.xml",
+            "pageId": "0",
+            "shapeIds": [
+              "12158"
+            ],
+            "importRunId": "3d389223-d477-43db-8839-19bdd9da00e5",
+            "sourceRevision": "DOC-545093bf-a649-4f02-9847-64a244e33255/e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+            "interpretationRule": "operator-ap-bank-remap/1"
+          },
+          "notes": [
+            "Owner-confirmed bank correction; original geometry preserved; field verification not established.",
+            "Owner confirms AP18 Port bank shifted left in drawing; this selected bank is F1→Port1 through F24→Port24."
+          ]
+        }
+      }
+    ],
+    "impactCounts": {
+      "changedPaths": 24,
+      "changedFacts": 123,
+      "comparedFibers": 9356,
+      "beforeFibers": 9356,
+      "afterFibers": 9356
+    },
+    "all24ResolverEndpointsVerified": true,
+    "originalPortGeometryAndTransitionsPreserved": true,
+    "otherAPBindingsUnchanged": true
+  }
+}

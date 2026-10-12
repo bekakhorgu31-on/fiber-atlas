@@ -1,0 +1,179 @@
+{
+  "browser": "154.0.4258.53",
+  "journeys": [
+    {
+      "width": 1440,
+      "selected": "fiber:CAB-000169:10",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "selected": "fiber:CAB-000169:11",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "selected": "fiber:CAB-000169:12",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "selected": "fiber:CAB-000176:32",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "selected": "fiber:CAB-000184:38",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "selected": "port:ap:42:16",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "selected": "segment:CAB-000171",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "name": "F32 AP52 Port cross-navigation"
+    },
+    {
+      "width": 390,
+      "selected": "fiber:CAB-000169:10",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "selected": "fiber:CAB-000169:11",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "selected": "fiber:CAB-000169:12",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "selected": "fiber:CAB-000176:32",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "selected": "fiber:CAB-000184:38",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "selected": "port:ap:42:16",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "selected": "segment:CAB-000171",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "name": "F32 AP52 Port cross-navigation"
+    },
+    {
+      "name": "unknown Tsageri binding and distinct C172 choices remain visible"
+    },
+    {
+      "name": "revision-pinned engineering details load on demand"
+    },
+    {
+      "name": "authenticated UI review persists; cross-site request without CSRF is rejected",
+      "csrfRejected": 419
+    },
+    {
+      "name": "review survives actual API and PostgreSQL stop/start"
+    },
+    {
+      "name": "independent browser context reads the same durable review"
+    }
+  ],
+  "performance": [
+    {
+      "mode": "api",
+      "sample": 0,
+      "usableMs": 2311.1999999284744,
+      "firstRenderMs": 1867.8999999761581,
+      "parseMs": 149.20000004768372,
+      "hydrateMs": 142.89999997615814,
+      "heap": 62271303,
+      "network": [
+        {
+          "encoded": 890717,
+          "decoded": 17143884,
+          "duration": 720.1000000238419
+        }
+      ]
+    },
+    {
+      "mode": "api",
+      "sample": 1,
+      "usableMs": 2398.4000000953674,
+      "firstRenderMs": 1972.2000000476837,
+      "parseMs": 171.40000009536743,
+      "hydrateMs": 166.39999997615814,
+      "heap": 62271384,
+      "network": [
+        {
+          "encoded": 890717,
+          "decoded": 17143884,
+          "duration": 753
+        }
+      ]
+    },
+    {
+      "mode": "api",
+      "sample": 2,
+      "usableMs": 2424.3000000715256,
+      "firstRenderMs": 1977.8000000715256,
+      "parseMs": 138,
+      "hydrateMs": 143.89999997615814,
+      "heap": 62273260,
+      "network": [
+        {
+          "encoded": 890717,
+          "decoded": 17143884,
+          "duration": 788.5999999046326
+        }
+      ]
+    },
+    {
+      "mode": "offline",
+      "sample": 0,
+      "usableMs": 2227.3000000715256,
+      "firstRenderMs": 2099.399999976158,
+      "heap": 97400000,
+      "network": []
+    },
+    {
+      "mode": "offline",
+      "sample": 1,
+      "usableMs": 2232.2000000476837,
+      "firstRenderMs": 2104.4000000953674,
+      "heap": 97400000,
+      "network": []
+    },
+    {
+      "mode": "offline",
+      "sample": 2,
+      "usableMs": 2219.100000023842,
+      "firstRenderMs": 2087.399999976158,
+      "heap": 97400000,
+      "network": []
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "screenshots": [
+    "docs/iteration29-api-1440.png",
+    "docs/iteration29-api-390.png"
+  ]
+}

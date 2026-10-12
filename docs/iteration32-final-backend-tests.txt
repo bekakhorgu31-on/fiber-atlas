@@ -1,0 +1,22 @@
+PHPUnit 12.5.38 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.3.35
+Configuration: C:\Users\Beka\Desktop\Visio Alt\fiber-prototype\backend\phpunit.xml
+
+Time: 04:41.995, Memory: 912.00 MB
+
+[4mOwner Import (Tests\Feature\OwnerImport)[0m
+[32m ✔ [0mEmpty state and account setup without network
+[32m ✔ [0mOriginal bytes first second duplicate revision and atomic apply
+
+[4mPostgres Network (Tests\Feature\PostgresNetwork)[0m
+[32m ✔ [0mSeed reseed and every persisted path transition binding match
+[32m ✔ [0mReview is authorized attributed append only and rejects stale versions
+[32m ✔ [0mFailed activation preserves active revision and rollback keeps pinned reads
+[32m ✔ [0mStaging preserves source revisions repeat interpretations and active graph
+
+[4mSchema Isolation (Tests\Feature\SchemaIsolation)[0m
+[32m ✔ [0mNon public schema and pinned functions leave sentinel schema untouched
+
+[30;42mOK (7 tests, 8511 assertions)[0m
+{"tool":"phpunit","result":"passed","tests":7,"passed":7,"assertions":8511,"duration_ms":281996}

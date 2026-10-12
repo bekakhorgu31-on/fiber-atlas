@@ -1,0 +1,48 @@
+{
+  "changes": [
+    {
+      "classification": "resolver evidence added",
+      "explanation": "New importer metadata or a source-derived count changed.",
+      "field": "connect_rows_dangling",
+      "iteration23": null,
+      "iteration24": 0
+    },
+    {
+      "classification": "resolver evidence added",
+      "explanation": "New importer metadata or a source-derived count changed.",
+      "field": "connect_rows_valid",
+      "iteration23": null,
+      "iteration24": 203
+    },
+    {
+      "classification": "resolver evidence added",
+      "explanation": "New importer metadata or a source-derived count changed.",
+      "field": "grouped_subshapes",
+      "iteration23": null,
+      "iteration24": 4709
+    },
+    {
+      "classification": "resolver evidence added",
+      "explanation": "New importer metadata or a source-derived count changed.",
+      "field": "style_references",
+      "iteration23": null,
+      "iteration24": 6931
+    },
+    {
+      "classification": "resolver evidence added",
+      "explanation": "New importer metadata or a source-derived count changed.",
+      "field": "unique_masters",
+      "iteration23": null,
+      "iteration24": 22
+    },
+    {
+      "classification": "resolver evidence added",
+      "explanation": "New importer metadata or a source-derived count changed.",
+      "field": "unresolved_effective_colors",
+      "iteration23": null,
+      "iteration24": 0
+    }
+  ],
+  "iteration23SourceSha256": "caae4badc9c8c30be0a5fa3ef26352c3e534a9de7c66e830ef470466bb34a6fa",
+  "sourceShaChanged": false
+}

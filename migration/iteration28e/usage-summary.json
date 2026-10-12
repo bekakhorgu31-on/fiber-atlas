@@ -1,0 +1,2299 @@
+{
+  "schema": "fiber-lineage-usage-summary/1",
+  "grammarId": "tsageri-alpana-tvishi-fiber-usage-line/1",
+  "projectionRule": "exact-current-fiber-path-usage/1",
+  "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d",
+  "topologyRevision": "canonical-active-fiber-path/1/e7d1e8bcb8c747e2",
+  "counts": {
+    "lineShapes": 3092,
+    "attached": 3083,
+    "ambiguous": 5,
+    "rejected": 4,
+    "unknownStyle": 0,
+    "redDashed": 28,
+    "fiberLegs": {
+      "in_use": 306,
+      "unused": 1431,
+      "review_required": 17,
+      "unknown": 334
+    },
+    "logicalClaims": {
+      "in_use": 38,
+      "unused": 301,
+      "review_required": 2,
+      "unknown": 0
+    },
+    "conflicts": 4
+  },
+  "localViewsByOrganization": {
+    "OpenNet": 154,
+    "Magti": 40,
+    "Silknet": 24,
+    "Skytel": 14
+  },
+  "reviewCategories": {
+    "red_dashed_semantics": 28,
+    "line_fiber_alignment_ambiguous": 5,
+    "red_in_use_without_organization": 192,
+    "organization_conflict": 4
+  },
+  "samples": {
+    "blue": {
+      "shapeId": "23805",
+      "source": {
+        "file": "Tsageri-Alpana-Tvishi.vsdx",
+        "page": "სვანეთი",
+        "pageId": "4",
+        "shapeIds": [
+          "23805"
+        ]
+      },
+      "effectiveLineColor": {
+        "rgb": "#0000ff"
+      },
+      "effectiveLinePattern": {
+        "value": "1"
+      },
+      "effectiveLineWeight": {
+        "value": "0.01041666666666667"
+      },
+      "associatedFibers": [
+        {
+          "cable": "C153",
+          "fiberNumber": 2,
+          "markerShapeId": "15996",
+          "bankShapeId": "15992",
+          "residual": 0.034616754968505054,
+          "physicalColor": "#f48c37"
+        }
+      ],
+      "physicalFiberColor": "#f48c37",
+      "disposition": "blue_solid_unused",
+      "usageState": "unused",
+      "organization": null,
+      "purpose": null,
+      "reason": null,
+      "companyLabelShapeIds": [],
+      "companyOccurrenceIds": [],
+      "otdrAnnotationShapeIds": [],
+      "decodedTransitionId": null,
+      "decodedTransitionNode": null,
+      "evidenceBasis": [
+        "effective_style",
+        "numbered_marker_alignment",
+        "owner_confirmation"
+      ]
+    },
+    "green": {
+      "shapeId": "17517",
+      "source": {
+        "file": "Tsageri-Alpana-Tvishi.vsdx",
+        "page": "სვანეთი",
+        "pageId": "4",
+        "shapeIds": [
+          "17517"
+        ]
+      },
+      "effectiveLineColor": {
+        "rgb": "#009945"
+      },
+      "effectiveLinePattern": {
+        "value": "1"
+      },
+      "effectiveLineWeight": {
+        "value": "0.01041666666666667"
+      },
+      "associatedFibers": [
+        {
+          "cable": "C148",
+          "fiberNumber": 1,
+          "markerShapeId": "16118",
+          "bankShapeId": "16115",
+          "residual": 0.01770163934697045,
+          "physicalColor": "#0000ff"
+        }
+      ],
+      "physicalFiberColor": "#0000ff",
+      "disposition": "green_solid_opennet",
+      "usageState": "in_use",
+      "organization": "OpenNet",
+      "purpose": "internal",
+      "reason": null,
+      "companyLabelShapeIds": [],
+      "companyOccurrenceIds": [],
+      "otdrAnnotationShapeIds": [],
+      "decodedTransitionId": null,
+      "decodedTransitionNode": null,
+      "evidenceBasis": [
+        "effective_style",
+        "numbered_marker_alignment",
+        "owner_confirmation"
+      ]
+    },
+    "otdr": {
+      "shapeId": "17667",
+      "source": {
+        "file": "Tsageri-Alpana-Tvishi.vsdx",
+        "page": "სვანეთი",
+        "pageId": "4",
+        "shapeIds": [
+          "17667"
+        ]
+      },
+      "effectiveLineColor": {
+        "rgb": "#009945"
+      },
+      "effectiveLinePattern": {
+        "value": "1"
+      },
+      "effectiveLineWeight": {
+        "value": "0.01041666666666667"
+      },
+      "associatedFibers": [
+        {
+          "cable": "C148",
+          "fiberNumber": 151,
+          "markerShapeId": "16423",
+          "bankShapeId": "16115",
+          "residual": 0.017644624462210056,
+          "physicalColor": "#ff0000"
+        }
+      ],
+      "physicalFiberColor": "#ff0000",
+      "disposition": "green_solid_opennet_otdr",
+      "usageState": "in_use",
+      "organization": "OpenNet",
+      "purpose": "OTDR",
+      "reason": null,
+      "companyLabelShapeIds": [],
+      "companyOccurrenceIds": [],
+      "otdrAnnotationShapeIds": [
+        "17667"
+      ],
+      "decodedTransitionId": null,
+      "decodedTransitionNode": null,
+      "evidenceBasis": [
+        "effective_style",
+        "numbered_marker_alignment",
+        "owner_confirmation"
+      ]
+    },
+    "redNamed": {
+      "shapeId": "17536",
+      "source": {
+        "file": "Tsageri-Alpana-Tvishi.vsdx",
+        "page": "სვანეთი",
+        "pageId": "4",
+        "shapeIds": [
+          "17536"
+        ]
+      },
+      "effectiveLineColor": {
+        "rgb": "#ff0000"
+      },
+      "effectiveLinePattern": {
+        "value": "1"
+      },
+      "effectiveLineWeight": {
+        "value": "0.01041666666666667"
+      },
+      "associatedFibers": [
+        {
+          "cable": "C148",
+          "fiberNumber": 20,
+          "markerShapeId": "16148",
+          "bankShapeId": "16115",
+          "residual": 0.016565481730705066,
+          "physicalColor": "#000000"
+        }
+      ],
+      "physicalFiberColor": "#000000",
+      "disposition": "red_solid_in_use_named",
+      "usageState": "in_use",
+      "organization": "Magti",
+      "purpose": null,
+      "reason": null,
+      "companyLabelShapeIds": [
+        "17536"
+      ],
+      "companyOccurrenceIds": [
+        "ORG-17536"
+      ],
+      "otdrAnnotationShapeIds": [],
+      "decodedTransitionId": null,
+      "decodedTransitionNode": null,
+      "evidenceBasis": [
+        "effective_style",
+        "numbered_marker_alignment",
+        "owner_confirmation"
+      ]
+    },
+    "redUnknown": {
+      "shapeId": "23806",
+      "source": {
+        "file": "Tsageri-Alpana-Tvishi.vsdx",
+        "page": "სვანეთი",
+        "pageId": "4",
+        "shapeIds": [
+          "23806"
+        ]
+      },
+      "effectiveLineColor": {
+        "rgb": "#ff0000"
+      },
+      "effectiveLinePattern": {
+        "value": "1"
+      },
+      "effectiveLineWeight": {
+        "value": "0.01041666666666667"
+      },
+      "associatedFibers": [
+        {
+          "cable": "C153",
+          "fiberNumber": 3,
+          "markerShapeId": "15997",
+          "bankShapeId": "15992",
+          "residual": 0.03483524595134337,
+          "physicalColor": "#008000"
+        }
+      ],
+      "physicalFiberColor": "#008000",
+      "disposition": "red_solid_in_use_organization_unknown",
+      "usageState": "in_use",
+      "organization": "unknown",
+      "purpose": null,
+      "reason": null,
+      "companyLabelShapeIds": [],
+      "companyOccurrenceIds": [],
+      "otdrAnnotationShapeIds": [],
+      "decodedTransitionId": null,
+      "decodedTransitionNode": null,
+      "evidenceBasis": [
+        "effective_style",
+        "numbered_marker_alignment",
+        "owner_confirmation"
+      ]
+    },
+    "redDashed": {
+      "id": "28E-RED-DASHED-23804",
+      "category": "red_dashed_semantics",
+      "status": "needs_review",
+      "question": "This Fiber is drawn as a red dashed line. What does this source convention mean here: in use, damaged, reserved/special, or another state?",
+      "sourceLineShapeId": "23804",
+      "sourceLabelShapeIds": [],
+      "sourceLineColor": "#ff0000",
+      "sourceLinePattern": "2",
+      "fiber": "C153/F1",
+      "fullKnownPath": [
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C153",
+          "fiberNumber": 1,
+          "nodeAfter": "network_node:208"
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+          "fiberNumber": 103,
+          "nodeAfter": "network_node:207"
+        },
+        {
+          "segmentId": "CAB-000151",
+          "fiberNumber": 103,
+          "nodeAfter": "closure:206"
+        },
+        {
+          "segmentId": "CAB-000150",
+          "fiberNumber": 103,
+          "nodeAfter": "closure:205"
+        },
+        {
+          "segmentId": "CAB-000148",
+          "fiberNumber": 103,
+          "nodeAfter": "undefined:undefined"
+        }
+      ],
+      "endpoints": [
+        "AGG5",
+        "AP42"
+      ],
+      "neighboringStyles": [
+        {
+          "shapeId": "23805",
+          "color": "#0000ff",
+          "pattern": "1",
+          "disposition": "blue_solid_unused"
+        },
+        {
+          "shapeId": "23816",
+          "color": "#ff0000",
+          "pattern": "2",
+          "disposition": "red_dashed_review_required"
+        },
+        {
+          "shapeId": "23817",
+          "color": "#0000ff",
+          "pattern": "1",
+          "disposition": "blue_solid_unused"
+        },
+        {
+          "shapeId": "4399",
+          "color": "#ff0000",
+          "pattern": "2",
+          "disposition": "red_dashed_review_required"
+        },
+        {
+          "shapeId": "15776",
+          "color": "#0000ff",
+          "pattern": "1",
+          "disposition": "blue_solid_unused"
+        }
+      ],
+      "reason": "Owner-confirmed meaning is unresolved for this dashed red style.",
+      "decisionOptions": [
+        "in_use",
+        "damaged",
+        "reserved_special",
+        "historical",
+        "drawing_artifact",
+        "other",
+        "unresolved"
+      ]
+    },
+    "remappedF11": {
+      "path": {
+        "cableId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+        "fiberNumber": 11,
+        "topologyRevision": "canonical-active-fiber-path/1/e7d1e8bcb8c747e2",
+        "signature": "canonical-active-fiber-path/1/3693280001f2c842",
+        "sides": [
+          {
+            "startNode": {
+              "kind": "network_node",
+              "id": "211"
+            },
+            "legs": [
+              {
+                "cableId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+                "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+                "fiberNumber": 11,
+                "tubeNumber": 1,
+                "tubeColor": {
+                  "key": "blue",
+                  "nameKa": "ლურჯი",
+                  "nameEn": "Blue",
+                  "hex": "#2563eb",
+                  "basis": "documented",
+                  "verification": "documentation_reviewed"
+                },
+                "fiberColor": {
+                  "key": "rose",
+                  "nameKa": "ვარდისფერი",
+                  "nameEn": "Rose/Pink",
+                  "hex": "#ec4899",
+                  "basis": "documented",
+                  "verification": "documentation_reviewed"
+                }
+              },
+              {
+                "cableId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+                "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+                "fiberNumber": 11,
+                "tubeNumber": 1,
+                "tubeColor": {
+                  "key": "blue",
+                  "nameKa": "ლურჯი",
+                  "nameEn": "Blue",
+                  "hex": "#2563eb",
+                  "basis": "documented",
+                  "verification": "documentation_reviewed"
+                },
+                "fiberColor": {
+                  "key": "rose",
+                  "nameKa": "ვარდისფერი",
+                  "nameEn": "Rose/Pink",
+                  "hex": "#ec4899",
+                  "basis": "documented",
+                  "verification": "documentation_reviewed"
+                }
+              },
+              {
+                "cableId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+                "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+                "fiberNumber": 11,
+                "tubeNumber": 1,
+                "tubeColor": {
+                  "key": "blue",
+                  "nameKa": "ლურჯი",
+                  "nameEn": "Blue",
+                  "hex": "#2563eb",
+                  "basis": "documented",
+                  "verification": "documentation_reviewed"
+                },
+                "fiberColor": {
+                  "key": "rose",
+                  "nameKa": "ვარდისფერი",
+                  "nameEn": "Rose/Pink",
+                  "hex": "#ec4899",
+                  "basis": "documented",
+                  "verification": "documentation_reviewed"
+                }
+              },
+              {
+                "cableId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+                "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+                "fiberNumber": 11,
+                "tubeNumber": 1,
+                "tubeColor": {
+                  "key": "blue",
+                  "nameKa": "ლურჯი",
+                  "nameEn": "Blue",
+                  "hex": "#2563eb",
+                  "basis": "documented",
+                  "verification": "documentation_reviewed"
+                },
+                "fiberColor": {
+                  "key": "rose",
+                  "nameKa": "ვარდისფერი",
+                  "nameEn": "Rose/Pink",
+                  "hex": "#ec4899",
+                  "basis": "documented",
+                  "verification": "documentation_reviewed"
+                }
+              },
+              {
+                "cableId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+                "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+                "fiberNumber": 11,
+                "tubeNumber": 1,
+                "tubeColor": {
+                  "key": "blue",
+                  "nameKa": "ლურჯი",
+                  "nameEn": "Blue",
+                  "hex": "#2563eb",
+                  "basis": "documented",
+                  "verification": "documentation_reviewed"
+                },
+                "fiberColor": {
+                  "key": "rose",
+                  "nameKa": "ვარდისფერი",
+                  "nameEn": "Rose/Pink",
+                  "hex": "#ec4899",
+                  "basis": "documented",
+                  "verification": "documentation_reviewed"
+                }
+              },
+              {
+                "cableId": "CAB-000151",
+                "segmentId": "CAB-000151",
+                "fiberNumber": 11,
+                "tubeNumber": 1,
+                "tubeColor": {
+                  "key": "blue",
+                  "nameKa": "ლურჯი",
+                  "nameEn": "Blue",
+                  "hex": "#2563eb",
+                  "basis": "documented",
+                  "verification": "documentation_reviewed"
+                },
+                "fiberColor": {
+                  "key": "rose",
+                  "nameKa": "ვარდისფერი",
+                  "nameEn": "Rose/Pink",
+                  "hex": "#ec4899",
+                  "basis": "documented",
+                  "verification": "documentation_reviewed"
+                }
+              },
+              {
+                "cableId": "CAB-000150",
+                "segmentId": "CAB-000150",
+                "fiberNumber": 11,
+                "tubeNumber": 1,
+                "tubeColor": {
+                  "key": "blue",
+                  "nameKa": "ლურჯი",
+                  "nameEn": "Blue",
+                  "hex": "#2563eb",
+                  "basis": "documented",
+                  "verification": "documentation_reviewed"
+                },
+                "fiberColor": {
+                  "key": "rose",
+                  "nameKa": "ვარდისფერი",
+                  "nameEn": "Rose/Pink",
+                  "hex": "#ec4899",
+                  "basis": "documented",
+                  "verification": "documentation_reviewed"
+                }
+              },
+              {
+                "cableId": "CAB-000148",
+                "segmentId": "CAB-000148",
+                "fiberNumber": 11,
+                "tubeNumber": 1,
+                "tubeColor": {
+                  "key": "blue",
+                  "nameKa": "ლურჯი",
+                  "nameEn": "Blue",
+                  "hex": "#2563eb",
+                  "basis": "documented",
+                  "verification": "documentation_reviewed"
+                },
+                "fiberColor": {
+                  "key": "rose",
+                  "nameKa": "ვარდისფერი",
+                  "nameEn": "Rose/Pink",
+                  "hex": "#ec4899",
+                  "basis": "documented",
+                  "verification": "documentation_reviewed"
+                }
+              }
+            ],
+            "transitions": [
+              {
+                "id": "27D-NFT-211-27065",
+                "node": {
+                  "kind": "network_node",
+                  "id": "211"
+                },
+                "from": {
+                  "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+                  "fiberNumber": 11,
+                  "tubeNumber": 1,
+                  "tubeColor": {
+                    "key": "blue",
+                    "nameKa": "ლურჯი",
+                    "nameEn": "Blue",
+                    "hex": "#2563eb",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  },
+                  "fiberColor": {
+                    "key": "rose",
+                    "nameKa": "ვარდისფერი",
+                    "nameEn": "Rose/Pink",
+                    "hex": "#ec4899",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  }
+                },
+                "to": {
+                  "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+                  "fiberNumber": 11,
+                  "tubeNumber": 1,
+                  "tubeColor": {
+                    "key": "blue",
+                    "nameKa": "ლურჯი",
+                    "nameEn": "Blue",
+                    "hex": "#2563eb",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  },
+                  "fiberColor": {
+                    "key": "rose",
+                    "nameKa": "ვარდისფერი",
+                    "nameEn": "Rose/Pink",
+                    "hex": "#ec4899",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  }
+                },
+                "evidence": {
+                  "id": "27D-NFT-211-27065",
+                  "node": {
+                    "kind": "network_node",
+                    "id": "211"
+                  },
+                  "a": {
+                    "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+                    "fiberNumber": 11,
+                    "tubeNumber": 1,
+                    "tubeColor": {
+                      "key": "blue",
+                      "nameKa": "ლურჯი",
+                      "nameEn": "Blue",
+                      "hex": "#2563eb",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    },
+                    "fiberColor": {
+                      "key": "rose",
+                      "nameKa": "ვარდისფერი",
+                      "nameEn": "Rose/Pink",
+                      "hex": "#ec4899",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    }
+                  },
+                  "z": {
+                    "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+                    "fiberNumber": 11,
+                    "tubeNumber": 1,
+                    "tubeColor": {
+                      "key": "blue",
+                      "nameKa": "ლურჯი",
+                      "nameEn": "Blue",
+                      "hex": "#2563eb",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    },
+                    "fiberColor": {
+                      "key": "rose",
+                      "nameKa": "ვარდისფერი",
+                      "nameEn": "Rose/Pink",
+                      "hex": "#ec4899",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    }
+                  },
+                  "port": null,
+                  "transitionType": "optical_continuation",
+                  "operation": "unknown",
+                  "sourceGeometry": {
+                    "context": "Connector Shape 27065; endpoint marker Shapes 27449 and 27773"
+                  },
+                  "source": {
+                    "file": "Tsageri-Alpana-Tvishi.vsdx",
+                    "page": "სვანეთი",
+                    "pageId": "4",
+                    "part": "visio/pages/page1.xml",
+                    "shapeIds": [
+                      "27065",
+                      "27449",
+                      "27773"
+                    ],
+                    "rawValue": "NFT-211-27065",
+                    "interpretationRule": "tsageri-alpana-tvishi-marker-and-transition-candidate/2",
+                    "note": "Iteration 27D: exact source marker-bank construction and connector geometry."
+                  },
+                  "interpretationBasis": "Exact source connector geometry with unique marker alignment at both endpoints. Route adjacency, number, and color are not transition keys.",
+                  "projectionStatus": "source_interpreted",
+                  "active": true,
+                  "notes": []
+                }
+              },
+              {
+                "id": "27D-NFT-210-15863",
+                "node": {
+                  "kind": "network_node",
+                  "id": "210"
+                },
+                "from": {
+                  "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+                  "fiberNumber": 11,
+                  "tubeNumber": 1,
+                  "tubeColor": {
+                    "key": "blue",
+                    "nameKa": "ლურჯი",
+                    "nameEn": "Blue",
+                    "hex": "#2563eb",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  },
+                  "fiberColor": {
+                    "key": "rose",
+                    "nameKa": "ვარდისფერი",
+                    "nameEn": "Rose/Pink",
+                    "hex": "#ec4899",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  }
+                },
+                "to": {
+                  "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+                  "fiberNumber": 11,
+                  "tubeNumber": 1,
+                  "tubeColor": {
+                    "key": "blue",
+                    "nameKa": "ლურჯი",
+                    "nameEn": "Blue",
+                    "hex": "#2563eb",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  },
+                  "fiberColor": {
+                    "key": "rose",
+                    "nameKa": "ვარდისფერი",
+                    "nameEn": "Rose/Pink",
+                    "hex": "#ec4899",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  }
+                },
+                "evidence": {
+                  "id": "27D-NFT-210-15863",
+                  "node": {
+                    "kind": "network_node",
+                    "id": "210"
+                  },
+                  "a": {
+                    "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+                    "fiberNumber": 11,
+                    "tubeNumber": 1,
+                    "tubeColor": {
+                      "key": "blue",
+                      "nameKa": "ლურჯი",
+                      "nameEn": "Blue",
+                      "hex": "#2563eb",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    },
+                    "fiberColor": {
+                      "key": "rose",
+                      "nameKa": "ვარდისფერი",
+                      "nameEn": "Rose/Pink",
+                      "hex": "#ec4899",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    }
+                  },
+                  "z": {
+                    "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C158",
+                    "fiberNumber": 11,
+                    "tubeNumber": 1,
+                    "tubeColor": {
+                      "key": "blue",
+                      "nameKa": "ლურჯი",
+                      "nameEn": "Blue",
+                      "hex": "#2563eb",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    },
+                    "fiberColor": {
+                      "key": "rose",
+                      "nameKa": "ვარდისფერი",
+                      "nameEn": "Rose/Pink",
+                      "hex": "#ec4899",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    }
+                  },
+                  "port": null,
+                  "transitionType": "optical_continuation",
+                  "operation": "unknown",
+                  "sourceGeometry": {
+                    "context": "Connector Shape 15863; endpoint marker Shapes 25973 and 25770"
+                  },
+                  "source": {
+                    "file": "Tsageri-Alpana-Tvishi.vsdx",
+                    "page": "სვანეთი",
+                    "pageId": "4",
+                    "part": "visio/pages/page1.xml",
+                    "shapeIds": [
+                      "15863",
+                      "25973",
+                      "25770"
+                    ],
+                    "rawValue": "NFT-210-15863",
+                    "interpretationRule": "tsageri-alpana-tvishi-marker-and-transition-candidate/2",
+                    "note": "Iteration 27D: exact source marker-bank construction and connector geometry."
+                  },
+                  "interpretationBasis": "Exact source connector geometry with unique marker alignment at both endpoints. Route adjacency, number, and color are not transition keys.",
+                  "projectionStatus": "source_interpreted",
+                  "active": true,
+                  "notes": []
+                }
+              },
+              {
+                "id": "27D-NFT-209-24155",
+                "node": {
+                  "kind": "network_node",
+                  "id": "209"
+                },
+                "from": {
+                  "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+                  "fiberNumber": 11,
+                  "tubeNumber": 1,
+                  "tubeColor": {
+                    "key": "blue",
+                    "nameKa": "ლურჯი",
+                    "nameEn": "Blue",
+                    "hex": "#2563eb",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  },
+                  "fiberColor": {
+                    "key": "rose",
+                    "nameKa": "ვარდისფერი",
+                    "nameEn": "Rose/Pink",
+                    "hex": "#ec4899",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  }
+                },
+                "to": {
+                  "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+                  "fiberNumber": 11,
+                  "tubeNumber": 1,
+                  "tubeColor": {
+                    "key": "blue",
+                    "nameKa": "ლურჯი",
+                    "nameEn": "Blue",
+                    "hex": "#2563eb",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  },
+                  "fiberColor": {
+                    "key": "rose",
+                    "nameKa": "ვარდისფერი",
+                    "nameEn": "Rose/Pink",
+                    "hex": "#ec4899",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  }
+                },
+                "evidence": {
+                  "id": "27D-NFT-209-24155",
+                  "node": {
+                    "kind": "network_node",
+                    "id": "209"
+                  },
+                  "a": {
+                    "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+                    "fiberNumber": 11,
+                    "tubeNumber": 1,
+                    "tubeColor": {
+                      "key": "blue",
+                      "nameKa": "ლურჯი",
+                      "nameEn": "Blue",
+                      "hex": "#2563eb",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    },
+                    "fiberColor": {
+                      "key": "rose",
+                      "nameKa": "ვარდისფერი",
+                      "nameEn": "Rose/Pink",
+                      "hex": "#ec4899",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    }
+                  },
+                  "z": {
+                    "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C156",
+                    "fiberNumber": 11,
+                    "tubeNumber": 1,
+                    "tubeColor": {
+                      "key": "blue",
+                      "nameKa": "ლურჯი",
+                      "nameEn": "Blue",
+                      "hex": "#2563eb",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    },
+                    "fiberColor": {
+                      "key": "rose",
+                      "nameKa": "ვარდისფერი",
+                      "nameEn": "Rose/Pink",
+                      "hex": "#ec4899",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    }
+                  },
+                  "port": null,
+                  "transitionType": "optical_continuation",
+                  "operation": "unknown",
+                  "sourceGeometry": {
+                    "context": "Connector Shape 24155; endpoint marker Shapes 24791 and 25106"
+                  },
+                  "source": {
+                    "file": "Tsageri-Alpana-Tvishi.vsdx",
+                    "page": "სვანეთი",
+                    "pageId": "4",
+                    "part": "visio/pages/page1.xml",
+                    "shapeIds": [
+                      "24155",
+                      "24791",
+                      "25106"
+                    ],
+                    "rawValue": "NFT-209-24155",
+                    "interpretationRule": "tsageri-alpana-tvishi-marker-and-transition-candidate/2",
+                    "note": "Iteration 27D: exact source marker-bank construction and connector geometry."
+                  },
+                  "interpretationBasis": "Exact source connector geometry with unique marker alignment at both endpoints. Route adjacency, number, and color are not transition keys.",
+                  "projectionStatus": "source_interpreted",
+                  "active": true,
+                  "notes": []
+                }
+              },
+              {
+                "id": "27D-NFT-208-15797",
+                "node": {
+                  "kind": "network_node",
+                  "id": "208"
+                },
+                "from": {
+                  "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+                  "fiberNumber": 11,
+                  "tubeNumber": 1,
+                  "tubeColor": {
+                    "key": "blue",
+                    "nameKa": "ლურჯი",
+                    "nameEn": "Blue",
+                    "hex": "#2563eb",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  },
+                  "fiberColor": {
+                    "key": "rose",
+                    "nameKa": "ვარდისფერი",
+                    "nameEn": "Rose/Pink",
+                    "hex": "#ec4899",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  }
+                },
+                "to": {
+                  "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+                  "fiberNumber": 11,
+                  "tubeNumber": 1,
+                  "tubeColor": {
+                    "key": "blue",
+                    "nameKa": "ლურჯი",
+                    "nameEn": "Blue",
+                    "hex": "#2563eb",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  },
+                  "fiberColor": {
+                    "key": "rose",
+                    "nameKa": "ვარდისფერი",
+                    "nameEn": "Rose/Pink",
+                    "hex": "#ec4899",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  }
+                },
+                "evidence": {
+                  "id": "27D-NFT-208-15797",
+                  "node": {
+                    "kind": "network_node",
+                    "id": "208"
+                  },
+                  "a": {
+                    "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+                    "fiberNumber": 11,
+                    "tubeNumber": 1,
+                    "tubeColor": {
+                      "key": "blue",
+                      "nameKa": "ლურჯი",
+                      "nameEn": "Blue",
+                      "hex": "#2563eb",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    },
+                    "fiberColor": {
+                      "key": "rose",
+                      "nameKa": "ვარდისფერი",
+                      "nameEn": "Rose/Pink",
+                      "hex": "#ec4899",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    }
+                  },
+                  "z": {
+                    "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C154",
+                    "fiberNumber": 11,
+                    "tubeNumber": 1,
+                    "tubeColor": {
+                      "key": "blue",
+                      "nameKa": "ლურჯი",
+                      "nameEn": "Blue",
+                      "hex": "#2563eb",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    },
+                    "fiberColor": {
+                      "key": "rose",
+                      "nameKa": "ვარდისფერი",
+                      "nameEn": "Rose/Pink",
+                      "hex": "#ec4899",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    }
+                  },
+                  "port": null,
+                  "transitionType": "optical_continuation",
+                  "operation": "unknown",
+                  "sourceGeometry": {
+                    "context": "Connector Shape 15797; endpoint marker Shapes 23505 and 24489"
+                  },
+                  "source": {
+                    "file": "Tsageri-Alpana-Tvishi.vsdx",
+                    "page": "სვანეთი",
+                    "pageId": "4",
+                    "part": "visio/pages/page1.xml",
+                    "shapeIds": [
+                      "15797",
+                      "23505",
+                      "24489"
+                    ],
+                    "rawValue": "NFT-208-15797",
+                    "interpretationRule": "tsageri-alpana-tvishi-marker-and-transition-candidate/2",
+                    "note": "Iteration 27D: exact source marker-bank construction and connector geometry."
+                  },
+                  "interpretationBasis": "Exact source connector geometry with unique marker alignment at both endpoints. Route adjacency, number, and color are not transition keys.",
+                  "projectionStatus": "source_interpreted",
+                  "active": true,
+                  "notes": []
+                }
+              },
+              {
+                "id": "27D-NFT-207-20826",
+                "node": {
+                  "kind": "network_node",
+                  "id": "207"
+                },
+                "from": {
+                  "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+                  "fiberNumber": 11,
+                  "tubeNumber": 1,
+                  "tubeColor": {
+                    "key": "blue",
+                    "nameKa": "ლურჯი",
+                    "nameEn": "Blue",
+                    "hex": "#2563eb",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  },
+                  "fiberColor": {
+                    "key": "rose",
+                    "nameKa": "ვარდისფერი",
+                    "nameEn": "Rose/Pink",
+                    "hex": "#ec4899",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  }
+                },
+                "to": {
+                  "segmentId": "CAB-000151",
+                  "fiberNumber": 11,
+                  "tubeNumber": 1,
+                  "tubeColor": {
+                    "key": "blue",
+                    "nameKa": "ლურჯი",
+                    "nameEn": "Blue",
+                    "hex": "#2563eb",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  },
+                  "fiberColor": {
+                    "key": "rose",
+                    "nameKa": "ვარდისფერი",
+                    "nameEn": "Rose/Pink",
+                    "hex": "#ec4899",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  }
+                },
+                "evidence": {
+                  "id": "27D-NFT-207-20826",
+                  "node": {
+                    "kind": "network_node",
+                    "id": "207"
+                  },
+                  "a": {
+                    "segmentId": "CAB-000151",
+                    "fiberNumber": 11,
+                    "tubeNumber": 1,
+                    "tubeColor": {
+                      "key": "blue",
+                      "nameKa": "ლურჯი",
+                      "nameEn": "Blue",
+                      "hex": "#2563eb",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    },
+                    "fiberColor": {
+                      "key": "rose",
+                      "nameKa": "ვარდისფერი",
+                      "nameEn": "Rose/Pink",
+                      "hex": "#ec4899",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    }
+                  },
+                  "z": {
+                    "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+                    "fiberNumber": 11,
+                    "tubeNumber": 1,
+                    "tubeColor": {
+                      "key": "blue",
+                      "nameKa": "ლურჯი",
+                      "nameEn": "Blue",
+                      "hex": "#2563eb",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    },
+                    "fiberColor": {
+                      "key": "rose",
+                      "nameKa": "ვარდისფერი",
+                      "nameEn": "Rose/Pink",
+                      "hex": "#ec4899",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    }
+                  },
+                  "port": null,
+                  "transitionType": "optical_continuation",
+                  "operation": "unknown",
+                  "sourceGeometry": {
+                    "context": "Connector Shape 20826; endpoint marker Shapes 21693 and 21995"
+                  },
+                  "source": {
+                    "file": "Tsageri-Alpana-Tvishi.vsdx",
+                    "page": "სვანეთი",
+                    "pageId": "4",
+                    "part": "visio/pages/page1.xml",
+                    "shapeIds": [
+                      "20826",
+                      "21693",
+                      "21995"
+                    ],
+                    "rawValue": "NFT-207-20826",
+                    "interpretationRule": "tsageri-alpana-tvishi-marker-and-transition-candidate/2",
+                    "note": "Iteration 27D: exact source marker-bank construction and connector geometry."
+                  },
+                  "interpretationBasis": "Exact source connector geometry with unique marker alignment at both endpoints. Route adjacency, number, and color are not transition keys.",
+                  "projectionStatus": "source_interpreted",
+                  "active": true,
+                  "notes": []
+                }
+              },
+              {
+                "id": "NFT-SC206-33024",
+                "node": {
+                  "kind": "closure",
+                  "id": "206"
+                },
+                "from": {
+                  "segmentId": "CAB-000151",
+                  "fiberNumber": 11,
+                  "tubeNumber": 1,
+                  "tubeColor": {
+                    "key": "blue",
+                    "nameKa": "ლურჯი",
+                    "nameEn": "Blue",
+                    "hex": "#2563eb",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  },
+                  "fiberColor": {
+                    "key": "rose",
+                    "nameKa": "ვარდისფერი",
+                    "nameEn": "Rose/Pink",
+                    "hex": "#ec4899",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  }
+                },
+                "to": {
+                  "segmentId": "CAB-000150",
+                  "fiberNumber": 11,
+                  "tubeNumber": 1,
+                  "tubeColor": {
+                    "key": "blue",
+                    "nameKa": "ლურჯი",
+                    "nameEn": "Blue",
+                    "hex": "#2563eb",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  },
+                  "fiberColor": {
+                    "key": "rose",
+                    "nameKa": "ვარდისფერი",
+                    "nameEn": "Rose/Pink",
+                    "hex": "#ec4899",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  }
+                },
+                "evidence": {
+                  "id": "NFT-SC206-33024",
+                  "node": {
+                    "kind": "closure",
+                    "id": "206"
+                  },
+                  "a": {
+                    "segmentId": "CAB-000150",
+                    "fiberNumber": 11,
+                    "tubeNumber": 1,
+                    "tubeColor": {
+                      "key": "blue",
+                      "nameKa": "ლურჯი",
+                      "nameEn": "Blue",
+                      "hex": "#2563eb",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    },
+                    "fiberColor": {
+                      "key": "rose",
+                      "nameKa": "ვარდისფერი",
+                      "nameEn": "Rose/Pink",
+                      "hex": "#ec4899",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    }
+                  },
+                  "z": {
+                    "segmentId": "CAB-000151",
+                    "fiberNumber": 11,
+                    "tubeNumber": 1,
+                    "tubeColor": {
+                      "key": "blue",
+                      "nameKa": "ლურჯი",
+                      "nameEn": "Blue",
+                      "hex": "#2563eb",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    },
+                    "fiberColor": {
+                      "key": "rose",
+                      "nameKa": "ვარდისფერი",
+                      "nameEn": "Rose/Pink",
+                      "hex": "#ec4899",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    }
+                  },
+                  "port": null,
+                  "transitionType": "branch_continuation",
+                  "operation": "unknown",
+                  "sourceGeometry": {
+                    "beginX": 28.3615563056601,
+                    "beginY": 567.9707230497443,
+                    "endX": 28.3615563056601,
+                    "endY": 547.0937356593936,
+                    "context": "source_geometry"
+                  },
+                  "source": {
+                    "file": "Tsageri-Lentekhi 2025.vsdx",
+                    "page": "ცაგერი-ლენტეხი",
+                    "pageId": "4",
+                    "part": "visio/pages/page1.xml",
+                    "shapeIds": [
+                      "33024",
+                      "17177",
+                      "17275"
+                    ],
+                    "rawValue": "source_geometry",
+                    "interpretationRule": "tsageri-lentekhi-node-fiber-transition/2",
+                    "note": "SC206: source connector resolves 150/F11 ↔ 151/F11."
+                  },
+                  "interpretationBasis": "Both line endpoints align to decoded marker positions within the bounded source tolerance.",
+                  "projectionStatus": "source_interpreted",
+                  "active": true,
+                  "notes": [
+                    "This is a node-local optical transition. Route adjacency, matching number and color are not transition keys."
+                  ],
+                  "evidenceSources": [
+                    {
+                      "file": "Tsageri-Alpana-Tvishi.vsdx",
+                      "page": "სვანეთი",
+                      "pageId": "4",
+                      "part": "visio/pages/page1.xml",
+                      "shapeIds": [
+                        "33024",
+                        "17177",
+                        "17275"
+                      ],
+                      "rawValue": "NFT-206-33024",
+                      "interpretationRule": "tsageri-alpana-tvishi-marker-and-transition-candidate/2",
+                      "note": "Iteration 27D: exact source marker-bank construction and connector geometry."
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "NFT-SC205-14229",
+                "node": {
+                  "kind": "closure",
+                  "id": "205"
+                },
+                "from": {
+                  "segmentId": "CAB-000150",
+                  "fiberNumber": 11,
+                  "tubeNumber": 1,
+                  "tubeColor": {
+                    "key": "blue",
+                    "nameKa": "ლურჯი",
+                    "nameEn": "Blue",
+                    "hex": "#2563eb",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  },
+                  "fiberColor": {
+                    "key": "rose",
+                    "nameKa": "ვარდისფერი",
+                    "nameEn": "Rose/Pink",
+                    "hex": "#ec4899",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  }
+                },
+                "to": {
+                  "segmentId": "CAB-000148",
+                  "fiberNumber": 11,
+                  "tubeNumber": 1,
+                  "tubeColor": {
+                    "key": "blue",
+                    "nameKa": "ლურჯი",
+                    "nameEn": "Blue",
+                    "hex": "#2563eb",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  },
+                  "fiberColor": {
+                    "key": "rose",
+                    "nameKa": "ვარდისფერი",
+                    "nameEn": "Rose/Pink",
+                    "hex": "#ec4899",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  }
+                },
+                "evidence": {
+                  "id": "NFT-SC205-14229",
+                  "node": {
+                    "kind": "closure",
+                    "id": "205"
+                  },
+                  "a": {
+                    "segmentId": "CAB-000148",
+                    "fiberNumber": 11,
+                    "tubeNumber": 1,
+                    "tubeColor": {
+                      "key": "blue",
+                      "nameKa": "ლურჯი",
+                      "nameEn": "Blue",
+                      "hex": "#2563eb",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    },
+                    "fiberColor": {
+                      "key": "rose",
+                      "nameKa": "ვარდისფერი",
+                      "nameEn": "Rose/Pink",
+                      "hex": "#ec4899",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    }
+                  },
+                  "z": {
+                    "segmentId": "CAB-000150",
+                    "fiberNumber": 11,
+                    "tubeNumber": 1,
+                    "tubeColor": {
+                      "key": "blue",
+                      "nameKa": "ლურჯი",
+                      "nameEn": "Blue",
+                      "hex": "#2563eb",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    },
+                    "fiberColor": {
+                      "key": "rose",
+                      "nameKa": "ვარდისფერი",
+                      "nameEn": "Rose/Pink",
+                      "hex": "#ec4899",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    }
+                  },
+                  "port": null,
+                  "transitionType": "optical_continuation",
+                  "operation": "unknown",
+                  "sourceGeometry": {
+                    "beginX": 28.3615563056601,
+                    "beginY": 588.2715399469726,
+                    "endX": 28.3615563056601,
+                    "endY": 575.1328291138291,
+                    "context": "source_geometry"
+                  },
+                  "source": {
+                    "file": "Tsageri-Lentekhi 2025.vsdx",
+                    "page": "ცაგერი-ლენტეხი",
+                    "pageId": "4",
+                    "part": "visio/pages/page1.xml",
+                    "shapeIds": [
+                      "14229",
+                      "43844",
+                      "19366"
+                    ],
+                    "rawValue": "source_geometry",
+                    "interpretationRule": "tsageri-lentekhi-node-fiber-transition/2",
+                    "note": "SC205: source connector resolves 148/F11 ↔ 150/F11."
+                  },
+                  "interpretationBasis": "Both line endpoints align to decoded marker positions within the bounded source tolerance.",
+                  "projectionStatus": "source_interpreted",
+                  "active": true,
+                  "notes": [
+                    "This is a node-local optical transition. Route adjacency, matching number and color are not transition keys."
+                  ],
+                  "evidenceSources": [
+                    {
+                      "file": "Tsageri-Alpana-Tvishi.vsdx",
+                      "page": "სვანეთი",
+                      "pageId": "4",
+                      "part": "visio/pages/page1.xml",
+                      "shapeIds": [
+                        "14229",
+                        "16126",
+                        "19366"
+                      ],
+                      "rawValue": "NFT-205-14229",
+                      "interpretationRule": "tsageri-alpana-tvishi-marker-and-transition-candidate/2",
+                      "note": "Iteration 27D: exact source marker-bank construction and connector geometry."
+                    }
+                  ]
+                }
+              }
+            ],
+            "ambiguous": false,
+            "stop": {
+              "kind": "no_transition",
+              "node": {
+                "kind": "aggregation",
+                "id": "5"
+              },
+              "segmentId": "CAB-000148",
+              "fiberNumber": 11,
+              "transitionIds": [],
+              "portBindingId": null
+            }
+          },
+          {
+            "startNode": {
+              "kind": "network_node",
+              "id": "212"
+            },
+            "legs": [
+              {
+                "cableId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+                "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+                "fiberNumber": 11,
+                "tubeNumber": 1,
+                "tubeColor": {
+                  "key": "blue",
+                  "nameKa": "ლურჯი",
+                  "nameEn": "Blue",
+                  "hex": "#2563eb",
+                  "basis": "documented",
+                  "verification": "documentation_reviewed"
+                },
+                "fiberColor": {
+                  "key": "rose",
+                  "nameKa": "ვარდისფერი",
+                  "nameEn": "Rose/Pink",
+                  "hex": "#ec4899",
+                  "basis": "documented",
+                  "verification": "documentation_reviewed"
+                }
+              },
+              {
+                "cableId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C164",
+                "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C164",
+                "fiberNumber": 23,
+                "tubeNumber": 2,
+                "tubeColor": {
+                  "key": "orange",
+                  "nameKa": "ნარინჯისფერი",
+                  "nameEn": "Orange",
+                  "hex": "#f97316",
+                  "basis": "documented",
+                  "verification": "documentation_reviewed"
+                },
+                "fiberColor": {
+                  "key": "rose",
+                  "nameKa": "ვარდისფერი",
+                  "nameEn": "Rose/Pink",
+                  "hex": "#ec4899",
+                  "basis": "documented",
+                  "verification": "documentation_reviewed"
+                }
+              },
+              {
+                "cableId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C166",
+                "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C166",
+                "fiberNumber": 23,
+                "tubeNumber": 2,
+                "tubeColor": {
+                  "key": "orange",
+                  "nameKa": "ნარინჯისფერი",
+                  "nameEn": "Orange",
+                  "hex": "#f97316",
+                  "basis": "documented",
+                  "verification": "documentation_reviewed"
+                },
+                "fiberColor": {
+                  "key": "rose",
+                  "nameKa": "ვარდისფერი",
+                  "nameEn": "Rose/Pink",
+                  "hex": "#ec4899",
+                  "basis": "documented",
+                  "verification": "documentation_reviewed"
+                }
+              },
+              {
+                "cableId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C167",
+                "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C167",
+                "fiberNumber": 23,
+                "tubeNumber": 2,
+                "tubeColor": {
+                  "key": "orange",
+                  "nameKa": "ნარინჯისფერი",
+                  "nameEn": "Orange",
+                  "hex": "#f97316",
+                  "basis": "documented",
+                  "verification": "documentation_reviewed"
+                },
+                "fiberColor": {
+                  "key": "rose",
+                  "nameKa": "ვარდისფერი",
+                  "nameEn": "Rose/Pink",
+                  "hex": "#ec4899",
+                  "basis": "documented",
+                  "verification": "documentation_reviewed"
+                }
+              },
+              {
+                "cableId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C168",
+                "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C168",
+                "fiberNumber": 11,
+                "tubeNumber": 1,
+                "tubeColor": {
+                  "key": "blue",
+                  "nameKa": "ლურჯი",
+                  "nameEn": "Blue",
+                  "hex": "#2563eb",
+                  "basis": "documented",
+                  "verification": "documentation_reviewed"
+                },
+                "fiberColor": {
+                  "key": "rose",
+                  "nameKa": "ვარდისფერი",
+                  "nameEn": "Rose/Pink",
+                  "hex": "#ec4899",
+                  "basis": "documented",
+                  "verification": "documentation_reviewed"
+                }
+              }
+            ],
+            "transitions": [
+              {
+                "id": "27D-NFT-212-41019",
+                "node": {
+                  "kind": "network_node",
+                  "id": "212"
+                },
+                "from": {
+                  "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+                  "fiberNumber": 11,
+                  "tubeNumber": 1,
+                  "tubeColor": {
+                    "key": "blue",
+                    "nameKa": "ლურჯი",
+                    "nameEn": "Blue",
+                    "hex": "#2563eb",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  },
+                  "fiberColor": {
+                    "key": "rose",
+                    "nameKa": "ვარდისფერი",
+                    "nameEn": "Rose/Pink",
+                    "hex": "#ec4899",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  }
+                },
+                "to": {
+                  "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C164",
+                  "fiberNumber": 23,
+                  "tubeNumber": 2,
+                  "tubeColor": {
+                    "key": "orange",
+                    "nameKa": "ნარინჯისფერი",
+                    "nameEn": "Orange",
+                    "hex": "#f97316",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  },
+                  "fiberColor": {
+                    "key": "rose",
+                    "nameKa": "ვარდისფერი",
+                    "nameEn": "Rose/Pink",
+                    "hex": "#ec4899",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  }
+                },
+                "evidence": {
+                  "id": "27D-NFT-212-41019",
+                  "node": {
+                    "kind": "network_node",
+                    "id": "212"
+                  },
+                  "a": {
+                    "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+                    "fiberNumber": 11,
+                    "tubeNumber": 1,
+                    "tubeColor": {
+                      "key": "blue",
+                      "nameKa": "ლურჯი",
+                      "nameEn": "Blue",
+                      "hex": "#2563eb",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    },
+                    "fiberColor": {
+                      "key": "rose",
+                      "nameKa": "ვარდისფერი",
+                      "nameEn": "Rose/Pink",
+                      "hex": "#ec4899",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    }
+                  },
+                  "z": {
+                    "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C164",
+                    "fiberNumber": 23,
+                    "tubeNumber": 2,
+                    "tubeColor": {
+                      "key": "orange",
+                      "nameKa": "ნარინჯისფერი",
+                      "nameEn": "Orange",
+                      "hex": "#f97316",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    },
+                    "fiberColor": {
+                      "key": "rose",
+                      "nameKa": "ვარდისფერი",
+                      "nameEn": "Rose/Pink",
+                      "hex": "#ec4899",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    }
+                  },
+                  "port": null,
+                  "transitionType": "optical_continuation",
+                  "operation": "unknown",
+                  "sourceGeometry": {
+                    "context": "Connector Shape 41019; endpoint marker Shapes 29000 and 29928"
+                  },
+                  "source": {
+                    "file": "Tsageri-Alpana-Tvishi.vsdx",
+                    "page": "სვანეთი",
+                    "pageId": "4",
+                    "part": "visio/pages/page1.xml",
+                    "shapeIds": [
+                      "41019",
+                      "29000",
+                      "29928"
+                    ],
+                    "rawValue": "NFT-212-41019",
+                    "interpretationRule": "tsageri-alpana-tvishi-marker-and-transition-candidate/2",
+                    "note": "Iteration 27D: exact source marker-bank construction and connector geometry."
+                  },
+                  "interpretationBasis": "Exact source connector geometry with unique marker alignment at both endpoints. Route adjacency, number, and color are not transition keys.",
+                  "projectionStatus": "source_interpreted",
+                  "active": true,
+                  "notes": []
+                }
+              },
+              {
+                "id": "27D-NFT-213-28620",
+                "node": {
+                  "kind": "network_node",
+                  "id": "213"
+                },
+                "from": {
+                  "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C164",
+                  "fiberNumber": 23,
+                  "tubeNumber": 2,
+                  "tubeColor": {
+                    "key": "orange",
+                    "nameKa": "ნარინჯისფერი",
+                    "nameEn": "Orange",
+                    "hex": "#f97316",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  },
+                  "fiberColor": {
+                    "key": "rose",
+                    "nameKa": "ვარდისფერი",
+                    "nameEn": "Rose/Pink",
+                    "hex": "#ec4899",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  }
+                },
+                "to": {
+                  "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C166",
+                  "fiberNumber": 23,
+                  "tubeNumber": 2,
+                  "tubeColor": {
+                    "key": "orange",
+                    "nameKa": "ნარინჯისფერი",
+                    "nameEn": "Orange",
+                    "hex": "#f97316",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  },
+                  "fiberColor": {
+                    "key": "rose",
+                    "nameKa": "ვარდისფერი",
+                    "nameEn": "Rose/Pink",
+                    "hex": "#ec4899",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  }
+                },
+                "evidence": {
+                  "id": "27D-NFT-213-28620",
+                  "node": {
+                    "kind": "network_node",
+                    "id": "213"
+                  },
+                  "a": {
+                    "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C164",
+                    "fiberNumber": 23,
+                    "tubeNumber": 2,
+                    "tubeColor": {
+                      "key": "orange",
+                      "nameKa": "ნარინჯისფერი",
+                      "nameEn": "Orange",
+                      "hex": "#f97316",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    },
+                    "fiberColor": {
+                      "key": "rose",
+                      "nameKa": "ვარდისფერი",
+                      "nameEn": "Rose/Pink",
+                      "hex": "#ec4899",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    }
+                  },
+                  "z": {
+                    "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C166",
+                    "fiberNumber": 23,
+                    "tubeNumber": 2,
+                    "tubeColor": {
+                      "key": "orange",
+                      "nameKa": "ნარინჯისფერი",
+                      "nameEn": "Orange",
+                      "hex": "#f97316",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    },
+                    "fiberColor": {
+                      "key": "rose",
+                      "nameKa": "ვარდისფერი",
+                      "nameEn": "Rose/Pink",
+                      "hex": "#ec4899",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    }
+                  },
+                  "port": null,
+                  "transitionType": "optical_continuation",
+                  "operation": "unknown",
+                  "sourceGeometry": {
+                    "context": "Connector Shape 28620; endpoint marker Shapes 30159 and 30867"
+                  },
+                  "source": {
+                    "file": "Tsageri-Alpana-Tvishi.vsdx",
+                    "page": "სვანეთი",
+                    "pageId": "4",
+                    "part": "visio/pages/page1.xml",
+                    "shapeIds": [
+                      "28620",
+                      "30159",
+                      "30867"
+                    ],
+                    "rawValue": "NFT-213-28620",
+                    "interpretationRule": "tsageri-alpana-tvishi-marker-and-transition-candidate/2",
+                    "note": "Iteration 27D: exact source marker-bank construction and connector geometry."
+                  },
+                  "interpretationBasis": "Exact source connector geometry with unique marker alignment at both endpoints. Route adjacency, number, and color are not transition keys.",
+                  "projectionStatus": "source_interpreted",
+                  "active": true,
+                  "notes": []
+                }
+              },
+              {
+                "id": "27D-NFT-214-30166",
+                "node": {
+                  "kind": "network_node",
+                  "id": "214"
+                },
+                "from": {
+                  "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C166",
+                  "fiberNumber": 23,
+                  "tubeNumber": 2,
+                  "tubeColor": {
+                    "key": "orange",
+                    "nameKa": "ნარინჯისფერი",
+                    "nameEn": "Orange",
+                    "hex": "#f97316",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  },
+                  "fiberColor": {
+                    "key": "rose",
+                    "nameKa": "ვარდისფერი",
+                    "nameEn": "Rose/Pink",
+                    "hex": "#ec4899",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  }
+                },
+                "to": {
+                  "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C167",
+                  "fiberNumber": 23,
+                  "tubeNumber": 2,
+                  "tubeColor": {
+                    "key": "orange",
+                    "nameKa": "ნარინჯისფერი",
+                    "nameEn": "Orange",
+                    "hex": "#f97316",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  },
+                  "fiberColor": {
+                    "key": "rose",
+                    "nameKa": "ვარდისფერი",
+                    "nameEn": "Rose/Pink",
+                    "hex": "#ec4899",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  }
+                },
+                "evidence": {
+                  "id": "27D-NFT-214-30166",
+                  "node": {
+                    "kind": "network_node",
+                    "id": "214"
+                  },
+                  "a": {
+                    "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C166",
+                    "fiberNumber": 23,
+                    "tubeNumber": 2,
+                    "tubeColor": {
+                      "key": "orange",
+                      "nameKa": "ნარინჯისფერი",
+                      "nameEn": "Orange",
+                      "hex": "#f97316",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    },
+                    "fiberColor": {
+                      "key": "rose",
+                      "nameKa": "ვარდისფერი",
+                      "nameEn": "Rose/Pink",
+                      "hex": "#ec4899",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    }
+                  },
+                  "z": {
+                    "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C167",
+                    "fiberNumber": 23,
+                    "tubeNumber": 2,
+                    "tubeColor": {
+                      "key": "orange",
+                      "nameKa": "ნარინჯისფერი",
+                      "nameEn": "Orange",
+                      "hex": "#f97316",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    },
+                    "fiberColor": {
+                      "key": "rose",
+                      "nameKa": "ვარდისფერი",
+                      "nameEn": "Rose/Pink",
+                      "hex": "#ec4899",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    }
+                  },
+                  "port": null,
+                  "transitionType": "optical_continuation",
+                  "operation": "unknown",
+                  "sourceGeometry": {
+                    "context": "Connector Shape 30166; endpoint marker Shapes 30969 and 31260"
+                  },
+                  "source": {
+                    "file": "Tsageri-Alpana-Tvishi.vsdx",
+                    "page": "სვანეთი",
+                    "pageId": "4",
+                    "part": "visio/pages/page1.xml",
+                    "shapeIds": [
+                      "30166",
+                      "30969",
+                      "31260"
+                    ],
+                    "rawValue": "NFT-214-30166",
+                    "interpretationRule": "tsageri-alpana-tvishi-marker-and-transition-candidate/2",
+                    "note": "Iteration 27D: exact source marker-bank construction and connector geometry."
+                  },
+                  "interpretationBasis": "Exact source connector geometry with unique marker alignment at both endpoints. Route adjacency, number, and color are not transition keys.",
+                  "projectionStatus": "source_interpreted",
+                  "active": true,
+                  "notes": []
+                }
+              },
+              {
+                "id": "27D-NFT-215-41048",
+                "node": {
+                  "kind": "network_node",
+                  "id": "215"
+                },
+                "from": {
+                  "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C167",
+                  "fiberNumber": 23,
+                  "tubeNumber": 2,
+                  "tubeColor": {
+                    "key": "orange",
+                    "nameKa": "ნარინჯისფერი",
+                    "nameEn": "Orange",
+                    "hex": "#f97316",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  },
+                  "fiberColor": {
+                    "key": "rose",
+                    "nameKa": "ვარდისფერი",
+                    "nameEn": "Rose/Pink",
+                    "hex": "#ec4899",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  }
+                },
+                "to": {
+                  "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C168",
+                  "fiberNumber": 11,
+                  "tubeNumber": 1,
+                  "tubeColor": {
+                    "key": "blue",
+                    "nameKa": "ლურჯი",
+                    "nameEn": "Blue",
+                    "hex": "#2563eb",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  },
+                  "fiberColor": {
+                    "key": "rose",
+                    "nameKa": "ვარდისფერი",
+                    "nameEn": "Rose/Pink",
+                    "hex": "#ec4899",
+                    "basis": "documented",
+                    "verification": "documentation_reviewed"
+                  }
+                },
+                "evidence": {
+                  "id": "27D-NFT-215-41048",
+                  "node": {
+                    "kind": "network_node",
+                    "id": "215"
+                  },
+                  "a": {
+                    "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C167",
+                    "fiberNumber": 23,
+                    "tubeNumber": 2,
+                    "tubeColor": {
+                      "key": "orange",
+                      "nameKa": "ნარინჯისფერი",
+                      "nameEn": "Orange",
+                      "hex": "#f97316",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    },
+                    "fiberColor": {
+                      "key": "rose",
+                      "nameKa": "ვარდისფერი",
+                      "nameEn": "Rose/Pink",
+                      "hex": "#ec4899",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    }
+                  },
+                  "z": {
+                    "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C168",
+                    "fiberNumber": 11,
+                    "tubeNumber": 1,
+                    "tubeColor": {
+                      "key": "blue",
+                      "nameKa": "ლურჯი",
+                      "nameEn": "Blue",
+                      "hex": "#2563eb",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    },
+                    "fiberColor": {
+                      "key": "rose",
+                      "nameKa": "ვარდისფერი",
+                      "nameEn": "Rose/Pink",
+                      "hex": "#ec4899",
+                      "basis": "documented",
+                      "verification": "documentation_reviewed"
+                    }
+                  },
+                  "port": null,
+                  "transitionType": "optical_continuation",
+                  "operation": "unknown",
+                  "sourceGeometry": {
+                    "context": "Connector Shape 41048; endpoint marker Shapes 31570 and 26910"
+                  },
+                  "source": {
+                    "file": "Tsageri-Alpana-Tvishi.vsdx",
+                    "page": "სვანეთი",
+                    "pageId": "4",
+                    "part": "visio/pages/page1.xml",
+                    "shapeIds": [
+                      "41048",
+                      "31570",
+                      "26910"
+                    ],
+                    "rawValue": "NFT-215-41048",
+                    "interpretationRule": "tsageri-alpana-tvishi-marker-and-transition-candidate/2",
+                    "note": "Iteration 27D: exact source marker-bank construction and connector geometry."
+                  },
+                  "interpretationBasis": "Exact source connector geometry with unique marker alignment at both endpoints. Route adjacency, number, and color are not transition keys.",
+                  "projectionStatus": "source_interpreted",
+                  "active": true,
+                  "notes": []
+                }
+              }
+            ],
+            "ambiguous": false,
+            "stop": {
+              "kind": "port",
+              "node": {
+                "kind": "network_node",
+                "id": "49"
+              },
+              "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C168",
+              "fiberNumber": 11,
+              "transitionIds": [],
+              "portBindingId": "28D-SOURCE-B-AP49-P11"
+            }
+          }
+        ],
+        "state": "partial"
+      },
+      "views": [
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+          "fiberNumber": 11,
+          "usageState": "unused",
+          "organization": null,
+          "purpose": null,
+          "condition": "unknown",
+          "administrativeAllocation": "unknown",
+          "availability": "unknown",
+          "conflict": false,
+          "claimIds": [
+            "28E-USE-00059",
+            "28E-USE-00251",
+            "28E-USE-00443",
+            "28E-USE-00587",
+            "28E-USE-00730",
+            "28E-USE-00922",
+            "28E-USE-01066",
+            "28E-USE-01210",
+            "28E-USE-01450",
+            "28E-USE-01582",
+            "28E-USE-01628",
+            "28E-USE-01676",
+            "28E-USE-01712",
+            "28E-USE-01724",
+            "28E-USE-01772",
+            "28E-USE-01808",
+            "28E-USE-02020",
+            "28E-USE-02212",
+            "28E-USE-02430",
+            "28E-USE-02538",
+            "28E-USE-02634",
+            "28E-USE-02714",
+            "28E-USE-02842",
+            "28E-USE-03069",
+            "28E-USE-03082"
+          ],
+          "sourceLineShapeIds": [
+            "17527",
+            "19173",
+            "20279",
+            "20826",
+            "21551",
+            "24344",
+            "25312",
+            "26678",
+            "29201",
+            "29754",
+            "30166",
+            "30214",
+            "30993",
+            "31005",
+            "31138",
+            "33024",
+            "38735",
+            "14229",
+            "15797",
+            "24155",
+            "15863",
+            "27065",
+            "28620",
+            "41019",
+            "41048"
+          ],
+          "sourceLabelShapeIds": []
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C161",
+          "fiberNumber": 23,
+          "usageState": "unused",
+          "organization": null,
+          "purpose": null,
+          "condition": "unknown",
+          "administrativeAllocation": "unknown",
+          "availability": "unknown",
+          "conflict": false,
+          "claimIds": [
+            "28E-USE-00071",
+            "28E-USE-00263",
+            "28E-USE-00455",
+            "28E-USE-00599",
+            "28E-USE-00742",
+            "28E-USE-00934",
+            "28E-USE-01078",
+            "28E-USE-01222",
+            "28E-USE-01462",
+            "28E-USE-01820",
+            "28E-USE-02032",
+            "28E-USE-02224",
+            "28E-USE-02442",
+            "28E-USE-02550",
+            "28E-USE-02646",
+            "28E-USE-02726",
+            "28E-USE-03066"
+          ],
+          "sourceLineShapeIds": [
+            "17539",
+            "19185",
+            "20291",
+            "20838",
+            "21563",
+            "24356",
+            "25324",
+            "26690",
+            "29213",
+            "33036",
+            "38747",
+            "14241",
+            "15809",
+            "24167",
+            "15875",
+            "27077",
+            "41002"
+          ],
+          "sourceLabelShapeIds": []
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C164",
+          "fiberNumber": 11,
+          "usageState": "unused",
+          "organization": null,
+          "purpose": null,
+          "condition": "unknown",
+          "administrativeAllocation": "unknown",
+          "availability": "unknown",
+          "conflict": false,
+          "claimIds": [
+            "28E-USE-01570",
+            "28E-USE-01617",
+            "28E-USE-01664",
+            "28E-USE-01760",
+            "28E-USE-02830"
+          ],
+          "sourceLineShapeIds": [
+            "29742",
+            "29643",
+            "30202",
+            "31126",
+            "28608"
+          ],
+          "sourceLabelShapeIds": []
+        },
+        {
+          "segmentId": "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C164",
+          "fiberNumber": 23,
+          "usageState": "unused",
+          "organization": null,
+          "purpose": null,
+          "condition": "unknown",
+          "administrativeAllocation": "unknown",
+          "availability": "unknown",
+          "conflict": false,
+          "claimIds": [
+            "28E-USE-00059",
+            "28E-USE-00251",
+            "28E-USE-00443",
+            "28E-USE-00587",
+            "28E-USE-00730",
+            "28E-USE-00922",
+            "28E-USE-01066",
+            "28E-USE-01210",
+            "28E-USE-01450",
+            "28E-USE-01582",
+            "28E-USE-01628",
+            "28E-USE-01676",
+            "28E-USE-01712",
+            "28E-USE-01724",
+            "28E-USE-01772",
+            "28E-USE-01808",
+            "28E-USE-02020",
+            "28E-USE-02212",
+            "28E-USE-02430",
+            "28E-USE-02538",
+            "28E-USE-02634",
+            "28E-USE-02714",
+            "28E-USE-02842",
+            "28E-USE-03069",
+            "28E-USE-03082"
+          ],
+          "sourceLineShapeIds": [
+            "17527",
+            "19173",
+            "20279",
+            "20826",
+            "21551",
+            "24344",
+            "25312",
+            "26678",
+            "29201",
+            "29754",
+            "30166",
+            "30214",
+            "30993",
+            "31005",
+            "31138",
+            "33024",
+            "38735",
+            "14229",
+            "15797",
+            "24155",
+            "15863",
+            "27065",
+            "28620",
+            "41019",
+            "41048"
+          ],
+          "sourceLabelShapeIds": []
+        }
+      ]
+    }
+  }
+}

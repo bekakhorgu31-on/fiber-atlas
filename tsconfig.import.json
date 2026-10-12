@@ -1,0 +1,1 @@
+{"extends":"./tsconfig.json","include":["scripts/compile-upload.ts","scripts/compile-port-correction.ts","scripts/reconcile-import-corrections.ts","scripts/export-port-correction-fixture.ts"]}

@@ -1,0 +1,37 @@
+{
+  "cache_key": "acb8314be055caab91fe8d1d4318a74555c7cfb02ea192a3a13083cf0db691d7",
+  "format": "fiber-atlas-vsdx-raw/3",
+  "source": {
+    "absolute_path": "C:\\Users\\Beka\\Desktop\\Visio Alt\\fiber-prototype\\imports\\inbox\\Tsageri-Alpana-Tvishi.vsdx",
+    "file": "Tsageri-Alpana-Tvishi.vsdx",
+    "modified_at": "2026-04-06T08:11:36.011335+00:00",
+    "sha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d",
+    "size_bytes": 1540620
+  },
+  "summary": {
+    "all_page_shapes_including_subshapes": 9707,
+    "comments": 0,
+    "connect_rows": 311,
+    "connect_rows_dangling": 0,
+    "connect_rows_valid": 311,
+    "direct_text_shapes": 3569,
+    "grouped_subshapes": 6310,
+    "masters": 22,
+    "package_parts": 40,
+    "pages": 1,
+    "shapes_with_effective_fill": 9707,
+    "shapes_with_local_property_sections": 297,
+    "shapes_with_master_reference": 545,
+    "style_references": 9162,
+    "styles": 7,
+    "top_level_shapes": 3397,
+    "unique_masters": 22,
+    "unresolved_effective_colors": 0,
+    "xml_parts_preserved_verbatim": 39
+  },
+  "versions": {
+    "extractor": "fiber-atlas-vsdx-package-reader/3",
+    "geometry_resolver": "fiber-atlas-visio-world-geometry/2",
+    "style_resolver": "fiber-atlas-visio-effective-style/2"
+  }
+}

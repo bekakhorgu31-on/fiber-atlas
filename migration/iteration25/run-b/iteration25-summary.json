@@ -1,0 +1,44 @@
+{
+  "artifacts": [
+    {
+      "bytes": 59000,
+      "file": "iteration25-company-usage.json",
+      "sha256": "1f7c0cdd61ba286718f489689063c654bc390f05ac97350f9ad816bcb92136cb"
+    },
+    {
+      "bytes": 28838,
+      "file": "iteration25-sc225-routing.json",
+      "sha256": "13e7fbd78dad4fb22bfbe38417207e2dee7b509bbaf25853213055d867c0b787"
+    },
+    {
+      "bytes": 24691,
+      "file": "iteration25-port-interpretation.json",
+      "sha256": "6fe83271949175243318aff89f7565d2db977e64fca6ff738191edd21dfda228"
+    },
+    {
+      "bytes": 5934,
+      "file": "iteration25-unresolved-evidence.json",
+      "sha256": "edaf02166264501310d43a69cee01cfd1bad029f61b4e0097f101f466d1671f8"
+    },
+    {
+      "bytes": 1047,
+      "file": "iteration25-semantic-diff.json",
+      "sha256": "725c4aa9c41e6664a110742089833d207a49af58d162ff2b9b5d02620e87bb34"
+    }
+  ],
+  "deterministic": true,
+  "interpreter": "interpret-iteration25-source.py/1",
+  "page": "ცაგერი-ლენტეხი",
+  "pageId": "4",
+  "part": "visio/pages/page1.xml",
+  "rawArtifactSha256": "e14e79f5930a1b063db11e4db53d2ac47925fb49ffc3a915449468a54cfb066f",
+  "result": {
+    "companyAssignments": 13,
+    "companyOccurrencesReconciled": 31,
+    "sc225RowsReconciled": 24,
+    "sourceIdentityConflictCount": 1
+  },
+  "schemaVersion": 1,
+  "sourceFile": "Tsageri-Lentekhi 2025.vsdx",
+  "sourceSha256": "caae4badc9c8c30be0a5fa3ef26352c3e534a9de7c66e830ef470466bb34a6fa"
+}

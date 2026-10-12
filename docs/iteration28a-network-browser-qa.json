@@ -1,0 +1,61 @@
+{
+  "defaultView": "Fiber Atlas · ქსელის ტოპოლოგია",
+  "coverage": {
+    "expectedCables": 37,
+    "visibleCableCards": 37,
+    "primaryComponents": 1,
+    "metrics": "37\nაქტიური Cable\n2,088\nFiber\n1\nფიზიკური კომპონენტი\n2\nწყარო დოკუმენტი · ერთი ქსელი",
+    "details": "ტოპოლოგიის დაფარვა და წყაროები\n\nაქტიური Cable: 37 · ძირითადი კომპონენტი: 37 · სხვა კომპონენტები: 0 · branch-node-სთან დაკავშირებული Cable: 31 · იზოლირებული Cable: 0 · გამოტოვებული: 0.\n\nRoute არის შერჩეული საინჟინრო კონტექსტი; ქსელის კვანძები და Cable კავშირები აქტიური canonical Inventory-დან მოდის.\n\nმიმართულების source annotations · topology edge არ არის\n\nAlpana-Tvishi-Ambrolauri directiion · Tsageri-Lentekhi 2025.vsdx · scope: route · confirmed\n\nგადასვლა ქურო N162-ში ამბროლაურის მიმართულება · Tsageri-Alpana-Tvishi.vsdx · scope: unresolved · unresolved\n\nლენტეხი-ხელედის მიმართულება · Tsageri-Alpana-Tvishi.vsdx · scope: unresolved · unresolved\n\nBOUNDARY-SC207 provenance შენარჩუნებულია Node 207-ის ტექნიკურ ჩანაწერში; ახლა C151↔Node207↔C152 ფიზიკური ქსელის ნაწილია."
+  },
+  "desktop": [
+    {
+      "flow": "default combined graph and Node207 inspector",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "SC206 collapse URL and Browser Back restoration",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "C152 search-to-network selection",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "Node 211 search-to-network selection",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "C151/F1 query-to-network exact optical overlay",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "C151/F118 stops at Node207, C152 remains physical only",
+      "width": 1440,
+      "scrollWidth": 1440
+    }
+  ],
+  "mobile": [
+    {
+      "flow": "390px default combined topology",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "flow": "390px Engineer query to Fiber overlay",
+      "width": 390,
+      "scrollWidth": 390
+    }
+  ],
+  "screenshots": [
+    "docs/iteration28a-sc206-fork-desktop.png",
+    "docs/iteration28a-source-b-node207-chain-desktop.png",
+    "docs/iteration28a-c151-f1-optical-overlay-desktop.png",
+    "docs/iteration28a-combined-network-mobile-390px.png"
+  ],
+  "logs": []
+}

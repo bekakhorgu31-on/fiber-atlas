@@ -1,0 +1,13 @@
+{
+  "schema": "iteration28e-determinism/1",
+  "sourceSha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d",
+  "method": "Two independent rebuilds of the line grammar and current-path usage projection; SHA-256 compared for every normalized runtime/audit artifact.",
+  "byteIdentical": true,
+  "artifacts": {
+    "migration/iteration28e/fiber-usage-line-audit.json": "ae082456a1147520cb91ade2aac77e05d2bf36ed146d7c7b734a6725f6e86daa",
+    "src/data/source-b-fiber-usage-evidence.json": "474822934f60fca8fff313ea4c0c1f9c8f817c99e5a3ceef039b36113caec6c9",
+    "migration/iteration28e/fiber-lineage-usage.json": "4ecf01cab2132a1c1e77988d68d19c36586e94413509b7eaf61a37a7ba537fcc",
+    "migration/iteration28e/review-queue.json": "533a3d89363dd8eda5a3a246c4d2a28b19438c2155b1086224b8d9875f9bd5ee",
+    "migration/iteration28e/usage-summary.json": "4fa7abc9b2e823b923dabff6abba894abd991a6e9eb716407cf92840bb597b72"
+  }
+}

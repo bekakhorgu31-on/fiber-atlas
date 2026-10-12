@@ -1,0 +1,17 @@
+{
+  "profile": "mocked local responses only",
+  "journeys": [
+    {
+      "width": 1440,
+      "case": "large inventory status/counts, no activation action, Needs Review entry",
+      "horizontalOverflow": false
+    },
+    {
+      "width": 390,
+      "case": "large inventory status/counts, no activation action, Needs Review entry",
+      "horizontalOverflow": false
+    }
+  ],
+  "errors": [],
+  "posts": 0
+}

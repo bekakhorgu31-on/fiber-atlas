@@ -1,0 +1,58 @@
+{
+  "desktop": [
+    {
+      "flow": "endpoint company label appears from C148/F20 with origin evidence",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "C161/F11 remap exposes use at C164/F23",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "query C158-ში რომელი Fiber-ები იყენებს Magti?",
+      "answer": "C158-ში რომელი FIBER-ები იყენებს MAGTI?\nდადასტურებული ქსელის გამოყენება\nზუსტი topology\n\n10 წყაროთი ინტერპრეტირებული assignment; 2 მიმდინარე Fiber leg-ია ზუსტ scope-ში. Ownership/se",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "query რომელი არის OTDR?",
+      "answer": "რომელი არის OTDR?\nOTDR დანიშნულების Fibers\nზუსტი topology\n\n12 ზუსტი ადგილობრივი Fiber ჩანაწერი; unused არ ნიშნავს ხელმისაწვდომს.\n\nC169/F7 · in_use · OTDR, internal\nC171/F7 · in_use",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "query რომელი Fiber-ებია გამოუყენებელი?",
+      "answer": "რომელი FIBER-ებია გამოუყენებელი?\nგამოუყენებელი Fibers\nზუსტი topology\n\n1431 ზუსტი ადგილობრივი Fiber ჩანაწერი; unused არ ნიშნავს ხელმისაწვდომს.\n\nC169/F6 · unused\nC169/F9 · unused\nC16",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "query რომელი Fiber-ებია გადასამოწმებელი?",
+      "answer": "რომელი FIBER-ებია გადასამოწმებელი?\nგადასამოწმებელი Fibers\nზუსტი topology\n\n17 ზუსტი ადგილობრივი Fiber ჩანაწერი; unused არ ნიშნავს ხელმისაწვდომს.\n\nC169/F12 · review_required\nC171/F12",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "all 28 dashed occurrences remain individually reviewable; local decision appends",
+      "width": 1440,
+      "scrollWidth": 1440
+    }
+  ],
+  "mobile": [
+    {
+      "flow": "Fiber usage status and origin evidence at 390px",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "flow": "review queue at 390px",
+      "width": 390,
+      "scrollWidth": 390
+    }
+  ],
+  "offline": true,
+  "externalRequests": [],
+  "logs": []
+}

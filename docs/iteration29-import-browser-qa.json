@@ -1,0 +1,35 @@
+{
+  "browser": "154.0.4258.53",
+  "journeys": [
+    {
+      "name": "UI upload persists reviewed source bytes and keeps its new interpretation staged",
+      "reused": false
+    },
+    {
+      "name": "staged-candidate review is attributed and persisted independently of activation"
+    },
+    {
+      "name": "raw Shape evidence opens for the selected source revision and extraction run"
+    },
+    {
+      "name": "390px import and candidate review layout has no document overflow"
+    },
+    {
+      "name": "identical UI reimport reuses the run and preserves its review"
+    },
+    {
+      "name": "staging/review/reimport leave current topology unchanged",
+      "revision": "NETWORK-28L-397cb29f8c3b0280-OP1-8109aecedeb6",
+      "counts": {
+        "cables": 37,
+        "fibers": 2088,
+        "transitions": 1631,
+        "bindings": 384
+      }
+    },
+    {
+      "name": "API outage shows a visible error with no offline substitution"
+    }
+  ],
+  "errors": []
+}

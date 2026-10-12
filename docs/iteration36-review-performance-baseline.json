@@ -1,0 +1,127 @@
+{
+  "measuredAt": "2026-10-11T20:34:33.798Z",
+  "environment": "Owner local app, internal PostgreSQL; read-only GET requests; no login or topology mutation",
+  "limits": "Small diagnostic sample, not p95 or browser-render timing. Requests within the concurrent group start together; other requests are sequential.",
+  "measurements": [
+    {
+      "label": "port-list",
+      "group": "sequential",
+      "endpoint": "review-inbox",
+      "status": 200,
+      "ttfbMs": 1480,
+      "totalMs": 1484,
+      "jsonParseMs": 0.4,
+      "transferredBodyBytes": 116481,
+      "decodedBytes": 116481,
+      "encoding": "identity"
+    },
+    {
+      "label": "case-detail",
+      "group": "sequential",
+      "endpoint": "review-inbox/detail",
+      "status": 200,
+      "ttfbMs": 1483,
+      "totalMs": 1486,
+      "jsonParseMs": 0.3,
+      "transferredBodyBytes": 13571,
+      "decodedBytes": 13571,
+      "encoding": "identity"
+    },
+    {
+      "label": "source-first-in-probe",
+      "group": "sequential",
+      "endpoint": "review-inbox/evidence",
+      "status": 200,
+      "ttfbMs": 2280,
+      "totalMs": 2289,
+      "jsonParseMs": 1.1,
+      "transferredBodyBytes": 170895,
+      "decodedBytes": 170895,
+      "encoding": "identity",
+      "views": [
+        {
+          "anchor": "11773",
+          "shapes": 92,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "label": "source-repeat",
+      "group": "sequential",
+      "endpoint": "review-inbox/evidence",
+      "status": 200,
+      "ttfbMs": 2425,
+      "totalMs": 2429,
+      "jsonParseMs": 1.5,
+      "transferredBodyBytes": 170895,
+      "decodedBytes": 170895,
+      "encoding": "identity",
+      "views": [
+        {
+          "anchor": "11773",
+          "shapes": 92,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "label": "selection-list",
+      "group": "concurrent-selection",
+      "endpoint": "review-inbox",
+      "status": 200,
+      "ttfbMs": 1502,
+      "totalMs": 1506,
+      "jsonParseMs": 0.3,
+      "transferredBodyBytes": 116481,
+      "decodedBytes": 116481,
+      "encoding": "identity"
+    },
+    {
+      "label": "selection-detail",
+      "group": "concurrent-selection",
+      "endpoint": "review-inbox/detail",
+      "status": 200,
+      "ttfbMs": 3006,
+      "totalMs": 3009,
+      "jsonParseMs": 0.1,
+      "transferredBodyBytes": 13571,
+      "decodedBytes": 13571,
+      "encoding": "identity"
+    },
+    {
+      "label": "selection-source",
+      "group": "concurrent-selection",
+      "endpoint": "review-inbox/evidence",
+      "status": 200,
+      "ttfbMs": 5375,
+      "totalMs": 5380,
+      "jsonParseMs": 1.2,
+      "transferredBodyBytes": 170895,
+      "decodedBytes": 170895,
+      "encoding": "identity",
+      "views": [
+        {
+          "anchor": "11773",
+          "shapes": 92,
+          "truncated": false
+        }
+      ]
+    }
+  ],
+  "context": {
+    "revision": "CORRECTION-dce024db-ad8c-4743-b748-16bb1162c524",
+    "kind": "active",
+    "total": 606,
+    "open": 581,
+    "reviewed": 25
+  },
+  "case": {
+    "id": "SHIDA-REVIEW-a8dba7382d2597c521404064",
+    "category": "fiber_port_binding_ambiguous",
+    "title": "ზუსტი Port–Fiber მიბმა უცნობია",
+    "sourceRevision": "DOC-545093bf-a649-4f02-9847-64a244e33255/e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060"
+  },
+  "concurrentSelectionTotalMs": 5382,
+  "pinnedRevisionStillActive": true
+}

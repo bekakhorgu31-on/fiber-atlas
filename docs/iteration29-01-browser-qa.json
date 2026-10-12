@@ -1,0 +1,19 @@
+{
+  "browser": "154.0.4258.53",
+  "journeys": [
+    {
+      "name": "C171 active Cable Inspector shows graph-backed SC217 continuation",
+      "summary": "F01–F48\n→ C172 / F01–F48"
+    },
+    {
+      "name": "C171 Tube 1 Inspector uses the same current transition projection"
+    },
+    {
+      "name": "C171 search result opens current Cable/Tube continuation context"
+    },
+    {
+      "name": "C171 Tube 1 search result opens current Cable/Tube continuation context"
+    }
+  ],
+  "errors": []
+}

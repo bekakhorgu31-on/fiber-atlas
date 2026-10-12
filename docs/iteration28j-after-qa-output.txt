@@ -1,0 +1,32 @@
+{
+  "stage": "after",
+  "hash": "6bb6bacff39d3d2c7e5ac646a79ae1950eafed49f4749665e93aad54ebf45e8e",
+  "coldLoads": [
+    {
+      "ms": 2103.480499999998,
+      "longTasks": [
+        51,
+        79,
+        1758
+      ]
+    },
+    {
+      "ms": 2041.3919000000024,
+      "longTasks": [
+        53,
+        80,
+        1700
+      ]
+    },
+    {
+      "ms": 2060.8148999999976,
+      "longTasks": [
+        54,
+        77,
+        1712
+      ]
+    }
+  ],
+  "flows": 40,
+  "errors": []
+}

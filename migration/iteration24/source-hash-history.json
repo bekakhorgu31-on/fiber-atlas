@@ -1,0 +1,14 @@
+{
+  "active": "caae4badc9c8c30be0a5fa3ef26352c3e534a9de7c66e830ef470466bb34a6fa",
+  "knownSourceRevisions": [
+    {
+      "sha256": "caae4badc9c8c30be0a5fa3ef26352c3e534a9de7c66e830ef470466bb34a6fa",
+      "status": "active current desktop source"
+    },
+    {
+      "sha256": "51a8477566c9d392a23bed239f37549759215a936388a98c71c6585b07c6b36a",
+      "status": "Iteration 09 reviewed package revision"
+    }
+  ],
+  "note": "Artifact and bundle hashes are excluded from source revision history."
+}

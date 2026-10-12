@@ -1,0 +1,88 @@
+{
+  "desktop": [
+    {
+      "name": "C172",
+      "selection": "segment:CAB-000172",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "openDetails": 0,
+        "inspectorTextLength": 990
+      }
+    },
+    {
+      "name": "SC218",
+      "selection": "closure:218",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "openDetails": 0,
+        "inspectorTextLength": 1789
+      }
+    },
+    {
+      "name": "SC221",
+      "selection": "closure:221",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "openDetails": 0,
+        "inspectorTextLength": 2758
+      }
+    },
+    {
+      "name": "C172 Tube3",
+      "selection": "tube:CAB-000172:3",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "openDetails": 0,
+        "inspectorTextLength": 466
+      }
+    },
+    {
+      "name": "C172/F31",
+      "selection": "fiber:CAB-000172:31",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "openDetails": 0,
+        "inspectorTextLength": 1757
+      }
+    },
+    {
+      "name": "AP51",
+      "selection": "ap:51",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "openDetails": 0,
+        "inspectorTextLength": 310
+      }
+    },
+    {
+      "name": "AGG5",
+      "selection": "aggregation:5",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "openDetails": 0,
+        "inspectorTextLength": 374
+      }
+    }
+  ],
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "inspectorScrollWidth": 390,
+    "inspectorClientWidth": 390,
+    "openDetails": 0
+  },
+  "standalone": {
+    "width": 1280,
+    "scrollWidth": 1280,
+    "scripts": 1,
+    "linkedStyles": 0
+  },
+  "logs": []
+}

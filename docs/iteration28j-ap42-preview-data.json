@@ -1,0 +1,1212 @@
+{
+  "source": "28I standalone UI path output and Source B AP inventory; planning preview snapshot",
+  "ap": 42,
+  "place": "ორბელი",
+  "ports": [
+    {
+      "number": 1,
+      "occupancy": "in_use"
+    },
+    {
+      "number": 2,
+      "occupancy": "unused"
+    },
+    {
+      "number": 3,
+      "occupancy": "in_use"
+    },
+    {
+      "number": 4,
+      "occupancy": "unused"
+    },
+    {
+      "number": 5,
+      "occupancy": "unused"
+    },
+    {
+      "number": 6,
+      "occupancy": "unused"
+    },
+    {
+      "number": 7,
+      "occupancy": "unused"
+    },
+    {
+      "number": 8,
+      "occupancy": "unused"
+    },
+    {
+      "number": 9,
+      "occupancy": "unused"
+    },
+    {
+      "number": 10,
+      "occupancy": "unused"
+    },
+    {
+      "number": 11,
+      "occupancy": "unused"
+    },
+    {
+      "number": 12,
+      "occupancy": "unused"
+    },
+    {
+      "number": 13,
+      "occupancy": "unused"
+    },
+    {
+      "number": 14,
+      "occupancy": "unused"
+    },
+    {
+      "number": 15,
+      "occupancy": "unused"
+    },
+    {
+      "number": 16,
+      "occupancy": "unused"
+    },
+    {
+      "number": 17,
+      "occupancy": "unused"
+    },
+    {
+      "number": 18,
+      "occupancy": "unused"
+    },
+    {
+      "number": 19,
+      "occupancy": "unused"
+    },
+    {
+      "number": 20,
+      "occupancy": "unused"
+    },
+    {
+      "number": 21,
+      "occupancy": "unused"
+    },
+    {
+      "number": 22,
+      "occupancy": "unused"
+    },
+    {
+      "number": 23,
+      "occupancy": "unused"
+    },
+    {
+      "number": 24,
+      "occupancy": "unused"
+    }
+  ],
+  "paths": [
+    {
+      "port": 1,
+      "steps": [
+        {
+          "id": "5",
+          "label": "AGG5",
+          "remap": null,
+          "stop": "no_transition",
+          "leg": "C148/F103"
+        },
+        {
+          "id": "205",
+          "label": "SC205",
+          "remap": null,
+          "stop": null,
+          "leg": "C150/F103"
+        },
+        {
+          "id": "206",
+          "label": "SC206",
+          "remap": null,
+          "stop": null,
+          "leg": "C151/F103"
+        },
+        {
+          "id": "207",
+          "label": "SC207",
+          "remap": null,
+          "stop": null,
+          "leg": "C152/F103"
+        },
+        {
+          "id": "208",
+          "label": "SC208",
+          "remap": "C152/F103 → C153/F01",
+          "stop": null,
+          "leg": "C153/F01"
+        },
+        {
+          "id": "42",
+          "label": "AP42 / Port 1",
+          "remap": null,
+          "stop": "port",
+          "leg": null
+        }
+      ]
+    },
+    {
+      "port": 2,
+      "steps": [
+        {
+          "id": "5",
+          "label": "AGG5",
+          "remap": null,
+          "stop": "no_transition",
+          "leg": "C148/F104"
+        },
+        {
+          "id": "205",
+          "label": "SC205",
+          "remap": null,
+          "stop": null,
+          "leg": "C150/F104"
+        },
+        {
+          "id": "206",
+          "label": "SC206",
+          "remap": null,
+          "stop": null,
+          "leg": "C151/F104"
+        },
+        {
+          "id": "207",
+          "label": "SC207",
+          "remap": null,
+          "stop": null,
+          "leg": "C152/F104"
+        },
+        {
+          "id": "208",
+          "label": "SC208",
+          "remap": "C152/F104 → C153/F02",
+          "stop": null,
+          "leg": "C153/F02"
+        },
+        {
+          "id": "42",
+          "label": "AP42 / Port 2",
+          "remap": null,
+          "stop": "port",
+          "leg": null
+        }
+      ]
+    },
+    {
+      "port": 3,
+      "steps": [
+        {
+          "id": "5",
+          "label": "AGG5",
+          "remap": null,
+          "stop": "no_transition",
+          "leg": "C148/F105"
+        },
+        {
+          "id": "205",
+          "label": "SC205",
+          "remap": null,
+          "stop": null,
+          "leg": "C150/F105"
+        },
+        {
+          "id": "206",
+          "label": "SC206",
+          "remap": null,
+          "stop": null,
+          "leg": "C151/F105"
+        },
+        {
+          "id": "207",
+          "label": "SC207",
+          "remap": null,
+          "stop": null,
+          "leg": "C152/F105"
+        },
+        {
+          "id": "208",
+          "label": "SC208",
+          "remap": "C152/F105 → C153/F03",
+          "stop": null,
+          "leg": "C153/F03"
+        },
+        {
+          "id": "42",
+          "label": "AP42 / Port 3",
+          "remap": null,
+          "stop": "port",
+          "leg": null
+        }
+      ]
+    },
+    {
+      "port": 4,
+      "steps": [
+        {
+          "id": "5",
+          "label": "AGG5",
+          "remap": null,
+          "stop": "no_transition",
+          "leg": "C148/F106"
+        },
+        {
+          "id": "205",
+          "label": "SC205",
+          "remap": null,
+          "stop": null,
+          "leg": "C150/F106"
+        },
+        {
+          "id": "206",
+          "label": "SC206",
+          "remap": null,
+          "stop": null,
+          "leg": "C151/F106"
+        },
+        {
+          "id": "207",
+          "label": "SC207",
+          "remap": null,
+          "stop": null,
+          "leg": "C152/F106"
+        },
+        {
+          "id": "208",
+          "label": "SC208",
+          "remap": "C152/F106 → C153/F04",
+          "stop": null,
+          "leg": "C153/F04"
+        },
+        {
+          "id": "42",
+          "label": "AP42 / Port 4",
+          "remap": null,
+          "stop": "port",
+          "leg": null
+        }
+      ]
+    },
+    {
+      "port": 5,
+      "steps": [
+        {
+          "id": "5",
+          "label": "AGG5",
+          "remap": null,
+          "stop": "no_transition",
+          "leg": "C148/F107"
+        },
+        {
+          "id": "205",
+          "label": "SC205",
+          "remap": null,
+          "stop": null,
+          "leg": "C150/F107"
+        },
+        {
+          "id": "206",
+          "label": "SC206",
+          "remap": null,
+          "stop": null,
+          "leg": "C151/F107"
+        },
+        {
+          "id": "207",
+          "label": "SC207",
+          "remap": null,
+          "stop": null,
+          "leg": "C152/F107"
+        },
+        {
+          "id": "208",
+          "label": "SC208",
+          "remap": "C152/F107 → C153/F05",
+          "stop": null,
+          "leg": "C153/F05"
+        },
+        {
+          "id": "42",
+          "label": "AP42 / Port 5",
+          "remap": null,
+          "stop": "port",
+          "leg": null
+        }
+      ]
+    },
+    {
+      "port": 6,
+      "steps": [
+        {
+          "id": "5",
+          "label": "AGG5",
+          "remap": null,
+          "stop": "no_transition",
+          "leg": "C148/F108"
+        },
+        {
+          "id": "205",
+          "label": "SC205",
+          "remap": null,
+          "stop": null,
+          "leg": "C150/F108"
+        },
+        {
+          "id": "206",
+          "label": "SC206",
+          "remap": null,
+          "stop": null,
+          "leg": "C151/F108"
+        },
+        {
+          "id": "207",
+          "label": "SC207",
+          "remap": null,
+          "stop": null,
+          "leg": "C152/F108"
+        },
+        {
+          "id": "208",
+          "label": "SC208",
+          "remap": "C152/F108 → C153/F06",
+          "stop": null,
+          "leg": "C153/F06"
+        },
+        {
+          "id": "42",
+          "label": "AP42 / Port 6",
+          "remap": null,
+          "stop": "port",
+          "leg": null
+        }
+      ]
+    },
+    {
+      "port": 7,
+      "steps": [
+        {
+          "id": "5",
+          "label": "AGG5",
+          "remap": null,
+          "stop": "no_transition",
+          "leg": "C148/F109"
+        },
+        {
+          "id": "205",
+          "label": "SC205",
+          "remap": null,
+          "stop": null,
+          "leg": "C150/F109"
+        },
+        {
+          "id": "206",
+          "label": "SC206",
+          "remap": null,
+          "stop": null,
+          "leg": "C151/F109"
+        },
+        {
+          "id": "207",
+          "label": "SC207",
+          "remap": null,
+          "stop": null,
+          "leg": "C152/F109"
+        },
+        {
+          "id": "208",
+          "label": "SC208",
+          "remap": "C152/F109 → C153/F07",
+          "stop": null,
+          "leg": "C153/F07"
+        },
+        {
+          "id": "42",
+          "label": "AP42 / Port 7",
+          "remap": null,
+          "stop": "port",
+          "leg": null
+        }
+      ]
+    },
+    {
+      "port": 8,
+      "steps": [
+        {
+          "id": "5",
+          "label": "AGG5",
+          "remap": null,
+          "stop": "no_transition",
+          "leg": "C148/F110"
+        },
+        {
+          "id": "205",
+          "label": "SC205",
+          "remap": null,
+          "stop": null,
+          "leg": "C150/F110"
+        },
+        {
+          "id": "206",
+          "label": "SC206",
+          "remap": null,
+          "stop": null,
+          "leg": "C151/F110"
+        },
+        {
+          "id": "207",
+          "label": "SC207",
+          "remap": null,
+          "stop": null,
+          "leg": "C152/F110"
+        },
+        {
+          "id": "208",
+          "label": "SC208",
+          "remap": "C152/F110 → C153/F08",
+          "stop": null,
+          "leg": "C153/F08"
+        },
+        {
+          "id": "42",
+          "label": "AP42 / Port 8",
+          "remap": null,
+          "stop": "port",
+          "leg": null
+        }
+      ]
+    },
+    {
+      "port": 9,
+      "steps": [
+        {
+          "id": "5",
+          "label": "AGG5",
+          "remap": null,
+          "stop": "no_transition",
+          "leg": "C148/F111"
+        },
+        {
+          "id": "205",
+          "label": "SC205",
+          "remap": null,
+          "stop": null,
+          "leg": "C150/F111"
+        },
+        {
+          "id": "206",
+          "label": "SC206",
+          "remap": null,
+          "stop": null,
+          "leg": "C151/F111"
+        },
+        {
+          "id": "207",
+          "label": "SC207",
+          "remap": null,
+          "stop": null,
+          "leg": "C152/F111"
+        },
+        {
+          "id": "208",
+          "label": "SC208",
+          "remap": "C152/F111 → C153/F09",
+          "stop": null,
+          "leg": "C153/F09"
+        },
+        {
+          "id": "42",
+          "label": "AP42 / Port 9",
+          "remap": null,
+          "stop": "port",
+          "leg": null
+        }
+      ]
+    },
+    {
+      "port": 10,
+      "steps": [
+        {
+          "id": "5",
+          "label": "AGG5",
+          "remap": null,
+          "stop": "no_transition",
+          "leg": "C148/F112"
+        },
+        {
+          "id": "205",
+          "label": "SC205",
+          "remap": null,
+          "stop": null,
+          "leg": "C150/F112"
+        },
+        {
+          "id": "206",
+          "label": "SC206",
+          "remap": null,
+          "stop": null,
+          "leg": "C151/F112"
+        },
+        {
+          "id": "207",
+          "label": "SC207",
+          "remap": null,
+          "stop": null,
+          "leg": "C152/F112"
+        },
+        {
+          "id": "208",
+          "label": "SC208",
+          "remap": "C152/F112 → C153/F10",
+          "stop": null,
+          "leg": "C153/F10"
+        },
+        {
+          "id": "42",
+          "label": "AP42 / Port 10",
+          "remap": null,
+          "stop": "port",
+          "leg": null
+        }
+      ]
+    },
+    {
+      "port": 11,
+      "steps": [
+        {
+          "id": "5",
+          "label": "AGG5",
+          "remap": null,
+          "stop": "no_transition",
+          "leg": "C148/F113"
+        },
+        {
+          "id": "205",
+          "label": "SC205",
+          "remap": null,
+          "stop": null,
+          "leg": "C150/F113"
+        },
+        {
+          "id": "206",
+          "label": "SC206",
+          "remap": null,
+          "stop": null,
+          "leg": "C151/F113"
+        },
+        {
+          "id": "207",
+          "label": "SC207",
+          "remap": null,
+          "stop": null,
+          "leg": "C152/F113"
+        },
+        {
+          "id": "208",
+          "label": "SC208",
+          "remap": "C152/F113 → C153/F11",
+          "stop": null,
+          "leg": "C153/F11"
+        },
+        {
+          "id": "42",
+          "label": "AP42 / Port 11",
+          "remap": null,
+          "stop": "port",
+          "leg": null
+        }
+      ]
+    },
+    {
+      "port": 12,
+      "steps": [
+        {
+          "id": "5",
+          "label": "AGG5",
+          "remap": null,
+          "stop": "no_transition",
+          "leg": "C148/F114"
+        },
+        {
+          "id": "205",
+          "label": "SC205",
+          "remap": null,
+          "stop": null,
+          "leg": "C150/F114"
+        },
+        {
+          "id": "206",
+          "label": "SC206",
+          "remap": null,
+          "stop": null,
+          "leg": "C151/F114"
+        },
+        {
+          "id": "207",
+          "label": "SC207",
+          "remap": null,
+          "stop": null,
+          "leg": "C152/F114"
+        },
+        {
+          "id": "208",
+          "label": "SC208",
+          "remap": "C152/F114 → C153/F12",
+          "stop": null,
+          "leg": "C153/F12"
+        },
+        {
+          "id": "42",
+          "label": "AP42 / Port 12",
+          "remap": null,
+          "stop": "port",
+          "leg": null
+        }
+      ]
+    },
+    {
+      "port": 13,
+      "steps": [
+        {
+          "id": "5",
+          "label": "AGG5",
+          "remap": null,
+          "stop": "no_transition",
+          "leg": "C148/F115"
+        },
+        {
+          "id": "205",
+          "label": "SC205",
+          "remap": null,
+          "stop": null,
+          "leg": "C150/F115"
+        },
+        {
+          "id": "206",
+          "label": "SC206",
+          "remap": null,
+          "stop": null,
+          "leg": "C151/F115"
+        },
+        {
+          "id": "207",
+          "label": "SC207",
+          "remap": null,
+          "stop": null,
+          "leg": "C152/F115"
+        },
+        {
+          "id": "208",
+          "label": "SC208",
+          "remap": "C152/F115 → C153/F13",
+          "stop": null,
+          "leg": "C153/F13"
+        },
+        {
+          "id": "42",
+          "label": "AP42 / Port 13",
+          "remap": null,
+          "stop": "port",
+          "leg": null
+        }
+      ]
+    },
+    {
+      "port": 14,
+      "steps": [
+        {
+          "id": "5",
+          "label": "AGG5",
+          "remap": null,
+          "stop": "no_transition",
+          "leg": "C148/F116"
+        },
+        {
+          "id": "205",
+          "label": "SC205",
+          "remap": null,
+          "stop": null,
+          "leg": "C150/F116"
+        },
+        {
+          "id": "206",
+          "label": "SC206",
+          "remap": null,
+          "stop": null,
+          "leg": "C151/F116"
+        },
+        {
+          "id": "207",
+          "label": "SC207",
+          "remap": null,
+          "stop": null,
+          "leg": "C152/F116"
+        },
+        {
+          "id": "208",
+          "label": "SC208",
+          "remap": "C152/F116 → C153/F14",
+          "stop": null,
+          "leg": "C153/F14"
+        },
+        {
+          "id": "42",
+          "label": "AP42 / Port 14",
+          "remap": null,
+          "stop": "port",
+          "leg": null
+        }
+      ]
+    },
+    {
+      "port": 15,
+      "steps": [
+        {
+          "id": "5",
+          "label": "AGG5",
+          "remap": null,
+          "stop": "no_transition",
+          "leg": "C148/F117"
+        },
+        {
+          "id": "205",
+          "label": "SC205",
+          "remap": null,
+          "stop": null,
+          "leg": "C150/F117"
+        },
+        {
+          "id": "206",
+          "label": "SC206",
+          "remap": null,
+          "stop": null,
+          "leg": "C151/F117"
+        },
+        {
+          "id": "207",
+          "label": "SC207",
+          "remap": null,
+          "stop": null,
+          "leg": "C152/F117"
+        },
+        {
+          "id": "208",
+          "label": "SC208",
+          "remap": "C152/F117 → C153/F15",
+          "stop": null,
+          "leg": "C153/F15"
+        },
+        {
+          "id": "42",
+          "label": "AP42 / Port 15",
+          "remap": null,
+          "stop": "port",
+          "leg": null
+        }
+      ]
+    },
+    {
+      "port": 16,
+      "steps": [
+        {
+          "id": "207",
+          "label": "SC207",
+          "remap": null,
+          "stop": "no_transition",
+          "leg": "C152/F118"
+        },
+        {
+          "id": "208",
+          "label": "SC208",
+          "remap": "C152/F118 → C153/F16",
+          "stop": null,
+          "leg": "C153/F16"
+        },
+        {
+          "id": "42",
+          "label": "AP42 / Port 16",
+          "remap": null,
+          "stop": "port",
+          "leg": null
+        }
+      ]
+    },
+    {
+      "port": 17,
+      "steps": [
+        {
+          "id": "5",
+          "label": "AGG5",
+          "remap": null,
+          "stop": "no_transition",
+          "leg": "C148/F119"
+        },
+        {
+          "id": "205",
+          "label": "SC205",
+          "remap": null,
+          "stop": null,
+          "leg": "C150/F119"
+        },
+        {
+          "id": "206",
+          "label": "SC206",
+          "remap": null,
+          "stop": null,
+          "leg": "C151/F119"
+        },
+        {
+          "id": "207",
+          "label": "SC207",
+          "remap": null,
+          "stop": null,
+          "leg": "C152/F119"
+        },
+        {
+          "id": "208",
+          "label": "SC208",
+          "remap": "C152/F119 → C153/F17",
+          "stop": null,
+          "leg": "C153/F17"
+        },
+        {
+          "id": "42",
+          "label": "AP42 / Port 17",
+          "remap": null,
+          "stop": "port",
+          "leg": null
+        }
+      ]
+    },
+    {
+      "port": 18,
+      "steps": [
+        {
+          "id": "5",
+          "label": "AGG5",
+          "remap": null,
+          "stop": "no_transition",
+          "leg": "C148/F120"
+        },
+        {
+          "id": "205",
+          "label": "SC205",
+          "remap": null,
+          "stop": null,
+          "leg": "C150/F120"
+        },
+        {
+          "id": "206",
+          "label": "SC206",
+          "remap": null,
+          "stop": null,
+          "leg": "C151/F120"
+        },
+        {
+          "id": "207",
+          "label": "SC207",
+          "remap": null,
+          "stop": null,
+          "leg": "C152/F120"
+        },
+        {
+          "id": "208",
+          "label": "SC208",
+          "remap": "C152/F120 → C153/F18",
+          "stop": null,
+          "leg": "C153/F18"
+        },
+        {
+          "id": "42",
+          "label": "AP42 / Port 18",
+          "remap": null,
+          "stop": "port",
+          "leg": null
+        }
+      ]
+    },
+    {
+      "port": 19,
+      "steps": [
+        {
+          "id": "5",
+          "label": "AGG5",
+          "remap": null,
+          "stop": "no_transition",
+          "leg": "C148/F121"
+        },
+        {
+          "id": "205",
+          "label": "SC205",
+          "remap": "C148/F121 → C150/F121",
+          "stop": null,
+          "leg": "C150/F121"
+        },
+        {
+          "id": "206",
+          "label": "SC206",
+          "remap": null,
+          "stop": null,
+          "leg": "C151/F121"
+        },
+        {
+          "id": "207",
+          "label": "SC207",
+          "remap": null,
+          "stop": null,
+          "leg": "C152/F121"
+        },
+        {
+          "id": "208",
+          "label": "SC208",
+          "remap": "C152/F121 → C153/F19",
+          "stop": null,
+          "leg": "C153/F19"
+        },
+        {
+          "id": "42",
+          "label": "AP42 / Port 19",
+          "remap": null,
+          "stop": "port",
+          "leg": null
+        }
+      ]
+    },
+    {
+      "port": 20,
+      "steps": [
+        {
+          "id": "5",
+          "label": "AGG5",
+          "remap": null,
+          "stop": "no_transition",
+          "leg": "C148/F122"
+        },
+        {
+          "id": "205",
+          "label": "SC205",
+          "remap": "C148/F122 → C150/F122",
+          "stop": null,
+          "leg": "C150/F122"
+        },
+        {
+          "id": "206",
+          "label": "SC206",
+          "remap": null,
+          "stop": null,
+          "leg": "C151/F122"
+        },
+        {
+          "id": "207",
+          "label": "SC207",
+          "remap": null,
+          "stop": null,
+          "leg": "C152/F122"
+        },
+        {
+          "id": "208",
+          "label": "SC208",
+          "remap": "C152/F122 → C153/F20",
+          "stop": null,
+          "leg": "C153/F20"
+        },
+        {
+          "id": "42",
+          "label": "AP42 / Port 20",
+          "remap": null,
+          "stop": "port",
+          "leg": null
+        }
+      ]
+    },
+    {
+      "port": 21,
+      "steps": [
+        {
+          "id": "5",
+          "label": "AGG5",
+          "remap": null,
+          "stop": "no_transition",
+          "leg": "C148/F123"
+        },
+        {
+          "id": "205",
+          "label": "SC205",
+          "remap": "C148/F123 → C150/F123",
+          "stop": null,
+          "leg": "C150/F123"
+        },
+        {
+          "id": "206",
+          "label": "SC206",
+          "remap": null,
+          "stop": null,
+          "leg": "C151/F123"
+        },
+        {
+          "id": "207",
+          "label": "SC207",
+          "remap": null,
+          "stop": null,
+          "leg": "C152/F123"
+        },
+        {
+          "id": "208",
+          "label": "SC208",
+          "remap": "C152/F123 → C153/F21",
+          "stop": null,
+          "leg": "C153/F21"
+        },
+        {
+          "id": "42",
+          "label": "AP42 / Port 21",
+          "remap": null,
+          "stop": "port",
+          "leg": null
+        }
+      ]
+    },
+    {
+      "port": 22,
+      "steps": [
+        {
+          "id": "5",
+          "label": "AGG5",
+          "remap": null,
+          "stop": "no_transition",
+          "leg": "C148/F124"
+        },
+        {
+          "id": "205",
+          "label": "SC205",
+          "remap": "C148/F124 → C150/F124",
+          "stop": null,
+          "leg": "C150/F124"
+        },
+        {
+          "id": "206",
+          "label": "SC206",
+          "remap": null,
+          "stop": null,
+          "leg": "C151/F124"
+        },
+        {
+          "id": "207",
+          "label": "SC207",
+          "remap": null,
+          "stop": null,
+          "leg": "C152/F124"
+        },
+        {
+          "id": "208",
+          "label": "SC208",
+          "remap": "C152/F124 → C153/F22",
+          "stop": null,
+          "leg": "C153/F22"
+        },
+        {
+          "id": "42",
+          "label": "AP42 / Port 22",
+          "remap": null,
+          "stop": "port",
+          "leg": null
+        }
+      ]
+    },
+    {
+      "port": 23,
+      "steps": [
+        {
+          "id": "5",
+          "label": "AGG5",
+          "remap": null,
+          "stop": "no_transition",
+          "leg": "C148/F125"
+        },
+        {
+          "id": "205",
+          "label": "SC205",
+          "remap": "C148/F125 → C150/F125",
+          "stop": null,
+          "leg": "C150/F125"
+        },
+        {
+          "id": "206",
+          "label": "SC206",
+          "remap": null,
+          "stop": null,
+          "leg": "C151/F125"
+        },
+        {
+          "id": "207",
+          "label": "SC207",
+          "remap": null,
+          "stop": null,
+          "leg": "C152/F125"
+        },
+        {
+          "id": "208",
+          "label": "SC208",
+          "remap": "C152/F125 → C153/F23",
+          "stop": null,
+          "leg": "C153/F23"
+        },
+        {
+          "id": "42",
+          "label": "AP42 / Port 23",
+          "remap": null,
+          "stop": "port",
+          "leg": null
+        }
+      ]
+    },
+    {
+      "port": 24,
+      "steps": [
+        {
+          "id": "5",
+          "label": "AGG5",
+          "remap": null,
+          "stop": "no_transition",
+          "leg": "C148/F126"
+        },
+        {
+          "id": "205",
+          "label": "SC205",
+          "remap": "C148/F126 → C150/F126",
+          "stop": null,
+          "leg": "C150/F126"
+        },
+        {
+          "id": "206",
+          "label": "SC206",
+          "remap": null,
+          "stop": null,
+          "leg": "C151/F126"
+        },
+        {
+          "id": "207",
+          "label": "SC207",
+          "remap": null,
+          "stop": null,
+          "leg": "C152/F126"
+        },
+        {
+          "id": "208",
+          "label": "SC208",
+          "remap": "C152/F126 → C153/F24",
+          "stop": null,
+          "leg": "C153/F24"
+        },
+        {
+          "id": "42",
+          "label": "AP42 / Port 24",
+          "remap": null,
+          "stop": "port",
+          "leg": null
+        }
+      ]
+    }
+  ]
+}

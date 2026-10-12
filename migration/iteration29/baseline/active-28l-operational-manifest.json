@@ -1,0 +1,11 @@
+{
+  "networkRevision": "NETWORK-28L-397cb29f8c3b0280-OP1-8109aecedeb6",
+  "baselineBytes": 74662857,
+  "authoritySha256": "3caefff16f5ce76d2ba132e62d59eff1bfd549f9f38369aee1c89e26c4768fb1",
+  "operationalBytes": 17143884,
+  "operationalGzipBytes": 809575,
+  "operationalSha256": "b3e2b10e48961f696e565b22d0c748ac71b8a79e4ec0543be41db74aec3409bb",
+  "pathsCompared": 2088,
+  "hydrationMs": 261.1417000000001,
+  "detailBytes": 5315059
+}

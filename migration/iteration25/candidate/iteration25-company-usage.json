@@ -1,0 +1,2136 @@
+{
+  "assignments": [
+    {
+      "fibers": [
+        {
+          "fiberNumber": 149,
+          "segmentId": "CAB-000148"
+        },
+        {
+          "fiberNumber": 149,
+          "segmentId": "CAB-000150"
+        },
+        {
+          "fiberNumber": 5,
+          "segmentId": "CAB-000169"
+        },
+        {
+          "fiberNumber": 5,
+          "segmentId": "CAB-000184"
+        }
+      ],
+      "id": "NUA-001",
+      "interpretationRule": "tsageri-lentekhi-company-usage/1",
+      "notes": [
+        "Usage attribution only. The source does not establish ownership, rights, service, or commercial availability."
+      ],
+      "occurrenceIds": [
+        "NUO-17665",
+        "NUO-37554",
+        "NUO-38542"
+      ],
+      "organizationId": "Magti",
+      "ownershipInferred": false,
+      "purpose": null,
+      "rightsInferred": false,
+      "scope": "lineage",
+      "serviceInferred": false,
+      "sourceShapeIds": [
+        "17665",
+        "37554",
+        "38542"
+      ],
+      "status": "source_interpreted"
+    },
+    {
+      "fibers": [
+        {
+          "fiberNumber": 152,
+          "segmentId": "CAB-000148"
+        },
+        {
+          "fiberNumber": 152,
+          "segmentId": "CAB-000150"
+        },
+        {
+          "fiberNumber": 8,
+          "segmentId": "CAB-000169"
+        },
+        {
+          "fiberNumber": 8,
+          "segmentId": "CAB-000184"
+        }
+      ],
+      "id": "NUA-002",
+      "interpretationRule": "tsageri-lentekhi-company-usage/1",
+      "notes": [
+        "Usage attribution only. The source does not establish ownership, rights, service, or commercial availability."
+      ],
+      "occurrenceIds": [
+        "NUO-17668",
+        "NUO-37557",
+        "NUO-38545"
+      ],
+      "organizationId": "Magti",
+      "ownershipInferred": false,
+      "purpose": null,
+      "rightsInferred": false,
+      "scope": "lineage",
+      "serviceInferred": false,
+      "sourceShapeIds": [
+        "17668",
+        "37557",
+        "38545"
+      ],
+      "status": "source_interpreted"
+    },
+    {
+      "fibers": [
+        {
+          "fiberNumber": 145,
+          "segmentId": "CAB-000148"
+        },
+        {
+          "fiberNumber": 145,
+          "segmentId": "CAB-000150"
+        },
+        {
+          "fiberNumber": 1,
+          "segmentId": "CAB-000169"
+        },
+        {
+          "fiberNumber": 1,
+          "segmentId": "CAB-000184"
+        }
+      ],
+      "id": "NUA-003",
+      "interpretationRule": "tsageri-lentekhi-company-usage/1",
+      "notes": [
+        "Usage attribution only. The source does not establish ownership, rights, service, or commercial availability."
+      ],
+      "occurrenceIds": [
+        "NUO-17661",
+        "NUO-37550",
+        "NUO-38538"
+      ],
+      "organizationId": "OpenNet",
+      "ownershipInferred": false,
+      "purpose": null,
+      "rightsInferred": false,
+      "scope": "lineage",
+      "serviceInferred": false,
+      "sourceShapeIds": [
+        "17661",
+        "37550",
+        "38538"
+      ],
+      "status": "source_interpreted"
+    },
+    {
+      "fibers": [
+        {
+          "fiberNumber": 146,
+          "segmentId": "CAB-000148"
+        },
+        {
+          "fiberNumber": 146,
+          "segmentId": "CAB-000150"
+        },
+        {
+          "fiberNumber": 2,
+          "segmentId": "CAB-000169"
+        },
+        {
+          "fiberNumber": 2,
+          "segmentId": "CAB-000184"
+        }
+      ],
+      "id": "NUA-004",
+      "interpretationRule": "tsageri-lentekhi-company-usage/1",
+      "notes": [
+        "Usage attribution only. The source does not establish ownership, rights, service, or commercial availability."
+      ],
+      "occurrenceIds": [
+        "NUO-17662",
+        "NUO-37551",
+        "NUO-38539"
+      ],
+      "organizationId": "OpenNet",
+      "ownershipInferred": false,
+      "purpose": null,
+      "rightsInferred": false,
+      "scope": "lineage",
+      "serviceInferred": false,
+      "sourceShapeIds": [
+        "17662",
+        "37551",
+        "38539"
+      ],
+      "status": "source_interpreted"
+    },
+    {
+      "fibers": [
+        {
+          "fiberNumber": 147,
+          "segmentId": "CAB-000148"
+        },
+        {
+          "fiberNumber": 147,
+          "segmentId": "CAB-000150"
+        },
+        {
+          "fiberNumber": 3,
+          "segmentId": "CAB-000169"
+        },
+        {
+          "fiberNumber": 3,
+          "segmentId": "CAB-000184"
+        }
+      ],
+      "id": "NUA-005",
+      "interpretationRule": "tsageri-lentekhi-company-usage/1",
+      "notes": [
+        "Usage attribution only. The source does not establish ownership, rights, service, or commercial availability."
+      ],
+      "occurrenceIds": [
+        "NUO-17663",
+        "NUO-37552",
+        "NUO-38540"
+      ],
+      "organizationId": "OpenNet",
+      "ownershipInferred": false,
+      "purpose": null,
+      "rightsInferred": false,
+      "scope": "lineage",
+      "serviceInferred": false,
+      "sourceShapeIds": [
+        "17663",
+        "37552",
+        "38540"
+      ],
+      "status": "source_interpreted"
+    },
+    {
+      "fibers": [
+        {
+          "fiberNumber": 148,
+          "segmentId": "CAB-000148"
+        },
+        {
+          "fiberNumber": 148,
+          "segmentId": "CAB-000150"
+        },
+        {
+          "fiberNumber": 4,
+          "segmentId": "CAB-000169"
+        },
+        {
+          "fiberNumber": 4,
+          "segmentId": "CAB-000184"
+        }
+      ],
+      "id": "NUA-006",
+      "interpretationRule": "tsageri-lentekhi-company-usage/1",
+      "notes": [
+        "Usage attribution only. The source does not establish ownership, rights, service, or commercial availability."
+      ],
+      "occurrenceIds": [
+        "NUO-17664",
+        "NUO-37553",
+        "NUO-38541"
+      ],
+      "organizationId": "OpenNet",
+      "ownershipInferred": false,
+      "purpose": null,
+      "rightsInferred": false,
+      "scope": "lineage",
+      "serviceInferred": false,
+      "sourceShapeIds": [
+        "17664",
+        "37553",
+        "38541"
+      ],
+      "status": "source_interpreted"
+    },
+    {
+      "fibers": [
+        {
+          "fiberNumber": 154,
+          "segmentId": "CAB-000148"
+        },
+        {
+          "fiberNumber": 154,
+          "segmentId": "CAB-000150"
+        },
+        {
+          "fiberNumber": 10,
+          "segmentId": "CAB-000169"
+        }
+      ],
+      "id": "NUA-007",
+      "interpretationRule": "tsageri-lentekhi-company-usage/1",
+      "notes": [
+        "Usage attribution only. The source does not establish ownership, rights, service, or commercial availability."
+      ],
+      "occurrenceIds": [
+        "NUO-17670",
+        "NUO-38547"
+      ],
+      "organizationId": "Silknet",
+      "ownershipInferred": false,
+      "purpose": null,
+      "rightsInferred": false,
+      "scope": "lineage",
+      "serviceInferred": false,
+      "sourceShapeIds": [
+        "17670",
+        "38547"
+      ],
+      "status": "source_interpreted"
+    },
+    {
+      "fibers": [
+        {
+          "fiberNumber": 155,
+          "segmentId": "CAB-000148"
+        },
+        {
+          "fiberNumber": 155,
+          "segmentId": "CAB-000150"
+        },
+        {
+          "fiberNumber": 11,
+          "segmentId": "CAB-000169"
+        },
+        {
+          "fiberNumber": 11,
+          "segmentId": "CAB-000184"
+        }
+      ],
+      "id": "NUA-008",
+      "interpretationRule": "tsageri-lentekhi-company-usage/1",
+      "notes": [
+        "Usage attribution only. The source does not establish ownership, rights, service, or commercial availability."
+      ],
+      "occurrenceIds": [
+        "NUO-17671",
+        "NUO-37560",
+        "NUO-38548"
+      ],
+      "organizationId": "Silknet",
+      "ownershipInferred": false,
+      "purpose": null,
+      "rightsInferred": false,
+      "scope": "lineage",
+      "serviceInferred": false,
+      "sourceShapeIds": [
+        "17671",
+        "37560",
+        "38548"
+      ],
+      "status": "source_interpreted"
+    },
+    {
+      "fibers": [
+        {
+          "fiberNumber": 10,
+          "segmentId": "CAB-000184"
+        }
+      ],
+      "id": "NUA-009",
+      "interpretationRule": "tsageri-lentekhi-company-usage/1",
+      "notes": [
+        "Usage attribution only. The source does not establish ownership, rights, service, or commercial availability."
+      ],
+      "occurrenceIds": [
+        "NUO-37559"
+      ],
+      "organizationId": "Silknet",
+      "ownershipInferred": false,
+      "purpose": null,
+      "rightsInferred": false,
+      "scope": "fiber",
+      "serviceInferred": false,
+      "sourceShapeIds": [
+        "37559"
+      ],
+      "status": "source_interpreted"
+    },
+    {
+      "fibers": [
+        {
+          "fiberNumber": 156,
+          "segmentId": "CAB-000148"
+        },
+        {
+          "fiberNumber": 156,
+          "segmentId": "CAB-000150"
+        },
+        {
+          "fiberNumber": 12,
+          "segmentId": "CAB-000169"
+        }
+      ],
+      "id": "NUA-010",
+      "interpretationRule": "tsageri-lentekhi-company-usage/1",
+      "notes": [
+        "Usage attribution only. The source does not establish ownership, rights, service, or commercial availability."
+      ],
+      "occurrenceIds": [
+        "NUO-17672",
+        "NUO-38549"
+      ],
+      "organizationId": "Skytel",
+      "ownershipInferred": false,
+      "purpose": null,
+      "rightsInferred": false,
+      "scope": "lineage",
+      "serviceInferred": false,
+      "sourceShapeIds": [
+        "17672",
+        "38549"
+      ],
+      "status": "source_interpreted"
+    },
+    {
+      "fibers": [
+        {
+          "fiberNumber": 12,
+          "segmentId": "CAB-000184"
+        }
+      ],
+      "id": "NUA-011",
+      "interpretationRule": "tsageri-lentekhi-company-usage/1",
+      "notes": [
+        "Usage attribution only. The source does not establish ownership, rights, service, or commercial availability."
+      ],
+      "occurrenceIds": [
+        "NUO-37561"
+      ],
+      "organizationId": "Skytel",
+      "ownershipInferred": false,
+      "purpose": null,
+      "rightsInferred": false,
+      "scope": "fiber",
+      "serviceInferred": false,
+      "sourceShapeIds": [
+        "37561"
+      ],
+      "status": "source_interpreted"
+    },
+    {
+      "fibers": [
+        {
+          "fiberNumber": 3,
+          "segmentId": "CAB-000183"
+        },
+        {
+          "fiberNumber": 35,
+          "segmentId": "CAB-000184"
+        }
+      ],
+      "id": "NUA-012",
+      "interpretationRule": "tsageri-lentekhi-company-usage/1",
+      "notes": [
+        "Usage attribution only. The source does not establish ownership, rights, service, or commercial availability."
+      ],
+      "occurrenceIds": [
+        "NUO-37584",
+        "NUO-38318"
+      ],
+      "organizationId": "Skytel",
+      "ownershipInferred": false,
+      "purpose": null,
+      "rightsInferred": false,
+      "scope": "lineage",
+      "serviceInferred": false,
+      "sourceShapeIds": [
+        "37584",
+        "38318"
+      ],
+      "status": "source_interpreted"
+    },
+    {
+      "fibers": [
+        {
+          "fiberNumber": 4,
+          "segmentId": "CAB-000183"
+        },
+        {
+          "fiberNumber": 36,
+          "segmentId": "CAB-000184"
+        }
+      ],
+      "id": "NUA-013",
+      "interpretationRule": "tsageri-lentekhi-company-usage/1",
+      "notes": [
+        "Usage attribution only. The source does not establish ownership, rights, service, or commercial availability."
+      ],
+      "occurrenceIds": [
+        "NUO-37585",
+        "NUO-38317"
+      ],
+      "organizationId": "Skytel",
+      "ownershipInferred": false,
+      "purpose": null,
+      "rightsInferred": false,
+      "scope": "lineage",
+      "serviceInferred": false,
+      "sourceShapeIds": [
+        "37585",
+        "38317"
+      ],
+      "status": "source_interpreted"
+    }
+  ],
+  "counts": {
+    "byOrganization": {
+      "Magti": 6,
+      "OpenNet": 12,
+      "Silknet": 6,
+      "Skytel": 7
+    },
+    "byStatus": {
+      "exact_fiber": 20,
+      "exact_single_endpoint": 2,
+      "exact_transition": 9
+    },
+    "logicalAssignments": 13,
+    "rawOccurrences": 31
+  },
+  "deterministic": true,
+  "interpretationRule": "tsageri-lentekhi-company-usage/1",
+  "interpreter": "interpret-iteration25-source.py/1",
+  "occurrences": [
+    {
+      "begin": {
+        "alignmentDelta": 0.022853116,
+        "bankIndex": 1,
+        "fiberNumber": 145,
+        "groupShapeId": "43429",
+        "legacySegmentId": "148",
+        "markerShapeId": "43759",
+        "segmentId": "CAB-000148",
+        "x": 40.50636272842598,
+        "y": 595.4127322916952
+      },
+      "end": {
+        "alignmentDelta": 0.017012893,
+        "bankIndex": 0,
+        "fiberNumber": 145,
+        "groupShapeId": "43832",
+        "legacySegmentId": "148",
+        "markerShapeId": "44162",
+        "segmentId": "CAB-000148",
+        "x": 40.49854952341481,
+        "y": 588.2974826029147
+      },
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 40.4982750556601,
+          "y": 595.3979668489295
+        },
+        "end": {
+          "x": 40.4982750556601,
+          "y": 588.3142210280905
+        },
+        "worldBounds": {
+          "height": 7.083745820838999,
+          "max_x": 40.4982750556601,
+          "max_y": 595.3979668489294,
+          "min_x": 40.4982750556601,
+          "min_y": 588.3142210280904,
+          "width": 0.0
+        }
+      },
+      "occurrenceId": "NUO-17661",
+      "organizationId": "OpenNet",
+      "rawText": "Open net",
+      "shapeId": "17661",
+      "status": "exact_fiber",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.024182179,
+        "bankIndex": 1,
+        "fiberNumber": 146,
+        "groupShapeId": "43429",
+        "legacySegmentId": "148",
+        "markerShapeId": "43760",
+        "segmentId": "CAB-000148",
+        "x": 40.597535542350656,
+        "y": 595.4127322916952
+      },
+      "end": {
+        "alignmentDelta": 0.018341957,
+        "bankIndex": 0,
+        "fiberNumber": 146,
+        "groupShapeId": "43832",
+        "legacySegmentId": "148",
+        "markerShapeId": "44163",
+        "segmentId": "CAB-000148",
+        "x": 40.58972233733949,
+        "y": 588.2974826029147
+      },
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 40.5881188056601,
+          "y": 595.3979668489295
+        },
+        "end": {
+          "x": 40.5881188056601,
+          "y": 588.3142210280905
+        },
+        "worldBounds": {
+          "height": 7.083745820838999,
+          "max_x": 40.5881188056601,
+          "max_y": 595.3979668489294,
+          "min_x": 40.5881188056601,
+          "min_y": 588.3142210280904,
+          "width": 0.0
+        }
+      },
+      "occurrenceId": "NUO-17662",
+      "organizationId": "OpenNet",
+      "rawText": "Open Net",
+      "shapeId": "17662",
+      "status": "exact_fiber",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.021604993,
+        "bankIndex": 1,
+        "fiberNumber": 147,
+        "groupShapeId": "43429",
+        "legacySegmentId": "148",
+        "markerShapeId": "43761",
+        "segmentId": "CAB-000148",
+        "x": 40.68870835627517,
+        "y": 595.4127322916952
+      },
+      "end": {
+        "alignmentDelta": 0.01771208,
+        "bankIndex": 0,
+        "fiberNumber": 147,
+        "groupShapeId": "43832",
+        "legacySegmentId": "148",
+        "markerShapeId": "44164",
+        "segmentId": "CAB-000148",
+        "x": 40.680895151264,
+        "y": 588.2974826029147
+      },
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 40.6818688056601,
+          "y": 595.3979668489295
+        },
+        "end": {
+          "x": 40.6818688056601,
+          "y": 588.3142210280905
+        },
+        "worldBounds": {
+          "height": 7.083745820838999,
+          "max_x": 40.6818688056601,
+          "max_y": 595.3979668489294,
+          "min_x": 40.6818688056601,
+          "min_y": 588.3142210280904,
+          "width": 0.0
+        }
+      },
+      "occurrenceId": "NUO-17663",
+      "organizationId": "OpenNet",
+      "rawText": "Open Net",
+      "shapeId": "17663",
+      "status": "exact_fiber",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.019027807,
+        "bankIndex": 1,
+        "fiberNumber": 148,
+        "groupShapeId": "43429",
+        "legacySegmentId": "148",
+        "markerShapeId": "43762",
+        "segmentId": "CAB-000148",
+        "x": 40.779881170199666,
+        "y": 595.4127322916952
+      },
+      "end": {
+        "alignmentDelta": 0.020289266,
+        "bankIndex": 0,
+        "fiberNumber": 148,
+        "groupShapeId": "43832",
+        "legacySegmentId": "148",
+        "markerShapeId": "44165",
+        "segmentId": "CAB-000148",
+        "x": 40.7720679651885,
+        "y": 588.2974826029147
+      },
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 40.7756188056601,
+          "y": 595.3979668489295
+        },
+        "end": {
+          "x": 40.7756188056601,
+          "y": 588.3142210280905
+        },
+        "worldBounds": {
+          "height": 7.083745820838999,
+          "max_x": 40.7756188056601,
+          "max_y": 595.3979668489294,
+          "min_x": 40.7756188056601,
+          "min_y": 588.3142210280904,
+          "width": 0.0
+        }
+      },
+      "occurrenceId": "NUO-17664",
+      "organizationId": "OpenNet",
+      "rawText": "Open Net",
+      "shapeId": "17664",
+      "status": "exact_fiber",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.020356871,
+        "bankIndex": 1,
+        "fiberNumber": 149,
+        "groupShapeId": "43429",
+        "legacySegmentId": "148",
+        "markerShapeId": "43758",
+        "segmentId": "CAB-000148",
+        "x": 40.871053984124345,
+        "y": 595.4127322916952
+      },
+      "end": {
+        "alignmentDelta": 0.018960202,
+        "bankIndex": 0,
+        "fiberNumber": 149,
+        "groupShapeId": "43832",
+        "legacySegmentId": "148",
+        "markerShapeId": "44161",
+        "segmentId": "CAB-000148",
+        "x": 40.863240779113184,
+        "y": 588.2974826029147
+      },
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 40.8654625556601,
+          "y": 595.3979668489295
+        },
+        "end": {
+          "x": 40.8654625556601,
+          "y": 588.3142210280905
+        },
+        "worldBounds": {
+          "height": 7.083745820838999,
+          "max_x": 40.8654625556601,
+          "max_y": 595.3979668489294,
+          "min_x": 40.8654625556601,
+          "min_y": 588.3142210280904,
+          "width": 0.0
+        }
+      },
+      "occurrenceId": "NUO-17665",
+      "organizationId": "Magti",
+      "rawText": "მაგთი",
+      "shapeId": "17665",
+      "status": "exact_fiber",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.022390938,
+        "bankIndex": 1,
+        "fiberNumber": 152,
+        "groupShapeId": "43429",
+        "legacySegmentId": "148",
+        "markerShapeId": "43765",
+        "segmentId": "CAB-000148",
+        "x": 41.144572425898026,
+        "y": 595.4127322916952
+      },
+      "end": {
+        "alignmentDelta": 0.016926135,
+        "bankIndex": 0,
+        "fiberNumber": 152,
+        "groupShapeId": "43832",
+        "legacySegmentId": "148",
+        "markerShapeId": "44168",
+        "segmentId": "CAB-000148",
+        "x": 41.13675922088686,
+        "y": 588.2974826029147
+      },
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 41.1369469306601,
+          "y": 595.3979668489295
+        },
+        "end": {
+          "x": 41.1369469306601,
+          "y": 588.3142210280905
+        },
+        "worldBounds": {
+          "height": 7.083745820838999,
+          "max_x": 41.1369469306601,
+          "max_y": 595.3979668489294,
+          "min_x": 41.1369469306601,
+          "min_y": 588.3142210280904,
+          "width": 0.0
+        }
+      },
+      "occurrenceId": "NUO-17668",
+      "organizationId": "Magti",
+      "rawText": "მაგთი",
+      "shapeId": "17668",
+      "status": "exact_fiber",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.026528681,
+        "bankIndex": 1,
+        "fiberNumber": 154,
+        "groupShapeId": "43429",
+        "legacySegmentId": "148",
+        "markerShapeId": "43781",
+        "segmentId": "CAB-000148",
+        "x": 41.33230391937081,
+        "y": 595.4127322916952
+      },
+      "end": {
+        "alignmentDelta": 0.020688459,
+        "bankIndex": 0,
+        "fiberNumber": 154,
+        "groupShapeId": "43832",
+        "legacySegmentId": "148",
+        "markerShapeId": "44184",
+        "segmentId": "CAB-000148",
+        "x": 41.32449071435964,
+        "y": 588.2974826029147
+      },
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 41.3205406806601,
+          "y": 595.3979668489295
+        },
+        "end": {
+          "x": 41.3205406806601,
+          "y": 588.3142210280905
+        },
+        "worldBounds": {
+          "height": 7.083745820838999,
+          "max_x": 41.3205406806601,
+          "max_y": 595.3979668489294,
+          "min_x": 41.3205406806601,
+          "min_y": 588.3142210280904,
+          "width": 0.0
+        }
+      },
+      "occurrenceId": "NUO-17670",
+      "organizationId": "Silknet",
+      "rawText": "სილქნეტი",
+      "shapeId": "17670",
+      "status": "exact_fiber",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.027305363,
+        "bankIndex": 1,
+        "fiberNumber": 155,
+        "groupShapeId": "43429",
+        "legacySegmentId": "148",
+        "markerShapeId": "43780",
+        "segmentId": "CAB-000148",
+        "x": 41.418241419370815,
+        "y": 595.4135089729818
+      },
+      "end": {
+        "alignmentDelta": 0.019911778,
+        "bankIndex": 0,
+        "fiberNumber": 155,
+        "groupShapeId": "43832",
+        "legacySegmentId": "148",
+        "markerShapeId": "44183",
+        "segmentId": "CAB-000148",
+        "x": 41.41042821435965,
+        "y": 588.2982592842013
+      },
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 41.4064781806601,
+          "y": 595.3979668489295
+        },
+        "end": {
+          "x": 41.4064781806601,
+          "y": 588.3142210280905
+        },
+        "worldBounds": {
+          "height": 7.083745820838999,
+          "max_x": 41.4064781806601,
+          "max_y": 595.3979668489294,
+          "min_x": 41.4064781806601,
+          "min_y": 588.3142210280904,
+          "width": 0.0
+        }
+      },
+      "occurrenceId": "NUO-17671",
+      "organizationId": "Silknet",
+      "rawText": "სილქნეტი",
+      "shapeId": "17671",
+      "status": "exact_fiber",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.023417854,
+        "bankIndex": 1,
+        "fiberNumber": 156,
+        "groupShapeId": "43429",
+        "legacySegmentId": "148",
+        "markerShapeId": "43767",
+        "segmentId": "CAB-000148",
+        "x": 41.509263681596394,
+        "y": 595.4127322916952
+      },
+      "end": {
+        "alignmentDelta": 0.017577632,
+        "bankIndex": 0,
+        "fiberNumber": 156,
+        "groupShapeId": "43832",
+        "legacySegmentId": "148",
+        "markerShapeId": "44170",
+        "segmentId": "CAB-000148",
+        "x": 41.501450476585234,
+        "y": 588.2974826029147
+      },
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 41.50061127016251,
+          "y": 595.3979668489295
+        },
+        "end": {
+          "x": 41.50061127016251,
+          "y": 588.3142210280905
+        },
+        "worldBounds": {
+          "height": 7.083745820838999,
+          "max_x": 41.50061127016251,
+          "max_y": 595.3979668489294,
+          "min_x": 41.50061127016251,
+          "min_y": 588.3142210280904,
+          "width": 0.0
+        }
+      },
+      "occurrenceId": "NUO-17672",
+      "organizationId": "Skytel",
+      "rawText": "სქაიტელი",
+      "shapeId": "17672",
+      "status": "exact_fiber",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.012892729,
+        "bankIndex": 1,
+        "fiberNumber": 1,
+        "groupShapeId": "37188",
+        "legacySegmentId": "184",
+        "markerShapeId": "37191",
+        "segmentId": "CAB-000184",
+        "x": 83.28666088243176,
+        "y": 455.506487340395
+      },
+      "end": {
+        "alignmentDelta": 0.020503413,
+        "bankIndex": 0,
+        "fiberNumber": 1,
+        "groupShapeId": "36531",
+        "legacySegmentId": "184",
+        "markerShapeId": "36534",
+        "segmentId": "CAB-000184",
+        "x": 83.28675635574687,
+        "y": 449.9967331371786
+      },
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 83.28515374660498,
+          "y": 455.4951017467959
+        },
+        "end": {
+          "x": 83.28515374660498,
+          "y": 450.0156339406966
+        },
+        "worldBounds": {
+          "height": 5.479467806099251,
+          "max_x": 83.28515374660498,
+          "max_y": 455.49510174679585,
+          "min_x": 83.28515374660498,
+          "min_y": 450.0156339406966,
+          "width": 0.0
+        }
+      },
+      "occurrenceId": "NUO-37550",
+      "organizationId": "OpenNet",
+      "rawText": "ოუფენ ნეტი",
+      "shapeId": "37550",
+      "status": "exact_fiber",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.012455644,
+        "bankIndex": 1,
+        "fiberNumber": 2,
+        "groupShapeId": "37188",
+        "legacySegmentId": "184",
+        "markerShapeId": "37192",
+        "segmentId": "CAB-000184",
+        "x": 83.37783369635633,
+        "y": 455.506487340395
+      },
+      "end": {
+        "alignmentDelta": 0.01987538,
+        "bankIndex": 0,
+        "fiberNumber": 2,
+        "groupShapeId": "36531",
+        "legacySegmentId": "184",
+        "markerShapeId": "36535",
+        "segmentId": "CAB-000184",
+        "x": 83.37792916967145,
+        "y": 449.9967331371786
+      },
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 83.37890374660498,
+          "y": 455.4951017467959
+        },
+        "end": {
+          "x": 83.37890374660498,
+          "y": 450.0156339406966
+        },
+        "worldBounds": {
+          "height": 5.479467806099251,
+          "max_x": 83.37890374660498,
+          "max_y": 455.49510174679585,
+          "min_x": 83.37890374660498,
+          "min_y": 450.0156339406966,
+          "width": 0.0
+        }
+      },
+      "occurrenceId": "NUO-37551",
+      "organizationId": "OpenNet",
+      "rawText": "ოუფენ ნეტი",
+      "shapeId": "37551",
+      "status": "exact_fiber",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.015550857,
+        "bankIndex": 1,
+        "fiberNumber": 3,
+        "groupShapeId": "37188",
+        "legacySegmentId": "184",
+        "markerShapeId": "37193",
+        "segmentId": "CAB-000184",
+        "x": 83.4690065102809,
+        "y": 455.506487340395
+      },
+      "end": {
+        "alignmentDelta": 0.023161541,
+        "bankIndex": 0,
+        "fiberNumber": 3,
+        "groupShapeId": "36531",
+        "legacySegmentId": "184",
+        "markerShapeId": "36536",
+        "segmentId": "CAB-000184",
+        "x": 83.46910198359603,
+        "y": 449.9967331371786
+      },
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 83.46484124660498,
+          "y": 455.4951017467959
+        },
+        "end": {
+          "x": 83.46484124660498,
+          "y": 450.0156339406966
+        },
+        "worldBounds": {
+          "height": 5.479467806099251,
+          "max_x": 83.46484124660498,
+          "max_y": 455.49510174679585,
+          "min_x": 83.46484124660498,
+          "min_y": 450.0156339406966,
+          "width": 0.0
+        }
+      },
+      "occurrenceId": "NUO-37552",
+      "organizationId": "OpenNet",
+      "rawText": "ოუფენ ნეტი",
+      "shapeId": "37552",
+      "status": "exact_fiber",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.012973671,
+        "bankIndex": 1,
+        "fiberNumber": 4,
+        "groupShapeId": "37188",
+        "legacySegmentId": "184",
+        "markerShapeId": "37194",
+        "segmentId": "CAB-000184",
+        "x": 83.56017932420549,
+        "y": 455.506487340395
+      },
+      "end": {
+        "alignmentDelta": 0.020584354,
+        "bankIndex": 0,
+        "fiberNumber": 4,
+        "groupShapeId": "36531",
+        "legacySegmentId": "184",
+        "markerShapeId": "36537",
+        "segmentId": "CAB-000184",
+        "x": 83.5602747975206,
+        "y": 449.9967331371786
+      },
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 83.55859124660498,
+          "y": 455.4951017467959
+        },
+        "end": {
+          "x": 83.55859124660498,
+          "y": 450.0156339406966
+        },
+        "worldBounds": {
+          "height": 5.479467806099251,
+          "max_x": 83.55859124660498,
+          "max_y": 455.49510174679585,
+          "min_x": 83.55859124660498,
+          "min_y": 450.0156339406966,
+          "width": 0.0
+        }
+      },
+      "occurrenceId": "NUO-37553",
+      "organizationId": "OpenNet",
+      "rawText": "ოუფენ ნეტი",
+      "shapeId": "37553",
+      "status": "exact_fiber",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.014302735,
+        "bankIndex": 1,
+        "fiberNumber": 5,
+        "groupShapeId": "37188",
+        "legacySegmentId": "184",
+        "markerShapeId": "37190",
+        "segmentId": "CAB-000184",
+        "x": 83.65135213813006,
+        "y": 455.506487340395
+      },
+      "end": {
+        "alignmentDelta": 0.021913418,
+        "bankIndex": 0,
+        "fiberNumber": 5,
+        "groupShapeId": "36531",
+        "legacySegmentId": "184",
+        "markerShapeId": "36533",
+        "segmentId": "CAB-000184",
+        "x": 83.65144761144518,
+        "y": 449.9967331371786
+      },
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 83.64843499660498,
+          "y": 455.4951017467959
+        },
+        "end": {
+          "x": 83.64843499660498,
+          "y": 450.0156339406966
+        },
+        "worldBounds": {
+          "height": 5.479467806099251,
+          "max_x": 83.64843499660498,
+          "max_y": 455.49510174679585,
+          "min_x": 83.64843499660498,
+          "min_y": 450.0156339406966,
+          "width": 0.0
+        }
+      },
+      "occurrenceId": "NUO-37554",
+      "organizationId": "Magti",
+      "rawText": "მაგთი",
+      "shapeId": "37554",
+      "status": "exact_fiber",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.01229376,
+        "bankIndex": 1,
+        "fiberNumber": 8,
+        "groupShapeId": "37188",
+        "legacySegmentId": "184",
+        "markerShapeId": "37197",
+        "segmentId": "CAB-000184",
+        "x": 83.9248705799038,
+        "y": 455.506487340395
+      },
+      "end": {
+        "alignmentDelta": 0.019713497,
+        "bankIndex": 0,
+        "fiberNumber": 8,
+        "groupShapeId": "36531",
+        "legacySegmentId": "184",
+        "markerShapeId": "36540",
+        "segmentId": "CAB-000184",
+        "x": 83.92496605321891,
+        "y": 449.9967331371786
+      },
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 83.92577874660498,
+          "y": 455.4951017467959
+        },
+        "end": {
+          "x": 83.92577874660498,
+          "y": 450.0156339406966
+        },
+        "worldBounds": {
+          "height": 5.479467806099251,
+          "max_x": 83.92577874660498,
+          "max_y": 455.49510174679585,
+          "min_x": 83.92577874660498,
+          "min_y": 450.0156339406966,
+          "width": 0.0
+        }
+      },
+      "occurrenceId": "NUO-37557",
+      "organizationId": "Magti",
+      "rawText": "მაგთი",
+      "shapeId": "37557",
+      "status": "exact_fiber",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.013108035,
+        "bankIndex": 1,
+        "fiberNumber": 10,
+        "groupShapeId": "37188",
+        "legacySegmentId": "184",
+        "markerShapeId": "37200",
+        "segmentId": "CAB-000184",
+        "x": 84.11109493754986,
+        "y": 455.506487340395
+      },
+      "end": {
+        "alignmentDelta": 0.020718718,
+        "bankIndex": 0,
+        "fiberNumber": 10,
+        "groupShapeId": "36531",
+        "legacySegmentId": "184",
+        "markerShapeId": "36543",
+        "segmentId": "CAB-000184",
+        "x": 84.11119041086499,
+        "y": 449.9967331371786
+      },
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 84.10937249660498,
+          "y": 455.4951017467959
+        },
+        "end": {
+          "x": 84.10937249660498,
+          "y": 450.0156339406966
+        },
+        "worldBounds": {
+          "height": 5.479467806099251,
+          "max_x": 84.10937249660498,
+          "max_y": 455.49510174679585,
+          "min_x": 84.10937249660498,
+          "min_y": 450.0156339406966,
+          "width": 0.0
+        }
+      },
+      "occurrenceId": "NUO-37559",
+      "organizationId": "Silknet",
+      "rawText": "სილქნეტი",
+      "shapeId": "37559",
+      "status": "exact_fiber",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.014346084,
+        "bankIndex": 1,
+        "fiberNumber": 11,
+        "groupShapeId": "37188",
+        "legacySegmentId": "184",
+        "markerShapeId": "37199",
+        "segmentId": "CAB-000184",
+        "x": 84.19703243754988,
+        "y": 455.5072640216815
+      },
+      "end": {
+        "alignmentDelta": 0.020212458,
+        "bankIndex": 0,
+        "fiberNumber": 11,
+        "groupShapeId": "36531",
+        "legacySegmentId": "184",
+        "markerShapeId": "36542",
+        "segmentId": "CAB-000184",
+        "x": 84.19712791086499,
+        "y": 449.9975098184651
+      },
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 84.19921624660498,
+          "y": 455.4951017467959
+        },
+        "end": {
+          "x": 84.19921624660498,
+          "y": 450.0156339406966
+        },
+        "worldBounds": {
+          "height": 5.479467806099251,
+          "max_x": 84.19921624660498,
+          "max_y": 455.49510174679585,
+          "min_x": 84.19921624660498,
+          "min_y": 450.0156339406966,
+          "width": 0.0
+        }
+      },
+      "occurrenceId": "NUO-37560",
+      "organizationId": "Silknet",
+      "rawText": "სილქნეტი",
+      "shapeId": "37560",
+      "status": "exact_fiber",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.015793683,
+        "bankIndex": 1,
+        "fiberNumber": 12,
+        "groupShapeId": "37188",
+        "legacySegmentId": "184",
+        "markerShapeId": "37201",
+        "segmentId": "CAB-000184",
+        "x": 84.2895618356021,
+        "y": 455.506487340395
+      },
+      "end": {
+        "alignmentDelta": 0.023404366,
+        "bankIndex": 0,
+        "fiberNumber": 12,
+        "groupShapeId": "36531",
+        "legacySegmentId": "184",
+        "markerShapeId": "36544",
+        "segmentId": "CAB-000184",
+        "x": 84.28965730891721,
+        "y": 449.9967331371786
+      },
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 84.28515374660498,
+          "y": 455.4951017467959
+        },
+        "end": {
+          "x": 84.28515374660498,
+          "y": 450.0156339406966
+        },
+        "worldBounds": {
+          "height": 5.479467806099251,
+          "max_x": 84.28515374660498,
+          "max_y": 455.49510174679585,
+          "min_x": 84.28515374660498,
+          "min_y": 450.0156339406966,
+          "width": 0.0
+        }
+      },
+      "occurrenceId": "NUO-37561",
+      "organizationId": "Skytel",
+      "rawText": "სქაიტელი",
+      "shapeId": "37561",
+      "status": "exact_fiber",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.016068525,
+        "bankIndex": 1,
+        "fiberNumber": 35,
+        "groupShapeId": "37188",
+        "legacySegmentId": "184",
+        "markerShapeId": "37286",
+        "segmentId": "CAB-000184",
+        "x": 86.37890374660499,
+        "y": 455.5072640216815
+      },
+      "end": {
+        "alignmentDelta": 0.022125846,
+        "bankIndex": 0,
+        "fiberNumber": 35,
+        "groupShapeId": "36531",
+        "legacySegmentId": "184",
+        "markerShapeId": "37444",
+        "segmentId": "CAB-000184",
+        "x": 86.3789992199201,
+        "y": 449.9975098184651
+      },
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 86.37499749660498,
+          "y": 455.4951017467959
+        },
+        "end": {
+          "x": 86.37499749660498,
+          "y": 450.0156339406966
+        },
+        "worldBounds": {
+          "height": 5.479467806099251,
+          "max_x": 86.37499749660498,
+          "max_y": 455.49510174679585,
+          "min_x": 86.37499749660498,
+          "min_y": 450.0156339406966,
+          "width": 0.0
+        }
+      },
+      "occurrenceId": "NUO-37584",
+      "organizationId": "Skytel",
+      "rawText": "Skytel data",
+      "shapeId": "37584",
+      "status": "exact_fiber",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.012564106,
+        "bankIndex": 1,
+        "fiberNumber": 36,
+        "groupShapeId": "37188",
+        "legacySegmentId": "184",
+        "markerShapeId": "37245",
+        "segmentId": "CAB-000184",
+        "x": 86.46992600883044,
+        "y": 455.506487340395
+      },
+      "end": {
+        "alignmentDelta": 0.020174789,
+        "bankIndex": 0,
+        "fiberNumber": 36,
+        "groupShapeId": "36531",
+        "legacySegmentId": "184",
+        "markerShapeId": "37403",
+        "segmentId": "CAB-000184",
+        "x": 86.47002148214555,
+        "y": 449.9967331371786
+      },
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 86.46874749660498,
+          "y": 455.4951017467959
+        },
+        "end": {
+          "x": 86.46874749660498,
+          "y": 450.0156339406966
+        },
+        "worldBounds": {
+          "height": 5.479467806099251,
+          "max_x": 86.46874749660498,
+          "max_y": 455.49510174679585,
+          "min_x": 86.46874749660498,
+          "min_y": 450.0156339406966,
+          "width": 0.0
+        }
+      },
+      "occurrenceId": "NUO-37585",
+      "organizationId": "Skytel",
+      "rawText": "Skytel Data",
+      "shapeId": "37585",
+      "status": "exact_fiber",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.034939476,
+        "bankIndex": 0,
+        "fiberNumber": 4,
+        "groupShapeId": "38386",
+        "legacySegmentId": "183",
+        "markerShapeId": "38392",
+        "segmentId": "CAB-000183",
+        "x": 123.28789695325185,
+        "y": 444.46236708964216
+      },
+      "end": null,
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 123.2877057787544,
+          "y": 444.4276187883529
+        },
+        "end": {
+          "x": 123.2877057787544,
+          "y": 443.2770166355174
+        },
+        "worldBounds": {
+          "height": 1.150602152835404,
+          "max_x": 123.2877057787544,
+          "max_y": 444.4276187883528,
+          "min_x": 123.2877057787544,
+          "min_y": 443.2770166355174,
+          "width": 0.0
+        }
+      },
+      "occurrenceId": "NUO-38317",
+      "organizationId": "Skytel",
+      "rawText": "Skytel Data",
+      "shapeId": "38317",
+      "status": "exact_single_endpoint",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.035296662,
+        "bankIndex": 0,
+        "fiberNumber": 3,
+        "groupShapeId": "38386",
+        "legacySegmentId": "183",
+        "markerShapeId": "38391",
+        "segmentId": "CAB-000183",
+        "x": 123.19672413932727,
+        "y": 444.46236708964216
+      },
+      "end": null,
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 123.1972725001764,
+          "y": 444.4276187883529
+        },
+        "end": {
+          "x": 123.1972725001764,
+          "y": 443.2770166355174
+        },
+        "worldBounds": {
+          "height": 1.1506021528355177,
+          "max_x": 123.1972725001764,
+          "max_y": 444.4276187883528,
+          "min_x": 123.1972725001764,
+          "min_y": 443.27701663551727,
+          "width": 0.0
+        }
+      },
+      "occurrenceId": "NUO-38318",
+      "organizationId": "Skytel",
+      "rawText": "Skytel Data",
+      "shapeId": "38318",
+      "status": "exact_single_endpoint",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.029527559,
+        "bankIndex": 0,
+        "fiberNumber": 145,
+        "groupShapeId": "15601",
+        "legacySegmentId": "150",
+        "markerShapeId": "19063",
+        "segmentId": "CAB-000150",
+        "x": 40.49978219148687,
+        "y": 567.986955652659
+      },
+      "end": {
+        "alignmentDelta": 0.029527559,
+        "bankIndex": 1,
+        "fiberNumber": 1,
+        "groupShapeId": "33254",
+        "legacySegmentId": "169",
+        "markerShapeId": "33257",
+        "segmentId": "CAB-000169",
+        "x": 83.28955212258924,
+        "y": 547.1093233801242
+      },
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 40.49978219148687,
+          "y": 567.957428093604
+        },
+        "end": {
+          "x": 83.28955212258924,
+          "y": 547.1388509391795
+        },
+        "worldBounds": {
+          "height": 20.818577154424474,
+          "max_x": 83.28955212258924,
+          "max_y": 567.957428093604,
+          "min_x": 40.49978219148687,
+          "min_y": 547.1388509391795,
+          "width": 42.78976993110237
+        }
+      },
+      "occurrenceId": "NUO-38538",
+      "organizationId": "OpenNet",
+      "rawText": "ოუფენ ნეტი",
+      "shapeId": "38538",
+      "status": "exact_transition",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.029527559,
+        "bankIndex": 0,
+        "fiberNumber": 146,
+        "groupShapeId": "15601",
+        "legacySegmentId": "150",
+        "markerShapeId": "19064",
+        "segmentId": "CAB-000150",
+        "x": 40.590955005411445,
+        "y": 567.986955652659
+      },
+      "end": {
+        "alignmentDelta": 0.029527559,
+        "bankIndex": 1,
+        "fiberNumber": 2,
+        "groupShapeId": "33254",
+        "legacySegmentId": "169",
+        "markerShapeId": "33258",
+        "segmentId": "CAB-000169",
+        "x": 83.38072493651381,
+        "y": 547.1093233801242
+      },
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 40.59095500541145,
+          "y": 567.957428093604
+        },
+        "end": {
+          "x": 83.38072493651381,
+          "y": 547.1388509391795
+        },
+        "worldBounds": {
+          "height": 20.818577154424474,
+          "max_x": 83.38072493651381,
+          "max_y": 567.957428093604,
+          "min_x": 40.590955005411445,
+          "min_y": 547.1388509391795,
+          "width": 42.78976993110237
+        }
+      },
+      "occurrenceId": "NUO-38539",
+      "organizationId": "OpenNet",
+      "rawText": "ოუფენ ნეტი",
+      "shapeId": "38539",
+      "status": "exact_transition",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.029527559,
+        "bankIndex": 0,
+        "fiberNumber": 147,
+        "groupShapeId": "15601",
+        "legacySegmentId": "150",
+        "markerShapeId": "19065",
+        "segmentId": "CAB-000150",
+        "x": 40.682127819336024,
+        "y": 567.986955652659
+      },
+      "end": {
+        "alignmentDelta": 0.029527559,
+        "bankIndex": 1,
+        "fiberNumber": 3,
+        "groupShapeId": "33254",
+        "legacySegmentId": "169",
+        "markerShapeId": "33259",
+        "segmentId": "CAB-000169",
+        "x": 83.47189775043839,
+        "y": 547.1093233801242
+      },
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 40.68212781933602,
+          "y": 567.957428093604
+        },
+        "end": {
+          "x": 83.47189775043839,
+          "y": 547.1388509391795
+        },
+        "worldBounds": {
+          "height": 20.818577154424474,
+          "max_x": 83.47189775043839,
+          "max_y": 567.957428093604,
+          "min_x": 40.68212781933602,
+          "min_y": 547.1388509391795,
+          "width": 42.78976993110237
+        }
+      },
+      "occurrenceId": "NUO-38540",
+      "organizationId": "OpenNet",
+      "rawText": "ოუფენ ნეტი",
+      "shapeId": "38540",
+      "status": "exact_transition",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.029527559,
+        "bankIndex": 0,
+        "fiberNumber": 148,
+        "groupShapeId": "15601",
+        "legacySegmentId": "150",
+        "markerShapeId": "19066",
+        "segmentId": "CAB-000150",
+        "x": 40.773300633260604,
+        "y": 567.986955652659
+      },
+      "end": {
+        "alignmentDelta": 0.029527559,
+        "bankIndex": 1,
+        "fiberNumber": 4,
+        "groupShapeId": "33254",
+        "legacySegmentId": "169",
+        "markerShapeId": "33260",
+        "segmentId": "CAB-000169",
+        "x": 83.56307056436297,
+        "y": 547.1093233801242
+      },
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 40.7733006332606,
+          "y": 567.957428093604
+        },
+        "end": {
+          "x": 83.56307056436299,
+          "y": 547.1388509391795
+        },
+        "worldBounds": {
+          "height": 20.818577154424474,
+          "max_x": 83.56307056436299,
+          "max_y": 567.957428093604,
+          "min_x": 40.773300633260604,
+          "min_y": 547.1388509391795,
+          "width": 42.789769931102384
+        }
+      },
+      "occurrenceId": "NUO-38541",
+      "organizationId": "OpenNet",
+      "rawText": "ოუფენ ნეტი",
+      "shapeId": "38541",
+      "status": "exact_transition",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.029527559,
+        "bankIndex": 0,
+        "fiberNumber": 149,
+        "groupShapeId": "15601",
+        "legacySegmentId": "150",
+        "markerShapeId": "19062",
+        "segmentId": "CAB-000150",
+        "x": 40.864473447185176,
+        "y": 567.986955652659
+      },
+      "end": {
+        "alignmentDelta": 0.029527559,
+        "bankIndex": 1,
+        "fiberNumber": 5,
+        "groupShapeId": "33254",
+        "legacySegmentId": "169",
+        "markerShapeId": "33256",
+        "segmentId": "CAB-000169",
+        "x": 83.65424337828755,
+        "y": 547.1093233801242
+      },
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 40.86447344718518,
+          "y": 567.957428093604
+        },
+        "end": {
+          "x": 83.65424337828756,
+          "y": 547.1388509391795
+        },
+        "worldBounds": {
+          "height": 20.818577154424474,
+          "max_x": 83.65424337828756,
+          "max_y": 567.957428093604,
+          "min_x": 40.86447344718519,
+          "min_y": 547.1388509391795,
+          "width": 42.78976993110237
+        }
+      },
+      "occurrenceId": "NUO-38542",
+      "organizationId": "Magti",
+      "rawText": "მაგთი",
+      "shapeId": "38542",
+      "status": "exact_transition",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.029527559,
+        "bankIndex": 0,
+        "fiberNumber": 152,
+        "groupShapeId": "15601",
+        "legacySegmentId": "150",
+        "markerShapeId": "19069",
+        "segmentId": "CAB-000150",
+        "x": 41.13799188895891,
+        "y": 567.986955652659
+      },
+      "end": {
+        "alignmentDelta": 0.029527559,
+        "bankIndex": 1,
+        "fiberNumber": 8,
+        "groupShapeId": "33254",
+        "legacySegmentId": "169",
+        "markerShapeId": "33263",
+        "segmentId": "CAB-000169",
+        "x": 83.92776182006128,
+        "y": 547.1093233801242
+      },
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 41.13799188895891,
+          "y": 567.957428093604
+        },
+        "end": {
+          "x": 83.92776182006128,
+          "y": 547.1388509391795
+        },
+        "worldBounds": {
+          "height": 20.818577154424474,
+          "max_x": 83.92776182006128,
+          "max_y": 567.957428093604,
+          "min_x": 41.13799188895891,
+          "min_y": 547.1388509391795,
+          "width": 42.78976993110237
+        }
+      },
+      "occurrenceId": "NUO-38545",
+      "organizationId": "Magti",
+      "rawText": "მაგთი",
+      "shapeId": "38545",
+      "status": "exact_transition",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.029527559,
+        "bankIndex": 0,
+        "fiberNumber": 154,
+        "groupShapeId": "15601",
+        "legacySegmentId": "150",
+        "markerShapeId": "19072",
+        "segmentId": "CAB-000150",
+        "x": 41.32421624660498,
+        "y": 567.986955652659
+      },
+      "end": {
+        "alignmentDelta": 0.029527559,
+        "bankIndex": 1,
+        "fiberNumber": 10,
+        "groupShapeId": "33254",
+        "legacySegmentId": "169",
+        "markerShapeId": "33266",
+        "segmentId": "CAB-000169",
+        "x": 84.11398617770735,
+        "y": 547.1093233801242
+      },
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 41.32421624660498,
+          "y": 567.957428093604
+        },
+        "end": {
+          "x": 84.11398617770735,
+          "y": 547.1388509391795
+        },
+        "worldBounds": {
+          "height": 20.818577154424474,
+          "max_x": 84.11398617770735,
+          "max_y": 567.957428093604,
+          "min_x": 41.324216246604976,
+          "min_y": 547.1388509391795,
+          "width": 42.78976993110237
+        }
+      },
+      "occurrenceId": "NUO-38547",
+      "organizationId": "Silknet",
+      "rawText": "სილქნეტი",
+      "shapeId": "38547",
+      "status": "exact_transition",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.029527559,
+        "bankIndex": 0,
+        "fiberNumber": 155,
+        "groupShapeId": "15601",
+        "legacySegmentId": "150",
+        "markerShapeId": "19071",
+        "segmentId": "CAB-000150",
+        "x": 41.41015374660498,
+        "y": 567.9877323339457
+      },
+      "end": {
+        "alignmentDelta": 0.029527559,
+        "bankIndex": 1,
+        "fiberNumber": 11,
+        "groupShapeId": "33254",
+        "legacySegmentId": "169",
+        "markerShapeId": "33265",
+        "segmentId": "CAB-000169",
+        "x": 84.19992367770736,
+        "y": 547.1101000614109
+      },
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 41.41015374660498,
+          "y": 567.9582047748904
+        },
+        "end": {
+          "x": 84.19992367770735,
+          "y": 547.139627620466
+        },
+        "worldBounds": {
+          "height": 20.818577154424474,
+          "max_x": 84.19992367770735,
+          "max_y": 567.9582047748904,
+          "min_x": 41.410153746604976,
+          "min_y": 547.139627620466,
+          "width": 42.78976993110237
+        }
+      },
+      "occurrenceId": "NUO-38548",
+      "organizationId": "Silknet",
+      "rawText": "სილქნეტი",
+      "shapeId": "38548",
+      "status": "exact_transition",
+      "unresolvedReason": null
+    },
+    {
+      "begin": {
+        "alignmentDelta": 0.029527559,
+        "bankIndex": 0,
+        "fiberNumber": 156,
+        "groupShapeId": "15601",
+        "legacySegmentId": "150",
+        "markerShapeId": "19073",
+        "segmentId": "CAB-000150",
+        "x": 41.50268314465721,
+        "y": 567.986955652659
+      },
+      "end": {
+        "alignmentDelta": 0.029527559,
+        "bankIndex": 1,
+        "fiberNumber": 12,
+        "groupShapeId": "33254",
+        "legacySegmentId": "169",
+        "markerShapeId": "33267",
+        "segmentId": "CAB-000169",
+        "x": 84.29245307575958,
+        "y": 547.1093233801242
+      },
+      "evidenceBasis": [
+        "source_text_on_line_shape",
+        "world_geometry",
+        "fiber_marker_alignment"
+      ],
+      "geometry": {
+        "begin": {
+          "x": 41.50268314465721,
+          "y": 567.957428093604
+        },
+        "end": {
+          "x": 84.2924530757596,
+          "y": 547.1388509391795
+        },
+        "worldBounds": {
+          "height": 20.818577154424474,
+          "max_x": 84.2924530757596,
+          "max_y": 567.957428093604,
+          "min_x": 41.50268314465721,
+          "min_y": 547.1388509391795,
+          "width": 42.789769931102384
+        }
+      },
+      "occurrenceId": "NUO-38549",
+      "organizationId": "Skytel",
+      "rawText": "სქაიტელი",
+      "shapeId": "38549",
+      "status": "exact_transition",
+      "unresolvedReason": null
+    }
+  ],
+  "page": "ცაგერი-ლენტეხი",
+  "pageId": "4",
+  "part": "visio/pages/page1.xml",
+  "rawArtifactSha256": "e14e79f5930a1b063db11e4db53d2ac47925fb49ffc3a915449468a54cfb066f",
+  "schemaVersion": 1,
+  "sourceFile": "Tsageri-Lentekhi 2025.vsdx",
+  "sourceSha256": "caae4badc9c8c30be0a5fa3ef26352c3e534a9de7c66e830ef470466bb34a6fa"
+}

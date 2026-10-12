@@ -1,0 +1,193 @@
+{
+  "stage": "final",
+  "timestamp": "2026-10-02T19:52:53.803Z",
+  "browser": "Microsoft Edge (Chromium headless, Playwright)",
+  "profile": "Desktop 1440×900 and emulated mobile 390×844; offline file://; not a real phone",
+  "sha256": "5fdb57701ad279d156995b4baa739bf97021acb6283767d143dae1c380b88a81",
+  "loadMs": 6270,
+  "searchMs": {
+    "C158": 84,
+    "C148": 29,
+    "154-208-209-144": 27,
+    "AP42": 30,
+    "Lentekhi Port38": 81,
+    "C184/F38": 44,
+    "C184 Tube 1": 60
+  },
+  "gridMs": 92,
+  "longTasks": [
+    65,
+    117,
+    151,
+    5347,
+    69,
+    82,
+    54
+  ],
+  "externalRequests": [],
+  "browserErrors": [],
+  "overflow": [
+    {
+      "flow": "desktop search C158",
+      "viewport": 1440,
+      "document": 1440
+    },
+    {
+      "flow": "desktop search C148",
+      "viewport": 1440,
+      "document": 1440
+    },
+    {
+      "flow": "desktop search 154-208-209-144",
+      "viewport": 1440,
+      "document": 1440
+    },
+    {
+      "flow": "desktop search AP42",
+      "viewport": 1440,
+      "document": 1440
+    },
+    {
+      "flow": "desktop search Lentekhi Port38",
+      "viewport": 1440,
+      "document": 1440
+    },
+    {
+      "flow": "desktop search C184/F38",
+      "viewport": 1440,
+      "document": 1440
+    },
+    {
+      "flow": "desktop search C184 Tube 1",
+      "viewport": 1440,
+      "document": 1440
+    },
+    {
+      "flow": "desktop 48-Port grid",
+      "viewport": 1440,
+      "document": 1440
+    },
+    {
+      "flow": "mobile search AP42",
+      "viewport": 390,
+      "document": 390
+    },
+    {
+      "flow": "mobile search C158",
+      "viewport": 390,
+      "document": 390
+    },
+    {
+      "flow": "mobile search 154-208-209-144",
+      "viewport": 390,
+      "document": 390
+    },
+    {
+      "flow": "mobile search Lentekhi Port38",
+      "viewport": 390,
+      "document": 390
+    },
+    {
+      "flow": "mobile search C184 Tube 1",
+      "viewport": 390,
+      "document": 390
+    },
+    {
+      "flow": "mobile 48-Port grid",
+      "viewport": 390,
+      "document": 390
+    }
+  ],
+  "flows": [
+    {
+      "name": "C158",
+      "expected": "one Cable identity and one usage summary",
+      "actual": "SC210 ↔ SC211 · 96F\nC158 · 96F · SC210 ↔ SC211\nTube 1 ლურჯი · Tube 2 ნარინჯისფერი · Tube 3 მწვანე · Tube 4 ყავისფერი · Tube 5 ნაცრისფერი · Tube 6 თეთრი · Tube 7 წითელი · Tube 8 შავი\n19 in use · 76 unused · 1 review · 0 unknown\nცაგერი–ალპანა–ტვიში\nRoute-ზე ნახვა"
+    },
+    {
+      "name": "C148",
+      "expected": "one Cable identity and one usage summary",
+      "actual": "AGG5 ↔ SC205 · 192F\nC148 · 192F · AGG5 ↔ SC205\nTube 1 ლურჯი · Tube 2 ნარინჯისფერი · Tube 3 მწვანე · Tube 4 ყავისფერი · Tube 5 ნაცრისფერი · Tube 6 თეთრი · Tube 7 წითელი · Tube 8 შავი · Tube 9 ცისფერი · Tube 10 ყვითელი · Tube 11 ლურჯი · Tube 12 ნარინჯისფერი · Tube 13 მწვანე · Tube 14 ყავისფერი · Tube 15 ნაცრისფერი · Tube 16 თეთრი\n33 in use · 156 unused · 3 review · 0 unknown\nცაგერი–ლენტეხი\nRoute-ზე "
+    },
+    {
+      "name": "154-208-209-144",
+      "expected": "one Cable identity and one usage summary",
+      "actual": "SC208 ↔ SC209 · 144F\nC154 · 144F · SC208 ↔ SC209\nTube 1 ლურჯი · Tube 2 ნარინჯისფერი · Tube 3 მწვანე · Tube 4 ყავისფერი · Tube 5 ნაცრისფერი · Tube 6 თეთრი · Tube 7 წითელი · Tube 8 შავი · Tube 9 ცისფერი · Tube 10 ყვითელი · Tube 11 იისფერი · Tube 12 ვარდისფერი\n20 in use · 123 unused · 1 review · 0 unknown\nცაგერი–ალპანა–ტვიში\nRoute-ზე ნახვა"
+    },
+    {
+      "name": "AP42",
+      "expected": "AP42 place, Cable, capacity, occupancy",
+      "actual": "AP42 · ორბელი\nორბელი · C153 · 24 Ports\n2 used · 22 unused · 0 unknown\nRoute-ზე ნახვა"
+    },
+    {
+      "name": "Lentekhi Port38",
+      "expected": "exact Fiber path remaps at SC224 and ends at SC225",
+      "actual": "ლენტეხის აგრეგაციის ODF · Port 38\nC184/F38 · გამოყენება დაუდგენელია\nTube 4 · ყავისფერი · F38 · ნარინჯისფერი\nლენტეხის აგრეგაცია / Port 38 → SC224 (C184/F38 → C181/F6) → SC225 / აქ მთავრდება\nRoute-ზე ნახვა"
+    },
+    {
+      "name": "C184 Tube 1",
+      "expected": "Tube path and action explicitly name sample C184/F1",
+      "actual": "C184 / Tube 1\nC184 · Tube 1 · ლურჯი · 12F\nF1–F12\n10 in use · 2 unused · 0 review · 0 unknown\nSample Fiber C184/F1 · opens C184/F1\nნიმუში Fiber C184/F1 გახსენი"
+    },
+    {
+      "name": "Lentekhi Port999",
+      "expected": "no invented Port target",
+      "actual": "no results"
+    },
+    {
+      "name": "Lentekhi Port0",
+      "expected": "no invented Port target",
+      "actual": "no results"
+    },
+    {
+      "name": "Tsageri Port0",
+      "expected": "no invented Port target",
+      "actual": "no results"
+    },
+    {
+      "name": "Tsageri Port193",
+      "expected": "no invented Port target",
+      "actual": "no results"
+    },
+    {
+      "name": "AP42 Port25",
+      "expected": "no invented Port target",
+      "actual": "no results"
+    },
+    {
+      "name": "Tsageri Port175",
+      "expected": "existing Port, unknown binding",
+      "actual": "Tsageri aggregation ODF · Port 175\nFiber მიბმა და Port-ის ფიზიკური სტატუსი წყაროდან დაუდგენელია\nპორტის ფიზიკური სტატუსი წყაროდან არ არის დადგენილი\nRoute-ზე ნახვა"
+    },
+    {
+      "name": "AP42 navigation",
+      "expected": "opens certified canonical network node in Route Workspace",
+      "actual": "file:///C:/Users/Beka/Desktop/Visio%20Alt/fiber-prototype.html#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=network_node%3A42"
+    },
+    {
+      "name": "Tube action",
+      "expected": "opens sample C184/F1",
+      "actual": "file:///C:/Users/Beka/Desktop/Visio%20Alt/fiber-prototype.html#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=fiber%3ACAB-000184%3A1"
+    },
+    {
+      "name": "Back-to-query from global search",
+      "expected": "restores query",
+      "actual": "file:///C:/Users/Beka/Desktop/Visio%20Alt/fiber-prototype.html#/engineer?q=AP42"
+    },
+    {
+      "name": "Engineer Workspace Port38",
+      "expected": "same ordered path as global search",
+      "actual": "შესაბამისი ქსელის ჩანაწერები · 1\nლენტეხის აგრეგაციის ODF · Port 38Port · C184/F38 · გამოყენება დაუდგენელიაTube 4 · ყავისფერი · F38 · ნარინჯისფერილენტეხის აგრეგაცია / Port 38 → SC224 (C184/F38 → C181/F6) → SC225 / აქ მთავრდებაRoute-ზე ნახვა"
+    },
+    {
+      "name": "Back-to-query from Engineer Workspace",
+      "expected": "restores scoped Port query",
+      "actual": "file:///C:/Users/Beka/Desktop/Visio%20Alt/fiber-prototype.html#/engineer?q=Lentekhi%20Port38"
+    },
+    {
+      "name": "keyboard selection",
+      "expected": "Enter navigates to selected network result",
+      "actual": "file:///C:/Users/Beka/Desktop/Visio%20Alt/fiber-prototype.html#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=segment%3ASRC-TSAGERI-ALPANA-TVISHI-419DEF34-C153"
+    }
+  ]
+}

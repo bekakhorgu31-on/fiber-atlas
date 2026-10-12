@@ -1,0 +1,6352 @@
+{
+  "conventionLayer": "iteration23-owner-confirmations.json",
+  "counts": {
+    "in_use": 14,
+    "unknown": 243,
+    "unused": 127
+  },
+  "generationVersions": {
+    "domainProjection": "fiber-atlas-domain-projection/24",
+    "sourceGrammar": "tsageri-lentekhi-source-grammar/4"
+  },
+  "ports": [
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#92d050",
+      "fillPattern": "1",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "physicalUsage": "in_use",
+      "portNumber": 1,
+      "rawFill": "#92d050",
+      "sourceShapeIds": [
+        "33643"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 2,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "33644"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#92d050",
+      "fillPattern": "1",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "physicalUsage": "in_use",
+      "portNumber": 3,
+      "rawFill": "#92d050",
+      "sourceShapeIds": [
+        "33645"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 4,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "33646"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 5,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "33647"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 6,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "33648"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 7,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "33649"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 8,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "33650"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 9,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "33651"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 10,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "33652"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 11,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "33653"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 12,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "33654"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 13,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "33655"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 14,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "33656"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 15,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "33657"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 16,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "33658"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 17,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "33659"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 18,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "33660"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 19,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "33661"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 20,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "33662"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 21,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "33663"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 22,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "33664"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 23,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "33665"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "50",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 24,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "33666"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 1,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "34315"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 2,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "34316"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#13861c",
+      "fillPattern": "1",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "physicalUsage": "in_use",
+      "portNumber": 3,
+      "rawFill": "#13861c",
+      "sourceShapeIds": [
+        "34317"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 4,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "34318"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 5,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "34319"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 6,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "34320"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 7,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "34321"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 8,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "34322"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 9,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "34323"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 10,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "34324"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 11,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "34325"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 12,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "34326"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 13,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "34327"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 14,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "34328"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 15,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "34329"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 16,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "34330"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 17,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "34331"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 18,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "34332"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 19,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "34333"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 20,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "34334"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 21,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "34335"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 22,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "34336"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 23,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "34337"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "51",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 24,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "34338"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 1,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "35093"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 2,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "35094"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 3,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "35095"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 4,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "35096"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 5,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "35097"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 6,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "35098"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 7,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "35099"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 8,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "35100"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 9,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "35101"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 10,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "35102"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 11,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "35103"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 12,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "35104"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 13,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "35105"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 14,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "35106"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 15,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "35107"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 16,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "35108"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 17,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "35109"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 18,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "35110"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 19,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "35111"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 20,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "35112"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 21,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "35113"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 22,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "35114"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 23,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "35115"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "52",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 24,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "35116"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#128729",
+      "fillPattern": "1",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "physicalUsage": "in_use",
+      "portNumber": 1,
+      "rawFill": "#128729",
+      "sourceShapeIds": [
+        "37811"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#128729",
+      "fillPattern": "1",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "physicalUsage": "in_use",
+      "portNumber": 2,
+      "rawFill": "#128729",
+      "sourceShapeIds": [
+        "37812"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 3,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "37813"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 4,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "37814"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#128729",
+      "fillPattern": "1",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "physicalUsage": "in_use",
+      "portNumber": 5,
+      "rawFill": "#128729",
+      "sourceShapeIds": [
+        "37815"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#128729",
+      "fillPattern": "1",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "physicalUsage": "in_use",
+      "portNumber": 6,
+      "rawFill": "#128729",
+      "sourceShapeIds": [
+        "37816"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 7,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "37817"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 8,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "37818"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 9,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "37819"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 10,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "37820"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 11,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "37821"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 12,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "37822"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 13,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "37823"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 14,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "37824"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 15,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "37825"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 16,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "37826"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 17,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "37827"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 18,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "37828"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 19,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "37829"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 20,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "37830"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 21,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "37831"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 22,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "37832"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 23,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "37833"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "53",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 24,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "37834"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#00b050",
+      "fillPattern": "1",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "physicalUsage": "in_use",
+      "portNumber": 1,
+      "rawFill": "#00b050",
+      "sourceShapeIds": [
+        "38362"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#00b050",
+      "fillPattern": "1",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "physicalUsage": "in_use",
+      "portNumber": 2,
+      "rawFill": "#00b050",
+      "sourceShapeIds": [
+        "38363"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ff0000",
+      "fillPattern": "1",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "physicalUsage": "unknown",
+      "portNumber": 3,
+      "rawFill": "#ff0000",
+      "sourceShapeIds": [
+        "38364"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ff0000",
+      "fillPattern": "1",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "physicalUsage": "unknown",
+      "portNumber": 4,
+      "rawFill": "#ff0000",
+      "sourceShapeIds": [
+        "38365"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ff0000",
+      "fillPattern": "0",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "physicalUsage": "unknown",
+      "portNumber": 5,
+      "rawFill": "#ff0000",
+      "sourceShapeIds": [
+        "38366"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 6,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "38367"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 7,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "38368"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 8,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "38369"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 9,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "38370"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 10,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "38371"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 11,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "38372"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 12,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "38373"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#128729",
+      "fillPattern": "1",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "physicalUsage": "in_use",
+      "portNumber": 13,
+      "rawFill": "#128729",
+      "sourceShapeIds": [
+        "38374"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#128729",
+      "fillPattern": "1",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "physicalUsage": "in_use",
+      "portNumber": 14,
+      "rawFill": "#128729",
+      "sourceShapeIds": [
+        "38375"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 15,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "38376"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 16,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "38377"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 17,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "38378"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 18,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "38379"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 19,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "38380"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 20,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "38381"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 21,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "38382"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 22,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "38383"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 23,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "38384"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "54",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 24,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "38385"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#92d050",
+      "fillPattern": "1",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "physicalUsage": "in_use",
+      "portNumber": 1,
+      "rawFill": "#92d050",
+      "sourceShapeIds": [
+        "12484"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#92d050",
+      "fillPattern": "1",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "physicalUsage": "in_use",
+      "portNumber": 2,
+      "rawFill": "#92d050",
+      "sourceShapeIds": [
+        "12485"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#92d050",
+      "fillPattern": "1",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "physicalUsage": "in_use",
+      "portNumber": 3,
+      "rawFill": "#92d050",
+      "sourceShapeIds": [
+        "12486"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 4,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "12487"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 5,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "12488"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 6,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "12489"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 7,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "12490"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 8,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "12491"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 9,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "12492"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 10,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "12493"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 11,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "12494"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 12,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "12495"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 13,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "12496"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 14,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "12497"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 15,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "13900"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 16,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "13901"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 17,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "13902"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 18,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "13903"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 19,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "13904"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 20,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "13905"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 21,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "13906"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 22,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "13907"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 23,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "13908"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": "#ffffff",
+      "fillPattern": "1",
+      "ownerId": "41",
+      "ownerType": "ap",
+      "physicalUsage": "unused",
+      "portNumber": 24,
+      "rawFill": "#ffffff",
+      "sourceShapeIds": [
+        "13909"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 1,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43610",
+        "44013"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 2,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43611",
+        "44014"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 3,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43612",
+        "44015"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 4,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43613",
+        "44016"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 5,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43614",
+        "44017"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 6,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43615",
+        "44018"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 7,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43616",
+        "44019"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 8,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43617",
+        "44020"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 9,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43633",
+        "44036"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 10,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43680",
+        "44083"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 11,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43705",
+        "44108"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 12,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43729",
+        "44132"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 13,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43734",
+        "44137"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 14,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43757",
+        "44160"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 15,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43778",
+        "44181"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 16,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43779",
+        "44182"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 17,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43470",
+        "43873"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 18,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43471",
+        "43874"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 19,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43472",
+        "43875"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 20,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43473",
+        "43876"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 21,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43474",
+        "43877"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 22,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43475",
+        "43878"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 23,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43476",
+        "43879"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 24,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43477",
+        "43880"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 25,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43488",
+        "43891"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 26,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43489",
+        "43892"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 27,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43490",
+        "43893"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 28,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43491",
+        "43894"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 29,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43492",
+        "43895"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 30,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43493",
+        "43896"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 31,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43494",
+        "43897"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 32,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43495",
+        "43898"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 33,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43496",
+        "43899"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 34,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43497",
+        "43900"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 35,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43498",
+        "43901"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 36,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43499",
+        "43902"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 37,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43510",
+        "43913"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 38,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43511",
+        "43914"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 39,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43512",
+        "43915"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 40,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43513",
+        "43916"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 41,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43514",
+        "43917"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 42,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43515",
+        "43918"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 43,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43516",
+        "43919"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 44,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43517",
+        "43920"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 45,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43518",
+        "43921"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 46,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43519",
+        "43922"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 47,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43520",
+        "43923"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 48,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43521",
+        "43924"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 49,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43532",
+        "43935"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 50,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43533",
+        "43936"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 51,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43534",
+        "43937"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 52,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43535",
+        "43938"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 53,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43536",
+        "43939"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 54,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43537",
+        "43940"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 55,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43538",
+        "43941"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 56,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43539",
+        "43942"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 57,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43540",
+        "43943"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 58,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43541",
+        "43944"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 59,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43542",
+        "43945"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 60,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43543",
+        "43946"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 61,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43554",
+        "43957"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 62,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43555",
+        "43958"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 63,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43556",
+        "43959"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 64,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43557",
+        "43960"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 65,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43558",
+        "43961"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 66,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43559",
+        "43962"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 67,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43560",
+        "43963"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 68,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43561",
+        "43964"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 69,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43562",
+        "43965"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 70,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43563",
+        "43966"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 71,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43564",
+        "43967"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 72,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43565",
+        "43968"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 73,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43576",
+        "43979"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 74,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43577",
+        "43980"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 75,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43578",
+        "43981"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 76,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43579",
+        "43982"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 77,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43580",
+        "43983"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 78,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43581",
+        "43984"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 79,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43582",
+        "43985"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 80,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43583",
+        "43986"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 81,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43584",
+        "43987"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 82,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43585",
+        "43988"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 83,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43586",
+        "43989"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 84,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43587",
+        "43990"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 85,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43598",
+        "44001"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 86,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43599",
+        "44002"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 87,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43600",
+        "44003"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 88,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43601",
+        "44004"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 89,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43602",
+        "44005"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 90,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43603",
+        "44006"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 91,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43604",
+        "44007"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 92,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43605",
+        "44008"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 93,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43606",
+        "44009"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 94,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43607",
+        "44010"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 95,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43608",
+        "44011"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 96,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43609",
+        "44012"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 97,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43628",
+        "44031"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 98,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43629",
+        "44032"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 99,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43630",
+        "44033"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 100,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43631",
+        "44034"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 101,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43632",
+        "44035"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 102,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43634",
+        "44037"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 103,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43635",
+        "44038"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 104,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43636",
+        "44039"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 105,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43637",
+        "44040"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 106,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43638",
+        "44041"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 107,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43639",
+        "44042"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 108,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43640",
+        "44043"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 109,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43651",
+        "44054"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 110,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43652",
+        "44055"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 111,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43653",
+        "44056"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 112,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43654",
+        "44057"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 113,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43655",
+        "44058"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 114,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43656",
+        "44059"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 115,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43657",
+        "44060"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 116,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43658",
+        "44061"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 117,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43659",
+        "44062"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 118,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43730",
+        "44133"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 119,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43660",
+        "44063"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 120,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43661",
+        "44064"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 121,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43691",
+        "44094"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 122,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43692",
+        "44095"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 123,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43731",
+        "44134"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 124,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43693",
+        "44096"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 125,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43694",
+        "44097"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 126,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43695",
+        "44098"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 127,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43696",
+        "44099"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 128,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43697",
+        "44100"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 129,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43698",
+        "44101"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 130,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43699",
+        "44102"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 131,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43700",
+        "44103"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 132,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43701",
+        "44104"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 133,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43702",
+        "44105"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 134,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43716",
+        "44119"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 135,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43717",
+        "44120"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 136,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43718",
+        "44121"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 137,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43719",
+        "44122"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 138,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43720",
+        "44123"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 139,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43721",
+        "44124"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 140,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43722",
+        "44125"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 141,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43723",
+        "44126"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 142,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43724",
+        "44127"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 143,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43725",
+        "44128"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 144,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43726",
+        "44129"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 145,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43732",
+        "44135"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 146,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43733",
+        "44136"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 147,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43735",
+        "44138"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 148,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43736",
+        "44139"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 149,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43737",
+        "44140"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 150,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43738",
+        "44141"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 151,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43739",
+        "44142"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 152,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43740",
+        "44143"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 153,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43741",
+        "44144"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 154,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43742",
+        "44145"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 155,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43743",
+        "44146"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 156,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43744",
+        "44147"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 157,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43756",
+        "44159"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 158,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43745",
+        "44148"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 159,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43746",
+        "44149"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 160,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43747",
+        "44150"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 161,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43748",
+        "44151"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 162,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43749",
+        "44152"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 163,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43750",
+        "44153"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 164,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43751",
+        "44154"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 165,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43752",
+        "44155"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 166,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43753",
+        "44156"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 167,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43754",
+        "44157"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 168,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43755",
+        "44158"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 169,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43784",
+        "44187"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 170,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43785",
+        "44188"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 171,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43807",
+        "44210"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 172,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43786",
+        "44189"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 173,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43787",
+        "44190"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 174,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43788",
+        "44191"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 175,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43789",
+        "44192"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 176,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43790",
+        "44193"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 177,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43791",
+        "44194"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 178,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43792",
+        "44195"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 179,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43793",
+        "44196"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 180,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43794",
+        "44197"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 181,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43795",
+        "44198"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 182,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43796",
+        "44199"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 183,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43797",
+        "44200"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 184,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43798",
+        "44201"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 185,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43799",
+        "44202"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 186,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43800",
+        "44203"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 187,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43801",
+        "44204"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 188,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43802",
+        "44205"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 189,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43803",
+        "44206"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 190,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43804",
+        "44207"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 191,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43805",
+        "44208"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-TSAGERI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 192,
+      "rawFill": null,
+      "representations": [
+        "internal_odf_port",
+        "aggregation_boundary_port"
+      ],
+      "sourceShapeIds": [
+        "43806",
+        "44209"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 1,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37438"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 2,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37439"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 3,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37440"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 4,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37441"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 5,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "36549"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 6,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "36550"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 7,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "36551"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 8,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "36552"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 9,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "36553"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 10,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "36554"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 11,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "36555"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 12,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "36556"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 13,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "36567"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 14,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "36568"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 15,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "36569"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 16,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "36570"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 17,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "36571"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 18,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "36572"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 19,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "36573"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 20,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "36574"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 21,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "36575"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 22,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "36576"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 23,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37392"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 24,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37393"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 25,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37404"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 26,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37405"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 27,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37406"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 28,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37407"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 29,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37408"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 30,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37409"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 31,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37410"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 32,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37411"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 33,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37412"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 34,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37413"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 35,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37414"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 36,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37415"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 37,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37426"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 38,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37427"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 39,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37428"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 40,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37429"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 41,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37430"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 42,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37431"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 43,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37432"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 44,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37433"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 45,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37434"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 46,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37435"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 47,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37436"
+      ]
+    },
+    {
+      "availability": "unknown",
+      "companyLabel": null,
+      "effectiveFill": null,
+      "fillPattern": "0",
+      "ownerId": "ODF-LENTEKHI-01",
+      "ownerType": "odf",
+      "physicalUsage": "unknown",
+      "portNumber": 48,
+      "rawFill": null,
+      "sourceShapeIds": [
+        "37437"
+      ]
+    }
+  ],
+  "schemaVersion": 1,
+  "sourceSha256": "caae4badc9c8c30be0a5fa3ef26352c3e534a9de7c66e830ef470466bb34a6fa"
+}

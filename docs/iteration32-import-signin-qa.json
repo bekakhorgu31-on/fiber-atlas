@@ -1,0 +1,21 @@
+{
+  "profile": "local intercepted authentication fixtures",
+  "journeys": [
+    {
+      "width": 1440,
+      "case": "direct sign-in focus, wrong password, reviewer upload form and logout"
+    },
+    {
+      "width": 390,
+      "case": "direct sign-in focus, wrong password, reviewer upload form and logout"
+    },
+    {
+      "case": "read-only account is distinguished from signed-out"
+    },
+    {
+      "case": "private first-owner setup remains open"
+    }
+  ],
+  "errors": [],
+  "serverRequests": 0
+}

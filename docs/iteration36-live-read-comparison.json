@@ -1,0 +1,75 @@
+{
+  "scope": "read-only GET comparison; no owner database writes, service restart, index migration or correction",
+  "measuredAt": "2026-10-11T21:34:30.044Z",
+  "reads": [
+    {
+      "label": "session",
+      "status": 200,
+      "ttfbMs": 490.0057,
+      "totalMs": 493.1668,
+      "decodedBytes": 196,
+      "transferredBytes": 0,
+      "encoding": "identity",
+      "serverTiming": null
+    },
+    {
+      "label": "open-list",
+      "status": 200,
+      "ttfbMs": 1276.0747999999999,
+      "totalMs": 1278.0495999999998,
+      "decodedBytes": 87282,
+      "transferredBytes": 7656,
+      "encoding": "gzip",
+      "serverTiming": "review_context;dur=986.05, crop;dur=0.00, json;dur=0.34"
+    },
+    {
+      "label": "detail",
+      "status": 200,
+      "ttfbMs": 441.89589999999976,
+      "totalMs": 444.1211999999998,
+      "decodedBytes": 12682,
+      "transferredBytes": 5345,
+      "encoding": "gzip",
+      "serverTiming": "review_context;dur=132.85, crop;dur=0.00, json;dur=0.10"
+    },
+    {
+      "label": "drawing-first-in-probe",
+      "status": 200,
+      "ttfbMs": 2341.3686,
+      "totalMs": 2343.5541999999996,
+      "decodedBytes": 170860,
+      "transferredBytes": 8767,
+      "encoding": "gzip",
+      "serverTiming": "review_context;dur=79.86, crop;dur=1901.87, json;dur=3.61"
+    },
+    {
+      "label": "drawing-repeat",
+      "status": 200,
+      "ttfbMs": 492.01960000000054,
+      "totalMs": 498.4471000000003,
+      "decodedBytes": 170860,
+      "transferredBytes": 8767,
+      "encoding": "gzip",
+      "serverTiming": "review_context;dur=82.97, crop;dur=42.61, json;dur=3.68"
+    },
+    {
+      "label": "session-end",
+      "status": 200,
+      "ttfbMs": 452.60729999999967,
+      "totalMs": 456.8042999999998,
+      "decodedBytes": 196,
+      "transferredBytes": 0,
+      "encoding": "identity",
+      "serverTiming": null
+    }
+  ],
+  "context": {
+    "revision": "CORRECTION-dce024db-ad8c-4743-b748-16bb1162c524",
+    "currentRevision": "CORRECTION-dce024db-ad8c-4743-b748-16bb1162c524",
+    "pinnedRevisionStillActive": true,
+    "total": 606,
+    "open": 581,
+    "reviewed": 25,
+    "case": "SHIDA-REVIEW-a8dba7382d2597c521404064"
+  }
+}

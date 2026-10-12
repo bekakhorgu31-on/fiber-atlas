@@ -1,0 +1,14 @@
+{
+  "scope": "28K planning review of 28J, not implementation QA",
+  "timestamp": "2026-10-05T06:51:19.744Z",
+  "query": "silknet",
+  "suggestions": [
+    "Silknet\n4 logical Fiber paths · 12 Cables\nRoute-ზე ნახვა",
+    "C184/F10\nTube 1 · ლურჯი · F10 · იისფერი\nSilknet · გამოყენებაშია\nRoute-ზე ნახვა",
+    "C169/F12\nTube 1 · ლურჯი · F12 · ცისფერი\nგადასამოწმებელია\nRoute-ზე ნახვა",
+    "C148/F154\nTube 13 · მწვანე · F154 · იისფერი\nSilknet · გამოყენებაშია\nRoute-ზე ნახვა",
+    "C148/F155\nTube 13 · მწვანე · F155 · ვარდისფერი\nSilknet · გამოყენებაშია\nRoute-ზე ნახვა"
+  ],
+  "url": "file:///C:/Users/Beka/Desktop/Visio%20Alt/fiber-prototype.html#/engineer?q=Silknet",
+  "visibleText": "FIBER ATLAS · ENGINEER WORKSPACE\nმოძებნე ან ჰკითხე Fiber Atlas-ს\n\nპასუხი ითვლება აქტიური Cable, Fiber, Node და local transition ჩანაწერებიდან. უცნობი მონაცემი უცნობად რჩება.\n\nმოძებნე ან დასვი ქსელის კითხვა\nძიება\nSILKNET\nSilknet · Network usage\nExact Port binding unknown\nზუსტი topology\n\n8 წყაროთი ინტერპრეტირებული assignment და 28E Fiber usage projection. ეს ქსელური გამოყენებაა; ownership, service, customer ან rights/IRU არ გამომდინარეობს.\n\n4 logical strand groups · 28 local Fiber legs · 12 Cables · 2 Aggregations · 2 exact Port bindings.\nCables / local Fibers\nC184 · ლენტეხის აგრეგაცია ↔ SC224 · 48F — C184/F10, C184/F11\nდამატებითი ქსელური დეტალები · 46\nქსელში ჩვენება\nკაბელის გახსნა\nკაბელის გახსნა\nკაბელის გახსნა\nკაბელის გახსნა\nობიექტის გახსნა\nობიექტის გახსნა\nშესაბამისი ქსელის ჩანაწერები · 39\n\nკითხვების ენა მხოლოდ query ტიპს არჩევს. ყველა ქსელური ფაქტი deterministic Fiber Atlas მონაცემიდან მოდის."
+}

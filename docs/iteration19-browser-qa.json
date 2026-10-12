@@ -1,0 +1,151 @@
+{
+  "desktop": [
+    {
+      "name": "AP41",
+      "selection": "ap:41",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "inspectorScrollWidth": 412,
+        "inspectorClientWidth": 412,
+        "openDetails": 0,
+        "url": "#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=ap%3A41"
+      }
+    },
+    {
+      "name": "AP41 Port18",
+      "selection": "port:ap:41:18",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "inspectorScrollWidth": 412,
+        "inspectorClientWidth": 412,
+        "openDetails": 0,
+        "url": "#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=port%3Aap%3A41%3A18"
+      }
+    },
+    {
+      "name": "AP50",
+      "selection": "ap:50",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "inspectorScrollWidth": 412,
+        "inspectorClientWidth": 412,
+        "openDetails": 0,
+        "url": "#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=ap%3A50"
+      }
+    },
+    {
+      "name": "AP51",
+      "selection": "ap:51",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "inspectorScrollWidth": 412,
+        "inspectorClientWidth": 412,
+        "openDetails": 0,
+        "url": "#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=ap%3A51"
+      }
+    },
+    {
+      "name": "AP52",
+      "selection": "ap:52",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "inspectorScrollWidth": 412,
+        "inspectorClientWidth": 412,
+        "openDetails": 0,
+        "url": "#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=ap%3A52"
+      }
+    },
+    {
+      "name": "AP53",
+      "selection": "ap:53",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "inspectorScrollWidth": 412,
+        "inspectorClientWidth": 412,
+        "openDetails": 0,
+        "url": "#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=ap%3A53"
+      }
+    },
+    {
+      "name": "AP54",
+      "selection": "ap:54",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "inspectorScrollWidth": 412,
+        "inspectorClientWidth": 412,
+        "openDetails": 0,
+        "url": "#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=ap%3A54"
+      }
+    },
+    {
+      "name": "AP51 Port3",
+      "selection": "port:ap:51:3",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "inspectorScrollWidth": 412,
+        "inspectorClientWidth": 412,
+        "openDetails": 0,
+        "url": "#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=port%3Aap%3A51%3A3"
+      }
+    },
+    {
+      "name": "C149 construction",
+      "selection": "segment:CAB-000149",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "inspectorScrollWidth": 412,
+        "inspectorClientWidth": 412,
+        "openDetails": 0,
+        "url": "#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=segment%3ACAB-000149"
+      }
+    },
+    {
+      "name": "C150 construction",
+      "selection": "segment:CAB-000150",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "inspectorScrollWidth": 412,
+        "inspectorClientWidth": 412,
+        "openDetails": 0,
+        "url": "#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=segment%3ACAB-000150"
+      }
+    },
+    {
+      "name": "Lentekhi",
+      "selection": "aggregation:AGG-LENTEKHI",
+      "state": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "inspectorScrollWidth": 412,
+        "inspectorClientWidth": 412,
+        "openDetails": 0,
+        "url": "#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=aggregation%3AAGG-LENTEKHI"
+      }
+    }
+  ],
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "inspectorScrollWidth": 390,
+    "inspectorClientWidth": 390,
+    "ports": 24,
+    "columns": 4
+  },
+  "standalone": {
+    "width": 1280,
+    "scrollWidth": 1280,
+    "scripts": 1,
+    "linkedStyles": 0
+  },
+  "logs": []
+}

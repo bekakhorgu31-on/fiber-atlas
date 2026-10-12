@@ -1,0 +1,48 @@
+{
+  "sourceShapes": 62670,
+  "labelOccurrences": 178,
+  "markerBanks": 363,
+  "numberedBanks": 363,
+  "ellipseShapes": 19372,
+  "linesWithBeginEnd": 19131,
+  "linesAudited": 19401,
+  "lineDisposition": {
+    "two_unique_marker_attachments": 9019,
+    "one_marker_attachment": 8299,
+    "no_marker_attachment": 1695,
+    "ambiguous_marker_attachment": 388
+  },
+  "candidateNodeTransitions": 2371,
+  "internalFiberLines": 3339,
+  "declaredEndpointMismatchLines": 151,
+  "labelAssociation": {
+    "candidate_proximity_only": 66,
+    "drawn_links_corroborate_bank_pair": 112
+  },
+  "directTopLevelMasterReferences": {
+    "2": 120,
+    "7": 3,
+    "8": 902,
+    "9": 1232,
+    "15": 1
+  },
+  "gapRecoveredEndpoints": 5140,
+  "openGeometryWithoutEndpointCells": 270,
+  "nodeContainerAudit": {
+    "closureSymbols": 120,
+    "apSymbols": 55,
+    "supportedLabelBankPairs": 87,
+    "localTransitionCandidates": 1759,
+    "unresolvedLocalLinks": 2627
+  },
+  "bankOwnershipCounts": {
+    "0": 47,
+    "1": 316
+  },
+  "apPorts": {
+    "ports": 1320,
+    "completeAPBanks": 53,
+    "boundPorts": 766,
+    "unboundPorts": 554
+  }
+}

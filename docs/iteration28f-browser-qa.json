@@ -1,0 +1,59 @@
+{
+  "desktop": [
+    {
+      "flow": "Magti organization answer shows usage, exact Cable/Fiber legs and source context",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "Tsageri operational Fibers stay visible with per-Port binding and occupancy unknown",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "Lentekhi shows 48 exact C184 bindings with independent unknown occupancy and known current paths",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "query OpenNet OTDR",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "query C158-ს ვინ იყენებს?",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "query SC211-ში რომელი ორგანიზაციების Fiber-ები გადის?",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "flow": "query Magti რომელ აგრეგაციაზეა?",
+      "width": 1440,
+      "scrollWidth": 1440
+    }
+  ],
+  "mobile": [
+    {
+      "flow": "Georgian Magti organization search and result at 390px",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "flow": "Tsageri unknown Port state at 390px",
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "flow": "Lentekhi exact Port and Fiber view at 390px",
+      "width": 390,
+      "scrollWidth": 390
+    }
+  ],
+  "offline": true,
+  "externalRequests": [],
+  "logs": []
+}

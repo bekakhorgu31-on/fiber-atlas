@@ -1,0 +1,45 @@
+✔ 33 source AP16 Port13 reaches AP17 at SC25017 (12.2468ms)
+✔ 33 source AP16 Port14 reaches AP17 at SC25017 (1.8339ms)
+✔ 33 source AP16 Port24 reaches AP17 at SC25017 (1.6858ms)
+✔ 33 route ordering and matching colors cannot restore a missing local transition (1.5664ms)
+✖ 33 scoped AP Port view uses canonical node and preserves unknown occupancy (9.7232ms)
+✔ 33 AP16 Port1 local blue Fiber remains partial at SC25017 instead of borrowing F13 branch (1.7134ms)
+✖ 33 AP numbers shared by regions produce choices without merging Port owners (5.4156ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 5
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1489.7339
+
+✖ failing tests:
+
+test at tests\iteration33-shida.test.ts:1:1883
+✖ 33 scoped AP Port view uses canonical node and preserves unknown occupancy (9.7232ms)
+  TypeError: Cannot read properties of undefined (reading 'id')
+      at <anonymous> (C:\Users\Beka\Desktop\Visio Alt\fiber-prototype\src\domain\engineerQuery.ts:306:480)
+      at Array.map (<anonymous>)
+      at Object.run (C:\Users\Beka\Desktop\Visio Alt\fiber-prototype\src\domain\engineerQuery.ts:306:418)
+      at TestContext.<anonymous> (C:\Users\Beka\Desktop\Visio Alt\fiber-prototype\tests\iteration33-shida.test.ts:39:23)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7)
+
+test at tests\iteration33-shida.test.ts:1:3264
+✖ 33 AP numbers shared by regions produce choices without merging Port owners (5.4156ms)
+  TypeError: Cannot read properties of undefined (reading 'id')
+      at <anonymous> (C:\Users\Beka\Desktop\Visio Alt\fiber-prototype\src\domain\engineerQuery.ts:306:480)
+      at Array.map (<anonymous>)
+      at Object.run (C:\Users\Beka\Desktop\Visio Alt\fiber-prototype\src\domain\engineerQuery.ts:306:418)
+      at TestContext.<anonymous> (C:\Users\Beka\Desktop\Visio Alt\fiber-prototype\tests\iteration33-shida.test.ts:56:23)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7)

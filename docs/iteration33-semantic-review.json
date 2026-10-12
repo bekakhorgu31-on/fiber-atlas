@@ -1,0 +1,93 @@
+{
+  "scope": "source-specific partial Shida projection; no owner-server activation",
+  "sourceSha256": "e417131f1ddcf1db571e90685880c41bdb1aa972f4291044798036d0b1274060",
+  "ownerConfirmationId": "OWNER-SHIDA-DRAFTING-GAP-CONTINUITY-2026-10-09",
+  "sourceCoverage": {
+    "sourceShapes": 62670,
+    "labelOccurrences": 178,
+    "markerBanks": 363,
+    "numberedBanks": 363,
+    "ellipseShapes": 19372,
+    "linesWithBeginEnd": 19131,
+    "linesAudited": 19401,
+    "lineDisposition": {
+      "two_unique_marker_attachments": 9019,
+      "one_marker_attachment": 8299,
+      "no_marker_attachment": 1695,
+      "ambiguous_marker_attachment": 388
+    },
+    "candidateNodeTransitions": 2371,
+    "internalFiberLines": 3339,
+    "declaredEndpointMismatchLines": 151,
+    "labelAssociation": {
+      "candidate_proximity_only": 66,
+      "drawn_links_corroborate_bank_pair": 112
+    },
+    "directTopLevelMasterReferences": {
+      "2": 120,
+      "7": 3,
+      "8": 902,
+      "9": 1232,
+      "15": 1
+    },
+    "gapRecoveredEndpoints": 5140,
+    "openGeometryWithoutEndpointCells": 270,
+    "nodeContainerAudit": {
+      "closureSymbols": 120,
+      "apSymbols": 55,
+      "supportedLabelBankPairs": 87,
+      "localTransitionCandidates": 1759,
+      "unresolvedLocalLinks": 2627
+    },
+    "bankOwnershipCounts": {
+      "0": 47,
+      "1": 316
+    },
+    "apPorts": {
+      "ports": 1320,
+      "completeAPBanks": 53,
+      "boundPorts": 766,
+      "unboundPorts": 554
+    }
+  },
+  "proposalCounts": {
+    "cable_segments": 176,
+    "fibers": 9356,
+    "node_fiber_transitions": 1759,
+    "port_topology_bindings": 766,
+    "fiber_paths": 9356
+  },
+  "fiberPathCounts": {
+    "totalFibers": 9356,
+    "repairedStaleProjections": 9356,
+    "partial": 9260,
+    "terminations": 0,
+    "exact": 96,
+    "ambiguous": 0,
+    "falseStops": 0,
+    "falseTerminations": 0,
+    "unsupportedEdges": 0,
+    "staleDisplayIdentities": 0,
+    "previousLineagesChanged": 0,
+    "sourceTransitionCoverage": 100
+  },
+  "canonicalPorts": 1272,
+  "reviewItems": 606,
+  "conflicts": 8,
+  "generatedCurrentLineages": 7597,
+  "annotationsPreserved": 579,
+  "semanticResources": {
+    "elapsed_seconds": 40.766,
+    "peak_working_set_bytes": 329359360,
+    "working_set_limit_bytes": 536870912
+  },
+  "unknowns": [
+    "two repeated full label occurrences: physical identity unresolved",
+    "two AP Port banks: numbering unresolved",
+    "unpaired Cable banks / unassociated local links",
+    "aggregation Port associations",
+    "Tube meaning / ring exceptions",
+    "usage / reserve / planned-work annotations",
+    "source endpoint typing/number conflicts"
+  ]
+}

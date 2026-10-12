@@ -1,0 +1,2518 @@
+{
+  "assignmentPolicy": "raw certification only; no FiberUseAssignment created",
+  "occurrences": [
+    {
+      "assignmentCreated": false,
+      "exactText": "Open net",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 6.845905,
+          "shapeId": "15769",
+          "text": "148-5-205-192"
+        },
+        {
+          "distance": 21.187701,
+          "shapeId": "15770",
+          "text": "150-205-206-192"
+        },
+        {
+          "distance": 23.943864,
+          "shapeId": "14250",
+          "text": "149-205-41-24"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 3.556648,
+          "shapeId": "43759"
+        },
+        {
+          "distance": 3.557607,
+          "shapeId": "43715"
+        },
+        {
+          "distance": 3.558023,
+          "shapeId": "43760"
+        },
+        {
+          "distance": 3.558611,
+          "shapeId": "44162"
+        },
+        {
+          "distance": 3.559771,
+          "shapeId": "44118"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 3.541873,
+          "shapeId": "17661"
+        },
+        {
+          "distance": 3.543012,
+          "shapeId": "17662"
+        },
+        {
+          "distance": 3.545889,
+          "shapeId": "17660"
+        },
+        {
+          "distance": 3.546628,
+          "shapeId": "17663"
+        },
+        {
+          "distance": 3.550713,
+          "shapeId": "17659"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "OpenNet",
+      "parentShapeId": null,
+      "rawText": "Open net\n",
+      "rootShapeId": "17661",
+      "rotationRadians": -1.570796326794897,
+      "shapeId": "17661",
+      "worldBounds": {
+        "height": 7.083745820838999,
+        "max_x": 40.4982750556601,
+        "max_y": 595.3979668489294,
+        "min_x": 40.4982750556601,
+        "min_y": 588.3142210280904,
+        "width": 0.0
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "Open Net",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 6.935699,
+          "shapeId": "15769",
+          "text": "148-5-205-192"
+        },
+        {
+          "distance": 21.216884,
+          "shapeId": "15770",
+          "text": "150-205-206-192"
+        },
+        {
+          "distance": 23.881289,
+          "shapeId": "14250",
+          "text": "149-205-41-24"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 3.556651,
+          "shapeId": "43760"
+        },
+        {
+          "distance": 3.557578,
+          "shapeId": "43759"
+        },
+        {
+          "distance": 3.558061,
+          "shapeId": "43761"
+        },
+        {
+          "distance": 3.558612,
+          "shapeId": "44163"
+        },
+        {
+          "distance": 3.559738,
+          "shapeId": "44162"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 3.541873,
+          "shapeId": "17662"
+        },
+        {
+          "distance": 3.543012,
+          "shapeId": "17661"
+        },
+        {
+          "distance": 3.543113,
+          "shapeId": "17663"
+        },
+        {
+          "distance": 3.546832,
+          "shapeId": "17664"
+        },
+        {
+          "distance": 3.549499,
+          "shapeId": "17660"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "OpenNet",
+      "parentShapeId": null,
+      "rawText": "Open Net\n",
+      "rootShapeId": "17662",
+      "rotationRadians": -1.570796326794897,
+      "shapeId": "17662",
+      "worldBounds": {
+        "height": 7.083745820838999,
+        "max_x": 40.5881188056601,
+        "max_y": 595.3979668489294,
+        "min_x": 40.5881188056601,
+        "min_y": 588.3142210280904,
+        "width": 0.0
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "Open Net",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 7.029397,
+          "shapeId": "15769",
+          "text": "148-5-205-192"
+        },
+        {
+          "distance": 21.247698,
+          "shapeId": "15770",
+          "text": "150-205-206-192"
+        },
+        {
+          "distance": 23.81618,
+          "shapeId": "14250",
+          "text": "149-205-41-24"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 3.556645,
+          "shapeId": "43761"
+        },
+        {
+          "distance": 3.557638,
+          "shapeId": "43760"
+        },
+        {
+          "distance": 3.557989,
+          "shapeId": "43762"
+        },
+        {
+          "distance": 3.558611,
+          "shapeId": "44164"
+        },
+        {
+          "distance": 3.559754,
+          "shapeId": "44165"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 3.541873,
+          "shapeId": "17663"
+        },
+        {
+          "distance": 3.543113,
+          "shapeId": "17662"
+        },
+        {
+          "distance": 3.543113,
+          "shapeId": "17664"
+        },
+        {
+          "distance": 3.546628,
+          "shapeId": "17661"
+        },
+        {
+          "distance": 3.546628,
+          "shapeId": "17665"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "OpenNet",
+      "parentShapeId": null,
+      "rawText": "Open Net\n",
+      "rootShapeId": "17663",
+      "rotationRadians": -1.570796326794897,
+      "shapeId": "17663",
+      "worldBounds": {
+        "height": 7.083745820838999,
+        "max_x": 40.6818688056601,
+        "max_y": 595.3979668489294,
+        "min_x": 40.6818688056601,
+        "min_y": 588.3142210280904,
+        "width": 0.0
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "Open Net",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 7.123097,
+          "shapeId": "15769",
+          "text": "148-5-205-192"
+        },
+        {
+          "distance": 21.278881,
+          "shapeId": "15770",
+          "text": "150-205-206-192"
+        },
+        {
+          "distance": 23.751262,
+          "shapeId": "14250",
+          "text": "149-205-41-24"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 3.556641,
+          "shapeId": "43762"
+        },
+        {
+          "distance": 3.5577,
+          "shapeId": "43761"
+        },
+        {
+          "distance": 3.557919,
+          "shapeId": "43758"
+        },
+        {
+          "distance": 3.558613,
+          "shapeId": "44165"
+        },
+        {
+          "distance": 3.55969,
+          "shapeId": "44161"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 3.541873,
+          "shapeId": "17664"
+        },
+        {
+          "distance": 3.543012,
+          "shapeId": "17665"
+        },
+        {
+          "distance": 3.543113,
+          "shapeId": "17663"
+        },
+        {
+          "distance": 3.546628,
+          "shapeId": "17666"
+        },
+        {
+          "distance": 3.546832,
+          "shapeId": "17662"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "OpenNet",
+      "parentShapeId": null,
+      "rawText": "Open Net\n",
+      "rootShapeId": "17664",
+      "rotationRadians": -1.570796326794897,
+      "shapeId": "17664",
+      "worldBounds": {
+        "height": 7.083745820838999,
+        "max_x": 40.7756188056601,
+        "max_y": 595.3979668489294,
+        "min_x": 40.7756188056601,
+        "min_y": 588.3142210280904,
+        "width": 0.0
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "მაგთი",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 7.212895,
+          "shapeId": "15769",
+          "text": "148-5-205-192"
+        },
+        {
+          "distance": 21.309108,
+          "shapeId": "15770",
+          "text": "150-205-206-192"
+        },
+        {
+          "distance": 23.689231,
+          "shapeId": "14250",
+          "text": "149-205-41-24"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 3.556643,
+          "shapeId": "43758"
+        },
+        {
+          "distance": 3.557668,
+          "shapeId": "43762"
+        },
+        {
+          "distance": 3.557954,
+          "shapeId": "43763"
+        },
+        {
+          "distance": 3.558612,
+          "shapeId": "44161"
+        },
+        {
+          "distance": 3.559723,
+          "shapeId": "44166"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 3.541873,
+          "shapeId": "17665"
+        },
+        {
+          "distance": 3.543012,
+          "shapeId": "17664"
+        },
+        {
+          "distance": 3.543113,
+          "shapeId": "17666"
+        },
+        {
+          "distance": 3.546628,
+          "shapeId": "17663"
+        },
+        {
+          "distance": 3.546832,
+          "shapeId": "17667"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "Magti",
+      "parentShapeId": null,
+      "rawText": "მაგთი\n",
+      "rootShapeId": "17665",
+      "rotationRadians": -1.570796326794897,
+      "shapeId": "17665",
+      "worldBounds": {
+        "height": 7.083745820838999,
+        "max_x": 40.8654625556601,
+        "max_y": 595.3979668489294,
+        "min_x": 40.8654625556601,
+        "min_y": 588.3142210280904,
+        "width": 0.0
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "მაგთი",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 7.484245,
+          "shapeId": "15769",
+          "text": "148-5-205-192"
+        },
+        {
+          "distance": 21.40248,
+          "shapeId": "15770",
+          "text": "150-205-206-192"
+        },
+        {
+          "distance": 23.502879,
+          "shapeId": "14250",
+          "text": "149-205-41-24"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 3.556647,
+          "shapeId": "43765"
+        },
+        {
+          "distance": 3.55762,
+          "shapeId": "43764"
+        },
+        {
+          "distance": 3.55801,
+          "shapeId": "43766"
+        },
+        {
+          "distance": 3.558611,
+          "shapeId": "44168"
+        },
+        {
+          "distance": 3.559774,
+          "shapeId": "44169"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 3.541873,
+          "shapeId": "17668"
+        },
+        {
+          "distance": 3.542868,
+          "shapeId": "17667"
+        },
+        {
+          "distance": 3.543113,
+          "shapeId": "17669"
+        },
+        {
+          "distance": 3.54633,
+          "shapeId": "17666"
+        },
+        {
+          "distance": 3.546628,
+          "shapeId": "17670"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "Magti",
+      "parentShapeId": null,
+      "rawText": "მაგთი\n",
+      "rootShapeId": "17668",
+      "rotationRadians": -1.570796326794897,
+      "shapeId": "17668",
+      "worldBounds": {
+        "height": 7.083745820838999,
+        "max_x": 41.1369469306601,
+        "max_y": 595.3979668489294,
+        "min_x": 41.1369469306601,
+        "min_y": 588.3142210280904,
+        "width": 0.0
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "სილქნეტი",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 7.667754,
+          "shapeId": "15769",
+          "text": "148-5-205-192"
+        },
+        {
+          "distance": 21.46734,
+          "shapeId": "15770",
+          "text": "150-205-206-192"
+        },
+        {
+          "distance": 23.377803,
+          "shapeId": "14250",
+          "text": "149-205-41-24"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 3.556658,
+          "shapeId": "43781"
+        },
+        {
+          "distance": 3.557649,
+          "shapeId": "43766"
+        },
+        {
+          "distance": 3.558614,
+          "shapeId": "44184"
+        },
+        {
+          "distance": 3.558756,
+          "shapeId": "43780"
+        },
+        {
+          "distance": 3.55897,
+          "shapeId": "44183"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 3.541873,
+          "shapeId": "17670"
+        },
+        {
+          "distance": 3.542915,
+          "shapeId": "17671"
+        },
+        {
+          "distance": 3.543012,
+          "shapeId": "17669"
+        },
+        {
+          "distance": 3.546447,
+          "shapeId": "17672"
+        },
+        {
+          "distance": 3.546628,
+          "shapeId": "17668"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "Silknet",
+      "parentShapeId": null,
+      "rawText": "სილქნეტი\n",
+      "rootShapeId": "17670",
+      "rotationRadians": -1.570796326794897,
+      "shapeId": "17670",
+      "worldBounds": {
+        "height": 7.083745820838999,
+        "max_x": 41.3205406806601,
+        "max_y": 595.3979668489294,
+        "min_x": 41.3205406806601,
+        "min_y": 588.3142210280904,
+        "width": 0.0
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "სილქნეტი",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 7.753653,
+          "shapeId": "15769",
+          "text": "148-5-205-192"
+        },
+        {
+          "distance": 21.498171,
+          "shapeId": "15770",
+          "text": "150-205-206-192"
+        },
+        {
+          "distance": 23.319522,
+          "shapeId": "14250",
+          "text": "149-205-41-24"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 3.557412,
+          "shapeId": "43781"
+        },
+        {
+          "distance": 3.557434,
+          "shapeId": "43780"
+        },
+        {
+          "distance": 3.557837,
+          "shapeId": "44183"
+        },
+        {
+          "distance": 3.558123,
+          "shapeId": "43767"
+        },
+        {
+          "distance": 3.559556,
+          "shapeId": "44184"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 3.541873,
+          "shapeId": "17671"
+        },
+        {
+          "distance": 3.542915,
+          "shapeId": "17670"
+        },
+        {
+          "distance": 3.543124,
+          "shapeId": "17672"
+        },
+        {
+          "distance": 3.546232,
+          "shapeId": "17669"
+        },
+        {
+          "distance": 3.54673,
+          "shapeId": "17673"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "Silknet",
+      "parentShapeId": null,
+      "rawText": "სილქნეტი\n",
+      "rootShapeId": "17671",
+      "rotationRadians": -1.570796326794897,
+      "shapeId": "17671",
+      "worldBounds": {
+        "height": 7.083745820838999,
+        "max_x": 41.4064781806601,
+        "max_y": 595.3979668489294,
+        "min_x": 41.4064781806601,
+        "min_y": 588.3142210280904,
+        "width": 0.0
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "სქაიტელი",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 7.847744,
+          "shapeId": "15769",
+          "text": "148-5-205-192"
+        },
+        {
+          "distance": 21.532286,
+          "shapeId": "15770",
+          "text": "150-205-206-192"
+        },
+        {
+          "distance": 23.255881,
+          "shapeId": "14250",
+          "text": "149-205-41-24"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 3.556649,
+          "shapeId": "43767"
+        },
+        {
+          "distance": 3.55782,
+          "shapeId": "43769"
+        },
+        {
+          "distance": 3.558369,
+          "shapeId": "43780"
+        },
+        {
+          "distance": 3.558611,
+          "shapeId": "44170"
+        },
+        {
+          "distance": 3.558977,
+          "shapeId": "44183"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 3.541873,
+          "shapeId": "17672"
+        },
+        {
+          "distance": 3.543052,
+          "shapeId": "17673"
+        },
+        {
+          "distance": 3.543124,
+          "shapeId": "17671"
+        },
+        {
+          "distance": 3.54631,
+          "shapeId": "17674"
+        },
+        {
+          "distance": 3.546447,
+          "shapeId": "17670"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "Skytel",
+      "parentShapeId": null,
+      "rawText": "სქაიტელი\n",
+      "rootShapeId": "17672",
+      "rotationRadians": -1.570796326794897,
+      "shapeId": "17672",
+      "worldBounds": {
+        "height": 7.083745820838999,
+        "max_x": 41.50061127016251,
+        "max_y": 595.3979668489294,
+        "min_x": 41.50061127016251,
+        "min_y": 588.3142210280904,
+        "width": 0.0
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "ოუფენ ნეტი",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 2.135644,
+          "shapeId": "15991",
+          "text": "184-6-224-48"
+        },
+        {
+          "distance": 18.539358,
+          "shapeId": "15990",
+          "text": "180-223-224-48"
+        },
+        {
+          "distance": 26.856274,
+          "shapeId": "42871",
+          "text": "179-222-223-48"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 2.75112,
+          "shapeId": "37191"
+        },
+        {
+          "distance": 2.75268,
+          "shapeId": "37192"
+        },
+        {
+          "distance": 2.757256,
+          "shapeId": "37193"
+        },
+        {
+          "distance": 2.758635,
+          "shapeId": "36534"
+        },
+        {
+          "distance": 2.760194,
+          "shapeId": "36535"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 2.739734,
+          "shapeId": "37550"
+        },
+        {
+          "distance": 2.741337,
+          "shapeId": "37551"
+        },
+        {
+          "distance": 2.74562,
+          "shapeId": "37552"
+        },
+        {
+          "distance": 2.753345,
+          "shapeId": "37553"
+        },
+        {
+          "distance": 2.763714,
+          "shapeId": "37554"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "OpenNet",
+      "parentShapeId": null,
+      "rawText": "ოუფენ ნეტი\n",
+      "rootShapeId": "37550",
+      "rotationRadians": -1.570796326794897,
+      "shapeId": "37550",
+      "worldBounds": {
+        "height": 5.479467806099251,
+        "max_x": 83.28515374660498,
+        "max_y": 455.49510174679585,
+        "min_x": 83.28515374660498,
+        "min_y": 450.0156339406966,
+        "width": 0.0
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "ოუფენ ნეტი",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 2.043996,
+          "shapeId": "15991",
+          "text": "184-6-224-48"
+        },
+        {
+          "distance": 18.529025,
+          "shapeId": "15990",
+          "text": "180-223-224-48"
+        },
+        {
+          "distance": 26.849141,
+          "shapeId": "42871",
+          "text": "179-222-223-48"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 2.75112,
+          "shapeId": "37192"
+        },
+        {
+          "distance": 2.752595,
+          "shapeId": "37193"
+        },
+        {
+          "distance": 2.752665,
+          "shapeId": "37191"
+        },
+        {
+          "distance": 2.757085,
+          "shapeId": "37194"
+        },
+        {
+          "distance": 2.758635,
+          "shapeId": "36535"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 2.739734,
+          "shapeId": "37551"
+        },
+        {
+          "distance": 2.741081,
+          "shapeId": "37552"
+        },
+        {
+          "distance": 2.741337,
+          "shapeId": "37550"
+        },
+        {
+          "distance": 2.74562,
+          "shapeId": "37553"
+        },
+        {
+          "distance": 2.75296,
+          "shapeId": "37554"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "OpenNet",
+      "parentShapeId": null,
+      "rawText": "ოუფენ ნეტი\n",
+      "rootShapeId": "37551",
+      "rotationRadians": -1.570796326794897,
+      "shapeId": "37551",
+      "worldBounds": {
+        "height": 5.479467806099251,
+        "max_x": 83.37890374660498,
+        "max_y": 455.49510174679585,
+        "min_x": 83.37890374660498,
+        "min_y": 450.0156339406966,
+        "width": 0.0
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "ოუფენ ნეტი",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 1.960159,
+          "shapeId": "15991",
+          "text": "184-6-224-48"
+        },
+        {
+          "distance": 18.519964,
+          "shapeId": "15990",
+          "text": "180-223-224-48"
+        },
+        {
+          "distance": 26.842889,
+          "shapeId": "42871",
+          "text": "179-222-223-48"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 2.751123,
+          "shapeId": "37193"
+        },
+        {
+          "distance": 2.752495,
+          "shapeId": "37192"
+        },
+        {
+          "distance": 2.752771,
+          "shapeId": "37194"
+        },
+        {
+          "distance": 2.756884,
+          "shapeId": "37191"
+        },
+        {
+          "distance": 2.757434,
+          "shapeId": "37190"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 2.739734,
+          "shapeId": "37552"
+        },
+        {
+          "distance": 2.741081,
+          "shapeId": "37551"
+        },
+        {
+          "distance": 2.741337,
+          "shapeId": "37553"
+        },
+        {
+          "distance": 2.74562,
+          "shapeId": "37550"
+        },
+        {
+          "distance": 2.745878,
+          "shapeId": "37554"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "OpenNet",
+      "parentShapeId": null,
+      "rawText": "ოუფენ ნეტი\n",
+      "rootShapeId": "37552",
+      "rotationRadians": -1.570796326794897,
+      "shapeId": "37552",
+      "worldBounds": {
+        "height": 5.479467806099251,
+        "max_x": 83.46484124660498,
+        "max_y": 455.49510174679585,
+        "min_x": 83.46484124660498,
+        "min_y": 450.0156339406966,
+        "width": 0.0
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "ოუფენ ნეტი",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 1.868919,
+          "shapeId": "15991",
+          "text": "184-6-224-48"
+        },
+        {
+          "distance": 18.510529,
+          "shapeId": "15990",
+          "text": "180-223-224-48"
+        },
+        {
+          "distance": 26.83638,
+          "shapeId": "42871",
+          "text": "179-222-223-48"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 2.75112,
+          "shapeId": "37194"
+        },
+        {
+          "distance": 2.752578,
+          "shapeId": "37193"
+        },
+        {
+          "distance": 2.752683,
+          "shapeId": "37190"
+        },
+        {
+          "distance": 2.757051,
+          "shapeId": "37192"
+        },
+        {
+          "distance": 2.757261,
+          "shapeId": "37195"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 2.739734,
+          "shapeId": "37553"
+        },
+        {
+          "distance": 2.741207,
+          "shapeId": "37554"
+        },
+        {
+          "distance": 2.741337,
+          "shapeId": "37552"
+        },
+        {
+          "distance": 2.74562,
+          "shapeId": "37551"
+        },
+        {
+          "distance": 2.74562,
+          "shapeId": "37555"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "OpenNet",
+      "parentShapeId": null,
+      "rawText": "ოუფენ ნეტი\n",
+      "rootShapeId": "37553",
+      "rotationRadians": -1.570796326794897,
+      "shapeId": "37553",
+      "worldBounds": {
+        "height": 5.479467806099251,
+        "max_x": 83.55859124660498,
+        "max_y": 455.49510174679585,
+        "min_x": 83.55859124660498,
+        "min_y": 450.0156339406966,
+        "width": 0.0
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "მაგთი",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 1.781725,
+          "shapeId": "15991",
+          "text": "184-6-224-48"
+        },
+        {
+          "distance": 18.501929,
+          "shapeId": "15990",
+          "text": "180-223-224-48"
+        },
+        {
+          "distance": 26.830449,
+          "shapeId": "42871",
+          "text": "179-222-223-48"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 2.751121,
+          "shapeId": "37190"
+        },
+        {
+          "distance": 2.752535,
+          "shapeId": "37194"
+        },
+        {
+          "distance": 2.752728,
+          "shapeId": "37195"
+        },
+        {
+          "distance": 2.756964,
+          "shapeId": "37193"
+        },
+        {
+          "distance": 2.75735,
+          "shapeId": "37196"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 2.739734,
+          "shapeId": "37554"
+        },
+        {
+          "distance": 2.741207,
+          "shapeId": "37553"
+        },
+        {
+          "distance": 2.741207,
+          "shapeId": "37555"
+        },
+        {
+          "distance": 2.745878,
+          "shapeId": "37552"
+        },
+        {
+          "distance": 2.745878,
+          "shapeId": "37556"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "Magti",
+      "parentShapeId": null,
+      "rawText": "მაგთი\n",
+      "rootShapeId": "37554",
+      "rotationRadians": -1.570796326794897,
+      "shapeId": "37554",
+      "worldBounds": {
+        "height": 5.479467806099251,
+        "max_x": 83.64843499660498,
+        "max_y": 455.49510174679585,
+        "min_x": 83.64843499660498,
+        "min_y": 450.0156339406966,
+        "width": 0.0
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "მაგთი",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 1.514517,
+          "shapeId": "15991",
+          "text": "184-6-224-48"
+        },
+        {
+          "distance": 18.478111,
+          "shapeId": "15990",
+          "text": "180-223-224-48"
+        },
+        {
+          "distance": 26.81403,
+          "shapeId": "42871",
+          "text": "179-222-223-48"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 2.75112,
+          "shapeId": "37197"
+        },
+        {
+          "distance": 2.7526,
+          "shapeId": "37198"
+        },
+        {
+          "distance": 2.75266,
+          "shapeId": "37196"
+        },
+        {
+          "distance": 2.757216,
+          "shapeId": "37195"
+        },
+        {
+          "distance": 2.757354,
+          "shapeId": "37200"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 2.739734,
+          "shapeId": "37557"
+        },
+        {
+          "distance": 2.741207,
+          "shapeId": "37558"
+        },
+        {
+          "distance": 2.741337,
+          "shapeId": "37556"
+        },
+        {
+          "distance": 2.745878,
+          "shapeId": "37559"
+        },
+        {
+          "distance": 2.746142,
+          "shapeId": "37555"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "Magti",
+      "parentShapeId": null,
+      "rawText": "მაგთი\n",
+      "rootShapeId": "37557",
+      "rotationRadians": -1.570796326794897,
+      "shapeId": "37557",
+      "worldBounds": {
+        "height": 5.479467806099251,
+        "max_x": 83.92577874660498,
+        "max_y": 455.49510174679585,
+        "min_x": 83.92577874660498,
+        "min_y": 450.0156339406966,
+        "width": 0.0
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "სილქნეტი",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 1.339901,
+          "shapeId": "15991",
+          "text": "184-6-224-48"
+        },
+        {
+          "distance": 18.464619,
+          "shapeId": "15990",
+          "text": "180-223-224-48"
+        },
+        {
+          "distance": 26.804734,
+          "shapeId": "42871",
+          "text": "179-222-223-48"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 2.75112,
+          "shapeId": "37200"
+        },
+        {
+          "distance": 2.752702,
+          "shapeId": "37198"
+        },
+        {
+          "distance": 2.753292,
+          "shapeId": "37199"
+        },
+        {
+          "distance": 2.757014,
+          "shapeId": "37201"
+        },
+        {
+          "distance": 2.757299,
+          "shapeId": "37197"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 2.739734,
+          "shapeId": "37559"
+        },
+        {
+          "distance": 2.741207,
+          "shapeId": "37560"
+        },
+        {
+          "distance": 2.741337,
+          "shapeId": "37558"
+        },
+        {
+          "distance": 2.745367,
+          "shapeId": "37561"
+        },
+        {
+          "distance": 2.745878,
+          "shapeId": "37557"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "Silknet",
+      "parentShapeId": null,
+      "rawText": "სილქნეტი\n",
+      "rootShapeId": "37559",
+      "rotationRadians": -1.570796326794897,
+      "shapeId": "37559",
+      "worldBounds": {
+        "height": 5.479467806099251,
+        "max_x": 84.10937249660498,
+        "max_y": 455.49510174679585,
+        "min_x": 84.10937249660498,
+        "min_y": 450.0156339406966,
+        "width": 0.0
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "სილქნეტი",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 1.255384,
+          "shapeId": "15991",
+          "text": "184-6-224-48"
+        },
+        {
+          "distance": 18.458679,
+          "shapeId": "15990",
+          "text": "180-223-224-48"
+        },
+        {
+          "distance": 26.800643,
+          "shapeId": "42871",
+          "text": "179-222-223-48"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 2.751897,
+          "shapeId": "37199"
+        },
+        {
+          "distance": 2.75253,
+          "shapeId": "37200"
+        },
+        {
+          "distance": 2.752603,
+          "shapeId": "37201"
+        },
+        {
+          "distance": 2.756826,
+          "shapeId": "37215"
+        },
+        {
+          "distance": 2.757211,
+          "shapeId": "37198"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 2.739734,
+          "shapeId": "37560"
+        },
+        {
+          "distance": 2.741081,
+          "shapeId": "37561"
+        },
+        {
+          "distance": 2.741207,
+          "shapeId": "37559"
+        },
+        {
+          "distance": 2.745367,
+          "shapeId": "37562"
+        },
+        {
+          "distance": 2.745878,
+          "shapeId": "37558"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "Silknet",
+      "parentShapeId": null,
+      "rawText": "სილქნეტი\n",
+      "rootShapeId": "37560",
+      "rotationRadians": -1.570796326794897,
+      "shapeId": "37560",
+      "worldBounds": {
+        "height": 5.479467806099251,
+        "max_x": 84.19921624660498,
+        "max_y": 455.49510174679585,
+        "min_x": 84.19921624660498,
+        "min_y": 450.0156339406966,
+        "width": 0.0
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "სქაიტელი",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 1.175282,
+          "shapeId": "15991",
+          "text": "184-6-224-48"
+        },
+        {
+          "distance": 18.453404,
+          "shapeId": "15990",
+          "text": "180-223-224-48"
+        },
+        {
+          "distance": 26.79701,
+          "shapeId": "42871",
+          "text": "179-222-223-48"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 2.751123,
+          "shapeId": "37201"
+        },
+        {
+          "distance": 2.752636,
+          "shapeId": "37215"
+        },
+        {
+          "distance": 2.753307,
+          "shapeId": "37199"
+        },
+        {
+          "distance": 2.75662,
+          "shapeId": "37200"
+        },
+        {
+          "distance": 2.757168,
+          "shapeId": "37216"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 2.739734,
+          "shapeId": "37561"
+        },
+        {
+          "distance": 2.741081,
+          "shapeId": "37560"
+        },
+        {
+          "distance": 2.741207,
+          "shapeId": "37562"
+        },
+        {
+          "distance": 2.745367,
+          "shapeId": "37559"
+        },
+        {
+          "distance": 2.74562,
+          "shapeId": "37563"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "Skytel",
+      "parentShapeId": null,
+      "rawText": "სქაიტელი\n",
+      "rootShapeId": "37561",
+      "rotationRadians": -1.570796326794897,
+      "shapeId": "37561",
+      "worldBounds": {
+        "height": 5.479467806099251,
+        "max_x": 84.28515374660498,
+        "max_y": 455.49510174679585,
+        "min_x": 84.28515374660498,
+        "min_y": 450.0156339406966,
+        "width": 0.0
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "Skytel data",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 1.092487,
+          "shapeId": "15991",
+          "text": "184-6-224-48"
+        },
+        {
+          "distance": 18.448316,
+          "shapeId": "15990",
+          "text": "180-223-224-48"
+        },
+        {
+          "distance": 26.793506,
+          "shapeId": "42871",
+          "text": "179-222-223-48"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 2.751899,
+          "shapeId": "37286"
+        },
+        {
+          "distance": 2.752342,
+          "shapeId": "37287"
+        },
+        {
+          "distance": 2.752757,
+          "shapeId": "37245"
+        },
+        {
+          "distance": 2.75687,
+          "shapeId": "37259"
+        },
+        {
+          "distance": 2.75691,
+          "shapeId": "37244"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 2.739734,
+          "shapeId": "37584"
+        },
+        {
+          "distance": 2.741337,
+          "shapeId": "37585"
+        },
+        {
+          "distance": 2.74562,
+          "shapeId": "37586"
+        },
+        {
+          "distance": 2.745986,
+          "shapeId": "37583"
+        },
+        {
+          "distance": 2.746142,
+          "shapeId": "37582"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "Skytel",
+      "parentShapeId": null,
+      "rawText": "Skytel data\n",
+      "rootShapeId": "37584",
+      "rotationRadians": -1.570796326794897,
+      "shapeId": "37584",
+      "worldBounds": {
+        "height": 5.479467806099251,
+        "max_x": 86.37499749660498,
+        "max_y": 455.49510174679585,
+        "min_x": 86.37499749660498,
+        "min_y": 450.0156339406966,
+        "width": 0.0
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "Skytel Data",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 1.178905,
+          "shapeId": "15991",
+          "text": "184-6-224-48"
+        },
+        {
+          "distance": 18.453635,
+          "shapeId": "15990",
+          "text": "180-223-224-48"
+        },
+        {
+          "distance": 26.797169,
+          "shapeId": "42871",
+          "text": "179-222-223-48"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 2.75112,
+          "shapeId": "37245"
+        },
+        {
+          "distance": 2.752408,
+          "shapeId": "37259"
+        },
+        {
+          "distance": 2.753362,
+          "shapeId": "37286"
+        },
+        {
+          "distance": 2.756704,
+          "shapeId": "37260"
+        },
+        {
+          "distance": 2.756729,
+          "shapeId": "37287"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 2.739734,
+          "shapeId": "37585"
+        },
+        {
+          "distance": 2.741081,
+          "shapeId": "37586"
+        },
+        {
+          "distance": 2.741337,
+          "shapeId": "37584"
+        },
+        {
+          "distance": 2.74512,
+          "shapeId": "37587"
+        },
+        {
+          "distance": 2.750517,
+          "shapeId": "37583"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "Skytel",
+      "parentShapeId": null,
+      "rawText": "Skytel Data\n",
+      "rootShapeId": "37585",
+      "rotationRadians": -1.570796326794897,
+      "shapeId": "37585",
+      "worldBounds": {
+        "height": 5.479467806099251,
+        "max_x": 86.46874749660498,
+        "max_y": 455.49510174679585,
+        "min_x": 86.46874749660498,
+        "min_y": 450.0156339406966,
+        "width": 0.0
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "Skytel Data",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 1.313528,
+          "shapeId": "38438",
+          "text": "183-225-54-24"
+        },
+        {
+          "distance": 9.562437,
+          "shapeId": "37984",
+          "text": "181-224-225-24"
+        },
+        {
+          "distance": 10.049158,
+          "shapeId": "37907",
+          "text": "182-225-53-24"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 0.610049,
+          "shapeId": "38392"
+        },
+        {
+          "distance": 0.616796,
+          "shapeId": "38391"
+        },
+        {
+          "distance": 0.616853,
+          "shapeId": "38388"
+        },
+        {
+          "distance": 0.636664,
+          "shapeId": "38390"
+        },
+        {
+          "distance": 0.636773,
+          "shapeId": "38393"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 0.575301,
+          "shapeId": "38317"
+        },
+        {
+          "distance": 0.582365,
+          "shapeId": "38318"
+        },
+        {
+          "distance": 0.602824,
+          "shapeId": "38315"
+        },
+        {
+          "distance": 0.602857,
+          "shapeId": "38319"
+        },
+        {
+          "distance": 0.635077,
+          "shapeId": "38316"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "Skytel",
+      "parentShapeId": null,
+      "rawText": "Skytel Data\n",
+      "rootShapeId": "38317",
+      "rotationRadians": -1.570796326794897,
+      "shapeId": "38317",
+      "worldBounds": {
+        "height": 1.150602152835404,
+        "max_x": 123.2877057787544,
+        "max_y": 444.4276187883528,
+        "min_x": 123.2877057787544,
+        "min_y": 443.2770166355174,
+        "width": 0.0
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "Skytel Data",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 1.371309,
+          "shapeId": "38438",
+          "text": "183-225-54-24"
+        },
+        {
+          "distance": 9.569598,
+          "shapeId": "37984",
+          "text": "181-224-225-24"
+        },
+        {
+          "distance": 10.139126,
+          "shapeId": "37907",
+          "text": "182-225-53-24"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 0.61005,
+          "shapeId": "38391"
+        },
+        {
+          "distance": 0.616744,
+          "shapeId": "38392"
+        },
+        {
+          "distance": 0.616906,
+          "shapeId": "38390"
+        },
+        {
+          "distance": 0.636561,
+          "shapeId": "38388"
+        },
+        {
+          "distance": 0.636876,
+          "shapeId": "38389"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 0.575301,
+          "shapeId": "38318"
+        },
+        {
+          "distance": 0.582242,
+          "shapeId": "38315"
+        },
+        {
+          "distance": 0.582365,
+          "shapeId": "38317"
+        },
+        {
+          "distance": 0.602371,
+          "shapeId": "38316"
+        },
+        {
+          "distance": 0.635769,
+          "shapeId": "38319"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "Skytel",
+      "parentShapeId": null,
+      "rawText": "Skytel Data\n",
+      "rootShapeId": "38318",
+      "rotationRadians": -1.570796326794897,
+      "shapeId": "38318",
+      "worldBounds": {
+        "height": 1.1506021528355177,
+        "max_x": 123.1972725001764,
+        "max_y": 444.4276187883528,
+        "min_x": 123.1972725001764,
+        "min_y": 443.27701663551727,
+        "width": 0.0
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "ოუფენ ნეტი",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 17.780524,
+          "shapeId": "14250",
+          "text": "149-205-41-24"
+        },
+        {
+          "distance": 26.504873,
+          "shapeId": "34056",
+          "text": "169-206-216-48"
+        },
+        {
+          "distance": 30.704283,
+          "shapeId": "15772",
+          "text": "151-206-207-144"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 17.248361,
+          "shapeId": "14286"
+        },
+        {
+          "distance": 17.266811,
+          "shapeId": "14479"
+        },
+        {
+          "distance": 17.286607,
+          "shapeId": "14480"
+        },
+        {
+          "distance": 17.309033,
+          "shapeId": "14285"
+        },
+        {
+          "distance": 17.33017,
+          "shapeId": "14284"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 17.216989,
+          "shapeId": "12483"
+        },
+        {
+          "distance": 17.236517,
+          "shapeId": "12482"
+        },
+        {
+          "distance": 17.256381,
+          "shapeId": "12481"
+        },
+        {
+          "distance": 17.277858,
+          "shapeId": "12480"
+        },
+        {
+          "distance": 17.297721,
+          "shapeId": "12479"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "OpenNet",
+      "parentShapeId": null,
+      "rawText": "ოუფენ ნეტი\n",
+      "rootShapeId": "38538",
+      "rotationRadians": 0.0,
+      "shapeId": "38538",
+      "worldBounds": {
+        "height": 20.818577154424474,
+        "max_x": 83.28955212258924,
+        "max_y": 567.957428093604,
+        "min_x": 40.49978219148687,
+        "min_y": 547.1388509391795,
+        "width": 42.78976993110237
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "ოუფენ ნეტი",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 17.804825,
+          "shapeId": "14250",
+          "text": "149-205-41-24"
+        },
+        {
+          "distance": 26.424138,
+          "shapeId": "34056",
+          "text": "169-206-216-48"
+        },
+        {
+          "distance": 30.788154,
+          "shapeId": "15772",
+          "text": "151-206-207-144"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 17.268128,
+          "shapeId": "14286"
+        },
+        {
+          "distance": 17.287023,
+          "shapeId": "14479"
+        },
+        {
+          "distance": 17.30725,
+          "shapeId": "14480"
+        },
+        {
+          "distance": 17.33017,
+          "shapeId": "14285"
+        },
+        {
+          "distance": 17.351759,
+          "shapeId": "14284"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 17.236797,
+          "shapeId": "12483"
+        },
+        {
+          "distance": 17.256777,
+          "shapeId": "12482"
+        },
+        {
+          "distance": 17.27709,
+          "shapeId": "12481"
+        },
+        {
+          "distance": 17.29904,
+          "shapeId": "12480"
+        },
+        {
+          "distance": 17.319329,
+          "shapeId": "12479"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "OpenNet",
+      "parentShapeId": null,
+      "rawText": "ოუფენ ნეტი\n",
+      "rootShapeId": "38539",
+      "rotationRadians": 0.0,
+      "shapeId": "38539",
+      "worldBounds": {
+        "height": 20.818577154424474,
+        "max_x": 83.38072493651381,
+        "max_y": 567.957428093604,
+        "min_x": 40.590955005411445,
+        "min_y": 547.1388509391795,
+        "width": 42.78976993110237
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "ოუფენ ნეტი",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 17.829558,
+          "shapeId": "14250",
+          "text": "149-205-41-24"
+        },
+        {
+          "distance": 26.343471,
+          "shapeId": "34056",
+          "text": "169-206-216-48"
+        },
+        {
+          "distance": 30.872067,
+          "shapeId": "15772",
+          "text": "151-206-207-144"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 17.288352,
+          "shapeId": "14286"
+        },
+        {
+          "distance": 17.307693,
+          "shapeId": "14479"
+        },
+        {
+          "distance": 17.328347,
+          "shapeId": "14480"
+        },
+        {
+          "distance": 17.351759,
+          "shapeId": "14285"
+        },
+        {
+          "distance": 17.3738,
+          "shapeId": "14284"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 17.257064,
+          "shapeId": "12483"
+        },
+        {
+          "distance": 17.277495,
+          "shapeId": "12482"
+        },
+        {
+          "distance": 17.298255,
+          "shapeId": "12481"
+        },
+        {
+          "distance": 17.320675,
+          "shapeId": "12480"
+        },
+        {
+          "distance": 17.341389,
+          "shapeId": "12479"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "OpenNet",
+      "parentShapeId": null,
+      "rawText": "ოუფენ ნეტი\n",
+      "rootShapeId": "38540",
+      "rotationRadians": 0.0,
+      "shapeId": "38540",
+      "worldBounds": {
+        "height": 20.818577154424474,
+        "max_x": 83.47189775043839,
+        "max_y": 567.957428093604,
+        "min_x": 40.68212781933602,
+        "min_y": 547.1388509391795,
+        "width": 42.78976993110237
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "ოუფენ ნეტი",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 17.854723,
+          "shapeId": "14250",
+          "text": "149-205-41-24"
+        },
+        {
+          "distance": 26.262873,
+          "shapeId": "34056",
+          "text": "169-206-216-48"
+        },
+        {
+          "distance": 30.956021,
+          "shapeId": "15772",
+          "text": "151-206-207-144"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 17.309033,
+          "shapeId": "14286"
+        },
+        {
+          "distance": 17.328817,
+          "shapeId": "14479"
+        },
+        {
+          "distance": 17.349898,
+          "shapeId": "14480"
+        },
+        {
+          "distance": 17.3738,
+          "shapeId": "14285"
+        },
+        {
+          "distance": 17.396291,
+          "shapeId": "14284"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 17.277789,
+          "shapeId": "12483"
+        },
+        {
+          "distance": 17.298669,
+          "shapeId": "12482"
+        },
+        {
+          "distance": 17.319875,
+          "shapeId": "12481"
+        },
+        {
+          "distance": 17.342763,
+          "shapeId": "12480"
+        },
+        {
+          "distance": 17.3639,
+          "shapeId": "12479"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "OpenNet",
+      "parentShapeId": null,
+      "rawText": "ოუფენ ნეტი\n",
+      "rootShapeId": "38541",
+      "rotationRadians": 0.0,
+      "shapeId": "38541",
+      "worldBounds": {
+        "height": 20.818577154424474,
+        "max_x": 83.56307056436299,
+        "max_y": 567.957428093604,
+        "min_x": 40.773300633260604,
+        "min_y": 547.1388509391795,
+        "width": 42.789769931102384
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "მაგთი",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 17.880318,
+          "shapeId": "14250",
+          "text": "149-205-41-24"
+        },
+        {
+          "distance": 26.182344,
+          "shapeId": "34056",
+          "text": "169-206-216-48"
+        },
+        {
+          "distance": 31.040016,
+          "shapeId": "15772",
+          "text": "151-206-207-144"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 17.33017,
+          "shapeId": "14286"
+        },
+        {
+          "distance": 17.350395,
+          "shapeId": "14479"
+        },
+        {
+          "distance": 17.371901,
+          "shapeId": "14480"
+        },
+        {
+          "distance": 17.396291,
+          "shapeId": "14285"
+        },
+        {
+          "distance": 17.41923,
+          "shapeId": "14284"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 17.298969,
+          "shapeId": "12483"
+        },
+        {
+          "distance": 17.320297,
+          "shapeId": "12482"
+        },
+        {
+          "distance": 17.341946,
+          "shapeId": "12481"
+        },
+        {
+          "distance": 17.365302,
+          "shapeId": "12480"
+        },
+        {
+          "distance": 17.38686,
+          "shapeId": "12479"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "Magti",
+      "parentShapeId": null,
+      "rawText": "მაგთი\n",
+      "rootShapeId": "38542",
+      "rotationRadians": 0.0,
+      "shapeId": "38542",
+      "worldBounds": {
+        "height": 20.818577154424474,
+        "max_x": 83.65424337828756,
+        "max_y": 567.957428093604,
+        "min_x": 40.86447344718519,
+        "min_y": 547.1388509391795,
+        "width": 42.78976993110237
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "მაგთი",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 17.959659,
+          "shapeId": "14250",
+          "text": "149-205-41-24"
+        },
+        {
+          "distance": 25.94118,
+          "shapeId": "34056",
+          "text": "169-206-216-48"
+        },
+        {
+          "distance": 31.292241,
+          "shapeId": "15772",
+          "text": "151-206-207-144"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 17.396291,
+          "shapeId": "14286"
+        },
+        {
+          "distance": 17.417832,
+          "shapeId": "14479"
+        },
+        {
+          "distance": 17.440602,
+          "shapeId": "14480"
+        },
+        {
+          "distance": 17.466446,
+          "shapeId": "14285"
+        },
+        {
+          "distance": 17.490719,
+          "shapeId": "14284"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 17.365227,
+          "shapeId": "12483"
+        },
+        {
+          "distance": 17.387888,
+          "shapeId": "12482"
+        },
+        {
+          "distance": 17.410857,
+          "shapeId": "12481"
+        },
+        {
+          "distance": 17.435604,
+          "shapeId": "12480"
+        },
+        {
+          "distance": 17.458415,
+          "shapeId": "12479"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "Magti",
+      "parentShapeId": null,
+      "rawText": "მაგთი\n",
+      "rootShapeId": "38545",
+      "rotationRadians": 0.0,
+      "shapeId": "38545",
+      "worldBounds": {
+        "height": 20.818577154424474,
+        "max_x": 83.92776182006128,
+        "max_y": 567.957428093604,
+        "min_x": 41.13799188895891,
+        "min_y": 547.1388509391795,
+        "width": 42.78976993110237
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "სილქნეტი",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 18.015855,
+          "shapeId": "14250",
+          "text": "149-205-41-24"
+        },
+        {
+          "distance": 25.777354,
+          "shapeId": "34056",
+          "text": "169-206-216-48"
+        },
+        {
+          "distance": 31.464171,
+          "shapeId": "15772",
+          "text": "151-206-207-144"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 17.443621,
+          "shapeId": "14286"
+        },
+        {
+          "distance": 17.466048,
+          "shapeId": "14479"
+        },
+        {
+          "distance": 17.48967,
+          "shapeId": "14480"
+        },
+        {
+          "distance": 17.516494,
+          "shapeId": "14285"
+        },
+        {
+          "distance": 17.541666,
+          "shapeId": "14284"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 17.412653,
+          "shapeId": "12483"
+        },
+        {
+          "distance": 17.436212,
+          "shapeId": "12482"
+        },
+        {
+          "distance": 17.460072,
+          "shapeId": "12481"
+        },
+        {
+          "distance": 17.485755,
+          "shapeId": "12480"
+        },
+        {
+          "distance": 17.509411,
+          "shapeId": "12479"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "Silknet",
+      "parentShapeId": null,
+      "rawText": "სილქნეტი\n",
+      "rootShapeId": "38547",
+      "rotationRadians": 0.0,
+      "shapeId": "38547",
+      "worldBounds": {
+        "height": 20.818577154424474,
+        "max_x": 84.11398617770735,
+        "max_y": 567.957428093604,
+        "min_x": 41.324216246604976,
+        "min_y": 547.1388509391795,
+        "width": 42.78976993110237
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "სილქნეტი",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 18.041639,
+          "shapeId": "14250",
+          "text": "149-205-41-24"
+        },
+        {
+          "distance": 25.702228,
+          "shapeId": "34056",
+          "text": "169-206-216-48"
+        },
+        {
+          "distance": 31.543864,
+          "shapeId": "15772",
+          "text": "151-206-207-144"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 17.465339,
+          "shapeId": "14286"
+        },
+        {
+          "distance": 17.488174,
+          "shapeId": "14479"
+        },
+        {
+          "distance": 17.512188,
+          "shapeId": "14480"
+        },
+        {
+          "distance": 17.539463,
+          "shapeId": "14285"
+        },
+        {
+          "distance": 17.565048,
+          "shapeId": "14284"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 17.434416,
+          "shapeId": "12483"
+        },
+        {
+          "distance": 17.458389,
+          "shapeId": "12482"
+        },
+        {
+          "distance": 17.482658,
+          "shapeId": "12481"
+        },
+        {
+          "distance": 17.508772,
+          "shapeId": "12480"
+        },
+        {
+          "distance": 17.532817,
+          "shapeId": "12479"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "Silknet",
+      "parentShapeId": null,
+      "rawText": "სილქნეტი\n",
+      "rootShapeId": "38548",
+      "rotationRadians": 0.0,
+      "shapeId": "38548",
+      "worldBounds": {
+        "height": 20.818577154424474,
+        "max_x": 84.19992367770735,
+        "max_y": 567.9582047748904,
+        "min_x": 41.410153746604976,
+        "min_y": 547.139627620466,
+        "width": 42.78976993110237
+      }
+    },
+    {
+      "assignmentCreated": false,
+      "exactText": "სქაიტელი",
+      "groupPath": [],
+      "nearbyCableLabels": [
+        {
+          "distance": 18.071347,
+          "shapeId": "14250",
+          "text": "149-205-41-24"
+        },
+        {
+          "distance": 25.62064,
+          "shapeId": "34056",
+          "text": "169-206-216-48"
+        },
+        {
+          "distance": 31.629092,
+          "shapeId": "15772",
+          "text": "151-206-207-144"
+        }
+      ],
+      "nearbyFiberMarkers": [
+        {
+          "distance": 17.490719,
+          "shapeId": "14286"
+        },
+        {
+          "distance": 17.513989,
+          "shapeId": "14479"
+        },
+        {
+          "distance": 17.538421,
+          "shapeId": "14480"
+        },
+        {
+          "distance": 17.566177,
+          "shapeId": "14285"
+        },
+        {
+          "distance": 17.592202,
+          "shapeId": "14284"
+        }
+      ],
+      "nearbyLineShapes": [
+        {
+          "distance": 17.459846,
+          "shapeId": "12483"
+        },
+        {
+          "distance": 17.484259,
+          "shapeId": "12482"
+        },
+        {
+          "distance": 17.508965,
+          "shapeId": "12481"
+        },
+        {
+          "distance": 17.535538,
+          "shapeId": "12480"
+        },
+        {
+          "distance": 17.559997,
+          "shapeId": "12479"
+        }
+      ],
+      "nearbyPortBank": null,
+      "normalizedCandidate": "Skytel",
+      "parentShapeId": null,
+      "rawText": "სქაიტელი\n",
+      "rootShapeId": "38549",
+      "rotationRadians": 0.0,
+      "shapeId": "38549",
+      "worldBounds": {
+        "height": 20.818577154424474,
+        "max_x": 84.2924530757596,
+        "max_y": 567.957428093604,
+        "min_x": 41.50268314465721,
+        "min_y": 547.1388509391795,
+        "width": 42.789769931102384
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "sourceSha256": "caae4badc9c8c30be0a5fa3ef26352c3e534a9de7c66e830ef470466bb34a6fa"
+}

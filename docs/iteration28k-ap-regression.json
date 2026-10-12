@@ -1,0 +1,360 @@
+{
+  "timestamp": "2026-10-05T07:28:27.701Z",
+  "sha256": "4a38c04b060e7d3fe02493c135eceef2b0d2730792d92e5790879121859f9d3d",
+  "screenshotPrefix": "iteration28k-ap-regression",
+  "flows": [
+    {
+      "journey": 1,
+      "name": "direct AP42 search; immediate Ports and complete physical context",
+      "width": 1440,
+      "document": 1440,
+      "height": 900,
+      "scrollHeight": 900
+    },
+    {
+      "journey": 2,
+      "name": "Port and node/Cable inspection retain AP/context; inspection replaces history",
+      "width": 1440,
+      "cableInspected": "segment:SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152"
+    },
+    {
+      "journey": 4,
+      "name": "Port1 remap/unknown aggregation Port; Port16 exact SC207 boundary and muted upstream",
+      "width": 1440
+    },
+    {
+      "journey": 3,
+      "name": "real wheel/PageDown/Tab reach Port24 and last evidence; canvas stable",
+      "width": 1440,
+      "start": 0,
+      "wheeled": 700,
+      "keyStart": 70,
+      "paged": 524,
+      "tabs": 50,
+      "last": {
+        "x": 1102,
+        "y": 830.671875,
+        "width": 307,
+        "height": 34
+      },
+      "p24": {
+        "x": 1336.75,
+        "y": 530.8125,
+        "width": 72.25,
+        "height": 72.4375
+      },
+      "canvasBefore": {
+        "top": 0,
+        "left": 0
+      }
+    },
+    {
+      "journey": 7,
+      "name": "Back/Forward, evidence return, reload and whole-network return preserve state/progress",
+      "width": 1440,
+      "url": "file:///C:/Users/Beka/Desktop/Visio%20Alt/fiber-prototype.html#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=network_node%3A42&target=network_node%3A42&origin=aggregation%3A5&mode=fiber&port=16"
+    },
+    {
+      "journey": 5,
+      "name": "occupancy agrees across grid/header/details/search independently of Fiber use",
+      "width": 1440,
+      "unknownNumber": "3",
+      "searchText": "AP42 / Port 1\nC153/F1 · გადასამოწმებელია\nდაკავებულია წყაროში\nRoute-ზე ნახვა"
+    },
+    {
+      "journey": 1,
+      "name": "AP42 network click inspects without target replacement",
+      "width": 1440
+    },
+    {
+      "journey": 1,
+      "name": "direct AP42 search; immediate Ports and complete physical context",
+      "width": 1366,
+      "document": 1366,
+      "height": 768,
+      "scrollHeight": 768
+    },
+    {
+      "journey": 2,
+      "name": "Port and node/Cable inspection retain AP/context; inspection replaces history",
+      "width": 1366,
+      "cableInspected": "segment:SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152"
+    },
+    {
+      "journey": 4,
+      "name": "Port1 remap/unknown aggregation Port; Port16 exact SC207 boundary and muted upstream",
+      "width": 1366
+    },
+    {
+      "journey": 3,
+      "name": "real wheel/PageDown/Tab reach Port24 and last evidence; canvas stable",
+      "width": 1366,
+      "start": 0,
+      "wheeled": 700,
+      "keyStart": 129,
+      "paged": 408,
+      "tabs": 50,
+      "last": {
+        "x": 1028,
+        "y": 651.671875,
+        "width": 307,
+        "height": 34
+      },
+      "p24": {
+        "x": 1262.75,
+        "y": 464.8125,
+        "width": 72.25,
+        "height": 72.4375
+      },
+      "canvasBefore": {
+        "top": 0,
+        "left": 0
+      }
+    },
+    {
+      "journey": 7,
+      "name": "Back/Forward, evidence return, reload and whole-network return preserve state/progress",
+      "width": 1366,
+      "url": "file:///C:/Users/Beka/Desktop/Visio%20Alt/fiber-prototype.html#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=network_node%3A42&target=network_node%3A42&origin=aggregation%3A5&mode=fiber&port=16"
+    },
+    {
+      "journey": 5,
+      "name": "occupancy agrees across grid/header/details/search independently of Fiber use",
+      "width": 1366,
+      "unknownNumber": "3",
+      "searchText": "AP42 / Port 1\nC153/F1 · გადასამოწმებელია\nდაკავებულია წყაროში\nRoute-ზე ნახვა"
+    },
+    {
+      "journey": 1,
+      "name": "AP42 network click inspects without target replacement",
+      "width": 1366
+    },
+    {
+      "journey": 1,
+      "name": "direct AP42 search; immediate Ports and complete physical context",
+      "width": 390,
+      "document": 390,
+      "height": 844,
+      "scrollHeight": 2292
+    },
+    {
+      "journey": 2,
+      "name": "Port and node/Cable inspection retain AP/context; inspection replaces history",
+      "width": 390,
+      "cableInspected": "segment:SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152"
+    },
+    {
+      "journey": 4,
+      "name": "Port1 remap/unknown aggregation Port; Port16 exact SC207 boundary and muted upstream",
+      "width": 390
+    },
+    {
+      "journey": 8,
+      "name": "mobile document flow, keyboard last source/Port24 and initial route orientation",
+      "width": 390,
+      "last": {
+        "x": 12,
+        "y": 767.15625,
+        "width": 366,
+        "height": 42
+      },
+      "p24": {
+        "x": 322,
+        "y": 399.625,
+        "width": 56,
+        "height": 44
+      },
+      "first": {
+        "x": 12,
+        "y": 750.90625,
+        "width": 366,
+        "height": 23.09375
+      },
+      "document": 390,
+      "height": 844,
+      "scrollHeight": 3083
+    },
+    {
+      "journey": 7,
+      "name": "Back/Forward, evidence return, reload and whole-network return preserve state/progress",
+      "width": 390,
+      "url": "file:///C:/Users/Beka/Desktop/Visio%20Alt/fiber-prototype.html#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=network_node%3A42&target=network_node%3A42&origin=aggregation%3A5&mode=fiber&port=16"
+    },
+    {
+      "journey": 5,
+      "name": "occupancy agrees across grid/header/details/search independently of Fiber use",
+      "width": 390,
+      "unknownNumber": "3",
+      "searchText": "AP42 / Port 1\nC153/F1 · გადასამოწმებელია\nდაკავებულია წყაროში\nRoute-ზე ნახვა"
+    },
+    {
+      "journey": 1,
+      "name": "AP42 network click inspects without target replacement",
+      "width": 390
+    },
+    {
+      "journey": 1,
+      "name": "direct AP42 search; immediate Ports and complete physical context",
+      "width": 320,
+      "document": 320,
+      "height": 844,
+      "scrollHeight": 2376
+    },
+    {
+      "journey": 2,
+      "name": "Port and node/Cable inspection retain AP/context; inspection replaces history",
+      "width": 320,
+      "cableInspected": "segment:SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152"
+    },
+    {
+      "journey": 4,
+      "name": "Port1 remap/unknown aggregation Port; Port16 exact SC207 boundary and muted upstream",
+      "width": 320
+    },
+    {
+      "journey": 8,
+      "name": "mobile document flow, keyboard last source/Port24 and initial route orientation",
+      "width": 320,
+      "last": {
+        "x": 12,
+        "y": 766.9375,
+        "width": 296,
+        "height": 42
+      },
+      "p24": {
+        "x": 263.65625,
+        "y": 399.625,
+        "width": 44.328125,
+        "height": 44
+      },
+      "first": {
+        "x": 12,
+        "y": 750.90625,
+        "width": 296,
+        "height": 23.09375
+      },
+      "document": 320,
+      "height": 844,
+      "scrollHeight": 3190
+    },
+    {
+      "journey": 7,
+      "name": "Back/Forward, evidence return, reload and whole-network return preserve state/progress",
+      "width": 320,
+      "url": "file:///C:/Users/Beka/Desktop/Visio%20Alt/fiber-prototype.html#/route/ROUTE-TSAGERI-LENTEKHI-CORE?select=network_node%3A42&target=network_node%3A42&origin=aggregation%3A5&mode=fiber&port=16"
+    },
+    {
+      "journey": 5,
+      "name": "occupancy agrees across grid/header/details/search independently of Fiber use",
+      "width": 320,
+      "unknownNumber": "3",
+      "searchText": "AP42 / Port 1\nC153/F1 · გადასამოწმებელია\nდაკავებულია წყაროში\nRoute-ზე ნახვა"
+    },
+    {
+      "journey": 1,
+      "name": "AP42 network click inspects without target replacement",
+      "width": 320
+    },
+    {
+      "journey": 1,
+      "name": "fresh whole-network click opens AP workspace immediately"
+    },
+    {
+      "journey": 2,
+      "name": "inspecting AP49 retains AP42; only explicit Open as destination retargets; Back restores AP42/Port16"
+    },
+    {
+      "journey": 6,
+      "name": "single traversal, pause/replay/manual selection/mode/hidden-tab; no gap edges; stable keyboard focus",
+      "motion": "no-preference",
+      "animated": [
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C152",
+        "SRC-TSAGERI-ALPANA-TVISHI-419DEF34-C153"
+      ],
+      "allowed": [
+        "152",
+        "153"
+      ],
+      "hiddenTab": "simulated hidden visibility event (headless tabs remain visible)"
+    },
+    {
+      "journey": 6,
+      "name": "single traversal, pause/replay/manual selection/mode/hidden-tab; no gap edges; stable keyboard focus",
+      "motion": "reduce",
+      "animated": [],
+      "allowed": [
+        "152",
+        "153"
+      ],
+      "hiddenTab": "simulated hidden visibility event (headless tabs remain visible)"
+    },
+    {
+      "journey": 8,
+      "name": "200% CSS scaling; Port24 and last evidence reachable (CSS emulation; media-query reflow tested separately)",
+      "dimensions": {
+        "viewport": 1440,
+        "doc": 1440,
+        "zoom": "2"
+      },
+      "last": {
+        "x": 764,
+        "y": 668.484375,
+        "width": 629,
+        "height": 68
+      }
+    },
+    {
+      "journey": 8,
+      "name": "720×450 CSS viewport equivalent of 1440×900 native 200% zoom; media queries, keyboard Port24 and last evidence",
+      "last": {
+        "x": 12,
+        "y": 372.78125,
+        "width": 696,
+        "height": 42
+      }
+    },
+    {
+      "journey": 4,
+      "name": "existing domain UI regression",
+      "query": "Lentekhi Port38"
+    },
+    {
+      "journey": 4,
+      "name": "existing domain UI regression",
+      "query": "C152/F11"
+    },
+    {
+      "journey": 4,
+      "name": "existing domain UI regression",
+      "query": "C151/F118"
+    },
+    {
+      "journey": 4,
+      "name": "existing domain UI regression",
+      "query": "Tsageri Port175"
+    },
+    {
+      "journey": 4,
+      "name": "existing domain UI regression",
+      "query": "C176/F32"
+    },
+    {
+      "journey": 4,
+      "name": "existing domain UI regression",
+      "query": "C148"
+    }
+  ],
+  "errors": [],
+  "requests": [],
+  "acceptance": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "status": "passed"
+}

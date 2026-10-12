@@ -1,0 +1,44 @@
+{
+  "filename": "Tsageri-Alpana-Tvishi.vsdx",
+  "sha256": "419def34f310a581f0194023da0d25f6b8b44172e45b0a7b2d7785beeb11dd6d",
+  "packageStatus": "PASS",
+  "certificationState": "CERTIFIED_FOR_NETWORK_ACTIVATION",
+  "activation": "ACTIVE",
+  "cableLabelCount": 22,
+  "overlapCandidates": {
+    "SC205": "exact_match",
+    "SC206": "exact_match",
+    "C148": "source_conflict",
+    "C149": "exact_match",
+    "C150": "exact_match",
+    "C151": "exact_match",
+    "C169": "exact_match",
+    "TsageriAggregation": "source-reconciled; Port mapping unresolved"
+  },
+  "nodeLocalTransitionCandidates": 1151,
+  "transitionDisposition": {
+    "duplicateOverlapEvidence": 376,
+    "exactSourceTransitions": 775,
+    "notSemanticallyReviewed": 0,
+    "unexplained": 0
+  },
+  "c148Conflict": "unresolved_source_conflict",
+  "c148ConflictRange": "F121–F192",
+  "sc207Boundary": "143 C151↔C152 transitions use neutral physical Node 207; Closure type remains unknown",
+  "directionLabel": "ლენტეხი-ხელედის მიმართულება",
+  "activeCanonicalMerges": 7,
+  "frozenReference": "TSAGERI-LENTEKHI-REFERENCE-V1",
+  "semanticGates": {
+    "Topology": "PASS · ACTIVE",
+    "Asset typing": "PARTIAL · non-blocking",
+    "Ports": "not decoded from source · non-blocking",
+    "Companies": "24 occurrences preserved; scope unresolved",
+    "Annotations": "all meaningful text accounted; some scope unresolved",
+    "C148 Tube conflict": "preserved · 72 Fiber positions",
+    "Node 207": "physical endpoint reconciled; asset type unknown",
+    "V1 regression": "PASS · frozen manifest unchanged"
+  },
+  "sourceLocalFiberCount": 1512,
+  "journeySummaryCoverage": 1512,
+  "localJourneyComponentCount": 361
+}

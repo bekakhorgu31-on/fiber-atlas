@@ -1,0 +1,273 @@
+{
+    "completedAt": "2026-10-08T18:43:14+00:00",
+    "schema": "bkhorguashvili",
+    "database": "on",
+    "backupSha256": "10c941affc7df6f13c8bbd98804c8176b78cf0d59c7602d85ef762e414abf3ee",
+    "before": {
+        "activation_events": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "active_network_state": {
+            "count": 1,
+            "fingerprint": "c0fb2fea9c3db01a743b46c781d43439"
+        },
+        "cable_segments": {
+            "count": 37,
+            "fingerprint": "6eb6756151ed4e438579fc495eb4d977"
+        },
+        "cache": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "cache_locks": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "canonical_nodes": {
+            "count": 38,
+            "fingerprint": "bd6f2f79aeb11a1616aa77618122eac5"
+        },
+        "domain_records": {
+            "count": 5242,
+            "fingerprint": "62da85298392bee6fd4143074b22b1c7"
+        },
+        "failed_jobs": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "fiber_paths": {
+            "count": 2088,
+            "fingerprint": "15773929afdd9ad39414f38fa8f51579"
+        },
+        "fibers": {
+            "count": 2088,
+            "fingerprint": "0c3f5619e351f449a450b0d00d07cef0"
+        },
+        "import_candidates": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "import_runs": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "job_batches": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "jobs": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "migrations": {
+            "count": 9,
+            "fingerprint": "6c37ace2224623293b7f28d411f495b5"
+        },
+        "network_attributes": {
+            "count": 59,
+            "fingerprint": "7613e5318c34364a74da87a480912aa7"
+        },
+        "network_revisions": {
+            "count": 1,
+            "fingerprint": "7c70f1899d6bc02db296e4b278253085"
+        },
+        "network_sources": {
+            "count": 2,
+            "fingerprint": "71b84de1b880ad27de9774e13e9dbae3"
+        },
+        "node_fiber_transitions": {
+            "count": 1631,
+            "fingerprint": "8f1a1bc1bc871f4eec5198fb52126f48"
+        },
+        "password_reset_tokens": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "port_topology_bindings": {
+            "count": 384,
+            "fingerprint": "8dd6f3ccd8456938995852417e4ce020"
+        },
+        "ports": {
+            "count": 576,
+            "fingerprint": "0b921350d5e45376822abdda7b4d9e60"
+        },
+        "projection_snapshots": {
+            "count": 2,
+            "fingerprint": "68fa37f9107850984595ad80ac82a0b5"
+        },
+        "review_events": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "review_subject_versions": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "sessions": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "source_documents": {
+            "count": 2,
+            "fingerprint": "1190bd1b6c6555e015d2ba49a0402593"
+        },
+        "source_revisions": {
+            "count": 2,
+            "fingerprint": "012a808397ee1a988ab89a4ef9d35de6"
+        },
+        "source_shapes": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "tubes": {
+            "count": 174,
+            "fingerprint": "8bd4315da5bdb2675cc541c3a2a7d470"
+        },
+        "users": {
+            "count": 0,
+            "fingerprint": null
+        }
+    },
+    "after": {
+        "activation_events": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "active_network_state": {
+            "count": 1,
+            "fingerprint": "c0fb2fea9c3db01a743b46c781d43439"
+        },
+        "cable_segments": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "cache": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "cache_locks": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "canonical_nodes": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "domain_records": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "failed_jobs": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "fiber_paths": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "fibers": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "import_candidates": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "import_runs": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "job_batches": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "jobs": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "migrations": {
+            "count": 9,
+            "fingerprint": "6c37ace2224623293b7f28d411f495b5"
+        },
+        "network_attributes": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "network_revisions": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "network_sources": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "node_fiber_transitions": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "password_reset_tokens": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "port_topology_bindings": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "ports": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "projection_snapshots": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "review_events": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "review_subject_versions": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "sessions": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "source_documents": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "source_revisions": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "source_shapes": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "tubes": {
+            "count": 0,
+            "fingerprint": null
+        },
+        "users": {
+            "count": 0,
+            "fingerprint": null
+        }
+    },
+    "preserved": [
+        "migrations",
+        "users",
+        "password_reset_tokens",
+        "sessions",
+        "cache",
+        "cache_locks",
+        "jobs",
+        "job_batches",
+        "failed_jobs",
+        "active_network_state"
+    ],
+    "objectsUnchanged": true,
+    "activeRevision": null,
+    "physicalFilesDeleted": 0
+}

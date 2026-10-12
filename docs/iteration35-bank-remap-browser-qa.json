@@ -1,0 +1,37 @@
+{
+  "scope": "synthetic shifted 24-Port bank; guarded local isolation only",
+  "ownerServerWrites": 0,
+  "workflows": [
+    {
+      "width": 1440,
+      "wholeBankPreview": true,
+      "draftAndPreviewLeaveNetworkUnchanged": true,
+      "reloadPreservesDraft": true,
+      "explicitAtomicApply": true,
+      "sameNumberMappingsVerified": 24,
+      "ownerConfirmationLocked": true,
+      "sparePortsPreserved": 0,
+      "portJourneyAfterReload": true,
+      "wholeBankReversal": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "width": 390,
+      "wholeBankPreview": true,
+      "draftAndPreviewLeaveNetworkUnchanged": true,
+      "reloadPreservesDraft": true,
+      "explicitAtomicApply": true,
+      "sameNumberMappingsVerified": 24,
+      "ownerConfirmationLocked": true,
+      "sparePortsPreserved": 0,
+      "portJourneyAfterReload": true,
+      "wholeBankReversal": true,
+      "noHorizontalOverflow": true
+    }
+  ],
+  "errors": [],
+  "screenshots": [
+    "docs/iteration35-bank-remap-preview-1440.png",
+    "docs/iteration35-bank-remap-preview-390.png"
+  ]
+}

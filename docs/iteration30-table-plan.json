@@ -1,0 +1,182 @@
+[
+  {
+    "table": "users",
+    "migration": "0001_01_01_000000_create_users_table.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  },
+  {
+    "table": "password_reset_tokens",
+    "migration": "0001_01_01_000000_create_users_table.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  },
+  {
+    "table": "sessions",
+    "migration": "0001_01_01_000000_create_users_table.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  },
+  {
+    "table": "cache",
+    "migration": "0001_01_01_000001_create_cache_table.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  },
+  {
+    "table": "cache_locks",
+    "migration": "0001_01_01_000001_create_cache_table.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  },
+  {
+    "table": "jobs",
+    "migration": "0001_01_01_000002_create_jobs_table.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  },
+  {
+    "table": "job_batches",
+    "migration": "0001_01_01_000002_create_jobs_table.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  },
+  {
+    "table": "failed_jobs",
+    "migration": "0001_01_01_000002_create_jobs_table.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  },
+  {
+    "table": "network_revisions",
+    "migration": "2026_10_06_000100_create_network_store.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  },
+  {
+    "table": "active_network_state",
+    "migration": "2026_10_06_000100_create_network_store.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  },
+  {
+    "table": "source_documents",
+    "migration": "2026_10_06_000100_create_network_store.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  },
+  {
+    "table": "source_revisions",
+    "migration": "2026_10_06_000100_create_network_store.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  },
+  {
+    "table": "network_sources",
+    "migration": "2026_10_06_000100_create_network_store.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  },
+  {
+    "table": "canonical_nodes",
+    "migration": "2026_10_06_000100_create_network_store.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  },
+  {
+    "table": "cable_segments",
+    "migration": "2026_10_06_000100_create_network_store.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  },
+  {
+    "table": "tubes",
+    "migration": "2026_10_06_000100_create_network_store.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  },
+  {
+    "table": "fibers",
+    "migration": "2026_10_06_000100_create_network_store.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  },
+  {
+    "table": "ports",
+    "migration": "2026_10_06_000100_create_network_store.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  },
+  {
+    "table": "node_fiber_transitions",
+    "migration": "2026_10_06_000100_create_network_store.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  },
+  {
+    "table": "port_topology_bindings",
+    "migration": "2026_10_06_000100_create_network_store.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  },
+  {
+    "table": "domain_records",
+    "migration": "2026_10_06_000100_create_network_store.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  },
+  {
+    "table": "network_attributes",
+    "migration": "2026_10_06_000100_create_network_store.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  },
+  {
+    "table": "fiber_paths",
+    "migration": "2026_10_06_000100_create_network_store.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  },
+  {
+    "table": "projection_snapshots",
+    "migration": "2026_10_06_000100_create_network_store.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  },
+  {
+    "table": "review_subject_versions",
+    "migration": "2026_10_06_000100_create_network_store.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  },
+  {
+    "table": "review_events",
+    "migration": "2026_10_06_000100_create_network_store.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  },
+  {
+    "table": "activation_events",
+    "migration": "2026_10_06_000100_create_network_store.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  },
+  {
+    "table": "import_runs",
+    "migration": "2026_10_06_000100_create_network_store.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  },
+  {
+    "table": "import_candidates",
+    "migration": "2026_10_06_000100_create_network_store.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  },
+  {
+    "table": "source_shapes",
+    "migration": "2026_10_06_000300_create_source_shapes.php",
+    "existing": "absent",
+    "plan": "add in bkhorguashvili"
+  }
+]
